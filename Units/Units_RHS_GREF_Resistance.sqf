@@ -1,430 +1,847 @@
 /*
-//--- This file presents classnames and their values to the mission, to manage units that are in factory menu use factory file.
-//--- A tiny error in this file will break the game, be very careful when editing!
-*/ 
-/*
-//--- EXAMPLE FORMATS
+//--------------------------------------------------------------------------------------------------------------
+# HEADER #
+Description:	This file presents classnames and their values to the mission.
 
-_c pushBack 'O_T_Soldier_AA_F'; //--- Class Name
+//--------------------------------------------------------------------------------------------------------------	
+# DOCUMENTATION #
 
-_p pushBack ''; //--- Picture will be used from config
-_p pushBack '\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg'; //--- Custom picture if config doesn’t have one
+	/*Enabled*/
+		//DESCRIPTION: Enables use of unit in game, still loads unit into variable for reference
+		//TYPE: Boolean
+		//DEFAULT: true
+		//EXAMPLES: true/false
 
-_n pushBack ''; //--- Name leaving blank will use name from config
-_n pushBack ["%1 CustomTextHere"]; //--- Default config name + custom
-_n pushBack 'Friendly name'; //--- Fully custom name
-_n pushBack (format ["Friendly name - Range %1 m",CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
+	/*Name*/
+		//DESCRIPTION: Common Unit name, primarily for internal reference
+		//TYPE: String
+		//DEFAULT: ''
+		//EXAMPLES: 'CSAT Infantry (Pacific)'
 
-_o pushBack 4000; //--- Price of the unit
-_t pushBack 5; //--- Time it will take to build in seconds 
-_u pushBack 2; //--- Upgrade level which unit will be available starts from 0 
-_f pushBack CTI_FACTORY_BARRACKS; //--- Which factory unit will be available for purchase
+	/*ClassName*/
+		//DESCRIPTION:  Unit Class Name
+		//TYPE: String
+		//DEFAULT: ''
+		//EXAMPLES: 'O_T_Soldier_A_F'
 
-_s pushBack ""; //-- Special / Script blank will do nothing special 
-_s pushBack "service-medic"; //---  Special / Script service-medic will mark vehicles as medical respawn truck
+	/*MenuName*/
+		//DESCRIPTION:  Name shown in menus
+		//TYPE: Array or String
+		//DEFAULT: ''
+		//EXAMPLES: 
+			//''; //--- Name leaving blank will use name from config
+			//['%1 CustomTextHere']; //--- Default config name + custom
+			//'Friendly name'; //--- Fully custom name
+			//(format ['Friendly name - Range %1 m',CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
 
-_d pushBack 0; //--- Distance unit will spawn from factory in meters
-_g pushBack "Woodland"; //--- Filter by Camo
+	/*Location*/
+		//DESCRIPTION:  Which factory unit will be available for purchase
+		//TYPE: Array
+		//DEFAULT: []
+		//EXAMPLES: 
+			//[CTI_BARRACKS]
+			//[CTI_BARRACKS,CTI_DEPOT] //unit available at barracks and depot at default upgrade level
+			//[CTI_BARRACKS,[CTI_DEPOT, "default", 5]] //barracks normal, from depot require default factory upgrade 5 (different from default unit upgrade)
+			//[CTI_BARRACKS,[CTI_DEPOT,"logistics"]] //barracks normal, from depot require forward logistics using same lvl as default
+			//[CTI_BARRACKS,[CTI_DEPOT,"logistics",3]] //barracks normal, from depot require forward logistics 3
 
-*/
+	/*UpgradeLevel*/
+		//DESCRIPTION:  Upgrade level which unit will be available starts from 0 
+		//TYPE: Integer
+		//DEFAULT: 0
+		//EXAMPLES: 3
+
+	/*Price*/
+		//DESCRIPTION:  Price of the unit
+		//TYPE: Integer
+		//DEFAULT: 0
+		//EXAMPLES: 500
+
+	/*BuildTime*/
+		//DESCRIPTION:  Time it will take to build in seconds 
+		//TYPE: Integer
+		//DEFAULT: 0
+		//EXAMPLES: 
+
+	/*Distance*/
+		//DESCRIPTION:  Distance unit will spawn from factory in meters
+		//TYPE: Integer
+		//DEFAULT: 0
+		//EXAMPLES: 
+
+	/*Camo*/
+		//DESCRIPTION:  Filter by Camo
+		//TYPE: Array
+		//DEFAULT: []
+		//EXAMPLES: 
+			//['Tropic'],
+			//['Tropic','Tropic'],
+
+	/*Type*/
+		//DESCRIPTION:  
+		//TYPE: Array
+		//DEFAULT: []
+		//EXAMPLES: 
+			//['Rifle'],
+			//['Rifle','Rifle'],
+
+	/*Ammmo*/
+		//DESCRIPTION:  
+		//TYPE: Boolean
+		//DEFAULT: true
+		//EXAMPLES: true/false
+
+	/*Script*/
+		//DESCRIPTION:  
+		//TYPE: String
+		//DEFAULT: ''
+		//EXAMPLES: 
+			//''; //-- Special / Script blank will do nothing special 
+			//'service-medic'; //---  Special / Script service-medic will mark vehicles as medical respawn truck
+
+	/*Picture*/
+		//DESCRIPTION:  
+		//TYPE: String
+		//DEFAULT: ''
+		//EXAMPLES: 
+			//''; //--- Picture will be used from config
+			//'\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg'; //--- Custom picture if config doesn’t have one
+
+//--------------------------------------------------------------------------------------------------------------
 
 _side = _this;
-_faction = "Resistance";
+_faction = 'Resistance';
+_mod = 'RHS_GREF';
 
-_c = []; //--- Classname
-_p = []; //--- Picture. 				'' = auto generated.
-_n = []; //--- Name. 					'' = auto generated.
-_o = []; //--- Price.
-_t = []; //--- Build time.
-_u = []; //--- Upgrade level needed.    0 1 2 3...
-_f = []; //--- Built from Factory.
-_s = []; //--- Script
-_d = []; //--- Extra Distance (From Factory)
-_g = []; //--- Filter by Camo
+_u = []; //--- Units
 
-//--- Infantry
-_c pushBack 'rhsgref_nat_rifleman_akms';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 200;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+//--------------------------------------------------------------------------------------------------------------
 
-_c pushBack 'rhsgref_nat_specialist_aa';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 1500;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_rifleman_akms',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/200,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_machinegunner';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 400;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_specialist_aa',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/1500,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_grenadier_rpg';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 650;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_machinegunner',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/400,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_crew';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 75;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_grenadier_rpg',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/650,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_saboteur';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 500;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_crew',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/75,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_grenadier';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_grenadier',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/300,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_medic';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 450;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_medic',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/450,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_cdf_air_pilot';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 75;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_cdf_air_pilot',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/75,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_scout';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 400;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_scout',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/400,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_commander';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 350;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_commander',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/350,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-//--- Light Vehicles
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_hunter',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/350,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_uaz_dshkm';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 550;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_saboteur',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/350,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_uaz_ags';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 800;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_uaz_dshkm',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/550,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_nat_uaz_spg9';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 800;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_uaz_ags',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/800,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_BRDM2_ins_g';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 1000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_nat_uaz_spg9',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/800,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_ins_g_btr70';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 1200;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_BRDM2_ins_g',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_ins_g_btr60';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 1000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_BRDM2_msv',
+	/*MenuName*/'BRDM-2 ATGM (RHS)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/1,
+	/*Price*/5750,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_ins_g_bmd1';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 5000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_BRDM2_ATGM_msv',
+	/*MenuName*/'BRDM-2 ATGM (RHS)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/1,
+	/*Price*/5750,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_cdf_bmd2';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 7000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_BRDM2_ATGM',
+	/*MenuName*/'BRDM-2 ATGM (RHS)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/1,
+	/*Price*/5750,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-//--- APCs
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_ins_g_btr70',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1200,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_ins_g_bmd1p';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 5000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_ins_g_btr60',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_ins_g_bmd2';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 5000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_ins_g_bmd1',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_cdf_bmp1';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 7000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_cdf_bmd2',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/7000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_cdf_bmp2e';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 8000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_ins_g_bmd1p',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_cdf_bmp2d';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 9000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_ins_g_bmd2',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-//--- Tanks
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_cdf_bmp1',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/7000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_ins_g_t72ba';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 12000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
-	
-_c pushBack 'rhsgref_cdf_t72bb_tv';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 13000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_cdf_bmp2e',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/8000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_cdf_t80bv_tv';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 15000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_cdf_bmp2d',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/9000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-//--- AA Vehicles
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_ins_g_t72ba',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/12000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_ins_g_ural_Zu23';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 1000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_cdf_t72bb_tv',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/13000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_ins_g_gaz66_zu23';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 4000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_cdf_t80bv_tv',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/15000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_ins_g_zsu234';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 10000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_ins_g_ural_Zu23',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/1000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-//--- Air
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_ins_g_gaz66_zu23',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/4000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_cdf_Mi24D';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 17000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_ins_g_zsu234',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/10000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_cdf_reg_Mi17Sh_UPK';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 15000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_cdf_Mi24D',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/0,
+	/*Price*/17000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhs_l159_CDF_CAP';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 16000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_cdf_reg_Mi17Sh_UPK',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/0,
+	/*Price*/15000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-_c pushBack 'rhsgref_cdf_su25';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 30000;
-_t pushBack 30;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhs_l159_CDF_CAP',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/0,
+	/*Price*/16000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
-[_side, _faction, _c, _p, _n, _o, _t, _u, _f, _s, _d, _g] call compile preprocessFileLineNumbers "Common\Config\Common\Units\Set_Units.sqf";
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'rhsgref_cdf_su25',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/0,
+	/*Price*/30000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+
+
+
+//--------------------------------------------------------------------------------------------------------------
+
+[_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';

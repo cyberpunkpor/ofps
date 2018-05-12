@@ -105,7 +105,7 @@ _s pushBack [];
 _v pushBack "AirAttack";
 _t pushBack "Air - Attack";
 _p pushBack [["O_Heli_Attack_02_F", 1]];
-_f pushBack CTI_AIR;
+_f pushBack CTI_AIR_ROTARY;
 _m pushBack 25000;
 _c pushBack "Air";
 _s pushBack [];

@@ -8,10 +8,11 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	true, //--- Light
 	true, //--- Heavy
 	true, //--- Naval
-	true, //--- Air
+	true, //--- Air Rotary
+	true, //--- Air Fixed
 	(missionNamespace getVariable "CTI_VEHICLES_AIR_ORDINANCE") isEqualTo 1, //--- Air Ordinance
 	(missionNamespace getVariable "CTI_VEHICLES_LAND_ORDINANCE") isEqualTo 1, //--- Land Ordinance
-	(missionNamespace getVariable "CTI_TOWNS_OCCUPATION") > 0, //--- Towns Depots
+	(missionNamespace getVariable "CTI_TOWNS_OCCUPATION") > 0, //--- Forward Logistics
 	true, //--- Halo
 	true, //--- Air Radar
 	true, //--- Art Radar
@@ -19,235 +20,147 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	(missionNamespace getVariable "CTI_VEHICLES_LVOSS") isEqualTo 1, //--- LVOSS System
 	(missionNamespace getVariable "CTI_VEHICLES_ERA") isEqualTo 1, //--- ERA System
 	true, //--- Satellite
-	true, //--- Nuke
+	true, //--- Nuke and Arty
 	true, //--- Supply Rate
 	(missionNamespace getVariable "CTI_BASE_HEALTH_UPGRADE") isEqualTo 1, //--- Base Health
-	true //--- Base Defense Upgrade		
+	true, //--- Base Defense Upgrade		
+	true, //--- Jamming Types
+	true //--- Jamming Range
 ]];
-if (CTI_GUERILLA_MODE isEqualTo 1 || CTI_ZOMBIE_MODE isEqualTo 1) then {
-	//------------------------------ Guerilla / Zombie Mode	------------------------------
-	missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
-		[1000,1000,1000,1000,1000,1000], //--- Gear
-		[500,1000,1500,2000], //--- Barracks
-		[1000,2000,2000,3000,4000], //--- Light
-		[2000], //--- Heavy
-		[1500,2000], //--- Naval
-		[2500,5000], //--- Air
-		[500,1000,1500,2000], //--- Air Ordinance
-		[500,1000,1500,2000], //--- Land Ordinance
-		[2500, 5000, 7500], //--- Towns Depots
-		[1000, 2000], //--- Halo
-		[1000, 1000, 1000], //--- Air Radar
-		[1000, 1000, 1000], //--- Art Radar
-		[1000,2000,3000], //--- Respawn Range
-		[1500,2000], //--- LVOSS System
-		[1000,2000,3000,4000], //--- ERA System
-		[1500,5000], //--- Satellite
-		[40000], //--- Nuke
-		[1000, 2000, 4000], //--- Supply Rate
-		[4000, 5000, 6000, 7000], //--- Base Health
-		[500, 1000, 1500] //--- Base Defense
-	]];
-} else {
-	//------------------------------ Normal Mode	------------------------------
-	missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
-		[1000,1500,2000,2500,3000,3500], //--- Gear
-		[1000,1500,3000,4000], //--- Barracks
-		[2000,2250,3500,4500,20000], //--- Light
-		[3500,4500,6000,8000], //--- Heavy
-		[1500,3000], //--- Naval
-		[4000,6000,8000,10000,12000], //--- Air
-		[500,1000,1500,2000], //--- Air Ordinance
-		[500,1000,1500,2000], //--- Land Ordinance
-		[1500,3000,4500], //--- Forward Logistics
-		[1000,2000], //--- Halo
-		[1000,1500,2000], //--- Air Radar
-		[1000,1500,2000], //--- Art Radar
-		[1000,1500,2500], //--- Respawn Range
-		[1500,2000], //--- LVOSS System
-		[2000,4000,6000,8000], //--- ERA System
-		[4000,20000], //--- Satellite
-		[40000], //--- Nuke
-		[3000,5500,8000], //--- Supply Rate
-		[3000,6000,9000,12000], //--- Base Health
-		[500,1000,5000] //--- Base Defense
-	]];
-};
 
-if (CTI_GUERILLA_MODE isEqualTo 1 || CTI_ZOMBIE_MODE isEqualTo 1) then {
-	//------------------------------ Guerilla / Zombie Mode	------------------------------	
-	missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
-		3, //--- Gear
-		3, //--- Barracks
-		5, //--- Light
-		0, //--- Heavy
-		2, //--- Naval
-		2, //--- Air
-		0, //--- Air Ordinance
-		0, //--- Land Ordinance
-		2, //--- Towns Depots
-		0, //--- Halo
-		1, //--- Air Radar
-		1, //--- Art Radar
-		3, //--- Respawn Range
-		2, //--- LVOSS System
-		2, //--- ERA System
-		1, //--- Satellite
-		1, //--- Nuke
-		3, //--- Supply Rate
-		2, //--- Base Health
-		2 //--- Base Defense
-	]];
-} else {
-	//------------------------------ Normal Mode	------------------------------
-	missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
-		6, //--- Gear
-		4, //--- Barracks
-		5, //--- Light
-		4, //--- Heavy
-		2, //--- Naval
-		5, //--- Air
-		4, //--- Air Ordinance
-		4, //--- Land Ordinance
-		3, //--- Towns Depots
-		2, //--- Halo
-		3, //--- Air Radar
-		3, //--- Art Radar
-		3, //--- Respawn Range
-		2, //--- LVOSS System
-		4, //--- ERA System
-		2, //--- Satellite
-		1, //--- Nuke
-		3, //--- Supply Rate
-		4, //--- Base Health
-		3 //--- Base Defense
-	]];
-};
+missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
+	[1500,3000,6000,7000,8000,8000], //--- Gear
+	[1000,1500,2000,2500,3000,3500], //--- Barracks
+	[1000,1500,2000,3000,10000], //--- Light
+	[2000,4000,5000,6000,8000], //--- Heavy
+	[4000,8000,10000], //--- Naval
+	[1000,2000,4000,6000,8000], //--- Air Rotary
+	[1000,3000,6000,7000,8000], //--- Air Fixed
+	[1000,2000,3000,4000], //--- Air Ordinance
+	[1000,2000,3000,4000], //--- Land Ordinance
+	[1500,3000,5000], //--- Forward Logistics
+	[1000,5000], //--- Halo
+	[500,1000,2000,4000], //--- Air Radar
+	[500,1000,2000,4000], //--- Art Radar
+	[1000,1500,2000], //--- Respawn Range
+	[500,1000], //--- LVOSS System
+	[1000,2000,3000,4000], //--- ERA System
+	[10000,20000], //--- Satellite
+	[12000], //--- Nuke and Arty
+	[1000,2000,3000], //--- Supply Rate
+	[500,1000,2000,3000], //--- Base Health
+	[1000,2000,3000], //--- Base Defense
+	[1000,2000,3000], //--- Jamming Types
+	[1000,2000,3000,4000] //--- Jamming Range
+]];
 
-if (CTI_GUERILLA_MODE isEqualTo 1 || CTI_ZOMBIE_MODE isEqualTo 1) then {
-//------------------------------ Guerilla / Zombie Mode	------------------------------	
+missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
+	6, //--- Gear
+	6, //--- Barracks
+	5, //--- Light
+	5, //--- Heavy
+	3, //--- Naval
+	5, //--- Air Rotary
+	5, //--- Air Fixed
+	4, //--- Air Ordinance
+	4, //--- Land Ordinance
+	3, //--- Forward Logistics
+	2, //--- Halo
+	4, //--- Air Radar
+	4, //--- Art Radar
+	3, //--- Respawn Range
+	2, //--- LVOSS System
+	4, //--- ERA System
+	2, //--- Satellite
+	1, //--- Nuke and Arty
+	3, //--- Supply Rate
+	4, //--- Base Health
+	3, //--- Base Defense
+	3, //--- Jamming Type
+	4  //--- Jamming Range
+]];
+
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
-	[[],[],[]], //--- Gear
-	[[CTI_UPGRADE_GEAR, 1],[CTI_UPGRADE_GEAR, 2],[CTI_UPGRADE_GEAR, 3],[]], //--- Barracks
+	[[],[],[],[],[],[]], //--- Gear
+	[[CTI_UPGRADE_GEAR, 1],[CTI_UPGRADE_GEAR, 2],[CTI_UPGRADE_GEAR, 3],[CTI_UPGRADE_GEAR, 4],[CTI_UPGRADE_GEAR, 5],[CTI_UPGRADE_GEAR, 6]], //--- Barracks
 	[[],[],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Light
-	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2],[],[]], //--- Heavy
-	[[],[]], //--- Naval
-	[[],[],[],[],[]], //--- Air
-	[[],[],[],[]], //--- Air Ordinance
+	[[],[CTI_UPGRADE_LIGHT,2],[],[],[CTI_UPGRADE_NUKE,1]], //--- Heavy
+	[[],[],[]], //--- Naval
+	[[],[],[],[CTI_UPGRADE_HEAVY,3],[]], //--- Air Rotary
+	[[],[],[],[CTI_UPGRADE_HEAVY,3],[]], //--- Air Fixed
+	[[],[],[],[]], //--- Air Ordinance 
 	[[],[],[],[]], //--- Land Ordinance
-	[[],[],[]], //--- Towns Depots
+	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[CTI_UPGRADE_BARRACKS,3]], //--- Forward Logistics / Forward Logistics
 	[[],[]], //--- Halo
-	[[],[],[]], //--- Air Radar
-	[[],[],[]], //--- Art Radar
+	[[],[],[],[]], //--- Air Radar
+	[[],[],[],[]], //--- Art Radar
 	[[],[],[]], //--- Respawn Range
 	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS System
 	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[],[]], //--- ERA System
-	[[CTI_UPGRADE_AIR, 1], []], //--- Satellite
-	[[CTI_UPGRADE_LIGHT,4]], //--- Nuke
+	[[], []], //--- Satellite
+	[[CTI_UPGRADE_LIGHT,4]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
 	[[],[],[],[]], //--- Base Health
-	[[],[],[]] //--- Base Defense
+	[[],[],[]], //--- Base Defense
+	[[],[],[]], //--- Jamming Types
+	[[],[],[],[]] //--- Jamming Range
 ]];
-} else {
-	//------------------------------ Normal Mode	------------------------------
-	missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
-		[[],[],[],[],[],[]], //--- Gear
-		[[CTI_UPGRADE_GEAR, 1],[CTI_UPGRADE_GEAR, 2],[CTI_UPGRADE_GEAR, 3],[CTI_UPGRADE_GEAR, 4]], //--- Barracks
-		[[],[],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Light
-		[[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_LIGHT,3],[CTI_UPGRADE_LIGHT,4],[]], //--- Heavy
-		[[],[]], //--- Naval
-		[[],[],[],[],[]], //--- Air
-		[[],[],[],[]], //--- Air Ordinance
-		[[],[],[],[]], //--- Land Ordinance
-		[[],[],[]], //--- Towns Depots
-		[[],[]], //--- Halo
-		[[],[],[]], //--- Air Radar
-		[[],[],[]], //--- Art Radar
-		[[],[],[]], //--- Respawn Range
-		[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS System
-		[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[],[]], //--- ERA System
-		[[CTI_UPGRADE_AIR, 1], [CTI_UPGRADE_AIR, 2]], //--- Satellite
-		[[CTI_UPGRADE_LIGHT,4]], //--- Nuke
-		[[],[],[]], //--- Supply Rate
-		[[],[],[],[]], //--- Base Health
-		[[],[],[]] //--- Base Defense
-	]];
-};
+
 
 if (CTI_DEV_MODE > 0) then { 
 	//------------------------------ DEV Mode	------------------------------
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
 		[1, 1, 1, 1, 1, 1], //--- Gear
-		[1, 1, 1, 1], //--- Barracks
+		[1, 1, 1, 1, 1, 1], //--- Barracks
 		[1, 1, 1, 1, 1], //--- Light
-		[1, 1, 1, 1], //--- Heavy
-		[1, 1], //--- Naval
-		[1, 1, 1, 1, 1], //--- Air
+		[1, 1, 1, 1, 1], //--- Heavy
+		[1, 1, 1], //--- Naval
+		[1, 1, 1, 1, 1], //--- Air Rotary
+		[1, 1, 1, 1, 1], //--- Air Fixed
 		[1, 1, 1, 1], //--- Air Ordinance
 		[1, 1, 1, 1], //--- Land Ordinance
-		[1, 1, 1], //--- Towns Depots
+		[1, 1, 1], //--- Forward Logistics
 		[1, 1], //--- Halo
-		[1, 1, 1], //--- Air Radar
-		[1, 1, 1], //--- Art Radar
+		[1, 1, 1, 1], //--- Air Radar
+		[1, 1, 1, 1], //--- Art Radar
 		[1, 1, 1], //--- Respawn Range
 		[1, 1], //--- LVOSS System
 		[1, 1, 1, 1], //--- ERA System
 		[1, 1], //--- Satellite
-		[1], //--- Nuke
+		[1], //--- Nuke and Arty
 		[1,1,1], //--- Supply Rate
 		[1,1,1,1], //--- Base Health
-		[1,1,1] //--- Base Defense
+		[1,1,1], //--- Base Defense
+		[1,1,1], //--- Jamming Types
+		[1,1,1,1] //--- Jamming Range
 	]];
 }else {
-	//------------------------------ Guerilla / Zombie Mode	------------------------------
-	if (CTI_GUERILLA_MODE isEqualTo 1 || CTI_ZOMBIE_MODE isEqualTo 1) then {
-		missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
-			[60,90,120], //--- Gear
-			[60,90,120,180], //--- Barracks
-			[60,120,180,240,300], //--- Light
-			[120], //--- Heavy
-			[60,120], //--- Naval
-			[120,360], //--- Air
-			[60,90,120,180], //--- Air Ordinance
-			[60,90,120,180], //--- Land Ordinance
-			[60,90,120], //--- Towns Depots
-			[60,60], //--- Halo
-			[60,60,60], //--- Air Radar
-			[60,60,60], //--- Art Radar
-			[60,60,60], //--- Respawn Range
-			[60,60], //--- LVOSS System
-			[60,60,60,60], //--- ERA System
-			[60,300], //--- Satellite
-			[300], //--- Nuke
-			[60,90,120], //--- Supply Rate
-			[60,90,120,180], //--- Base Health
-			[60,90,120] //--- Base Defense
-		]];
-	} else {
-		//------------------------------ Normal Mode	------------------------------
-		missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
-			[60,90,120,180,210,240], //--- Gear
-			[60,90,120,180], //--- Barracks
-			[60,120,180,240,300], //--- Light
-			[60,120,180,240], //--- Heavy
-			[60,120], //--- Naval
-			[60,120,180,240,300], //--- Air
-			[60,90,120,180], //--- Air Ordinance
-			[60,90,120,180], //--- Land Ordinance
-			[60,90,120], //--- Towns Depots
-			[60,60], //--- Halo
-			[60,60,60], //--- Air Radar
-			[60,60,60], //--- Art Radar
-			[60,60,60], //--- Respawn Range
-			[60,60], //--- LVOSS System
-			[60,60,60,60], //--- ERA System
-			[60,300], //--- Satellite
-			[300], //--- Nuke
-			[60,90,120], //--- Supply Rate
-			[60,90,120,180], //--- Base Health
-			[60,90,120] //--- Base Defense
-		]];
-	};
+	//------------------------------ Normal Mode	------------------------------
+	missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
+		[60,120,160,240,320,90], //--- Gear
+		[60,120,160,240,320,380], //--- Barracks
+		[60,120,160,240,320], //--- Light
+		[60,120,160,240,320], //--- Heavy
+		[60,120,240], //--- Naval
+		[60,120,160,240,320], //--- Air Rotary
+		[60,120,160,240,320], //--- Air Fixed
+		[60,120,160,240], //--- Air Ordinance
+		[60,120,160,240], //--- Land Ordinance
+		[60,120,160], //--- Forward Logistics
+		[60,120], //--- Halo
+		[60,120,160,240], //--- Air Radar
+		[60,120,160,240], //--- Art Radar
+		[60,120,160], //--- Respawn Range
+		[60,120], //--- LVOSS System
+		[60,120,160,240], //--- ERA System
+		[60,120], //--- Satellite
+		[420], //--- Nuke and Arty
+		[60,60,60], //--- Supply Rate
+		[30,60,90,120], //--- Base Health
+		[30,60,90],     //--- Base Defense
+		[30,60,120], //--- Jamming Types
+		[30,60,90,120]      //--- Jamming Range
+	]];
 };
 
 //todo, on commander missing link checkup, skip disabled upgrades.
@@ -262,7 +175,8 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_AI_ORDER", _side], [
 	[CTI_UPGRADE_BARRACKS, 2],
 	[CTI_UPGRADE_HEAVY, 1],
 	[CTI_UPGRADE_NAVAL, 1],
-	[CTI_UPGRADE_AIR, 1],
+	[CTI_UPGRADE_AIR_ROTARY, 1],
+	[CTI_UPGRADE_AIR_FIXED, 1],
 	[CTI_UPGRADE_SUPPLY_RATE, 1],
 	[CTI_UPGRADE_GEAR, 3],
 	[CTI_UPGRADE_TOWNS, 2],
@@ -280,26 +194,31 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_AI_ORDER", _side], [
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Gear", "<t>Unlock better gear"], //--- Gear
-	["Barracks", "<t>Unlock better infantry units, unlock more default player AI and improve AI skill<br /><t color='#ffff00'>LVL 0</t> - Base AI limit 3, AI Skill 40%<br /><t color='#ffff00'>LVL 1</t> - Base AI limit 4, AI Skill 55%<br /><t color='#ffff00'>LVL 2</t> - Base AI limit 5, AI Skill 70%<br /><t color='#ffff00'>LVL 3</t> - Base AI limit 6, AI Skill 85%<br /><t color='#ffff00'>LVL 4</t> - Base AI limit 7, AI Skill 100%</t>"], //--- Barracks
+	["Barracks", "<t>Unlock better infantry units, increase group size and improve AI skill<br /><t color='#ffff00'>LVL 0</t> - Group limit 3, AI Skill 30%<br /><t color='#ffff00'>LVL 1</t> - Group limit 3, AI Skill 40%<br /><t color='#ffff00'>LVL 2</t> - Group limit 3, AI Skill 50%<br /><t color='#ffff00'>LVL 3</t> - Group limit 4, AI Skill 60%<br /><t color='#ffff00'>LVL 4</t> - Group limit 5, AI Skill 70%</t><br/><t color='#ffff00'>LVL 5</t> - Group limit 6, AI Skill 80%<br /><t color='#ffff00'>LVL 6</t> - Group limit 7, AI Skill 90%<br />"], //--- Barracks
 	["Light Factory", "<t>Unlock better motorized units</t>"], //--- Light
 	["Heavy Factory", "<t>Unlock better armored units</t>"], //--- Heavy
 	["Naval Factory", "<t>Unlock better naval units</t>"], //--- Naval
-	["Aircraft Factory", "<t>Unlock better aircraft units</t>"], //--- Air
+	["Rotary Aircraft Factory", "<t>Unlock better rotary wing aircraft units</t>"], //--- Air Rotary
+	["Fixed Wing Aircraft Factory", "<t>Unlock better fixed wing aircraft units</t>"], //--- Air Fixed
 	["Air Ordinance", "<t>Unlock better air ordinance.<br /><t color='#ffff00'>LVL 1</t> - AA Missles / FlaresChaff<br /><t color='#ffff00'>LVL 2</t> - FFAR/DAR Rockets<br /><t color='#ffff00'>LVL 3</t> - AT Rockets<br /><t color='#ffff00'>LVL 4</t> - GBU</t>"], //--- Air Ordinance
 	["Land Ordinance", "<t>Unlock better land based ordinance (tanks, mortars, arty, etc.).<br /><t color='#ffff00'>LVL 1</t> - Tank aps rounds<br /><t color='#ffff00'>LVL 2</t> - mortar rounds<br /><t color='#ffff00'>LVL 3</t> - Arty rounds<br /><t color='#ffff00'>LVL 4</t> - Arty rounds</t>"], //--- Land Ordinance
-	["Forward Logistics", "<t>Improves Gear and Vehicles available at Depots and Large FOBs<br /><t color='#ffff00'>LVL 1</t> - Additional Vehicles<br /><t color='#ffff00'>LVL 2</t> - Additional Vehicles<br /><t color='#ffff00'>LVL 3</t> - Additional Vehicles and Adds Service To Depots</t>"], //--- Towns Depot
-	["Halo", "<t>Enable HALO Jumping from the Air factory and Depots<br /><t color='#ffff00'>LVL 1</t> - Halo to Towns and Bases<br /><t color='#ffff00'>LVL 2</t> - Halo to FOBs</t>"], //--- Halo
-	["Air Radar", "<t>Increase Range of Air Radar<br /><t color='#ffff00'>LVL 1</t> - 4000m<br /><t color='#ffff00'>LVL 2</t> - 6000m<br /><t color='#ffff00'>LVL 3</t> - 12000m<br /><t color='#ffff00'>LVL 4</t> - 18000m</t>"], //--- Air Radar
-	["Artillery Radar", "<t>Increase Range of Artillery Radar<br /><t color='#ffff00'>LVL 1</t> - 4000m<br /><t color='#ffff00'>LVL 2</t> - 6000m<br /><t color='#ffff00'>LVL 3</t> - 12000m<br /><t color='#ffff00'>LVL 4</t> - 18000m</t>"], //--- Art Radar
-	["Respawn Range", "<t>Increase the max range of the respawn trucks, town camps and FOBS.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m</t>"], //--- Respawn Range
+	["Forward Logistics", "<t>Improves Gear and Vehicles available at Depots and Large FOBs, unlocks FOB/Large FOB<br /><t color='#ffff00'>LVL 1</t> - Additional Vehicles and FOB Unlocked<br /><t color='#ffff00'>LVL 2</t> - Additional Vehicles<br /><t color='#ffff00'>LVL 3</t> - Additional Vehicles, Adds Service To Depots/Large FOBs, and unlocks large FOB</t>"], //--- Towns Depot
+	["Halo", "<t>Enable HALO Jumping from the Air factory and Depots<br /><t color='#ffff00'>LVL 1</t> - Halo to Towns and Bases<br /><t color='#ffff00'>LVL 2</t> - Halo to Large FOBs</t>"], //--- Halo
+	["Air Radar", "<t>Increase Range of Air Radar<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Air Radar
+	["Artillery Radar", "<t>Increase Range of Artillery Radar<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Art Radar
+	["Respawn Range", "<t>Increase the max range of the respawn trucks and FOBS.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m</t>"], //--- Respawn Range
 	["LVOSS System", "<t>Enables Light Vehicle Obscuration Smoke System (LVOSS), Full 360 degree coverage.<br /><t color='#ffff00'>LVL 1</t> - Ammo 1 per side, Cooldown 120s<br /><t color='#ffff00'>LVL 2</t> - Ammo 2 per side, Cooldown 90s </t>"], //--- LVOSS System
 	["ERA System", "<t>Enable Explosive Reactive Armor system (ERA) or Arena System for Heavy Vehicles, Tanks still vulnerable from the rear.<br /><t color='#ffff00'>LVL 1</t> - ERA Mode Ammo 1 per side, Cooldown 150s<br /><t color='#ffff00'>LVL 2</t> - ERA Mode Ammo 2 per side, Cooldown 120s<br /><t color='#ffff00'>LVL 3</t> - ARENA Mode Ammo 3 per side, Cooldown 90s<br /><t color='#ffff00'>LVL 4</t> - ARENA Mode Ammo 4 per side, Cooldown 60s</t>"], //--- ERA System
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam and town intel.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
-	["Nuclear Arms Deal", "<t>Unlock Nuke Truck in Light Factory<br /><t color='#ffff00'>Unlocks Light 5 Upgrade which unlocks the Nuke Truck.</t></t>"], //--- Nuke
+	["Nuclear Arms Deal and Heavy Artillery", "<t>Unlock Nuke Truck in Light Factory and Artillery in Heavy Factory<br /><t color='#ffff00'>Unlocks Light 5 and Heavy 5 Upgrade!</t></t>"], //--- Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV Raises<br /><t color='#ffff00'>LVL 1</t> - 1.25 SV per Interval<br /><t color='#ffff00'>LVL 2</t> - 1.5 SV per Interval<br /><t color='#ffff00'>LVL 3</t> - 1.75 SV per Interval</t>"], //--- Supply Rate
 	["Base Health", "<t>Improves base structures health<br /><t color='#ffff00'>LVL 1</t> - 25% Boost </t><br /><t color='#ffff00'>LVL 2</t> - 50% Boost<br /><t color='#ffff00'>LVL 3</t> - 75% Boost <br /><t color='#ffff00'>LVL 4</t> - 100% Boost </t>"], //--- Base Health
-	["Base Defences", "<t>Unlock better defences structures and weapons<br /><t color='#ffff00'>LVL 1</t> - Basic ZSU and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks AA/AT.<br /><t color='#ffff00'>LVL 3</t> - Unlocks C-RAM and more."] //--- Base defense
+	["Base Defences", "<t>Unlock better defences structures and weapons<br /><t color='#ffff00'>LVL 1</t> - Unlocks TOW launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks C-RAM and more."], //--- Base defense
+	["Jamming Type", "<t>Unlocks jamming capabilities<br /><t color='#ffff00'>LVL 0</t> - Unlocks IR jamming.<br /><t color='#ffff00'>LVL 1</t> - Unlocks passive radar jamming.<br /><t color='#ffff00'>LVL 2</t> - Unlocks LIDAR jamming <br /><t color='#ffff00'>LVL 3</t> - Unlocks active radar jamming"], //--- Jamming Types
+        ["Jamming Range", "<t>Jamming Range<br /><t color='#ffff00'>LVL 1</t> - Range 4km <br /><t color='#ffff00'>LVL 2</t> - Range 6km <br /><t color='#ffff00'>LVL 3</t> - Range 12km <br /><t color='#ffff00'>LVL 4</t> - Range 24km <br />"]  //--- Jamming Range
+
 ]];
+
 
 //--- Check potential missing definition.
 (_side) call Compile preprocessFileLineNumbers "Common\Config\Common\Upgrades\Check_Upgrades.sqf";

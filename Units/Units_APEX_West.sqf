@@ -1,1242 +1,1322 @@
 /*
-//--- This file presents classnames and their values to the mission, to manage units that are in factory menu use factory file.
-//--- A tiny error in this file will break the game, be very careful when editing!
-*/ 
-/*
-//--- EXAMPLE FORMATS
+//--------------------------------------------------------------------------------------------------------------
+# HEADER #
+Description:	This file presents classnames and their values to the mission.
 
-_c pushBack 'O_T_Soldier_AA_F'; //--- Class Name
+//--------------------------------------------------------------------------------------------------------------	
+# DOCUMENTATION #
 
-_p pushBack ''; //--- Picture will be used from config
-_p pushBack '\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg'; //--- Custom picture if config doesn’t have one
+	/*Enabled*/
+		//DESCRIPTION: Enables use of unit in game, still loads unit into variable for reference
+		//TYPE: Boolean
+		//DEFAULT: true
+		//EXAMPLES: true/false
 
-_n pushBack ''; //--- Name leaving blank will use name from config
-_n pushBack ["%1 CustomTextHere"]; //--- Default config name + custom
-_n pushBack 'Friendly name'; //--- Fully custom name
-_n pushBack (format ["Friendly name - Range %1 m",CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
+	/*Name*/
+		//DESCRIPTION: Common Unit name, primarily for internal reference
+		//TYPE: String
+		//DEFAULT: ''
+		//EXAMPLES: 'CSAT Infantry (Pacific)'
 
-_o pushBack 4000; //--- Price of the unit
-_t pushBack 5; //--- Time it will take to build in seconds 
-_u pushBack 2; //--- Upgrade level which unit will be available starts from 0 
-_f pushBack CTI_FACTORY_BARRACKS; //--- Which factory unit will be available for purchase
+	/*ClassName*/
+		//DESCRIPTION:  Unit Class Name
+		//TYPE: String
+		//DEFAULT: ''
+		//EXAMPLES: 'O_T_Soldier_A_F'
 
-_s pushBack ""; //-- Special / Script blank will do nothing special 
-_s pushBack "service-medic"; //---  Special / Script service-medic will mark vehicles as medical respawn truck
+	/*MenuName*/
+		//DESCRIPTION:  Name shown in menus
+		//TYPE: Array or String
+		//DEFAULT: ''
+		//EXAMPLES: 
+			//''; //--- Name leaving blank will use name from config
+			//['%1 CustomTextHere']; //--- Default config name + custom
+			//'Friendly name'; //--- Fully custom name
+			//(format ['Friendly name - Range %1 m',CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
 
-_d pushBack 0; //--- Distance unit will spawn from factory in meters
-_g pushBack "Woodland"; //--- Filter by Camo
+	/*Location*/
+		//DESCRIPTION:  Which factory unit will be available for purchase
+		//TYPE: Array
+		//DEFAULT: []
+		//EXAMPLES: 
+			//[CTI_BARRACKS]
+			//[CTI_BARRACKS,CTI_DEPOT] //unit available at barracks and depot at default upgrade level
+			//[CTI_BARRACKS,[CTI_DEPOT, "default", 5]] //barracks normal, from depot require default factory upgrade 5 (different from default unit upgrade)
+			//[CTI_BARRACKS,[CTI_DEPOT,"logistics"]] //barracks normal, from depot require forward logistics using same lvl as default
+			//[CTI_BARRACKS,[CTI_DEPOT,"logistics",3]] //barracks normal, from depot require forward logistics 3
 
-*/
+	/*UpgradeLevel*/
+		//DESCRIPTION:  Upgrade level which unit will be available starts from 0 
+		//TYPE: Integer
+		//DEFAULT: 0
+		//EXAMPLES: 3
+
+	/*Price*/
+		//DESCRIPTION:  Price of the unit
+		//TYPE: Integer
+		//DEFAULT: 0
+		//EXAMPLES: 500
+
+	/*BuildTime*/
+		//DESCRIPTION:  Time it will take to build in seconds 
+		//TYPE: Integer
+		//DEFAULT: 0
+		//EXAMPLES: 
+
+	/*Distance*/
+		//DESCRIPTION:  Distance unit will spawn from factory in meters
+		//TYPE: Integer
+		//DEFAULT: 0
+		//EXAMPLES: 
+
+	/*Camo*/
+		//DESCRIPTION:  Filter by Camo
+		//TYPE: Array
+		//DEFAULT: []
+		//EXAMPLES: 
+			//['Tropic'],
+			//['Tropic','Tropic'],
+
+	/*Type*/
+		//DESCRIPTION:  
+		//TYPE: Array
+		//DEFAULT: []
+		//EXAMPLES: 
+			//['Rifle'],
+			//['Rifle','Rifle'],
+
+	/*Ammmo*/
+		//DESCRIPTION:  
+		//TYPE: Boolean
+		//DEFAULT: true
+		//EXAMPLES: true/false
+
+	/*Script*/
+		//DESCRIPTION:  
+		//TYPE: String
+		//DEFAULT: ''
+		//EXAMPLES: 
+			//''; //-- Special / Script blank will do nothing special 
+			//'service-medic'; //---  Special / Script service-medic will mark vehicles as medical respawn truck
+
+	/*Picture*/
+		//DESCRIPTION:  
+		//TYPE: String
+		//DEFAULT: ''
+		//EXAMPLES: 
+			//''; //--- Picture will be used from config
+			//'\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg'; //--- Custom picture if config doesn’t have one
+
+//--------------------------------------------------------------------------------------------------------------
 
 _side = _this;
-_faction = "West";
-
-_c = []; //--- Classname
-_p = []; //--- Picture. 				'' = auto generated.
-_n = []; //--- Name. 					'' = auto generated.
-_o = []; //--- Price.
-_t = []; //--- Build time.
-_u = []; //--- Upgrade level needed.    0 1 2 3...
-_f = []; //--- Built from Factory.
-_s = []; //--- Script
-_d = []; //--- Extra Distance (From Factory)
-_g = []; //--- Filter by Camo
-
-//--- Infantry
-//--- NATO Infantry (Arid)
-
-//--- NATO FIA (Arid)
-
-//--- NATO Infantry (Pacific)
-_c pushBack 'B_T_Soldier_A_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 375;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_AA_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 4000;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_AT_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 5000;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_AR_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 500;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Crew_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 175;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Engineer_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 520;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_Exp_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 510;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_GL_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 500;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Helipilot_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 175;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_M_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 525;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Medic_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 500;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Officer_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 100;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_TL_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 100;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_SL_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 500;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 375;
-_t pushBack 5;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_soldier_PG_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 300;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_Repair_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 500;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_LAT_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 500;
-_t pushBack 5;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_soldier_UAV_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_AAR_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Support_AMG_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Support_AMort_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_AAA_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Soldier_AAT_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Support_GMG_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Support_MG_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Support_Mort_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Helicrew_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Pilot_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-//--- Infantry Special Forces
-_c pushBack 'B_T_Diver_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 550;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Black";
-
-_c pushBack 'B_T_Diver_TL_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 550;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Black";
-
-_c pushBack 'B_T_Recon_Exp_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 550;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Recon_JTAC_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 750;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Recon_Medic_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 750;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Recon_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 750;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Recon_LAT_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 750;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Recon_TL_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 750;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Sniper_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 1000;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_ghillie_tna_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 1250;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Spotter_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 520;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Diver_Exp_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 520;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Recon_M_F';
-_p pushBack '';
-_n pushBack ["%1 (Special Forces)"];
-_o pushBack 520;
-_t pushBack 5;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-//--- NATO Gendarmerie
-_c pushBack 'B_GEN_Soldier_F';
-_p pushBack '';
-_n pushBack ["%1 (Gendarmerie)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
-
-_c pushBack 'B_GEN_Commander_F';
-_p pushBack '';
-_n pushBack ["%1 (Gendarmerie)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "";
-
-//--- Infantry CTRG Special
-_c pushBack 'B_CTRG_Soldier_AR_tna_F';
-_p pushBack '';
-_n pushBack ["%1 (CTRG Thermal Masking)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_CTRG_Soldier_Exp_tna_F';
-_p pushBack '';
-_n pushBack ["%1 (CTRG Thermal Masking)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_CTRG_Soldier_JTAC_tna_F';
-_p pushBack '';
-_n pushBack ["%1 (CTRG Thermal Masking)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_CTRG_Soldier_M_tna_F';
-_p pushBack '';
-_n pushBack ["%1 (CTRG Thermal Masking)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_CTRG_Soldier_Medic_tna_F';
-_p pushBack '';
-_n pushBack ["%1 (CTRG Thermal Masking)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_CTRG_Soldier_tna_F';
-_p pushBack '';
-_n pushBack ["%1 (CTRG Thermal Masking)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_CTRG_Soldier_LAT_tna_F';
-_p pushBack '';
-_n pushBack ["%1 (CTRG Thermal Masking)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_CTRG_Soldier_TL_tna_F';
-_p pushBack '';
-_n pushBack ["%1 (CTRG Thermal Masking)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_CTRG_Miller_F';
-_p pushBack '';
-_n pushBack ["%1 (CTRG Thermal Masking)"]; 
-_o pushBack 2500;
-_t pushBack 5;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_BARRACKS;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-//--- Light Vehicles
-_c pushBack 'B_T_Quadbike_01_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Civilian";
-
-_c pushBack 'B_T_Truck_01_mover_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Civilian";
-
-_c pushBack 'B_T_Truck_01_box_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Civilian";
-
-_c pushBack 'B_T_Truck_01_transport_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Truck_01_covered_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_GEN_Offroad_01_gen_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Civilian";
-
-_c pushBack 'B_T_LSV_01_armed_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_LSV_01_armed_CTRG_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_T_LSV_01_unarmed_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_LSV_01_unarmed_CTRG_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_LSV_01_armed_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Green";
-
-_c pushBack 'B_LSV_01_unarmed_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Green";
-
-_c pushBack 'B_CTRG_LSV_01_light_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Green";
-
-_c pushBack 'B_LSV_01_armed_black_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Black";
-
-_c pushBack 'B_LSV_01_armed_olive_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Green";
-
-_c pushBack 'B_LSV_01_armed_sand_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Khaki";
-
-_c pushBack 'B_LSV_01_unarmed_black_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Black";
-
-_c pushBack 'B_LSV_01_unarmed_olive_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Green";
-
-_c pushBack 'B_LSV_01_unarmed_sand_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Khaki";
-
-_c pushBack 'B_T_LSV_01_armed_black_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Black";
-
-_c pushBack 'B_T_LSV_01_armed_olive_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Green";
-
-_c pushBack 'B_T_LSV_01_armed_sand_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Khaki";
-
-_c pushBack 'B_T_LSV_01_unarmed_black_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Black";
-
-_c pushBack 'B_T_LSV_01_unarmed_olive_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Green";
-
-_c pushBack 'B_T_LSV_01_unarmed_sand_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Khaki";
-
-_c pushBack 'B_T_MRAP_01_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_MRAP_01_gmg_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_MRAP_01_hmg_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 10;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Truck_01_medical_F';
-_p pushBack '';
-_n pushBack (format ["0- Medical Respawn - Range %1 m",CTI_RESPAWN_MOBILE_RANGE]);
-_o pushBack 6800;
-_t pushBack 20;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_LIGHT;
-_s pushBack "service-medic";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-//--- Heavy Vehicles
-_c pushBack 'B_T_APC_Tracked_01_AA_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 7150;
-_t pushBack 30;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_APC_Tracked_01_rcws_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 7150;
-_t pushBack 30;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_APC_Wheeled_01_cannon_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 7150;
-_t pushBack 30;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_MBT_01_cannon_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 25000;
-_t pushBack 30;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_MBT_01_TUSK_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 30000;
-_t pushBack 30;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_MBT_01_arty_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 175000;
-_t pushBack 30;
-_u pushBack 4;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_MBT_01_mlrs_F';
-_p pushBack '';
-_n pushBack ["%1 (Pacific)"];
-_o pushBack 225000;
-_t pushBack 30;
-_u pushBack 4;
-_f pushBack CTI_FACTORY_HEAVY;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-//--- Repair Vehicles
-
-_c pushBack 'B_T_Truck_01_Repair_F';
-_p pushBack '';
-_n pushBack 'HEMTT Repair';
-_o pushBack 8000;
-_t pushBack 25;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_REPAIR;
-_s pushBack "service-repairtruck";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_APC_Tracked_01_CRV_F';
-_p pushBack '';
-_n pushBack 'Bobcat Repair';
-_o pushBack 8000;
-_t pushBack 25;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_REPAIR;
-_s pushBack "service-repairtruck";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-
-//--- Ammo Vehicles
-_c pushBack 'B_T_Truck_01_fuel_F';
-_p pushBack '';
-_n pushBack 'Hemtt Fuel Truck';
-_o pushBack 5000;
-_t pushBack 25;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_AMMO;
-_s pushBack "service-fueltruck";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Truck_01_ammo_F';
-_p pushBack '';
-_n pushBack 'Hemtt Ammo Truck';
-_o pushBack 5000;
-_t pushBack 25;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_AMMO;
-_s pushBack "service-ammotruck";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-//--- Air Vehicles
-
-_c pushBack 'B_CTRG_Heli_Transport_01_sand_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 14000;
-_t pushBack 50;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_CTRG_Heli_Transport_01_tropic_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 14000;
-_t pushBack 50;
-_u pushBack 2;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "CTRG";
-
-_c pushBack 'B_T_UAV_03_F';
-_p pushBack '';
-_n pushBack 'MQ-12 Falcon';
-_o pushBack 43100;
-_t pushBack 50;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Green";
-
-_c pushBack 'B_T_VTOL_01_infantry_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 40000;
-_t pushBack 50;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 10;
-_g pushBack "Green";
-
-_c pushBack 'B_T_VTOL_01_infantry_blue_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 40000;
-_t pushBack 50;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 10;
-_g pushBack "";
-
-_c pushBack 'B_T_VTOL_01_infantry_olive_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 40000;
-_t pushBack 50;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 10;
-_g pushBack "Green";
-
-_c pushBack 'B_T_VTOL_01_vehicle_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 40000;
-_t pushBack 50;
-_u pushBack 3;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 10;
-_g pushBack "Green";
-
-_c pushBack 'B_T_VTOL_01_armed_blue_F';
-_p pushBack '';
-_n pushBack 'V-44 X Blackfish Armed Blue';
-_o pushBack 55000;
-_t pushBack 50;
-_u pushBack 4;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 10;
-_g pushBack "";
-
-_c pushBack 'B_T_VTOL_01_armed_olive_F';
-_p pushBack '';
-_n pushBack 'V-44 X Blackfish Armed Olive';
-_o pushBack 55000;
-_t pushBack 50;
-_u pushBack 4;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 10;
-_g pushBack "Green";
-
-_c pushBack 'B_T_VTOL_01_armed_F';
-_p pushBack '';
-_n pushBack 'V-44 X Blackfish Armed';
-_o pushBack 55000;
-_t pushBack 50;
-_u pushBack 4;
-_f pushBack CTI_FACTORY_AIR;
-_s pushBack "";
-_d pushBack 10;
-_g pushBack "Green";
-
-//--- Naval Vehicles
-
-_c pushBack 'B_T_Lifeboat';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 25;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_NAVAL;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Civilian";
-
-_c pushBack 'C_Scooter_Transport_01_F';
-_p pushBack '';
-_n pushBack 'Scooter';
-_o pushBack 1200;
-_t pushBack 25;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_NAVAL;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Civilian";
-
-_c pushBack 'B_T_Boat_Transport_01_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 300;
-_t pushBack 25;
-_u pushBack 0;
-_f pushBack CTI_FACTORY_NAVAL;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-_c pushBack 'B_T_Boat_Armed_01_minigun_F';
-_p pushBack '';
-_n pushBack '';
-_o pushBack 3000;
-_t pushBack 25;
-_u pushBack 1;
-_f pushBack CTI_FACTORY_NAVAL;
-_s pushBack "";
-_d pushBack 0;
-_g pushBack "Tropic";
-
-
-[_side, _faction, _c, _p, _n, _o, _t, _u, _f, _s, _d, _g] call compile preprocessFileLineNumbers "Common\Config\Common\Units\Set_Units.sqf";
+_faction = 'West';
+_mod = 'Apex';
+
+_u = []; //--- Units
+
+//--------------------------------------------------------------------------------------------------------------
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_A_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/3,
+	/*Price*/50,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_AA_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/5,
+	/*Price*/4000,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_AT_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/3,
+	/*Price*/7000,
+	/*BuildTime*/6,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_AR_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/3,
+	/*Price*/200,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Crew_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/3,
+	/*Price*/50,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Engineer_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/3,
+	/*Price*/600,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_Exp_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/3,
+	/*Price*/600,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_GL_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/3,
+	/*Price*/80,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Helipilot_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/3,
+	/*Price*/50,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_M_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/3,
+	/*Price*/175,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Medic_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/3,
+	/*Price*/175,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Officer_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/75,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_TL_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/150,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_SL_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/200,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/3,
+	/*Price*/50,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_soldier_PG_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/4,
+	/*Price*/60,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_Repair_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/100,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_LAT_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/4,
+	/*Price*/1200,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_soldier_UAV_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/8000,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_AAR_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/600,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Support_AMG_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/600,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Support_AMort_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/600,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_AAA_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/1000,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Soldier_AAT_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/1200,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Support_GMG_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/700,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Support_MG_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/700,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Support_Mort_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/1000,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Helicrew_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/4,
+	/*Price*/175,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Pilot_F',
+	/*MenuName*/['%1 (Pacific)'],
+	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/4,
+	/*Price*/175,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Diver_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/650,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Diver_TL_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/650,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Recon_Exp_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/750,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Recon_JTAC_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/750,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Recon_Medic_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/700,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Recon_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/650,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Recon_LAT_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/1200,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Recon_TL_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/850,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Sniper_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/6,
+	/*Price*/2000,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_ghillie_tna_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/2200,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Spotter_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/1000,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Diver_Exp_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/650,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_Recon_M_F',
+	/*MenuName*/['%1 (Special Forces)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+	/*Price*/650,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_GEN_Soldier_F',
+	/*MenuName*/['%1 (Gendarmerie)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/900,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[''],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_GEN_Commander_F',
+	/*MenuName*/['%1 (Gendarmerie)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/950,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[''],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_CTRG_Soldier_AR_tna_F',
+	/*MenuName*/['%1 (CTRG Thermal Masking)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/2400,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['CTRG'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_CTRG_Soldier_Exp_tna_F',
+	/*MenuName*/['%1 (CTRG Thermal Masking)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/2500,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['CTRG'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_CTRG_Soldier_JTAC_tna_F',
+	/*MenuName*/['%1 (CTRG Thermal Masking)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/2600,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['CTRG'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_CTRG_Soldier_M_tna_F',
+	/*MenuName*/['%1 (CTRG Thermal Masking)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/2600,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['CTRG'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_CTRG_Soldier_Medic_tna_F',
+	/*MenuName*/['%1 (CTRG Thermal Masking)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/2650,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['CTRG'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_CTRG_Soldier_tna_F',
+	/*MenuName*/['%1 (CTRG Thermal Masking)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/2500,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['CTRG'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_CTRG_Soldier_LAT_tna_F',
+	/*MenuName*/['%1 (CTRG Thermal Masking)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/3200,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['CTRG'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_CTRG_Soldier_TL_tna_F',
+	/*MenuName*/['%1 (CTRG Thermal Masking)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/2700,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['CTRG'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_CTRG_Miller_F',
+	/*MenuName*/['%1 (CTRG Thermal Masking)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/2800,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['CTRG'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_LSV_01_armed_F',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/3,
+	/*Price*/3000,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_LSV_01_armed_F',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/3,
+	/*Price*/3000,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_LSV_01_unarmed_F',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/300,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_LSV_01_unarmed_F',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/300,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_VTOL_01_infantry_F',
+	/*MenuName*/'V-44 X Blackfish (Transport)',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/3,
+	/*Price*/10000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['VTOL'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_VTOL_01_vehicle_F',
+	/*MenuName*/'V-44 X Blackfish (VIV)',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/4,
+	/*Price*/15000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['VTOL'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_VTOL_01_armed_F',
+	/*MenuName*/'V-44 X Blackfish (Armed)',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/4,
+	/*Price*/50000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['VTOL'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_UAV_03_dynamicLoadout_F',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/4,
+	/*Price*/25000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['UAV'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'C_Boat_Transport_02_F',
+	/*MenuName*/'',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
+	/*UpgradeLevel*/0,
+	/*Price*/500,
+	/*BuildTime*/10,
+	/*Distance*/3,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'C_Scooter_Transport_01_F',
+	/*MenuName*/'',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
+	/*UpgradeLevel*/0,
+	/*Price*/150,
+	/*BuildTime*/10,
+	/*Distance*/3,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+
+
+
+//--------------------------------------------------------------------------------------------------------------
+
+[_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';
