@@ -138,6 +138,24 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'FREEDOM',
+	/*ClassName*/'OFPS_FREEDOM_Frigate_NATO',
+	/*MenuName*/'USS FREEDOM (Respawn)',
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/3,
+	/*Price*/500000,
+	/*BuildTime*/30,
+	/*Distance*/300,
+	/*Camo*/['Carrier'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
 
 //--------------------------------------------------------------------------------------------------------------
 

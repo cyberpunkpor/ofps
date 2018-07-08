@@ -382,7 +382,7 @@ _u pushBack [
 	/*ClassName*/'CUP_IED_V1_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/200,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Remote Explosive"]
 ];
@@ -392,8 +392,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_IED_V2_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/6,
-	/*Price*/2000,
+	/*UpgradeLevel*/3,
+	/*Price*/1000,
 	/*Camo*/[],
 	/*Type*/["Remote Explosive"]
 ];
@@ -404,7 +404,7 @@ _u pushBack [
 	/*ClassName*/'CUP_IED_V3_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/200,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Remote Explosive"]
 ];
@@ -414,8 +414,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_IED_V4_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/6,
-	/*Price*/2000,
+	/*UpgradeLevel*/3,
+	/*Price*/1000,
 	/*Camo*/[],
 	/*Type*/["Remote Explosive"]
 ];

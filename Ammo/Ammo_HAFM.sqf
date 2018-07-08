@@ -68,17 +68,70 @@ Description:	This file presents classnames and their values to the mission.
 			//['Rifle','Rifle']
 
 //--------------------------------------------------------------------------------------------------------------
-private ["_side", "_faction", "_u"];
+private ["_side", "_u"];
 
 _side = _this;
-_faction = "East";
 
 _u = []; //Ammo Classname
 
 //--------------------------------------------------------------------------------------------------------------
 
+//--- LAND -----------------------------------------------------------
+
+//--- Small Arms --------------------------
+
+//--- Explosives --------------------------
+
+//--- Heavy --------------------------
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'HAFM_B_20mm_Tracer_Red',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/1,
+	/*Price*/2.5,
+	/*RearmTime*/3,
+	/*Filters*/[]
+];
+
+//--- Arty --------------------------
+
+//--- HE --------------------------
+
+//--- Grenades --------------------------
+
+//--- Launchers --------------------------
+
+//--- Naval --------------------------
+
+//--- Other --------------------------
+
+//--- AIR ------------------------------------------------------------
+
+//--- Missles --------------------------
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'HAFM_AGM65_AG',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/3,
+	/*Price*/3300,
+	/*RearmTime*/30,
+	/*Filters*/[]
+];
+
+//--- Bombs --------------------------
+
+//--- Pylons --------------------------
+
+//--- Other --------------------------
+
 
 
 //--------------------------------------------------------------------------------------------------------------
 
-[_side, _faction, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Ammo\Ammo_Config_Set.sqf";
+[_side, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Ammo\Ammo_Config_Set.sqf";

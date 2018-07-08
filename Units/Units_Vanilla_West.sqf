@@ -1439,7 +1439,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1458,7 +1458,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1477,7 +1477,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1496,7 +1496,7 @@ _u pushBack [
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1515,7 +1515,7 @@ _u pushBack [
 	/*Price*/55000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1715,7 +1715,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_MBT_01_arty_F',
 	/*MenuName*/'M4 Scorcher Artillery (Green)',
@@ -1734,7 +1734,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_MBT_01_arty_F',
 	/*MenuName*/'M4 Scorcher Artillery (Tropic)',
@@ -1753,7 +1753,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_MBT_01_mlrs_F',
 	/*MenuName*/'M5 Sandstorm (Green)',
@@ -1772,7 +1772,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_MBT_01_mlrs_F',
 	/*MenuName*/'M5 Sandstorm (Tropic)',
@@ -1833,12 +1833,12 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_G_Van_01_fuel_F',
 	/*MenuName*/'Deployable FOB',
-	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"logistics"]],
-	/*UpgradeLevel*/1,
+	/*Location*/[CTI_REPAIR,[CTI_DEPOT,"logistics",4]],
+	/*UpgradeLevel*/2,
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['FOB Truck'],
+	/*Camo*/['Small FOB Truck'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2238,25 +2238,6 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'C_Kart_01_Blu_F',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/100,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Other'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,

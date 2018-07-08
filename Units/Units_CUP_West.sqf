@@ -6456,7 +6456,7 @@ _u pushBack [
 	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6475,7 +6475,7 @@ _u pushBack [
 	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6523,7 +6523,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MH60L_DAP_2x_Escort_US',
 	/*MenuName*/'',
@@ -6532,7 +6532,7 @@ _u pushBack [
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6542,7 +6542,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MH60L_DAP_2x_Multi_US',
 	/*MenuName*/'',
@@ -6551,7 +6551,7 @@ _u pushBack [
 	/*Price*/24000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6570,7 +6570,7 @@ _u pushBack [
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6589,7 +6589,7 @@ _u pushBack [
 	/*Price*/26000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6646,7 +6646,7 @@ _u pushBack [
 	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6665,7 +6665,7 @@ _u pushBack [
 	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6719,7 +6719,26 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
-	/*Price*/18000,
+	/*Price*/16000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_AH6M_USA',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/2,
+	/*Price*/19500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Attack Heli'],
@@ -6738,10 +6757,10 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
-	/*Price*/20000,
+	/*Price*/18000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6757,10 +6776,10 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
-	/*Price*/22000,
+	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6770,16 +6789,16 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AW159_Cannon_GB',
-	/*MenuName*/'',
+	/*MenuName*/'AW159 Wildcat - 12RKTS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
-	/*Price*/17500,
+	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6790,53 +6809,91 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_AW159_GB',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/2,
+	/*Price*/15000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AW159_Hellfire_GB',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/2,
-	/*Price*/30000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_B_AH1Z_USMC',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/3,
-	/*Price*/35000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_B_AH1Z_NoWeapons_USMC',
-	/*MenuName*/'',
+	/*MenuName*/'AW159 Wildcat - 8AT(LSR)',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_AH1Z_USMC',
+	/*MenuName*/'AH1Z Viper - 8AT(LSR)/38RKTS/2AA',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/30000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_AH1Z_NoWeapons_USMC',
+	/*MenuName*/'AH1Z Viper - Cannon Only',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/2,
+	/*Price*/20000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_AH1Z_Escort',
+	/*MenuName*/'AH1Z Viper - 76RKTS/2AA',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/28000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6848,7 +6905,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_AH1Z_Escort',
+	/*ClassName*/'CUP_B_AH1Z_Dynamic_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
@@ -6865,16 +6922,16 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AH64D_NO_USA',
-	/*MenuName*/'',
+	/*MenuName*/'AH64D Apache - Cannon Only',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
 	/*Price*/22000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6886,11 +6943,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_AH64D_ES_USA',
-	/*MenuName*/'AH-64 (Rockets)',
+	/*ClassName*/'CUP_B_UH1Y_Gunship_Dynamic_USMC',
+	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/3,
-	/*Price*/30000,
+	/*UpgradeLevel*/1,
+	/*Price*/19000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Attack Heli'],
@@ -6903,7 +6960,26 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_AH64D_ES_USA',
+	/*MenuName*/'AH64D Apache - 76RKTS',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/30000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AH64D_USA',
 	/*MenuName*/'',
@@ -6912,7 +6988,7 @@ _u pushBack [
 	/*Price*/38000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6922,7 +6998,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AH64D_AT_USA',
 	/*MenuName*/'',
@@ -6941,10 +7017,9 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_Mi24_D_Dynamic_CDF',
-	
+	/*ClassName*/'CUP_B_AH64D_DL_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
@@ -6961,7 +7036,45 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_AH1_DL_BAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/34000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_Mi24_D_Dynamic_CDF',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/30000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Mi24_D_MEV_Dynamic_CDF',
 	/*MenuName*/'',
@@ -7208,7 +7321,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AV8B_MK82_USMC',
 	/*MenuName*/'AV8-B (UGB)',
@@ -7227,10 +7340,29 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_GR9_GBU12_GB',
 	/*MenuName*/'AV8-B GR9 (LGB)',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/3,
+	/*Price*/70000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['VTOL'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_GR9_DYN_GB',
+	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/3,
 	/*Price*/70000,
@@ -7265,7 +7397,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_F35B_CAS_USMC',
 	/*MenuName*/'F35B (AA&GBU)',
@@ -7285,6 +7417,44 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_F35B_USMC',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/4,
+	/*Price*/85000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['VTOL'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_F35B_Stealth_USMC',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/4,
+	/*Price*/95000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['VTOL'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_F35B_Stealth_BAF',
 	/*MenuName*/'',

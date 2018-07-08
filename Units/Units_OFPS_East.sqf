@@ -156,6 +156,44 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'OFPS_HELLCAT_O',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/20000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Armed Trans Heli'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_HELLCAT_O_DYNAMIC',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/20000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Armed Trans Heli'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MOHAWK_O',
@@ -175,9 +213,28 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_BUZAA_O',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/3,
+	/*Price*/40000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Fighter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_BUZAA_O_DYNAMIC',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/3,
@@ -276,7 +333,7 @@ _u pushBack [
 	/*MenuName*/'Nuke Truck',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
-	/*Price*/300000,
+	/*Price*/100000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['SandHex'],
@@ -428,7 +485,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/18000,
+	/*Price*/11000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -466,7 +523,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/2,
-	/*Price*/15000,
+	/*Price*/7000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -485,7 +542,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/18000,
+	/*Price*/16000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],

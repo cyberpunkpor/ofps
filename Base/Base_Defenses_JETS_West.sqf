@@ -151,6 +151,133 @@ _u pushBack [
 	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
 ];
 
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'MIM-145 Defender',
+	/*Class*/"B_SAM_System_03_F",
+	/*Price*/80000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Mk45 Hammer',
+	/*Class*/"B_Ship_Gun_01_F",
+	/*Price*/10000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Mk41 VLS',
+	/*Class*/"B_Ship_MRLS_01_F",
+	/*Price*/300000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Mk45 Hammer Bunker',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_west",2]]],
+	/*Price*/15000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Mk45 Hammer Bunker Tall',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_tall_west",2]]],
+	/*Price*/15000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Base Bunker Mk45 x4',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","base_bunker_mk45_x4_west",2]]],
+	/*Price*/45000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Briefing Room Desk',
+	/*Class*/"Land_BriefingRoomDesk_01_F",
+	/*Price*/50,
+	/*Placement*/[90, 15],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Briefing Room Screen',
+	/*Class*/"Land_BriefingRoomScreen_01_F",
+	/*Price*/50,
+	/*Placement*/[90, 15],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";

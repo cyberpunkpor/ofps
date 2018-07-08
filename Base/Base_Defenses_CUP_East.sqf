@@ -110,7 +110,7 @@ _u pushBack [
 	/*Price*/400,
 	/*Placement*/[90, 7],
 	/*Tags*/["Composition"],
-	/*Location*/["HQ", "RepairTruck"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
 	/*MaxCount*/-1,
@@ -180,7 +180,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Explosion", 0.25]]
 ];
 
 _u pushBack [
@@ -196,7 +196,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Explosion", 0.25]]
 ];
 
 _u pushBack [
@@ -212,7 +212,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Explosion", 0.25]]
 ];
 
 _u pushBack [
@@ -344,13 +344,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'M2 Machine Gun',
 	/*Class*/"CUP_O_M2StaticMG_USMC",
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ", "RepairTruck"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
 	/*MaxCount*/-1,
@@ -366,7 +366,7 @@ _u pushBack [
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ", "RepairTruck"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
 	/*MaxCount*/-1,
@@ -382,7 +382,7 @@ _u pushBack [
 	/*Price*/2000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ", "RepairTruck"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
 	/*MaxCount*/-1,
@@ -398,7 +398,7 @@ _u pushBack [
 	/*Price*/1500,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ", "RepairTruck"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
 	/*MaxCount*/-1,
@@ -446,7 +446,7 @@ _u pushBack [
 	/*Price*/5000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
 	/*MaxCount*/-1,
@@ -558,7 +558,7 @@ _u pushBack [
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Roads"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -574,7 +574,7 @@ _u pushBack [
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Roads"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -590,7 +590,7 @@ _u pushBack [
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Roads"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -606,7 +606,7 @@ _u pushBack [
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Roads"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -622,7 +622,7 @@ _u pushBack [
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Roads"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -638,7 +638,7 @@ _u pushBack [
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Roads"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -654,7 +654,7 @@ _u pushBack [
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Roads"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -670,7 +670,7 @@ _u pushBack [
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Roads"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -686,7 +686,7 @@ _u pushBack [
 	/*Price*/1000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Roads"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
 	/*MaxCount*/-1,

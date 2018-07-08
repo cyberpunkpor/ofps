@@ -68,17 +68,15 @@ Description:	This file presents classnames and their values to the mission.
 			//['Rifle','Rifle']
 
 //--------------------------------------------------------------------------------------------------------------
-private ["_side", "_faction", "_u"];
+private ["_side", "_u"];
 
 _side = _this;
-_faction = "East";
 
 _u = []; //Ammo Classname
 
 //--------------------------------------------------------------------------------------------------------------
 
 
-
 //--------------------------------------------------------------------------------------------------------------
 
-[_side, _faction, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Ammo\Ammo_Config_Set.sqf";
+[_side, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Ammo\Ammo_Config_Set.sqf";

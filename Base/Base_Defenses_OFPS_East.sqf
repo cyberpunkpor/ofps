@@ -103,6 +103,7 @@ _u = []; //Defense Classname
 
 //--------------------------------------------------------------------------------------------------------------
 
+
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'C-RAM Phalanx (Engages incoming rounds)',
@@ -145,6 +146,230 @@ _u pushBack [
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
 	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Mk45 Hammer',
+	/*Class*/"OFPS_MK45_HAMMER_O",
+	/*Price*/10000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Mk41 VLS',
+	/*Class*/"OFPS_MK41_VLS_O",
+	/*Price*/300000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Mk45 Hammer Bunker',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_east",2]]],
+	/*Price*/15000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Mk45 Hammer Bunker Tall',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_tall_east",2]]],
+	/*Price*/15000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Base Bunker Mk45 x4',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","base_bunker_mk45_x4_east",2]]],
+	/*Price*/45000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Noticeboard (OFPS)',
+	/*Class*/["Land_Noticeboard_F", [["Sign","notice_ofps","\ofps_assets\images\sign_ofps.paa"]]],
+	/*Price*/100,
+	/*Placement*/[0, 5],
+	/*Tags*/["Signs"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Sign Small (OFPS)',
+	/*Class*/["SignAd_SponsorS_F", [["Sign","sign_small_ofps","\ofps_assets\images\sign_ofps.paa"]]],
+	/*Price*/100,
+	/*Placement*/[0, 5],
+	/*Tags*/["Signs"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Map (tips over easy)',
+	/*Class*/["Land_MapBoard_F", [["Sign","map","\ofps_assets\images\sign_map.paa"]]],
+	/*Price*/100,
+	/*Placement*/[0, 5],
+	/*Tags*/["Signs"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Sign (CSAT)',
+	/*Class*/["SignAd_Sponsor_F", [["Sign","sign_csat","\ofps_assets\images\sign_csat.paa"]]],
+	/*Price*/100,
+	/*Placement*/[0, 5],
+	/*Tags*/["Signs"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Sign (OFPS)',
+	/*Class*/["SignAd_Sponsor_F", [["Sign","sign_ofps","\ofps_assets\images\sign_ofps.paa"]]],
+	/*Price*/100,
+	/*Placement*/[0, 5],
+	/*Tags*/["Signs"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Billboard (OFPS)',
+	/*Class*/["Land_Billboard_F", [["Sign","billboard_ofps","\ofps_assets\images\sign_ofps.paa"]]],
+	/*Price*/100,
+	/*Placement*/[0, 5],
+	/*Tags*/["Signs"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Large Billboard (OFPS)',
+	/*Class*/["Land_Billboard_04_blank_F", [["Sign","large_billboard_ofps","\ofps_assets\images\sign_ofps.paa"]]],
+	/*Price*/100,
+	/*Placement*/[0, 5],
+	/*Tags*/["Signs"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["DMG_Explosion", 0.5]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Briefing Room Desk',
+	/*Class*/["Land_BriefingRoomDesk_01_F", [["Sign","briefing_room_desk_ofps","\ofps_assets\images\sign_map.paa"]]],
+	/*Price*/50,
+	/*Placement*/[90, 15],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Briefing Room Screen',
+	/*Class*/["Land_BriefingRoomScreen_01_F", [["Sign","briefing_room_screen_ofps","\ofps_assets\images\sign_map.paa"]]],
+	/*Price*/50,
+	/*Placement*/[90, 15],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,

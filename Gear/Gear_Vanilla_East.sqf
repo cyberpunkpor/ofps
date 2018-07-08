@@ -570,7 +570,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/["3"]
+	/*Type*/["Medium/Close"]
 ];
 
 _u pushBack [
@@ -1634,8 +1634,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'IEDLandSmall_Remote_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
-	/*Price*/300,
+	/*UpgradeLevel*/4,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Remote Explosive"]
 ];
@@ -1645,8 +1645,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'IEDUrbanSmall_Remote_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
-	/*Price*/300,
+	/*UpgradeLevel*/4,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Remote Explosive"]
 ];
@@ -1667,7 +1667,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'SatchelCharge_Remote_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/6,
+	/*UpgradeLevel*/5,
 	/*Price*/1500,
 	/*Camo*/[],
 	/*Type*/["Remote Explosive"]

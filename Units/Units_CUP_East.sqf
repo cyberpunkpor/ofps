@@ -2379,7 +2379,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_L39_RKT_TK',
 	/*MenuName*/'L39 (RKTS)',
@@ -2398,7 +2398,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_L39_BMB_TK',
 	/*MenuName*/'L39 (FAB)',
@@ -2417,13 +2417,32 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_L39_CAP_TK',
 	/*MenuName*/'L39 (4xAA)',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/3,
 	/*Price*/18000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Fighter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_L39_TK',
+	/*MenuName*/'L39 (RKTS)',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/3,
+	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Fighter'],
@@ -2493,7 +2512,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Su25_RU_2',
 	/*MenuName*/'SU-25 Frogfoot - 2AA/4AT/80RKTS',
@@ -2512,12 +2531,12 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Su25_Dyn_RU',
 	/*MenuName*/'SU-25 (Dynamic)',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/50000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -2550,7 +2569,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Su25_Dyn_SLA',
 	/*MenuName*/'SU-25 Frogfoot - 2AA/4FAB/80RKTS',
@@ -2588,7 +2607,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_SU34_LGB_CSAT',
 	/*MenuName*/'SU-34 (LGB)',
@@ -2607,7 +2626,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_SU34_AGM_CSAT',
 	/*MenuName*/'SU-34 (AGM)',
@@ -2628,14 +2647,14 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_Ka50_DL_RU',
-	/*MenuName*/'KA-50 Blackshark - 4AA/40RKTS',   
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/3,
-	/*Price*/40000,
+	/*ClassName*/'CUP_O_SU34_RU',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/5,
+	/*Price*/75000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Fighter/Bomber'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2646,15 +2665,53 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Ka50_DL_RU',
+	/*MenuName*/'KA-50 Blackshark - 4AA/40RKTS',   
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/25000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Ka50_DL_SLA',
 	/*MenuName*/'KA-50 Blackshark - 4AA/40RKTS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
-	/*Price*/40000,
+	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Ka52_Grey_RU',
+	/*MenuName*/'KA-52 Alligator - 12AT(LSR)/40RKTS',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/35000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2666,7 +2723,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_Ka52_Grey_RU',
+	/*ClassName*/'CUP_O_Ka52_RU',
 	/*MenuName*/'KA-52 Alligator - 12AT/40RKTS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
@@ -2686,13 +2743,13 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Ka60_GL_Hex_CSAT',
-	/*MenuName*/'',
+	/*MenuName*/'KA60 Orca - 12RKTS/GMG',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
-	/*Price*/16000,
+	/*Price*/12000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2703,15 +2760,34 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'KA60 Orca - 12RKTS/GMG',
 	/*ClassName*/'CUP_O_Ka60_Hex_CSAT',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
-	/*Price*/14000,
+	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Mi8_SLA_2',
+	/*MenuName*/'MI8 - 128RTKS',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/16000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2723,7 +2799,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_Mi8_SLA_2',
+	/*ClassName*/'CUP_O_Mi8_RU',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
@@ -2746,10 +2822,10 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/0,
-	/*Price*/8000,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2768,7 +2844,7 @@ _u pushBack [
 	/*Price*/40000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2778,16 +2854,16 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Mi24_Mk4_FAB_CSAT_T',
-	/*MenuName*/'Mi-24 MK4',
+	/*MenuName*/'Mi24 SuperHind - Bomb(Dumb)',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
 	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2815,6 +2891,7 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
@@ -2825,7 +2902,7 @@ _u pushBack [
 	/*Price*/55000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2844,7 +2921,7 @@ _u pushBack [
 	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2863,7 +2940,7 @@ _u pushBack [
 	/*Price*/40000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2873,16 +2950,35 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Mi24_D_Dynamic_CSAT_T',
-	/*MenuName*/'Mi24D - 4AT/128RKTS',
+	/*MenuName*/'Mi24D - 4AT(RDR)/128RKTS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
 	/*Price*/35000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Mi24_P_Dynamic_CSAT_T',
+	/*MenuName*/'Mi24P - 4AT(RDR)/40RKTS/2FAB',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/2,
+	/*Price*/34000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2894,7 +2990,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_Mi24_P_Dynamic_CSAT_T',
+	/*ClassName*/'CUP_O_Mi24_P_Dynamic_RU',
 	/*MenuName*/'Mi24P - 4AT/40RKTS/2FAB',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
@@ -2911,9 +3007,47 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Mi24_V_Dynamic_CSAT_T',
+	/*MenuName*/'Mi24V - 4AT(RDR)/80RKTS',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/2,
+	/*Price*/30000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Mi24_Mk4_CSAT_T',
+	/*MenuName*/'Mi24 SuperHind - 8AT(AI-TRGT)/80RKTS',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/38000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Attack Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Mi24_V_Dynamic_RU',
 	/*MenuName*/'Mi24V - 4AT/128RKTS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
@@ -3386,7 +3520,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BM21_RU',
 	/*MenuName*/'BM21 Grad MLRS',

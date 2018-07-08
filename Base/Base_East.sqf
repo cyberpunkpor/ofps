@@ -198,7 +198,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 	case 0: {//Vanilla
 		_u pushback [ 
 			/*headers*/[CTI_RADAR, "Air Radar", "Air Radar"],
-			/*classes*/["Land_TTowerBig_1_F", "Land_TTowerBig_1_ruins_F"],
+			/*classes*/["O_Radar_System_02_F", "Land_TTowerBig_1_ruins_F"],
 			/*prices*/1500,
 			/*times*/60,
 			/*MaxCount*/1,

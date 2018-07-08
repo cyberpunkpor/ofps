@@ -68,17 +68,60 @@ Description:	This file presents classnames and their values to the mission.
 			//['Rifle','Rifle']
 
 //--------------------------------------------------------------------------------------------------------------
-private ["_side", "_faction", "_u"];
+private ["_side", "_u"];
 
 _side = _this;
-_faction = "East";
 
 _u = []; //Ammo Classname
 
 //--------------------------------------------------------------------------------------------------------------
 
 
+//--- LAND -----------------------------------------------------------
+
+//--- Heavy --------------------------
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'HAFM_20Rnd_100mm_HE',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/4,
+	/*Price*/10000,
+	/*RearmTime*/400,
+	/*Filters*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'HAFM_20Rnd_127mm_Mk45_HE',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/4,
+	/*Price*/10000,
+	/*RearmTime*/400,
+	/*Filters*/[]
+];
+
+//--- Missles --------------------------
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'HAFM_Maverick_mag',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/0,
+	/*Price*/1,
+	/*RearmTime*/3,
+	/*Filters*/[]
+];
+
+//--- AIR ------------------------------------------------------------
+
 
 //--------------------------------------------------------------------------------------------------------------
 
-[_side, _faction, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Ammo\Ammo_Config_Set.sqf";
+[_side, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Ammo\Ammo_Config_Set.sqf";

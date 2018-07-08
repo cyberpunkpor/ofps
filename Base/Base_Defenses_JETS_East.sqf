@@ -151,7 +151,53 @@ _u pushBack [
 	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
 ];
 
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'S-750 Rhea',
+	/*Class*/"O_SAM_System_04_F",
+	/*Price*/80000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+];
 
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Briefing Room Desk',
+	/*Class*/"Land_BriefingRoomDesk_01_F",
+	/*Price*/50,
+	/*Placement*/[90, 15],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Briefing Room Screen',
+	/*Class*/"Land_BriefingRoomScreen_01_F",
+	/*Price*/50,
+	/*Placement*/[90, 15],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";

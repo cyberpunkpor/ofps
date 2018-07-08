@@ -1986,10 +1986,10 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/4,
-	/*Price*/50000,
+	/*Price*/46000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2000,15 +2000,15 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'KA60 Orca - 12RKTS/Cannon',
 	/*ClassName*/'O_Heli_Light_02_dynamicLoadout_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
-	/*Price*/25000,
+	/*Price*/14000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2037,7 +2037,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_MBT_02_arty_F',
 	/*MenuName*/'2S9 Sochor Artillery (CSAT)',
@@ -2056,7 +2056,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_MBT_02_arty_ghex_F',
 	/*MenuName*/'2S9 Sochor Artillery (Tropic)',
@@ -2332,25 +2332,6 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['TropicHex'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'C_Kart_01_Red_F',
-	/*MenuName*/'Kart (Red)',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/100,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Black'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2687,12 +2668,12 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_G_Van_01_fuel_F',
 	/*MenuName*/'Deployable FOB',
-	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"logistics"]],
-	/*UpgradeLevel*/1,
+	/*Location*/[CTI_REPAIR,[CTI_DEPOT,"logistics",4]],
+	/*UpgradeLevel*/2,
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['FOB Truck'],
+	/*Camo*/['Small FOB Truck'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,

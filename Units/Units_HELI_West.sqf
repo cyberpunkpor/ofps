@@ -146,7 +146,7 @@ _u pushBack [
 	/*Price*/12000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Trans Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,

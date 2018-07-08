@@ -156,7 +156,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_Virginia',
 	/*MenuName*/['%1 (Respawn)'],
