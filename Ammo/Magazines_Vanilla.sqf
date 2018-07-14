@@ -3171,7 +3171,7 @@ _u pushBack [
 	/*ClassName*/'Titan_AP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/3000,
+	/*Price*/1500,
 	/*RearmTime*/25,
 	/*Filters*/[]
 ];
@@ -3697,7 +3697,7 @@ _u pushBack [
 	/*ClassName*/'4Rnd_Titan_long_missiles',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/20000,
+	/*Price*/8000,
 	/*RearmTime*/120,
 	/*Filters*/[]
 ];
@@ -3709,7 +3709,7 @@ _u pushBack [
 	/*ClassName*/'4Rnd_Titan_long_missiles_O',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/20000,
+	/*Price*/8000,
 	/*RearmTime*/120,
 	/*Filters*/[]
 ];
@@ -3733,7 +3733,7 @@ _u pushBack [
 	/*ClassName*/'2Rnd_GAT_missiles',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/8000,
+	/*Price*/4000,
 	/*RearmTime*/60,
 	/*Filters*/[]
 ];
@@ -3745,7 +3745,7 @@ _u pushBack [
 	/*ClassName*/'5Rnd_GAT_missiles',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/20000,
+	/*Price*/10000,
 	/*RearmTime*/150,
 	/*Filters*/[]
 ];
@@ -3757,7 +3757,7 @@ _u pushBack [
 	/*ClassName*/'2Rnd_GAT_missiles_O',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/8000,
+	/*Price*/4000,
 	/*RearmTime*/60,
 	/*Filters*/[]
 ];
@@ -3805,7 +3805,7 @@ _u pushBack [
 	/*ClassName*/'magazine_Missile_rim116_x21',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/30000,
+	/*Price*/42000,
 	/*RearmTime*/300,
 	/*Filters*/[]
 ];
@@ -3817,7 +3817,7 @@ _u pushBack [
 	/*ClassName*/'magazine_Missile_rim162_x8',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/40000,
+	/*Price*/20000,
 	/*RearmTime*/240,
 	/*Filters*/[]
 ];
