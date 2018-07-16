@@ -197,7 +197,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_API_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/45,
+	/*Price*/4.5,
 	/*RearmTime*/3,
 	/*Filters*/[]
 ];
@@ -209,7 +209,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_API_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/45,
+	/*Price*/4.5,
 	/*RearmTime*/3,
 	/*Filters*/[]
 ];
@@ -221,7 +221,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_API_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/45,
+	/*Price*/4.5,
 	/*RearmTime*/3,
 	/*Filters*/[]
 ];
@@ -233,7 +233,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_23mm_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/25,
+	/*Price*/2.5,
 	/*RearmTime*/3,
 	/*Filters*/[]
 ];
@@ -245,7 +245,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_23mm_APHE_Green_Tracer',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/25,
+	/*Price*/2.5,
 	/*RearmTime*/3,
 	/*Filters*/[]
 ];
@@ -257,7 +257,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_23mm_APHE_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/25,
+	/*Price*/2.5,
 	/*RearmTime*/3,
 	/*Filters*/[]
 ];
@@ -269,7 +269,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_23mm_APHE_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/25,
+	/*Price*/2.5,
 	/*RearmTime*/3,
 	/*Filters*/[]
 ];
@@ -281,7 +281,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_23mm_APHE_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/25,
+	/*Price*/2.5,
 	/*RearmTime*/3,
 	/*Filters*/[]
 ];
@@ -293,7 +293,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_25mm_CAS_Red_Tracer',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/25,
+	/*Price*/2.5,
 	/*RearmTime*/3,
 	/*Filters*/[]
 ];
