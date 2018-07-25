@@ -116,7 +116,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -132,7 +132,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 50]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -148,7 +148,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -164,7 +164,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -180,7 +180,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -196,7 +196,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
