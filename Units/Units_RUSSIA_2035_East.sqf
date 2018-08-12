@@ -1358,7 +1358,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'min_rf_soldier_desert',
+	/*ClassName*/'min_rf_soldier_desert,
     /*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/2,

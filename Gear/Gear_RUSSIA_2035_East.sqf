@@ -90,7 +90,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -101,7 +101,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -112,7 +112,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -123,7 +123,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -134,7 +134,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -145,7 +145,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -156,7 +156,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -167,7 +167,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -178,7 +178,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -189,7 +189,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -200,7 +200,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -211,7 +211,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -222,7 +222,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -233,7 +233,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -244,7 +244,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -255,7 +255,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -266,7 +266,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -277,7 +277,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -288,7 +288,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -299,7 +299,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -310,7 +310,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -321,7 +321,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -332,7 +332,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -343,7 +343,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -354,7 +354,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -365,7 +365,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -376,7 +376,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -387,7 +387,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -398,7 +398,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -409,7 +409,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -420,7 +420,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -431,7 +431,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -442,7 +442,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -453,7 +453,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -464,7 +464,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -475,7 +475,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -486,7 +486,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -497,7 +497,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -508,7 +508,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -519,7 +519,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -530,7 +530,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -541,7 +541,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -552,7 +552,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -563,7 +563,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -574,7 +574,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -585,7 +585,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -596,7 +596,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -607,7 +607,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -618,7 +618,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -629,7 +629,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -640,7 +640,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -651,7 +651,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -662,7 +662,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -673,7 +673,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -684,7 +684,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -695,7 +695,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -706,7 +706,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -717,7 +717,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -728,7 +728,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -739,7 +739,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -750,7 +750,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -761,7 +761,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -772,7 +772,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -783,7 +783,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -794,7 +794,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -805,7 +805,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -816,7 +816,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -827,7 +827,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -838,7 +838,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -849,7 +849,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -860,7 +860,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -871,7 +871,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -882,7 +882,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -893,7 +893,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -904,7 +904,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -915,7 +915,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -926,7 +926,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -937,7 +937,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -948,7 +948,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -959,7 +959,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -970,7 +970,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -981,7 +981,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -992,7 +992,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1003,7 +1003,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1014,7 +1014,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1025,7 +1025,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1036,7 +1036,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1047,7 +1047,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1058,7 +1058,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1069,7 +1069,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1080,7 +1080,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1091,7 +1091,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1102,7 +1102,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1113,7 +1113,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1124,7 +1124,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1135,7 +1135,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1146,7 +1146,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1157,7 +1157,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1168,7 +1168,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1179,7 +1179,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1190,7 +1190,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1201,7 +1201,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1212,7 +1212,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1223,7 +1223,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1234,7 +1234,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1245,7 +1245,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1256,7 +1256,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1267,7 +1267,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1278,7 +1278,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1289,7 +1289,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1300,7 +1300,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1311,7 +1311,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1322,7 +1322,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1333,7 +1333,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1344,7 +1344,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1355,7 +1355,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1366,7 +1366,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1377,7 +1377,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1388,7 +1388,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1399,7 +1399,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1410,7 +1410,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1421,7 +1421,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1432,7 +1432,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1443,7 +1443,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1454,7 +1454,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1465,7 +1465,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1476,7 +1476,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1487,7 +1487,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1498,7 +1498,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1509,7 +1509,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1520,7 +1520,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1531,7 +1531,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1542,7 +1542,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1553,7 +1553,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1564,7 +1564,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1575,7 +1575,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1586,7 +1586,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1597,7 +1597,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1608,7 +1608,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1619,7 +1619,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1630,7 +1630,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1641,7 +1641,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1652,7 +1652,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1663,7 +1663,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1674,7 +1674,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1685,7 +1685,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1696,7 +1696,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1707,7 +1707,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/15,
 	/*Camo*/[],
-	/*Type*/['Rifle']
+	/*Type*/[Rifle]
 ];
 
 _u pushBack [
@@ -1718,7 +1718,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1729,7 +1729,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1740,7 +1740,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1751,7 +1751,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1762,7 +1762,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1773,7 +1773,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1784,7 +1784,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1795,7 +1795,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1806,7 +1806,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1817,7 +1817,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1828,7 +1828,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1839,7 +1839,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1850,7 +1850,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1861,7 +1861,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1872,7 +1872,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1883,7 +1883,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1894,7 +1894,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1905,7 +1905,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1916,7 +1916,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1927,7 +1927,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1938,7 +1938,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1949,7 +1949,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1960,7 +1960,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1971,7 +1971,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1982,7 +1982,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -1993,7 +1993,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2004,7 +2004,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2015,7 +2015,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2026,7 +2026,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2037,7 +2037,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2048,7 +2048,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2059,7 +2059,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2070,7 +2070,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2081,7 +2081,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2092,7 +2092,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2103,7 +2103,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2114,7 +2114,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2125,7 +2125,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2136,7 +2136,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2147,7 +2147,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/30,
 	/*Camo*/[],
-	/*Type*/['Rifle-GL']
+	/*Type*/[Rifle-GL]
 ];
 
 _u pushBack [
@@ -2159,6 +2159,39 @@ _u pushBack [
 	/*Price*/80,
 	/*Camo*/[],
 	/*Type*/[DMR]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'LMG_min_rf_6p69',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/150,
+	/*Camo*/[],
+	/*Type*/[LGM]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'LMG_min_rf_6p69_desert',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/150,
+	/*Camo*/[],
+	/*Type*/[LGM]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'LMG_min_rf_6p69_camo',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/150,
+	/*Camo*/[],
+	/*Type*/[LGM]
 ];
 
 _u pushBack [
@@ -2288,7 +2321,7 @@ _u pushBack [
 	/*ClassName*/'arifle_min_rf_ash_12',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1500,
+	/*Price*/1100,
 	/*Camo*/[],
 	/*Type*/[DMR]
 ];
@@ -2299,7 +2332,7 @@ _u pushBack [
 	/*ClassName*/'arifle_min_rf_ash_12_pkm_a',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1500,
+	/*Price*/1100,
 	/*Camo*/[],
 	/*Type*/[DMR]
 ];
@@ -2310,7 +2343,7 @@ _u pushBack [
 	/*ClassName*/'arifle_min_rf_ash_12_ekp_8_18',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1500,
+	/*Price*/1100,
 	/*Camo*/[],
 	/*Type*/[DMR]
 ];
@@ -2321,7 +2354,7 @@ _u pushBack [
 	/*ClassName*/'arifle_min_rf_ash_12_po_4x24_p',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1500,
+	/*Price*/1100,
 	/*Camo*/[],
 	/*Type*/[DMR]
 ];
@@ -2332,7 +2365,7 @@ _u pushBack [
 	/*ClassName*/'arifle_min_rf_ash_12_po_4x24_p_ir',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1500,
+	/*Price*/1100,
 	/*Camo*/[],
 	/*Type*/[DMR]
 ];
@@ -2343,7 +2376,7 @@ _u pushBack [
 	/*ClassName*/'arifle_min_rf_ash_12_c',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1500,
+	/*Price*/1100,
 	/*Camo*/[],
 	/*Type*/[DMR]
 ];
@@ -2613,7 +2646,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2624,7 +2657,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2635,7 +2668,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2646,7 +2679,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2657,7 +2690,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2668,7 +2701,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2679,7 +2712,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2690,7 +2723,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2701,7 +2734,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2712,7 +2745,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2723,7 +2756,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2734,7 +2767,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2745,7 +2778,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2756,7 +2789,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2767,7 +2800,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2778,7 +2811,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2789,7 +2822,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2800,7 +2833,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2811,7 +2844,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2822,7 +2855,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2833,7 +2866,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2844,7 +2877,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2855,7 +2888,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2866,7 +2899,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2877,7 +2910,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2888,7 +2921,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2899,7 +2932,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2910,7 +2943,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2921,7 +2954,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2932,7 +2965,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2943,7 +2976,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -2954,7 +2987,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2965,7 +2998,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2976,7 +3009,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2987,7 +3020,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -2998,7 +3031,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -3009,7 +3042,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3020,7 +3053,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3031,7 +3064,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3042,7 +3075,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3053,7 +3086,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3064,7 +3097,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3075,7 +3108,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3086,7 +3119,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3097,7 +3130,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3108,7 +3141,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3119,7 +3152,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3130,7 +3163,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3141,7 +3174,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3152,7 +3185,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3163,7 +3196,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3171,10 +3204,10 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_tactical_vest_flora',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*UpgradeLevel*/0,
+	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3182,10 +3215,10 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_tactical_vest_surpat',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*UpgradeLevel*/4,
+	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3193,10 +3226,10 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_tactical_vest_vsr',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*UpgradeLevel*/0,
+	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3204,10 +3237,10 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_tactical_vest_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*UpgradeLevel*/0,
+	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3215,10 +3248,10 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_tactical_vest_green',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*UpgradeLevel*/0,
+	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3229,7 +3262,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3240,7 +3273,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3251,7 +3284,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3262,7 +3295,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3273,7 +3306,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3284,7 +3317,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3295,7 +3328,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3306,7 +3339,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3317,7 +3350,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3328,7 +3361,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3339,95 +3372,95 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_belt_flora',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_belt_surpat',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_combat_belt_flora',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_combat_belt_surpat',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_combat_belt_vsr',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_combat_belt_multicam',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_combat_belt_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'Vest_min_rf_combat_belt_green',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -3438,7 +3471,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3449,7 +3482,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3460,7 +3493,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3471,7 +3504,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3482,7 +3515,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3493,7 +3526,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3504,7 +3537,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3515,7 +3548,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3526,7 +3559,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3537,7 +3570,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3548,7 +3581,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3559,7 +3592,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3570,7 +3603,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3581,7 +3614,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3592,7 +3625,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3603,7 +3636,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3614,7 +3647,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3625,7 +3658,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3636,7 +3669,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3647,7 +3680,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3658,7 +3691,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3669,7 +3702,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3680,7 +3713,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3691,7 +3724,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3702,7 +3735,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3713,7 +3746,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3724,7 +3757,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3735,7 +3768,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3746,7 +3779,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3757,7 +3790,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3768,7 +3801,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3779,7 +3812,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3790,7 +3823,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3801,7 +3834,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3812,7 +3845,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3823,7 +3856,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3834,7 +3867,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3845,7 +3878,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3856,7 +3889,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3867,7 +3900,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3878,7 +3911,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3889,7 +3922,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3900,7 +3933,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3911,7 +3944,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3922,7 +3955,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3933,7 +3966,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3944,7 +3977,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3955,7 +3988,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3966,7 +3999,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3977,7 +4010,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3988,7 +4021,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -3999,7 +4032,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4010,7 +4043,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4021,7 +4054,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/200,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4032,7 +4065,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/200,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4043,7 +4076,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/200,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4054,7 +4087,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/200,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4065,7 +4098,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4076,7 +4109,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4087,7 +4120,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4098,7 +4131,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4109,7 +4142,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4120,7 +4153,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4131,7 +4164,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4142,7 +4175,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 
@@ -4156,7 +4189,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4167,7 +4200,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4178,7 +4211,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4189,7 +4222,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4200,7 +4233,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4211,7 +4244,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4222,7 +4255,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4233,7 +4266,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4244,7 +4277,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4255,7 +4288,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4266,7 +4299,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4277,7 +4310,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4288,7 +4321,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4299,7 +4332,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4310,7 +4343,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4321,7 +4354,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4332,7 +4365,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4343,7 +4376,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4354,7 +4387,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4365,7 +4398,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4376,7 +4409,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4387,7 +4420,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4398,7 +4431,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4409,7 +4442,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4420,7 +4453,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4431,7 +4464,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4442,7 +4475,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4453,7 +4486,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4464,7 +4497,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4475,7 +4508,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4486,7 +4519,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4497,7 +4530,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4508,7 +4541,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4519,7 +4552,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4530,7 +4563,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4541,7 +4574,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4552,7 +4585,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4563,7 +4596,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4574,7 +4607,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4585,7 +4618,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4596,7 +4629,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4607,7 +4640,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4618,7 +4651,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4629,7 +4662,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4640,7 +4673,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4651,7 +4684,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4662,7 +4695,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4673,7 +4706,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4684,7 +4717,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4695,7 +4728,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4706,7 +4739,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4717,7 +4750,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4728,7 +4761,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4739,7 +4772,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/200,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4750,7 +4783,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/200,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4761,7 +4794,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/200,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4772,7 +4805,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/200,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4783,7 +4816,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4794,7 +4827,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4805,7 +4838,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4816,7 +4849,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4827,7 +4860,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4838,7 +4871,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4849,7 +4882,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4860,7 +4893,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Uniform']
+	/*Type*/[Uniform]
 ];
 
 _u pushBack [
@@ -4871,7 +4904,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4882,7 +4915,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4893,7 +4926,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4904,7 +4937,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4915,7 +4948,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4926,7 +4959,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4937,7 +4970,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4948,7 +4981,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4959,7 +4992,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4970,7 +5003,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/400,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4981,7 +5014,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -4992,7 +5025,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5003,7 +5036,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5014,7 +5047,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5025,7 +5058,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5036,7 +5069,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5047,7 +5080,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5058,7 +5091,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5069,7 +5102,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5080,7 +5113,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5091,7 +5124,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5102,7 +5135,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5113,7 +5146,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5124,7 +5157,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5135,7 +5168,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5146,7 +5179,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5157,7 +5190,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5168,7 +5201,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5179,7 +5212,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5190,7 +5223,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
@@ -5201,106 +5234,106 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'min_rf_belt_flora',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'min_rf_belt_surpat',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'min_rf_combat_belt_flora',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'min_rf_combat_belt_surpat',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'min_rf_combat_belt_vsr',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'min_rf_combat_belt_multicam',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'min_rf_combat_belt_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'min_rf_combat_belt_green',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['vest']
+	/*Type*/[vest]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'min_rf_helmet_pilot',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5311,7 +5344,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/100,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5322,7 +5355,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5333,7 +5366,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5344,7 +5377,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5355,7 +5388,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5366,7 +5399,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5377,7 +5410,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5388,7 +5421,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5399,7 +5432,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5410,7 +5443,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5421,7 +5454,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5432,7 +5465,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5443,7 +5476,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5454,7 +5487,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5465,7 +5498,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5476,7 +5509,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5487,7 +5520,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/5,
 	/*Camo*/[],
-	/*Type*/['Helmet']
+	/*Type*/[Helmet]
 ];
 
 _u pushBack [
@@ -5498,7 +5531,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5509,7 +5542,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5520,7 +5553,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5531,7 +5564,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5542,7 +5575,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5553,7 +5586,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5564,7 +5597,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5575,7 +5608,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5586,7 +5619,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5597,7 +5630,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5608,7 +5641,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5619,7 +5652,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5630,7 +5663,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5641,7 +5674,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5652,7 +5685,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 _u pushBack [
@@ -5663,7 +5696,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/['Hat']
+	/*Type*/[Hat]
 ];
 
 //--- Backpacks
@@ -5676,7 +5709,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5687,7 +5720,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5698,7 +5731,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5709,7 +5742,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5720,7 +5753,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5731,7 +5764,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5742,7 +5775,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5753,7 +5786,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5764,7 +5797,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5775,7 +5808,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5786,7 +5819,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5797,7 +5830,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5808,7 +5841,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5819,7 +5852,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5830,7 +5863,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5841,7 +5874,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5852,7 +5885,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5863,7 +5896,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5874,7 +5907,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5885,7 +5918,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5896,7 +5929,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5907,7 +5940,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5918,7 +5951,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5929,7 +5962,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5940,7 +5973,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5951,7 +5984,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5962,7 +5995,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5973,7 +6006,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5984,7 +6017,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -5995,7 +6028,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6006,7 +6039,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6014,10 +6047,10 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'min_rf_torna_flora',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/0,
-	/*Price*/20,
+	/*UpgradeLevel*/3,
+	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6026,9 +6059,9 @@ _u pushBack [
 	/*ClassName*/'min_rf_torna_surpat',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/20,
+	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6036,10 +6069,10 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'min_rf_torna_vsr',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/0,
-	/*Price*/20,
+	/*UpgradeLevel*/3,
+	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6050,7 +6083,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6061,7 +6094,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6072,7 +6105,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6083,7 +6116,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6094,7 +6127,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6105,7 +6138,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6116,7 +6149,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6125,9 +6158,9 @@ _u pushBack [
 	/*ClassName*/'min_rf_torna_flora_Metis_w',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/5,
-	/*Price*/15000,
+	/*Price*/5000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6138,7 +6171,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/20000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6149,7 +6182,7 @@ _u pushBack [
 	/*UpgradeLevel*/2,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6160,7 +6193,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6171,7 +6204,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6182,7 +6215,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6193,7 +6226,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6204,7 +6237,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6215,7 +6248,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6226,7 +6259,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6237,7 +6270,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6248,7 +6281,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6257,9 +6290,9 @@ _u pushBack [
 	/*ClassName*/'min_rf_torna_flora_Mortar_w',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/20000,
+	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6270,7 +6303,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6281,7 +6314,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6292,7 +6325,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6303,7 +6336,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6314,7 +6347,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6325,7 +6358,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6336,7 +6369,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6347,7 +6380,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6358,7 +6391,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6369,7 +6402,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6380,7 +6413,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6391,7 +6424,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6402,7 +6435,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6413,7 +6446,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6424,7 +6457,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6435,7 +6468,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6446,7 +6479,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6457,7 +6490,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6468,7 +6501,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6477,9 +6510,9 @@ _u pushBack [
 	/*ClassName*/'min_rf_torna_surpat_Mortar_w',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/20000,
+	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6490,7 +6523,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6501,7 +6534,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6512,7 +6545,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack
 ];
 
 _u pushBack [
@@ -6523,7 +6556,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6531,10 +6564,10 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'min_rf_torna_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/0,
-	/*Price*/20,
+	/*UpgradeLevel*/3,
+	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6545,7 +6578,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6556,7 +6589,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6567,7 +6600,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6578,7 +6611,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6589,7 +6622,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6600,7 +6633,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6611,7 +6644,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6622,7 +6655,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6633,7 +6666,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6644,7 +6677,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 _u pushBack [
@@ -6655,7 +6688,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/40,
 	/*Camo*/[],
-	/*Type*/['Backpack']
+	/*Type*/[Backpack]
 ];
 
 
