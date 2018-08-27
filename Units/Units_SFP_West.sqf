@@ -1719,13 +1719,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_automaticrifleman_ksp90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1738,12 +1738,12 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_crew',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
@@ -1757,13 +1757,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_engineer',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/175,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1776,13 +1776,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_explosive_specialist',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1795,13 +1795,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_gr',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/120,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1814,13 +1814,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_machinegunner_ksp58',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/700,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1833,13 +1833,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_marksman',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1852,13 +1852,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_medic',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1871,13 +1871,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_officer',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
-	/*Price*/75,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1890,13 +1890,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_platoonleader',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1909,13 +1909,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_rifleman_ag90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/5,
-	/*Price*/1500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1928,13 +1928,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_rifleman_ak4',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/175,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1947,13 +1947,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_rifleman_ak5',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1966,13 +1966,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_rifleman_cap_peltor',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/150,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -1985,13 +1985,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_rifleman_folded',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/175,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2004,13 +2004,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_rifleman_jtac',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/220,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2118,13 +2118,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_sniper',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2142,8 +2142,8 @@ _u pushBack [
 	/*ClassName*/'sfp_m90d_sog_ag90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/5,
-	/*Price*/1500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2161,8 +2161,8 @@ _u pushBack [
 	/*ClassName*/'sfp_m90d_sog_ak5',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2180,8 +2180,8 @@ _u pushBack [
 	/*ClassName*/'sfp_m90d_sog_ak5_sd',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2237,8 +2237,8 @@ _u pushBack [
 	/*ClassName*/'sfp_m90d_sog_explosive_specialist',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/600,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2251,13 +2251,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_sog_g36',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2270,13 +2270,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_sog_jtac',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2294,8 +2294,8 @@ _u pushBack [
 	/*ClassName*/'sfp_m90d_sog_ksp90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2313,8 +2313,8 @@ _u pushBack [
 	/*ClassName*/'sfp_m90d_sog_machinegunner_ksp58',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/800,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2327,13 +2327,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_sog_medic',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2346,13 +2346,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_sog_sniper',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2365,13 +2365,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_sog_sniper_ag90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/5,
-	/*Price*/1500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2441,13 +2441,13 @@ _u pushBack [
 ]; 	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_squadleader',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2460,13 +2460,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90d_teamleader',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2555,13 +2555,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_automaticrifleman_ksp90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2574,12 +2574,12 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_crew',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
@@ -2593,13 +2593,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_engineer',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/175,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2612,13 +2612,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_explosive_specialist',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2631,13 +2631,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_gr',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/120,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2650,13 +2650,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_machinegunner_ksp58',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/700,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2669,13 +2669,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_medic',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2688,13 +2688,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_officer',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
-	/*Price*/75,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2707,7 +2707,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_pilot',
 	/*MenuName*/'',
@@ -2726,13 +2726,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_platoonleader',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2745,13 +2745,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_rifleman_ag90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/5,
-	/*Price*/1500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2764,13 +2764,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_rifleman_ak4',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/175,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2783,13 +2783,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_rifleman_ak5',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2821,13 +2821,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_sniper',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2840,13 +2840,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_squadleader',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2859,13 +2859,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90s_teamleader',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2954,13 +2954,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_ag90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/5,
-	/*Price*/1500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2973,13 +2973,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_ak5',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -2992,13 +2992,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_ak5_sd',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/1250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3049,13 +3049,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_explosive_specialist',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3068,13 +3068,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_g36',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3106,13 +3106,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_jtac',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3125,13 +3125,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_ksp90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3144,13 +3144,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_machinegunner_ksp58',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/700,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3163,13 +3163,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_medic',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3182,13 +3182,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_sniper',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3201,13 +3201,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90t_sog_sniper_ag90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/5,
-	/*Price*/1500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3353,13 +3353,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_automaticrifleman_ksp90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3453,7 +3453,7 @@ _u pushBack [
 	/*ClassName*/'sfp_m90w_crew',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
@@ -3467,13 +3467,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_engineer',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/175,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3486,13 +3486,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_explosive_specialist',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3505,13 +3505,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_gr',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/120,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3524,7 +3524,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_helipilot',
 	/*MenuName*/'',
@@ -3543,13 +3543,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_machinegunner_ksp58',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/700,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3562,13 +3562,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_marksman',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3581,13 +3581,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_medic',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3619,13 +3619,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_officer',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
-	/*Price*/75,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3638,7 +3638,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_pilot',
 	/*MenuName*/'',
@@ -3657,13 +3657,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_platoonleader',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3676,13 +3676,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_rifleman_ag90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/5,
-	/*Price*/1500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3695,13 +3695,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_rifleman_ak4',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/175,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3714,13 +3714,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_rifleman_ak5',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3771,13 +3771,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_rifleman_jtac',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/220,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3885,13 +3885,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sniper',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3904,13 +3904,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_ag90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/5,
-	/*Price*/1500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3923,13 +3923,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_ak5',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3942,13 +3942,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_ak5_sd',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/250,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -3999,13 +3999,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_explosive_specialist',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -4018,13 +4018,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_g36',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -4037,13 +4037,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_jtac',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -4056,13 +4056,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_ksp90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -4075,13 +4075,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_machinegunner_ksp58',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/700,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -4094,13 +4094,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_medic',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -4113,13 +4113,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_sniper',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -4132,13 +4132,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_sniper_ag90',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/5,
-	/*Price*/1500,
+	/*UpgradeLevel*/0,
+	/*Price*/100,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -4189,7 +4189,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_sog_uav_op',
 	/*MenuName*/'',
@@ -4208,7 +4208,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_m90w_squadleader',
 	/*MenuName*/'',
@@ -5776,8 +5776,8 @@ _u pushBack [
 	/*ClassName*/'sfp_tgb1111_sog_ksp58',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/1,
-	/*Price*/2000,
+	/*UpgradeLevel*/0,
+	/*Price*/1000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -6189,13 +6189,13 @@ _u pushBack [
 ];		
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_ikv91',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/1,
-	/*Price*/24000,
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -6475,13 +6475,13 @@ _u pushBack [
 
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_strv122',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/2,
-	/*Price*/35000,
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -6494,13 +6494,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_strv122_snow',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/2,
-	/*Price*/35000,
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[],
@@ -6513,13 +6513,13 @@ _u pushBack [
 ];	
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'sfp_strv122b',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/2,
-	/*Price*/35000,
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[],

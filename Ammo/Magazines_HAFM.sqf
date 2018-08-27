@@ -88,7 +88,7 @@ _u pushBack [
 	/*ClassName*/'HAFM_20Rnd_100mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/10000,
+	/*Price*/9000,
 	/*RearmTime*/400,
 	/*Filters*/[]
 ];
@@ -100,7 +100,7 @@ _u pushBack [
 	/*ClassName*/'HAFM_20Rnd_127mm_Mk45_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/10000,
+	/*Price*/9000,
 	/*RearmTime*/400,
 	/*Filters*/[]
 ];
@@ -115,7 +115,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/3,
+	/*RearmTime*/2,
 	/*Filters*/[]
 ];
 

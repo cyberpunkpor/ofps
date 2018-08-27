@@ -104,7 +104,7 @@ class items
 			receiveRemoteTargets=1;
 		};
 		id=23;
-		type="B_Ship_Gun_01_F";
+		type="OFPS_MK45_CANNON_B";
 		atlOffset=0.010959625;
 	};
 };

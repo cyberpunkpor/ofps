@@ -34,7 +34,7 @@ class items
 			receiveRemoteTargets=1;
 		};
 		id=24;
-		type="B_Ship_Gun_01_F";
+		type="OFPS_MK45_CANNON_B";
 		atlOffset=6.5;
 	};
 	class Item2
@@ -52,7 +52,7 @@ class items
 			receiveRemoteTargets=1;
 		};
 		id=25;
-		type="B_Ship_Gun_01_F";
+		type="OFPS_MK45_CANNON_B";
 		atlOffset=6.5;
 	};
 	class Item3
@@ -70,7 +70,7 @@ class items
 			receiveRemoteTargets=1;
 		};
 		id=26;
-		type="B_Ship_Gun_01_F";
+		type="OFPS_MK45_CANNON_B";
 		atlOffset=6.5;
 	};
 	class Item4
@@ -88,7 +88,7 @@ class items
 			receiveRemoteTargets=1;
 		};
 		id=27;
-		type="B_Ship_Gun_01_F";
+		type="OFPS_MK45_CANNON_B";
 		atlOffset=6.5;
 	};
 };
