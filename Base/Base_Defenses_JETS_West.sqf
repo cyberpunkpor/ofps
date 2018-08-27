@@ -152,7 +152,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'MIM-145 Defender',
 	/*Class*/"B_SAM_System_03_F",
 	/*Price*/80000,
@@ -169,9 +169,9 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
-	/*Name*/'Mk45 Hammer',
+	/*Name*/'Mk45 Hammer (Arty)',
 	/*Class*/"B_Ship_Gun_01_F",
-	/*Price*/10000,
+	/*Price*/250000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
@@ -184,7 +184,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk41 VLS',
 	/*Class*/"B_Ship_MRLS_01_F",
 	/*Price*/300000,
@@ -199,16 +199,17 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
+
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Mk45 Hammer Bunker',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_west",2]]],
-	/*Price*/15000,
+	/*Enabled*/true,
+	/*Name*/'Radar Unit',
+	/*Class*/"B_Radar_System_01_F",
+	/*Price*/25000,
 	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/2,
+	/*Upgrade*/3,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -217,38 +218,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
-	/*Name*/'Mk45 Hammer Bunker Tall',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_tall_west",2]]],
-	/*Price*/15000,
+	/*Name*/'USS Liberty Static Defense',
+	/*Class*/"Land_Destroyer_01_base_F",
+	/*Price*/100000,
 	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
+	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
-	/*Upgrade*/2,
+	/*Upgrade*/3,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.5]]
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Base Bunker Mk45 x4',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","base_bunker_mk45_x4_west",2]]],
-	/*Price*/45000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Briefing Room Desk',
 	/*Class*/"Land_BriefingRoomDesk_01_F",
 	/*Price*/50,
@@ -264,7 +249,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Briefing Room Screen',
 	/*Class*/"Land_BriefingRoomScreen_01_F",
 	/*Price*/50,

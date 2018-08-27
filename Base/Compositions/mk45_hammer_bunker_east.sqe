@@ -35,7 +35,7 @@ class items
 			receiveRemoteTargets=1;
 		};
 		id=4;
-		type="OFPS_MK45_HAMMER_O";
+		type="OFPS_MK45_CANNON_O";
 		atlOffset=0.031694412;
 	};
 };

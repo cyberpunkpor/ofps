@@ -105,7 +105,7 @@ _u = []; //Defense Classname
 
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'C-RAM Phalanx (Engages incoming rounds)',
 	/*Class*/"O_at_phalanx_35AI",
 	/*Price*/50000,
@@ -154,9 +154,41 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
-	/*Name*/'Mk45 Hammer',
-	/*Class*/"OFPS_MK45_HAMMER_O",
+	/*Name*/'Mk45 Cannon',
+	/*Class*/"OFPS_MK45_CANNON_O",
 	/*Price*/10000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Coastal Centurion (Anti Naval)',
+	/*Class*/"OFPS_CENTURION_O_COASTAL",
+	/*Price*/40000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Mk45 Hammer (Arty)',
+	/*Class*/"OFPS_MK45_HAMMER_O",
+	/*Price*/250000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
@@ -265,7 +297,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Map (tips over easy)',
 	/*Class*/["Land_MapBoard_F", [["Sign","map","\ofps_assets\images\sign_map.paa"]]],
 	/*Price*/100,
