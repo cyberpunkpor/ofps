@@ -1821,13 +1821,8 @@ _u pushBack [
 	/*ClassName*/'M_120mm_cannon_ATGM',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-<<<<<<< HEAD
-	/*Price*/2000,
-	/*RearmTime*/5,
-=======
 	/*Price*/1500,
 	/*RearmTime*/3,
->>>>>>> upstream
 	/*Filters*/[]
 ];
 
@@ -1838,13 +1833,8 @@ _u pushBack [
 	/*ClassName*/'M_120mm_cannon_ATGM_LG',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-<<<<<<< HEAD
-	/*Price*/2000,
-	/*RearmTime*/5,
-=======
 	/*Price*/1500,
 	/*RearmTime*/3,
->>>>>>> upstream
 	/*Filters*/[]
 ];
 
@@ -2064,13 +2054,8 @@ _u pushBack [
 	/*ClassName*/'M_Titan_AA_long',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-<<<<<<< HEAD
-	/*Price*/3500,
-	/*RearmTime*/30,
-=======
 	/*Price*/3000,
 	/*RearmTime*/20,
->>>>>>> upstream
 	/*Filters*/[]
 ];
 
@@ -2081,13 +2066,8 @@ _u pushBack [
 	/*ClassName*/'M_Titan_AT_long',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-<<<<<<< HEAD
-	/*Price*/2000,
-	/*RearmTime*/30,
-=======
 	/*Price*/1500,
 	/*RearmTime*/20,
->>>>>>> upstream
 	/*Filters*/[]
 ];
 
@@ -2771,13 +2751,8 @@ _u pushBack [
 	/*ClassName*/'ammo_Missile_rim116',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-<<<<<<< HEAD
-	/*Price*/2000,
-	/*RearmTime*/30,
-=======
 	/*Price*/1500,
 	/*RearmTime*/20,
->>>>>>> upstream
 	/*Filters*/[]
 ];
 
@@ -2788,13 +2763,8 @@ _u pushBack [
 	/*ClassName*/'ammo_Missile_rim162',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-<<<<<<< HEAD
-	/*Price*/2500,
-	/*RearmTime*/30,
-=======
 	/*Price*/2000,
 	/*RearmTime*/20,
->>>>>>> upstream
 	/*Filters*/[]
 ];
 
@@ -2904,11 +2874,7 @@ _u pushBack [
 	/*ClassName*/'CMflareAmmo',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-<<<<<<< HEAD
-	/*Price*/10,
-=======
 	/*Price*/5,
->>>>>>> upstream
 	/*RearmTime*/.5,
 	/*Filters*/[]
 ];
@@ -2920,11 +2886,7 @@ _u pushBack [
 	/*ClassName*/'CMflare_Chaff_Ammo',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-<<<<<<< HEAD
-	/*Price*/10,
-=======
 	/*Price*/5,
->>>>>>> upstream
 	/*RearmTime*/.5,
 	/*Filters*/[]
 ];
