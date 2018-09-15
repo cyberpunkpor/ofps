@@ -201,7 +201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk41 VLS',
 	/*Class*/"OFPS_MK41_VLS_O",
 	/*Price*/300000,
