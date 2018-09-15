@@ -155,7 +155,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'S-750 Rhea',
 	/*Class*/"O_SAM_System_04_F",
-	/*Price*/80000,
+	/*Price*/250000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],

@@ -185,7 +185,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'D-30 (Multipurpose)',
 	/*Class*/"OFPS_O_D30_MP",
 	/*Price*/25000,
