@@ -153,8 +153,8 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Mk45 Cannon',
+	/*Enabled*/true,
+	/*Name*/'Mk45 Advanced Cannon',
 	/*Class*/"OFPS_MK45_CANNON_O",
 	/*Price*/10000,
 	/*Placement*/[180, 15],
@@ -169,7 +169,55 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion (4km)',
+	/*Class*/"OFPS_CENTURION_O_4KM",
+	/*Price*/40000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion (6km)',
+	/*Class*/"OFPS_CENTURION_O_6KM",
+	/*Price*/60000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion (8km)',
+	/*Class*/"OFPS_CENTURION_O_8KM",
+	/*Price*/80000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'Coastal Centurion (Anti Naval)',
 	/*Class*/"OFPS_CENTURION_O_COASTAL",
 	/*Price*/40000,
@@ -217,7 +265,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk45 Hammer Bunker',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_east",2]]],
 	/*Price*/15000,
@@ -233,7 +281,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk45 Hammer Bunker Tall',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_tall_east",2]]],
 	/*Price*/15000,
@@ -249,7 +297,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Base Bunker Mk45 x4',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","base_bunker_mk45_x4_east",2]]],
 	/*Price*/45000,
