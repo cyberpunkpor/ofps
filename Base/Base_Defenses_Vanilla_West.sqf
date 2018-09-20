@@ -759,6 +759,7 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Centurion Fortified',

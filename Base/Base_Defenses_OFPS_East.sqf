@@ -233,6 +233,22 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Coastal Centurion Fortified (Anti Naval)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_coastal_fortified_east",2]]],
+	/*Price*/50000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Mk45 Hammer (Arty)',
 	/*Class*/"OFPS_MK45_HAMMER_O",
