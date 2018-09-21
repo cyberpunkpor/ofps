@@ -17,7 +17,6 @@ class items
 		};
 		id=0;
 		type="Land_Bunker_01_big_F";
-		atlOffset=2.1429572;
 	};
 	class Item1
 	{
@@ -36,6 +35,5 @@ class items
 		};
 		id=4;
 		type="OFPS_MK45_CANNON_O";
-		atlOffset=0.031694412;
 	};
 };

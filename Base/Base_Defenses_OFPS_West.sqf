@@ -169,7 +169,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (4km)',
 	/*Class*/"OFPS_CENTURION_B_4KM",
 	/*Price*/40000,
@@ -185,7 +185,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (6km)',
 	/*Class*/"OFPS_CENTURION_B_6KM",
 	/*Price*/60000,
@@ -201,7 +201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (8km)',
 	/*Class*/"OFPS_CENTURION_B_8KM",
 	/*Price*/80000,
@@ -239,6 +239,22 @@ _u pushBack [
 	/*Price*/50000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'MIM-145 Defender (12km)',
+	/*Class*/"OFPS_B_SAM_System_03_F",
+	/*Price*/200000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
