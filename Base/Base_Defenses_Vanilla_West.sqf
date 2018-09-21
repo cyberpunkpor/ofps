@@ -1114,11 +1114,59 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Heli Pad',
+	/*Name*/'Light Vehicle Spawn Pad',
 	/*Class*/"Land_HelipadSquare_F",
 	/*Price*/100,
 	/*Placement*/[0, 7],
-	/*Tags*/["Misc"],
+	/*Tags*/["Markers"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Heavy Vehicle Spawn Pad',
+	/*Class*/"Land_HelipadRescue_F",
+	/*Price*/100,
+	/*Placement*/[0, 7],
+	/*Tags*/["Markers"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Fixed Air Spawn Pad',
+	/*Class*/"Land_HelipadCircle_F",
+	/*Price*/100,
+	/*Placement*/[0, 7],
+	/*Tags*/["Markers"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Rotary Air Spawn Pad',
+	/*Class*/"Land_HelipadCivil_F",
+	/*Price*/100,
+	/*Placement*/[0, 7],
+	/*Tags*/["Markers"],
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
