@@ -1,5 +1,5 @@
 version=53;
-center[]={1585.0435,7.6429572,5229.8213};
+center[]={1561.0322,5.6363463,4986.7148};
 class items
 {
 	items=2;
@@ -8,32 +8,33 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-0.0085449219,0.10386515,0.92382813};
+			position[]={-1.7241211,12.886209,-0.4140625};
 		};
 		side="Empty";
-		flags=1;
+		flags=5;
 		class Attributes
 		{
 		};
-		id=0;
-		type="Land_Bunker_01_big_F";
+		id=55;
+		type="Land_Cargo_Tower_V2_F";
 	};
 	class Item1
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={0.0084228516,6.0674148,-0.92333984};
-			angles[]={-0,3.1454394,0};
+			position[]={1.7241211,21.715519,0.41357422};
 		};
 		side="Empty";
 		flags=4;
 		class Attributes
 		{
-			reportRemoteTargets=1;
 			receiveRemoteTargets=1;
+			reportOwnPosition=1;
+			aiRadarUsage=1;
 		};
-		id=4;
-		type="OFPS_MK45_CANNON_O";
+		id=57;
+		type="B_SAM_System_03_F";
+		atlOffset=0.0019893646;
 	};
 };
