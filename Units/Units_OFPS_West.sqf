@@ -578,7 +578,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MK10_NATO',
-	/*MenuName*/'MK10 (Medic)',
+	/*MenuName*/'MK10 (Vehicle Transport / Medic)',
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/1,
 	/*Price*/8000,
@@ -597,7 +597,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_LCAC_NATO',
-	/*MenuName*/'LCAC (Medic)',
+	/*MenuName*/'LCAC (Vehicle Transport / Medic)',
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/1,
 	/*Price*/9000,
@@ -611,9 +611,6 @@ _u pushBack [
 	/*Script*/'service-medic',
 	/*Picture*/''
 ];
-
-
-
 
 _u pushBack [
 	/*Enabled*/true,

@@ -1146,10 +1146,10 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Fixed Air Spawn Pad',
+	/*Name*/'Rotary Air Spawn Pad',
 	/*Class*/"Land_HelipadCircle_F",
 	/*Price*/100,
-	/*Placement*/[0, 7],
+	/*Placement*/[180, 7],
 	/*Tags*/["Markers"],
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
@@ -1162,10 +1162,10 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Rotary Air Spawn Pad',
+	/*Name*/'Fixed Air Spawn Pad',
 	/*Class*/"Land_HelipadCivil_F",
 	/*Price*/100,
-	/*Placement*/[0, 7],
+	/*Placement*/[180, 7],
 	/*Tags*/["Markers"],
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
