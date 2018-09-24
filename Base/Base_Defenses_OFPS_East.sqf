@@ -105,7 +105,7 @@ _u = []; //Defense Classname
 
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'C-RAM Phalanx (Engages incoming rounds)',
 	/*Class*/"O_at_phalanx_35AI",
 	/*Price*/50000,
