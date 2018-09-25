@@ -1021,6 +1021,13 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'weapon_VLS_01',
+	/*MaxMags*/1
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'weapon_Fighter_Gun20mm_AA',
 	/*MaxMags*/1
 ];
