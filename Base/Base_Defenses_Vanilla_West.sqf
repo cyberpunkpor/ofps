@@ -759,6 +759,7 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Centurion Fortified',
@@ -1113,12 +1114,76 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Heli Pad',
+	/*Name*/'Pods/Crates Spawn Pad',
+	/*Class*/"Land_JumpTarget_F",
+	/*Price*/100,
+	/*Placement*/[0, 7],
+	/*Tags*/["Markers"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Light Vehicle Spawn Pad',
 	/*Class*/"Land_HelipadSquare_F",
 	/*Price*/100,
 	/*Placement*/[0, 7],
-	/*Tags*/["Misc"],
-	/*Location*/["HQ", "RepairTruck"],
+	/*Tags*/["Markers"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Heavy Vehicle Spawn Pad',
+	/*Class*/"Land_HelipadRescue_F",
+	/*Price*/100,
+	/*Placement*/[0, 7],
+	/*Tags*/["Markers"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Rotary Air Spawn Pad',
+	/*Class*/"Land_HelipadCircle_F",
+	/*Price*/100,
+	/*Placement*/[180, 7],
+	/*Tags*/["Markers"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Fixed Air Spawn Pad',
+	/*Class*/"Land_HelipadCivil_F",
+	/*Price*/100,
+	/*Placement*/[180, 7],
+	/*Tags*/["Markers"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
 	/*MaxCount*/-1,
@@ -2108,6 +2173,22 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Bulldozer Terrain (25m)',
 	/*Class*/["ProtectionZone_F", [["Bulldozer","terrain",25]]],
+	/*Price*/500,
+	/*Placement*/[0, 7],
+	/*Tags*/["Bulldozer"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Bulldozer Terrain (100m)',
+	/*Class*/["ProtectionZone_F", [["Bulldozer","terrain",100]]],
 	/*Price*/1000,
 	/*Placement*/[0, 7],
 	/*Tags*/["Bulldozer"],
@@ -2140,6 +2221,22 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Bulldozer Buildings (25m)',
 	/*Class*/["ProtectionZone_F", [["Bulldozer","buildings",25]]],
+	/*Price*/2000,
+	/*Placement*/[0, 7],
+	/*Tags*/["Bulldozer"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Bulldozer Buildings (100m)',
+	/*Class*/["ProtectionZone_F", [["Bulldozer","buildings",100]]],
 	/*Price*/5000,
 	/*Placement*/[0, 7],
 	/*Tags*/["Bulldozer"],
@@ -2156,6 +2253,22 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Demolition (5m)',
 	/*Class*/["Land_JumpTarget_F", [["Demolition",5]]],
+	/*Price*/500,
+	/*Placement*/[0, 7],
+	/*Tags*/["Bulldozer"],
+	/*Location*/["HQ", "RepairTruck","DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Demolition (25m)',
+	/*Class*/["Land_JumpTarget_F", [["Demolition",25]]],
 	/*Price*/1000,
 	/*Placement*/[0, 7],
 	/*Tags*/["Bulldozer"],

@@ -87,6 +87,13 @@ _u pushBack [
 	/*MaxMags*/4
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_cannon_125mm_advanced',
+	/*MaxMags*/8
+];
+
 //--- Arty --------------------------
 
 //--- HE --------------------------
@@ -137,6 +144,13 @@ _u pushBack [
 ];
 
 //--- Naval --------------------------
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_weapon_coastalLauncher',
+	/*MaxMags*/1
+];
 
 //--- Other --------------------------
 

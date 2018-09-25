@@ -152,10 +152,10 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'S-750 Rhea',
 	/*Class*/"O_SAM_System_04_F",
-	/*Price*/80000,
+	/*Price*/250000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
@@ -168,7 +168,87 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'S-750 Rhea Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_east",2]]],
+	/*Price*/255000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'S-750 Rhea Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_tower_east",2]]],
+	/*Price*/260000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Radar Unit',
+	/*Class*/"O_Radar_System_02_F",
+	/*Price*/25000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Radar Unit Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","radar_tower_east",2]]],
+	/*Price*/30000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
 	/*Enabled*/false,
+	/*Name*/'USS Liberty Static Defense',
+	/*Class*/"Land_Destroyer_01_base_F",
+	/*Price*/100000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.5]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'Briefing Room Desk',
 	/*Class*/"Land_BriefingRoomDesk_01_F",
 	/*Price*/50,
@@ -184,7 +264,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Briefing Room Screen',
 	/*Class*/"Land_BriefingRoomScreen_01_F",
 	/*Price*/50,

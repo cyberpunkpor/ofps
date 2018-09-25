@@ -103,7 +103,21 @@ _u = []; //Defense Classname
 
 //--------------------------------------------------------------------------------------------------------------
 
-
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Remote Designator',
+	/*Class*/"B_Static_Designator_01_F",
+	/*Price*/1500,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 
 
 
