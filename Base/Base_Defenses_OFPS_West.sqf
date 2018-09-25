@@ -169,7 +169,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (4km)',
 	/*Class*/"OFPS_CENTURION_B_4KM",
 	/*Price*/40000,
@@ -185,7 +185,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (6km)',
 	/*Class*/"OFPS_CENTURION_B_6KM",
 	/*Price*/60000,
@@ -201,7 +201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (8km)',
 	/*Class*/"OFPS_CENTURION_B_8KM",
 	/*Price*/80000,
@@ -249,7 +249,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'MIM-145 Defender (12km)',
 	/*Class*/"OFPS_B_SAM_System_03_F",
 	/*Price*/200000,

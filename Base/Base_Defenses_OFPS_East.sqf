@@ -169,7 +169,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (4km)',
 	/*Class*/"OFPS_CENTURION_O_4KM",
 	/*Price*/40000,
@@ -185,7 +185,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (6km)',
 	/*Class*/"OFPS_CENTURION_O_6KM",
 	/*Price*/60000,
@@ -201,7 +201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (8km)',
 	/*Class*/"OFPS_CENTURION_O_8KM",
 	/*Price*/80000,
@@ -249,7 +249,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'S-750 Rhea (12km)',
 	/*Class*/"OFPS_O_SAM_System_04_F",
 	/*Price*/200000,

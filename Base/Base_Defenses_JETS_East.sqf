@@ -152,7 +152,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'S-750 Rhea',
 	/*Class*/"O_SAM_System_04_F",
 	/*Price*/250000,

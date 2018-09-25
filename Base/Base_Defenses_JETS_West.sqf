@@ -152,7 +152,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender',
 	/*Class*/"B_SAM_System_03_F",
 	/*Price*/250000,
