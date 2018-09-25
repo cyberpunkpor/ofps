@@ -266,6 +266,38 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'MIM-145 Defender Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_ofps_west",2]]],
+	/*Price*/255000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'MIM-145 Defender Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_tower_ofps_west",2]]],
+	/*Price*/260000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'Mk45 Hammer Bunker',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_west",2]]],
 	/*Price*/15000,
