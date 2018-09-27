@@ -117,30 +117,48 @@ _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
 
-
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
-	/*ClassName*/'HAFM_Frigate',
-	/*MenuName*/['%1 (Respawn)'],
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/3,
-	/*Price*/160000,
+	/*ClassName*/'HAFM_CB90_BLU',
+	/*MenuName*/'',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
+	/*UpgradeLevel*/1,
+	/*Price*/10000,
 	/*BuildTime*/30,
-	/*Distance*/80,
-	/*Camo*/['Attack Ship'],
+	/*Distance*/0,
+	/*Camo*/['Attack Boat'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-medic',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
-	/*ClassName*/'HAFM_Corvette',
+	/*ClassName*/'HAFM_GunBoat_BLU',
+	/*MenuName*/['%1 (Ammo)'],
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/1,
+	/*Price*/20000,
+	/*BuildTime*/30,
+	/*Distance*/10,
+	/*Camo*/['Attack Boat'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-ammotruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'HAFM_MEKO_TN',
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
@@ -157,48 +175,48 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
-	/*ClassName*/'HAFM_MisBoat_BLU',
-	/*MenuName*/'',
+	/*ClassName*/'HAFM_MEKO_HN',
+	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/2,
-	/*Price*/70000,
+	/*UpgradeLevel*/3,
+	/*Price*/90000,
 	/*BuildTime*/30,
-	/*Distance*/40,
-	/*Camo*/['Attack Boat'],
+	/*Distance*/80,
+	/*Camo*/['Attack Ship'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'service-medic',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
-	/*ClassName*/'HAFM_PBoat_BLU',
-	/*MenuName*/['%1 (Repair)'],
+	/*ClassName*/'HAFM_FREMM',
+	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/2,
-	/*Price*/40000,
+	/*UpgradeLevel*/3,
+	/*Price*/160000,
 	/*BuildTime*/30,
-	/*Distance*/20,
+	/*Distance*/80,
 	/*Camo*/['Support Boat'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-repairtruck',
+	/*Script*/'service-medic',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
-	/*ClassName*/'HAFM_GunBoat_BLU',
-	/*MenuName*/['%1 (Ammo)'],
+	/*ClassName*/'HAFM_Replenishment',
+	/*MenuName*/['%1 (Ammo,Repair,Spawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/1,
 	/*Price*/20000,
@@ -209,47 +227,10 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-ammotruck',
+	/*Script*/'service-all',
 	/*Picture*/''
 ];
 
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'HAFM_CB90_BLU',
-	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
-	/*Price*/10000,
-	/*BuildTime*/30,
-	/*Distance*/0,
-	/*Camo*/['Attack Boat'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'HAFM_RHIB',
-	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/0,
-	/*Price*/1000,
-	/*BuildTime*/30,
-	/*Distance*/0,
-	/*Camo*/['Attack Boat'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
 
 
 //--------------------------------------------------------------------------------------------------------------

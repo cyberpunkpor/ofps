@@ -647,4 +647,50 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Totem (Long Face)',
+	/*Class*/"Land_PalmTotem_01_F",
+	/*Price*/5,
+	/*Placement*/[0, 5],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Totem (Short Face)',
+	/*Class*/"Land_PalmTotem_02_F",
+	/*Price*/5,
+	/*Placement*/[0, 5],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Totem (Plain)',
+	/*Class*/"Land_PalmTotem_03_F",
+	/*Price*/5,
+	/*Placement*/[0, 5],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";

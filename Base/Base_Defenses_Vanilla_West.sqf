@@ -1114,6 +1114,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'Infantry Spawn Pad',
+	/*Class*/"Land_MobileLandingPlatform_01_F",
+	/*Price*/100,
+	/*Placement*/[0, 7],
+	/*Tags*/["Markers"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'Pods/Crates Spawn Pad',
 	/*Class*/"Land_JumpTarget_F",
 	/*Price*/100,
