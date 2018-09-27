@@ -117,42 +117,22 @@ _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
 
-
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'HAFM_MisBoat',
+	/*ClassName*/'HAFM_CB90',
 	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/2,
-	/*Price*/70000,
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
+	/*UpgradeLevel*/1,
+	/*Price*/10000,
 	/*BuildTime*/30,
-	/*Distance*/40,
+	/*Distance*/0,
 	/*Camo*/['Attack Boat'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'HAFM_PBoat',
-	/*MenuName*/['%1 (Repair)'],
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/2,
-	/*Price*/40000,
-	/*BuildTime*/30,
-	/*Distance*/20,
-	/*Camo*/['Support Boat'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'service-repairtruck',
 	/*Picture*/''
 ];
 
@@ -166,31 +146,12 @@ _u pushBack [
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/10,
-	/*Camo*/['Support Boat'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'service-ammotruck',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'HAFM_CB90',
-	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
-	/*Price*/10000,
-	/*BuildTime*/30,
-	/*Distance*/0,
 	/*Camo*/['Attack Boat'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'service-ammotruck',
 	/*Picture*/''
 ];
 

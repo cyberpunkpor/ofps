@@ -120,44 +120,6 @@ _u = []; //--- Units
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'OFPS_MISSLEBOAT_I',
-	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/2,
-	/*Price*/40000,
-	/*BuildTime*/30,
-	/*Distance*/40,
-	/*Camo*/['Attack Boat'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_PATROLBOAT_I',
-	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/2,
-	/*Price*/20000,
-	/*BuildTime*/30,
-	/*Distance*/20,
-	/*Camo*/['Support Boat'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'service-repairtruck',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'OFPS_GUNBOAT_I',
 	/*MenuName*/'',
 	/*Location*/[CTI_NAVAL],
@@ -165,12 +127,12 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/10,
-	/*Camo*/['Support Boat'],
+	/*Camo*/['Attack Boat'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-ammotruck',
+	/*Script*/'service-medic',
 	/*Picture*/''
 ];
 
@@ -179,7 +141,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'OFPS_CB90_I',
 	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL],
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
 	/*UpgradeLevel*/1,
 	/*Price*/5000,
 	/*BuildTime*/30,
@@ -196,21 +158,22 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'OFPS_RHIB_I',
-	/*MenuName*/'',
+	/*ClassName*/'OFPS_HAFM_BUYAN_I',
+	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/0,
-	/*Price*/1000,
+	/*UpgradeLevel*/3,
+	/*Price*/90000,
 	/*BuildTime*/30,
-	/*Distance*/0,
-	/*Camo*/['Attack Boat'],
+	/*Distance*/80,
+	/*Camo*/['Attack Ship'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'service-medic',
 	/*Picture*/''
 ];
+
 
 //--------------------------------------------------------------------------------------------------------------
 
