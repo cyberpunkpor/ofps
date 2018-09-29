@@ -693,4 +693,277 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Concrete Pier (4 m, Ladders)',
+	/*Class*/"Land_PierConcrete_01_4m_ladders_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Concrete Pier (16 m)',
+	/*Class*/"Land_PierConcrete_01_16m_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Concrete Pier (Bend)',
+	/*Class*/"Land_PierConcrete_01_30deg_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Concrete Pier (End)',
+	/*Class*/"Land_PierConcrete_01_end_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Concrete Pier (Steps)',
+	/*Class*/"Land_PierConcrete_01_steps_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Wooden Pier (10 m, No Rails)',
+	/*Class*/"Land_PierWooden_01_10m_noRails_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Wooden Pier (16 m)',
+	/*Class*/"Land_PierWooden_01_16m_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Wooden Pier (End, Dock)',
+	/*Class*/"Land_PierWooden_01_dock_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Wooden Pier (End, Hut)',
+	/*Class*/"Land_PierWooden_01_hut_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'	Wooden Pier (End, Ladder)',
+	/*Class*/"Land_PierWooden_01_ladder_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Wooden Pier (End, Platform)',
+	/*Class*/"Land_PierWooden_01_platform_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Old Wooden Pier',
+	/*Class*/"Land_PierWooden_02_16m_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Old Wooden Pier (Turn)',
+	/*Class*/"Land_PierWooden_02_30deg_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Old Wooden Pier (End, Barrel)',
+	/*Class*/"Land_PierWooden_02_barrel_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Old Wooden Pier (End, Hut)',
+	/*Class*/"Land_PierWooden_02_hut_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Old Wooden Pier (End, Ladder)',
+	/*Class*/"Land_PierWooden_02_ladder_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Small Wooden Pier',
+	/*Class*/"Land_PierWooden_03_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";
