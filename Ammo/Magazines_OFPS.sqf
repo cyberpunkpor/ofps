@@ -211,6 +211,30 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Land',
+	/*ClassName*/'OFPS_magazine_Missile_mim145_x4',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/3,
+	/*Price*/14000,
+	/*RearmTime*/70,
+	/*Filters*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'OFPS_magazine_Missile_s750_x4',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/3,
+	/*Price*/14000,
+	/*RearmTime*/70,
+	/*Filters*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
 	/*ClassName*/'OFPS_magazine_Missile_coastal_x8',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
@@ -317,7 +341,6 @@ _u pushBack [
 	/*RearmTime*/70,
 	/*Filters*/[]
 ];
-
 
 
 
