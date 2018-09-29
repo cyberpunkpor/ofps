@@ -139,6 +139,20 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'OFPS_weapon_mim145Launcher',
+	/*MaxMags*/1
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_weapon_s750Launcher',
+	/*MaxMags*/1
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'ofps_torpedo45',
 	/*MaxMags*/4
 ];
