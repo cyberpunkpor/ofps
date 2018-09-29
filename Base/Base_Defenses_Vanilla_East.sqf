@@ -1634,22 +1634,6 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Pier Wood',
-	/*Class*/"Land_Pier_small_F",
-	/*Price*/200,
-	/*Placement*/[0, 7],
-	/*Tags*/["Misc"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/1,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
-];
-
-_u pushBack [
-	/*Enabled*/true,
 	/*Name*/'H-Barrier (Big)',
 	/*Class*/"Land_HBarrier_Big_F",
 	/*Price*/500,
@@ -1870,22 +1854,6 @@ _u pushBack [
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[["DMG_Explosion", 0.25]]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'Pier',
-	/*Class*/"Land_nav_pier_m_F",
-	/*Price*/2000,
-	/*Placement*/[0, 7],
-	/*Tags*/["Misc"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.2]]
 ];
 
 _u pushBack [
@@ -2129,38 +2097,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Concete Pier (used in comp)',
-	/*Class*/"Land_Pier_Box_F",
-	/*Price*/100,
-	/*Placement*/[0, 7],
-	/*Tags*/["Walls Light"],
-	/*Location*/[],
-	/*Blacklist*/[],
-	/*Upgrade*/0,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.2]]
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Small Pier w ladders (used in comp)',
-	/*Class*/"Land_PierConcrete_01_4m_ladders_F",
-	/*Price*/100,
-	/*Placement*/[0, 7],
-	/*Tags*/["Walls Light"],
-	/*Location*/[],
-	/*Blacklist*/[],
-	/*Upgrade*/0,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.5]]
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Bulldozer Terrain (10m)',
 	/*Class*/["Land_JumpTarget_F", [["Bulldozer","terrain",10]]],
@@ -2286,6 +2222,82 @@ _u pushBack [
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Pier (Naval Spawn L/R)',
+	/*Class*/"Land_nav_pier_m_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Pier (Wooden)',
+	/*Class*/"Land_Pier_small_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Pier (Concrete)',
+	/*Class*/"Land_Pier_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Pier Box',
+	/*Class*/"Land_Pier_Box_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Rock Wavebreaker',
+	/*Class*/"Land_Sea_Wall_F",
+	/*Price*/200,
+	/*Placement*/[0, 7],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
 ];
 
 
