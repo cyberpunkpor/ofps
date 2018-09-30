@@ -648,7 +648,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Totem (Long Face)',
 	/*Class*/"Land_PalmTotem_01_F",
 	/*Price*/5,
@@ -663,7 +663,7 @@ _u pushBack [
 	/*Specials*/[]
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Totem (Short Face)',
 	/*Class*/"Land_PalmTotem_02_F",
 	/*Price*/5,
@@ -678,7 +678,7 @@ _u pushBack [
 	/*Specials*/[]
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Totem (Plain)',
 	/*Class*/"Land_PalmTotem_03_F",
 	/*Price*/5,
@@ -695,6 +695,149 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'Port Short (Spawn Piers)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","port_short",0]]],
+	/*Price*/5000,
+	/*Placement*/[0, 5],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Port Long (Spawn Piers)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","port_long",0]]],
+	/*Price*/5000,
+	/*Placement*/[0, 5],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Wood Pier (x3)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","pier_wood_3",0]]],
+	/*Price*/300,
+	/*Placement*/[0, 5],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Wood Pier (x5)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","pier_wood_5",0]]],
+	/*Price*/300,
+	/*Placement*/[0, 5],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Wood Pier Ramp (x5)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","pier_wood_basic",0]]],
+	/*Price*/400,
+	/*Placement*/[0, 5],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Concrete Pier Low (x3)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","pier_concrete_low_3",0]]],
+	/*Price*/300,
+	/*Placement*/[0, 5],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Concrete Pier Low (x5)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","pier_concrete_low_5",0]]],
+	/*Price*/500,
+	/*Placement*/[0, 5],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Concrete Pier (x3) (Spawn Piers)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","pier_concrete_3",0]]],
+	/*Price*/300,
+	/*Placement*/[0, 5],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Concrete Pier (x5) (Spawn Piers)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","pier_concrete_5",0]]],
+	/*Price*/500,
+	/*Placement*/[0, 5],
+	/*Tags*/["Naval"],
+	/*Location*/["HQ","RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'Concrete Pier (4 m, Ladders)',
 	/*Class*/"Land_PierConcrete_01_4m_ladders_F",
 	/*Price*/200,
@@ -702,7 +845,7 @@ _u pushBack [
 	/*Tags*/["Naval"],
 	/*Location*/["HQ","RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/0,
+	/*Upgrade*/1,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -718,7 +861,7 @@ _u pushBack [
 	/*Tags*/["Naval"],
 	/*Location*/["HQ","RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/0,
+	/*Upgrade*/1,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -734,7 +877,7 @@ _u pushBack [
 	/*Tags*/["Naval"],
 	/*Location*/["HQ","RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/0,
+	/*Upgrade*/1,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -750,7 +893,7 @@ _u pushBack [
 	/*Tags*/["Naval"],
 	/*Location*/["HQ","RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/0,
+	/*Upgrade*/1,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -766,7 +909,7 @@ _u pushBack [
 	/*Tags*/["Naval"],
 	/*Location*/["HQ","RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/0,
+	/*Upgrade*/1,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -964,6 +1107,5 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
 ];
-
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";
