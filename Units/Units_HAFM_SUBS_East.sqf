@@ -126,7 +126,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/60000,
 	/*BuildTime*/30,
-	/*Distance*/30,
+	/*Distance*/100,
 	/*Camo*/['Submarine'],
 	/*Type*/[],
 	/*Ammmo*/true,
