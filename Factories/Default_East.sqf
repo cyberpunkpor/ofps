@@ -15,9 +15,9 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "O_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "O_diver_F"];
 		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "O_Soldier_F"];
-		missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "CUP_O_RU_Soldier"];
+		missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "O_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Crew", _side], "O_crew_F"];
-		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_O_RU_Crew"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "O_crew_F"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_Pilot_F"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "O_helipilot_F"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "O_helicrew_F"];
@@ -26,20 +26,32 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_coyote_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-		[["CUP_arifle_AK74M",["CUP_optic_Kobra","","",""],["CUP_30Rnd_545x39_AK_M"]],["CUP_launch_RPG18",["CUP_RPG18_M","","",""],[]],["hgun_Rook40_F",["","","",""],["30Rnd_9x21_Mag"]]],[["CUP_U_O_RUS_Flora_1",["FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit"]],["CUP_V_RUS_6B3_1",["CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "MiniGrenade", "MiniGrenade", "MiniGrenade", "MiniGrenade", "MiniGrenade", "MiniGrenade", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell"]],["CUP_B_RPGPack_Khaki",["CUP_RPG18_M","CUP_RPG18_M"]]],["CUP_H_RUS_6B27",""],[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+		[["hgun_pdw2000_f",["","","optic_aco",""],["30rnd_9x21_mag"]],["",["","","",""],[]],["hgun_rook40_f",["","","",""],["16rnd_9x21_mag"]]],[["u_o_specopsuniform_blk",["30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag"]],["",[]],["b_assaultpack_kerry",["firstaidkit","firstaidkit","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","handgrenade","handgrenade","handgrenade","handgrenade"]]],["","g_combat"],[["","binocular"],["itemmap","","itemradio","itemcompass","itemwatch"]]]];
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
 			["O_Truck_03_medical_F", [
 				["Toolkit", 1],
 				["firstaidkit", 20],
-				["CUP_launch_RPG18", 5],
-				["CUP_RPG18_M", 20]
+				["arifle_Katiba_GL_F", 2], 
+				["30rnd_65x39_caseless_green", 50],
+				["launch_RPG32_F", 5], 
+				["RPG32_F", 20],
+				["HandGrenade", 20],
+				["30Rnd_556x45_Stanag", 15],
+				["30Rnd_65x39_caseless_green_mag_Tracer", 6],
+				["1Rnd_HE_Grenade_shell", 24],
+				["UGL_FlareRed_F", 27],
+				["acc_flashlight", 10],
+				["optic_ACO_grn", 3]
 			]],
 			["O_MRAP_02_hmg_F", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
-				["CUP_launch_RPG18", 5],
-				["CUP_RPG18_M", 20]
+				["30Rnd_556x45_Stanag", 15],
+				["launch_NLAW_F", 5], 
+				["acc_flashlight", 10],
+				["NLAW_F", 20]
+
 			]]
 		]];
 	};
@@ -52,9 +64,9 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "O_T_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "O_T_Diver_F"];
 		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "O_T_Soldier_F"];
-		missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "CUP_O_RU_Soldier_EMR"];
+		missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "O_T_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Crew", _side], "O_T_Crew_F"];
-		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_O_RU_Crew_EMR"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "O_T_Crew_F"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_T_Pilot_F"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "O_T_Helipilot_F"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "O_T_Helicrew_F"];
@@ -63,20 +75,32 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-		[["CUP_arifle_AK74M",["CUP_optic_Kobra","","",""],["CUP_30Rnd_545x39_AK_M"]],["CUP_launch_RPG18",["CUP_RPG18_M","","",""],[]],["hgun_Rook40_F",["","","",""],["30Rnd_9x21_Mag"]]],[["CUP_U_O_RUS_EMR_1",["FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit", "FirstAidKit"]],["CUP_V_RUS_6B3_1",["CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "CUP_30Rnd_545x39_AK_M", "16Rnd_9x21_Mag", "16Rnd_9x21_Mag", "MiniGrenade", "MiniGrenade", "MiniGrenade", "MiniGrenade", "MiniGrenade", "MiniGrenade", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell"]],["CUP_B_RPGPack_Khaki",["CUP_RPG18_M","CUP_RPG18_M"]]],["CUP_H_RUS_6B27",""],[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+		[["hgun_pdw2000_f",["","","optic_aco",""],["30rnd_9x21_mag"]],["",["","","",""],[]],["hgun_rook40_f",["","","",""],["16rnd_9x21_mag"]]],[["u_o_specopsuniform_blk",["30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag"]],["",[]],["b_assaultpack_kerry",["firstaidkit","firstaidkit","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","handgrenade","handgrenade","handgrenade","handgrenade"]]],["","g_combat"],[["","binocular"],["itemmap","","itemradio","itemcompass","itemwatch"]]]];
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-			["O_T_Truck_03_medical_ghex_F", [
+			["O_Truck_03_medical_F", [
 				["Toolkit", 1],
 				["firstaidkit", 20],
-				["CUP_launch_RPG18", 5],
-				["CUP_RPG18_M", 20]
+				["arifle_Katiba_GL_F", 2], 
+				["30rnd_65x39_caseless_green", 50],
+				["launch_RPG32_F", 5], 
+				["RPG32_F", 20],
+				["HandGrenade", 20],
+				["30Rnd_556x45_Stanag", 15],
+				["30Rnd_65x39_caseless_green_mag_Tracer", 6],
+				["1Rnd_HE_Grenade_shell", 24],
+				["UGL_FlareRed_F", 27],
+				["acc_flashlight", 10],
+				["optic_ACO_grn", 3]
 			]],
-			["O_T_MRAP_02_hmg_ghex_F", [
+			["O_MRAP_02_hmg_F", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
-				["CUP_launch_RPG18", 5],
-				["CUP_RPG18_M", 20]
+				["30Rnd_556x45_Stanag", 15],
+				["launch_NLAW_F", 5], 
+				["acc_flashlight", 10],
+				["NLAW_F", 20]
+
 			]]
 		]];
 	};
