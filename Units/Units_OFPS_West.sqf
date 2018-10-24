@@ -213,7 +213,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_GORGON_B_DES',
 	/*MenuName*/'AFV-4 Gorgon (Desert)',
@@ -450,7 +450,7 @@ _u pushBack [
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -469,7 +469,7 @@ _u pushBack [
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Heli'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -488,7 +488,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,

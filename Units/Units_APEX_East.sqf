@@ -1258,7 +1258,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_LSV_02_armed_F',
 	/*MenuName*/'',
@@ -1277,7 +1277,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_LSV_02_unarmed_F',
 	/*MenuName*/'',
@@ -1296,7 +1296,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_LSV_02_unarmed_F',
 	/*MenuName*/'',

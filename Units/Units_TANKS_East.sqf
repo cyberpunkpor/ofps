@@ -232,7 +232,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_LSV_02_AT_F',
 	/*MenuName*/['%1 (Tropic)'],
@@ -308,7 +308,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_MBT_04_cannon_F',
 	/*MenuName*/['%1 (Tropic)'],
@@ -327,7 +327,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_MBT_04_command_F',
 	/*MenuName*/['%1 (Tropic)'],
