@@ -2799,7 +2799,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_TowingTractor_USMC',
 	/*MenuName*/'',
@@ -2837,7 +2837,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MTVR_USA',
 	/*MenuName*/'',
@@ -2894,7 +2894,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Jackal2_GMG_GB_D',
 	/*MenuName*/'',
@@ -2913,7 +2913,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Jackal2_L2A1_GB_D',
 	/*MenuName*/'',
@@ -2970,7 +2970,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BAF_Coyote_GMG_D',
 	/*MenuName*/'',
@@ -2989,7 +2989,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BAF_Coyote_L2A1_D',
 	/*MenuName*/'',
@@ -3027,7 +3027,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Transport_NATO_T',
 	/*MenuName*/'',
@@ -3084,7 +3084,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Terminal_NATO_T',
 	/*MenuName*/'',
@@ -3236,7 +3236,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Unarmed_USMC',
 	/*MenuName*/'',
@@ -3255,7 +3255,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Ambulance_USMC',
 	/*MenuName*/'HMMWV Medic',
@@ -3274,7 +3274,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_M1114_USMC',
 	/*MenuName*/'',
@@ -3293,7 +3293,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_MK19_USMC',
 	/*MenuName*/'',
@@ -3312,7 +3312,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_DSHKM_GPK_ACR',
 	/*MenuName*/'',
@@ -3331,7 +3331,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_M2_USMC',
 	/*MenuName*/'',
@@ -3350,7 +3350,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_TOW_USMC',
 	/*MenuName*/'',
@@ -3369,7 +3369,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Avenger_USMC',
 	/*MenuName*/'',
@@ -3388,7 +3388,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Transport_USA',
 	/*MenuName*/'',
@@ -3407,7 +3407,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Unarmed_USA',
 	/*MenuName*/'',
@@ -3426,7 +3426,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Ambulance_USA',
 	/*MenuName*/'HMMWV Medic',
@@ -3445,7 +3445,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Terminal_USA',
 	/*MenuName*/'',
@@ -3464,7 +3464,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_SOV_USA',
 	/*MenuName*/'',
@@ -3483,7 +3483,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_SOV_M2_USA',
 	/*MenuName*/'',
@@ -3502,7 +3502,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_MK19_USA',
 	/*MenuName*/'',
@@ -3521,7 +3521,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_M2_USA',
 	/*MenuName*/'',
@@ -3540,7 +3540,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_M2_GPK_USA',
 	/*MenuName*/'',
@@ -3559,7 +3559,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Crows_MK19_USA',
 	/*MenuName*/'',
@@ -3578,7 +3578,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Crows_M2_USA',
 	/*MenuName*/'',
@@ -3597,7 +3597,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_TOW_USA',
 	/*MenuName*/'',
@@ -3616,7 +3616,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Avenger_USA',
 	/*MenuName*/'',
@@ -4338,7 +4338,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_RG31_M2_OD_USMC',
 	/*MenuName*/'',
@@ -4357,7 +4357,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_RG31_Mk19_USMC',
 	/*MenuName*/'',
@@ -4376,7 +4376,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_RG31_M2_USMC',
 	/*MenuName*/'',
@@ -4395,7 +4395,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_RG31E_M2_USMC',
 	/*MenuName*/'',
@@ -4414,7 +4414,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_RG31_M2_GC_USMC',
 	/*MenuName*/'',
@@ -4433,7 +4433,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Ridgback_LMG_GB_W',
 	/*MenuName*/'',
@@ -4452,7 +4452,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Ridgback_GMG_GB_W',
 	/*MenuName*/'',
@@ -4471,7 +4471,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Ridgback_HMG_GB_W',
 	/*MenuName*/'',
@@ -4490,7 +4490,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Ridgback_LMG_GB_D',
 	/*MenuName*/'',
@@ -4509,7 +4509,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Ridgback_GMG_GB_D',
 	/*MenuName*/'',
@@ -4528,7 +4528,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Ridgback_HMG_GB_D',
 	/*MenuName*/'',
@@ -4604,7 +4604,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Mastiff_LMG_GB_D',
 	/*MenuName*/'',
@@ -4623,7 +4623,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Mastiff_GMG_GB_D',
 	/*MenuName*/'',
@@ -4642,7 +4642,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Mastiff_HMG_GB_D',
 	/*MenuName*/'',
@@ -4661,7 +4661,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Wolfhound_LMG_GB_W',
 	/*MenuName*/'',
@@ -4680,7 +4680,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Wolfhound_GMG_GB_W',
 	/*MenuName*/'',
@@ -4699,7 +4699,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Wolfhound_HMG_GB_W',
 	/*MenuName*/'',
@@ -4718,7 +4718,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Wolfhound_LMG_GB_D',
 	/*MenuName*/'',
@@ -4737,7 +4737,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Wolfhound_GMG_GB_D',
 	/*MenuName*/'',
@@ -4756,7 +4756,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Wolfhound_HMG_GB_D',
 	/*MenuName*/'',
@@ -4794,7 +4794,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1126_ICV_MK19_Woodland',
 	/*MenuName*/'',
@@ -4813,7 +4813,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1126_ICV_M2_Woodland',
 	/*MenuName*/'',
@@ -4832,7 +4832,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1130_CV_M2_Woodland',
 	/*MenuName*/'',
@@ -4851,7 +4851,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1135_ATGMV_Woodland',
 	/*MenuName*/'',
@@ -4870,13 +4870,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1128_MGS_Woodland',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
-	/*Price*/33000,
+	/*Price*/22000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -4889,7 +4889,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1129_MC_MK19_Woodland',
 	/*MenuName*/'M1129 MC MK19 MORTAR (Woodland)',
@@ -4911,7 +4911,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1133_MEV_Woodland_Slat',
-	/*MenuName*/'',
+	/*MenuName*/'M1133 ',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
 	/*Price*/11000,
@@ -4931,7 +4931,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1126_ICV_MK19_Woodland_Slat',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/3,
 	/*Price*/15000,
 	/*BuildTime*/30,
@@ -4950,7 +4950,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1126_ICV_M2_Woodland_Slat',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/2,
 	/*Price*/14000,
 	/*BuildTime*/30,
@@ -4965,7 +4965,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1130_CV_M2_Woodland_Slat',
 	/*MenuName*/'',
@@ -5009,7 +5009,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
-	/*Price*/34000,
+	/*Price*/22000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -5022,7 +5022,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1129_MC_MK19_Woodland_Slat',
 	/*MenuName*/'M1129 MC MK19 MORTAR SLAT(Woodland)',
@@ -5041,7 +5041,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1133_MEV_Desert',
 	/*MenuName*/'',
@@ -5060,7 +5060,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1126_ICV_MK19_Desert',
 	/*MenuName*/'',
@@ -5079,7 +5079,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1126_ICV_M2_Desert',
 	/*MenuName*/'',
@@ -5098,7 +5098,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1130_CV_M2_Desert',
 	/*MenuName*/'',
@@ -5117,7 +5117,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1135_ATGMV_Desert',
 	/*MenuName*/'',
@@ -5136,13 +5136,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1128_MGS_Desert',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
-	/*Price*/33000,
+	/*Price*/22000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
@@ -5155,7 +5155,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1129_MC_MK19_Desert',
 	/*MenuName*/'M1129 MC MK19 MORTAR (Desert)',
@@ -5174,7 +5174,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1133_MEV_Desert_Slat',
 	/*MenuName*/'',
@@ -5193,7 +5193,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1126_ICV_MK19_Desert_Slat',
 	/*MenuName*/'',
@@ -5212,7 +5212,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1126_ICV_M2_Desert_Slat',
 	/*MenuName*/'',
@@ -5231,7 +5231,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1130_CV_M2_Desert_Slat',
 	/*MenuName*/'',
@@ -5250,7 +5250,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1135_ATGMV_Desert_Slat',
 	/*MenuName*/'',
@@ -5269,13 +5269,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1128_MGS_Desert_Slat',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
-	/*Price*/34000,
+	/*Price*/22000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
@@ -5288,7 +5288,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1129_MC_MK19_Desert_Slat',
 	/*MenuName*/'M1129 MC MK19 MORTAR SLAT(Desert)',
@@ -5326,7 +5326,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_LAV25_USMC',
 	/*MenuName*/'',
@@ -5364,7 +5364,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_LAV25_HQ_desert_USMC',
 	/*MenuName*/'',
@@ -5383,7 +5383,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_LAV25_desert_USMC',
 	/*MenuName*/'',
@@ -5402,7 +5402,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_LAV25M240_desert_USMC',
 	/*MenuName*/'',
@@ -5459,7 +5459,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M113_desert_USA',
 	/*MenuName*/'',
@@ -5516,7 +5516,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV432_Bulldog_GB_D',
 	/*MenuName*/'',
@@ -5535,7 +5535,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV432_Bulldog_GB_D_RWS',
 	/*MenuName*/'',
@@ -5592,7 +5592,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_AAV_RACS',
 	/*MenuName*/'',
@@ -5630,7 +5630,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_M163_RACS',
 	/*MenuName*/'M163 A1 VADS (Tan)',
@@ -5649,7 +5649,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MCV80_GB_W',
 	/*MenuName*/'',
@@ -5668,7 +5668,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV510_GB_W',
 	/*MenuName*/'',
@@ -5706,7 +5706,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV510_GB_W_SLAT',
 	/*MenuName*/'',
@@ -5725,7 +5725,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MCV80_GB_D',
 	/*MenuName*/'',
@@ -5744,7 +5744,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV510_GB_D',
 	/*MenuName*/'',
@@ -5763,7 +5763,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MCV80_GB_D_SLAT',
 	/*MenuName*/'',
@@ -5782,7 +5782,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV510_GB_D_SLAT',
 	/*MenuName*/'',
@@ -5820,7 +5820,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2Bradley_NATO_T',
 	/*MenuName*/'M2 Bradley-TOW-Olive',
@@ -5861,7 +5861,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M6LineBacker_NATO_T',
-	/*MenuName*/'',
+	/*MenuName*/'Bradley M6 Linebacker',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/2,
 	/*Price*/20000,
@@ -5877,7 +5877,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M7Bradley_USA_W',
 	/*MenuName*/'M7 Bradley-Laser Design-Woodland',
@@ -5896,7 +5896,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2Bradley_USA_W',
 	/*MenuName*/'M2 Bradley-TOW-Woodland',
@@ -5915,7 +5915,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2A3Bradley_USA_W',
 	/*MenuName*/'M2A3 Bradley-TUSK TOW-Woodland',
@@ -5934,7 +5934,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M6LineBacker_USA_W',
 	/*MenuName*/'M6 Bradley-AA-Tan',
@@ -5953,7 +5953,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M7Bradley_USA_D',
 	/*MenuName*/'M7 Bradley-Laser Design-Tan',
@@ -5972,7 +5972,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2Bradley_USA_D',
 	/*MenuName*/'M2 Bradley-TOW-Tan',
@@ -5991,7 +5991,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2A3Bradley_USA_D',
 	/*MenuName*/'M2A3 Bradley-TUSK TOW-Tan',
@@ -6010,7 +6010,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M6LineBacker_USA_D',
 	/*MenuName*/'M6 Bradley-AA-Tan',
@@ -6032,7 +6032,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M60A3_USMC',
-	/*MenuName*/'M60A3 Patton - Tan',
+	/*MenuName*/'M60A3 Patton',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
 	/*Price*/18000,
@@ -6219,7 +6219,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1A1_NATO_T',
 	/*MenuName*/'',
@@ -6238,7 +6238,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1A1_Woodland_USMC',
 	/*MenuName*/'',
@@ -6257,7 +6257,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1A1_Woodland_US_Army',
 	/*MenuName*/'',
@@ -6295,7 +6295,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1A1_DES_USMC',
 	/*MenuName*/'',
@@ -6314,7 +6314,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1A2_TUSK_MG_DES_US_Army',
 	/*MenuName*/'',
@@ -6418,7 +6418,7 @@ _u pushBack [
 	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6428,7 +6428,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_MH6J_RACS',
 	/*MenuName*/'',
@@ -6437,7 +6437,7 @@ _u pushBack [
 	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6456,7 +6456,7 @@ _u pushBack [
 	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6466,7 +6466,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_UH1D_slick_GER_KSK_Des',
 	/*MenuName*/'',
@@ -6475,7 +6475,7 @@ _u pushBack [
 	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6494,7 +6494,7 @@ _u pushBack [
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Logi Heli'],
+	/*Camo*/['Logistics Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6504,7 +6504,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_UH60L_RACS',
 	/*MenuName*/'UH60 Medic',
@@ -6513,7 +6513,7 @@ _u pushBack [
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Logi Heli'],
+	/*Camo*/['Logistics Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6532,7 +6532,7 @@ _u pushBack [
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6551,7 +6551,7 @@ _u pushBack [
 	/*Price*/24000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6561,7 +6561,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MH60L_DAP_2x_US',
 	/*MenuName*/'',
@@ -6570,7 +6570,7 @@ _u pushBack [
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6589,7 +6589,7 @@ _u pushBack [
 	/*Price*/26000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6608,7 +6608,7 @@ _u pushBack [
 	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6618,7 +6618,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_SA330_Puma_HC2_RACS',
 	/*MenuName*/'',
@@ -6627,7 +6627,7 @@ _u pushBack [
 	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6646,7 +6646,7 @@ _u pushBack [
 	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6656,7 +6656,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_CH47F_RACS',
 	/*MenuName*/'',
@@ -6665,7 +6665,7 @@ _u pushBack [
 	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6684,7 +6684,7 @@ _u pushBack [
 	/*Price*/9000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6694,7 +6694,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CH53E_GER',
 	/*MenuName*/'',
@@ -6703,7 +6703,7 @@ _u pushBack [
 	/*Price*/9000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6713,7 +6713,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AH6J_USA',
 	/*MenuName*/'',
@@ -6741,7 +6741,7 @@ _u pushBack [
 	/*Price*/19500,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6751,7 +6751,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_AH6J_RACS',
 	/*MenuName*/'',
@@ -6770,7 +6770,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AH6J_MP_USA',
 	/*MenuName*/'',
@@ -6808,7 +6808,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AW159_GB',
 	/*MenuName*/'',
@@ -6912,7 +6912,7 @@ _u pushBack [
 	/*Price*/35000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6950,7 +6950,7 @@ _u pushBack [
 	/*Price*/19000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -7036,7 +7036,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AH1_DL_BAF',
 	/*MenuName*/'',
@@ -7055,7 +7055,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Mi24_D_Dynamic_CDF',
 	/*MenuName*/'',
@@ -7074,7 +7074,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Mi24_D_MEV_Dynamic_CDF',
 	/*MenuName*/'',

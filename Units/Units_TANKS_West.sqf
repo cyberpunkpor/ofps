@@ -175,7 +175,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Soldier_LAT2_F',
 	/*MenuName*/['%1 (Tropic)'],
@@ -251,13 +251,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_AFV_Wheeled_01_cannon_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
-	/*Price*/50000,
+	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -276,7 +276,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
-	/*Price*/55000,
+	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -289,13 +289,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_AFV_Wheeled_01_cannon_F',
 	/*MenuName*/['%1 (Tropic)'],
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
-	/*Price*/50000,
+	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -308,13 +308,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_AFV_Wheeled_01_up_cannon_F',
 	/*MenuName*/['%1 (Tropic)'],
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
-	/*Price*/55000,
+	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],

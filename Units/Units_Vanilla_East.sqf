@@ -1837,7 +1837,7 @@ _u pushBack [
 	/*Price*/7000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Logi Heli'],
+	/*Camo*/['Logistics Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1856,7 +1856,7 @@ _u pushBack [
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Logi Heli'],
+	/*Camo*/['Logistics Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1866,7 +1866,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_Heli_Transport_04_bench_F',
 	/*MenuName*/'',
@@ -1875,7 +1875,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1894,7 +1894,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1913,7 +1913,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Logi Heli'],
+	/*Camo*/['Logistics Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1932,7 +1932,7 @@ _u pushBack [
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Logi Heli'],
+	/*Camo*/['Logistics Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1970,7 +1970,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2027,7 +2027,7 @@ _u pushBack [
 	/*Price*/8000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2094,7 +2094,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_APC_Tracked_02_cannon_ghex_F',
 	/*MenuName*/'BTR-K Kamysh (Tropic)',
@@ -2132,7 +2132,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_MBT_02_cannon_ghex_F',
 	/*MenuName*/'T-100 Varsuk (Tropic)',
@@ -2170,7 +2170,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_APC_Tracked_02_AA_ghex_F',
 	/*MenuName*/'ZSU-39 Tigris (Tropic)',
@@ -2208,7 +2208,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_MRAP_02_ghex_F',
 	/*MenuName*/'Ifrit Unarmed (Tropic)',
@@ -2246,7 +2246,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_APC_Wheeled_02_rcws_ghex_F',
 	/*MenuName*/'MSE-3 Marid (Tropic)',
@@ -2284,7 +2284,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_MRAP_02_gmg_ghex_F',
 	/*MenuName*/'Ifrit GMG (Tropic)',
@@ -2322,7 +2322,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_MRAP_02_hmg_ghex_F',
 	/*MenuName*/'Ifrit HMG (Tropic)',
@@ -2455,7 +2455,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Truck_03_ammo_ghex_F',
 	/*MenuName*/'Tempest Ammo (Tropic)',
@@ -2512,7 +2512,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Truck_03_fuel_ghex_F',
 	/*MenuName*/'Tempest Fuel (Tropic)',
@@ -2550,7 +2550,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Truck_03_medical_ghex_F',
 	/*MenuName*/'Tempest Medic (Tropic)',
@@ -2607,7 +2607,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Truck_03_repair_ghex_F',
 	/*MenuName*/'Tempest Repair (Tropic)',
@@ -2645,7 +2645,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Truck_03_transport_ghex_F',
 	/*MenuName*/'Tempest Transport (Tropic)',
@@ -2721,7 +2721,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_UGV_01_rcws_ghex_F',
 	/*MenuName*/'UGV Stomper Armed (Tropic)',
