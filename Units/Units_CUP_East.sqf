@@ -2730,26 +2730,7 @@ _u pushBack [
 	/*Price*/45000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_Ka60_GL_Hex_CSAT',
-	/*MenuName*/'KA60 Orca - 12RKTS/GMG',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
-	/*Price*/12000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2761,6 +2742,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'KA60 Orca - 12RKTS/GMG',
+	/*ClassName*/'CUP_O_Ka60_GL_Hex_CSAT',
+	/*MenuName*/'KA60 Orca - 12RKTS/GMG',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/12000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Armed Transport Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_Ka60_Hex_CSAT',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
@@ -2768,7 +2768,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2800,13 +2800,13 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Mi8_RU',
-	/*MenuName*/'',
+	/*MenuName*/'Mi8 HIP - 128RKTS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2825,7 +2825,7 @@ _u pushBack [
 	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2882,7 +2882,7 @@ _u pushBack [
 	/*Price*/35000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2988,7 +2988,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Mi24_P_Dynamic_RU',
 	/*MenuName*/'Mi24P - 4AT/40RKTS/2FAB',
@@ -2997,7 +2997,7 @@ _u pushBack [
 	/*Price*/34000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -3054,7 +3054,7 @@ _u pushBack [
 	/*Price*/38000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Attack Heli'],
+	/*Camo*/['Attack Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -3073,7 +3073,7 @@ _u pushBack [
 	/*Price*/11000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -3089,25 +3089,6 @@ _u pushBack [
 	/*MenuName*/'2S6M Tunguska (5km)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/4,
-	/*Price*/45000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Black'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_2S6M_RU',
-	/*MenuName*/'2S6M Tunguska (10km)',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/4,
 	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -3121,7 +3102,26 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_2S6M_RU',
+	/*MenuName*/'2S6M Tunguska (10km)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/4,
+	/*Price*/45000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP1_CSAT',
 	/*MenuName*/'BMP-1 (CSAT)',
@@ -3140,7 +3140,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP1_CSAT_T',
 	/*MenuName*/'BMP-1 (Tropic)',
@@ -3178,7 +3178,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP1P_CSAT_T',
 	/*MenuName*/'BMP-1P (Tropic)',
@@ -3216,7 +3216,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP2_CSAT_T',
 	/*MenuName*/'BMP-2 (Tropic)',
@@ -3254,7 +3254,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP2_AMB_CSAT_T',
 	/*MenuName*/'BMP Medic (Tropic)',
@@ -3292,7 +3292,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP2_ZU_CSAT_T',
 	/*MenuName*/'BMP-2 ZU (Tropic)',
@@ -3311,7 +3311,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP3_RU',
 	/*MenuName*/'BMP-3 (NV)',
@@ -3330,7 +3330,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP3_CSAT_T',
 	/*MenuName*/'BMP-3 (NV)',
@@ -3406,7 +3406,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_T72_CSAT_T',
 	/*MenuName*/'T-72 (NV)',
@@ -3482,7 +3482,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_ZSU23_Afghan_CSAT',
 	/*MenuName*/'ZSU-23 Shilka (Afghan CSAT)',
@@ -3558,7 +3558,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BRDM2_CSAT_T',
 	/*MenuName*/'BRDM2 (Tropic)',
@@ -3596,7 +3596,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BRDM2_ATGM_CSAT_T',
 	/*MenuName*/'BRDM2 ATGM (Tropic)',
@@ -3691,7 +3691,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_TT650_TKA',
 	/*MenuName*/'',

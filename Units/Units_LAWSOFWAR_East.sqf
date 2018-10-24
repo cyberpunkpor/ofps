@@ -232,7 +232,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_G_Van_02_vehicle_F',
 	/*MenuName*/'',

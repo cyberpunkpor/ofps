@@ -1420,7 +1420,7 @@ _u pushBack [
 	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Trans Heli'],
+	/*Camo*/['Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1439,7 +1439,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1449,7 +1449,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_CTRG_Heli_Transport_01_tropic_F',
 	/*MenuName*/'',
@@ -1458,7 +1458,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1468,7 +1468,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_CTRG_Heli_Transport_01_sand_F',
 	/*MenuName*/'',
@@ -1477,7 +1477,7 @@ _u pushBack [
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Armed Trans Helicopter'],
+	/*Camo*/['Armed Transport Helicopter'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1620,7 +1620,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_APC_Tracked_01_AA_F',
 	/*MenuName*/'IFV-6a Cheetah (Tropic)',
@@ -1639,13 +1639,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_MBT_01_cannon_F',
 	/*MenuName*/'Slammer (120mm)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/45000,
+	/*Price*/40000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -1658,13 +1658,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_MBT_01_cannon_F',
 	/*MenuName*/'Slammer (120mm)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/45000,
+	/*Price*/40000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tropic'],
@@ -1683,7 +1683,7 @@ _u pushBack [
 	/*MenuName*/'Slammer UP (120mm)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/50000,
+	/*Price*/45000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -1696,13 +1696,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_MBT_01_TUSK_F',
 	/*MenuName*/'Slammer UP (120mm)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/50000,
+	/*Price*/45000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tropic'],
@@ -2057,7 +2057,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Truck_01_medical_F',
 	/*MenuName*/'HEMTT Medic',
@@ -2114,7 +2114,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Truck_01_covered_F',
 	/*MenuName*/'HEMTT Transport Covered (Tropic)',
@@ -2133,7 +2133,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_MRAP_01_F',
 	/*MenuName*/'',
@@ -2171,7 +2171,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_MRAP_01_gmg_F',
 	/*MenuName*/'',
@@ -2209,7 +2209,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_MRAP_01_hmg_F',
 	/*MenuName*/'',
