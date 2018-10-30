@@ -197,7 +197,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_API_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/4.5,
+	/*Price*/2.5,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -209,7 +209,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_API_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/4.5,
+	/*Price*/2.5,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -221,7 +221,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_API_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/4.5,
+	/*Price*/2.5,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
