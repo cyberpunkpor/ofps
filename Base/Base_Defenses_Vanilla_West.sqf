@@ -544,7 +544,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Base Bunker 9000 (CRAM/AT/AA/GL)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","base_bunker_9000_west",0]]],
 	/*Price*/80000,
@@ -732,48 +732,48 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Praetorian Fortified',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","praetorian_fortified_west",2]]],
-	/*Price*/21000,
+	/*Price*/60000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
+	/*MaxCount*/4,
+	/*Cooldown*/120,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Spartan Fortified',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","spartan_fortified_west",2]]],
-	/*Price*/51000,
+	/*Price*/110000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
+	/*MaxCount*/2,
+	/*Cooldown*/240,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Centurion Fortified',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_fortified_west",2]]],
-	/*Price*/81000,
+	/*Price*/210000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
+	/*MaxCount*/1,
+	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
