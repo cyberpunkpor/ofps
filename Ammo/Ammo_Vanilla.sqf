@@ -724,7 +724,7 @@ _u pushBack [
 	/*ClassName*/'B_20mm',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -748,7 +748,7 @@ _u pushBack [
 	/*ClassName*/'B_20mm_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -760,7 +760,7 @@ _u pushBack [
 	/*ClassName*/'B_20mm_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -772,7 +772,7 @@ _u pushBack [
 	/*ClassName*/'B_25mm_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -1183,7 +1183,7 @@ _u pushBack [
 	/*ClassName*/'F_20mm_White',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -1195,7 +1195,7 @@ _u pushBack [
 	/*ClassName*/'F_20mm_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -1207,7 +1207,7 @@ _u pushBack [
 	/*ClassName*/'F_20mm_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -1219,7 +1219,7 @@ _u pushBack [
 	/*ClassName*/'F_20mm_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -1243,7 +1243,7 @@ _u pushBack [
 	/*ClassName*/'G_20mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -2337,7 +2337,7 @@ _u pushBack [
 	/*ClassName*/'ammo_Fighter01_Gun20mm_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -2349,7 +2349,7 @@ _u pushBack [
 	/*ClassName*/'ammo_Fighter04_Gun20mm_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];
@@ -2361,7 +2361,7 @@ _u pushBack [
 	/*ClassName*/'ammo_Fighter02_Gun30mm_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/3.5,
 	/*RearmTime*/2,
 	/*Filters*/[]
 ];

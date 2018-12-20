@@ -3976,7 +3976,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/rhsusf_spcs_ucp_rifleman',
+	/*ClassName*/'rhsusf_spcs_ucp_rifleman',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3 ,
 	/*Price*/600,
@@ -3998,7 +3998,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/rhsusf_spcs_ocp_rifleman',
+	/*ClassName*/'rhsusf_spcs_ocp_rifleman',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
 	/*Price*/600,
