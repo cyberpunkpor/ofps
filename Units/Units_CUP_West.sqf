@@ -6034,7 +6034,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_M60A3_USMC',
 	/*MenuName*/'M60A3 Patton',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/1,
 	/*Price*/18000,
 	/*BuildTime*/30,
 	/*Distance*/1,
