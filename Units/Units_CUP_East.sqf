@@ -2324,6 +2324,44 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_O_LCVP_SLA',
+	/*MenuName*/'LCVP (Infantry Transport / Medic)',
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/1,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/5,
+	/*Camo*/['Grey'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_LCVP_VIV_SLA',
+	/*MenuName*/'LCVP VIV (Vehicle Transport / Medic)',
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/1,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/5,
+	/*Camo*/['Grey'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_AN2_TK',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
@@ -3121,7 +3159,195 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_MTLB_pk_Green_RU',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Winter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_MTLB_pk_WDL_RU',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Winter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_MTLB_pk_WDL_ChDKZ',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Winter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_MTLB_pk_TKA',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Winter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_MTLB_pk_TK_MILITIA',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Winter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_MTLB_pk_Winter_RU',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Winter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_BMP_HQ_CHDKZ',
+	/*MenuName*/'BMP HQ (CHDKZ)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/10000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['SandHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_BMP_HQ_RU',
+	/*MenuName*/'BMP HQ (RU)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/10000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['SandHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_BMP_HQ_CSAT',
+	/*MenuName*/'BMP HQ (CSAT)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/10000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['SandHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_BMP_HQ_TKA',
+	/*MenuName*/'BMP HQ (TKA)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/10000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['SandHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP1_CSAT',
 	/*MenuName*/'BMP-1 (CSAT)',
@@ -3140,7 +3366,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP1_CSAT_T',
 	/*MenuName*/'BMP-1 (Tropic)',
@@ -3638,6 +3864,25 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BTR60_CSAT',
 	/*MenuName*/'BTR-60 (CSAT)',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['SandHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_BTR60_Winter_RU',
+	/*MenuName*/'BTR-60 (Winter)',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/5000,
