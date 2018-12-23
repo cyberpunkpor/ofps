@@ -1014,7 +1014,8 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 5) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-	
+
+	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
 
