@@ -194,7 +194,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_GORGON_B',
 	/*MenuName*/'AFV-4 Gorgon (NATO)',
