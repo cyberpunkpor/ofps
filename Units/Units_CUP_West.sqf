@@ -6732,7 +6732,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M60A3_TTS_USMC',
 	/*MenuName*/'M60A3 Patton',
@@ -6751,7 +6751,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M60A3_TTS_USMC',
 	/*MenuName*/'M60A3 Patton',
