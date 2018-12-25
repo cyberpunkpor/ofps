@@ -3273,7 +3273,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP_HQ_CHDKZ',
 	/*MenuName*/'BMP HQ (CHDKZ)',
@@ -3292,7 +3292,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP_HQ_RU',
 	/*MenuName*/'BMP HQ (RU)',
@@ -3310,7 +3310,7 @@ _u pushBack [
 	/*Picture*/''
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP_HQ_CSAT',
 	/*MenuName*/'BMP HQ (CSAT)',
@@ -3328,7 +3328,7 @@ _u pushBack [
 	/*Picture*/''
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP_HQ_TKA',
 	/*MenuName*/'BMP HQ (TKA)',
@@ -3366,7 +3366,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP1_CSAT_T',
 	/*MenuName*/'BMP-1 (Tropic)',
@@ -3385,7 +3385,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP1P_CSAT',
 	/*MenuName*/'BMP-1P (CSAT)',
