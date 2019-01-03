@@ -2991,7 +2991,7 @@ _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Mi24_D_Dynamic_CSAT_T',
-	/*MenuName*/'Mi24D - 4AT(RDR)/128RKTS',
+	/*MenuName*/'Mi24D - 4AT(RDR)/80RKTS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
 	/*Price*/35000,
