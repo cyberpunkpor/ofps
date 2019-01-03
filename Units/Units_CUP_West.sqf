@@ -6947,7 +6947,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_Leopard2A6_GER',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/40000,
 	/*BuildTime*/30,
 	/*Distance*/1,
