@@ -6732,13 +6732,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M60A3_TTS_USMC',
-	/*MenuName*/'M60A3 Patton',
+	/*MenuName*/'M60A3 Patton (Tank Thermal Sight)',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/1,
-	/*Price*/18000,
+	/*UpgradeLevel*/2,
+	/*Price*/18500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
