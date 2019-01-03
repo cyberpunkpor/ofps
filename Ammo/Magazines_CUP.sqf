@@ -173,7 +173,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -185,7 +185,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -197,7 +197,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -209,7 +209,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -221,7 +221,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -233,7 +233,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -245,7 +245,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -257,7 +257,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -269,7 +269,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -281,7 +281,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -293,7 +293,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/50,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -305,7 +305,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -317,7 +317,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -329,7 +329,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -341,7 +341,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -637,7 +637,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/80,
-	/*RearmTime*/3,
+	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
 
@@ -649,7 +649,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/4500,
-	/*RearmTime*/20,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -902,7 +902,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/375,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -914,7 +914,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/375,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -926,7 +926,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/375,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -938,7 +938,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/375,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1058,7 +1058,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/900,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1094,7 +1094,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/145,
-	/*RearmTime*/3,
+	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
 
@@ -1106,7 +1106,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/1800,
-	/*RearmTime*/20,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -1155,7 +1155,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/4760,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1192,7 +1192,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/130,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1230,7 +1230,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1279,7 +1279,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1291,7 +1291,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1303,7 +1303,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1315,7 +1315,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1327,7 +1327,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1339,7 +1339,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1351,7 +1351,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1363,7 +1363,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1375,7 +1375,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/250,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1387,7 +1387,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/250,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1399,7 +1399,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/250,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1411,7 +1411,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/250,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1423,7 +1423,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1300,
-	/*RearmTime*/3,
+	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
 
@@ -1435,7 +1435,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1300,
-	/*RearmTime*/3,
+	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
 
@@ -1447,7 +1447,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1300,
-	/*RearmTime*/3,
+	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
 
@@ -1459,7 +1459,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1000,
-	/*RearmTime*/3,
+	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
 
@@ -1520,7 +1520,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/100,
-	/*RearmTime*/3,
+	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
 
@@ -1532,7 +1532,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/80,
-	/*RearmTime*/3,
+	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
 
@@ -1557,7 +1557,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/2200,
-	/*RearmTime*/60,
+	/*RearmTime*/15,
 	/*Filters*/[]
 ];
 
@@ -1642,7 +1642,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/375,
-	/*RearmTime*/3,
+	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
 
@@ -1702,7 +1702,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/2850,
-	/*RearmTime*/3,
+	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
 
@@ -1714,7 +1714,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/3400,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1727,7 +1727,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/2000,
-	/*RearmTime*/60,
+	/*RearmTime*/15,
 	/*Filters*/[]
 ];
 
@@ -1824,7 +1824,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/1320,
-	/*RearmTime*/40,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 
@@ -1836,7 +1836,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/2800,
-	/*RearmTime*/60,
+	/*RearmTime*/15,
 	/*Filters*/[]
 ];
 
@@ -1872,7 +1872,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/50,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -1958,7 +1958,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/2200,
-	/*RearmTime*/60,
+	/*RearmTime*/15,
 	/*Filters*/[]
 ];
 
@@ -1970,7 +1970,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/2800,
-	/*RearmTime*/60,
+	/*RearmTime*/15,
 	/*Filters*/[]
 ];
 
@@ -1982,7 +1982,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/300,
-	/*RearmTime*/20,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -1994,7 +1994,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/2200,
-	/*RearmTime*/60,
+	/*RearmTime*/15,
 	/*Filters*/[]
 ];
 
@@ -2018,7 +2018,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/4000,
-	/*RearmTime*/20,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -2055,7 +2055,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/1440,
-	/*RearmTime*/40,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 
@@ -2244,7 +2244,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/25,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -2322,7 +2322,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/1800,
-	/*RearmTime*/20,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -2334,7 +2334,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/3500,
-	/*RearmTime*/40,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 
@@ -2346,7 +2346,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/7000,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -2410,7 +2410,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -2422,7 +2422,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -2434,7 +2434,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -2446,7 +2446,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -2458,7 +2458,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -2470,7 +2470,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -2482,7 +2482,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -2494,7 +2494,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/160,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -2769,7 +2769,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/300,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -2901,7 +2901,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/250,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3034,7 +3034,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/300,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3166,7 +3166,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/250,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3347,7 +3347,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/15000,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -3371,7 +3371,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/9000,
-	/*RearmTime*/60,
+	/*RearmTime*/15,
 	/*Filters*/[]
 ];
 
@@ -3383,7 +3383,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/10000,
-	/*RearmTime*/60,
+	/*RearmTime*/15,
 	/*Filters*/[]
 ];
 
@@ -3419,7 +3419,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/10000,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -3431,7 +3431,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/12800,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -3455,7 +3455,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/25600,
-	/*RearmTime*/30,
+	/*RearmTime*/16,
 	/*Filters*/[]
 ];
 
@@ -3467,7 +3467,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/15000,
-	/*RearmTime*/20,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -3492,7 +3492,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3504,7 +3504,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/18000,
-	/*RearmTime*/60,
+	/*RearmTime*/15,
 	/*Filters*/[]
 ];
 
@@ -3517,7 +3517,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3529,7 +3529,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3541,7 +3541,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3553,7 +3553,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3565,7 +3565,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3577,7 +3577,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/3100,
-	/*RearmTime*/40,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 
@@ -3589,7 +3589,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/6600,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -3601,7 +3601,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/9900,
-	/*RearmTime*/60,
+	/*RearmTime*/15,
 	/*Filters*/[]
 ];
 
@@ -3637,7 +3637,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/1350,
-	/*RearmTime*/20,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -3649,7 +3649,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/2500,
-	/*RearmTime*/40,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 
@@ -3661,7 +3661,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/4800,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -3685,7 +3685,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/1450,
-	/*RearmTime*/20,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -3697,7 +3697,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/2700,
-	/*RearmTime*/40,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 
@@ -3709,7 +3709,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/5200,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -3733,7 +3733,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/800,
-	/*RearmTime*/20,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -3745,7 +3745,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/800,
-	/*RearmTime*/20,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -3757,7 +3757,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/3500,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -3769,7 +3769,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/1800,
-	/*RearmTime*/40,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 
@@ -3781,7 +3781,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/1800,
-	/*RearmTime*/40,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 
@@ -3806,7 +3806,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3818,7 +3818,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3830,7 +3830,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3842,7 +3842,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3854,7 +3854,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3866,7 +3866,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3878,7 +3878,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3890,7 +3890,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3902,7 +3902,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3914,7 +3914,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3926,7 +3926,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3938,7 +3938,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3950,7 +3950,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3962,7 +3962,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3974,7 +3974,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3986,7 +3986,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -3998,7 +3998,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4010,7 +4010,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4022,7 +4022,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4034,7 +4034,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4046,7 +4046,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4058,7 +4058,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4070,7 +4070,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4082,7 +4082,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4094,7 +4094,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4107,7 +4107,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4119,7 +4119,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4131,7 +4131,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4143,7 +4143,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4155,7 +4155,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4167,7 +4167,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4179,7 +4179,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4191,7 +4191,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4203,7 +4203,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4215,7 +4215,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4227,7 +4227,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4239,7 +4239,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4251,7 +4251,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4266,7 +4266,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
 	/*Price*/7000,
-	/*RearmTime*/40,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 
@@ -4278,7 +4278,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
 	/*Price*/14000,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -4326,7 +4326,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
 	/*Price*/5500,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -4362,7 +4362,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4374,7 +4374,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4386,7 +4386,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4398,7 +4398,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
 	/*Price*/5500,
-	/*RearmTime*/70,
+	/*RearmTime*/25,
 	/*Filters*/[]
 ];
 
@@ -4449,7 +4449,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/2600,
-	/*RearmTime*/30,
+	/*RearmTime*/16,
 	/*Filters*/[]
 ];
 
@@ -4461,7 +4461,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/2600,
-	/*RearmTime*/30,
+	/*RearmTime*/16,
 	/*Filters*/[]
 ];
 
@@ -4473,7 +4473,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/2600,
-	/*RearmTime*/30,
+	/*RearmTime*/16,
 	/*Filters*/[]
 ];
 
@@ -4485,7 +4485,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/3300,
-	/*RearmTime*/30,
+	/*RearmTime*/16,
 	/*Filters*/[]
 ];
 
@@ -4497,7 +4497,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/6000,
-	/*RearmTime*/30,
+	/*RearmTime*/16,
 	/*Filters*/[]
 ];
 
@@ -4509,7 +4509,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/8200,
-	/*RearmTime*/30,
+	/*RearmTime*/16,
 	/*Filters*/[]
 ];
 
@@ -4521,7 +4521,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/2100,
-	/*RearmTime*/30,
+	/*RearmTime*/16,
 	/*Filters*/[]
 ];
 
@@ -4533,7 +4533,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/2100,
-	/*RearmTime*/30,
+	/*RearmTime*/16,
 	/*Filters*/[]
 ];
 
@@ -4546,7 +4546,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4558,7 +4558,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4570,7 +4570,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4582,7 +4582,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4594,7 +4594,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4606,7 +4606,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4618,7 +4618,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4630,7 +4630,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4642,7 +4642,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4654,7 +4654,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4666,7 +4666,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4678,7 +4678,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4690,7 +4690,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4702,7 +4702,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4714,7 +4714,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4727,7 +4727,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4739,7 +4739,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4751,7 +4751,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4763,7 +4763,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4775,7 +4775,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4787,7 +4787,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4799,7 +4799,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4811,7 +4811,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4823,7 +4823,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4835,7 +4835,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4847,7 +4847,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4859,7 +4859,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4871,7 +4871,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4883,7 +4883,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4895,7 +4895,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4907,7 +4907,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4919,7 +4919,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4931,7 +4931,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4943,7 +4943,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4955,7 +4955,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4967,7 +4967,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4979,7 +4979,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -4991,7 +4991,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5003,7 +5003,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5015,7 +5015,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5027,7 +5027,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5039,7 +5039,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5051,7 +5051,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5063,7 +5063,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5076,7 +5076,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5088,7 +5088,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5100,7 +5100,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5112,7 +5112,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5124,7 +5124,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5136,7 +5136,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5148,7 +5148,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5160,7 +5160,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 
@@ -5172,7 +5172,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
 	/*Price*/1,
-	/*RearmTime*/2,
+	/*RearmTime*/1,
 	/*Filters*/[]
 ];
 

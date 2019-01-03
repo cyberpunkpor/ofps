@@ -3412,8 +3412,8 @@ _u pushBack [
 	/*ClassName*/'CUP_B_Dingo_GL_CZ_Wdl',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/2600,
+	/*UpgradeLevel*/3,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
@@ -5934,7 +5934,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BRDM2_CZ',
 	/*MenuName*/'',
@@ -5953,7 +5953,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BRDM2_CZ_Des',
 	/*MenuName*/'',
@@ -5972,7 +5972,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BRDM2_HQ_CZ',
 	/*MenuName*/'',
@@ -5991,7 +5991,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BRDM2_HQ_CZ_Des',
 	/*MenuName*/'',
@@ -6010,7 +6010,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BMP_HQ_CDF',
 	/*MenuName*/'',
@@ -6029,7 +6029,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BMP_HQ_CZ_Des',
 	/*MenuName*/'',
@@ -6048,7 +6048,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BMP_HQ_CZ',
 	/*MenuName*/'',
@@ -6086,7 +6086,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BMP2_CZ',
 	/*MenuName*/'',
@@ -6105,7 +6105,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BMP2_CZ_Des',
 	/*MenuName*/'',
@@ -6124,7 +6124,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BMP2_AMB_CZ_Des',
 	/*MenuName*/'',
@@ -6143,7 +6143,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_BMP2_AMB_CZ',
 	/*MenuName*/'',
@@ -6732,7 +6732,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M60A3_TTS_USMC',
 	/*MenuName*/'M60A3 Patton',
@@ -6751,7 +6751,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M60A3_TTS_USMC',
 	/*MenuName*/'M60A3 Patton',
@@ -6923,13 +6923,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Challenger2_2CS_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/4,
-	/*Price*/55000,
+	/*Price*/70000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Winter'],
@@ -6947,8 +6947,8 @@ _u pushBack [
 	/*ClassName*/'CUP_B_Leopard2A6_GER',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/4,
-	/*Price*/55000,
+	/*UpgradeLevel*/2,
+	/*Price*/40000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Winter'],
@@ -7024,8 +7024,8 @@ _u pushBack [
 	/*ClassName*/'CUP_B_M1A2_TUSK_MG_US_Army',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/2,
-	/*Price*/45000,
+	/*UpgradeLevel*/3,
+	/*Price*/55000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -7767,8 +7767,8 @@ _u pushBack [
 	/*ClassName*/'CUP_B_AH64D_DL_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/3,
-	/*Price*/30000,
+	/*UpgradeLevel*/4,
+	/*Price*/50000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Attack Helicopter'],
