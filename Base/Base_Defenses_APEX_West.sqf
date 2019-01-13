@@ -600,7 +600,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Hangar Large',
 	/*Class*/"Land_Airport_01_hangar_F",
 	/*Price*/8000,
