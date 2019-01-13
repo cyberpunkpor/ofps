@@ -600,7 +600,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Hangar Large',
 	/*Class*/"Land_Airport_01_hangar_F",
 	/*Price*/8000,
@@ -612,7 +612,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.1]]
+	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 3]]
 ];
 
 _u pushBack [
