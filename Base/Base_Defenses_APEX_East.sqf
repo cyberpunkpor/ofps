@@ -612,7 +612,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.1]]
+	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 3]]
 ];
 
 _u pushBack [
