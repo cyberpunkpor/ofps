@@ -161,6 +161,166 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'High H-barrier x4 (Woodland)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_4_woodland",2]]],
+	/*Price*/110,
+	/*Placement*/[0, 5],
+	/*Tags*/["Composition"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'High H-barrier x8 (Woodland)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_8_woodland",2]]],
+	/*Price*/220,
+	/*Placement*/[0, 5],
+	/*Tags*/["Composition"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'High H-barrier x16 (Woodland)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_16_woodland",2]]],
+	/*Price*/330,
+	/*Placement*/[0, 5],
+	/*Tags*/["Composition"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'High H-barrier x32 (Woodland)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_32_woodland",2]]],
+	/*Price*/550,
+	/*Placement*/[0, 5],
+	/*Tags*/["Composition"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'High H-barrier x4 (Desert)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_4_desert",2]]],
+	/*Price*/110,
+	/*Placement*/[0, 5],
+	/*Tags*/["Composition"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'High H-barrier x8 (Desert)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_8_desert",2]]],
+	/*Price*/220,
+	/*Placement*/[0, 5],
+	/*Tags*/["Composition"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'High H-barrier x16 (Desert)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_16_desert",2]]],
+	/*Price*/330,
+	/*Placement*/[0, 5],
+	/*Tags*/["Composition"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'High H-barrier x32 (Desert)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_32_desert",2]]],
+	/*Price*/550,
+	/*Placement*/[0, 5],
+	/*Tags*/["Composition"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Camp Bravery with Hedgehogs',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","camp_bravery_hedgehogs",0]]],
+	/*Price*/3000,
+	/*Placement*/[0, 5],
+	/*Tags*/["Templates"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Camp Bravery with Hedgehogs (Desert)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","camp_bravery_hedgehogs_desert",0]]],
+	/*Price*/3000,
+	/*Placement*/[0, 5],
+	/*Tags*/["Templates"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'Concrete Wall x3',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","concrete_wall_3",2]]],
 	/*Price*/1200,
@@ -1925,7 +2085,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+	/*Specials*/[["DMG_Explosion", 0.25]]
 ];
 
 _u pushBack [
@@ -1941,7 +2101,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+	/*Specials*/[["DMG_Explosion", 0.25]]
 ];
 
 _u pushBack [
@@ -2017,7 +2177,7 @@ _u pushBack [
 	/*Tags*/["Sheds"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[["Land_Airport_01_hangar_F", 15], ["Land_SCF_01_shed_F", 15], ["Land_SM_01_shelter_narrow_F", 15], ["Land_SM_01_shelter_wide_F", 15], ["Land_Shed_Big_F", 15], ["Land_TentHangar_V1_F", 30], ["Land_Dome_Small_F", 30], ["Land_Dome_Big_F", 40]],
-	/*Upgrade*/2,
+	/*Upgrade*/3,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -2033,7 +2193,7 @@ _u pushBack [
 	/*Tags*/["Sheds"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[["Land_Airport_01_hangar_F", 15], ["Land_SCF_01_shed_F", 15], ["Land_SM_01_shelter_narrow_F", 15], ["Land_SM_01_shelter_wide_F", 15], ["Land_Shed_Big_F", 15], ["Land_TentHangar_V1_F", 30], ["Land_Dome_Small_F", 30], ["Land_Dome_Big_F", 40]],
-	/*Upgrade*/2,
+	/*Upgrade*/3,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
