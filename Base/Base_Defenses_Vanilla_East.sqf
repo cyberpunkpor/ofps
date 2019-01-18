@@ -154,6 +154,38 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'H-barrier (Block)',
+	/*Class*/"Land_HBarrier_1_F",
+	/*Price*/10,
+	/*Placement*/[[0, 7],["CanAutoAlign", 2, 0]],
+	/*Tags*/["Walls Light"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'H-barrier (Block, Green)',
+	/*Class*/"Land_HBarrier_01_line_1_green_F",
+	/*Price*/10,
+	/*Placement*/[[0, 7],["CanAutoAlign", 2, 0]],
+	/*Tags*/["Walls Light"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'High H-barrier x4 (Woodland)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_4_woodland",2]]],
 	/*Price*/110,
