@@ -161,38 +161,6 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'H-barrier (Block)',
-	/*Class*/"Land_HBarrier_1_F",
-	/*Price*/10,
-	/*Placement*/[[0, 7],["CanAutoAlign", 2, 0]],
-	/*Tags*/["Walls Light"],
-	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
-	/*Blacklist*/[],
-	/*Upgrade*/0,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'H-barrier (Block, Green)',
-	/*Class*/"Land_HBarrier_01_line_1_green_F",
-	/*Price*/10,
-	/*Placement*/[[0, 7],["CanAutoAlign", 2, 0]],
-	/*Tags*/["Walls Light"],
-	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
-	/*Blacklist*/[],
-	/*Upgrade*/0,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
 	/*Name*/'High H-barrier x4 (Woodland)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_4_woodland",2]]],
 	/*Price*/110,
@@ -1178,9 +1146,25 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'H-Barrier (Small) (1 Block)',
+	/*Name*/'H-Barrier (Block)',
 	/*Class*/"Land_HBarrier_1_F",
-	/*Price*/100,
+	/*Price*/10,
+	/*Placement*/[[90, 5],["CanAutoAlign", 1.7, 0]],
+	/*Tags*/["Walls Medium"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/["*"],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["DMG_Explosion", 0.25]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'H-Barrier (Block, Green)',
+	/*Class*/"Land_HBarrier_01_line_1_green_F",
+	/*Price*/10,
 	/*Placement*/[[90, 5],["CanAutoAlign", 1.7, 0]],
 	/*Tags*/["Walls Medium"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
@@ -1196,7 +1180,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'H-Barrier (Small) (3 Block)',
 	/*Class*/"Land_HBarrier_3_F",
-	/*Price*/300,
+	/*Price*/30,
 	/*Placement*/[[0, 5],["CanAutoAlign", 3.1, 0]],
 	/*Tags*/["Walls Medium"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
@@ -1212,7 +1196,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'H-Barrier (Small) (5 Block)',
 	/*Class*/"Land_HBarrier_5_F",
-	/*Price*/500,
+	/*Price*/50,
 	/*Placement*/[[0, 5],["CanAutoAlign", 5.7, 0]],
 	/*Tags*/["Walls Medium"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
