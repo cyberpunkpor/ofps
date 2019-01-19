@@ -1277,7 +1277,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'O_LSV_02_unarmed_F',
 	/*MenuName*/'',
