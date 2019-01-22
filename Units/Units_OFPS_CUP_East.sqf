@@ -137,7 +137,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_BMP3_T',
 	/*MenuName*/'BMP-3 (NV)',
