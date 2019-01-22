@@ -3385,7 +3385,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP1P_CSAT',
 	/*MenuName*/'BMP-1P (CSAT)',
@@ -3537,7 +3537,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP3_RU',
 	/*MenuName*/'BMP-3 (NV)',
