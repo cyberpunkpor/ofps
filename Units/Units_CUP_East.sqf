@@ -2480,7 +2480,7 @@ _u pushBack [
 	/*MenuName*/'L39 (RKTS)',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/3,
-	/*Price*/25000,
+	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Fighter'],
