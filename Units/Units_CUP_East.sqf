@@ -2479,7 +2479,7 @@ _u pushBack [
 	/*ClassName*/'CUP_O_L39_TK',
 	/*MenuName*/'L39 (RKTS)',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
