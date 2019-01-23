@@ -461,7 +461,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/1200,
 	/*Camo*/[],
-	/*Type*/["Dumbfire"]
+	/*Type*/["Lock-on or Dumbfire"]
 ];
 
 _u pushBack [
@@ -1682,7 +1682,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/800,
 	/*Camo*/[],
-	/*Type*/["Dumbfire"]
+	/*Type*/["Lock-on or Dumbfire"]
 ];
 
 _u pushBack [
