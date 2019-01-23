@@ -2477,11 +2477,11 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_AT13_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/1200,
 	/*Camo*/[],
 	/*Type*/["Lock-on"]
@@ -2495,7 +2495,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/["TOW"]
+	/*Type*/["SALCOS"]
 ];
 
 _u pushBack [
@@ -2587,14 +2587,14 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_launch_Metis',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["TOW"]
+	/*Type*/["SALCOS"]
 ];
 
 _u pushBack [
