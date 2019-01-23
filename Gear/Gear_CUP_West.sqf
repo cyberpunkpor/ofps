@@ -2280,14 +2280,14 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_NLAW_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
 	/*Price*/700,
 	/*Camo*/[],
-	/*Type*/["Dumbfire"]
+	/*Type*/["Lock-on or Dumbfire"]
 ];
 
 _u pushBack [
@@ -2436,14 +2436,14 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/True,
 	/*Name*/'',
 	/*ClassName*/'CUP_launch_NLAW',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["Dumbfire"]
+	/*Type*/["Lock-on or Dumbfire"]
 ];
 
 _u pushBack [
