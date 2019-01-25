@@ -219,7 +219,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/3,
-	/*Price*/40000,
+	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Fighter'],
@@ -238,7 +238,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/3,
-	/*Price*/40000,
+	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Fighter'],
@@ -541,8 +541,8 @@ _u pushBack [
 	/*ClassName*/'OFPS_AWC_AA_O',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/3,
-	/*Price*/16000,
+	/*UpgradeLevel*/1,
+	/*Price*/11500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -574,7 +574,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'xmas_santa_opfor',
 	/*MenuName*/'Father Christmas',
@@ -593,7 +593,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'jean_sleigh',
 	/*MenuName*/'',
