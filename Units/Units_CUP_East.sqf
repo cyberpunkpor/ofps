@@ -3159,7 +3159,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_MTLB_pk_Green_RU',
 	/*MenuName*/'',
@@ -3197,7 +3197,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_MTLB_pk_WDL_ChDKZ',
 	/*MenuName*/'',
@@ -3235,7 +3235,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_MTLB_pk_TK_MILITIA',
 	/*MenuName*/'',
