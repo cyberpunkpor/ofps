@@ -4706,6 +4706,8 @@ _u pushBack [
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
 	/*Price*/2500,
+	/*BuildTime*/30,
+	/*Distance*/1,
 	/*Camo*/['Olive'],
 	/*Type*/[],
 	/*Ammmo*/true,
