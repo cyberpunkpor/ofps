@@ -162,7 +162,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Dynamic Loadout)'],
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/4,
-	/*Price*/40000,
+	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/30,
 	/*Camo*/['UAV'],
