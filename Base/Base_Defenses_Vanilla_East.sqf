@@ -2509,7 +2509,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Darter Patrol',
 	/*Class*/"O_UAV_01_F",
 	/*Price*/4000,
@@ -2517,7 +2517,7 @@ _u pushBack [
 	/*Tags*/["Defense"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/0,
+	/*Upgrade*/3,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
