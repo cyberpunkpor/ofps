@@ -1,4 +1,3 @@
-
 /*
 //--------------------------------------------------------------------------------------------------------------
 # HEADER #
@@ -2215,7 +2214,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/5000,
+	/*Price*/4000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
@@ -2234,7 +2233,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/5000,
+	/*Price*/4000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
