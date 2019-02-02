@@ -2351,7 +2351,7 @@ _u pushBack [
 	/*Price*/2000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Winter'],
+	/*Camo*/[""],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
