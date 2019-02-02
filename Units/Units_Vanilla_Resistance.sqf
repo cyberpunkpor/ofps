@@ -1188,7 +1188,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/1000,
+	/*Price*/1400,
 	/*BuildTime*/20,
 	/*Distance*/0,
 	/*Camo*/["Digital"],
