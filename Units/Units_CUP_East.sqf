@@ -2797,6 +2797,44 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_UH1H_armed_SLA',
+	/*MenuName*/'UH-1H (x14 Hydra Rockets/x2 M240)',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/14000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Armed Transport Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_UH1H_gunship_SLA',
+	/*MenuName*/'UH-1H (x38 Hydra Rockets/x2 M134/x2 M240)',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/18000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Armed Transport Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Ka60_Hex_CSAT',
@@ -2822,7 +2860,7 @@ _u pushBack [
 	/*MenuName*/'MI8 - 128RTKS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
-	/*Price*/16000,
+	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Attack Helicopter'],
@@ -4239,7 +4277,43 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_UAV_02_dynamicLoadout_F',
+	/*MenuName*/'K40 Ababil-3 (6x ATGM)',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/3,
+	/*Price*/30000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['UAV'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_T_UAV_04_CAS_F',
+	/*MenuName*/'KH-3A Fenghuang (4x ATGM)',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/2,
+	/*Price*/25000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['UAV'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 
 //--------------------------------------------------------------------------------------------------------------
