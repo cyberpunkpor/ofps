@@ -2535,7 +2535,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_Truck_03_medical_F',
 	/*MenuName*/'Tempest Medic (CSAT)',
-	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"]],
+	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
 	/*Price*/7500,
 	/*BuildTime*/30,
