@@ -4149,7 +4149,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_UAZ_AMB_RU',
 	/*MenuName*/'UAZ Medic',
-	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/6000,
 	/*BuildTime*/30,
