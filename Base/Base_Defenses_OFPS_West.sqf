@@ -249,7 +249,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender (12km)',
 	/*Class*/"OFPS_B_SAM_System_03_F",
 	/*Price*/300000,
@@ -281,7 +281,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_tower_ofps_west",2]]],
 	/*Price*/310000,
