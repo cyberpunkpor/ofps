@@ -2041,7 +2041,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_Truck_01_medical_F',
 	/*MenuName*/'HEMTT Medic',
-	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"]],
+	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
 	/*Price*/7500,
 	/*BuildTime*/30,
