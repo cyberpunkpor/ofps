@@ -4277,44 +4277,6 @@ _u pushBack [
 	/*Picture*/''
 ];
 
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'O_UAV_02_dynamicLoadout_F',
-	/*MenuName*/'K40 Ababil-3 (6x ATGM)',
-	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/3,
-	/*Price*/30000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['UAV'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'O_T_UAV_04_CAS_F',
-	/*MenuName*/'KH-3A Fenghuang (4x ATGM)',
-	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/2,
-	/*Price*/25000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['UAV'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
 
 //--------------------------------------------------------------------------------------------------------------
 
