@@ -2705,7 +2705,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'O_UGV_01_rcws_F',
-	/*MenuName*/'UGV Stomper Armed (CSAT)',
+	/*MenuName*/'UGV Saif RCWS',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
 	/*Price*/8000,
