@@ -152,7 +152,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'MIM-145 Defender',
 	/*Class*/"B_SAM_System_03_F",
 	/*Price*/250000,
@@ -168,7 +168,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'MIM-145 Defender Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_west",2]]],
 	/*Price*/255000,
