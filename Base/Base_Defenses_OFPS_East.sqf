@@ -249,7 +249,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'S-750 Rhea (12km)',
 	/*Class*/"OFPS_O_SAM_System_04_F",
 	/*Price*/300000,
@@ -281,7 +281,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'S-750 Rhea Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_tower_ofps_east",2]]],
 	/*Price*/310000,
