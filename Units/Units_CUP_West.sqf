@@ -6580,7 +6580,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2A3Bradley_NATO_T',
 	/*MenuName*/'M2A3 Bradley-TUSK TOW-Olive',
@@ -6599,7 +6599,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M6LineBacker_NATO_T',
 	/*MenuName*/'Bradley M6 Linebacker',
@@ -6656,7 +6656,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2A3Bradley_USA_W',
 	/*MenuName*/'M2A3 Bradley-TUSK TOW-Woodland',
@@ -6675,7 +6675,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M6LineBacker_USA_W',
 	/*MenuName*/'M6 Bradley-AA-Tan',
@@ -6732,7 +6732,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2A3Bradley_USA_D',
 	/*MenuName*/'M2A3 Bradley-TUSK TOW-Tan',
@@ -6751,7 +6751,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M6LineBacker_USA_D',
 	/*MenuName*/'M6 Bradley-AA-Tan',
@@ -8461,6 +8461,44 @@ _u pushBack [
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_UH1D_armed_GER_KSK',
+	/*MenuName*/'UH-1D (x14 Hydra Rockets/x2 M240)',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/14000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Armed Transport Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_UH1D_gunship_GER_KSK',
+	/*MenuName*/'UH-1D (x38 Hydra Rockets/x2 M134/x2 M240)',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/18000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Armed Transport Helicopter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
 	/*Picture*/''
 ];
 
