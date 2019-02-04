@@ -3784,7 +3784,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BM21_RU',
 	/*MenuName*/'BM21 Grad MLRS',
