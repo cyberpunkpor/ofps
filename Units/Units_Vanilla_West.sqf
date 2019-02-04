@@ -1752,13 +1752,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_MBT_01_mlrs_F',
-	/*MenuName*/'M5 Sandstorm (Green)',
+	/*MenuName*/'M5 Sandstorm',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/5,
-	/*Price*/200000,
+	/*Price*/300000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -1777,7 +1777,7 @@ _u pushBack [
 	/*MenuName*/'M5 Sandstorm (Tropic)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/5,
-	/*Price*/200000,
+	/*Price*/300000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
