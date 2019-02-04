@@ -184,7 +184,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'MIM-145 Defender Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_tower_west",2]]],
 	/*Price*/260000,
