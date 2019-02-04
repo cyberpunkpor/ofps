@@ -1187,8 +1187,8 @@ _u pushBack [
 	/*ClassName*/'O_T_UAV_04_CAS_F',
 	/*MenuName*/'Fengchuang (4x ATGM)',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/3,
-	/*Price*/30000,
+	/*UpgradeLevel*/2,
+	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['UAV'],
@@ -1313,7 +1313,6 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
-
 
 
 
