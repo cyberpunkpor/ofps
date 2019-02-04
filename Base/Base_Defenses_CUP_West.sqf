@@ -632,4 +632,20 @@ _u pushBack [
 	/*Specials*/[["DMG_Explosion", 0.3]]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'RBS-70 (360° AA)',
+	/*Class*/"CUP_B_RBS70_ACR",
+	/*Price*/6000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";
