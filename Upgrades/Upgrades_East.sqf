@@ -21,7 +21,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	(missionNamespace getVariable "CTI_VEHICLES_ERA") isEqualTo 1, //--- ERA System
 	true, //--- Satellite
 	true, //--- Nuke and Arty
-	true, //--- Supply Rate
+	false, //--- Supply Rate
 	(missionNamespace getVariable "CTI_BASE_HEALTH_UPGRADE") isEqualTo 1, //--- Base Health
 	true, //--- Base Defense Upgrade		
 	true, //--- Jamming Types
