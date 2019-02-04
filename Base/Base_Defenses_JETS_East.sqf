@@ -152,7 +152,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'S-750 Rhea',
 	/*Class*/"O_SAM_System_04_F",
 	/*Price*/250000,
@@ -168,7 +168,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'S-750 Rhea Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_east",2]]],
 	/*Price*/255000,
