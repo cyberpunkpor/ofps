@@ -648,4 +648,20 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'M119 (Artillery)',
+	/*Class*/"CUP_B_M119_US",
+	/*Price*/250000,
+	/*Placement*/[180, 5],
+	/*Tags*/["In-Field Artillery"],
+	/*Location*/["RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/4,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";
