@@ -2204,20 +2204,20 @@ _u pushBack [
 	/*ClassName*/'CUP_12Rnd_MLRS_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/7800,
-	/*RearmTime*/720,
+	/*Price*/78000,
+	/*RearmTime*/300,
 	/*Filters*/[]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'CUP_12Rnd_MLRS_DPICM',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
 	/*Price*/120000,
-	/*RearmTime*/720,
+	/*RearmTime*/300,
 	/*Filters*/[]
 ];
 
@@ -2229,7 +2229,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
 	/*Price*/120000,
-	/*RearmTime*/1200,
+	/*RearmTime*/600,
 	/*Filters*/[]
 ];
 
