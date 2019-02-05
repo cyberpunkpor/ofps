@@ -488,15 +488,15 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'D-30 (Artillery)',
 	/*Class*/"CUP_O_D30_RU",
-	/*Price*/200000,
+	/*Price*/250000,
 	/*Placement*/[180, 5],
-	/*Tags*/["Defense"],
-	/*Location*/["HQ"],
+	/*Tags*/["In-Field Artillery"],
+	/*Location*/["RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/3,
+	/*Upgrade*/4,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
