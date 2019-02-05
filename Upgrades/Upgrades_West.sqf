@@ -52,7 +52,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[12000],               //--- Nuke and Arty
 	[1000,2000,3000],      //--- Supply Rate
 	[500,1000,2000,3000],  //--- Base Health
-	[1000,2000,3000],      //--- Base Defense
+	[1000,2000,3000,9000],      //--- Base Defense
 	[1000,2000,3000], //--- Jamming Types
 	[1000,2000,3000,4000]       //--- Jamming Range
 ]];
@@ -63,7 +63,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	6, //--- Gear
 	6, //--- Barracks
 	5, //--- Light
-	4, //--- Heavy
+	5, //--- Heavy
 	3, //--- Naval
 	5, //--- Air Rotary
 	5, //--- Air Fixed
@@ -80,7 +80,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	1, //--- Nuke and Arty
 	3, //--- Supply Rate
 	4, //--- Base Health
-	3, //--- Base Defense
+	4, //--- Base Defense
 	3, //--- Jamming Types
 	4  //--- Jamming Range
 ]];
@@ -88,8 +88,8 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[],[],[]], //--- Gear
 	[[CTI_UPGRADE_GEAR, 1],[CTI_UPGRADE_GEAR, 2],[CTI_UPGRADE_GEAR, 3],[CTI_UPGRADE_GEAR, 4],[CTI_UPGRADE_GEAR, 5],[CTI_UPGRADE_GEAR, 6]], //--- Barracks
-	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Light
-	[[CTI_UPGRADE_LIGHT,3],[],[],[],[]], //--- Heavy
+	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_NUKE, 1]], //--- Light
+	[[CTI_UPGRADE_LIGHT,3],[],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Heavy
 	[[],[],[]], //--- Naval
 	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3],[],[]], //--- Air Rotary
 	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3],[],[]], //--- Air Fixed
@@ -106,7 +106,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[CTI_UPGRADE_LIGHT,4]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
 	[[],[],[],[]], //--- Base Health
-	[[],[],[]],    //--- Base Defense
+	[[],[],[],[CTI_UPGRADE_NUKE, 1]],    //--- Base Defense
 	[[],[],[]], //--- Jamming Types
 	[[],[],[],[]]     //--- Jamming Range
 ]];
@@ -135,7 +135,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1], //--- Nuke and Arty
 		[1,1,1], //--- Supply Rate
 		[1,1,1,1], //--- Base Health
-		[1,1,1],   //--- Base Defense
+		[1,1,1,1],   //--- Base Defense
 		[1,1,1], //--- Jamming Types
 		[1,1,1,1]    //--- Jamming Range
 	]];
@@ -162,7 +162,7 @@ if (CTI_DEV_MODE > 0) then {
 		[420],                    //--- Nuke and Arty
 		[60,60,60],               //--- Supply Rate
 		[30,60,90,120],           //--- Base Health
-		[30,60,90],               //--- Base Defense
+		[30,60,90,120],               //--- Base Defense
 		[30,60,120],         	  //--- Jamming Types
 		[30,60,90,120]            //--- Jamming Range
 	]];
@@ -215,10 +215,10 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["LVOSS System", "<t>Enables Light Vehicle Obscuration Smoke System (LVOSS), Full 360 degree coverage.<br /><t color='#ffff00'>LVL 1</t> - Ammo 1 per side, Cooldown 120s<br /><t color='#ffff00'>LVL 2</t> - Ammo 2 per side, Cooldown 90s </t>"], //--- LVOSS System
 	["ERA System", "<t>Enable Explosive Reactive Armor system (ERA) or Arena System for Heavy Vehicles, Tanks still vulnerable from the rear.<br /><t color='#ffff00'>LVL 1</t> - ERA Mode Ammo 1 per side, Cooldown 150s<br /><t color='#ffff00'>LVL 2</t> - ERA Mode Ammo 2 per side, Cooldown 120s<br /><t color='#ffff00'>LVL 3</t> - ARENA Mode Ammo 3 per side, Cooldown 90s<br /><t color='#ffff00'>LVL 4</t> - ARENA Mode Ammo 4 per side, Cooldown 60s</t>"], //--- ERA System
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam and town intel.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
-	["Nuclear Arms Deal", "<t>Unlock Nuke Truck in Light Factory. (Heavy Artillery temp removed)<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //--- Nuke and Arty
+	["Nuclear Arms Deal", "<t>Unlock the Nuke Truck in the Light Factory and Rocket Artillery in the Light/Heavy Factories. <br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //--- Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV Raises<br /><t color='#ffff00'>LVL 1</t> - 1.25 SV per Interval<br /><t color='#ffff00'>LVL 2</t> - 1.5 SV per Interval<br /><t color='#ffff00'>LVL 3</t> - 1.75 SV per Interval</t>"], //--- Supply Rate
 	["Base Health", "<t>Improves base structures health<br /><t color='#ffff00'>LVL 1</t> - 25% Boost </t><br /><t color='#ffff00'>LVL 2</t> - 50% Boost<br /><t color='#ffff00'>LVL 3</t> - 75% Boost <br /><t color='#ffff00'>LVL 4</t> - 100% Boost </t>"], //--- Base Health
-	["Base Defences", "<t>Unlock better defences structures and weapons<br /><t color='#ffff00'>LVL 1</t> - Unlocks TOW launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks C-RAM and more."], //--- Base defense
+	["Base Defences", "<t>Unlock better defences structures and weapons<br /><t color='#ffff00'>LVL 1</t> - Unlocks TOW launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks C-RAM and more.</t> - Unlocks the M119 Artillery piece in the Repair Truck build menu.<br /><t color='#ffff00'>LVL 4"], //--- Base defense
 	["Jamming Type", "<t>Unlocks jamming capabilities<br /><t color='#ffff00'>LVL 0</t> - Unlocks IR jamming.<br /><t color='#ffff00'>LVL 1</t> - Unlocks passive radar jamming.<br /><t color='#ffff00'>LVL 2</t> - Unlocks LIDAR jamming <br /><t color='#ffff00'>LVL 3</t> - Unlocks active radar jamming"], //--- Jamming Types
         ["Jamming Range", "<t>Jamming Range<br /><t color='#ffff00'>LVL 1</t> - Range 2km <br /><t color='#ffff00'>LVL 2</t> - Range 3km <br /><t color='#ffff00'>LVL 3</t> - Range 4km <br /><t color='#ffff00'>LVL 3</t> - Range 6km <br />"]  //--- Jamming Range
 
