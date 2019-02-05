@@ -8544,7 +8544,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_S1203_Ambulance_CDF',
-	/*MenuName*/'Škoda 1203 Ambulance',
+	/*MenuName*/'Skoda 1203 Ambulance',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/6000,
