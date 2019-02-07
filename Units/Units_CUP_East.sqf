@@ -3124,7 +3124,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Mi24_V_Dynamic_RU',
-	/*MenuName*/'Mi24V - 4AT/128RKTS',
+	/*MenuName*/'Mi24V - 4AT/80RKTS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
 	/*Price*/38000,
