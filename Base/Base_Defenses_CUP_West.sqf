@@ -652,7 +652,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'M119 (Artillery)',
 	/*Class*/"CUP_B_M119_US",
-	/*Price*/250000,
+	/*Price*/125000,
 	/*Placement*/[180, 5],
 	/*Tags*/["In-Field Artillery"],
 	/*Location*/["RepairTruck"],
