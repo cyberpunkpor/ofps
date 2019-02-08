@@ -1264,7 +1264,7 @@ _u pushBack [
 	/*MenuName*/'V-44 X Blackfish (Armed)',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/3,
-	/*Price*/30000,
+	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
