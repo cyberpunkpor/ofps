@@ -2911,6 +2911,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Mi8_VIV_RU',
+	/*MenuName*/'Mi-8AMT (Quad bike VIV)',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/0,
+	/*Price*/4000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Ultra Light Vehicle Transport Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Mi24_Mk4_AT_CSAT_T',
@@ -3632,13 +3651,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_T55_CSAT',
 	/*MenuName*/'T-55 (CSAT)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
-	/*Price*/16000,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['SandHex'],
