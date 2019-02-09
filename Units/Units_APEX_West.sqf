@@ -1205,7 +1205,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_T_LSV_01_unarmed_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],,
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/300,
 	/*BuildTime*/5,
