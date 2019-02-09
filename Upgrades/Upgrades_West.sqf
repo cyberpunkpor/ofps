@@ -42,7 +42,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[1000,2000,3000,4000], //--- Air Ordinance
 	[1000,2000,3000,4000], //--- Land Ordinance
 	[1500,3000,5000,6000], //--- Forward Logistics
-	[1000,5000], //--- Halo
+	[1500,3000,6000], //--- Halo
 	[500,1000,2000,4000], //--- Air Radar
 	[500,1000,2000,4000], //--- Art Radar
 	[1000,1500,2000,3000], //--- Respawn Range
@@ -70,7 +70,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	4, //--- Air Ordinance
 	4, //--- Land Ordinance
 	4, //--- Forward Logistics
-	2, //--- Halo
+	3, //--- Halo
 	4, //--- Air Radar
 	4, //--- Art Radar
 	4, //--- Respawn Range
@@ -96,7 +96,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Air Ordinance 
 	[[],[],[],[]], //--- Land Ordinance
 	[[CTI_UPGRADE_BARRACKS,2],[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HALO,1]], //--- Forward Logistics / Forward Logistics
-	[[],[]], //--- Halo
+	[[],[],[CTI_UPGRADE_TOWNS,3]], //--- Halo
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[]], //--- Respawn Range
@@ -125,7 +125,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1, 1], //--- Air Ordinance
 		[1, 1, 1, 1], //--- Land Ordinance
 		[1, 1, 1, 1], //--- Forward Logistics
-		[1, 1], //--- Halo
+		[1, 1, 1], //--- Halo
 		[1, 1, 1, 1], //--- Air Radar
 		[1, 1, 1, 1], //--- Art Radar
 		[1, 1, 1, 1], //--- Respawn Range
@@ -152,7 +152,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240],         //--- Air Ordinance
 		[60,120,160,240],         //--- Land Ordinance
 		[60,120,160,240],         //--- Forward Logistics
-		[60,120],                 //--- Halo
+		[60,120,240], 					//--- Halo
 		[60,120,160,240],         //--- Air Radar
 		[60,120,160,240],         //--- Art Radar
 		[60,120,160,240],             //--- Respawn Range
@@ -208,7 +208,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Air Ordinance", "<t>Unlock better air ordinance.<br /><t color='#ffff00'>LVL 1</t> - Cannons/FlaresChaff<br /><t color='#ffff00'>LVL 2</t> - Rockets/AA Missiles<br /><t color='#ffff00'>LVL 3</t> - AGM Lock Missiles<br /><t color='#ffff00'>LVL 4</t> - Bombs</t>"], //--- Air Ordinance
 	["Land Ordinance", "<t>Unlock better land based ordinance (tanks, mortars, arty, etc.).<br /><t color='#ffff00'>LVL 1</t> - Cannon/Autocannon<br /><t color='#ffff00'>LVL 2</t> - Cannon/Autocannon Premium<br /><t color='#ffff00'>LVL 3</t> - Rockets/Missiles<br /><t color='#ffff00'>LVL 4</t> - Arty</t>"], //--- Land Ordinance
 	["Forward Logistics", "<t>Improves Gear and Vehicles available at Depots and Large FOBs, unlocks FOB/Large FOB<br /><t color='#ffff00'>LVL 1</t> - Additional gear, inf, vehicles<br /><t color='#ffff00'>LVL 2</t> - Additional gear, inf, vehicles<br /><t color='#ffff00'>LVL 3</t> - Additional gear, inf, vehicles, Adds Service To Depots/Large FOBs, and unlocks large FOB</t><br /><t color='#ffff00'>LVL 4</t> - Small FOBs available @ Town Depots<br />"], //--- Towns Depot
-	["Halo", "<t>Enable HALO Jumping from the Air factory and Depots<br /><t color='#ffff00'>LVL 1</t> - Halo to Towns and Bases<br /><t color='#ffff00'>LVL 2</t> - Halo to Large FOBs</t>"], //--- Halo
+	["High Altitude, Low Open Parachute Jump (HALO)", "<t>Enable HALO Jumping between Bases and Town Depots using the HALO tablet button (Requires Air/Rotary Factory).<br /><t color='#ffff00'>LVL 1</t> - HALO between Towns and Bases<br /><t color='#ffff00'>LVL 2</t> - HALO to Large FOBs</t><br /><t color='#ffff00'>LVL 3</t> - Vehicle HALO unlocked. (Player must be in vehicle)</t>"], //--- Halo
 	["Air Radar", "<t>Increase Range of Air Radar<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Air Radar
 	["Artillery Radar", "<t>Increase Range of Artillery Radar<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Art Radar
 	["Respawn Range", "<t>Increase the max range of the respawn trucks and FOBS.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t>"], //--- Respawn Range
