@@ -165,7 +165,7 @@ _u pushBack [
 	/*MaxCount*/4,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
