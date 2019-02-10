@@ -2295,7 +2295,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_MAAWS_HEDP_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/2,
 	/*Price*/1000,
 	/*Camo*/[],
 	/*Type*/["Dumbfire"]
@@ -2306,7 +2306,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_MAAWS_HEAT_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/2,
 	/*Price*/800,
 	/*Camo*/[],
 	/*Type*/["Dumbfire"]
@@ -2418,7 +2418,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_launch_MAAWS',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/2,
 	/*Price*/1500,
 	/*Camo*/[],
 	/*Type*/["Dumbfire"]
@@ -2704,7 +2704,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_optic_MAAWS_Scope',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/2,
 	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["Other"]
