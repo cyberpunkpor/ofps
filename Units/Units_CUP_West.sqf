@@ -3430,7 +3430,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Dingo_CZ_Wdl',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/1,
 	/*Price*/1600,
 	/*BuildTime*/30,
