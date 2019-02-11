@@ -521,7 +521,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'OFPS_AWC_CANNON_O',
 	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/2,
 	/*Price*/7000,
 	/*BuildTime*/30,
