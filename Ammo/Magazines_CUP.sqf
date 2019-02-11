@@ -1787,7 +1787,7 @@ _u pushBack [
 	/*ClassName*/'CUP_30Rnd_105mmLASER_M119_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/240000,
+	/*Price*/120000,
 	/*RearmTime*/600,
 	/*Filters*/[]
 ];
@@ -2108,7 +2108,7 @@ _u pushBack [
 	/*ClassName*/'CUP_30Rnd_122mmHE_D30_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/15000,
+	/*Price*/90000,
 	/*RearmTime*/600,
 	/*Filters*/[]
 ];
@@ -2120,7 +2120,7 @@ _u pushBack [
 	/*ClassName*/'CUP_30Rnd_122mmWP_D30_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/2800,
+	/*Price*/50000,
 	/*RearmTime*/600,
 	/*Filters*/[]
 ];
@@ -2132,7 +2132,7 @@ _u pushBack [
 	/*ClassName*/'CUP_30Rnd_122mmLASER_D30_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/45000,
+	/*Price*/120000,
 	/*RearmTime*/600,
 	/*Filters*/[]
 ];
@@ -2144,7 +2144,7 @@ _u pushBack [
 	/*ClassName*/'CUP_30Rnd_122mmSMOKE_D30_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/2800,
+	/*Price*/9000,
 	/*RearmTime*/600,
 	/*Filters*/[]
 ];
@@ -2156,7 +2156,7 @@ _u pushBack [
 	/*ClassName*/'CUP_30Rnd_122mmILLUM_D30_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/2800,
+	/*Price*/9000,
 	/*RearmTime*/600,
 	/*Filters*/[]
 ];
