@@ -3146,7 +3146,7 @@ _u pushBack [
 	/*MenuName*/'Mi24V - 4AT/80RKTS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
-	/*Price*/38000,
+	/*Price*/32000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
