@@ -1492,7 +1492,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
-	/*Price*/15000,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
