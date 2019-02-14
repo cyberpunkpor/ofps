@@ -2120,7 +2120,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
-	/*Price*/13500,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[""],
@@ -2269,6 +2269,25 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_Datsun_PK',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1500,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_Datsun_PK_Random',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
@@ -2519,7 +2538,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
-	/*Price*/13500,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[""],
@@ -2558,6 +2577,25 @@ _u pushBack [
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
 	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_ZSU23_Afghan_AAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[""],
@@ -2800,11 +2838,30 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_FENNEK_GMG_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/6500,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_FENNEK_HMG_ION',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/1400,
+	/*Price*/4500,
 	/*BuildTime*/20,
 	/*Distance*/0,
 	/*Camo*/["Black ION"],
@@ -2823,7 +2880,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/1200,
+	/*Price*/2000,
 	/*BuildTime*/20,
 	/*Distance*/0,
 	/*Camo*/["Black ION"],
@@ -2835,6 +2892,24 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_MATV_GMG_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/6000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 _u pushBack [
 	/*Enabled*/true,
@@ -2843,7 +2918,26 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/3500,
+	/*Price*/4000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_4WD_LMG_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1400,
 	/*BuildTime*/20,
 	/*Distance*/0,
 	/*Camo*/["Black ION"],
@@ -2893,6 +2987,24 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_LSV_02_Minigun_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';
