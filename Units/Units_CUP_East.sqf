@@ -2779,9 +2779,9 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'KA60 Orca - 12RKTS/GMG',
+	/*Name*/'KA60 Kasatka - 12RKTS/GMG',
 	/*ClassName*/'CUP_O_Ka60_GL_Hex_CSAT',
-	/*MenuName*/'KA60 Orca - 12RKTS/GMG',
+	/*MenuName*/'KA-60 Kasatka - 12RKTS/GMG',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
 	/*Price*/12000,
