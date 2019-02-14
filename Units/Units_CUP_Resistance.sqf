@@ -3100,6 +3100,45 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_LR_SF_HMG_AAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1500,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_LR_SF_GMG_AAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';
