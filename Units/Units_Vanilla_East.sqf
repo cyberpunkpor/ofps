@@ -2000,11 +2000,11 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'KA60 Orca - 12RKTS/Cannon',
+	/*Name*/'PO-30 Orca - 12 DAGRs/Cannon',
 	/*ClassName*/'O_Heli_Light_02_dynamicLoadout_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/14000,
 	/*BuildTime*/30,
 	/*Distance*/1,
