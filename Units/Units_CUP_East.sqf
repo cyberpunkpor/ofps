@@ -3784,13 +3784,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_ZSU23_Afghan_CSAT',
 	/*MenuName*/'ZSU-23 Shilka (Afghan CSAT)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
-	/*Price*/12000,
+	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['SandHex'],
