@@ -210,9 +210,9 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	EAST_TOWN_SPG = "CUP_O_SPG9_ChDKZ";
 	EAST_TOWN_DSHKM = "CUP_I_DSHKM_TK_GUE";
 	EAST_TOWN_MG50 = "CUP_I_M2StaticMG_RACS";
-	EAST_TOWN_CRAM = "CUP_WV_B_CRAM";
-	EAST_TOWN_MK29 = "CUP_WV_B_SS_Launcher";
-	EAST_TOWN_MK49 = "CUP_WV_B_RAM_Launcher";
+	EAST_TOWN_CRAM = "CUP_O_ZS23_RU";
+	EAST_TOWN_MK29 = "CUP_O_ZS23_RU";
+	EAST_TOWN_MK49 = "CUP_O_ZS23_RU";
 	EAST_TOWN_MG50_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -302,10 +302,10 @@ if (CTI_RHS_AFRF_ADDON > 0) then {
 if (CTI_OFPS_UNITS_ADDON > 0) then {
 	EAST_TOWN_AT = "ofps_O_Van_static_AT_F";
 	EAST_TOWN_AA = "ofps_O_Van_static_AA_F";
-	EAST_TOWN_ZSU = "ofps_O_Van_static_AA_F";
-	EAST_TOWN_D30 = "ofps_O_Van_static_AT_F";
-	EAST_TOWN_SPG = "ofps_O_Van_static_AT_F";
-	EAST_TOWN_COAST = "ofps_O_Van_static_AT_F";
+	EAST_TOWN_COAST = "OFPS_CENTURION_O_COASTAL";
+	EAST_TOWN_CRAM = "OFPS_PRAETORIAN_O";
+	EAST_TOWN_MK29 = "OFPS_CENTURION_O";
+	EAST_TOWN_MK49 = "OFPS_SPARTAN_O";
 };
 //--- OFPS RHS Mod
 if (CTI_OFPS_RHS_ADDON > 0) then {
