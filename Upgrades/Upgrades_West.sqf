@@ -22,7 +22,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	(missionNamespace getVariable "CTI_VEHICLES_ERA") isEqualTo 1, //--- ERA System
 	true, //--- Satellite
 	true, //--- Nuke and Arty
-	true, //--- Supply Rate
+	false, //--- Supply Rate
 	(missionNamespace getVariable "CTI_BASE_HEALTH_UPGRADE") isEqualTo 1, //--- Base Health
 	true, //--- Base Defense Upgrade		
 	true, //--- Jamming Types
@@ -42,7 +42,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[1000,2000,3000,4000], //--- Air Ordinance
 	[1000,2000,3000,4000], //--- Land Ordinance
 	[1500,3000,5000,6000], //--- Forward Logistics
-	[1000,5000], //--- Halo
+	[1500,3000,6000], //--- Halo
 	[500,1000,2000,4000], //--- Air Radar
 	[500,1000,2000,4000], //--- Art Radar
 	[1000,1500,2000,3000], //--- Respawn Range
@@ -70,7 +70,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	4, //--- Air Ordinance
 	4, //--- Land Ordinance
 	4, //--- Forward Logistics
-	2, //--- Halo
+	3, //--- Halo
 	4, //--- Air Radar
 	4, //--- Art Radar
 	4, //--- Respawn Range
@@ -88,7 +88,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[],[],[]], //--- Gear
 	[[CTI_UPGRADE_GEAR, 1],[CTI_UPGRADE_GEAR, 2],[CTI_UPGRADE_GEAR, 3],[CTI_UPGRADE_GEAR, 4],[CTI_UPGRADE_GEAR, 5],[CTI_UPGRADE_GEAR, 6]], //--- Barracks
-	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_NUKE, 1]], //--- Light
+	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Light
 	[[CTI_UPGRADE_LIGHT,3],[],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Heavy
 	[[],[],[]], //--- Naval
 	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3],[],[]], //--- Air Rotary
@@ -96,7 +96,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Air Ordinance 
 	[[],[],[],[]], //--- Land Ordinance
 	[[CTI_UPGRADE_BARRACKS,2],[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HALO,1]], //--- Forward Logistics / Forward Logistics
-	[[],[]], //--- Halo
+	[[],[],[CTI_UPGRADE_TOWNS,3]], //--- Halo
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[]], //--- Respawn Range
@@ -125,7 +125,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1, 1], //--- Air Ordinance
 		[1, 1, 1, 1], //--- Land Ordinance
 		[1, 1, 1, 1], //--- Forward Logistics
-		[1, 1], //--- Halo
+		[1, 1, 1], //--- Halo
 		[1, 1, 1, 1], //--- Air Radar
 		[1, 1, 1, 1], //--- Art Radar
 		[1, 1, 1, 1], //--- Respawn Range
@@ -152,7 +152,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240],         //--- Air Ordinance
 		[60,120,160,240],         //--- Land Ordinance
 		[60,120,160,240],         //--- Forward Logistics
-		[60,120],                 //--- Halo
+		[60,120,240], 					//--- Halo
 		[60,120,160,240],         //--- Air Radar
 		[60,120,160,240],         //--- Art Radar
 		[60,120,160,240],             //--- Respawn Range
@@ -208,14 +208,14 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Air Ordinance", "<t>Unlock better air ordinance.<br /><t color='#ffff00'>LVL 1</t> - Cannons/FlaresChaff<br /><t color='#ffff00'>LVL 2</t> - Rockets/AA Missiles<br /><t color='#ffff00'>LVL 3</t> - AGM Lock Missiles<br /><t color='#ffff00'>LVL 4</t> - Bombs</t>"], //--- Air Ordinance
 	["Land Ordinance", "<t>Unlock better land based ordinance (tanks, mortars, arty, etc.).<br /><t color='#ffff00'>LVL 1</t> - Cannon/Autocannon<br /><t color='#ffff00'>LVL 2</t> - Cannon/Autocannon Premium<br /><t color='#ffff00'>LVL 3</t> - Rockets/Missiles<br /><t color='#ffff00'>LVL 4</t> - Arty</t>"], //--- Land Ordinance
 	["Forward Logistics", "<t>Improves Gear and Vehicles available at Depots and Large FOBs, unlocks FOB/Large FOB<br /><t color='#ffff00'>LVL 1</t> - Additional gear, inf, vehicles<br /><t color='#ffff00'>LVL 2</t> - Additional gear, inf, vehicles<br /><t color='#ffff00'>LVL 3</t> - Additional gear, inf, vehicles, Adds Service To Depots/Large FOBs, and unlocks large FOB</t><br /><t color='#ffff00'>LVL 4</t> - Small FOBs available @ Town Depots<br />"], //--- Towns Depot
-	["Halo", "<t>Enable HALO Jumping from the Air factory and Depots<br /><t color='#ffff00'>LVL 1</t> - Halo to Towns and Bases<br /><t color='#ffff00'>LVL 2</t> - Halo to Large FOBs</t>"], //--- Halo
+	["High Altitude, Low Open Parachute Jump (HALO)", "<t>Enable HALO Jumping between Bases and Town Depots using the HALO tablet button (Requires Air/Rotary Factory).<br /><t color='#ffff00'>LVL 1</t> - HALO between Towns and Bases<br /><t color='#ffff00'>LVL 2</t> - HALO to Large FOBs</t><br /><t color='#ffff00'>LVL 3</t> - Vehicle HALO unlocked. (Player must be in vehicle)</t>"], //--- Halo
 	["Air Radar", "<t>Increase Range of Air Radar<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Air Radar
 	["Artillery Radar", "<t>Increase Range of Artillery Radar<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Art Radar
 	["Respawn Range", "<t>Increase the max range of the respawn trucks and FOBS.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t>"], //--- Respawn Range
 	["LVOSS System", "<t>Enables Light Vehicle Obscuration Smoke System (LVOSS), Full 360 degree coverage.<br /><t color='#ffff00'>LVL 1</t> - Ammo 1 per side, Cooldown 120s<br /><t color='#ffff00'>LVL 2</t> - Ammo 2 per side, Cooldown 90s </t>"], //--- LVOSS System
 	["ERA System", "<t>Enable Explosive Reactive Armor system (ERA) or Arena System for Heavy Vehicles, Tanks still vulnerable from the rear.<br /><t color='#ffff00'>LVL 1</t> - ERA Mode Ammo 1 per side, Cooldown 150s<br /><t color='#ffff00'>LVL 2</t> - ERA Mode Ammo 2 per side, Cooldown 120s<br /><t color='#ffff00'>LVL 3</t> - ARENA Mode Ammo 3 per side, Cooldown 90s<br /><t color='#ffff00'>LVL 4</t> - ARENA Mode Ammo 4 per side, Cooldown 60s</t>"], //--- ERA System
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam and town intel.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
-	["Nuclear Arms Deal", "<t>Unlock the Nuke Truck in the Light Factory and Rocket Artillery in the Light/Heavy Factories. <br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //--- Nuke and Arty
+	["WMD Unlock", "<t>Unlock the Nuke Truck and Rhino in the Light Factory and Rocket Artillery in the Light and Heavy Factories.<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //--- Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV Raises<br /><t color='#ffff00'>LVL 1</t> - 1.25 SV per Interval<br /><t color='#ffff00'>LVL 2</t> - 1.5 SV per Interval<br /><t color='#ffff00'>LVL 3</t> - 1.75 SV per Interval</t>"], //--- Supply Rate
 	["Base Health", "<t>Improves base structures health<br /><t color='#ffff00'>LVL 1</t> - 25% Boost </t><br /><t color='#ffff00'>LVL 2</t> - 50% Boost<br /><t color='#ffff00'>LVL 3</t> - 75% Boost <br /><t color='#ffff00'>LVL 4</t> - 100% Boost </t>"], //--- Base Health
 	["Base Defences", "<t>Unlock better defences structures and weapons<br /><t color='#ffff00'>LVL 1</t> - Unlocks TOW launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks C-RAM and more.<br /><t color='#ffff00'>LVL 4</t> - Unlocks the M119 Artillery piece in the Repair Truck build menu."], //--- Base defense

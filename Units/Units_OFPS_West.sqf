@@ -181,7 +181,7 @@ _u pushBack [
 	/*MenuName*/'Nuke Truck',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
-	/*Price*/100000,
+	/*Price*/150000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Nuke'],
@@ -428,7 +428,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/0,
-	/*Price*/15000,
+	/*Price*/7000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Trans Plane'],
@@ -732,7 +732,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'OFPS_AWC_CANNON_B',
 	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/2,
 	/*Price*/7000,
 	/*BuildTime*/30,
@@ -753,7 +753,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/16000,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -766,7 +766,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MRL_B',
 	/*MenuName*/'',
@@ -785,7 +785,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'xmas_santa_blufor',
 	/*MenuName*/'Father Christmas',
@@ -804,7 +804,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'jean_sleigh',
 	/*MenuName*/'',

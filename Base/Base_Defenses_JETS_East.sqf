@@ -116,7 +116,7 @@ _u pushBack [
 	/*MaxCount*/4,
 	/*Cooldown*/120,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -132,7 +132,7 @@ _u pushBack [
 	/*MaxCount*/2,
 	/*Cooldown*/240,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -148,11 +148,11 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'S-750 Rhea',
 	/*Class*/"O_SAM_System_04_F",
 	/*Price*/250000,
@@ -164,11 +164,11 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'S-750 Rhea Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_east",2]]],
 	/*Price*/255000,
@@ -180,11 +180,11 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'S-750 Rhea Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_tower_east",2]]],
 	/*Price*/260000,
@@ -196,7 +196,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -212,7 +212,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -228,7 +228,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
