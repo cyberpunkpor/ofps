@@ -540,12 +540,12 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 		GUER_AIR_AA = "I_Plane_Fighter_03_AA_F";
 		GUER_AIR_CAS = "I_Plane_Fighter_03_dynamicLoadout_F";
 		//--- Boats
-		//GUER_NAVAL_ASSAULT_BOAT1 = "I_Boat_Armed_01_minigun_F";
-		//GUER_NAVAL_ASSAULT_BOAT2 = "I_Boat_Armed_01_minigun_F";
-		//GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
-		//GUER_NAVAL_LARGE_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
-		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_BUYAN_I";	
-		//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";	
+		GUER_NAVAL_ASSAULT_BOAT1 = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "HAFM_GunBoat";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_GunBoat";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "HAFM_Russen_IND";	
+		GUER_NAVAL_SUBMARINE = "HAFM_209_IND";	
 	};
 	//--Load Heli Mod
 	if (CTI_HELI_ADDON > 0) then {
