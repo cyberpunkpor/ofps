@@ -181,7 +181,7 @@ _u pushBack [
 	/*MaxCount*/3,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -197,11 +197,11 @@ _u pushBack [
 	/*MaxCount*/2,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (8km)',
 	/*Class*/"OFPS_CENTURION_B_8KM",
 	/*Price*/100000,
@@ -213,7 +213,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
