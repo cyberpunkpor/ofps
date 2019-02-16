@@ -60,7 +60,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	5, //--- Light
 	4, //--- Heavy
 	3, //--- Naval
-	5, //--- Air Rotary
+	4, //--- Air Rotary
 	5, //--- Air Fixed
 	4, //--- Air Ordinance
 	4, //--- Land Ordinance
