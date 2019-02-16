@@ -162,7 +162,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Ammo)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/1,
-	/*Price*/130000,
+	/*Price*/60000,
 	/*BuildTime*/30,
 	/*Distance*/30,
 	/*Camo*/['Missile Boat'],
