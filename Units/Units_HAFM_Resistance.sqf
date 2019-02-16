@@ -124,7 +124,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
 	/*UpgradeLevel*/1,
-	/*Price*/10000,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/10,
 	/*Camo*/['Attack Boat'],
@@ -155,6 +155,24 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'HAFM_Russen_IND',
+	/*MenuName*/['%1 (Ammo)'],
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/1,
+	/*Price*/60000,
+	/*BuildTime*/30,
+	/*Distance*/30,
+	/*Camo*/['Missile Boat'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-ammotruck',
+	/*Picture*/''
+];
 
 //--------------------------------------------------------------------------------------------------------------
 

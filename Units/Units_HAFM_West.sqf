@@ -124,7 +124,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
 	/*UpgradeLevel*/1,
-	/*Price*/10000,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/10,
 	/*Camo*/['Attack Boat'],
@@ -162,7 +162,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
-	/*Price*/90000,
+	/*Price*/100000,
 	/*BuildTime*/30,
 	/*Distance*/100,
 	/*Camo*/['Attack Ship'],
@@ -181,7 +181,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
-	/*Price*/90000,
+	/*Price*/120000,
 	/*BuildTime*/30,
 	/*Distance*/100,
 	/*Camo*/['Attack Ship'],
@@ -200,7 +200,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
-	/*Price*/160000,
+	/*Price*/140000,
 	/*BuildTime*/30,
 	/*Distance*/100,
 	/*Camo*/['Support Boat'],
@@ -228,6 +228,44 @@ _u pushBack [
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'service-all',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'HAFM_Russen',
+	/*MenuName*/['%1 (Ammo)'],
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/1,
+	/*Price*/60000,
+	/*BuildTime*/30,
+	/*Distance*/30,
+	/*Camo*/['Missile Boat'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-ammotruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'HAFM_ABurke',
+	/*MenuName*/['%1 (Ammo)'],
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/1,
+	/*Price*/190000,
+	/*BuildTime*/30,
+	/*Distance*/30,
+	/*Camo*/['Missile Destroyer'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-ammotruck',
 	/*Picture*/''
 ];
 

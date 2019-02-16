@@ -2002,6 +2002,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_BRDM2_TK_Gue',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/4000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_M113_TKA',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
@@ -2026,6 +2045,25 @@ _u pushBack [
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
 	/*Price*/10000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_BMP1P_TKA',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/12000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[""],
@@ -2082,7 +2120,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
-	/*Price*/13500,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[""],
@@ -2249,6 +2287,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_Datsun_PK_Random',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1500,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_LR_MG_AAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
@@ -2306,6 +2363,44 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_MTLB_pk_SYNDIKAT',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_MTLB_pk_NAPA',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_BRDM2_HQ_NAPA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
@@ -2345,6 +2440,25 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_BRDM2_ATGM_NAPA',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/7000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_BRDM2_ATGM_TK_Gue',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
@@ -2424,7 +2538,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
-	/*Price*/13500,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[""],
@@ -2463,6 +2577,25 @@ _u pushBack [
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
 	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_ZSU23_Afghan_AAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[""],
@@ -2702,6 +2835,309 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_FENNEK_GMG_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/6500,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_FENNEK_HMG_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/4500,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_SUV_Armored_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_MATV_GMG_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/6000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_MATV_HMG_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/4000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_4WD_LMG_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1400,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_4WD_AT_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/3000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_LSV_02_AT_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/13000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_LSV_02_Minigun_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/["Black ION"],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_SPG9_TK_GUE',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_ZU23_TK_GUE',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_DSHKM_TK_GUE',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_AGS_TK_GUE',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_M2StaticMG_RACS',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_LR_SF_HMG_AAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1500,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_LR_SF_GMG_AAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 //--------------------------------------------------------------------------------------------------------------
 

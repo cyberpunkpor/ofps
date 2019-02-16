@@ -320,7 +320,7 @@ _u pushBack [
 	/*Tags*/["Sheds"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[["All", 50]],
-	/*Upgrade*/3,
+	/*Upgrade*/2,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -336,7 +336,7 @@ _u pushBack [
 	/*Tags*/["Sheds"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[["All", 50]],
-	/*Upgrade*/3,
+	/*Upgrade*/2,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -630,6 +630,38 @@ _u pushBack [
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[["DMG_Explosion", 0.3]]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'RBS-70 (360° AA)',
+	/*Class*/"CUP_B_RBS70_ACR",
+	/*Price*/6000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'M119 (Artillery)',
+	/*Class*/"CUP_B_M119_US",
+	/*Price*/125000,
+	/*Placement*/[180, 5],
+	/*Tags*/["In-Field Artillery"],
+	/*Location*/["RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/4,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
 ];
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";

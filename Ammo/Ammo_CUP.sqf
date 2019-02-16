@@ -943,7 +943,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_122_LASER',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/1200,
+	/*Price*/4000,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1003,7 +1003,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_105_LASER',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/7000,
+	/*Price*/4000,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1090,7 +1090,7 @@ _u pushBack [
 	/*ClassName*/'CUP_R_MLRS_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/650,
+	/*Price*/5000,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
@@ -1115,7 +1115,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
 	/*Price*/2500,
-	/*RearmTime*/10,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 

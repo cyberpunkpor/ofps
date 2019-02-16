@@ -306,10 +306,7 @@ if (CTI_RHS_AFRF_ADDON > 0) then {
 if (CTI_OFPS_UNITS_ADDON > 0) then {
 	WEST_TOWN_AT = "ofps_B_Van_static_AT_F";
 	WEST_TOWN_AA = "ofps_B_Van_static_AA_F";
-	WEST_TOWN_ZSU = "ofps_B_Van_static_AA_F";
-	WEST_TOWN_D30 = "ofps_B_Van_static_AT_F";
-	WEST_TOWN_SPG = "ofps_B_Van_static_AT_F";
-	WEST_TOWN_COAST = "ofps_B_Van_static_AT_F";
+	WEST_TOWN_COAST = "OFPS_CENTURION_B_COASTAL";
 };
 //--- OFPS RHS Mod
 if (CTI_OFPS_RHS_ADDON > 0) then {

@@ -3477,24 +3477,24 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*Type*/'Air',
+	/*Type*/'Land',
 	/*ClassName*/'12Rnd_230mm_rockets',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/78000,
-	/*RearmTime*/600,
+	/*Price*/60000,
+	/*RearmTime*/180,
 	/*Filters*/[]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*Type*/'Air',
+	/*Type*/'Land',
 	/*ClassName*/'12Rnd_230mm_rockets_cluster',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/8000,
-	/*RearmTime*/600,
+	/*Price*/78000,
+	/*RearmTime*/180,
 	/*Filters*/[]
 ];
 

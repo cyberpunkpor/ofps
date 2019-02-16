@@ -9,8 +9,8 @@ with missionNamespace do {
 		["TOWNS_SQUAD_RIFLEMEN1", 3, 80],
 		["TOWNS_SQUAD_AT1", 1, 50],			
 		[
-			["TOWNS_SQUAD_LIGHT1", 2, 60],
-			["TOWNS_SQUAD_LIGHT2", 2, 50]
+			["TOWNS_SQUAD_LIGHT1_MIXED", 2, 60],
+			["TOWNS_SQUAD_LIGHT2_MIXED", 2, 50]
 		]
 	];
 	//Towns 50-60
@@ -19,13 +19,13 @@ with missionNamespace do {
 		["TOWNS_SQUAD_SNIPER", 1, 20],
 		["TOWNS_SQUAD_AT1", 2, 60],				
 		[
-			["TOWNS_SQUAD_LIGHT2", 2, 30],
-			["TOWNS_SQUAD_LIGHT3", 2, 20],
-			["TOWNS_SQUAD_LIGHT4", 1, 10]
+			["TOWNS_SQUAD_LIGHT2_MIXED", 2, 30],
+			["TOWNS_SQUAD_LIGHT3_MIXED", 2, 20],
+			["TOWNS_SQUAD_LIGHT4_MIXED", 1, 10]
 		],
 		[
-			["TOWNS_SQUAD_APC1", 1, 30],
-			["TOWNS_SQUAD_APC2", 1, 20]
+			["TOWNS_SQUAD_APC1_MIXED", 1, 30],
+			["TOWNS_SQUAD_APC2_MIXED", 1, 20]
 		]
 	];
 	//Towns 60-80
@@ -36,16 +36,16 @@ with missionNamespace do {
 			["TOWNS_SQUAD_AT2", 2, 60] 				
 		],
 		[
-			["TOWNS_SQUAD_LIGHT3", 1, 30],
-			["TOWNS_SQUAD_LIGHT4", 1, 20],
-			["TOWNS_SQUAD_LIGHT5", 1, 10]
+			["TOWNS_SQUAD_LIGHT3_MIXED", 1, 30],
+			["TOWNS_SQUAD_LIGHT4_MIXED", 1, 20],
+			["TOWNS_SQUAD_LIGHT5_MIXED", 1, 10]
 		],
 		[
-			["TOWNS_SQUAD_APC1", 1, 40],
-			["TOWNS_SQUAD_APC2", 1, 30]
+			["TOWNS_SQUAD_APC1_MIXED", 1, 40],
+			["TOWNS_SQUAD_APC2_MIXED", 1, 30]
 		],
 		[
-			["TOWNS_SQUAD_VEHICLE_AA1", 1, 20]
+			["TOWNS_SQUAD_VEHICLE_AA1_MIXED", 1, 20]
 		]
 	];
 	//Towns 80-100
@@ -57,21 +57,21 @@ with missionNamespace do {
 			["TOWNS_SQUAD_AA", 2, 65]
 		],
 		[
-			["TOWNS_SQUAD_LIGHT4", 1, 50],
-			["TOWNS_SQUAD_LIGHT5", 1, 40],
-			["TOWNS_SQUAD_LIGHT6", 1, 30]
+			["TOWNS_SQUAD_LIGHT4_MIXED", 1, 50],
+			["TOWNS_SQUAD_LIGHT5_MIXED", 1, 40],
+			["TOWNS_SQUAD_LIGHT6_MIXED", 1, 30]
 		],
 		[
-			["TOWNS_SQUAD_APC2", 1, 70],
-			["TOWNS_SQUAD_APC3", 1, 70]
+			["TOWNS_SQUAD_APC2_MIXED", 1, 70],
+			["TOWNS_SQUAD_APC3_MIXED", 1, 70]
 		],
 		[
-			["TOWNS_SQUAD_ARMORED1", 1, 20],
-			["TOWNS_SQUAD_ARMORED2", 1, 10]
+			["TOWNS_SQUAD_ARMORED1_MIXED", 1, 20],
+			["TOWNS_SQUAD_ARMORED2_MIXED", 1, 10]
 		],
 		[
-			["TOWNS_SQUAD_VEHICLE_AA1", 1, 50],
-			["TOWNS_SQUAD_VEHICLE_AA2", 1, 20]
+			["TOWNS_SQUAD_VEHICLE_AA1_MIXED", 1, 50],
+			["TOWNS_SQUAD_VEHICLE_AA2_MIXED", 1, 20]
 		]
 	];
 	//Towns 100-120
@@ -83,25 +83,25 @@ with missionNamespace do {
 			["TOWNS_SQUAD_AA", 3, 65]
 		],
 		[
-			["TOWNS_SQUAD_LIGHT5", 1, 20],
-			["TOWNS_SQUAD_LIGHT6", 1, 30],
+			["TOWNS_SQUAD_LIGHT5_MIXED", 1, 20],
+			["TOWNS_SQUAD_LIGHT6_MIXED", 1, 30],
 			["TOWNS_SQUAD_LIGHT7", 1, 40]
 		],
 		[
-			["TOWNS_SQUAD_APC2", 1, 30],
-			["TOWNS_SQUAD_APC3", 1, 40]
+			["TOWNS_SQUAD_APC2_MIXED", 1, 30],
+			["TOWNS_SQUAD_APC3_MIXED", 1, 40]
 		],
 		[
-			["TOWNS_SQUAD_APC2", 1, 30],
-			["TOWNS_SQUAD_APC3", 1, 40]
+			["TOWNS_SQUAD_APC2_MIXED", 1, 30],
+			["TOWNS_SQUAD_APC3_MIXED", 1, 40]
 		],
 		[
-			["TOWNS_SQUAD_ARMORED2", 1, 30],
-			["TOWNS_SQUAD_ARMORED3", 1, 20]
+			["TOWNS_SQUAD_ARMORED2_MIXED", 1, 30],
+			["TOWNS_SQUAD_ARMORED3_MIXED", 1, 20]
 		],
 		[
-			["TOWNS_SQUAD_VEHICLE_AA2", 1, 40],
-			["TOWNS_SQUAD_VEHICLE_AA3", 1, 50]
+			["TOWNS_SQUAD_VEHICLE_AA2_MIXED", 1, 40],
+			["TOWNS_SQUAD_VEHICLE_AA3_MIXED", 1, 50]
 		]
 	];
 	//Towns > 120
@@ -113,20 +113,20 @@ with missionNamespace do {
 			["TOWNS_SQUAD_AA", 4, 65]
 		],
 		[
-			["TOWNS_SQUAD_LIGHT6", 1, 50],
+			["TOWNS_SQUAD_LIGHT6_MIXED", 1, 50],
 			["TOWNS_SQUAD_LIGHT7", 1, 60]
 		],
 		[
-			["TOWNS_SQUAD_APC2", 1, 40],
-			["TOWNS_SQUAD_APC3", 1, 30]
+			["TOWNS_SQUAD_APC2_MIXED", 1, 40],
+			["TOWNS_SQUAD_APC3_MIXED", 1, 30]
 		],
 		[
-			["TOWNS_SQUAD_ARMORED2", 1, 30],
-			["TOWNS_SQUAD_ARMORED3", 1, 40]
+			["TOWNS_SQUAD_ARMORED2_MIXED", 1, 30],
+			["TOWNS_SQUAD_ARMORED3_MIXED", 1, 40]
 		],
 		[
-			["TOWNS_SQUAD_VEHICLE_AA2", 1, 40],
-			["TOWNS_SQUAD_VEHICLE_AA3", 1, 50]
+			["TOWNS_SQUAD_VEHICLE_AA2_MIXED", 1, 40],
+			["TOWNS_SQUAD_VEHICLE_AA3_MIXED", 1, 50]
 		]
 	];
 //--- INFANTRY ONLY TOWNS ---------------------------------------------------	
@@ -273,8 +273,8 @@ with missionNamespace do {
 		["WEST_TOWNS_STATICS_ALL", 3, 80],
 		["TOWNS_SQUAD_AT1", 1, 50],			
 		[
-			["TOWNS_SQUAD_LIGHT1", 2, 60],
-			["TOWNS_SQUAD_LIGHT2", 2, 50]
+			["TOWNS_SQUAD_LIGHT1_MIXED", 2, 60],
+			["TOWNS_SQUAD_LIGHT2_MIXED", 2, 50]
 		]
 	];
 	//Towns 50-60

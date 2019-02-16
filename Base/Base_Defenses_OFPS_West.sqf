@@ -165,7 +165,7 @@ _u pushBack [
 	/*MaxCount*/4,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -181,7 +181,7 @@ _u pushBack [
 	/*MaxCount*/3,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -197,11 +197,11 @@ _u pushBack [
 	/*MaxCount*/2,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (8km)',
 	/*Class*/"OFPS_CENTURION_B_8KM",
 	/*Price*/100000,
@@ -213,7 +213,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -229,7 +229,7 @@ _u pushBack [
 	/*MaxCount*/2,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -245,11 +245,11 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender (12km)',
 	/*Class*/"OFPS_B_SAM_System_03_F",
 	/*Price*/300000,
@@ -281,7 +281,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_tower_ofps_west",2]]],
 	/*Price*/310000,
