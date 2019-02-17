@@ -118,7 +118,7 @@ _u = []; //--- Units
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_CB90_BLU',
 	/*MenuName*/'',
@@ -137,7 +137,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_GunBoat_BLU',
 	/*MenuName*/['%1 (Ammo)'],
@@ -156,7 +156,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_MEKO_TN',
 	/*MenuName*/['%1 (Respawn)'],
@@ -175,7 +175,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_MEKO_HN',
 	/*MenuName*/['%1 (Respawn)'],
@@ -194,7 +194,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_FREMM',
 	/*MenuName*/['%1 (Respawn)'],
@@ -213,7 +213,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_Replenishment',
 	/*MenuName*/['%1 (Ammo,Repair,Spawn)'],
@@ -269,6 +269,24 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'HAFM_RHIB',
+	/*MenuName*/[''],
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
+	/*UpgradeLevel*/0,
+	/*Price*/1500,
+	/*BuildTime*/10,
+	/*Distance*/3,
+	/*Camo*/[],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 
 //--------------------------------------------------------------------------------------------------------------
