@@ -2426,7 +2426,7 @@ _u pushBack [
 	/*ClassName*/'BombCluster_01_Ammo_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/6000,
+	/*Price*/3000,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
@@ -2438,7 +2438,7 @@ _u pushBack [
 	/*ClassName*/'BombCluster_02_Ammo_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/6000,
+	/*Price*/3000,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
@@ -2450,7 +2450,7 @@ _u pushBack [
 	/*ClassName*/'BombCluster_03_Ammo_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/6000,
+	/*Price*/3000,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
@@ -2462,7 +2462,7 @@ _u pushBack [
 	/*ClassName*/'BombCluster_02_cap_Ammo_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/6000,
+	/*Price*/3000,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
