@@ -34,7 +34,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[1000,1500,2000,3000,10000], //--- Light
 	[2000,4000,5000,6000,8000], //--- Heavy
 	[4000,8000,10000], //--- Naval
-	[1000,2000,4000,6000,8000], //--- Air Rotary
+	[1000,2000,3000,4000,5000], //--- Air Rotary
 	[1000,3000,6000,7000,8000], //--- Air Fixed
 	[1000,2000,3000,4000], //--- Air Ordinance
 	[1000,2000,3000,4000], //--- Land Ordinance
