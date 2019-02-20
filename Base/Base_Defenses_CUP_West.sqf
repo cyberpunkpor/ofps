@@ -664,4 +664,21 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'C-RAM',
+	/*Class*/"CUP_WV_B_CRAM",
+	/*Price*/30000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/4,
+	/*Cooldown*/120,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";
