@@ -3083,13 +3083,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Mi24_P_Dynamic_RU',
 	/*MenuName*/'Mi24P - 4AT/40RKTS/2FAB',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
-	/*Price*/34000,
+	/*Price*/23000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
