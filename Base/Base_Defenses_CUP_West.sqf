@@ -633,7 +633,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'RBS-70 (360° AA)',
 	/*Class*/"CUP_B_RBS70_ACR",
 	/*Price*/6000,
