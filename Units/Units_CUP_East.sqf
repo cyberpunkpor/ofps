@@ -4325,7 +4325,7 @@ _u pushBack [
 	/*Price*/9000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['SandHex'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
