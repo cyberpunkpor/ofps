@@ -4315,6 +4315,24 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_T34_TKA',
+	/*MenuName*/'T-34-85M',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/9000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['SandHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 //--------------------------------------------------------------------------------------------------------------
 
