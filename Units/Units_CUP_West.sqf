@@ -5345,13 +5345,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1129_MC_MK19_Woodland',
 	/*MenuName*/'M1129 MC MK19 MORTAR (Woodland)',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
-	/*Price*/50000,
+	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -5478,13 +5478,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1129_MC_MK19_Woodland_Slat',
 	/*MenuName*/'M1129 MC MK19 MORTAR SLAT(Woodland)',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
-	/*Price*/52000,
+	/*Price*/32000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -8577,6 +8577,7 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
+
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';
