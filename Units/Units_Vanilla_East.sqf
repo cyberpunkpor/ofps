@@ -2270,7 +2270,7 @@ _u pushBack [
 	/*ClassName*/'O_MRAP_02_gmg_F',
 	/*MenuName*/'Ifrit GMG (CSAT)',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
