@@ -2042,7 +2042,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'U_B_CombatUniform_mcam_tshirt',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Uniform"]
@@ -2064,7 +2064,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'U_B_CombatUniform_mcam',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Uniform"]
