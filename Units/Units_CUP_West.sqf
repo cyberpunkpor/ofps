@@ -6986,7 +6986,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/4,
-	/*Price*/70000,
+	/*Price*/55500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Winter'],
