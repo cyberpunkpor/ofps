@@ -119,7 +119,7 @@ _u = []; //--- Units
 
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_GUNBOAT_O',
 	/*MenuName*/['%1 (Ammo)'],
