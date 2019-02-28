@@ -1451,6 +1451,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_TK_GUE_Guerilla_Enfield',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/110,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_TK_GUE_Soldier_TL',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
