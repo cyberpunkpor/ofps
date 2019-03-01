@@ -182,7 +182,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
-	/*Price*/160000,
+	/*Price*/130000,
 	/*BuildTime*/30,
 	/*Distance*/100,
 	/*Camo*/['Attack Ship'],
