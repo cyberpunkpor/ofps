@@ -162,7 +162,7 @@ _u pushBack [
 	/*ClassName*/'OFPS_HAFM_BUYAN',
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/50000,
 	/*BuildTime*/30,
 	/*Distance*/100,
