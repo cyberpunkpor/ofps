@@ -3276,7 +3276,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_GER_Pack_Tropentarn',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
@@ -3287,7 +3287,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_GER_Pack_Flecktarn',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
