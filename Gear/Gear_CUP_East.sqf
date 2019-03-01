@@ -3438,7 +3438,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HikingPack_Civ',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/40,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
