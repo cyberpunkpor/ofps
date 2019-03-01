@@ -6637,7 +6637,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2Bradley_USA_W',
 	/*MenuName*/'M2 Bradley-TOW-Woodland',
@@ -6713,7 +6713,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2Bradley_USA_D',
 	/*MenuName*/'M2 Bradley-TOW-Tan',
