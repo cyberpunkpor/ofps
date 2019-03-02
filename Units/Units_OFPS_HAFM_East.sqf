@@ -122,7 +122,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_GUNBOAT_O',
-	/*MenuName*/['%1 (Ammo)'],
+	/*MenuName*/'',
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/1,
 	/*Price*/20000,
@@ -133,7 +133,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-medic',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
