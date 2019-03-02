@@ -140,7 +140,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_GunBoat_BLU',
-	/*MenuName*/['%1 (Ammo)'],
+	/*MenuName*/[''],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/1,
 	/*Price*/20000,
@@ -151,7 +151,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-ammotruck',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
