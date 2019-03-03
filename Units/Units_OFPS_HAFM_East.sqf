@@ -122,7 +122,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_GUNBOAT_O',
-	/*MenuName*/'',
+	/*MenuName*/'Gunboat',
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/1,
 	/*Price*/20000,
