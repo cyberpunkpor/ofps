@@ -140,7 +140,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_GunBoat_BLU',
-	/*MenuName*/[''],
+	/*MenuName*/['Gunboat'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/1,
 	/*Price*/20000,
