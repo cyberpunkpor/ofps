@@ -2583,7 +2583,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/["Dumbfire"]
+	/*Type*/["SALCOS"]
 ];
 
 _u pushBack [
