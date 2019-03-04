@@ -128,7 +128,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_ARX_blk_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -139,7 +139,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_ARX_ghex_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -150,7 +150,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_ARX_hex_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -161,7 +161,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_AKM_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -601,7 +601,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'30Rnd_762x39_Mag_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -612,7 +612,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'30Rnd_762x39_Mag_Green_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -623,7 +623,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'30Rnd_762x39_Mag_Tracer_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -634,7 +634,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'30Rnd_762x39_Mag_Tracer_Green_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
