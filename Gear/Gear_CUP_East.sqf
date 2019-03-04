@@ -2855,7 +2855,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_optic_PSO_1',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/70,
 	/*Camo*/[],
 	/*Type*/["Long"]
@@ -3482,7 +3482,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_arifle_AK47',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/1,
 	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
