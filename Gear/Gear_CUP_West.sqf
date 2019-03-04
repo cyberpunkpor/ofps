@@ -371,7 +371,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Mine_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/100,
+	/*Price*/400,
 	/*Camo*/[],
 	/*Type*/["AT Mine"]
 ];
@@ -440,17 +440,6 @@ _u pushBack [
 	/*Price*/2000,
 	/*Camo*/[],
 	/*Type*/["Remote Explosive"]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_MineE_M',
-	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/0,
-	/*Price*/100,
-	/*Camo*/[],
-	/*Type*/["AT Mine"]
 ];
 
 _u pushBack [
