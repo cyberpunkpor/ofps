@@ -403,7 +403,7 @@ _u pushBack [
 	/*ClassName*/'CUP_IED_V4_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/2000,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Remote Explosive"]
 ];
