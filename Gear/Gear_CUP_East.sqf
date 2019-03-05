@@ -3988,7 +3988,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_srifle_VSSVintorez',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/2,
 	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["DMR"]
