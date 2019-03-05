@@ -3955,7 +3955,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_srifle_SVD',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/1,
 	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["DMR"]
@@ -3966,7 +3966,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_srifle_SVD_des',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/1,
 	/*Price*/120,
 	/*Camo*/[],
 	/*Type*/["DMR"]
