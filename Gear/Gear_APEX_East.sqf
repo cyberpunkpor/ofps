@@ -1086,7 +1086,7 @@ _u pushBack [
 	/*ClassName*/'B_Carryall_ghex_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/40,
+	/*Price*/600,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
 ];
