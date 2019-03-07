@@ -2172,7 +2172,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'AT Defense',
 	/*Class*/"B_static_AT_F",
-	/*Price*/10000,
+	/*Price*/7000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ", "RepairTruck"],
