@@ -2582,7 +2582,7 @@ _u pushBack [
 	/*ClassName*/'B_AssaultPack_Kerry',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/400,
+	/*Price*/5,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
 ];
