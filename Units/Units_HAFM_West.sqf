@@ -270,10 +270,10 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_RHIB',
-	/*MenuName*/[''],
+	/*MenuName*/['RHIB'],
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/1500,
