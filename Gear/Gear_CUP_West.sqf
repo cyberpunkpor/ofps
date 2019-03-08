@@ -3838,7 +3838,7 @@ _u pushBack [
 	/*ClassName*/'CUP_arifle_M16A2_GL',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/25,
+	/*Price*/20,
 	/*Camo*/[],
 	/*Type*/["Rifle-GL"]
 ];
@@ -3860,7 +3860,7 @@ _u pushBack [
 	/*ClassName*/'CUP_arifle_M16A4_GL',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Rifle-GL"]
 ];
