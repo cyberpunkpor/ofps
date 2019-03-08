@@ -7920,7 +7920,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/5,
-	/*Price*/50000,
+	/*Price*/60000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
