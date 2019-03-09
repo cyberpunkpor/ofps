@@ -33,7 +33,8 @@ with missionNamespace do {
 		[
 			["TOWNS_SQUAD_RIFLEMEN3", 5, 80], 
 			["TOWNS_SQUAD_SNIPER", 1, 20], 
-			["TOWNS_SQUAD_AT2", 2, 60] 				
+			["TOWNS_SQUAD_AT2", 2, 60],
+			["TOWNS_SQUAD_AA", 1, 65]
 		],
 		[
 			["TOWNS_SQUAD_LIGHT3_MIXED", 1, 30],
