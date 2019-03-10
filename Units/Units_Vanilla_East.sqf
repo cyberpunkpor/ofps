@@ -1777,7 +1777,7 @@ _u pushBack [
 	/*MenuName*/'K40 Ababil-3 (6x ATGM)',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/3,
-	/*Price*/30000,
+	/*Price*/24000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
