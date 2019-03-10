@@ -168,6 +168,69 @@ _u pushBack [
 	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'TOW Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition"," tow_tower_west",2]]],
+	/*Price*/7000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'GMG Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","gmg_tower_west",2]]],
+	/*Price*/3700,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'HMG Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","hmg_tower_west",2]]],
+	/*Price*/3700,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'ZU-23 Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","zu23_tower_west",2]]],
+	/*Price*/6700,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";

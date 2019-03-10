@@ -197,9 +197,72 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+	/*Specials*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Metis AT-13 Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","metis_tower_east",2]]],
+	/*Price*/7000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'GMG Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","gmg_tower_east",2]]],
+	/*Price*/3700,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'SPG-9 Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","spg9_tower_east",2]]],
+	/*Price*/3000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'ZU-23 Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","zu23_tower_east",2]]],
+	/*Price*/6700,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";
