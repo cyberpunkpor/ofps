@@ -2935,7 +2935,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_U_B_CZ_DST_Ghillie',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
+	/*UpgradeLevel*/4,
 	/*Price*/1000,
 	/*Camo*/[],
 	/*Type*/["Full Ghillie"]
@@ -2946,7 +2946,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_U_B_CZ_WDL_Ghillie',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
+	/*UpgradeLevel*/4,
 	/*Price*/1000,
 	/*Camo*/[],
 	/*Type*/["Full Ghillie"]
