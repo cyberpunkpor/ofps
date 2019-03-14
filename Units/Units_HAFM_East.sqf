@@ -120,13 +120,13 @@ _u = []; //--- Units
 
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_BUYAN',
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
-	/*Price*/250000,
+	/*Price*/190000,
 	/*BuildTime*/30,
 	/*Distance*/100,
 	/*Camo*/['Attack Ship'],
@@ -139,13 +139,51 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'HAFM_052C',
+	/*MenuName*/['%1 (Respawn)'],
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/3,
+	/*Price*/130000,
+	/*BuildTime*/30,
+	/*Distance*/100,
+	/*Camo*/['Attack Ship'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'HAFM_052D',
+	/*MenuName*/['%1 (Respawn)'],
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/3,
+	/*Price*/200000,
+	/*BuildTime*/30,
+	/*Distance*/100,
+	/*Camo*/['Attack Ship'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_Admiral',
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
-	/*Price*/360000,
+	/*Price*/240000,
 	/*BuildTime*/30,
 	/*Distance*/100,
 	/*Camo*/['Attack Ship'],
