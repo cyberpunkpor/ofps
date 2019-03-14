@@ -160,7 +160,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_BUYAN',
-	/*MenuName*/['%1 (Respawn)'],
+	/*MenuName*/['Buyan Class (Mk.45)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/2,
 	/*Price*/50000,
@@ -171,7 +171,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-medic',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
@@ -179,7 +179,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_Admiral',
-	/*MenuName*/['%1 (Respawn)'],
+	/*MenuName*/['Admiral Class (Mk.45)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
 	/*Price*/130000,
@@ -190,7 +190,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-medic',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
