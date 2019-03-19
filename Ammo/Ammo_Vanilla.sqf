@@ -2174,7 +2174,7 @@ _u pushBack [
 	/*ClassName*/'M_70mm_SAAMI',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/1250,
+	/*Price*/500,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -2186,7 +2186,7 @@ _u pushBack [
 	/*ClassName*/'M_127mm_Firefist_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/1250,
+	/*Price*/500,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
