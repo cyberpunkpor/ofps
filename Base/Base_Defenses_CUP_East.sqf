@@ -504,10 +504,10 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'RAM Launcher',
 	/*Class*/"CUP_WV_B_RAM_Launcher",
-	/*Price*/60000,
+	/*Price*/25000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
