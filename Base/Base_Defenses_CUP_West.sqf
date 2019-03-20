@@ -440,7 +440,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'RAM Launcher',
 	/*Class*/"CUP_WV_B_RAM_Launcher",
 	/*Price*/25000,
@@ -665,7 +665,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'C-RAM',
 	/*Class*/"CUP_WV_B_CRAM",
 	/*Price*/30000,
