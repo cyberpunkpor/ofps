@@ -2344,10 +2344,10 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_LCVP_VIV_SLA',
-	/*MenuName*/'LCVP VIV (Vehicle Transport)',
+	/*MenuName*/'LCVP VIV (Vehicle Transport/Medic)',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
 	/*UpgradeLevel*/1,
-	/*Price*/4000,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/5,
 	/*Camo*/['Grey'],
@@ -2355,7 +2355,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'service-medic',
 	/*Picture*/''
 ];
 
