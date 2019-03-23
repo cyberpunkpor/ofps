@@ -8505,25 +8505,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_I_LCVP_RACS',
-	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
-	/*UpgradeLevel*/0,
-	/*Price*/3500,
-	/*BuildTime*/10,
-	/*Distance*/3,
-	/*Camo*/['Grey'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_B_MK10_GB',
 	/*MenuName*/'MK10 (Vehicle Transport / Medic)',
 	/*Location*/[CTI_NAVAL],
