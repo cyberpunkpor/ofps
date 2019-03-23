@@ -8433,7 +8433,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/3,
-	/*Price*/60000,
+	/*Price*/50000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
