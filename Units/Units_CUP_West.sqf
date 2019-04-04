@@ -8204,7 +8204,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_USMC_DYN_MQ9',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/1,
