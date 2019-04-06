@@ -83,7 +83,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'SMG_02_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/1,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["SMG"]
@@ -94,7 +94,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'hgun_PDW2000_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["SMG"]
