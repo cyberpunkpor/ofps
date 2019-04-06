@@ -3679,7 +3679,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/2,
-	/*Price*/5000,
+	/*Price*/4500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
