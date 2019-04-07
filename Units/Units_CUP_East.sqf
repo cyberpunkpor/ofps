@@ -3883,7 +3883,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BRDM2_ATGM_CSAT',
 	/*MenuName*/'BRDM2 ATGM (CSAT)',
-	/*Location*/[CTI_LIGHT],
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/1,
 	/*Price*/7000,
 	/*BuildTime*/30,
