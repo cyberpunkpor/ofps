@@ -2765,7 +2765,7 @@ _u pushBack [
 	/*MenuName*/'KA-52 Alligator - 12AT/40RKTS',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
-	/*Price*/35000,
+	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
