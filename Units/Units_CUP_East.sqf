@@ -4303,7 +4303,7 @@ _u pushBack [
 	/*MenuName*/'Ural ZU-23',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
-	/*Price*/5000,
+	/*Price*/4000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
