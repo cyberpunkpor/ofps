@@ -248,8 +248,8 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'IR/Termal Cover Small',
+	/*Enabled*/false,
+	/*Name*/'IR Cover Small',
 	/*Class*/"Land_IRMaskingCover_02_F",
 	/*Price*/150,
 	/*Placement*/[0, 7],
@@ -260,12 +260,12 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'IR/Termal Cover Large',
+	/*Enabled*/false,
+	/*Name*/'IR Cover Large',
 	/*Class*/"Land_IRMaskingCover_01_F",
 	/*Price*/150,
 	/*Placement*/[0, 7],
@@ -276,7 +276,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
