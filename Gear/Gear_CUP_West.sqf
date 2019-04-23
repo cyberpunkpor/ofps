@@ -863,6 +863,39 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_20Rnd_556x45_Stanag_Red',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/0,
+	/*Price*/1,
+	/*Camo*/[],
+	/*Type*/["Rifle"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_20Rnd_556x45_Stanag_Yellow',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/0,
+	/*Price*/1,
+	/*Camo*/[],
+	/*Type*/["Rifle"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_20Rnd_556x45_Stanag_Green',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/0,
+	/*Price*/1,
+	/*Camo*/[],
+	/*Type*/["Rifle"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_20Rnd_556x45_Stanag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
