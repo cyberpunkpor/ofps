@@ -1094,6 +1094,17 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_60Rnd_556x45_SureFire',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/1,
+	/*Price*/5,
+	/*Camo*/[],
+	/*Type*/["LMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_100Rnd_556x45_BetaCMag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
