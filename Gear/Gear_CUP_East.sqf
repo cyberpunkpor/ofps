@@ -3249,9 +3249,9 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_arifle_RPK74_45',
+	/*ClassName*/'CUP_arifle_RPK74_top_rail',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["LMG"]
