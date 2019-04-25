@@ -108,7 +108,7 @@ switch (CTI_FACTION_WEST) do {
 	};
 	case 2: { //USMC CUP (Arid)
 		//Set MHQ
-		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_M1126_ICV_M2_Woodland_Slat"];
+		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_LAV25_HQ_USMC"];
 		//Set Infantry
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_B_USMC_Officer"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_B_USMC_Soldier"];
