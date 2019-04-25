@@ -121,7 +121,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-			[["CUP_smg_saiga9",["","","CUP_optic_Kobra",""],["CUP_30Rnd_9x19_Vityaz"]],["",["","","",""],[]],["CUP_hgun_PMM",["","","",""],["CUP_12Rnd_9x18_PMM_M"]]],[["CUP_U_O_RUS_VSR98_MSV",["CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz"]],["",[]],["CUP_B_RPGPack_Khaki",["firstaidkit","firstaidkit","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_12Rnd_9x18_PMM_M","CUP_12Rnd_9x18_PMM_M","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO"]]],["","g_combat"],[["","binocular"],["itemmap","itemGPS","itemradio","itemcompass","itemwatch"]]]];
+			[["CUP_smg_vityaz",["","","CUP_optic_Kobra",""],["CUP_30Rnd_9x19_Vityaz"]],["",["","","",""],[]],["CUP_hgun_PMM",["","","",""],["CUP_12Rnd_9x18_PMM_M"]]],[["CUP_U_O_RUS_VSR98_MSV",["CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz"]],["",[]],["CUP_B_RPGPack_Khaki",["firstaidkit","firstaidkit","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_12Rnd_9x18_PMM_M","CUP_12Rnd_9x18_PMM_M","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO"]]],["","g_combat"],[["","binocular"],["itemmap","itemGPS","itemradio","itemcompass","itemwatch"]]]];
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 			["CUP_O_GAZ_Vodnik_MedEvac_RU", [
