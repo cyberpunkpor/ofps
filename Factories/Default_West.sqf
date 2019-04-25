@@ -123,8 +123,9 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_coyote_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
-		[["CUP_smg_MP5A5_Flashlight",["","","CUP_optic_MicroT1",""],["CUP_30Rnd_9x19_MP5"]],["CUP_hgun_M9",["","","",""],["CUP_15Rnd_9x19_M9"]]],
-		[["CUP_U_B_USMC_MARPAT_WDL_RolledUp",["firstaidkit","firstaidkit","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"]],["CUP_V_C_Police_Holster",["CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","",""]],["B_AssaultPack_rgr",["CUP_HandGrenade_M67","CUP_HandGrenade_M67",""]],["","binocular"],["itemmap","itemGPS","itemradio","itemcompass","itemwatch"]]]];
+		[["CUP_smg_MP5A5_Flashlight",["","","CUP_optic_MicroT1",""],["CUP_30Rnd_9x19_MP5"]],["",["","","",""],[""]],["CUP_hgun_M9",["","","",""],["CUP_15Rnd_9x19_M9"]]],
+		[["CUP_U_B_USMC_MARPAT_WDL_RolledUp",["firstaidkit","firstaidkit","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"]],["CUP_V_C_Police_Holster",["CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","",""]],["B_AssaultPack_rgr",["CUP_HandGrenade_M67","CUP_HandGrenade_M67",""]]],
+		["",""],[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 			["CUP_B_HMMWV_Ambulance_USMC", [
