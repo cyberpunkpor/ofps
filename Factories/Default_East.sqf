@@ -106,7 +106,7 @@ switch (CTI_FACTION_EAST) do {
 	};
 	case 2: { //Russia CUP (Arid)
 		//Set MHQ
-		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BMP_HQ_RU"];
+		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BTR90_HQ_RU"];
 		//Set Infantry
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_O_RU_Officer"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_O_RU_Soldier"];
