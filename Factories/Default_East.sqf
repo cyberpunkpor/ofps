@@ -213,4 +213,10 @@ switch (CTI_FACTION_EAST) do {
 			//,	["O_Heli_Light_02_unarmed_F", []]
 		]];
 	};
+	case 4: { //Cold War
+
+	};
+	case 5: { //Unsung
+
+	};
 };

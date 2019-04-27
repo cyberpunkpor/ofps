@@ -217,4 +217,10 @@ switch (CTI_FACTION_WEST) do {
 			//,	["B_Heli_Transport_01_F", []]
 		]];
 	};
+	case 4: { //Cold War
+
+	};
+	case 5: { //Unsung
+
+	};
 };
