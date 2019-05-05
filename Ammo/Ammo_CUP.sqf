@@ -125,7 +125,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_AP_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/30,
+	/*Price*/3,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -137,7 +137,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_AP_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/30,
+	/*Price*/3,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -149,7 +149,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_AP_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/30,
+	/*Price*/3,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -161,7 +161,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_APHE_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -173,7 +173,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_APHE_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -185,7 +185,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_20mm_APHE_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -245,7 +245,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_23mm_APHE_Green_Tracer',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2.5,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -257,7 +257,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_23mm_APHE_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2.5,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -269,7 +269,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_23mm_APHE_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2.5,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -281,7 +281,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_23mm_APHE_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2.5,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
