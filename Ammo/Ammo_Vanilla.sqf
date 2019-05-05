@@ -736,7 +736,7 @@ _u pushBack [
 	/*ClassName*/'B_20mm_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
