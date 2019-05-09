@@ -133,14 +133,12 @@ switch (CTI_FACTION_EAST) do {
 				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
 				["CUP_30Rnd_545x39_AK74M_M", 20]
 			]],
-			["CUP_B_UAZ_SPG9_CDF", [
-				["CUP_launch_RPG18", 5], 
-				["CUP_RPG18_M", 20],
+			["CUP_B_UAZ_SPG9_RU", [
 				["Toolkit", 1],
 				["CUP_optic_Kobra", 10],
 				["CUP_sgun_Saiga12K", 10],
 				["CUP_8Rnd_B_Saiga12_74Slug_M", 10],
-				["CUP_30Rnd_545x39_AK74M_M", 20]
+				["CUP_sgun_Saiga12K", 10]
 			]],
 			["CUP_O_GAZ_Vodnik_AGS_RU", [
 				["CUP_launch_RPG7V", 5], 
@@ -152,13 +150,14 @@ switch (CTI_FACTION_EAST) do {
 				["CUP_30Rnd_9x19_Vityaz", 20]
 			]],
 			["CUP_O_BTR60_CSAT", [
-				["CUP_launch_RPG18", 5], 
-				["CUP_PG7VL_M", 20],
+				["CUP_launch_RPG18", 10], 
+				["CUP_RPG18_M", 20],
 				["Toolkit", 1],
 				["CUP_optic_NSPU", 10],
 				["CUP_sgun_Saiga12K", 10],
 				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
-				["CUP_arifle_AK74M", 5]
+				["CUP_arifle_AK74M", 5],
+				["CUP_30Rnd_545x39_AK74M_M", 20]
 			]]
 			//,	["O_Heli_Light_02_unarmed_F", []]
 		]];
