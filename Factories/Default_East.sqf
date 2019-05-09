@@ -138,7 +138,7 @@ switch (CTI_FACTION_EAST) do {
 				["CUP_optic_Kobra", 10],
 				["CUP_sgun_Saiga12K", 10],
 				["CUP_8Rnd_B_Saiga12_74Slug_M", 10],
-				["CUP_sgun_Saiga12K", 10]
+				["firstaidkit", 20]
 			]],
 			["CUP_O_GAZ_Vodnik_AGS_RU", [
 				["CUP_launch_RPG7V", 5], 
