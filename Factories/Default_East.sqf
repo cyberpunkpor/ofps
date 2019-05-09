@@ -130,15 +130,14 @@ switch (CTI_FACTION_EAST) do {
 				["Toolkit", 1],
 				["CUP_optic_Kobra", 10],
 				["CUP_arifle_AK74M", 10],
-				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
+				["firstaidkit", 20],
 				["CUP_30Rnd_545x39_AK74M_M", 20]
 			]],
 			["CUP_B_UAZ_SPG9_RU", [
 				["Toolkit", 1],
 				["CUP_optic_Kobra", 10],
 				["CUP_sgun_Saiga12K", 10],
-				["CUP_8Rnd_B_Saiga12_74Slug_M", 10],
-				["firstaidkit", 20]
+				["CUP_8Rnd_B_Saiga12_74Slug_M", 20]
 			]],
 			["CUP_O_GAZ_Vodnik_AGS_RU", [
 				["CUP_launch_RPG7V", 5], 
