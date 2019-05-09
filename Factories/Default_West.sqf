@@ -135,7 +135,7 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_8Rnd_B_Beneli_74Pellets", 20],
 				["CUP_sgun_M1014", 10],
 				["CUP_30Rnd_9x19_MP5", 20],
-				["acc_flashlight", 10],
+				["firstaidkit", 20],
 				["Toolkit", 1]
 			]],
 			["CUP_B_M113_USA", [
