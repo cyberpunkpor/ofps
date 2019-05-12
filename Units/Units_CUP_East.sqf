@@ -4338,7 +4338,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_T34_TKA',
-	/*MenuName*/'',
+	/*MenuName*/'T-34',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
 	/*Price*/9000,
