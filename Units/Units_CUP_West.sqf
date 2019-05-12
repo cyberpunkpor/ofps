@@ -2132,7 +2132,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Crew_MNT',
 	/*MenuName*/'',
@@ -2151,7 +2151,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Pilot_SNW',
 	/*MenuName*/'',
@@ -2170,7 +2170,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_TL_SNW',
 	/*MenuName*/'',
@@ -2189,7 +2189,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_AA_SNW',
 	/*MenuName*/'',
@@ -2208,7 +2208,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Spotter_SNW',
 	/*MenuName*/'',
@@ -2227,7 +2227,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_Light_SNW',
 	/*MenuName*/'',
@@ -2246,7 +2246,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Sniper_SNW',
 	/*MenuName*/'',
@@ -2265,7 +2265,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_SNW',
 	/*MenuName*/'',
@@ -2284,7 +2284,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Officer_SNW',
 	/*MenuName*/'',
@@ -2303,7 +2303,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Militia_SNW',
 	/*MenuName*/'',
@@ -2322,7 +2322,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Medic_SNW',
 	/*MenuName*/'',
@@ -2341,7 +2341,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_Marksman_SNW',
 	/*MenuName*/'',
@@ -2360,7 +2360,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_MG_SNW',
 	/*MenuName*/'',
@@ -2379,7 +2379,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_GL_SNW',
 	/*MenuName*/'',
@@ -2398,7 +2398,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_GL_SNW',
 	/*MenuName*/'',
@@ -2417,7 +2417,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Commander_SNW',
 	/*MenuName*/'',
@@ -2436,7 +2436,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Engineer_SNW',
 	/*MenuName*/'',
@@ -2455,7 +2455,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Crew_SNW',
 	/*MenuName*/'',
@@ -2474,7 +2474,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_AR_SNW',
 	/*MenuName*/'',
@@ -2493,7 +2493,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_LAT_SNW',
 	/*MenuName*/'',
@@ -2512,7 +2512,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_Marksman_SNW',
 	/*MenuName*/'',
