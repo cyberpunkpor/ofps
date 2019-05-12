@@ -4280,6 +4280,44 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_O_V3S_Refuel_TKA',
+	/*MenuName*/'Praga Fuel',
+	/*Location*/[CTI_REPAIR],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-fueltruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_V3S_Repair_TKA',
+	/*MenuName*/'Praga Repair',
+	/*Location*/[CTI_REPAIR],
+	/*UpgradeLevel*/0,
+	/*Price*/13000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-repairtruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_Ural_Repair_RU',
 	/*MenuName*/'Deployable Large FOB',
 	/*Location*/[CTI_REPAIR],
@@ -4307,6 +4345,25 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_V3S_Covered_TKM',
+	/*MenuName*/'Praga Transport',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/0,
+	/*Price*/400,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
