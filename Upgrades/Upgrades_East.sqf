@@ -45,8 +45,8 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[1000,1500,2000,3000], //--- Respawn Range
 	[500,1000], //--- LVOSS System
 	[1000,2000,3000,4000], //--- ERA System
-	[10000,20000], //--- Satellite
-	[12000], //--- Nuke and Arty
+	[10000,10000], //--- Satellite
+	[10000], //--- Nuke and Arty
 	[1000,2000,3000], //--- Supply Rate
 	[500,1000,2000,3000], //--- Base Health
 	[1000,2000,3000,9000], //--- Base Defense
@@ -97,7 +97,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Respawn Range
 	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS System
 	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[],[]], //--- ERA System
-	[[], []], //--- Satellite
+	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
 	[[CTI_UPGRADE_LIGHT,4]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
 	[[],[],[],[]], //--- Base Health
