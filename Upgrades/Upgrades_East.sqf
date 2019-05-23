@@ -42,7 +42,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[1500,3000,6000], //--- Halo
 	[500,1000,2000,4000], //--- Air Radar
 	[500,1000,2000,4000], //--- Art Radar
-	[1000,1500,2000,3000], //--- Respawn Range
+	[1000,1500,2000,3000,4000,5000], //--- Respawn Range
 	[500,1000], //--- LVOSS System
 	[1000,2000,3000,4000], //--- ERA System
 	[10000,10000], //--- Satellite
@@ -68,7 +68,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	3, //--- Halo
 	4, //--- Air Radar
 	4, //--- Art Radar
-	4, //--- Respawn Range
+	6, //--- Respawn Range
 	2, //--- LVOSS System
 	4, //--- ERA System
 	2, //--- Satellite
@@ -94,7 +94,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[CTI_UPGRADE_TOWNS,3]], //--- Halo
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
-	[[],[],[],[]], //--- Respawn Range
+	[[],[],[],[],[],[]], //--- Respawn Range
 	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS System
 	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[],[]], //--- ERA System
 	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
@@ -123,7 +123,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1], //--- Halo
 		[1, 1, 1, 1], //--- Air Radar
 		[1, 1, 1, 1], //--- Art Radar
-		[1, 1, 1, 1], //--- Respawn Range
+		[1, 1, 1, 1, 1, 1], //--- Respawn Range
 		[1, 1], //--- LVOSS System
 		[1, 1, 1, 1], //--- ERA System
 		[1, 1], //--- Satellite
@@ -150,7 +150,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,240], 					//--- Halo
 		[60,120,160,240], 			//--- Air Radar
 		[60,120,160,240], 			//--- Art Radar
-		[60,120,160,240], 				//--- Respawn Range
+		[60,120,160,240,320,380], 				//--- Respawn Range
 		[60,120], 					//--- LVOSS System
 		[60,120,160,240], 			//--- ERA System
 		[60,120], 					//--- Satellite
