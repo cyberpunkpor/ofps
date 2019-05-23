@@ -284,7 +284,7 @@ _u pushback [
 	/*classes*/["Land_dp_smallTank_F", "Land_dp_smallTank_ruins_F"],
 	/*prices*/1000,
 	/*times*/60,
-	/*MaxCount*/2,
+	/*MaxCount*/1,
 	/*placements*/[180, 15],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
