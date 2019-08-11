@@ -174,7 +174,7 @@ _u pushback [
 _u pushback [ 
 	/*headers*/[CTI_AMMO, "Ammo Depot", "Ammo"],
 	/*classes*/["Land_Cargo_HQ_V2_F", "Land_Cargo_HQ_V2_ruins_F"],
-	/*prices*/3000,
+	/*prices*/1000,
 	/*times*/90,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
@@ -186,7 +186,7 @@ _u pushback [
 _u pushback [ 
 	/*headers*/[CTI_REPAIR, "Repair Depot", "Repair"],
 	/*classes*/["Land_Cargo_HQ_V3_F", "Land_Cargo_HQ_V3_ruins_F"],
-	/*prices*/3000,
+	/*prices*/1000,
 	/*times*/90,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],

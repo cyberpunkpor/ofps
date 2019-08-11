@@ -29,7 +29,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 ]];
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
-	[1500,3000,6000,7000,8000,8000], //--- Gear
+	[1500,2500,3500,4000,4500,5000], //--- Gear
 	[1000,1500,2000,2500,3000,3500], //--- Barracks
 	[1000,1500,2000,3000,10000], //--- Light
 	[2000,4000,5000,6000,8000], //--- Heavy
@@ -38,18 +38,18 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[1000,3000,6000,7000,8000], //--- Air Fixed
 	[1000,2000,3000,4000], //--- Air Ordinance
 	[1000,2000,3000,4000], //--- Land Ordinance
-	[1500,3000,5000,6000], //--- Forward Logistics
+	[1500,2000,3000,5000], //--- Forward Logistics
 	[1500,3000,6000], //--- Halo
 	[500,1000,2000,4000], //--- Air Radar
 	[500,1000,2000,4000], //--- Art Radar
-	[1000,1500,2000,3000,4000,5000], //--- Respawn Range
+	[500,1000,1500,2000,3000,4000], //--- Respawn Range
 	[500,1000], //--- LVOSS System
 	[1000,2000,3000,4000], //--- ERA System
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
 	[1000,2000,3000], //--- Supply Rate
 	[500,1000,2000,3000], //--- Base Health
-	[1000,2000,3000,9000], //--- Base Defense
+	[500,1000,2000,9000], //--- Base Defense
 	[500,1000,2000], //--- Jamming Types
 	[500,1000,1500,2000] //--- Jamming Range
 ]];
