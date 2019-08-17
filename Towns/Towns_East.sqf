@@ -206,6 +206,10 @@ if (CTI_LAWSOFWAR_ADDON > 0) then {
 if (CTI_TANKS_ADDON > 0) then {
 
 };
+//--- Load GLOBAL MOBILIZATION Mod
+if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+};
 //--- Load CUP Mod
 if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	EAST_TOWN_ZSU = "CUP_O_ZS23_RU";
@@ -342,7 +346,10 @@ if (CTI_OFPS_HAFM_ADDON > 0) then {
 	EAST_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_CB90_O";
 	EAST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
 };
+//--- Unsung
+if (CTI_UNSUNG_ADDON > 0 ) then {
 
+};
 
 //--------------------------------------------------------------------------------------------
 //--- VANILLA TOWN OCCUPATION
@@ -374,6 +381,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 0) then {
 	};
 	//--- Load TANKS Mod
 	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};
 	//--- CUP UNITS
@@ -419,7 +430,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 0) then {
 	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -524,6 +538,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};
 	//--- CUP UNITS
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 
@@ -567,7 +585,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -600,6 +621,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 	};
 	//--- Load TANKS Mod
 	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};
 	//--- CUP UNITS
@@ -698,7 +723,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -731,6 +759,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 3) then {
 	};
 	//--- Load TANKS Mod
 	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};
 	//--- CUP UNITS
@@ -828,7 +860,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 3) then {
 	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -861,6 +896,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 	};
 	//--- Load TANKS Mod
 	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};
 	//--- CUP UNITS
@@ -958,7 +997,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 //--------------------------------------------------------------------------------------------
 //--- 2035 Russians (snow) TOWN OCCUPATION
@@ -990,6 +1032,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 5) then {
 	};
 	//--- Load TANKS Mod
 	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};
 	//--- CUP UNITS
@@ -1087,7 +1133,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 5) then {
 		//EAST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
 		//EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_BUYAN";
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 //--------------------------------------------------------------------------------------------
 //--- 2035 Russians TOWN OCCUPATION
@@ -1119,6 +1168,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 6) then {
 	};
 	//--- Load TANKS Mod
 	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};
 	//--- CUP UNITS
@@ -1219,7 +1272,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 6) then {
 		//EAST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
 		//EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_BUYAN";
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------

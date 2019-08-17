@@ -206,6 +206,10 @@ if (CTI_LAWSOFWAR_ADDON > 0) then {
 if (CTI_TANKS_ADDON > 0) then {
 
 };
+//--- Load GLOBAL MOBILIZATION Mod
+if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+};
 //--- Load CUP Mod
 if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	WEST_TOWN_ZSU = "CUP_B_ZU23_CDF";
@@ -342,6 +346,10 @@ if (CTI_HAFM_SUBS_ADDON > 0) then {
 if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 };
+//--- Unsung
+if (CTI_UNSUNG_ADDON > 0 ) then {
+
+};
 
 //--------------------------------------------------------------------------------------------
 //--- VANILLA TOWN OCCUPATION
@@ -379,6 +387,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 0) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -434,7 +446,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 0) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 }; 
 
 
@@ -528,6 +543,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -591,7 +610,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 		WEST_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_CB90_B";
 		WEST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_B";
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -626,6 +648,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -733,7 +759,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -768,6 +797,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 3) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -875,7 +908,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 3) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -910,6 +946,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1017,7 +1057,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 //--------------------------------------------------------------------------------------------
 //--- SFP- (snow) TOWN OCCUPATION
@@ -1051,6 +1094,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 5) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1164,7 +1211,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 5) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 //--------------------------------------------------------------------------------------------
 //--- Town Teams Templates

@@ -208,6 +208,10 @@ if (CTI_LAWSOFWAR_ADDON > 0) then {
 if (CTI_TANKS_ADDON > 0) then {
 
 };
+//--- Load GLOBAL MOBILIZATION Mod
+if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+};
 //--- Load CUP Units
 if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	GUER_TOWN_SPG = "CUP_I_SPG9_TK_GUE";
@@ -337,8 +341,10 @@ if (CTI_OFPS_HAFM_ADDON > 0) then {
 	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_CB90_I";
 	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 };
+//--- Unsung
+if (CTI_UNSUNG_ADDON > 0 ) then {
 
-
+};
 
 //--------------------------------------------------------------------------------------------
 //--- VANILLA - AAF TOWN OCCUPATION
@@ -426,6 +432,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -489,7 +499,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -577,6 +590,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -638,7 +655,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};	
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -726,6 +746,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -789,7 +813,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};	
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -824,6 +851,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -933,7 +964,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -968,6 +1002,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1075,7 +1113,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};	
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -1110,6 +1151,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1217,7 +1262,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};	
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -1252,6 +1300,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1359,7 +1411,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};	
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -1394,6 +1449,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1503,7 +1562,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};	
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -1538,6 +1600,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 7) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1662,7 +1728,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 7) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};	
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -1697,6 +1766,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 	if (CTI_TANKS_ADDON > 0) then {
 
 	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1804,148 +1877,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
 
 	};	
-
-//--------------------------------------------------------------------------------------------
-//--- CUP - Royal Army Corp Of Sahrani (Desert) TOWN OCCUPATION
-//--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then { 
-	//--Load Vanilla
-	if (CTI_VANILLA_ADDON > 0) then {
-		//-- Only add vanilla faction specific overrides as neeeded here
-	};
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-		//--- Infantry
-		GUER_SOLDIER = "CUP_I_RACS_Soldier";
-		GUER_SOLDIER_AA = "CUP_I_RACS_Soldier_AA";
-		GUER_SOLDIER_AR = "CUP_I_RACS_MMG";
-		GUER_SOLDIER_AT = "CUP_I_RACS_Soldier_MAT";
-		GUER_SOLDIER_CREW = "CUP_I_RACS_Crew";
-		GUER_SOLDIER_LAT = "CUP_I_RACS_Soldier_LAT";
-		GUER_SOLDIER_HAT = "CUP_I_RACS_Soldier_HAT";
-		GUER_SOLDIER_ENGINEER = "CUP_I_RACS_Engineer";
-		GUER_SOLDIER_EXP = "CUP_I_RACS_Engineer";
-		GUER_SOLDIER_GL = "CUP_I_RACS_GL";
-		GUER_SOLDIER_MEDIC = "CUP_I_RACS_Medic";
-		GUER_SOLDIER_MG = "CUP_I_RACS_MMG";
-		GUER_SOLDIER_PILOT = "CUP_I_RACS_Pilot";
-		GUER_SOLDIER_SNIPER = "CUP_I_RACS_Sniper";
-		GUER_SOLDIER_MARKSMAN = "CUP_I_RACS_M";
-		GUER_SOLDIER_TEAMLEADER = "CUP_I_RACS_Officer";
-		GUER_SOLDIER_SQUADLEADER = "CUP_I_RACS_SL";
-		//--- Naval Infantry
-		//GUER_SOLDIER_NAVAL_INFANTRY = "I_diver_F";
-		//GUER_SOLDIER_NAVAL_SQUADLEADER = "I_diver_TL_F";
-		//--- Light Vehicles
-		GUER_VEHICLE_LIGHT1 = "CUP_I_LR_MG_RACS";
-		GUER_VEHICLE_LIGHT2 = "CUP_I_M113_RACS";
-		GUER_VEHICLE_LIGHT3 = "CUP_I_M113_RACS";
-		GUER_VEHICLE_LIGHT4 = "CUP_I_AAV_RACS";
-		GUER_VEHICLE_LIGHT5 = "CUP_I_AAV_RACS";
-		GUER_VEHICLE_LIGHT6 = "CUP_I_LAV25_RACS";
-		GUER_VEHICLE_LIGHT7 = "CUP_I_LAV25M240_RACS";
-		//--- APCs
-		GUER_VEHICLE_APC1 = "CUP_I_LAV25M240_RACS";
-		GUER_VEHICLE_APC2 = "CUP_I_LAV25M240_RACS";
-    	GUER_VEHICLE_APC3 = "CUP_I_LAV25M240_RACS";
-		//--- Tanks
-		GUER_VEHICLE_ARMORED1 = "CUP_I_M60A3_RACS";	
-		GUER_VEHICLE_ARMORED2 = "CUP_I_M60A3_TTS_RACS";
-		GUER_VEHICLE_ARMORED3 = "CUP_I_T72_RACS";
-		//--- AA Vehicles
-		GUER_VEHICLE_AA1 = "CUP_I_M163_RACS";
-		GUER_VEHICLE_AA2 = "CUP_I_M163_RACS";
-		GUER_VEHICLE_AA3 = "CUP_I_M163_RACS";
-		//--- Air
-		GUER_AIR_HELI1 = "CUP_I_UH60L_RACS";
-		GUER_AIR_HELI2 = "CUP_I_AH6J_RACS";
-		//GUER_AIR_AA = "";
-		GUER_AIR_CAS = "CUP_I_AV8B_DYN_AAF"; 
-		//--- Boats
-		GUER_NAVAL_ASSAULT_BOAT1 = "CUP_I_RHIB2Turret_RACS";
-		GUER_NAVAL_ASSAULT_BOAT2 = "CUP_I_RHIB2Turret_RACS";
-		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "HAFM_CB90";
-		GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_GunBoat";
-		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_I_Frigate_RACS";
-		GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";
-	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	//--- OFPS Units Mod
-	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
-	//--- OFPS CUP Mod
-	if (CTI_OFPS_CUP_ADDON > 0) then {
-
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- HAFM UNITS
-	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-
-	};	
-
-};
 };
 
 //--------------------------------------------------------------------------------------------

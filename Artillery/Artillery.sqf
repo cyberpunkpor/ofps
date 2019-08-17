@@ -113,6 +113,11 @@ if (CTI_LAWSOFWAR_ADDON >= 2) then {
 if (CTI_TANKS_ADDON >= 2) then { 
 
 };
+//--- GLOBAL MOBILIZATION UNITS
+if (CTI_GLOBAL_MOBILIZATION_ADDON >= 2) then { 
+
+};
+
 //--- CUP UNITS
 if (CTI_CUP_VEHICLES_ADDON > 0) then { 
 	_c pushBack "CUP_B_D30_AT_CDF";
@@ -975,6 +980,11 @@ if (CTI_OFPS_RHS_ADDON >= 2) then {
 };
 //--- OFPS CUP UNITS
 if (CTI_OFPS_CUP_ADDON >= 2) then { 
+
+};
+
+//--- UNSUNG UNITS
+if (CTI_UNSUNG_ADDON >= 2) then { 
 
 };
 
