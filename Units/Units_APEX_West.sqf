@@ -1244,7 +1244,7 @@ _u pushBack [
 	/*ClassName*/'B_T_VTOL_01_vehicle_F',
 	/*MenuName*/'V-44 X Blackfish (VIV)',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
