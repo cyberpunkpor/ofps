@@ -2295,7 +2295,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_Podnos_Gun_Bag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/20000,
+	/*Price*/7500,
 	/*Camo*/[],
 	/*Type*/["Static"]
 ];
