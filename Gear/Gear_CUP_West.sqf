@@ -2186,7 +2186,7 @@ _u pushBack [
 	/*ClassName*/'CUP_NVG_GPNVG_winter',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/50,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Nightvision"]
 ];
@@ -2197,7 +2197,7 @@ _u pushBack [
 	/*ClassName*/'CUP_NVG_GPNVG_tan',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/50,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Nightvision"]
 ];
@@ -2208,7 +2208,7 @@ _u pushBack [
 	/*ClassName*/'CUP_NVG_GPNVG_green',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/50,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Nightvision"]
 ];
@@ -2219,7 +2219,7 @@ _u pushBack [
 	/*ClassName*/'CUP_NVG_GPNVG_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/50,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Nightvision"]
 ];
