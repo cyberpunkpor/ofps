@@ -117,7 +117,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'launch_MRAWS_green_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
+	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
 	/*Type*/["Dumbfire"]
@@ -128,7 +128,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'launch_MRAWS_olive_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
+	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
 	/*Type*/["Dumbfire"]
@@ -139,7 +139,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'launch_MRAWS_sand_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
+	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
 	/*Type*/["Dumbfire"]
