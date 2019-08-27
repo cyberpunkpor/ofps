@@ -3925,7 +3925,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_srifle_L129A1',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/2,
 	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["DMR"]
@@ -3936,7 +3936,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_srifle_L129A1_HG',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/2,
 	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["DMR"]
@@ -4058,7 +4058,7 @@ _u pushBack [
 	/*ClassName*/'CUP_srifle_M110',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/210,
+	/*Price*/260,
 	/*Camo*/[],
 	/*Type*/["DMR"]
 ];
