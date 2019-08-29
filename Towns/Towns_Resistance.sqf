@@ -212,6 +212,10 @@ if (CTI_TANKS_ADDON > 0) then {
 if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 };
+//--- Load CONTACT Mod
+if (CTI_CONTACT_ADDON > 0) then {
+
+};
 //--- Load CUP Units
 if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	GUER_TOWN_SPG = "CUP_I_SPG9_TK_GUE";
@@ -436,6 +440,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -594,6 +602,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -750,6 +762,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -855,6 +871,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1006,6 +1026,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1155,6 +1179,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1304,6 +1332,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1453,6 +1485,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1604,6 +1640,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 7) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1770,6 +1810,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 

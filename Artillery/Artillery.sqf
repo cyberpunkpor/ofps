@@ -117,6 +117,10 @@ if (CTI_TANKS_ADDON >= 2) then {
 if (CTI_GLOBAL_MOBILIZATION_ADDON >= 2) then { 
 
 };
+//--- CONTACT UNITS
+if (CTI_CONTACT_ADDON >= 2) then { 
+
+};
 
 //--- CUP UNITS
 if (CTI_CUP_VEHICLES_ADDON > 0) then { 

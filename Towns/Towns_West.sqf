@@ -210,6 +210,10 @@ if (CTI_TANKS_ADDON > 0) then {
 if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 };
+//--- Load CONTACT Mod
+if (CTI_CONTACT_ADDON > 0) then {
+
+};
 //--- Load CUP Mod
 if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	WEST_TOWN_ZSU = "CUP_B_ZU23_CDF";
@@ -391,6 +395,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 0) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -547,6 +555,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -652,6 +664,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -801,6 +817,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 3) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -950,6 +970,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1098,6 +1122,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 5) then {
 	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 
 	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
