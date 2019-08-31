@@ -1779,7 +1779,7 @@ _u pushBack [
 	/*ClassName*/'Laserdesignator',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1000,
+	/*Price*/1500,
 	/*Camo*/[],
 	/*Type*/["Spotting"]
 ];
