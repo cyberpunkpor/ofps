@@ -755,7 +755,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'optic_MRCO',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/40,
 	/*Camo*/[],
 	/*Type*/["Medium/Close"]
@@ -1724,7 +1724,7 @@ _u pushBack [
 	/*ClassName*/'NVGoggles_OPFOR',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["NVG"]
 ];
@@ -1735,7 +1735,7 @@ _u pushBack [
 	/*ClassName*/'NVGoggles_INDEP',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["NVG"]
 ];
@@ -1746,7 +1746,7 @@ _u pushBack [
 	/*ClassName*/'NVGoggles',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["NVG"]
 ];
@@ -1779,7 +1779,7 @@ _u pushBack [
 	/*ClassName*/'Laserdesignator',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1500,
+	/*Price*/1000,
 	/*Camo*/[],
 	/*Type*/["Spotting"]
 ];
