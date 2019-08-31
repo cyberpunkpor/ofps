@@ -2944,8 +2944,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/10,
+	/*UpgradeLevel*/2,
+	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -2955,8 +2955,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*UpgradeLevel*/2,
+	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -2966,8 +2966,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light_sand',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*UpgradeLevel*/2,
+	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -2977,8 +2977,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light_grass',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*UpgradeLevel*/2,
+	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -2988,8 +2988,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light_desert',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*UpgradeLevel*/2,
+	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -2999,8 +2999,19 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light_snakeskin',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
+	/*Price*/25,
+	/*Camo*/[],
+	/*Type*/["Helmet"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'H_HelmetB_black',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3011,18 +3022,7 @@ _u pushBack [
 	/*ClassName*/'H_HelmetB',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/5,
-	/*Camo*/[],
-	/*Type*/["Helmet"]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'H_HelmetB_black',
-	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
-	/*Price*/5,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3032,19 +3032,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_sand',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
-	/*Price*/5,
-	/*Camo*/[],
-	/*Type*/["Helmet"]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'H_HelmetB_camo',
-	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
-	/*Price*/5,
+	/*UpgradeLevel*/3,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3054,8 +3043,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_grass',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
-	/*Price*/5,
+	/*UpgradeLevel*/3,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3065,8 +3054,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_desert',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
-	/*Price*/5,
+	/*UpgradeLevel*/3,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3076,8 +3065,19 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_snakeskin',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
-	/*Price*/5,
+	/*UpgradeLevel*/3,
+	/*Price*/50,
+	/*Camo*/[],
+	/*Type*/["Helmet"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'H_HelmetB_camo',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3087,8 +3087,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetSpecB_blk',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
-	/*Price*/20,
+	/*UpgradeLevel*/4,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3098,8 +3098,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetSpecB',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
-	/*Price*/15,
+	/*UpgradeLevel*/4,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3109,8 +3109,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetSpecB_sand',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
-	/*Price*/15,
+	/*UpgradeLevel*/4,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3120,8 +3120,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetSpecB_paint1',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
-	/*Price*/15,
+	/*UpgradeLevel*/4,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3131,8 +3131,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetSpecB_paint2',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
-	/*Price*/15,
+	/*UpgradeLevel*/4,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
@@ -3142,8 +3142,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetSpecB_snakeskin',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/5,
-	/*Price*/15,
+	/*UpgradeLevel*/4,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
 ];
