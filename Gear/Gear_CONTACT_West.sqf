@@ -827,7 +827,7 @@ _u pushBack [
 	/*Type*/["Close"]
 ];
 
-u pushBack [
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'LMG_Mk200_black_F',
