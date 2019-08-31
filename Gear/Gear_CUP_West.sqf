@@ -821,7 +821,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_20Rnd_B_AA12_HE',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/1,
 	/*Price*/20,
 	/*Camo*/[],
 	/*Type*/["Shotgun"]
@@ -4080,7 +4080,7 @@ _u pushBack [
 	/*ClassName*/'CUP_sgun_AA12',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/40,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Shotgun"]
 ];
