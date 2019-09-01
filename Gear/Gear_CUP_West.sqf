@@ -1624,8 +1624,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_Vector21Nite',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
-	/*Price*/800,
+	/*UpgradeLevel*/1,
+	/*Price*/40,
 	/*Camo*/[],
 	/*Type*/["Spotting"]
 ];
