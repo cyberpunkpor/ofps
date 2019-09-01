@@ -4289,7 +4289,7 @@ _u pushBack [
 	/*ClassName*/'CUP_glaunch_M32',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/250,
 	/*Camo*/[],
 	/*Type*/["Special"]
 ];
@@ -4299,8 +4299,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_glaunch_M79',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
-	/*Price*/30,
+	/*UpgradeLevel*/0,
+	/*Price*/90,
 	/*Camo*/[],
 	/*Type*/["Special"]
 ];
@@ -4574,8 +4574,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_glaunch_Mk13',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/0,
-	/*Price*/250,
+	/*UpgradeLevel*/1,
+	/*Price*/130,
 	/*Camo*/[],
 	/*Type*/["Special"]
 ];
