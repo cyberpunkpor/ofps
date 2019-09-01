@@ -2977,7 +2977,7 @@ _u pushBack [
 	/*ClassName*/'CUP_glaunch_6G30',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/70,
 	/*Camo*/[],
 	/*Type*/["Special"]
 ];
