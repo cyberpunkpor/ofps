@@ -515,7 +515,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -526,7 +526,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -537,7 +537,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -548,7 +548,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -559,7 +559,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -570,7 +570,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -581,7 +581,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -592,7 +592,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -603,7 +603,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -614,7 +614,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -1153,7 +1153,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/3000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -1164,7 +1164,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -1175,7 +1175,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2150,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 

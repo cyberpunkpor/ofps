@@ -702,7 +702,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/3500,
 	/*Camo*/[],
-	/*Type*/["Static"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
@@ -713,7 +713,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/1500,
 	/*Camo*/[],
-	/*Type*/["Static"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [

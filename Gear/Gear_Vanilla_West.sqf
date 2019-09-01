@@ -2848,7 +2848,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["UAV"]
+	/*Type*/["UAV/UGV"]
 ];
 
 _u pushBack [
