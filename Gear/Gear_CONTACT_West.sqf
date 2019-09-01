@@ -613,7 +613,7 @@ _u pushBack [
 	/*ClassName*/'B_UGV_02_Demining_backpack_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1500,
+	/*Price*/3500,
 	/*Camo*/[],
 	/*Type*/["Static"]
 ];
