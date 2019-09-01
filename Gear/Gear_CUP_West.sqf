@@ -3035,7 +3035,7 @@ _u pushBack [
 	/*ClassName*/'CUP_LRTV',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1000,
+	/*Price*/1200,
 	/*Camo*/[],
 	/*Type*/["Spotting"]
 ];
