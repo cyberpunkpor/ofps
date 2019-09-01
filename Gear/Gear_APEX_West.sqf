@@ -646,7 +646,7 @@ _u pushBack [
 	/*ClassName*/'NVGoggles_tna_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["NVG"]
 ];
