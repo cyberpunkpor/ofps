@@ -95,7 +95,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'SMG_03C_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["SMG"]
@@ -106,7 +106,29 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'SMG_03C_khaki',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
+	/*Price*/100,
+	/*Camo*/[],
+	/*Type*/["SMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'SMG_03C_camo',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
+	/*Price*/100,
+	/*Camo*/[],
+	/*Type*/["SMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'SMG_03C_hex',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
 	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["SMG"]
@@ -117,7 +139,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'SMG_03_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["SMG"]
@@ -127,6 +149,50 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'SMG_03_khaki',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
+	/*Price*/100,
+	/*Camo*/[],
+	/*Type*/["SMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'SMG_03_hex',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
+	/*Price*/100,
+	/*Camo*/[],
+	/*Type*/["SMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'SMG_03_camo',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
+	/*Price*/100,
+	/*Camo*/[],
+	/*Type*/["SMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'SMG_03C_TR_camo',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/100,
+	/*Camo*/[],
+	/*Type*/["SMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'SMG_03C_TR_hex',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
 	/*Price*/100,
@@ -181,10 +247,32 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'SMG_03C_black',
+	/*ClassName*/'SMG_03_TR_hex',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*Price*/100,
+	/*Camo*/[],
+	/*Type*/["SMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'SMG_03_TR_camo',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/100,
+	/*Camo*/[],
+	/*Type*/["SMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'SMG_03C_black',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["SMG"]
 ];
@@ -578,6 +666,17 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'muzzle_snds_L',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/4,
+	/*Price*/500,
+	/*Camo*/[],
+	/*Type*/["Flash Hider/Silencer"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'muzzle_snds_570',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
 	/*Price*/500,
