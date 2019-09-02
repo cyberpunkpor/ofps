@@ -1657,7 +1657,7 @@ _u pushBack [
 	/*ClassName*/'U_O_OfficerUniform_ocamo',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Uniform"]
 ];
