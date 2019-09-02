@@ -327,7 +327,7 @@ _u pushBack [
 	/*ClassName*/'hgun_P07_khk_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Semi-Auto Pistol"]
 ];

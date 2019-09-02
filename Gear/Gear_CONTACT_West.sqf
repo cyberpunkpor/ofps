@@ -1008,7 +1008,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'hgun_Pistol_heavy_01_green_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Semi-Auto Pistol"]
@@ -1019,8 +1019,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'optic_MRD_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/10,
+	/*UpgradeLevel*/2,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Close"]
 ];

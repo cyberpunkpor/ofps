@@ -448,7 +448,7 @@ _u pushBack [
 	/*ClassName*/'CUP_6Rnd_45ACP_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/6,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -624,7 +624,7 @@ _u pushBack [
 	/*ClassName*/'CUP_10Rnd_B_765x17_Ball_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -635,7 +635,7 @@ _u pushBack [
 	/*ClassName*/'CUP_50Rnd_B_765x17_Ball_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/5,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -854,8 +854,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_20Rnd_B_765x17_Ball_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
-	/*Price*/1,
+	/*UpgradeLevel*/0,
+	/*Price*/20,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -1229,7 +1229,7 @@ _u pushBack [
 	/*ClassName*/'CUP_10Rnd_9x19_Compact',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -1350,7 +1350,7 @@ _u pushBack [
 	/*ClassName*/'CUP_17Rnd_9x19_glock17',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/17,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -1460,7 +1460,7 @@ _u pushBack [
 	/*ClassName*/'CUP_7Rnd_45ACP_1911',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/7,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -1471,7 +1471,7 @@ _u pushBack [
 	/*ClassName*/'CUP_15Rnd_9x19_M9',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -1482,7 +1482,7 @@ _u pushBack [
 	/*ClassName*/'CUP_8Rnd_9x18_Makarov_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/8,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -1493,7 +1493,7 @@ _u pushBack [
 	/*ClassName*/'CUP_8Rnd_9x18_MakarovSD_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/8,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -1570,7 +1570,7 @@ _u pushBack [
 	/*ClassName*/'CUP_18Rnd_9x19_Phantom',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/18,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -1613,8 +1613,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_30Rnd_9x19_UZI',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/0,
-	/*Price*/1,
+	/*UpgradeLevel*/1,
+	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -2847,8 +2847,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_hgun_Phantom',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
-	/*Price*/0,
+	/*UpgradeLevel*/0,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Semi-Auto Pistol"]
 ];
@@ -2858,8 +2858,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_hgun_Glock17',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
-	/*Price*/0,
+	/*UpgradeLevel*/0,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Semi-Auto Pistol"]
 ];
@@ -2869,8 +2869,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_hgun_Glock17_blk',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
-	/*Price*/0,
+	/*UpgradeLevel*/0,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Semi-Auto Pistol"]
 ];
@@ -2880,8 +2880,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_hgun_Glock17_tan',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
-	/*Price*/0,
+	/*UpgradeLevel*/0,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Semi-Auto Pistol"]
 ];
@@ -2892,7 +2892,7 @@ _u pushBack [
 	/*ClassName*/'CUP_hgun_Colt1911',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/1,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Semi-Auto Pistol"]
 ];
@@ -2903,7 +2903,7 @@ _u pushBack [
 	/*ClassName*/'CUP_hgun_M9',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/0,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Semi-Auto Pistol"]
 ];
@@ -2914,7 +2914,7 @@ _u pushBack [
 	/*ClassName*/'CUP_hgun_MicroUzi',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/300,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Machine Pistol"]
 ];
@@ -5245,8 +5245,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_acc_Glock17_Flashlight',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
-	/*Price*/0,
+	/*UpgradeLevel*/0,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
