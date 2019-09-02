@@ -1878,7 +1878,7 @@ _u pushBack [
 	/*ClassName*/'CUP_bipod_Harris_1A2_L',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/10,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Grips and Bipods"]
 ];
@@ -1889,7 +1889,7 @@ _u pushBack [
 	/*ClassName*/'CUP_bipod_VLTOR_Modpod',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/10,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Grips and Bipods"]
 ];
@@ -3838,7 +3838,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Bipod_G36',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/10,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Grips and Bipods"]
 ];
@@ -3849,7 +3849,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Bipod_G36_wood',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/10,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Grips and Bipods"]
 ];
@@ -3860,7 +3860,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Bipod_G36_desert',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/10,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Grips and Bipods"]
 ];
