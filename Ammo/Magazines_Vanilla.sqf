@@ -3159,7 +3159,7 @@ _u pushBack [
 	/*ClassName*/'Titan_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/4000,
+	/*Price*/1750,
 	/*RearmTime*/25,
 	/*Filters*/[]
 ];
@@ -3171,7 +3171,7 @@ _u pushBack [
 	/*ClassName*/'Titan_AP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/1300,
+	/*Price*/1200,
 	/*RearmTime*/25,
 	/*Filters*/[]
 ];
@@ -3183,7 +3183,7 @@ _u pushBack [
 	/*ClassName*/'Titan_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/3300,
+	/*Price*/1450,
 	/*RearmTime*/25,
 	/*Filters*/[]
 ];
