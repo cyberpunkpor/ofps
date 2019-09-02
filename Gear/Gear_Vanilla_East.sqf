@@ -402,7 +402,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'muzzle_snds_L',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/4,
 	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Flash Hider/Silencer"]
