@@ -568,7 +568,7 @@ _u pushBack [
 	/*ClassName*/'U_O_R_Gorka_01_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Uniform"]
 ];
@@ -579,7 +579,7 @@ _u pushBack [
 	/*ClassName*/'U_O_R_Gorka_01_brown_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Uniform"]
 ];
@@ -590,7 +590,7 @@ _u pushBack [
 	/*ClassName*/'U_O_R_Gorka_01_camo_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["Uniform"]
 ];

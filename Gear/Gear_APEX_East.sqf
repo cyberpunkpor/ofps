@@ -810,7 +810,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'U_O_T_Officer_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/0,
 	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Uniform"]
@@ -833,7 +833,7 @@ _u pushBack [
 	/*ClassName*/'U_O_V_Soldier_Viper_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/6,
-	/*Price*/1000,
+	/*Price*/3000,
 	/*Camo*/[],
 	/*Type*/["Uniform"]
 ];
@@ -844,7 +844,7 @@ _u pushBack [
 	/*ClassName*/'U_O_V_Soldier_Viper_hex_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/6,
-	/*Price*/1000,
+	/*Price*/3000,
 	/*Camo*/[],
 	/*Type*/["Uniform"]
 ];
@@ -855,7 +855,7 @@ _u pushBack [
 	/*ClassName*/'U_O_T_Sniper_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/1000,
+	/*Price*/2000,
 	/*Camo*/[],
 	/*Type*/["Half Ghillie"]
 ];
@@ -866,7 +866,7 @@ _u pushBack [
 	/*ClassName*/'U_O_T_FullGhillie_tna_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/6,
-	/*Price*/1500,
+	/*Price*/3000,
 	/*Camo*/[],
 	/*Type*/["Full Ghillie"]
 ];
