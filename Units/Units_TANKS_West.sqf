@@ -123,7 +123,7 @@ _u pushBack [
 	/*ClassName*/'B_CTRG_Soldier_LAT2_tna_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/6,
 	/*Price*/1800,
 	/*BuildTime*/5,
 	/*Distance*/1,
