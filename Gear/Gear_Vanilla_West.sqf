@@ -766,7 +766,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'optic_MRD',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Close"]
@@ -3032,7 +3032,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
@@ -3043,7 +3043,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
@@ -3054,7 +3054,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light_sand',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
@@ -3065,7 +3065,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light_grass',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
@@ -3076,7 +3076,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light_desert',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
@@ -3087,7 +3087,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_HelmetB_light_snakeskin',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["Helmet"]

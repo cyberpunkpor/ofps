@@ -359,7 +359,7 @@ _u pushBack [
 	/*ClassName*/'B_SCBA_01_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/50,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
 ];
@@ -370,7 +370,7 @@ _u pushBack [
 	/*ClassName*/'B_CombinationUnitRespirator_01_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/50,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
 ];
@@ -809,7 +809,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'H_Booniehat_eaf',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
 	/*Type*/["Helmet"]
