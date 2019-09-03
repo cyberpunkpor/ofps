@@ -2208,7 +2208,7 @@ _u pushBack [
 	/*ClassName*/'U_B_CTRG_1',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/50
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Uniform"]
 ];
