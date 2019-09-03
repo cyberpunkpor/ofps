@@ -3024,7 +3024,7 @@ _u pushBack [
 	/*ClassName*/'CUP_NVG_HMNVS',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["NVG"]
 ];
@@ -3034,8 +3034,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_NVG_PVS14',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
-	/*Price*/50,
+	/*UpgradeLevel*/0,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["NVG"]
 ];
@@ -3045,8 +3045,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_NVG_PVS7',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
-	/*Price*/50,
+	/*UpgradeLevel*/0,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["NVG"]
 ];
