@@ -1096,7 +1096,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'11Rnd_45ACP_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/0,
 	/*Price*/11,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
