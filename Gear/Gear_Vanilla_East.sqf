@@ -469,7 +469,7 @@ _u pushBack [
 	/*ClassName*/'acc_flashlight_pistol',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/1,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Light"]
 ];
@@ -545,8 +545,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'optic_Holosight',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/0,
-	/*Price*/100,
+	/*UpgradeLevel*/3,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Medium/Close"]
 ];
@@ -556,7 +556,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'optic_Holosight_smg',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/3,
 	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Close"]

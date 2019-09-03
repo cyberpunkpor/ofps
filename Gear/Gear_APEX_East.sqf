@@ -744,7 +744,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_NVGoggles_ghex_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["NVG"]
@@ -755,7 +755,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_NVGoggles_hex_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["NVG"]
