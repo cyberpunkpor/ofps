@@ -536,7 +536,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_9x21_Mag_SMG_02',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/1,
+	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["SMG"]
 ];
@@ -547,7 +547,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_9x21_Mag_SMG_02_Tracer_Green',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/1,
+	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["SMG"]
 ];
@@ -558,7 +558,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_9x21_Mag_SMG_02_Tracer_Yellow',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/1,
+	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["SMG"]
 ];
@@ -569,7 +569,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_9x21_Mag_SMG_02_Tracer_Red',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/1,
+	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["SMG"]
 ];
@@ -580,7 +580,7 @@ _u pushBack [
 	/*ClassName*/'150Rnd_556x45_Drum_Mag_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/5,
+	/*Price*/150,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -591,7 +591,51 @@ _u pushBack [
 	/*ClassName*/'150Rnd_556x45_Drum_Mag_Tracer_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/5,
+	/*Price*/150,
+	/*Camo*/[],
+	/*Type*/["LMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'150Rnd_556x45_Drum_Sand_Mag_F',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/150,
+	/*Camo*/[],
+	/*Type*/["LMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'150Rnd_556x45_Drum_Sand_Mag_Tracer_F',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/150,
+	/*Camo*/[],
+	/*Type*/["LMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'150Rnd_556x45_Drum_Green_Mag_F',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/150,
+	/*Camo*/[],
+	/*Type*/["LMG"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'150Rnd_556x45_Drum_Green_Mag_Tracer_F',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/150,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -602,7 +646,7 @@ _u pushBack [
 	/*ClassName*/'200Rnd_556x45_Box_Red_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/8,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -613,7 +657,7 @@ _u pushBack [
 	/*ClassName*/'200Rnd_556x45_Box_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/8,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -624,7 +668,7 @@ _u pushBack [
 	/*ClassName*/'200Rnd_556x45_Box_Tracer_Red_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/8,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -635,7 +679,7 @@ _u pushBack [
 	/*ClassName*/'200Rnd_556x45_Box_Tracer_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/8,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
