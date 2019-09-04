@@ -293,7 +293,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_65x39_caseless_msbs_mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -304,7 +304,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_65x39_caseless_msbs_mag_Tracer',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -315,7 +315,7 @@ _u pushBack [
 	/*ClassName*/'6Rnd_12Gauge_Pellets',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/6,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -326,7 +326,7 @@ _u pushBack [
 	/*ClassName*/'6Rnd_12Gauge_Slug',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/6,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];

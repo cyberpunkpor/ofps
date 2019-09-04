@@ -965,7 +965,7 @@ _u pushBack [
 	/*ClassName*/'6Rnd_RedSignal_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/6,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -976,7 +976,7 @@ _u pushBack [
 	/*ClassName*/'6Rnd_GreenSignal_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/6,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -987,7 +987,7 @@ _u pushBack [
 	/*ClassName*/'6Rnd_45ACP_Cylinder',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/6,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -998,7 +998,7 @@ _u pushBack [
 	/*ClassName*/'9Rnd_45ACP_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/9,
+	/*Price*/4,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -1009,7 +1009,7 @@ _u pushBack [
 	/*ClassName*/'16Rnd_9x21_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/16,
+	/*Price*/8,
 	/*Camo*/[],
 	/*Type*/["Pistol/SMG"]
 ];
@@ -1020,7 +1020,7 @@ _u pushBack [
 	/*ClassName*/'16Rnd_9x21_red_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/16,
+	/*Price*/8,
 	/*Camo*/[],
 	/*Type*/["Pistol/SMG"]
 ];
@@ -1031,7 +1031,7 @@ _u pushBack [
 	/*ClassName*/'16Rnd_9x21_yellow_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/16,
+	/*Price*/8,
 	/*Camo*/[],
 	/*Type*/["Pistol/SMG"]
 ];
@@ -1042,7 +1042,7 @@ _u pushBack [
 	/*ClassName*/'16Rnd_9x21_green_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/16,
+	/*Price*/8,
 	/*Camo*/[],
 	/*Type*/["Pistol/SMG"]
 ];
@@ -1053,7 +1053,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_9x21_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Pistol/SMG"]
 ];
@@ -1064,7 +1064,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_9x21_Red_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Pistol/SMG"]
 ];
@@ -1075,7 +1075,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_9x21_Yellow_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Pistol/SMG"]
 ];
@@ -1086,7 +1086,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_9x21_Green_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Pistol/SMG"]
 ];
@@ -1097,7 +1097,7 @@ _u pushBack [
 	/*ClassName*/'11Rnd_45ACP_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/11,
+	/*Price*/5,
 	/*Camo*/[],
 	/*Type*/["Pistol"]
 ];
@@ -1108,7 +1108,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_45ACP_Mag_SMG_01',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["SMG"]
 ];
@@ -1119,7 +1119,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_45ACP_Mag_SMG_01_Tracer_Red',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["SMG"]
 ];
@@ -1130,7 +1130,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["SMG"]
 ];
@@ -1141,7 +1141,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_45ACP_Mag_SMG_01_Tracer_Green',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["SMG"]
 ];
@@ -1152,7 +1152,7 @@ _u pushBack [
 	/*ClassName*/'50Rnd_570x28_SMG_03',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/50,
+	/*Price*/25,
 	/*Camo*/[],
 	/*Type*/["SMG"]
 ];
@@ -1163,7 +1163,7 @@ _u pushBack [
 	/*ClassName*/'20Rnd_556x45_UW_mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/20,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1174,7 +1174,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1185,7 +1185,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_green',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1196,7 +1196,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_red',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1207,7 +1207,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_Tracer_Red',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1218,7 +1218,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_Tracer_Green',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1229,7 +1229,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_Tracer_Yellow',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1240,7 +1240,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_Sand',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1251,7 +1251,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_Sand_green',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1262,7 +1262,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_Sand_red',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1273,7 +1273,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_Sand_Tracer_Red',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1284,7 +1284,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_Sand_Tracer_Green',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1295,7 +1295,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_556x45_Stanag_Sand_Tracer_Yellow',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1306,7 +1306,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_65x39_caseless_mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1317,7 +1317,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_65x39_caseless_khaki_mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1328,7 +1328,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_65x39_caseless_black_mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1339,7 +1339,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_65x39_caseless_mag_Tracer',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1350,7 +1350,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_65x39_caseless_khaki_mag_Tracer',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1361,7 +1361,7 @@ _u pushBack [
 	/*ClassName*/'30Rnd_65x39_caseless_black_mag_Tracer',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
 ];
@@ -1372,7 +1372,7 @@ _u pushBack [
 	/*ClassName*/'100Rnd_65x39_caseless_mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -1383,7 +1383,7 @@ _u pushBack [
 	/*ClassName*/'100Rnd_65x39_caseless_khaki_mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -1394,7 +1394,7 @@ _u pushBack [
 	/*ClassName*/'100Rnd_65x39_caseless_black_mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -1405,7 +1405,7 @@ _u pushBack [
 	/*ClassName*/'100Rnd_65x39_caseless_mag_Tracer',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -1416,7 +1416,7 @@ _u pushBack [
 	/*ClassName*/'100Rnd_65x39_caseless_khaki_mag_tracer',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -1427,7 +1427,7 @@ _u pushBack [
 	/*ClassName*/'100Rnd_65x39_caseless_black_mag_tracer',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -1438,7 +1438,7 @@ _u pushBack [
 	/*ClassName*/'200Rnd_65x39_cased_Box',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -1449,7 +1449,7 @@ _u pushBack [
 	/*ClassName*/'200Rnd_65x39_cased_Box_Tracer',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*Price*/100,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -1460,7 +1460,7 @@ _u pushBack [
 	/*ClassName*/'20Rnd_762x51_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/20,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["DMR"]
 ];
@@ -1471,7 +1471,7 @@ _u pushBack [
 	/*ClassName*/'7Rnd_408_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/5,
-	/*Price*/7,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Sniper"]
 ];
@@ -1647,7 +1647,7 @@ _u pushBack [
 	/*ClassName*/'3Rnd_Smoke_Grenade_shell',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/5,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Under-Barrel GL"]
 ];
@@ -1669,7 +1669,7 @@ _u pushBack [
 	/*ClassName*/'3Rnd_SmokeRed_Grenade_shell',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/5,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Under-Barrel GL"]
 ];
@@ -1691,7 +1691,7 @@ _u pushBack [
 	/*ClassName*/'3Rnd_SmokeOrange_Grenade_shell',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/5,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Under-Barrel GL"]
 ];
@@ -1713,7 +1713,7 @@ _u pushBack [
 	/*ClassName*/'3Rnd_SmokeYellow_Grenade_shell',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/5,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Under-Barrel GL"]
 ];
@@ -1735,7 +1735,7 @@ _u pushBack [
 	/*ClassName*/'3Rnd_SmokeGreen_Grenade_shell',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/5,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Under-Barrel GL"]
 ];
@@ -1757,7 +1757,7 @@ _u pushBack [
 	/*ClassName*/'3Rnd_SmokeBlue_Grenade_shell',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/5,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Under-Barrel GL"]
 ];
@@ -1779,7 +1779,7 @@ _u pushBack [
 	/*ClassName*/'3Rnd_SmokePurple_Grenade_shell',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/5,
+	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Under-Barrel GL"]
 ];
@@ -1911,7 +1911,7 @@ _u pushBack [
 	/*ClassName*/'3Rnd_HE_Grenade_shell',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/30,
+	/*Price*/15,
 	/*Camo*/[],
 	/*Type*/["Under-Barrel GL"]
 ];
