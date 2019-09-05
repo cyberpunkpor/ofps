@@ -744,8 +744,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_NVGoggles_ghex_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
-	/*Price*/500,
+	/*UpgradeLevel*/3,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["NVG"]
 ];
@@ -755,8 +755,8 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_NVGoggles_hex_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
-	/*Price*/500,
+	/*UpgradeLevel*/3,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["NVG"]
 ];
@@ -767,7 +767,7 @@ _u pushBack [
 	/*ClassName*/'O_NVGoggles_urb_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/500,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["NVG"]
 ];
