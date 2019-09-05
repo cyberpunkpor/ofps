@@ -127,7 +127,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/3,
 	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -138,7 +138,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_black_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/3,
 	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -149,7 +149,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_camo_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/3,
 	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -160,7 +160,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_sand_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/3,
 	/*Price*/30,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -171,7 +171,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_GL_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/35,
 	/*Camo*/[],
 	/*Type*/["Rifle-GL"]
@@ -182,7 +182,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_GL_black_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/35,
 	/*Camo*/[],
 	/*Type*/["Rifle-GL"]
@@ -193,7 +193,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_GL_camo_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/35,
 	/*Camo*/[],
 	/*Type*/["Rifle-GL"]
@@ -204,7 +204,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_GL_sand_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/35,
 	/*Camo*/[],
 	/*Type*/["Rifle-GL"]
@@ -215,7 +215,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_Mark_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/40,
 	/*Camo*/[],
 	/*Type*/["DMR"]
@@ -226,7 +226,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_Mark_black_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/40,
 	/*Camo*/[],
 	/*Type*/["DMR"]
@@ -237,7 +237,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_Mark_camo_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/40,
 	/*Camo*/[],
 	/*Type*/["DMR"]
@@ -248,7 +248,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_UBS_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -259,7 +259,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_UBS_black_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -270,7 +270,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_UBS_camo_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
@@ -281,7 +281,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'arifle_MSBS65_UBS_sand_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Rifle"]
