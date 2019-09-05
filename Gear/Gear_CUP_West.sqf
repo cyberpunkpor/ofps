@@ -1932,7 +1932,18 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_muzzle_snds_M16',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
+	/*Price*/300,
+	/*Camo*/[],
+	/*Type*/["Flash Hider/Silencer"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_muzzle_snds_M16_desert',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
 	/*Price*/300,
 	/*Camo*/[],
 	/*Type*/["Flash Hider/Silencer"]
@@ -3925,10 +3936,10 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_srifle_G22_des',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
-	/*Price*/210,
+	/*UpgradeLevel*/2,
+	/*Price*/300,
 	/*Camo*/[],
-	/*Type*/["DMR"]
+	/*Type*/["Sniper"]
 ];
 
 _u pushBack [
@@ -3936,10 +3947,32 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_srifle_G22_wdl',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
-	/*Price*/210,
+	/*UpgradeLevel*/2,
+	/*Price*/300,
 	/*Camo*/[],
-	/*Type*/["DMR"]
+	/*Type*/["Sniper"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_srifle_AWM_des',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
+	/*Price*/400,
+	/*Camo*/[],
+	/*Type*/["Sniper"]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_srifle_AWM_wdl',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
+	/*Price*/400,
+	/*Camo*/[],
+	/*Type*/["Sniper"]
 ];
 
 _u pushBack [
