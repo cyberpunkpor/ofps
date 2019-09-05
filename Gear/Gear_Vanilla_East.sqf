@@ -1722,7 +1722,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'U_O_Wetsuit',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/10000,
 	/*Camo*/[],
 	/*Type*/["Diving"]
@@ -1942,7 +1942,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'V_RebreatherIR',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/1000,
 	/*Camo*/[],
 	/*Type*/["Diving"]
@@ -2548,7 +2548,7 @@ _u pushBack [
 	/*ClassName*/'G_O_Diving',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/500,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["Diving"]
 ];
