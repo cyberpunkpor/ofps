@@ -2042,7 +2042,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_UavTerminal',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/2000,
 	/*Camo*/[],
 	/*Type*/["Standard Items"]
@@ -2900,7 +2900,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_Kitbag_sgg',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/20,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
@@ -2933,7 +2933,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_Kitbag_mcamo',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/20,
 	/*Camo*/[],
 	/*Type*/["Backpack"]

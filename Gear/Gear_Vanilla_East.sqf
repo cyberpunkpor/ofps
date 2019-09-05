@@ -1414,7 +1414,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_UavTerminal',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/2000,
 	/*Camo*/[],
 	/*Type*/["Standard Items"]
