@@ -182,7 +182,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'optic_KHS_old',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/40,
 	/*Camo*/[],
 	/*Type*/["Long"]
