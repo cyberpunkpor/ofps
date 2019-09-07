@@ -824,7 +824,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/3,
 	/*Camo*/[],
-	/*Type*/["Medium/Close"]
+	/*Type*/["Close"]
 ];
 
 _u pushBack [
@@ -2879,7 +2879,7 @@ _u pushBack [
 	/*ClassName*/'B_TacticalPack_oli',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/500,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
 ];
