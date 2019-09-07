@@ -2067,7 +2067,7 @@ _u pushBack [
 	/*UpgradeLevel*/2,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/["Laser and Flashlight"]
+	/*Type*/["Light/Laser"]
 ];
 
 _u pushBack [
@@ -2078,7 +2078,7 @@ _u pushBack [
 	/*UpgradeLevel*/2,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/["Laser and Flashlight"]
+	/*Type*/["Light/Laser"]
 ];
 
 _u pushBack [
@@ -2089,7 +2089,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/["Laser and Flashlight"]
+	/*Type*/["Light/Laser"]
 ];
 
 _u pushBack [
@@ -2100,7 +2100,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/["Laser and Flashlight"]
+	/*Type*/["Light/Laser"]
 ];
 
 _u pushBack [
@@ -2111,7 +2111,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/["Laser and Flashlight"]
+	/*Type*/["Light/Laser"]
 ];
 
 _u pushBack [
@@ -2122,7 +2122,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/["Laser and Flashlight"]
+	/*Type*/["Light/Laser"]
 ];
 
 _u pushBack [
@@ -2287,7 +2287,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/["Light"]
+	/*Type*/["Light/Laser"]
 ];
 
 _u pushBack [
@@ -5864,7 +5864,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
-	/*Type*/["Pistol"]
+	/*Type*/["Light"]
 ];
 
 _u pushBack [
@@ -5886,7 +5886,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*Camo*/[],
-	/*Type*/["Light"]
+	/*Type*/["Light/Laser"]
 ];
 
 _u pushBack [
