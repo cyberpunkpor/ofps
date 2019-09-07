@@ -1778,7 +1778,7 @@ _u pushBack [
 	/*ClassName*/'V_BandollierB_oli',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
-	/*Price*/200,
+	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -1899,7 +1899,7 @@ _u pushBack [
 	/*ClassName*/'V_TacVest_camo',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/400,
+	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
