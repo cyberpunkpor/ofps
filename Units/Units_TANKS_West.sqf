@@ -273,7 +273,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_AFV_Wheeled_01_up_cannon_F',
-	/*MenuName*/'',
+	/*MenuName*/'%1 (ECM)',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
 	/*Price*/37500,
