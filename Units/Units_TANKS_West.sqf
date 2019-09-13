@@ -273,10 +273,10 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_AFV_Wheeled_01_up_cannon_F',
-	/*MenuName*/'',
+	/*MenuName*/'%1 (ECM)',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
-	/*Price*/35000,
+	/*Price*/37500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -284,7 +284,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'ecm',
 	/*Picture*/''
 ];
 
