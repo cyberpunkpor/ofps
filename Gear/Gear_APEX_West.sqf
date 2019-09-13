@@ -888,7 +888,7 @@ _u pushBack [
 	/*ClassName*/'V_TacChestrig_cbr_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/0,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -899,7 +899,7 @@ _u pushBack [
 	/*ClassName*/'V_TacChestrig_grn_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/0,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -910,7 +910,7 @@ _u pushBack [
 	/*ClassName*/'V_TacChestrig_oli_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/1,
-	/*Price*/300,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
