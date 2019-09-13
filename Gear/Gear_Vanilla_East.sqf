@@ -2129,7 +2129,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_TacticalPack_oli',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
@@ -2140,7 +2140,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_TacticalPack_ocamo',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Backpack"]
