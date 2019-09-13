@@ -2491,7 +2491,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_optic_Eotech533_Black',
+	/*ClassName*/'CUP_optic_Eotech553_Black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/2,
@@ -2502,7 +2502,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_optic_Eotech533_Coyote',
+	/*ClassName*/'CUP_optic_Eotech553_Coyote',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/2,
@@ -2513,7 +2513,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_optic_Eotech533_OD',
+	/*ClassName*/'CUP_optic_Eotech553_OD',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
 	/*Price*/2,
