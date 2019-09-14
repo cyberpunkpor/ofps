@@ -6409,25 +6409,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_AAV_RACS',
-	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/1,
-	/*Price*/7000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Tan'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M163_USA',
@@ -6438,25 +6419,6 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_M163_RACS',
-	/*MenuName*/'M163 A1 VADS (Tan)',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/1,
-	/*Price*/12500,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Tan'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -7306,25 +7268,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_MH6J_RACS',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
-	/*Price*/5000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['Transport Helicopter'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_UH1D_slick_GER_KSK',
@@ -7366,25 +7309,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_UH60M_US',
-	/*MenuName*/'UH60 Medic',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/0,
-	/*Price*/15000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['Logistics Helicopter'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'service-medic',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_UH60L_RACS',
 	/*MenuName*/'UH60 Medic',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/0,
@@ -7496,25 +7420,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_SA330_Puma_HC2_RACS',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/0,
-	/*Price*/5000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['Transport Helicopter'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CH47F_USA',
@@ -7545,25 +7450,6 @@ _u pushBack [
 	/*Distance*/1,
 	/*Camo*/[],
 	/*Type*/['Armed Vehicle Transport/Heavy lift Helicopter'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_CH47F_RACS',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/0,
-	/*Price*/8500,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['Armed Transport/Heavy Lift Helicopter'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
@@ -7651,25 +7537,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AH6M_USA',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
-	/*Price*/15000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['Attack Helicopter'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_AH6J_RACS',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
