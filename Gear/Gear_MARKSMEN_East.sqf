@@ -183,7 +183,7 @@ _u pushBack [
 	/*ClassName*/'optic_KHS_old',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/40,
+	/*Price*/45,
 	/*Camo*/[],
 	/*Type*/["Long"]
 ];
@@ -216,7 +216,7 @@ _u pushBack [
 	/*ClassName*/'optic_KHS_hex',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/800,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Long/Medium"]
 ];
