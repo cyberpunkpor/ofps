@@ -1263,7 +1263,7 @@ _u pushBack [
 	/*ClassName*/'CUP_R_TOW_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/1400,
+	/*Price*/1000,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
@@ -1275,7 +1275,7 @@ _u pushBack [
 	/*ClassName*/'CUP_R_TOW2_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/1600,
+	/*Price*/1100,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
