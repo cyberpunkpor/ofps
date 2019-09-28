@@ -2090,7 +2090,7 @@ _u pushBack [
 	/*ClassName*/'M_Titan_AT_static',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/3000,
+	/*Price*/1450,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
