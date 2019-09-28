@@ -2273,7 +2273,7 @@ _u pushBack [
 	/*ClassName*/'CUP_6Rnd_TOW_HMMWV_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/16800,
+	/*Price*/6000,
 	/*RearmTime*/80,
 	/*Filters*/[]
 ];
@@ -2285,7 +2285,7 @@ _u pushBack [
 	/*ClassName*/'CUP_2Rnd_TOW_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/5000,
+	/*Price*/2000,
 	/*RearmTime*/35,
 	/*Filters*/[]
 ];
@@ -2297,7 +2297,7 @@ _u pushBack [
 	/*ClassName*/'CUP_6Rnd_TOW2_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/18000,
+	/*Price*/7200,
 	/*RearmTime*/80,
 	/*Filters*/[]
 ];
@@ -2309,7 +2309,7 @@ _u pushBack [
 	/*ClassName*/'CUP_2Rnd_TOW2_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/5500,
+	/*Price*/2200,
 	/*RearmTime*/35,
 	/*Filters*/[]
 ];
