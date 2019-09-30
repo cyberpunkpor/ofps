@@ -4301,7 +4301,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_V3S_Repair_TKA',
 	/*MenuName*/'Praga Repair',
-	/*Location*/[CTI_REPAIR],
+	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/13000,
 	/*BuildTime*/30,
