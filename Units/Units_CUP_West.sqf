@@ -3233,7 +3233,24 @@ _u pushBack [
 	/*Picture*/''
 ];
 
-
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_T810_Repair_CZ_WDL',
+	/*MenuName*/'Tatra T810 Repair',
+	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/0,
+	/*Price*/15000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-repairtruck',
+	/*Picture*/''
+];
 
 _u pushBack [
 	/*Enabled*/true,
