@@ -4303,7 +4303,26 @@ _u pushBack [
 	/*MenuName*/'Praga Repair',
 	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
-	/*Price*/13000,
+	/*Price*/11000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-repairtruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Kamaz_Repair_RU',
+	/*MenuName*/'Kamaz Repair',
+	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/0,
+	/*Price*/14000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
