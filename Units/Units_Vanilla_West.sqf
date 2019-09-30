@@ -2271,7 +2271,7 @@ _u pushBack [
 	/*MenuName*/'Defense Truck',
 	/*Location*/[CTI_REPAIR,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
-	/*Price*/6000,
+	/*Price*/3000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[''],
