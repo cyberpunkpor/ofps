@@ -1,4 +1,3 @@
-
 /*//--------------------------------------------------------------------------------------------------------------
 # HEADER #
 Description:	This file presents classnames and their values to the mission.
@@ -90,7 +89,7 @@ missionNamespace setVariable [format["CTI_%1_Factories", _side], ["ControlCenter
 _u pushback [
 	/*headers*/[CTI_HQ_DEPLOY, "Headquarters (Deploy)", "HQ"],
 	/*classes*/["Land_Research_house_V1_F", "Land_Research_house_V1_ruins_F"],
-	/*prices*/5000,
+	/*prices*/1000,
 	/*times*/10,
 	/*MaxCount*/-1,
 	/*placements*/[180, 15, false],
