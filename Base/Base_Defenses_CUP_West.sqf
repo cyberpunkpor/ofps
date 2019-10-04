@@ -655,7 +655,7 @@ _u pushBack [
 	/*Price*/125000,
 	/*Placement*/[180, 5],
 	/*Tags*/["In-Field Artillery"],
-	/*Location*/["RepairTruck"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/4,
 	/*MaxCount*/-1,
