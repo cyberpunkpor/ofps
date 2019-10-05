@@ -7325,6 +7325,63 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_MH60S_FFV_USMC',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/0,
+	/*Price*/6000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[''],
+	/*Type*/['Armed Transport Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_MH60S_USMC',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/0,
+	/*Price*/6000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[''],
+	/*Type*/['Armed Transport Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_UH60S_USN',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/6500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[''],
+	/*Type*/['Armed Transport Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_UH60M_US',
 	/*MenuName*/'UH60 Medic',
 	/*Location*/[CTI_AIR_ROTARY],
@@ -7342,13 +7399,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_MH60L_DAP_2x_Escort_US',
+	/*ClassName*/'CUP_B_MH60L_DAP_2x_USN',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
-	/*Price*/20000,
+	/*Price*/20500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
@@ -7380,7 +7437,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MH60L_DAP_2x_US',
 	/*MenuName*/'',
@@ -7406,6 +7463,25 @@ _u pushBack [
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
 	/*Price*/26000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Armed Transport Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_MH60L_DAP_4x_USN',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/2,
+	/*Price*/26500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
