@@ -7375,7 +7375,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'service-medic',
 	/*Picture*/''
 ];
 
