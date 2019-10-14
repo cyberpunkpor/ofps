@@ -489,6 +489,23 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'AA Igla Pod',
+	/*Class*/"CUP_O_Igla_AA_pod_RU",
+	/*Price*/4000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'D-30 (Artillery)',
 	/*Class*/"CUP_O_D30_RU",
 	/*Price*/125000,
