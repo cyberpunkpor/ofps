@@ -6289,7 +6289,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_smg_MP5SD6',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/1,
 	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["SMG"]
