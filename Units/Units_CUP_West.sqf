@@ -3728,7 +3728,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_TOW_NATO_T',
 	/*MenuName*/'',
@@ -3880,13 +3880,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_TOW_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/12000,
+	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -4285,7 +4285,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/12000,
+	/*Price*/9500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -4412,13 +4412,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1167_WDL_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/12000,
+	/*Price*/9500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -7382,27 +7382,8 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_UH60S_USN',
-	/*MenuName*/'UH60 Medic GAU-21',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
-	/*Price*/15500,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/[''],
-	/*Type*/['Armed Transport Helicopter'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'service-medic',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_B_UH60M_US',
-	/*MenuName*/'UH60 Medic Minigun',
+	/*MenuName*/'UH60 Medic',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/0,
 	/*Price*/15000,

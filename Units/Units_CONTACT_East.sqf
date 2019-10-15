@@ -116,10 +116,310 @@ _mod = 'CONTACT';
 _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_Soldier_TL_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/250,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_Soldier_AR_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+    /*Price*/300,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_medic_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+    /*Price*/275,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_JTAC_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+    /*Price*/850,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_Soldier_GL_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+    /*Price*/180,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_soldier_M_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+    /*Price*/375,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_Soldier_exp_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+    /*Price*/650,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_Soldier_LAT_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+    /*Price*/1300,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_recon_TL_F',
+	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+    /*Price*/450,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_recon_GL_F',
+	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+    /*Price*/380,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_recon_M_F',
+	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+    /*Price*/500,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_recon_LAT_F',
+	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+    /*Price*/1500,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_recon_JTAC_F',
+	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+    /*Price*/1050,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_recon_AR_F',
+	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+    /*Price*/500,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_recon_exp_F',
+	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+    /*Price*/850,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 
-
-
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_recon_medic_F',
+	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/5,
+    /*Price*/475,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 //--------------------------------------------------------------------------------------------------------------
 
