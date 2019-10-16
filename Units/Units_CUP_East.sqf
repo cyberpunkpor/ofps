@@ -3180,7 +3180,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_MI6T_CSAT_T',
+	/*ClassName*/'CUP_O_MI6T_RU',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/0,
