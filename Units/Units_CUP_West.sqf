@@ -7382,7 +7382,26 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_UH60M_US',
+	/*ClassName*/'CUP_B_UH1Y_MEV_USMC',
+	/*MenuName*/'UH60 Medic',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/0,
+	/*Price*/14000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_UH60M_Unarmed_FFV_MEV_US',
 	/*MenuName*/'UH60 Medic',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/0,

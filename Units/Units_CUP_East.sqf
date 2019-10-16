@@ -2343,6 +2343,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_O_Mi8_medevac_RU',
+	/*MenuName*/'Mi-8 Medic',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/0,
+	/*Price*/14000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[''],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_LCVP_VIV_SLA',
 	/*MenuName*/'LCVP VIV (Vehicle Transport/Medic)',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
