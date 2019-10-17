@@ -3222,7 +3222,7 @@ _u pushBack [
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
 	/*Price*/180,
-	/*BuildTime*/30,
+	/*BuildTime*/10,
 	/*Distance*/1,
 	/*Camo*/['Other'],
 	/*Type*/[],
