@@ -50,8 +50,8 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[1000,2000,3000], //--- Supply Rate
 	[500,1000,2000,3000], //--- Base Health
 	[500,1000,2000,9000], //--- Base Defense
-	[500,1000,2000], //--- Jamming Types
-	[500,1000,1500,2000] //--- Jamming Range
+	[250,500,1000], //--- Jamming Types
+	[250,500,750,1000] //--- Jamming Range
 ]];
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
@@ -142,7 +142,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240,320], 		//--- Light
 		[60,120,160,240,320],		//--- Heavy 
 		[60,120,240], 				//--- Naval
-		[60,120,160,240,320], 		//--- Air Rotary
+		[30,60,80,120,160], 		//--- Air Rotary
 		[60,120,160,240,320], 		//--- Air Fixed
 		[60,120,160,240], 			//--- Air Ordinance
 		[60,120,160,240], 			//--- Land Ordinance
@@ -158,7 +158,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,60,60], 				//--- Supply Rate
 		[30,60,90,120], 			//--- Base Health
 		[30,60,90,120],     			//--- Base Defense
-		[30,60,120], 				//--- Jamming Types
+		[15,30,60], 				//--- Jamming Types
 		[15,30,45,60]   			//--- Jamming Range
 	]];
 };
