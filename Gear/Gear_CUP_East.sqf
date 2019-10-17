@@ -1932,7 +1932,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_5Rnd_127x108_KSVK_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/3,
 	/*Camo*/[],
 	/*Type*/["Special"]
