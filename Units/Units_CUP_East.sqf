@@ -4246,7 +4246,7 @@ _u pushBack [
 	/*MenuName*/'UAZ Metis (CSAT)',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/2,
-	/*Price*/9500,
+	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['SandHex'],
