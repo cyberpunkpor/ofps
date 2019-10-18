@@ -535,7 +535,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'launch_NLAW_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/1200,
 	/*Camo*/[],
 	/*Type*/["Lock-on or Dumbfire"]
@@ -1921,7 +1921,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'NLAW_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/800,
 	/*Camo*/[],
 	/*Type*/["Lock-on or Dumbfire"]
