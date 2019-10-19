@@ -139,7 +139,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion',
 	/*Class*/"OFPS_CENTURION_O",
-	/*Price*/250000,
+	/*Price*/210000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],

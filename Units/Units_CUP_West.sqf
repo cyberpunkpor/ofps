@@ -3241,7 +3241,7 @@ _u pushBack [
 	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/15000,
-	/*BuildTime*/30,
+	/*BuildTime*/90,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
 	/*Type*/[],
