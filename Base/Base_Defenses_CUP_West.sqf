@@ -361,6 +361,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'M2 Machine Gun',
+	/*Class*/"CUP_B_M2StaticMG_MiniTripod_USMC",
+	/*Price*/1000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'ZU-23',
 	/*Class*/"CUP_B_ZU23_CDF",
 	/*Price*/5000,
