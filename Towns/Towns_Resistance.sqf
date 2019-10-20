@@ -347,6 +347,10 @@ if (CTI_OFPS_HAFM_ADDON > 0) then {
 if (CTI_UNSUNG_ADDON > 0 ) then {
 
 };
+//--- IFA3
+if (CTI_IFA3_ADDON > 0 ) then {
+
+};
 
 //--------------------------------------------------------------------------------------------
 //--- VANILLA - AAF TOWN OCCUPATION
@@ -506,6 +510,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -661,6 +669,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 	};	
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
@@ -826,6 +838,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -977,6 +993,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 	};
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
@@ -1131,6 +1151,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -1281,6 +1305,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	};	
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
@@ -1435,6 +1463,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -1587,6 +1619,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 	};	
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
@@ -1758,6 +1794,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 7) then {
 	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -1908,6 +1948,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 	};	
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
