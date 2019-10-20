@@ -4889,7 +4889,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_RG31_M2',
+	/*ClassName*/'CUP_B_RG31_M2_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
