@@ -354,6 +354,10 @@ if (CTI_OFPS_HAFM_ADDON > 0) then {
 if (CTI_UNSUNG_ADDON > 0 ) then {
 
 };
+//--- IFA3
+if (CTI_IFA3_ADDON > 0 ) then {
+
+};
 
 //--------------------------------------------------------------------------------------------
 //--- VANILLA TOWN OCCUPATION
@@ -440,6 +444,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 0) then {
 	};
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
@@ -601,6 +609,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -741,6 +753,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 	};
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
@@ -884,6 +900,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 3) then {
 	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -1025,6 +1045,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
 };
 //--------------------------------------------------------------------------------------------
 //--- 2035 Russians (snow) TOWN OCCUPATION
@@ -1163,6 +1187,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 5) then {
 	};
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
@@ -1306,6 +1334,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 6) then {
 	};
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };

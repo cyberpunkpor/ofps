@@ -992,5 +992,10 @@ if (CTI_UNSUNG_ADDON >= 2) then {
 
 };
 
+//--- IFA3 UNITS
+if (CTI_IFA3_ADDON >= 2) then { 
+
+};
+
 
 [_c, _m, _b, _r] call compile preprocessFileLineNumbers "Common\Config\Common\Artillery\Set_Artillery.sqf";
