@@ -354,6 +354,10 @@ if (CTI_OFPS_HAFM_ADDON > 0) then {
 if (CTI_UNSUNG_ADDON > 0 ) then {
 
 };
+//--- IFA3
+if (CTI_IFA3_ADDON > 0 ) then {
+
+};
 
 //--------------------------------------------------------------------------------------------
 //--- VANILLA TOWN OCCUPATION
@@ -456,6 +460,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 0) then {
 	};
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 }; 
@@ -626,6 +634,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -777,6 +789,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 	};
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
@@ -932,6 +948,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 3) then {
 	if (CTI_UNSUNG_ADDON > 0 ) then {
 
 	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
 };
 
 //--------------------------------------------------------------------------------------------
@@ -1083,6 +1103,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 	};
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
@@ -1241,6 +1265,10 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 5) then {
 	};
 	//--- Unsung
 	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
