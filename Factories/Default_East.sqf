@@ -78,7 +78,7 @@ switch (CTI_FACTION_EAST) do {
 		[["hgun_pdw2000_f",["","","optic_aco",""],["30rnd_9x21_mag"]],["",["","","",""],[]],["hgun_Pistol_01_F",["","","",""],["10Rnd_9x21_Mag"]]],[["U_O_T_Soldier_F",["30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag"]],["",[]],["b_assaultpack_kerry",["firstaidkit","firstaidkit","30rnd_9x21_mag","30rnd_9x21_mag","10Rnd_9x21_Mag","30rnd_9x21_mag","handgrenade","handgrenade","handgrenade","handgrenade"]]],["","g_combat"],[["","binocular"],["itemmap","itemGPS","itemradio","itemcompass","itemwatch"]]]];
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-			["O_Truck_03_medical_F", [
+			["O_T_Truck_03_medical_ghex_F", [
 				["Toolkit", 1],
 				["firstaidkit", 20],
 				["arifle_CTAR_GL_ghex_F", 2], 
