@@ -108,7 +108,7 @@ switch (CTI_FACTION_EAST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BTR90_HQ_RU"];
 		//Set Infantry
-		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["CUP_D_Male01_RU", "CUP_D_Male02_RU", "CUP_D_Male03_RU", "CUP_D_Male04_RU"]];
+		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["Male01RUS", "Male02RUS", "Male03RUS"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_O_RU_Officer"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_O_RU_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier"];
