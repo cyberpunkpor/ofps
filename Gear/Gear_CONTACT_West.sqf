@@ -1124,28 +1124,6 @@ _u pushBack [
 	/*Type*/["Close"]
 ];
 
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'bipod_02_F_lush',
-	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/50,
-	/*Camo*/[],
-	/*Type*/["Grips and Bipods"]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'bipod_02_F_arid',
-	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/50,
-	/*Camo*/[],
-	/*Type*/["Grips and Bipods"]
-];
-
 
 //--------------------------------------------------------------------------------------------------------------
 
