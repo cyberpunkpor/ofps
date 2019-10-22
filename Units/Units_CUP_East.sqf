@@ -3707,6 +3707,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_T34_TKA',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/9000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_T55_CSAT_T',
@@ -4439,25 +4458,6 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_T34_TKA',
-	/*MenuName*/'T-34',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/0,
-	/*Price*/9000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
