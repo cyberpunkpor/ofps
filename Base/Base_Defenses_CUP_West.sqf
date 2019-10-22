@@ -361,9 +361,25 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'M2 Machine Gun',
+	/*Name*/'M2 Machine Gun (Mini-Tripod)',
 	/*Class*/"CUP_B_M2StaticMG_MiniTripod_USMC",
 	/*Price*/1000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk 19',
+	/*Class*/"CUP_I_MK19_TriPod_AAF",
+	/*Price*/2000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
