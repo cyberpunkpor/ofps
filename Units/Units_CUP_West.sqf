@@ -7440,7 +7440,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_UH60M_Unarmed_FFV_MEV_US',
-	/*MenuName*/'UH60 Medic',
+	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/0,
 	/*Price*/15000,
