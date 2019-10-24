@@ -129,8 +129,7 @@ switch (CTI_FACTION_WEST) do {
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 			["CUP_B_HMMWV_Ambulance_USMC", [
-				["CUP_launch_M136", 5], 
-				["CUP_M136_M", 20],
+				["CUP_launch_M136", 10],
 				["CUP_8Rnd_B_Beneli_74Slug", 20],
 				["CUP_8Rnd_B_Beneli_74Pellets", 20],
 				["CUP_sgun_M1014", 10],
@@ -139,8 +138,7 @@ switch (CTI_FACTION_WEST) do {
 				["Toolkit", 1]
 			]],
 			["CUP_B_M113_USA", [
-				["CUP_launch_M72A6_Special", 5], 
-				["CUP_M72A6_M", 20],
+				["CUP_launch_M72A6_Special", 15],
 				["CUP_30Rnd_556x45_Stanag", 10],
 				["CUP_20Rnd_556x45_Stanag", 20],
 				["CUP_arifle_M16A2", 5],
@@ -149,8 +147,7 @@ switch (CTI_FACTION_WEST) do {
 				["Toolkit", 1]
 			]],
 			["CUP_B_HMMWV_SOV_USA", [
-				["CUP_launch_M136", 5], 
-				["CUP_M136_M", 20],
+				["CUP_launch_M136", 10], 
 				["CUP_8Rnd_B_Beneli_74Slug", 20],
 				["CUP_8Rnd_B_Beneli_74Pellets", 20],
 				["CUP_sgun_M1014", 10],
@@ -159,8 +156,7 @@ switch (CTI_FACTION_WEST) do {
 				["Toolkit", 1]
 			]],
 			["CUP_B_HMMWV_M1114_USMC", [
-				["CUP_launch_M72A6_Special", 5], 
-				["CUP_M72A6_M", 20],
+				["CUP_launch_M72A6_Special", 15],
 				["CUP_8Rnd_B_Beneli_74Slug", 20],
 				["CUP_8Rnd_B_Beneli_74Pellets", 20],
 				["CUP_sgun_M1014", 10],
