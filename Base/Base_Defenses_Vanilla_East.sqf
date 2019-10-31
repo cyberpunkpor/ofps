@@ -153,39 +153,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'H-barrier (Block)',
-	/*Class*/"Land_HBarrier_1_F",
-	/*Price*/10,
-	/*Placement*/[[0, 7],["CanAutoAlign", 2, 0]],
-	/*Tags*/["Walls Light"],
-	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
-	/*Blacklist*/[],
-	/*Upgrade*/0,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'H-barrier (Block, Green)',
-	/*Class*/"Land_HBarrier_01_line_1_green_F",
-	/*Price*/10,
-	/*Placement*/[[0, 7],["CanAutoAlign", 2, 0]],
-	/*Tags*/["Walls Light"],
-	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
-	/*Blacklist*/[],
-	/*Upgrade*/0,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x4 (Woodland)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_4_woodland",2]]],
 	/*Price*/110,
@@ -201,7 +169,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x8 (Woodland)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_8_woodland",2]]],
 	/*Price*/220,
@@ -217,7 +185,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x16 (Woodland)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_16_woodland",2]]],
 	/*Price*/330,
@@ -233,7 +201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x32 (Woodland)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_32_woodland",2]]],
 	/*Price*/550,
@@ -249,7 +217,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x4 (Desert)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_4_desert",2]]],
 	/*Price*/110,
@@ -265,7 +233,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x8 (Desert)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_8_desert",2]]],
 	/*Price*/220,
@@ -281,7 +249,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x16 (Desert)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_16_desert",2]]],
 	/*Price*/330,
@@ -297,7 +265,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x32 (Desert)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_32_desert",2]]],
 	/*Price*/550,
@@ -1193,11 +1161,11 @@ _u pushBack [
 	/*Tags*/["Walls Medium"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/["*"],
-	/*Upgrade*/1,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1209,11 +1177,11 @@ _u pushBack [
 	/*Tags*/["Walls Medium"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/["*"],
-	/*Upgrade*/1,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1229,7 +1197,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1245,7 +1213,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1853,7 +1821,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1869,7 +1837,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1885,7 +1853,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1901,7 +1869,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1917,7 +1885,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -2109,7 +2077,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
