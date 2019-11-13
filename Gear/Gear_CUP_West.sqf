@@ -2990,7 +2990,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/8,
 	/*Camo*/[],
-	/*Type*/["Medium"]
+	/*Type*/["Medium/Close"]
 ];
 
 _u pushBack [
@@ -3001,7 +3001,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/8,
 	/*Camo*/[],
-	/*Type*/["Medium"]
+	/*Type*/["Medium/Close"]
 ];
 
 _u pushBack [
@@ -3012,7 +3012,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/8,
 	/*Camo*/[],
-	/*Type*/["Medium"]
+	/*Type*/["Medium/Close"]
 ];
 
 _u pushBack [
