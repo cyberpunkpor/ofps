@@ -2228,7 +2228,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_acc_ANPEQ_15_Flashlight_Black_L',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Light/Laser"]
@@ -2239,7 +2239,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_acc_ANPEQ_15_Top_Flashlight_Black_L',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Light/Laser"]
