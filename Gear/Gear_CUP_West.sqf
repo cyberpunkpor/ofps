@@ -2225,7 +2225,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Light/Laser Black',
 	/*ClassName*/'CUP_acc_ANPEQ_15_Flashlight_Black_L',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
@@ -2236,7 +2236,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Light/Laser Black Top',
 	/*ClassName*/'CUP_acc_ANPEQ_15_Top_Flashlight_Black_L',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
@@ -2247,7 +2247,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Light/Laser OD',
 	/*ClassName*/'CUP_acc_ANPEQ_15_Flashlight_OD_L',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
@@ -2258,7 +2258,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Light/Laser OD Top',
 	/*ClassName*/'CUP_acc_ANPEQ_15_Top_Flashlight_OD_L',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
@@ -2269,7 +2269,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Light/Laser Tan',
 	/*ClassName*/'CUP_acc_ANPEQ_15_Flashlight_Tan_L',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
@@ -2280,7 +2280,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Light/Laser Tan Top',
 	/*ClassName*/'CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/0,
