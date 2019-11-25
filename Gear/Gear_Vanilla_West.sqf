@@ -2703,7 +2703,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrierSpec_rgr',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/5,
-	/*Price*/100,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2714,7 +2714,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrierSpec_mtp',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/5,
-	/*Price*/100,
+	/*Price*/200,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
