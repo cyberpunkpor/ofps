@@ -4782,7 +4782,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_Bipod_G36',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/12
+	/*UpgradeLevel*/2,
 	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Grips and Bipods"]
