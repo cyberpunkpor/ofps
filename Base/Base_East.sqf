@@ -233,6 +233,12 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*respawnBPos*/-1
 		];
 	};	
+	case 3: {//Cold War
+	};
+	case 4: {//Unsung
+	};	
+	case 5: {//IFA3
+	};
 };
 
 switch (CTI_FACTION_DEFAULT_BASE) do {
@@ -275,6 +281,12 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*respawnBPos*/-1
 		];
 	};	
+	case 3: {//Cold War
+	};
+	case 4: {//Unsung
+	};	
+	case 5: {//IFA3
+	};
 };
 
 

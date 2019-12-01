@@ -216,4 +216,7 @@ switch (CTI_FACTION_EAST) do {
 	case 5: { //Unsung
 
 	};
+	case 6: { //IFA3
+
+	};
 };
