@@ -123,7 +123,7 @@ _u pushBack [
 	/*ClassName*/'O_Plane_Fighter_02_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/5,
+	/*UpgradeLevel*/4,
 	/*Price*/90000,
 	/*BuildTime*/30,
 	/*Distance*/1,

@@ -1567,8 +1567,8 @@ _u pushBack [
 	/*ClassName*/'B_UAV_02_dynamicLoadout_F',
 	/*MenuName*/'MQ-4A Greyhawk (6x ATGM)',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/2,
-	/*Price*/20000,
+	/*UpgradeLevel*/3,
+	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['UAV'],
@@ -1596,6 +1596,25 @@ _u pushBack [
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_APC_Tracked_01_CRV_F',
+	/*MenuName*/'CRV-6e Bobcat',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/1,
+	/*Price*/12000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-defensetruck',
 	/*Picture*/''
 ];
 
@@ -1795,7 +1814,7 @@ _u pushBack [
 	/*ClassName*/'B_APC_Wheeled_01_cannon_F',
 	/*MenuName*/'AMV-7 Marshall',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/4,
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -2252,7 +2271,7 @@ _u pushBack [
 	/*MenuName*/'Defense Truck',
 	/*Location*/[CTI_REPAIR,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
-	/*Price*/6000,
+	/*Price*/3000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[''],

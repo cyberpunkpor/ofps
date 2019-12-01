@@ -361,6 +361,38 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'M2 Machine Gun (Mini-Tripod)',
+	/*Class*/"CUP_B_M2StaticMG_MiniTripod_USMC",
+	/*Price*/1000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk 19',
+	/*Class*/"CUP_I_MK19_TriPod_AAF",
+	/*Price*/2000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'ZU-23',
 	/*Class*/"CUP_B_ZU23_CDF",
 	/*Price*/5000,
@@ -440,7 +472,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'RAM Launcher',
 	/*Class*/"CUP_WV_B_RAM_Launcher",
 	/*Price*/25000,
@@ -633,7 +665,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'RBS-70 (360° AA)',
 	/*Class*/"CUP_B_RBS70_ACR",
 	/*Price*/6000,
@@ -655,7 +687,7 @@ _u pushBack [
 	/*Price*/125000,
 	/*Placement*/[180, 5],
 	/*Tags*/["In-Field Artillery"],
-	/*Location*/["RepairTruck"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/4,
 	/*MaxCount*/-1,
@@ -663,5 +695,22 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'C-RAM',
+	/*Class*/"CUP_WV_B_CRAM",
+	/*Price*/30000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/4,
+	/*Cooldown*/120,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";

@@ -32,29 +32,29 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 
 // THIS IS HOW MUCH SUPPLY DOES THE UPGRADE COSTS
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
-	[1500,3000,6000,7000,8000,8000], //--- Gear
+	[1500,2500,3500,4000,4500,5000], //--- Gear
 	[1000,1500,2000,2500,3000,3500], //--- Barracks
 	[1000,1500,2000,3000,10000], //--- Light
-	[2000,4000,5000,6000,8000], //--- Heavy. 
-	[4000,8000,10000], //--- Naval
-	[1000,2000,4000,6000,8000], //--- Air Rotary
+	[2000,4000,5000,6000,8000], //--- Heavy
+	[1000,2000,2500], //--- Naval
+	[1000,2000,3000,4000,5000], //--- Air Rotary
 	[1000,3000,6000,7000,8000], //--- Air Fixed
 	[1000,2000,3000,4000], //--- Air Ordinance
 	[1000,2000,3000,4000], //--- Land Ordinance
-	[1500,3000,5000,6000], //--- Forward Logistics
+	[1500,2000,3000,5000], //--- Forward Logistics
 	[1500,3000,6000], //--- Halo
 	[500,1000,2000,4000], //--- Air Radar
 	[500,1000,2000,4000], //--- Art Radar
-	[1000,1500,2000,3000], //--- Respawn Range
+	[500,1000,1500,2000,3000,4000], //--- Respawn Range
 	[500,1000], //--- LVOSS System
 	[1000,2000,3000,4000], //--- ERA System
-	[10000,20000],         //--- Satellite
-	[12000],               //--- Nuke and Arty
-	[1000,2000,3000],      //--- Supply Rate
-	[500,1000,2000,3000],  //--- Base Health
-	[1000,2000,3000,9000],      //--- Base Defense
-	[1000,2000,3000], //--- Jamming Types
-	[1000,2000,3000,4000]       //--- Jamming Range
+	[10000,10000], //--- Satellite
+	[10000], //--- Nuke and Arty
+	[1000,2000,3000], //--- Supply Rate
+	[500,1000,2000,3000], //--- Base Health
+	[500,1000,2000,9000], //--- Base Defense
+	[500,1000,2000], //--- Jamming Types
+	[500,1000,1500,2000] //--- Jamming Range
 ]];
 
 // HOW MANY LEVELS ARE THERE 
@@ -73,7 +73,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	3, //--- Halo
 	4, //--- Air Radar
 	4, //--- Art Radar
-	4, //--- Respawn Range
+	6, //--- Respawn Range
 	2, //--- LVOSS System
 	4, //--- ERA System
 	2, //--- Satellite
@@ -88,7 +88,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[],[],[]], //--- Gear
 	[[CTI_UPGRADE_GEAR, 1],[CTI_UPGRADE_GEAR, 2],[CTI_UPGRADE_GEAR, 3],[CTI_UPGRADE_GEAR, 4],[CTI_UPGRADE_GEAR, 5],[CTI_UPGRADE_GEAR, 6]], //--- Barracks
-	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Light
+	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_NUKE, 1]], //--- Light
 	[[CTI_UPGRADE_LIGHT,3],[],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Heavy
 	[[],[],[]], //--- Naval
 	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3],[],[]], //--- Air Rotary
@@ -99,10 +99,10 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[CTI_UPGRADE_TOWNS,3]], //--- Halo
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
-	[[],[],[],[]], //--- Respawn Range
+	[[],[],[],[],[],[]], //--- Respawn Range
 	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS System
 	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[],[]], //--- ERA System
-	[[], []], //--- Satellite
+	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
 	[[CTI_UPGRADE_LIGHT,4]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
 	[[],[],[],[]], //--- Base Health
@@ -128,7 +128,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1], //--- Halo
 		[1, 1, 1, 1], //--- Air Radar
 		[1, 1, 1, 1], //--- Art Radar
-		[1, 1, 1, 1], //--- Respawn Range
+		[1, 1, 1, 1, 1, 1], //--- Respawn Range
 		[1, 1], //--- LVOSS System
 		[1, 1, 1, 1], //--- ERA System
 		[1, 1], //--- Satellite
@@ -155,7 +155,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,240], 					//--- Halo
 		[60,120,160,240],         //--- Air Radar
 		[60,120,160,240],         //--- Art Radar
-		[60,120,160,240],             //--- Respawn Range
+		[60,120,160,240,320,380],             //--- Respawn Range
 		[60,120],                 //--- LVOSS System
 		[60,120,160,240],         //--- ERA System
 		[60,120],                 //--- Satellite
@@ -163,8 +163,8 @@ if (CTI_DEV_MODE > 0) then {
 		[60,60,60],               //--- Supply Rate
 		[30,60,90,120],           //--- Base Health
 		[30,60,90,120],               //--- Base Defense
-		[30,60,120],         	  //--- Jamming Types
-		[30,60,90,120]            //--- Jamming Range
+		[15,30,60],         	  //--- Jamming Types
+		[15,30,45,60]            //--- Jamming Range
 	]];
 };
 

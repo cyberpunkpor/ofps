@@ -78,15 +78,15 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
-		[["smg_01_f",["","","optic_aco_grn",""],["30rnd_45acp_mag_smg_01"]],["",["","","",""],[]],["hgun_p07_f",["","","",""],["16rnd_9x21_mag"]]],[["u_b_combatuniform_mcam",["30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01"]],["",[]],["b_assaultpack_cbr",["30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","firstaidkit","firstaidkit","handgrenade","handgrenade","handgrenade","handgrenade"]]],["","g_combat"],[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+		[["smg_01_f",["","","optic_aco_grn",""],["30rnd_45acp_mag_smg_01"]],["",["","","",""],[]],["hgun_p07_f",["","","",""],["16rnd_9x21_mag"]]],[["U_B_T_Soldier_F",["30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01"]],["",[]],["B_AssaultPack_tna_F",["30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","firstaidkit","firstaidkit","handgrenade","handgrenade","handgrenade","handgrenade"]]],["","g_combat"],[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
 			["B_T_Truck_01_medical_F", [
 				["Toolkit", 1],
 				["firstaidkit", 20],
-				["arifle_mx_gl_f", 2], 
+				["arifle_MX_GL_khk_F", 2], 
 				["30Rnd_65x39_caseless_mag", 50],
-				["arifle_MXM_F", 1],
+				["arifle_MXM_khk_F", 1],
 				["launch_NLAW_F", 5], 
 				["NLAW_F", 20],
 				["HandGrenade", 20],
@@ -108,7 +108,7 @@ switch (CTI_FACTION_WEST) do {
 	};
 	case 2: { //USMC CUP (Arid)
 		//Set MHQ
-		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_M1126_ICV_M2_Woodland_Slat"];
+		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_LAV25_HQ_USMC"];
 		//Set Infantry
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_B_USMC_Officer"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_B_USMC_Soldier"];
@@ -123,34 +123,31 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_coyote_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
-		[["CUP_smg_MP5A5",["","","",""],["CUP_30Rnd_9x19_MP5"]],["CUP_launch_M136",["","","",""],["CUP_M136_M"]],["CUP_hgun_M9",["","","",""],["CUP_15Rnd_9x19_M9"]]],
-		[["CUP_U_B_USMC_MARPAT_WDL_RolledUp",["firstaidkit","firstaidkit","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"]],["CUP_V_C_Police_Holster",["CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","",""]],["B_AssaultPack_rgr",["CUP_HandGrenade_M67","CUP_HandGrenade_M67",""]]],
-		["CUP_H_USMC_Headset_GoggleW_HelmetWDL",""],[["nvgoggles","binocular"],["itemmap","","itemradio","itemcompass","itemwatch"]]]];
+		[["CUP_smg_MP5A5_Flashlight",["","","CUP_optic_MicroT1",""],["CUP_30Rnd_9x19_MP5"]],["",["","","",""],[""]],["CUP_hgun_M9",["","","",""],["CUP_15Rnd_9x19_M9"]]],
+		[["CUP_U_B_USMC_MARPAT_WDL_RolledUp",["firstaidkit","firstaidkit","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"]],["",[""]],["CUP_B_AssaultPack_ACU",["CUP_HandGrenade_M67","CUP_HandGrenade_M67","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"]]],
+		["",""],[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 			["CUP_B_HMMWV_Ambulance_USMC", [
-				["CUP_launch_M136", 5], 
-				["CUP_M136_M", 20],
+				["CUP_launch_M136", 10],
 				["CUP_8Rnd_B_Beneli_74Slug", 20],
 				["CUP_8Rnd_B_Beneli_74Pellets", 20],
 				["CUP_sgun_M1014", 10],
 				["CUP_30Rnd_9x19_MP5", 20],
-				["acc_flashlight", 10],
+				["firstaidkit", 20],
 				["Toolkit", 1]
 			]],
 			["CUP_B_M113_USA", [
-				["CUP_launch_M136", 5], 
-				["CUP_M136_M", 20],
-				["CUP_8Rnd_B_Beneli_74Slug", 20],
-				["CUP_8Rnd_B_Beneli_74Pellets", 20],
-				["CUP_sgun_M1014", 10],
+				["CUP_launch_M72A6_Special", 15],
+				["CUP_30Rnd_556x45_Stanag", 10],
+				["CUP_20Rnd_556x45_Stanag", 20],
+				["CUP_arifle_M16A2", 5],
 				["CUP_30Rnd_9x19_MP5", 20],
 				["acc_flashlight", 10],
 				["Toolkit", 1]
 			]],
-			["CUP_B_LR_Special_GMG_GB_W", [
-				["CUP_launch_M136", 5], 
-				["CUP_M136_M", 20],
+			["CUP_B_HMMWV_SOV_USA", [
+				["CUP_launch_M136", 10], 
 				["CUP_8Rnd_B_Beneli_74Slug", 20],
 				["CUP_8Rnd_B_Beneli_74Pellets", 20],
 				["CUP_sgun_M1014", 10],
@@ -159,8 +156,7 @@ switch (CTI_FACTION_WEST) do {
 				["Toolkit", 1]
 			]],
 			["CUP_B_HMMWV_M1114_USMC", [
-				["CUP_launch_M136", 5], 
-				["CUP_M136_M", 20],
+				["CUP_launch_M72A6_Special", 15],
 				["CUP_8Rnd_B_Beneli_74Slug", 20],
 				["CUP_8Rnd_B_Beneli_74Pellets", 20],
 				["CUP_sgun_M1014", 10],

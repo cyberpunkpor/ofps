@@ -236,7 +236,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_AA',
 	/*MenuName*/['%1 (ACU)'],
-	/*Location*/[CTI_BARRACKS],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/2,
 	/*Price*/2000,
 	/*BuildTime*/5,
@@ -1089,6 +1089,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_GER_Soldier_Sniper',
+	/*MenuName*/['%1 (Woodland)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/2,
+	/*Price*/350,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Sniper_M107',
 	/*MenuName*/['%1 (Woodland)'],
 	/*Location*/[CTI_BARRACKS],
@@ -1225,7 +1244,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_USMC_SpecOps_SD',
 	/*MenuName*/['%1 (Woodland)'],
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/0,
 	/*Price*/40,
 	/*BuildTime*/5,
 	/*Distance*/0,
@@ -1283,7 +1302,7 @@ _u pushBack [
 	/*MenuName*/'USMC Soldier (M40A3)',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/2,
-	/*Price*/600,
+	/*Price*/300,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -1453,7 +1472,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_USMC_Soldier_TL_FROG_WDL',
 	/*MenuName*/'USMC Soldier (M16A4 - M203)',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/1,
 	/*Price*/150,
 	/*BuildTime*/5,
 	/*Distance*/0,
@@ -1472,8 +1491,46 @@ _u pushBack [
 	/*ClassName*/'CUP_B_USMC_Soldier_GL_FROG_WDL',
 	/*MenuName*/'USMC Soldier (M16A4 - M203)',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/1,
 	/*Price*/80,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Arid'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_GER_Soldier_MG3',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/2,
+	/*Price*/300,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Arid'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_GER_Fleck_Soldier_MG3',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/2,
+	/*Price*/300,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Arid'],
@@ -1491,7 +1548,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_USMC_Soldier_MG_FROG_WDL',
 	/*MenuName*/'USMC Soldier (M240)',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/200,
 	/*BuildTime*/5,
 	/*Distance*/0,
@@ -1510,8 +1567,8 @@ _u pushBack [
 	/*ClassName*/'CUP_B_USMC_Soldier_RTO_FROG_WDL',
 	/*MenuName*/'USMC Soldier (M16A4)',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/450,
+	/*UpgradeLevel*/1,
+	/*Price*/45,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Arid'],
@@ -1529,7 +1586,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_USMC_Soldier_FROG_WDL',
 	/*MenuName*/'USMC Soldier (M16A4)',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/50,
 	/*BuildTime*/5,
 	/*Distance*/0,
@@ -1605,7 +1662,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_USMC_Soldier_SL_FROG_WDL',
 	/*MenuName*/'USMC Soldier (M16A4)',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/200,
 	/*BuildTime*/5,
 	/*Distance*/0,
@@ -1682,7 +1739,7 @@ _u pushBack [
 	/*MenuName*/'USMC Sniper (M14 DMR)',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/400,
+	/*Price*/200,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Arid'],
@@ -2075,7 +2132,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Crew_MNT',
 	/*MenuName*/'',
@@ -2094,7 +2151,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Pilot_SNW',
 	/*MenuName*/'',
@@ -2113,7 +2170,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_TL_SNW',
 	/*MenuName*/'',
@@ -2132,11 +2189,11 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_AA_SNW',
 	/*MenuName*/'',
-	/*Location*/[CTI_BARRACKS],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/100,
 	/*BuildTime*/5,
@@ -2151,7 +2208,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Spotter_SNW',
 	/*MenuName*/'',
@@ -2170,7 +2227,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_Light_SNW',
 	/*MenuName*/'',
@@ -2189,7 +2246,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Sniper_SNW',
 	/*MenuName*/'',
@@ -2208,7 +2265,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_SNW',
 	/*MenuName*/'',
@@ -2227,7 +2284,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Officer_SNW',
 	/*MenuName*/'',
@@ -2246,7 +2303,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Militia_SNW',
 	/*MenuName*/'',
@@ -2265,7 +2322,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Medic_SNW',
 	/*MenuName*/'',
@@ -2284,7 +2341,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_Marksman_SNW',
 	/*MenuName*/'',
@@ -2303,7 +2360,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_MG_SNW',
 	/*MenuName*/'',
@@ -2322,7 +2379,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_GL_SNW',
 	/*MenuName*/'',
@@ -2341,7 +2398,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_GL_SNW',
 	/*MenuName*/'',
@@ -2360,7 +2417,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Commander_SNW',
 	/*MenuName*/'',
@@ -2379,7 +2436,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Engineer_SNW',
 	/*MenuName*/'',
@@ -2398,7 +2455,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Crew_SNW',
 	/*MenuName*/'',
@@ -2417,7 +2474,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_AR_SNW',
 	/*MenuName*/'',
@@ -2436,7 +2493,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_LAT_SNW',
 	/*MenuName*/'',
@@ -2455,7 +2512,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_Marksman_SNW',
 	/*MenuName*/'',
@@ -3165,7 +3222,7 @@ _u pushBack [
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
 	/*Price*/180,
-	/*BuildTime*/30,
+	/*BuildTime*/10,
 	/*Distance*/1,
 	/*Camo*/['Other'],
 	/*Type*/[],
@@ -3176,7 +3233,24 @@ _u pushBack [
 	/*Picture*/''
 ];
 
-
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_T810_Repair_CZ_WDL',
+	/*MenuName*/'Tatra T810 Repair',
+	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/0,
+	/*Price*/15000,
+	/*BuildTime*/90,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-repairtruck',
+	/*Picture*/''
+];
 
 _u pushBack [
 	/*Enabled*/true,
@@ -3622,7 +3696,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/2,
-	/*Price*/5500,
+	/*Price*/4500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -3641,7 +3715,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/2,
-	/*Price*/4000,
+	/*Price*/2500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -3654,13 +3728,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_TOW_NATO_T',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/12000,
+	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -3679,7 +3753,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/1,
-	/*Price*/11500,
+	/*Price*/15500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -3736,7 +3810,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/2100,
+	/*Price*/1200,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -3806,13 +3880,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_TOW_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/12000,
+	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -4021,7 +4095,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/5500,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
@@ -4211,7 +4285,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/12000,
+	/*Price*/9500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -4338,13 +4412,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1167_WDL_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/12000,
+	/*Price*/9500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -4699,6 +4773,44 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_FENNEK_GER_Wdl',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/1,
+	/*Price*/1300,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_FENNEK_GER_Des',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/1,
+	/*Price*/1300,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1151_M2_DSRT_USMC',
@@ -4777,11 +4889,30 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_RG31_M2',
+	/*ClassName*/'CUP_B_RG31_M2_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
 	/*Price*/1800,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_RG31E_M2_OD_USA',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/2,
+	/*Price*/1900,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -4870,13 +5001,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_RG31_M2_GC_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/1800,
+	/*Price*/2000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
@@ -5345,13 +5476,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1129_MC_MK19_Woodland',
 	/*MenuName*/'M1129 MC MK19 MORTAR (Woodland)',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
-	/*Price*/50000,
+	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -5389,7 +5520,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/3,
-	/*Price*/15000,
+	/*Price*/9500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -5408,7 +5539,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/2,
-	/*Price*/14000,
+	/*Price*/8000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -5478,13 +5609,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1129_MC_MK19_Woodland_Slat',
 	/*MenuName*/'M1129 MC MK19 MORTAR SLAT(Woodland)',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
-	/*Price*/52000,
+	/*Price*/32000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -6333,25 +6464,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_AAV_RACS',
-	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/1,
-	/*Price*/7000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Tan'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M163_USA',
@@ -6362,25 +6474,6 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_M163_RACS',
-	/*MenuName*/'M163 A1 VADS (Tan)',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/1,
-	/*Price*/12500,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Tan'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6618,13 +6711,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M7Bradley_USA_W',
-	/*MenuName*/'M7 Bradley-Laser Design-Woodland',
+	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/0,
-	/*Price*/18000,
+	/*UpgradeLevel*/2,
+	/*Price*/17500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -6637,7 +6730,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2Bradley_USA_W',
 	/*MenuName*/'M2 Bradley-TOW-Woodland',
@@ -6694,13 +6787,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M7Bradley_USA_D',
-	/*MenuName*/'M7 Bradley-Laser Design-Tan',
+	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/0,
-	/*Price*/18000,
+	/*UpgradeLevel*/2,
+	/*Price*/17500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
@@ -6713,7 +6806,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M2Bradley_USA_D',
 	/*MenuName*/'M2 Bradley-TOW-Tan',
@@ -6833,7 +6926,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_Challenger2_Woodland_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/55000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -6852,7 +6945,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_Challenger2_2CW_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/55000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -6947,7 +7040,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_Challenger2_Sand_CTRG',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/55000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -6966,7 +7059,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_Challenger2_Snow_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/55000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -6985,8 +7078,8 @@ _u pushBack [
 	/*ClassName*/'CUP_B_Challenger2_2CS_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/4,
-	/*Price*/70000,
+	/*UpgradeLevel*/3,
+	/*Price*/55500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Winter'],
@@ -7081,8 +7174,8 @@ _u pushBack [
 	/*ClassName*/'CUP_B_M1A2_TUSK_MG_US_Army',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/3,
-	/*Price*/55000,
+	/*UpgradeLevel*/4,
+	/*Price*/85000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -7230,32 +7323,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_MH6J_RACS',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
-	/*Price*/5000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['Transport Helicopter'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_UH1D_slick_GER_KSK',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/0,
-	/*Price*/6000,
+	/*Price*/5500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
@@ -7289,49 +7363,106 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_UH60M_US',
-	/*MenuName*/'UH60 Medic',
+	/*ClassName*/'CUP_B_MH60S_FFV_USMC',
+	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/0,
-	/*Price*/15000,
+	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['Logistics Helicopter'],
+	/*Camo*/[''],
+	/*Type*/['Armed Transport Helicopter'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-medic',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_I_UH60L_RACS',
-	/*MenuName*/'UH60 Medic',
+	/*ClassName*/'CUP_B_MH60S_USMC',
+	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/0,
-	/*Price*/15000,
+	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['Logistics Helicopter'],
+	/*Camo*/[''],
+	/*Type*/['Armed Transport Helicopter'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-medic',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_MH60L_DAP_2x_Escort_US',
+	/*ClassName*/'CUP_B_UH60S_USN',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
-	/*Price*/20000,
+	/*Price*/6500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[''],
+	/*Type*/['Armed Transport Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_UH1Y_MEV_USMC',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/0,
+	/*Price*/14000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_UH60M_Unarmed_FFV_MEV_US',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/0,
+	/*Price*/15000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_MH60L_DAP_2x_USN',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/20500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
@@ -7363,7 +7494,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MH60L_DAP_2x_US',
 	/*MenuName*/'',
@@ -7403,15 +7534,15 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_SA330_Puma_HC2_BAF',
+	/*ClassName*/'CUP_B_MH60L_DAP_4x_USN',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/0,
-	/*Price*/5000,
+	/*UpgradeLevel*/2,
+	/*Price*/26500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
-	/*Type*/['Transport Helicopter'],
+	/*Type*/['Armed Transport Helicopter'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
@@ -7420,13 +7551,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_I_SA330_Puma_HC2_RACS',
+	/*ClassName*/'CUP_B_SA330_Puma_HC2_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/0,
-	/*Price*/5000,
+	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
@@ -7469,25 +7600,6 @@ _u pushBack [
 	/*Distance*/1,
 	/*Camo*/[],
 	/*Type*/['Armed Vehicle Transport/Heavy lift Helicopter'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_CH47F_RACS',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/0,
-	/*Price*/8500,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['Armed Transport/Heavy Lift Helicopter'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
@@ -7575,25 +7687,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AH6M_USA',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
-	/*Price*/15000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['Attack Helicopter'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_AH6J_RACS',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
@@ -7749,7 +7842,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
-	/*Price*/35000,
+	/*Price*/42500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
@@ -7863,7 +7956,26 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/5,
-	/*Price*/50000,
+	/*Price*/60000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Attack Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_AH64_DL_USA',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/3,
+	/*Price*/47000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
@@ -8090,7 +8202,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_C130J_USMC',
 	/*MenuName*/'C-130 (Transport)',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -8109,7 +8221,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_C130J_Cargo_USMC',
 	/*MenuName*/'C-130 (VIV)',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/18000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -8129,7 +8241,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/0,
-	/*Price*/17000,
+	/*Price*/14000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
@@ -8147,7 +8259,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_USMC_DYN_MQ9',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -8375,8 +8487,8 @@ _u pushBack [
 	/*ClassName*/'CUP_B_A10_DYN_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/5,
-	/*Price*/80000,
+	/*UpgradeLevel*/3,
+	/*Price*/50000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
@@ -8437,25 +8549,6 @@ _u pushBack [
 	/*BuildTime*/10,
 	/*Distance*/3,
 	/*Camo*/['Woodland'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_LCVP_RACS',
-	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
-	/*UpgradeLevel*/0,
-	/*Price*/3500,
-	/*BuildTime*/10,
-	/*Distance*/3,
-	/*Camo*/['Grey'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -8541,10 +8634,29 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_S1203_Ambulance_CDF',
 	/*MenuName*/'Skoda 1203 Ambulance',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/0,
+	/*Price*/6000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_LR_Ambulance_GB_W',
+	/*MenuName*/'Land Rover Ambulance',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/6000,
@@ -8577,6 +8689,7 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
+
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';

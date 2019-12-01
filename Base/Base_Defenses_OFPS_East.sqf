@@ -204,7 +204,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (8km)',
 	/*Class*/"OFPS_CENTURION_O_8KM",
-	/*Price*/100000,
+	/*Price*/125000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
@@ -261,7 +261,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -277,7 +277,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -293,7 +293,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -341,7 +341,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -357,7 +357,7 @@ _u pushBack [
 	/*MaxCount*/2,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -373,7 +373,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [

@@ -140,7 +140,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_GunBoat_BLU',
-	/*MenuName*/['%1 (Ammo)'],
+	/*MenuName*/['Gunboat'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/1,
 	/*Price*/20000,
@@ -151,7 +151,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-ammotruck',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
@@ -237,7 +237,7 @@ _u pushBack [
 	/*ClassName*/'HAFM_Russen',
 	/*MenuName*/['%1 (Ammo)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/60000,
 	/*BuildTime*/30,
 	/*Distance*/30,
@@ -256,8 +256,8 @@ _u pushBack [
 	/*ClassName*/'HAFM_ABurke',
 	/*MenuName*/['%1 (Ammo)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
-	/*Price*/190000,
+	/*UpgradeLevel*/3,
+	/*Price*/200000,
 	/*BuildTime*/30,
 	/*Distance*/30,
 	/*Camo*/['Missile Destroyer'],
@@ -270,10 +270,10 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_RHIB',
-	/*MenuName*/[''],
+	/*MenuName*/['RHIB'],
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/1500,

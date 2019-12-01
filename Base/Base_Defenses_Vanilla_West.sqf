@@ -160,7 +160,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x4 (Woodland)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_4_woodland",2]]],
 	/*Price*/110,
@@ -176,7 +176,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x8 (Woodland)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_8_woodland",2]]],
 	/*Price*/220,
@@ -192,7 +192,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x16 (Woodland)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_16_woodland",2]]],
 	/*Price*/330,
@@ -208,7 +208,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x32 (Woodland)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_32_woodland",2]]],
 	/*Price*/550,
@@ -224,7 +224,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x4 (Desert)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_4_desert",2]]],
 	/*Price*/110,
@@ -240,7 +240,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x8 (Desert)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_8_desert",2]]],
 	/*Price*/220,
@@ -256,7 +256,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x16 (Desert)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_16_desert",2]]],
 	/*Price*/330,
@@ -272,7 +272,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'High H-barrier x32 (Desert)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","high_hbarrier_32_desert",2]]],
 	/*Price*/550,
@@ -892,7 +892,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Praetorian Fortified',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","praetorian_fortified_west",2]]],
-	/*Price*/60000,
+	/*Price*/30000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -908,7 +908,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Spartan Fortified',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","spartan_fortified_west",2]]],
-	/*Price*/110000,
+	/*Price*/55000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -924,7 +924,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Centurion Fortified',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_fortified_west",2]]],
-	/*Price*/210000,
+	/*Price*/250000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -1153,11 +1153,11 @@ _u pushBack [
 	/*Tags*/["Walls Medium"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/["*"],
-	/*Upgrade*/1,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1169,11 +1169,11 @@ _u pushBack [
 	/*Tags*/["Walls Medium"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/["*"],
-	/*Upgrade*/1,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1189,7 +1189,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1205,7 +1205,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1829,7 +1829,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1845,7 +1845,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1861,7 +1861,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1877,7 +1877,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -1893,7 +1893,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -2005,7 +2005,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -2021,7 +2021,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -2037,7 +2037,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -2053,7 +2053,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -2085,7 +2085,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Explosion", 0.25]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -2159,7 +2159,7 @@ _u pushBack [
 	/*Price*/20000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ", "RepairTruck"],
+	/*Location*/["HQ"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
 	/*MaxCount*/-1,
@@ -2172,7 +2172,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'AT Defense',
 	/*Class*/"B_static_AT_F",
-	/*Price*/10000,
+	/*Price*/7000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ", "RepairTruck"],
@@ -2305,7 +2305,7 @@ _u pushBack [
 	/*Tags*/["Bulldozer"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/1,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -2321,7 +2321,7 @@ _u pushBack [
 	/*Tags*/["Bulldozer"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/1,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -2337,7 +2337,7 @@ _u pushBack [
 	/*Tags*/["Bulldozer"],
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/1,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -2353,7 +2353,7 @@ _u pushBack [
 	/*Tags*/["Bulldozer"],
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/2,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -2369,7 +2369,7 @@ _u pushBack [
 	/*Tags*/["Bulldozer"],
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/2,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -2385,7 +2385,7 @@ _u pushBack [
 	/*Tags*/["Bulldozer"],
 	/*Location*/["HQ", "RepairTruck","DefenseTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/2,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
@@ -2401,7 +2401,7 @@ _u pushBack [
 	/*Tags*/["Bulldozer"],
 	/*Location*/["HQ", "RepairTruck","DefenseTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/2,
+	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,

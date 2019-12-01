@@ -403,7 +403,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MORA_B',
 	/*MenuName*/'FV-720 Mora (NATO)',
@@ -460,7 +460,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HELLCAT_B_DYNAMIC',
 	/*MenuName*/'',
@@ -479,7 +479,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MOHAWK_B',
 	/*MenuName*/'',
@@ -499,7 +499,7 @@ _u pushBack [
 
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_GRYPHON_B',
 	/*MenuName*/'',
@@ -537,7 +537,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_BUZZA_B_DYNAMIC',
 	/*MenuName*/'',
@@ -689,7 +689,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_AWC_AT_B',
 	/*MenuName*/'',
@@ -708,7 +708,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_AWC_SCOUT_B',
 	/*MenuName*/['%1 (ECM)'],
@@ -722,13 +722,13 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'ecm',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_AWC_CANNON_B',
 	/*MenuName*/'',
@@ -747,7 +747,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_AWC_AA_B',
 	/*MenuName*/'',
@@ -766,7 +766,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MRL_B',
 	/*MenuName*/'',

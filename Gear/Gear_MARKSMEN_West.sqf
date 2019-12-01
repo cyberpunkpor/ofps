@@ -294,7 +294,7 @@ _u pushBack [
 	/*ClassName*/'bipod_01_F_blk',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/10,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Grips and Bipods"]
 ];
@@ -305,7 +305,7 @@ _u pushBack [
 	/*ClassName*/'bipod_01_F_snd',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/10,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Grips and Bipods"]
 ];
@@ -316,7 +316,7 @@ _u pushBack [
 	/*ClassName*/'bipod_01_F_mtp',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/10,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Grips and Bipods"]
 ];
@@ -324,21 +324,10 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'bipod_03_F_blk',
+	/*ClassName*/'bipod_01_F_khk',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
-	/*Price*/100,
-	/*Camo*/[],
-	/*Type*/["Grips and Bipods"]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'bipod_03_F_oli',
-	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
-	/*Price*/100,
+	/*UpgradeLevel*/3,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Grips and Bipods"]
 ];
@@ -349,7 +338,7 @@ _u pushBack [
 	/*ClassName*/'130Rnd_338_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/26,
+	/*Price*/65,
 	/*Camo*/[],
 	/*Type*/["LMG"]
 ];
@@ -371,7 +360,7 @@ _u pushBack [
 	/*ClassName*/'10Rnd_338_Mag',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/20,
+	/*Price*/5,
 	/*Camo*/[],
 	/*Type*/["Sniper"]
 ];

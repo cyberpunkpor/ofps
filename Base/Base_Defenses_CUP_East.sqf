@@ -430,7 +430,7 @@ _u pushBack [
 	/*Price*/2000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ","RepairTruck" ],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
 	/*MaxCount*/-1,
@@ -489,12 +489,29 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'AA Igla Pod',
+	/*Class*/"CUP_O_Igla_AA_pod_RU",
+	/*Price*/4000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'D-30 (Artillery)',
 	/*Class*/"CUP_O_D30_RU",
 	/*Price*/125000,
 	/*Placement*/[180, 5],
 	/*Tags*/["In-Field Artillery"],
-	/*Location*/["RepairTruck"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/4,
 	/*MaxCount*/-1,
@@ -504,10 +521,10 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'RAM Launcher',
 	/*Class*/"CUP_WV_B_RAM_Launcher",
-	/*Price*/60000,
+	/*Price*/25000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],

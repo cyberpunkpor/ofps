@@ -118,7 +118,7 @@ _u = []; //--- Units
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_GUNBOAT_B',
 	/*MenuName*/['%1 (Ammo)'],
@@ -137,7 +137,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_CB90_B',
 	/*MenuName*/'',
@@ -156,7 +156,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_MEKO_TN',
 	/*MenuName*/['%1 (Respawn)'],
@@ -175,7 +175,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_MEKO_HN',
 	/*MenuName*/['%1 (Respawn)'],
@@ -194,7 +194,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_FREMM',
 	/*MenuName*/['%1 (Respawn)'],
@@ -213,7 +213,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_Replenishment',
 	/*MenuName*/['%1 (Ammo,Repair,Spawn)'],
@@ -231,7 +231,7 @@ _u pushBack [
 	/*Picture*/''
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'USS FREEDOM',
 	/*ClassName*/'OFPS_HAFM_CARGO_B',
 	/*MenuName*/"USS FREEDOM",

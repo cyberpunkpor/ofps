@@ -117,6 +117,24 @@ _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'I_E_APC_tracked_03_cannon_F',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics"]],
+	/*UpgradeLevel*/2,
+	/*Price*/19000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['NATO'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 
 

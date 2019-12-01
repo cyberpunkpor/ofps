@@ -1,4 +1,3 @@
-
 /*//--------------------------------------------------------------------------------------------------------------
 # HEADER #
 Description:	This file presents classnames and their values to the mission.
@@ -77,7 +76,7 @@ missionNamespace setVariable [format["CTI_%1_Factories", _side], ["ControlCenter
 _u pushback [
 	/*headers*/[CTI_HQ_DEPLOY, "Headquarters (Deploy)", "HQ"],
 	/*classes*/["Land_Research_house_V1_F", "Land_Research_house_V1_ruins_F"],
-	/*prices*/5000,
+	/*prices*/1000,
 	/*times*/10,
 	/*MaxCount*/-1,
 	/*placements*/[180, 15, false],
@@ -161,7 +160,7 @@ _u pushback [
 _u pushback [ 
 	/*headers*/[CTI_AMMO, "Ammo Depot", "Ammo"],
 	/*classes*/["Land_Cargo_HQ_V2_F", "Land_Cargo_HQ_V2_ruins_F"],
-	/*prices*/3000,
+	/*prices*/1000,
 	/*times*/90,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
@@ -173,7 +172,7 @@ _u pushback [
 _u pushback [ 
 	/*headers*/[CTI_REPAIR, "Repair Depot", "Repair"],
 	/*classes*/["Land_Cargo_HQ_V3_F", "Land_Cargo_HQ_V3_ruins_F"],
-	/*prices*/3000,
+	/*prices*/1000,
 	/*times*/90,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
@@ -284,7 +283,7 @@ _u pushback [
 	/*classes*/["Land_dp_smallTank_F", "Land_dp_smallTank_ruins_F"],
 	/*prices*/1000,
 	/*times*/60,
-	/*MaxCount*/4,
+	/*MaxCount*/1,
 	/*placements*/[180, 15],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
