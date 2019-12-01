@@ -1273,6 +1273,110 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 5) then {
 	};
 };
 //--------------------------------------------------------------------------------------------
+//--- IFA3 - Germany
+//--------------------------------------------------------------------------------------------
+if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 6) then { 
+	//--Load Vanilla
+	if (CTI_VANILLA_ADDON > 0) then {
+		//-- Only add vanilla faction specific overrides as neeeded here
+	};
+	//--Load Heli Mod
+	if (CTI_HELI_ADDON > 0) then {
+
+	};
+	//--- Load Marksmen Mod
+	if (CTI_MARKSMEN_ADDON > 0) then {
+
+	};
+	//--- Load APEX Mod
+	if (CTI_APEX_ADDON > 0) then {
+
+	};
+	//--- Load JETS Mod
+	if (CTI_JETS_ADDON > 0) then {
+
+	};
+	//--- Load Laws Of War Mod
+	if (CTI_LAWSOFWAR_ADDON > 0) then {
+
+	};
+	//--- Load TANKS Mod
+	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- Load CUP Mod
+	if (CTI_CUP_WEAPONS_ADDON > 0) then {
+
+	};
+	//--- CUP UNITS
+	if (CTI_CUP_VEHICLES_ADDON > 0) then {
+	
+	};
+	//--- Load RHS Mod
+	if (CTI_RHS_AFRF_ADDON > 0) then {
+
+	};
+	if (CTI_RHS_USAF_ADDON > 0) then {
+
+	};
+	//--- Load RHS Loadout Ammo
+	if (CTI_RHS_AFRF_ADDON > 0) then {
+
+	};
+	//--- OFPS Units Mod
+	if (CTI_OFPS_UNITS_ADDON > 0) then {
+
+	};
+	//--- OFPS RHS Mod
+	if (CTI_OFPS_RHS_ADDON > 0) then {
+
+	};
+	//--- OFPS CUP Mod
+	if (CTI_OFPS_CUP_ADDON > 0) then {
+
+	};
+	//--- SFP Mod
+	if (CTI_SFP_ADDON > 0) then {
+
+	};
+	//--- OFPS SFP Mod
+	if (CTI_OFPS_SFP_ADDON > 0) then {
+
+	};
+	//--- 2035 Russia
+	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
+
+	};
+	//--- HAFM UNITS
+	if (CTI_HAFM_ADDON > 0) then {
+
+	};
+	//--- HAFM SUBS UNITS
+	if (CTI_HAFM_SUBS_ADDON > 0) then {
+
+	};
+	//--- OFPS HAFM UNITS
+	if (CTI_OFPS_HAFM_ADDON > 0) then {
+
+	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
+};
+//--------------------------------------------------------------------------------------------
 //--- Town Teams Templates
 //--------------------------------------------------------------------------------------------
 /*
