@@ -6164,7 +6164,8 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_arifle_G3A3_ris',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
@@ -6174,7 +6175,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_arifle_G3A3_ris_black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
