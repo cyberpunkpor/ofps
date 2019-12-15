@@ -2626,7 +2626,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrier1_blk',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/10,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2637,7 +2637,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrier1_rgr',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/10,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2648,7 +2648,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrierL_CTRG',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2659,7 +2659,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrier2_blk',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/50,
+	/*Price*/600,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2670,7 +2670,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrier2_rgr',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/50,
+	/*Price*/600,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2681,7 +2681,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrierH_CTRG',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/20,
+	/*Price*/600,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2692,7 +2692,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrierSpec_blk',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/5,
-	/*Price*/200,
+	/*Price*/550,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2703,7 +2703,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrierSpec_rgr',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/5,
-	/*Price*/200,
+	/*Price*/700,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2714,7 +2714,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrierSpec_mtp',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/5,
-	/*Price*/200,
+	/*Price*/700,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2725,7 +2725,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrierGL_blk',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/5,
-	/*Price*/40,
+	/*Price*/700,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2736,7 +2736,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrierGL_rgr',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/5,
-	/*Price*/20,
+	/*Price*/700,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -2747,7 +2747,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrierGL_mtp',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/5,
-	/*Price*/20,
+	/*Price*/700,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
