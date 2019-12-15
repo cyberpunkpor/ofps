@@ -4496,7 +4496,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_V_PMC_CIRAS_Black_Veh',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/400,
 	/*Camo*/[],
 	/*Type*/["Vest"]
@@ -4507,7 +4507,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_V_PMC_CIRAS_Coyote_Veh',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/400,
 	/*Camo*/[],
 	/*Type*/["Vest"]
@@ -4518,7 +4518,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_V_PMC_CIRAS_Winter_Veh',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/400,
 	/*Camo*/[],
 	/*Type*/["Vest"]
