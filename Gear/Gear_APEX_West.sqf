@@ -932,7 +932,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrier1_rgr_noflag_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/500,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -943,7 +943,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrier1_tna_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/3,
-	/*Price*/0,
+	/*Price*/10,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -954,7 +954,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrier2_rgr_noflag_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/600,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
@@ -965,7 +965,7 @@ _u pushBack [
 	/*ClassName*/'V_PlateCarrier2_tna_F',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/4,
-	/*Price*/20,
+	/*Price*/50,
 	/*Camo*/[],
 	/*Type*/["Vest"]
 ];
