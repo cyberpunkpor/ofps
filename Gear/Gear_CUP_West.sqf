@@ -3705,7 +3705,7 @@ _u pushBack [
 	/*ClassName*/'CUP_launch_MAAWS',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 	/*UpgradeLevel*/2,
-	/*Price*/1500,
+	/*Price*/900,
 	/*Camo*/[],
 	/*Type*/["Dumbfire"]
 ];
