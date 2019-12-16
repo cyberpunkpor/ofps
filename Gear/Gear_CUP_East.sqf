@@ -2184,7 +2184,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_Strela_2_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/250,
 	/*Camo*/[],
 	/*Type*/["Rocket AA"]
@@ -2327,7 +2327,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_Strela_M',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/250,
 	/*Camo*/[],
 	/*Type*/["Rocket AA"]
@@ -2360,7 +2360,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_launch_9K32Strela',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/500,
 	/*Camo*/[],
 	/*Type*/["Rocket AA"]

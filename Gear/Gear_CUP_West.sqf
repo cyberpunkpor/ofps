@@ -3361,7 +3361,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_PMC_Facewrap_Black',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Facewear"]
@@ -3372,7 +3372,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_PMC_Facewrap_Ranger',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Facewear"]
@@ -3383,7 +3383,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_PMC_Facewrap_Red',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Facewear"]
@@ -3394,7 +3394,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_PMC_Facewrap_Skull',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Facewear"]
@@ -3405,7 +3405,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_PMC_Facewrap_Winter',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Facewear"]
@@ -3416,7 +3416,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_PMC_Facewrap_Tropical',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Facewear"]
@@ -3427,7 +3427,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_PMC_Facewrap_Tan',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Facewear"]
@@ -3438,7 +3438,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_PMC_Facewrap_Smilie',
 	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/0,
 	/*Price*/0,
 	/*Camo*/[],
 	/*Type*/["Facewear"]
