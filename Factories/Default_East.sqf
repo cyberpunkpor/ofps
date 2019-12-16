@@ -32,14 +32,13 @@ switch (CTI_FACTION_EAST) do {
 			["O_Truck_03_medical_F", [
 				["Toolkit", 1],
 				["firstaidkit", 20],
-				["arifle_Katiba_GL_F", 2], 
+				["arifle_Katiba_GL_F", 6], 
 				["30rnd_65x39_caseless_green", 50],
 				["launch_RPG32_F", 5], 
 				["RPG32_F", 20],
 				["HandGrenade", 20],
-				["30Rnd_556x45_Stanag", 15],
 				["30Rnd_65x39_caseless_green_mag_Tracer", 6],
-				["1Rnd_HE_Grenade_shell", 24],
+				["1Rnd_HE_Grenade_shell", 44],
 				["UGL_FlareRed_F", 27],
 				["acc_flashlight", 10],
 				["optic_ACO_grn", 3]
