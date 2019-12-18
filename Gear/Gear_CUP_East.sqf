@@ -2275,7 +2275,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/1200,
 	/*Camo*/[],
-	/*Type*/["Lock-on"]
+	/*Type*/["SACLOS"]
 ];
 
 _u pushBack [
@@ -2286,7 +2286,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/500,
 	/*Camo*/[],
-	/*Type*/["SALCOS"]
+	/*Type*/["SACLOS"]
 ];
 
 _u pushBack [
@@ -2374,7 +2374,7 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/1000,
 	/*Camo*/[],
-	/*Type*/["SALCOS"]
+	/*Type*/["SACLOS"]
 ];
 
 _u pushBack [
@@ -2385,7 +2385,7 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["SALCOS"]
+	/*Type*/["SACLOS"]
 ];
 
 _u pushBack [

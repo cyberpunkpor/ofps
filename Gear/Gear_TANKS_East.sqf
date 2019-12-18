@@ -86,7 +86,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/4000,
 	/*Camo*/[],
-	/*Type*/["SALCOS"]
+	/*Type*/["SACLOS"]
 ];
 
 _u pushBack [
@@ -97,7 +97,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/4000,
 	/*Camo*/[],
-	/*Type*/["SALCOS"]
+	/*Type*/["SACLOS"]
 ];
 
 _u pushBack [
@@ -108,7 +108,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/3000,
 	/*Camo*/[],
-	/*Type*/["SALCOS"]
+	/*Type*/["SACLOS"]
 ];
 
 _u pushBack [
@@ -119,7 +119,7 @@ _u pushBack [
 	/*UpgradeLevel*/5,
 	/*Price*/2000,
 	/*Camo*/[],
-	/*Type*/["SALCOS"]
+	/*Type*/["SACLOS"]
 ];
 
 //--------------------------------------------------------------------------------------------------------------

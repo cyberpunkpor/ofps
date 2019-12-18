@@ -549,7 +549,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/5000,
 	/*Camo*/[],
-	/*Type*/["Lock-On/TOW"]
+	/*Type*/["Lock-On/SACLOS"]
 ];
 
 _u pushBack [
@@ -560,7 +560,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/5000,
 	/*Camo*/[],
-	/*Type*/["Lock-On/TOW"]
+	/*Type*/["Lock-On/SACLOS"]
 ];
 
 _u pushBack [
@@ -571,7 +571,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/5000,
 	/*Camo*/[],
-	/*Type*/["Lock-On/TOW"]
+	/*Type*/["Lock-On/SACLOS"]
 ];
 
 _u pushBack [
@@ -1946,7 +1946,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/2500,
 	/*Camo*/[],
-	/*Type*/["Lock-On/TOW"]
+	/*Type*/["Lock-On/SACLOS"]
 ];
 
 _u pushBack [
@@ -1957,7 +1957,7 @@ _u pushBack [
 	/*UpgradeLevel*/6,
 	/*Price*/3500,
 	/*Camo*/[],
-	/*Type*/["Lock-On/TOW"]
+	/*Type*/["Lock-On/SACLOS"]
 ];
 
 _u pushBack [
