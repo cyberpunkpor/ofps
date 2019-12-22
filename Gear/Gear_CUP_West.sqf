@@ -2581,7 +2581,7 @@ _u = []; //Gear Classname
 				/*Type*/["Dumbfire"]
 			];
     
-    //TOW
+    //SACLOS
     
     //Lock-on
 		
@@ -2618,7 +2618,7 @@ _u = []; //Gear Classname
 				/*Type*/["Lock-on"]
 			];
     
-    //Lock-on & TOW
+    //Lock-on & SACLOS
   
   //Ground to Air
 	
@@ -6239,7 +6239,7 @@ _u = []; //Gear Classname
 				/*Type*/["Dumbfire"]
 			];
     
-    //TOW
+    //SACLOS
     
     //Lock-on
 		
@@ -6254,7 +6254,7 @@ _u = []; //Gear Classname
 				/*Type*/["Lock-on or Dumbfire"]
 			];
     
-    //Lock-on and TOW
+    //Lock-on and SACLOS
     
     //Ground to Air
 

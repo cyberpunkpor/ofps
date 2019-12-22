@@ -312,11 +312,11 @@ _u = []; //Gear Classname
 
     //Dumbfire
     
-    //TOW
+    //SACLOS
     
     //Lock-on
     
-    //Lock-on & TOW
+    //Lock-on & SACLOS
   
   //Ground to Air
 
@@ -626,11 +626,11 @@ _u = []; //Gear Classname
   
     //Dumbfire
     
-    //TOW
+    //SACLOS
     
     //Lock-on
     
-    //Lock-on and TOW
+    //Lock-on and SACLOS
     
     //Ground to Air
 

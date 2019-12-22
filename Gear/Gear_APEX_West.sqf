@@ -334,11 +334,11 @@ _u = []; //Gear Classname
 
     //Dumbfire
     
-    //TOW
+    //SACLOS
     
     //Lock-on
     
-    //Lock-on & TOW
+    //Lock-on & SACLOS
 		
 			_u pushBack [
 				/*Enabled*/true,
@@ -348,7 +348,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/5000,
 				/*Camo*/[],
-				/*Type*/["Lock-On/TOW"]
+				/*Type*/["Lock-On/SACLOS"]
 			];
   
   //Ground to Air
@@ -835,11 +835,11 @@ _u = []; //Gear Classname
   
     //Dumbfire
     
-    //TOW
+    //SACLOS
     
     //Lock-on
     
-    //Lock-on and TOW
+    //Lock-on and SACLOS
     
     //Ground to Air
 
