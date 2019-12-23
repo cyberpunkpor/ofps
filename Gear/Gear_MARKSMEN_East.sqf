@@ -480,7 +480,7 @@ _u = []; //Gear Classname
 		];
 			
   //GPS
-	  
+
   //UAV Terminal
   
   //Map

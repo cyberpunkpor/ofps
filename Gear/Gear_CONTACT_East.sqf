@@ -623,7 +623,7 @@ _u = []; //Gear Classname
   //Laser Designators
   
   //GPS
-	  
+
   //UAV Terminal
   
   //Map

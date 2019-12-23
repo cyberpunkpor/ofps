@@ -2779,6 +2779,28 @@ _u = []; //Gear Classname
     //Concussion
     
     //Lethal Grenades
+		
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_HandGrenade_RGD5',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/2,
+				/*Camo*/[],
+				/*Type*/["Lethal"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_HandGrenade_RGO',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/2,
+				/*Camo*/[],
+				/*Type*/["Lethal"]
+			];
   
   //Under-Barrel Grenade Launcher Rounds
   
@@ -3461,7 +3483,7 @@ _u = []; //Gear Classname
   //Laser Designators
   
   //GPS
-	  
+
   //UAV Terminal
   
   //Map
@@ -3483,28 +3505,6 @@ _u = []; //Gear Classname
   //Explosives
   
     //Anti-Personal
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_HandGrenade_RGD5',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/2,
-				/*Camo*/[],
-				/*Type*/["Lethal"]
-			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_HandGrenade_RGO',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/2,
-				/*Camo*/[],
-				/*Type*/["Lethal"]
-			];
 
     //Anti-Vehicle
 

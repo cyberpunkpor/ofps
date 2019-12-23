@@ -953,7 +953,7 @@ _u = []; //Gear Classname
 		];  
 
   //GPS
-	  
+
   //UAV Terminal
   
   //Map
@@ -998,7 +998,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/0,
 			/*Price*/10,
 			/*Camo*/[],
-			/*Type*/["Police"]
+			/*Type*/["Uniform"]
 		];
 
 		_u pushBack [
@@ -1009,7 +1009,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/0,
 			/*Price*/1,
 			/*Camo*/[],
-			/*Type*/["Police"]
+			/*Type*/["Uniform"]
 		];
 
 		_u pushBack [
