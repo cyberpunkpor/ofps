@@ -2545,7 +2545,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'O_Mortar_01_weapon_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/6,
-				/*Price*/20000,
+				/*Price*/15000,
 				/*Camo*/[],
 				/*Type*/["Static"]
 			];
