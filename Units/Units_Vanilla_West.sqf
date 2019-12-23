@@ -726,7 +726,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_support_Mort_F',
 	/*MenuName*/['%1 (Arid)'],
@@ -764,7 +764,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_support_AMort_F',
 	/*MenuName*/['%1 (Arid)'],
