@@ -3850,7 +3850,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/1,
 			/*Price*/3,
 			/*Camo*/[],
-			/*Type*/["Uniform"]
+			/*Type*/["Vest"]
 		];
 
 		_u pushBack [
@@ -3861,7 +3861,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/1,
 			/*Price*/3,
 			/*Camo*/[],
-			/*Type*/["Uniform"]
+			/*Type*/["Vest"]
 		];
 
 		_u pushBack [
@@ -3872,7 +3872,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/1,
 			/*Price*/3,
 			/*Camo*/[],
-			/*Type*/["Uniform"]
+			/*Type*/["Vest"]
 		];
 
 		_u pushBack [
@@ -3883,7 +3883,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/1,
 			/*Price*/3,
 			/*Camo*/[],
-			/*Type*/["Uniform"]
+			/*Type*/["Vest"]
 		];
 
 		_u pushBack [
@@ -3894,7 +3894,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/1,
 			/*Price*/3,
 			/*Camo*/[],
-			/*Type*/["Uniform"]
+			/*Type*/["Vest"]
 		];
 
 		_u pushBack [
