@@ -4112,7 +4112,7 @@ _u pushBack [
 	/*MenuName*/'Datsun 620 Jeep PKM',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
-	/*Price*/800,
+	/*Price*/450,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
