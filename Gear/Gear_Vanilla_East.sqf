@@ -264,8 +264,9 @@ _u = []; //Gear Classname
   //MGs
   
     //LMGs
-
-			_u pushBack [
+    
+    //MMGs (Ammo larger than 5.56)
+		_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'LMG_Zafir_F',
@@ -273,10 +274,8 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/3,
 				/*Price*/100,
 				/*Camo*/[],
-				/*Type*/["LMG"]
+				/*Type*/["MMG"]
 			];
-    
-    //HMGs (Ammo larger than 5.56)
   
   //DMRs
 
@@ -1101,7 +1100,7 @@ _u = []; //Gear Classname
 					/*Type*/["DMR"]
 				];
 
-      //HMGs (Ammo larger than 5.56)
+      //MMGs (Ammo larger than 5.56)
     
     //DMRs
     

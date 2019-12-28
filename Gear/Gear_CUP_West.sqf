@@ -1984,7 +1984,7 @@ _u = []; //Gear Classname
 				/*Type*/["LMG"]
 			];
     
-    //HMGs (Ammo larger than 5.56)
+    //MMGs (Ammo larger than 5.56)
 		
 			_u pushBack [
 				/*Enabled*/true,
@@ -1994,7 +1994,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/1,
 				/*Price*/220,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
 			
 			_u pushBack [
@@ -2005,7 +2005,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/2,
 				/*Price*/220,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
 			
 			_u pushBack [
@@ -2016,7 +2016,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/2,
 				/*Price*/220,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
 
 			_u pushBack [
@@ -2027,7 +2027,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/2,
 				/*Price*/220,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
 			
 			_u pushBack [
@@ -2038,7 +2038,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/2,
 				/*Price*/220,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
 			
 			_u pushBack [
@@ -2049,7 +2049,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/2,
 				/*Price*/220,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
 			
 			_u pushBack [
@@ -2060,7 +2060,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/0,
 				/*Price*/100,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
 			
 			_u pushBack [
@@ -2071,7 +2071,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/0,
 				/*Price*/120,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
 
 			_u pushBack [
@@ -2082,7 +2082,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/1,
 				/*Price*/120,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
 			
 			_u pushBack [
@@ -2093,7 +2093,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/2,
 				/*Price*/320,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
 
 			_u pushBack [
@@ -2104,7 +2104,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/3,
 				/*Price*/520,
 				/*Camo*/[],
-				/*Type*/["HMG"]
+				/*Type*/["MMG"]
 			];
   
   //DMRs
@@ -5439,7 +5439,7 @@ _u = []; //Gear Classname
 				];
 				
 				_u pushBack [
-					/*Enabled*/true,
+					/*Enabled*/false,
 					/*Name*/'',
 					/*ClassName*/'CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
@@ -5450,7 +5450,7 @@ _u = []; //Gear Classname
 				];
 				
 				_u pushBack [
-					/*Enabled*/true,
+					/*Enabled*/false,
 					/*Name*/'',
 					/*ClassName*/'CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
@@ -5460,7 +5460,7 @@ _u = []; //Gear Classname
 					/*Type*/["LMG"]
 				];
       
-      //HMGs (Ammo larger than 5.56)
+      //MMGs (Ammo larger than 5.56)
 			
 				_u pushBack [
 					/*Enabled*/true,
@@ -5470,7 +5470,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/0,
 					/*Price*/50,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5481,7 +5481,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/2,
 					/*Price*/60,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5492,7 +5492,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/2,
 					/*Price*/60,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5503,7 +5503,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/2,
 					/*Price*/60,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5514,7 +5514,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/2,
 					/*Price*/60,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5525,7 +5525,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/0,
 					/*Price*/50,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5536,7 +5536,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/0,
 					/*Price*/50,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5547,7 +5547,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/0,
 					/*Price*/50,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 				
 				_u pushBack [
@@ -5558,7 +5558,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/0,
 					/*Price*/50,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5569,7 +5569,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/0,
 					/*Price*/50,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5580,7 +5580,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/0,
 					/*Price*/50,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 				
 				_u pushBack [
@@ -5591,7 +5591,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/1,
 					/*Price*/100,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5602,7 +5602,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/1,
 					/*Price*/100,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -5613,7 +5613,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/1,
 					/*Price*/100,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["mMG"]
 				];
 				
 				_u pushBack [
@@ -5624,7 +5624,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/1,
 					/*Price*/25,
 					/*Camo*/[],
-					/*Type*/["HMG"]
+					/*Type*/["MMG"]
 				];
     
     //DMRs

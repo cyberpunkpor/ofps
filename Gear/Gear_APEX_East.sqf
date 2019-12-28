@@ -276,7 +276,7 @@ _u = []; //Gear Classname
 				/*Type*/["LMG"]
 			];
     
-    //HMGs (Ammo larger than 5.56)
+    //MMGs (Ammo larger than 5.56)
   
   //DMRs
 
@@ -826,7 +826,7 @@ _u = []; //Gear Classname
 					/*Type*/["LMG"]
 				];
 
-      //HMGs (Ammo larger than 5.56)
+      //MMGs (Ammo larger than 5.56)
     
     //DMRs
 

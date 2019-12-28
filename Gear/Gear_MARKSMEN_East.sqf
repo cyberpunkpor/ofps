@@ -100,7 +100,7 @@ _u = []; //Gear Classname
   
     //LMGs
 		
-		//HMGs (Ammo larger than 5.56)
+		//MMGs (Ammo larger than 5.56)
 
 			_u pushBack [
 				/*Enabled*/true,
@@ -110,7 +110,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/4,
 				/*Price*/250,
 				/*Camo*/[],
-				/*Type*/["LMG"]
+				/*Type*/["MMG"]
 			];
 
 			_u pushBack [
@@ -121,7 +121,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/4,
 				/*Price*/250,
 				/*Camo*/[],
-				/*Type*/["LMG"]
+				/*Type*/["MMG"]
 			];
   
   //DMRs
@@ -386,7 +386,7 @@ _u = []; //Gear Classname
     
       //LMGs
       
-      //HMGs (Ammo larger than 5.56)
+      //MMGs (Ammo larger than 5.56)
 
 	  		_u pushBack [
 				/*Enabled*/true,
@@ -396,7 +396,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/4,
 				/*Price*/75,
 				/*Camo*/[],
-				/*Type*/["LMG"]
+				/*Type*/["MMG"]
 			];
 
     

@@ -100,7 +100,7 @@ _u = []; //Gear Classname
   
     //LMGs
     
-    //HMGs (Ammo larger than 5.56)
+    //MMGs (Ammo larger than 5.56)
   
   //DMRs
   
@@ -188,7 +188,7 @@ _u = []; //Gear Classname
     
       //LMGs
       
-      //HMGs (Ammo larger than 5.56)
+      //MMGs (Ammo larger than 5.56)
     
     //DMRs
     
