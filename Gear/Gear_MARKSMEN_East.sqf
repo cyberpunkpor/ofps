@@ -99,7 +99,9 @@ _u = []; //Gear Classname
   //MGs
   
     //LMGs
-    
+		
+		//HMGs (Ammo larger than 5.56)
+
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
@@ -121,8 +123,6 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["LMG"]
 			];
-		
-		//HMGs (Ammo larger than 5.56)
   
   //DMRs
 
@@ -387,6 +387,18 @@ _u = []; //Gear Classname
       //LMGs
       
       //HMGs (Ammo larger than 5.56)
+
+	  		_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'150Rnd_93x64_Mag',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/4,
+				/*Price*/75,
+				/*Camo*/[],
+				/*Type*/["LMG"]
+			];
+
     
     //DMRs
 
