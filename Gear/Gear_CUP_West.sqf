@@ -5613,7 +5613,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/1,
 					/*Price*/100,
 					/*Camo*/[],
-					/*Type*/["mMG"]
+					/*Type*/["MMG"]
 				];
 				
 				_u pushBack [
