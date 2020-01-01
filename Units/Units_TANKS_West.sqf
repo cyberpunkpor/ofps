@@ -290,7 +290,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'%1 (Non-ECM)',
 	/*ClassName*/'B_AFV_Wheeled_01_up_cannon_F',
 	/*MenuName*/[''],
 	/*Location*/[CTI_LIGHT],
