@@ -289,25 +289,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'%1 (Non-ECM)',
-	/*ClassName*/'B_AFV_Wheeled_01_up_cannon_F',
-	/*MenuName*/[''],
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/4,
-	/*Price*/31000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Woodland'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_AFV_Wheeled_01_cannon_F',
@@ -327,13 +308,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_T_AFV_Wheeled_01_up_cannon_F',
 	/*MenuName*/['%1 (Tropic)'],
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/5,
-	/*Price*/25000,
+	/*UpgradeLevel*/4,
+	/*Price*/31000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
