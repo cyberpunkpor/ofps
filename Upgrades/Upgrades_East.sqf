@@ -147,17 +147,17 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240], 			//--- Air Ordinance
 		[60,120,160,240], 			//--- Land Ordinance
 		[60,120,160,240],			//--- Forward Logistics
-		[60,120,240], 					//--- Halo
+		[60,120,240], 				//--- Halo
 		[60,120,160,240], 			//--- Air Radar
 		[60,120,160,240], 			//--- Art Radar
-		[60,120,160,240,320,380], 				//--- Respawn Range
+		[60,120,160,240,320,380], 	//--- Respawn Range
 		[60,120], 					//--- LVOSS System
 		[60,120,160,240], 			//--- ERA System
 		[60,120], 					//--- Satellite
 		[420], 						//--- Nuke and Arty
 		[60,60,60], 				//--- Supply Rate
 		[30,60,90,120], 			//--- Base Health
-		[30,60,90,120],     			//--- Base Defense
+		[30,60,90,120],     		//--- Base Defense
 		[15,30,60], 				//--- Jamming Types
 		[15,30,45,60]   			//--- Jamming Range
 	]];
@@ -206,7 +206,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["High Altitude, Low Open Parachute Jump (HALO)", "<t>Enable HALO Jumping between Bases and Town Depots using the HALO tablet button (Requires Air/Rotary Factory).<br /><t color='#ffff00'>LVL 1</t> - HALO between Towns and Bases<br /><t color='#ffff00'>LVL 2</t> - HALO to Large FOBs</t><br /><t color='#ffff00'>LVL 3</t> - Vehicle HALO unlocked. (Player must be in vehicle)</t>"], //--- Halo
 	["Air Radar", "<t>Increase Range of Air Radar<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Air Radar
 	["Artillery Radar", "<t>Increase Range of Artillery Radar<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Art Radar
-	["Respawn Range", "<t>Increase the max range of the respawn trucks and FOBS.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t>"], //--- Respawn Range
+	["Respawn Range", "<t>Increase the max range of the respawn trucks and FOBS.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t><br /><t color='#ffff00'>LVL 5</t> - 3000m</t><br /><t color='#ffff00'>LVL 6</t> -4000m</t>"], //--- Respawn Range
 	["LVOSS System", "<t>Enables Light Vehicle Obscuration Smoke System (LVOSS), Full 360 degree coverage.<br /><t color='#ffff00'>LVL 1</t> - Ammo 1 per side, Cooldown 120s<br /><t color='#ffff00'>LVL 2</t> - Ammo 2 per side, Cooldown 90s </t>"], //--- LVOSS System
 	["ERA System", "<t>Enable Explosive Reactive Armor system (ERA) or Arena System for Heavy Vehicles, Tanks still vulnerable from the rear.<br /><t color='#ffff00'>LVL 1</t> - ERA Mode Ammo 1 per side, Cooldown 150s<br /><t color='#ffff00'>LVL 2</t> - ERA Mode Ammo 2 per side, Cooldown 120s<br /><t color='#ffff00'>LVL 3</t> - ARENA Mode Ammo 3 per side, Cooldown 90s<br /><t color='#ffff00'>LVL 4</t> - ARENA Mode Ammo 4 per side, Cooldown 60s</t>"], //--- ERA System
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam and town intel.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
