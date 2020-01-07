@@ -7879,7 +7879,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_UH1Y_Gunship_Dynamic_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/19000,
 	/*BuildTime*/30,
 	/*Distance*/1,
