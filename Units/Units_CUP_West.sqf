@@ -7689,7 +7689,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_AH6M_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
