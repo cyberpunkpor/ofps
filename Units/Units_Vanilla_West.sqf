@@ -1491,7 +1491,7 @@ _u pushBack [
 	/*ClassName*/'B_Heli_Light_01_dynamicLoadout_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/1,
