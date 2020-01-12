@@ -1251,7 +1251,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_9K115_2_AT13_Saxhorn_2_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/800,
+	/*Price*/400,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
@@ -1263,7 +1263,7 @@ _u pushBack [
 	/*ClassName*/'CUP_R_TOW_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/1000,
+	/*Price*/300,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
@@ -1275,7 +1275,7 @@ _u pushBack [
 	/*ClassName*/'CUP_R_TOW2_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/1100,
+	/*Price*/400,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];

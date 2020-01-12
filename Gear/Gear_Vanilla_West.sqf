@@ -2216,7 +2216,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/0,
 			/*Price*/1,
 			/*Camo*/[],
-			/*Type*/["Standard Items"]
+			/*Type*/["GPS/Terminal"]
 		];
   
   //UAV Terminal
@@ -2229,7 +2229,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/4,
 			/*Price*/2000,
 			/*Camo*/[],
-			/*Type*/["Standard Items"]
+			/*Type*/["GPS/Terminal"]
 		];
   
   //Map
