@@ -300,7 +300,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/4,
 			/*Price*/850,
 			/*Camo*/[],
-			/*Type*/["Special"]
+			/*Type*/["Sniper"]
 		];
 
 		_u pushBack [
@@ -311,7 +311,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/4,
 			/*Price*/850,
 			/*Camo*/[],
-			/*Type*/["Special"]
+			/*Type*/["Sniper"]
 		];
 
 		_u pushBack [
@@ -322,7 +322,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/6,
 			/*Price*/3000,
 			/*Camo*/[],
-			/*Type*/["Special"]
+			/*Type*/["Sniper"]
 		];
 
   //Grendade Launcher
@@ -1114,7 +1114,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/3,
 				/*Price*/3,
 				/*Camo*/[],
-				/*Type*/["Special"]
+				/*Type*/["Sniper"]
 			];
 
 			_u pushBack [
@@ -1125,7 +1125,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/4,
 				/*Price*/3,
 				/*Camo*/[],
-				/*Type*/["Special"]
+				/*Type*/["Sniper"]
 			];
  
  //Handheld Grenades
