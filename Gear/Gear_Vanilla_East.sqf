@@ -297,8 +297,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'srifle_GM6_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/6,
-			/*Price*/3000,
+			/*UpgradeLevel*/4,
+			/*Price*/850,
 			/*Camo*/[],
 			/*Type*/["Special"]
 		];
@@ -308,8 +308,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'srifle_GM6_camo_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/6,
-			/*Price*/3000,
+			/*UpgradeLevel*/4,
+			/*Price*/850,
 			/*Camo*/[],
 			/*Type*/["Special"]
 		];
@@ -1111,7 +1111,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'5Rnd_127x108_Mag',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/6,
+				/*UpgradeLevel*/3,
 				/*Price*/3,
 				/*Camo*/[],
 				/*Type*/["Special"]
@@ -1122,7 +1122,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'5Rnd_127x108_APDS_Mag',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/6,
+				/*UpgradeLevel*/4,
 				/*Price*/3,
 				/*Camo*/[],
 				/*Type*/["Special"]
