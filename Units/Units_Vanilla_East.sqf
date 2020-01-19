@@ -2382,7 +2382,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'O_Quadbike_01_F',
-	/*MenuName*/'Quad',
+	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/200,
