@@ -2463,7 +2463,7 @@ _u = []; //Gear Classname
 			/*Type*/["Sniper"]
 		];
   
-  //Grendade Launcher
+  //Grenade Launcher
 	
 		_u pushBack [
 			/*Enabled*/true,

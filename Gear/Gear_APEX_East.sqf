@@ -337,7 +337,7 @@ _u = []; //Gear Classname
 			/*Type*/["Special"]
 		];			
  
-  //Grendade Launcher
+  //Grenade Launcher
 
 //----ROCKET LAUNCHER MENU----
 

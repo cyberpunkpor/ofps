@@ -249,7 +249,7 @@ _u = []; //Gear Classname
   
   //Snipers
   
-  //Grendade Launcher
+  //Grenade Launcher
 
 //----ROCKET LAUNCHER MENU----
 

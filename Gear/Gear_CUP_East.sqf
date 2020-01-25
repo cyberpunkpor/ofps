@@ -866,7 +866,7 @@ _u = []; //Gear Classname
 			/*Type*/["Special"]
 		];
 
-  //Grendade Launcher
+  //Grenade Launcher
 
 		_u pushBack [
 			/*Enabled*/true,
