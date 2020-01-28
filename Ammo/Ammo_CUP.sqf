@@ -1378,7 +1378,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_3M11_AT2_Falanga_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/1250,
+	/*Price*/1050,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
@@ -1390,7 +1390,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_9K11_AT3_Sagger_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/1200,
+	/*Price*/1100,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
@@ -1414,7 +1414,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_Ataka_V_9M120_AT9_Spiral_2_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/1600,
+	/*Price*/1300,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
@@ -1426,7 +1426,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_9K116_1_Bastion_AT10_Stabber_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/1600,
+	/*Price*/1250,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
@@ -1450,7 +1450,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_9K121_Vikhr_AT16_Scallion_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/1400,
+	/*Price*/1350,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
