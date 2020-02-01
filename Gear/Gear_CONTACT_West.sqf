@@ -941,6 +941,28 @@ _u = []; //Gear Classname
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
+			/*ClassName*/'V_CarrierRigKBT_01_heavy_EAF_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/400,
+			/*Camo*/[],
+			/*Type*/["Vest"]
+		];
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'V_CarrierRigKBT_01_heavy_Olive_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/400,
+			/*Camo*/[],
+			/*Type*/["Vest"]
+		];
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
 			/*ClassName*/'V_PlateCarrier1_wdl',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
