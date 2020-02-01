@@ -976,7 +976,45 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_RACS_Soldier_wdl',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/75,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_RACS_Soldier_AA',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/120,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_RACS_Soldier_AA_wdl',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
@@ -999,7 +1037,45 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
+	/*Price*/250,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_RACS_Soldier_LAT_wdl',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
 	/*Price*/200,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_RACS_Soldier_HAT_wdl',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/550,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[""],
@@ -1071,7 +1147,45 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_RACS_Engineer_wdl',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/120,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_RACS_GL',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/100,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_RACS_GL_wdl',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
@@ -1109,7 +1223,45 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_RACS_Medic_wdl',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/100,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_RACS_MMG',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/120,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_RACS_MMG_wdl',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
@@ -2367,7 +2519,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
-	/*Price*/18000,
+	/*Price*/18500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
