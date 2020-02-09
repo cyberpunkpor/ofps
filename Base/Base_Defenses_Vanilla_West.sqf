@@ -1760,7 +1760,7 @@ _u pushBack [
 	/*Placement*/[0, 20],
 	/*Tags*/["Sheds"],
 	/*Location*/["HQ", "RepairTruck"],
-	/*Blacklist*/[["Land_Airport_01_hangar_F", 15], ["Land_SCF_01_shed_F", 15], ["Land_SM_01_shelter_narrow_F", 15], ["Land_SM_01_shelter_wide_F", 15], ["Land_Shed_Big_F", 15], ["Land_TentHangar_V1_F", 30], ["Land_Dome_Small_F", 30], ["Land_Dome_Big_F", 40]],
+	/*Blacklist*/[["Land_Airport_01_hangar_F", 15], ["Land_SCF_01_shed_F", 15], ["Land_SM_01_shelter_narrow_F", 15], ["Land_SM_01_shelter_wide_F", 15], ["Land_Shed_Big_F", 15], ["Land_TentHangar_V1_F", 50], ["Land_Dome_Small_F", 30], ["Land_Dome_Big_F", 40]],
 	/*Upgrade*/1,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
