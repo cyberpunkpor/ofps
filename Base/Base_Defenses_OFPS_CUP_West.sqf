@@ -171,7 +171,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'TOW Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition"," tow_tower_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tow_tower_west",2]]],
 	/*Price*/7000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
