@@ -8657,7 +8657,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_LR_Ambulance_GB_W',
 	/*MenuName*/'Land Rover Ambulance',
-	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics", 2],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/6000,
 	/*BuildTime*/30,
