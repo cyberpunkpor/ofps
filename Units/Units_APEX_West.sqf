@@ -1151,7 +1151,7 @@ _u pushBack [
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/2,
 	/*Price*/2000,
-	/*BuildTime*/5,
+	/*BuildTime*/15,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
 	/*Type*/[],
