@@ -1973,7 +1973,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 //--------------------------------------------------------------------------------------------
 //--- IFA3 - Americans and British 
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then { 
+if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 10) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//-- Only add vanilla faction specific overrides as neeeded here
@@ -2071,6 +2071,61 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	};
 	//--- IFA3
 	if (CTI_IFA3_ADDON > 0 ) then {
+
+		GUER_SOLDIER = "LIB_UK_rifleman";
+		GUER_SOLDIER_AA = "LIB_US_Corporal";
+		GUER_SOLDIER_AR = "LIB_US_Mgunner";
+		GUER_SOLDIER_AT = "LIB_UK_AT_soldier";
+		GUER_SOLDIER_CREW = "LIB_US_Tank_Sergeant";
+		GUER_SOLDIER_LAT = "LIB_US_AT_soldier";
+		GUER_SOLDIER_HAT = "LIB_UK_AT_soldier";
+		GUER_SOLDIER_ENGINEER = "LIB_UK_Engineer";
+		GUER_SOLDIER_EXP = "LIB_US_Engineer";
+		GUER_SOLDIER_GL = "LIB_US_Granadier";
+		GUER_SOLDIER_MEDIC = "LIB_US_Engineer";
+		GUER_SOLDIER_MG = "LIB_UK_LanceCorporal";
+		GUER_SOLDIER_PILOT = "LIB_US_Pilot";
+		GUER_SOLDIER_SNIPER = "LIB_UK_Sniper";
+		GUER_SOLDIER_MARKSMAN = "LIB_US_Sniper";
+		GUER_SOLDIER_TEAMLEADER = "LIB_UK_Officer";
+		GUER_SOLDIER_SQUADLEADER = "LIB_US_SMGunner";
+
+		//--- Naval Infantry
+		GUER_SOLDIER_NAVAL_INFANTRY = "LIB_US_Rifleman";
+		GUER_SOLDIER_NAVAL_SQUADLEADER = "LIB_US_Second_Lieutenant";
+		//--- Light Vehicles
+		GUER_VEHICLE_LIGHT1 = "LIB_US_Willys_MB";
+		GUER_VEHICLE_LIGHT2 = "LIB_UK_Willys_MB_Hood";
+		GUER_VEHICLE_LIGHT3 = "LIB_UK_Willys_MB_M1919";
+		GUER_VEHICLE_LIGHT4 = "LIB_US_GMC_Open";
+		GUER_VEHICLE_LIGHT5 = "LIB_US_Willys_MB_M1919";
+		GUER_VEHICLE_LIGHT6 = "LIB_M8_Greyhound";
+		GUER_VEHICLE_LIGHT7 = "LIB_UK_M3_Halftrack";
+		//--- APCs
+		//--- APCs
+		GUER_VEHICLE_APC1 = "LIB_UniversalCarrier";
+		GUER_VEHICLE_APC2 = "LIB_US_Scout_M3";
+		GUER_VEHICLE_APC3 = "LIB_Crusader_Mk3";
+		//--- Tanks
+		GUER_VEHICLE_ARMORED1 = "LIB_UK_Italy_M4A3_75";	
+		GUER_VEHICLE_ARMORED2 = "LIB_UK_DR_M4A3_75";
+		GUER_VEHICLE_ARMORED3 = "LIB_M4A3_76";
+		//--- AA Vehicles
+		//GUER_VEHICLE_AA1 = "CUP_I_M163_AAF";
+		GUER_VEHICLE_AA2 = "LIB_Crusader_Mk1AA";
+		//GUER_VEHICLE_AA3 = "CUP_I_ZSU23_AAF";
+		//--- Air
+		//GUER_AIR_HELI1 = "I_Heli_light_03_dynamicLoadout_F";
+		//GUER_AIR_HELI2 = "CUP_I_AH1Z_Dynamic_AAF";
+		//GUER_AIR_AA = "I_Plane_Fighter_03_AA_F";
+		//GUER_AIR_CAS = "I_Plane_Fighter_03_dynamicLoadout_F";
+		//--- Boats
+		GUER_NAVAL_ASSAULT_BOAT1 = "LIB_LCM3_Armed";
+		//GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "LIB_LCI";
+		//GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_GunBoat";
+		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "HAFM_GunBoat";		
+		//GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";
 
 	};
 };
