@@ -1373,7 +1373,56 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 6) then {
 	};
 	//--- IFA3
 	if (CTI_IFA3_ADDON > 0 ) then {
-
+	//--- Infantry
+		WEST_SOLDIER = "LIB_GER_Soldier2";
+		WEST_SOLDIER_AA = "LNRD_Luftwaffe_LAT_rifleman";
+		WEST_SOLDIER_AR = "LIB_GER_stggunner";
+		WEST_SOLDIER_AT = "LIB_GER_AT_soldier";
+		WEST_SOLDIER_CREW = "LIB_GER_tank_crew";
+		WEST_SOLDIER_LAT = "LIB_GER_LAT_rifleman";
+		WEST_SOLDIER_HAT = "LNRD_Luftwaffe_AT_soldier";
+		WEST_SOLDIER_ENGINEER = "LIB_GER_sapper";
+		WEST_SOLDIER_EXP = "LNRD_Luftwaffe_AT_granadier";
+		WEST_SOLDIER_GL = "LIB_GER_ober_granadier";
+		WEST_SOLDIER_MEDIC = "LIB_GER_medic";
+		WEST_SOLDIER_MG = "LIB_GER_mggunner2";
+		WEST_SOLDIER_PILOT = "LIB_GER_pilot";
+		WEST_SOLDIER_SNIPER = "LIB_GER_scout_sniper";
+		WEST_SOLDIER_MARKSMAN = "LRND_Luftwaffe_sniper";
+		WEST_SOLDIER_TEAMLEADER = "LIB_GER_unterofficer";
+		WEST_SOLDIER_SQUADLEADER = "LIB_GER_ober_lieutenant";
+	//--- Naval Units
+		WEST_SOLDIER_NAVAL_INFANTRY = "LIB_GER_ober_rifleman";
+		WEST_SOLDIER_NAVAL_SQUADLEADER = "LRND_Luftwaffe_ober_rifleman";
+	//--- Light Vehicles
+		WEST_VEHICLE_LIGHT1 = "LIB_Kfz1_MG42";
+		WEST_VEHICLE_LIGHT2 = "LIB_SdKfz251_FFV";
+		WEST_VEHICLE_LIGHT3 = "LIB_SdKfz251";
+		WEST_VEHICLE_LIGHT4 = "LIB_OpelBlitz_Open_Y_Camo";
+		WEST_VEHICLE_LIGHT5 = "LIB_SdKfz_7";
+		WEST_VEHICLE_LIGHT6 = "LIB_Kfz1_MG42_camo";
+		WEST_VEHICLE_LIGHT7 = "LIB_Kfz1_MG42_sernyt";
+	//--- APCs
+		WEST_VEHICLE_APC1 = "LIB_SdKfz222_gelbbraun";
+		WEST_VEHICLE_APC2 = "LIB_SdKfz234_2";
+		WEST_VEHICLE_APC3 = "LIB_SdKfz234_4";
+	//--- Tanks
+		WEST_VEHICLE_ARMORED1 = "LIB_DAK_PzKpfwIV_H";	
+		WEST_VEHICLE_ARMORED2 = "LIB_StuG_III_G";
+		WEST_VEHICLE_ARMORED3 = "LIB_PzKpfwV";
+	//--- AA Vehicles
+		WEST_VEHICLE_AA1 = "LIB_FlakPanzerIV_Wirbelwind";
+		WEST_VEHICLE_AA2 = "LIB_SdKfz_7_AA";
+		//WEST_VEHICLE_AA3 = "B_T_APC_Tracked_01_AA_F";
+	//--- Air
+		//WEST_AIR_HELI1 = "B_Heli_Light_01_armed_F"; //pawnee
+		//WEST_AIR_HELI2 = "B_Heli_Transport_01_F"; //ghosthawk
+		//WEST_AIR_HELI_ATTACK = "B_Heli_Attack_01_F";
+		//WEST_AIR_AA = "";
+		//WEST_AIR_CAS = "B_Plane_CAS_01_F";
+	//--- Boats
+		WEST_NAVAL_ASSAULT_BOAT1 = "LIB_UK_LCI";
+		WEST_NAVAL_ASSAULT_BOAT2 = "LIB_LCM3_Armed";
 	};
 };
 //--------------------------------------------------------------------------------------------
