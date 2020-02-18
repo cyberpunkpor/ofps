@@ -1350,7 +1350,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 6) then {
 //--------------------------------------------------------------------------------------------
 //--- IFA3 - USSR
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 6) then { 
+if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 7) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//-- Only add vanilla faction specific overrides as neeeded here
@@ -1448,10 +1448,61 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 6) then {
 	};
 	//--- IFA3
 	if (CTI_IFA3_ADDON > 0 ) then {
-
+				//--- Infantry
+		EAST_SOLDIER = "LIB_SOV_rifleman";
+		EAST_SOLDIER_AA = "LIB_SOV_scout_atrifle_gunner";
+		EAST_SOLDIER_AR = "LIB_SOV_mgunner";
+		EAST_SOLDIER_AT = "LIB_SOV_AT_soldier";
+		EAST_SOLDIER_CREW = "LIB_SOV_tank_crew";
+		EAST_SOLDIER_LAT = "LIB_SOV_LAT_soldier";
+		EAST_SOLDIER_HAT = "LIB_SOV_AT_M1A1_soldier";
+		EAST_SOLDIER_ENGINEER = "LIB_SOV_sapper";
+		EAST_SOLDIER_EXP = "LIB_SOV_AT_granadier";
+		EAST_SOLDIER_GL = "LIB_SOV_granadier";
+		EAST_SOLDIER_MEDIC = "LIB_SOV_medic";
+		EAST_SOLDIER_MG = "LIB_SOV_assault_mgunner";
+		EAST_SOLDIER_PILOT = "LIB_SOV_pilot";
+		EAST_SOLDIER_SNIPER = "LIB_SOV_scout_sniper";
+		EAST_SOLDIER_MARKSMAN = "LIB_SOV_scout_rifleman";
+		EAST_SOLDIER_TEAMLEADER = "LIB_SOV_p_officer";
+		EAST_SOLDIER_SQUADLEADER = "LIB_SOV_captain";
+		//--- Naval Infantry
+		//EAST_SOLDIER_NAVAL_INFANTRY = "O_diver_F";
+		//EAST_SOLDIER_NAVAL_SQUADLEADER = "O_diver_TL_F";
+		//--- Light Vehicles
+		EAST_VEHICLE_LIGHT1 = "LIB_SOV_M3_Halftrack";
+		EAST_VEHICLE_LIGHT2 = "LIB_Scout_M3";
+		EAST_VEHICLE_LIGHT3 = "LIB_Scout_M3_FFV";
+		EAST_VEHICLE_LIGHT4 = "LIB_Zis5v";
+		EAST_VEHICLE_LIGHT5 = "LIB_US6_Open";
+		EAST_VEHICLE_LIGHT6 = "LIB_SdKfz251_captured_FFV";
+		EAST_VEHICLE_LIGHT7 = "LIB_SdKfz251_captured";
+		//--- APCs
+		EAST_VEHICLE_APC1 = "LIB_SU85";
+		EAST_VEHICLE_APC2 = "LIB_SdKfz251_captured_FFV";
+		//EAST_VEHICLE_APC3 = "min_rf_t_15";
+		//--- Tanks
+		EAST_VEHICLE_ARMORED1 = "LIB_T34_76";	
+		EAST_VEHICLE_ARMORED2 = "LIB_T34_85";
+		EAST_VEHICLE_ARMORED3 = "LIB_JS2_43";
+		//--- AA Vehicles
+		EAST_VEHICLE_AA1 = "LIB_Zis5v_61K";
+		EAST_VEHICLE_AA2 = "LIB_Zis5v_61K";
+		EAST_VEHICLE_AA3 = "LIB_Zis5v_61K";
+		//--- Air
+		//EAST_AIR_HELI1 = "";
+		//EAST_AIR_HELI2 = "";
+		//EAST_AIR_HELI_ATTACK = "";
+		//EAST_AIR_AA = "OFPS_SU25";
+		//EAST_AIR_CAS = "";
+		//--- Boats
+		//EAST_NAVAL_ASSAULT_BOAT1 = "O_Boat_Armed_01_hmg_F";
+		//EAST_NAVAL_ASSAULT_BOAT2 = "O_Boat_Armed_01_hmg_F";
+		//EAST_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_CB90_O";
+		//EAST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
+		//EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_BUYAN";
 	};
 };
-
 //--------------------------------------------------------------------------------------------
 //--- Town Teams Templates
 //--------------------------------------------------------------------------------------------
