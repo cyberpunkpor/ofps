@@ -137,7 +137,9 @@ switch (CTI_FACTION_EAST) do {
 				["Toolkit", 1],
 				["CUP_optic_Kobra", 10],
 				["CUP_sgun_Saiga12K", 10],
-				["CUP_8Rnd_B_Saiga12_74Slug_M", 20]
+				["CUP_HandGrenade_RGO", 10],
+				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
+				["CUP_HandGrenade_RGD5", 10]
 			]],
 			["CUP_O_GAZ_Vodnik_AGS_RU", [
 				["CUP_launch_RPG7V", 5], 
@@ -146,9 +148,10 @@ switch (CTI_FACTION_EAST) do {
 				["CUP_optic_NSPU", 10],
 				["CUP_sgun_Saiga12K", 10],
 				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
-				["CUP_30Rnd_9x19_Vityaz", 20]
+				["CUP_30Rnd_9x19_Vityaz", 20],
+				["CUP_HandGrenade_RGD5", 10]
 			]],
-			["CUP_O_BTR60_CSAT", [
+			["CUP_O_BTR60_RU", [
 				["CUP_launch_RPG18", 10], 
 				["CUP_RPG18_M", 20],
 				["Toolkit", 1],
@@ -156,6 +159,8 @@ switch (CTI_FACTION_EAST) do {
 				["CUP_sgun_Saiga12K", 10],
 				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
 				["CUP_arifle_AK74M", 5],
+				["CUP_HandGrenade_RGD5", 10],
+				["CUP_HandGrenade_RGO", 10],
 				["CUP_30Rnd_545x39_AK74M_M", 20]
 			]]
 			//,	["O_Heli_Light_02_unarmed_F", []]
