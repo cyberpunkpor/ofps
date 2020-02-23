@@ -2536,7 +2536,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/0,
-	/*Price*/7000,
+	/*Price*/4000,
 	/*BuildTime*/20,
 	/*Distance*/1,
 	/*Camo*/[],
