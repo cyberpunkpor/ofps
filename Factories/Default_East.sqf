@@ -125,8 +125,7 @@ switch (CTI_FACTION_EAST) do {
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 			["CUP_O_GAZ_Vodnik_MedEvac_RU", [
-				["CUP_launch_RPG18", 5], 
-				["CUP_RPG18_M", 20],
+				["CUP_launch_RPG18", 20], 
 				["Toolkit", 1],
 				["CUP_optic_Kobra", 10],
 				["CUP_arifle_AK74M", 10],
@@ -152,8 +151,7 @@ switch (CTI_FACTION_EAST) do {
 				["CUP_HandGrenade_RGD5", 10]
 			]],
 			["CUP_O_BTR60_RU", [
-				["CUP_launch_RPG18", 10], 
-				["CUP_RPG18_M", 20],
+				["CUP_launch_RPG18", 20], 
 				["Toolkit", 1],
 				["CUP_optic_NSPU", 10],
 				["CUP_sgun_Saiga12K", 10],
