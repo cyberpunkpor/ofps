@@ -142,8 +142,11 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_30Rnd_556x45_Stanag", 10],
 				["CUP_20Rnd_556x45_Stanag", 20],
 				["CUP_arifle_M16A2", 5],
+				["CUP_srifle_M24_wdl", 5],
+				["CUP_5Rnd_762x51_M24", 15],
 				["CUP_30Rnd_9x19_MP5", 20],
 				["acc_flashlight", 10],
+				["CUP_HandGrenade_M67", 10],
 				["Toolkit", 1]
 			]],
 			["CUP_B_HMMWV_SOV_USA", [
@@ -151,8 +154,9 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_8Rnd_B_Beneli_74Slug", 20],
 				["CUP_8Rnd_B_Beneli_74Pellets", 20],
 				["CUP_sgun_M1014", 10],
+				["CUP_HandGrenade_M67", 10],
 				["CUP_30Rnd_9x19_MP5", 20],
-				["acc_flashlight", 10],
+				["acc_flashlight", 20],
 				["Toolkit", 1]
 			]],
 			["CUP_B_HMMWV_M1114_USMC", [
@@ -160,8 +164,11 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_8Rnd_B_Beneli_74Slug", 20],
 				["CUP_8Rnd_B_Beneli_74Pellets", 20],
 				["CUP_sgun_M1014", 10],
+				["CUP_lmg_M60E4_norail", 2],
+				["CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M", 8],
 				["CUP_30Rnd_9x19_MP5", 20],
 				["acc_flashlight", 10],
+				["CUP_HandGrenade_M67", 10],
 				["Toolkit", 1]
 			]]
 		]];
