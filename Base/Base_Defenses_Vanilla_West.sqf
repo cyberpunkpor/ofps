@@ -375,7 +375,7 @@ _u pushBack [
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition"],
 	/*Location*/["HQ"],
-	/*Blacklist*/[["Factories", 15]],
+	/*Blacklist*/[["Factories", 25]],
 	/*Upgrade*/1,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
