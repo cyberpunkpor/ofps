@@ -375,7 +375,7 @@ _u pushBack [
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition"],
 	/*Location*/["HQ"],
-	/*Blacklist*/[["Factories", 25]],
+	/*Blacklist*/[["Land_Airport_02_controlTower_F", 20],["Land_Airport_Tower_ruins_F", 20],["Land_Airport_Tower_F", 20]]
 	/*Upgrade*/1,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
