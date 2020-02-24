@@ -5367,7 +5367,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_M1133_MEV_Woodland',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/1,
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
