@@ -580,7 +580,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/4,
-	/*Price*/8000,
+	/*Price*/1000,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['MTP'],
