@@ -200,15 +200,15 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_AI_ORDER", _side], [
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Gear", "<t>Unlock better gear."], //--- Gear
 	["Barracks", "
-	<t>Unlock better infantry units, increase group size and improve AI skill<br />
+	<t>Unlock better infantry units, increase group size, unlock new player abilities, and improve AI skill<br />
 	<t color='#ffff00'>LVL 0</t> - Group limit 3 skill 60% <br />
 	<t color='#ffff00'>LVL 1</t> - Group limit 4 skill 65% <br />
-	<t color='#ffff00'>LVL 2</t> - Group limit 5 skill 70% | Heal | Poor Lock Pick<br />
-	<t color='#ffff00'>LVL 3</t> - Group limit 6 skill 75% | Heal | Basic Lock Pick | Explosives<br />
-	<t color='#ffff00'>LVL 4</t> - Group limit 7 skill 80% | Heal | Good Lock Pick | Explosives</t>
+	<t color='#ffff00'>LVL 2</t> - Group limit 5 skill 70% | Medic skill (can use the Medikit item) unlocked <br>| Poor Lock Pick skill unlocked<br />
+	<t color='#ffff00'>LVL 3</t> - Group limit 6 skill 75% | Basic Lock Pick ability | Explosives skill unlocked<br />
+	<t color='#ffff00'>LVL 4</t> - Group limit 7 skill 80% | Good Lock Pick ability |</t>
 	<br/>
-	<t color='#ffff00'>LVL 5</t> - Group limit 8 skill 85% | Heal | Better Lock Pick | Explosives<br />
-	<t color='#ffff00'>LVL 6</t> - Group limit 9 skill 90% | Heal | Pro Lock Pick | Explosives | UAV hacker<br />"], //--- Barracks
+	<t color='#ffff00'>LVL 5</t> - Group limit 8 skill 85% | Better Lock Pick ability |<br />
+	<t color='#ffff00'>LVL 6</t> - Group limit 9 skill 90% | Pro Lock Pick ability | UAV hacker skill unlocked<br />"], //--- Barracks
 	["Light Factory", "<t>Unlock better motorized units.</t>"], //--- Light
 	["Heavy Factory", "<t>Unlock better armored units.</t>"], //--- Heavy
 	["Naval Factory", "<t>Unlock better naval units.</t>"], //--- Naval
