@@ -4338,7 +4338,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_UAZ_AA_RU',
 	/*MenuName*/'',
-	/*Location*/[[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics"],[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/1,
 	/*Price*/9000,
 	/*BuildTime*/30,
