@@ -202,7 +202,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Barracks", "
 	<t>Unlock better infantry units, increase group size, unlock new player abilities, and improve AI skill<br />
 	<t color='#ffff00'>LVL 0</t> - Group limit 3 skill 30% <br />
-	<t color='#ffff00'>LVL 1</t> - Group limit 4 skill 40% | Heal<br />
+	<t color='#ffff00'>LVL 1</t> - Group limit 4 skill 40% | Medic skill (can use the Medikit item) unlocked<br />
 	<t color='#ffff00'>LVL 2</t> - Group limit 5 skill 50% | Lock Pick skill unlocked| Explosive Specialist skill unlocked<br />
 	<t color='#ffff00'>LVL 3</t> - Group limit 6 skill 60% | Successful Lockpick chance increased<br />
 	<t color='#ffff00'>LVL 4</t> - Group limit 7 skill 70% | Successful Lockpick chance increased</t>
