@@ -440,6 +440,22 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'TOW-2 Tripod',
+	/*Class*/"CUP_B_TOW2_TriPod_USMC",
+	/*Price*/7000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'D-30 (Artillery)',
 	/*Class*/"CUP_B_D30_CDF",
