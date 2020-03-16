@@ -101,7 +101,7 @@ _u pushback [
 _u pushback [ 	
 	/*headers*/[CTI_CONTROLCENTER, "Control Center", "CC"],
 	/*classes*/["Land_Research_HQ_F", "Land_Research_HQ_ruins_F", ["Land_Research_HQ_F"]],							  
-	/*prices*/5000,
+	/*prices*/4000,
 	/*times*/90,
 	/*MaxCount*/1,
 	/*placements*/[90, 25, false],
