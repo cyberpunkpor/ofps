@@ -4527,7 +4527,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Kamaz_Repair_RU',
-	/*MenuName*/'Kamaz Repair',
+	/*MenuName*/'Kamaz Repair (90 second respawn timer)',
 	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/14000,
