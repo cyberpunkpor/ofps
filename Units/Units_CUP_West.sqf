@@ -3237,7 +3237,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_T810_Repair_CZ_WDL',
-	/*MenuName*/'Tatra T810 Repair',
+	/*MenuName*/'Tatra T810 Repair (90 second spawn timer)',
 	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"logistics"]],
 	/*UpgradeLevel*/0,
 	/*Price*/15000,
