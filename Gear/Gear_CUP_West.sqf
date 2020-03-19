@@ -3493,6 +3493,18 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Flash Hider/Silencer"]
 			];
+			
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_muzzle_snds_68SPC',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/4,
+				/*Price*/500,
+				/*Camo*/[],
+				/*Type*/["Flash Hider/Silencer"]
+			];
+
 
 			_u pushBack [
 				/*Enabled*/true,
