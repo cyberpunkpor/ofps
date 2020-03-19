@@ -744,7 +744,7 @@ _u = []; //Gear Classname
 			/*Price*/0,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
-		]
+		];
 		
 		_u pushBack [
 			/*Enabled*/true,
