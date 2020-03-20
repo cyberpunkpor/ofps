@@ -132,7 +132,7 @@ switch (CTI_FACTION_EAST) do {
 				["firstaidkit", 20],
 				["CUP_30Rnd_545x39_AK74M_M", 20]
 			]],
-			["CUP_B_UAZ_SPG9_RU", [
+			["CUP_O_UAZ_SPG9_RU", [
 				["Toolkit", 1],
 				["CUP_optic_Kobra", 10],
 				["CUP_sgun_Saiga12K", 10],
