@@ -133,7 +133,7 @@ _u pushBack [
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'',
-	/*Picture*/''
+	/*Picture*/'\A3\EditorPreviews_F\Data\CfgVehicles\O_SupplyCrate_F.jpg'
 ];
 
 _u pushBack [
