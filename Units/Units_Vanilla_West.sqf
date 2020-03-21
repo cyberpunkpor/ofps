@@ -132,7 +132,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/''service-ammotruck'',
 	/*Picture*/'\A3\EditorPreviews_F\Data\CfgVehicles\B_SupplyCrate_F.jpg'
 ];
 
