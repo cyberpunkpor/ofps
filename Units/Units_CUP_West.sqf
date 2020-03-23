@@ -8560,6 +8560,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_LCU1600_USMC',
+	/*MenuName*/'',
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/2,
+	/*Price*/10000,
+	/*BuildTime*/30,
+	/*Distance*/5,
+	/*Camo*/['Grey'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_MK10_GB',
 	/*MenuName*/'MK10 (Vehicle Transport / Medic)',
 	/*Location*/[CTI_NAVAL],
