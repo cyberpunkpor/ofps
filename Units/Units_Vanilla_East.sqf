@@ -2811,7 +2811,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/['O_G_Offroad_01_repair_','salvager-independent'],
+	/*Script*/['O_G_Offroad_01_repair_F','salvager-independent'],
 	/*Picture*/''
 ];
 
