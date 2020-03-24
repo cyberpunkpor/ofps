@@ -5798,7 +5798,7 @@ _u = []; //Gear Classname
 				/*Type*/["Rifle"]
 			];
 			
-			u pushBack [
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_25Rnd_556x45_Famas_Wood_Tracer_Green',
@@ -5809,7 +5809,7 @@ _u = []; //Gear Classname
 				/*Type*/["Rifle"]
 			];
 			
-			u pushBack [
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_25Rnd_556x45_Famas_Wood_Tracer_Yellow',
@@ -5820,7 +5820,7 @@ _u = []; //Gear Classname
 				/*Type*/["Rifle"]
 			];
 			
-			u pushBack [
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_25Rnd_556x45_Famas_Wood_Tracer_Red',
@@ -5842,7 +5842,7 @@ _u = []; //Gear Classname
 				/*Type*/["Rifle"]
 			];
 			
-			u pushBack [
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_25Rnd_556x45_Famas_Arid_Tracer_Green',
@@ -5853,7 +5853,7 @@ _u = []; //Gear Classname
 				/*Type*/["Rifle"]
 			];
 			
-			u pushBack [
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_25Rnd_556x45_Famas_Arid_Tracer_Yellow',
@@ -5864,7 +5864,7 @@ _u = []; //Gear Classname
 				/*Type*/["Rifle"]
 			];
 			
-			u pushBack [
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_25Rnd_556x45_Famas_Arid_Tracer_Red',
@@ -5875,7 +5875,7 @@ _u = []; //Gear Classname
 				/*Type*/["Rifle"]
 			];
 			
-			u pushBack [
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_30Rnd_680x43_Stanag',
@@ -5886,7 +5886,7 @@ _u = []; //Gear Classname
 				/*Type*/["Rifle"]
 			];
 			
-			u pushBack [
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_30Rnd_680x43_Stanag_Tracer_Red',
@@ -5897,7 +5897,7 @@ _u = []; //Gear Classname
 				/*Type*/["Rifle"]
 			];
 			
-			u pushBack [
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_30Rnd_680x43_Stanag_Tracer_Green',
@@ -5908,7 +5908,7 @@ _u = []; //Gear Classname
 				/*Type*/["Rifle"]
 			];
 			
-			u pushBack [
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_30Rnd_680x43_Stanag_Tracer_Yellow',
