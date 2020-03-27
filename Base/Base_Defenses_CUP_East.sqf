@@ -505,7 +505,7 @@ _u pushBack [
 
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'D-30 (Artillery)',
 	/*Class*/"CUP_O_D30_RU",
 	/*Price*/125000,
