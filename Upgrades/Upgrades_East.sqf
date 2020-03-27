@@ -29,11 +29,11 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 ]];
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
-	[1500,2500,3500,4000,4500,5000], //--- Gear
-	[1000,1500,2000,2500,3000,3500], //--- Barracks
-	[800,1300,2000,3000,10000], //--- Light
+	[500,2500,3500,4000,4500,5000], //--- Gear
+	[500,1500,2000,2500,3000,3500], //--- Barracks
+	[500,1500,2000,3000,10000], //--- Light
 	[2000,4000,5000,6000,8000], //--- Heavy
-	[1000,2000,2500], //--- Naval
+	[500,500,500], //--- Naval
 	[1000,2000,3000,4000,5000], //--- Air Rotary
 	[1000,3000,6000,7000,8000], //--- Air Fixed
 	[1000,2000,3000,4000], //--- Air Ordinance
@@ -48,10 +48,10 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
 	[1000,2000,3000], //--- Supply Rate
-	[500,1000,2000,3000], //--- Base Health
-	[500,1000,2000,9000], //--- Base Defense
-	[250,500,1000], //--- Jamming Types
-	[250,500,750,1000] //--- Jamming Range
+	[500,1000,2000,2000], //--- Base Health
+	[500,1000,2000,2000], //--- Base Defense
+	[500,1000,2000], //--- Jamming Types
+	[500,1000,1500,2000] //--- Jamming Range
 ]];
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [

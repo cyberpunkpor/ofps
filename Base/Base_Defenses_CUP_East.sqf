@@ -459,7 +459,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'D-30 AT',
 	/*Class*/"CUP_O_D30_AT_RU",
-	/*Price*/6000,
+	/*Price*/4000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ", "RepairTruck"],
@@ -475,7 +475,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Metis AT-13',
 	/*Class*/"CUP_O_Metis_RU",
-	/*Price*/6000,
+	/*Price*/4000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
@@ -505,7 +505,7 @@ _u pushBack [
 
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'D-30 (Artillery)',
 	/*Class*/"CUP_O_D30_RU",
 	/*Price*/125000,
