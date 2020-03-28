@@ -4219,7 +4219,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_B_Metis_Gun_Bag',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/4,
-				/*Price*/7500,
+				/*Price*/3500,
 				/*Camo*/[],
 				/*Type*/["Static"]
 			];

@@ -443,7 +443,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'TOW-2 Tripod',
 	/*Class*/"CUP_B_TOW2_TriPod_USMC",
-	/*Price*/4000,
+	/*Price*/4500,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
