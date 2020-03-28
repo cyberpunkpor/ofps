@@ -1663,7 +1663,7 @@ _u pushBack [
 	/*MenuName*/'Slammer (120mm)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/40000,
+	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],

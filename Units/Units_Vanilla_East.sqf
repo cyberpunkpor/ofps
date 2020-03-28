@@ -2119,7 +2119,7 @@ _u pushBack [
 	/*MenuName*/'T-100 Varsuk (CSAT)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/35000,
+	/*Price*/37000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['SandHex'],
