@@ -44,7 +44,8 @@ Description:	This file presents classnames and their values to the mission.
 			//[CTI_BARRACKS,[CTI_DEPOT, "default", 5]] //barracks normal, from depot require default factory upgrade 5 (different from default unit upgrade)
 			//[CTI_BARRACKS,[CTI_DEPOT,"logistics"]] //barracks normal, from depot require forward logistics using same lvl as default
 			//[CTI_BARRACKS,[CTI_DEPOT,"logistics",3]] //barracks normal, from depot require forward logistics 3
-
+            //[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]], //Air factory normal, Air depot require forward logistics 3
+            
 	/*UpgradeLevel*/
 		//DESCRIPTION:  Upgrade level which unit will be available starts from 0 
 		//TYPE: Integer
@@ -8201,7 +8202,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_C130J_USMC',
 	/*MenuName*/'C-130 (Transport)',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/1,
 	/*Price*/15000,
 	/*BuildTime*/30,
@@ -8220,7 +8221,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_C130J_Cargo_USMC',
 	/*MenuName*/'C-130 (VIV)',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/2,
 	/*Price*/18000,
 	/*BuildTime*/30,
@@ -8239,7 +8240,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AC47_Spooky_USA',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/0,
 	/*Price*/14000,
 	/*BuildTime*/30,
@@ -8486,7 +8487,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_A10_DYN_USA',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/3,
 	/*Price*/50000,
 	/*BuildTime*/30,
@@ -8695,7 +8696,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_C47_USA',
 	/*MenuName*/'C-47 Skytrain',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/0,
 	/*Price*/10000,
 	/*BuildTime*/30,

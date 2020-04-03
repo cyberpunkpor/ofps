@@ -44,7 +44,8 @@ Description:	This file presents classnames and their values to the mission.
 			//[CTI_BARRACKS,[CTI_DEPOT, "default", 5]] //barracks normal, from depot require default factory upgrade 5 (different from default unit upgrade)
 			//[CTI_BARRACKS,[CTI_DEPOT,"logistics"]] //barracks normal, from depot require forward logistics using same lvl as default
 			//[CTI_BARRACKS,[CTI_DEPOT,"logistics",3]] //barracks normal, from depot require forward logistics 3
-
+            //[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]], //Air factory normal, Air depot require forward logistics 3
+            
 	/*UpgradeLevel*/
 		//DESCRIPTION:  Upgrade level which unit will be available starts from 0 
 		//TYPE: Integer
@@ -2383,7 +2384,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_AN2_TK',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/0,
 	/*Price*/5000,
 	/*BuildTime*/30,
@@ -2401,7 +2402,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_C47_SLA',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/0,
 	/*Price*/10000,
 	/*BuildTime*/30,
@@ -2420,7 +2421,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_C130J_Cargo_TKA',
 	/*MenuName*/'C-130 (VIV)',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/1,
 	/*Price*/20000,
 	/*BuildTime*/30,
@@ -2439,7 +2440,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_C130J_TKA',
 	/*MenuName*/'C-130 (Transport)',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/1,
 	/*Price*/15000,
 	/*BuildTime*/30,
@@ -2515,7 +2516,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_L39_TK',
 	/*MenuName*/'L39 (RKTS)',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/2,
 	/*Price*/20000,
 	/*BuildTime*/30,
@@ -2610,7 +2611,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Su25_Dyn_RU',
 	/*MenuName*/'SU-25 (Dynamic)',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/3,
 	/*Price*/50000,
 	/*BuildTime*/30,
@@ -2724,7 +2725,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_SU34_RU',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/4,
 	/*Price*/60000,
 	/*BuildTime*/30,
