@@ -1795,7 +1795,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_Plane_CAS_02_dynamicLoadout_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics"]],
 	/*UpgradeLevel*/4,
 	/*Price*/80000,
 	/*BuildTime*/30,
