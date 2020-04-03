@@ -44,7 +44,8 @@ Description:	This file presents classnames and their values to the mission.
 			//[CTI_BARRACKS,[CTI_DEPOT, "default", 5]] //barracks normal, from depot require default factory upgrade 5 (different from default unit upgrade)
 			//[CTI_BARRACKS,[CTI_DEPOT,"logistics"]] //barracks normal, from depot require forward logistics using same lvl as default
 			//[CTI_BARRACKS,[CTI_DEPOT,"logistics",3]] //barracks normal, from depot require forward logistics 3
-
+            //[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]], //Air factory normal, Air depot require forward logistics 3
+            
 	/*UpgradeLevel*/
 		//DESCRIPTION:  Upgrade level which unit will be available starts from 0 
 		//TYPE: Integer
@@ -122,7 +123,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_Plane_Fighter_02_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/4,
 	/*Price*/90000,
 	/*BuildTime*/30,
@@ -141,7 +142,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_Plane_Fighter_02_Stealth_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/5,
 	/*Price*/100000,
 	/*BuildTime*/30,
