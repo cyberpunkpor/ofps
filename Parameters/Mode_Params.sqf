@@ -122,8 +122,6 @@ CTI_OFPS_HAFM_SUBS_ADDON = 0;
 CTI_SFP_ADDON = 0;	
 CTI_OFPS_SFP_ADDON = 0;
 CTI_RUSSIA_2035_ADDON = 0;
-CTI_DATABASE_ENABLED = 0;
-CTI_DATABASE_DESTINATION = 0;
 */
 
 //--- Map specific overrides -------------------------------------------------------------
