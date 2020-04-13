@@ -44,7 +44,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1000,2000,4000], //--- Art Radar
 	[500,1000,1500,2000,3000,4000], //--- Respawn Range
 	[500,1000], //--- LVOSS System
-	[1000,2000,3000,4000], //--- ERA System
+	[500,1000,1000,1000], //--- ERA System
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
 	[1000,2000,3000], //--- Supply Rate
@@ -95,8 +95,8 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
-	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS System
-	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[],[]], //--- ERA System
+	[[],[]], //--- LVOSS System
+	[[],[],[],[]], //--- ERA System
 	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
 	[[CTI_UPGRADE_LIGHT,4]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
@@ -142,7 +142,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240,320], 		//--- Light
 		[60,120,160,240,320],		//--- Heavy 
 		[60,120,240], 				//--- Naval
-		[30,60,80,120,160], 		//--- Air Rotary
+		[60,120,160,240,320], 		//--- Air Rotary
 		[60,120,160,240,320], 		//--- Air Fixed
 		[60,120,160,240], 			//--- Air Ordinance
 		[60,120,160,240], 			//--- Land Ordinance
