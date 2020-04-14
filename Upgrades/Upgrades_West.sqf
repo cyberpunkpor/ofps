@@ -47,7 +47,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1000,2000,4000], //--- Art Radar
 	[500,1000,1500,2000,3000,4000], //--- Respawn Range
 	[500,1000], //--- LVOSS System
-	[1000,2000,3000,4000], //--- ERA System
+	[500,1000,1000,1000], //--- ERA System
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
 	[1000,2000,3000], //--- Supply Rate
@@ -100,15 +100,15 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
-	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS System
-	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[],[]], //--- ERA System
+	[[],[]], //--- LVOSS System
+	[[],[],[],[]], //--- ERA System
 	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
 	[[CTI_UPGRADE_LIGHT,4]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
 	[[],[],[],[]], //--- Base Health
-	[[],[],[],[CTI_UPGRADE_NUKE, 1]],    //--- Base Defense
+	[[],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Base Defense
 	[[],[],[]], //--- Jamming Types
-	[[],[],[],[]]     //--- Jamming Range
+	[[],[],[],[]] //--- Jamming Range
 ]];
 
 
@@ -135,9 +135,9 @@ if (CTI_DEV_MODE > 0) then {
 		[1], //--- Nuke and Arty
 		[1,1,1], //--- Supply Rate
 		[1,1,1,1], //--- Base Health
-		[1,1,1,1],   //--- Base Defense
+		[1,1,1,1], //--- Base Defense
 		[1,1,1], //--- Jamming Types
-		[1,1,1,1]    //--- Jamming Range
+		[1,1,1,1] //--- Jamming Range
 	]];
 }else {
 	//------------------------------ Normal Mode	------------------------------
