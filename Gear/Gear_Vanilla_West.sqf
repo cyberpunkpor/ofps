@@ -396,7 +396,7 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'arifle_MX_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/3,
+			/*UpgradeLevel*/0,
 			/*Price*/0,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
@@ -799,7 +799,18 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Light"]
 			];
-    
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'acc_flashlight',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/10,
+				/*Camo*/[],
+				/*Type*/["Light"]
+			];
+			    
     //Lasers
 		
 			_u pushBack [
@@ -868,7 +879,7 @@ _u = []; //Gear Classname
 					/*Name*/'',
 					/*ClassName*/'optic_ACO_grn',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-					/*UpgradeLevel*/1,
+					/*UpgradeLevel*/0,
 					/*Price*/3,
 					/*Camo*/[],
 					/*Type*/["Close"]
@@ -1421,7 +1432,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'30Rnd_65x39_caseless_mag',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/3,
+				/*UpgradeLevel*/0,
 				/*Price*/15,
 				/*Camo*/[],
 				/*Type*/["Rifle"]
@@ -3015,7 +3026,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_AssaultPack_cbr',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
+				/*UpgradeLevel*/0,
 				/*Price*/5,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
