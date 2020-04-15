@@ -4131,7 +4131,19 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
-
+	//Parachute
+					
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_T10_Parachute_backpack',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/1,
+				/*Price*/30,
+				/*Camo*/[],
+				/*Type*/["Pilot"]
+			];
+			
     //UAV Bag
     
     //Statics (Lowest Damage to Highest Damage)
