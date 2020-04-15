@@ -3771,7 +3771,7 @@ _u pushBack [
 	/*MenuName*/'T-72 (NV)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
-	/*Price*/20000,
+	/*Price*/24000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['SandHex'],
