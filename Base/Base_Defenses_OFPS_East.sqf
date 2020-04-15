@@ -165,7 +165,7 @@ _u pushBack [
 	/*MaxCount*/4,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
@@ -341,7 +341,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
@@ -357,7 +357,7 @@ _u pushBack [
 	/*MaxCount*/2,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
 ];
 
 _u pushBack [

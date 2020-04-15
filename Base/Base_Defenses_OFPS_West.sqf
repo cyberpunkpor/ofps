@@ -154,7 +154,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Mk45 Advanced Cannon',
+	/*Name*/'Mk45 Advanced Cannon (3.5k)',
 	/*Class*/"OFPS_MK45_CANNON_B",
 	/*Price*/60000,
 	/*Placement*/[180, 15],
@@ -165,7 +165,7 @@ _u pushBack [
 	/*MaxCount*/4,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
@@ -325,7 +325,7 @@ _u pushBack [
 	/*MaxCount*/2,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
