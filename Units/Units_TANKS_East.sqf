@@ -42,7 +42,7 @@ Description:	This file presents classnames and their values to the mission.
 			//[CTI_BARRACKS]
 			//[CTI_BARRACKS,CTI_DEPOT] //unit available at barracks and depot at default upgrade level
 			//[CTI_BARRACKS,[CTI_DEPOT, "default", 5]] //barracks normal, from depot require default factory upgrade 5 (different from default unit upgrade)
-			//[CTI_BARRACKS,[CTI_DEPOT,"logistics"]] //barracks normal, from depot require forward logistics using same lvl as default
+			//[CTI_BARRACKS,[CTI_DEPOT,"logistics",1]] //barracks normal, from depot require forward logistics using same lvl as default
 			//[CTI_BARRACKS,[CTI_DEPOT,"logistics",3]] //barracks normal, from depot require forward logistics 3
 
 	/*UpgradeLevel*/
@@ -236,7 +236,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_T_LSV_02_AT_F',
 	/*MenuName*/['%1 (Tropic)'],
-	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/3,
 	/*Price*/13000,
 	/*BuildTime*/30,
@@ -255,7 +255,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_LSV_02_AT_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics"]],
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/3,
 	/*Price*/13000,
 	/*BuildTime*/30,
