@@ -409,22 +409,6 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Air Tower',
-	/*Class*/"Land_Airport_01_controlTower_F",
-	/*Price*/1000,
-	/*Placement*/[0, 30],
-	/*Tags*/["Misc"],
-	/*Location*/["HQ", "RepairTruck"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
-];
-
-_u pushBack [
-	/*Enabled*/true,
 	/*Name*/'H-Barrier Big Green (4)',
 	/*Class*/"Land_HBarrier_01_big_4_green_F",
 	/*Price*/400,
