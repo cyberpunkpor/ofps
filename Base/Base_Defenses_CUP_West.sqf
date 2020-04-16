@@ -409,7 +409,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'D-30 AT',
+	/*Name*/'D-30 AT (3.5K)',
 	/*Class*/"CUP_B_D30_AT_CDF",
 	/*Price*/4000,
 	/*Placement*/[180, 5],
@@ -425,7 +425,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'TOW Tripod',
+	/*Name*/'TOW Tripod (2K)',
 	/*Class*/"CUP_B_TOW_TriPod_USMC",
 	/*Price*/4000,
 	/*Placement*/[180, 5],
@@ -441,7 +441,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'TOW-2 Tripod',
+	/*Name*/'TOW-2 Tripod (2K)',
 	/*Class*/"CUP_B_TOW2_TriPod_USMC",
 	/*Price*/4500,
 	/*Placement*/[180, 5],
