@@ -156,7 +156,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk45 Advanced Cannon (3.5k)',
 	/*Class*/"OFPS_MK45_CANNON_B",
-	/*Price*/60000,
+	/*Price*/50000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
@@ -165,7 +165,7 @@ _u pushBack [
 	/*MaxCount*/4,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -300,7 +300,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk45 Hammer Bunker',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_west",2]]],
-	/*Price*/60000,
+	/*Price*/50000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -309,7 +309,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -325,7 +325,7 @@ _u pushBack [
 	/*MaxCount*/2,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
