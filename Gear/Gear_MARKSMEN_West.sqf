@@ -602,10 +602,7 @@ _u = []; //Gear Classname
     //Regualar
     
     //UAV Bag
-    
-    //Statics (Lowest Damage to Highest Damage)
-		
-			_u pushBack [
+	_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'B_Static_Designator_01_weapon_F',
@@ -613,8 +610,10 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/3,
 				/*Price*/1200,
 				/*Camo*/[],
-				/*Type*/["Static"]
+				/*Type*/["UAV/UGV"]
 			];
+    
+    //Statics (Lowest Damage to Highest Damage)
 
   //Head gear
 

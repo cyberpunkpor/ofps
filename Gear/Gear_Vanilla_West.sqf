@@ -3253,7 +3253,29 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["UAV/UGV"]
 			];
-    
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'B_HMG_01_A_weapon_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/2,
+				/*Price*/5000,
+				/*Camo*/[],
+				/*Type*/["UAV/UGV"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'B_GMG_01_A_weapon_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/2,
+				/*Price*/8000,
+				/*Camo*/[],
+				/*Type*/["UAV/UGV"]
+			];
+
     //Statics (Lowest Damage to Highest Damage)
 		
 			_u pushBack [
@@ -3281,17 +3303,6 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'B_HMG_01_A_weapon_F',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
-				/*Price*/5000,
-				/*Camo*/[],
-				/*Type*/["Static"]
-			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
 				/*ClassName*/'B_GMG_01_weapon_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
@@ -3307,17 +3318,6 @@ _u = []; //Gear Classname
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
 				/*Price*/2200,
-				/*Camo*/[],
-				/*Type*/["Static"]
-			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'B_GMG_01_A_weapon_F',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
-				/*Price*/8000,
 				/*Camo*/[],
 				/*Type*/["Static"]
 			];
