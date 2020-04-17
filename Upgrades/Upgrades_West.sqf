@@ -42,7 +42,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[1000,2000,3000,4000], //--- Air Ordinance
 	[1000,2000,3000,4000], //--- Land Ordinance
 	[750,1000,3000,5000], //--- Forward Logistics
-	[500,3000,6000], //--- Halo
+	[1500,3000,6000], //--- Halo
 	[500,1000,2000,4000], //--- Air Radar
 	[500,1000,2000,4000], //--- Art Radar
 	[500,1000,1500,2000,3000,4000], //--- Respawn Range
@@ -200,14 +200,15 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_AI_ORDER", _side], [
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Gear", "<t>Unlock better gear."], //--- Gear
 	["Barracks", "
-	<t>Unlock better infantry, group size, player abilities, and AI skill<br />
+	<t>Unlock better infantry units, increase group size, unlock new player abilities, and improve AI skill<br />
 	<t color='#ffff00'>LVL 0</t> - Group limit 3 skill 60% <br />
 	<t color='#ffff00'>LVL 1</t> - Group limit 4 skill 65% <br />
-	<t color='#ffff00'>LVL 2</t> - Group limit 5 skill 70% | Medikit | LockPick 1<br />
-	<t color='#ffff00'>LVL 3</t> - Group limit 6 skill 75% | LockPick 2 | Explosives skill<br />
-	<t color='#ffff00'>LVL 4</t> - Group limit 7 skill 80% | LockPick 3 <br/>
-	<t color='#ffff00'>LVL 5</t> - Group limit 8 skill 85% | LockPick 3 <br />
-	<t color='#ffff00'>LVL 6</t> - Group limit 9 skill 90% | LockPick 4 | UAV hacker <br />"], //--- Barracks
+	<t color='#ffff00'>LVL 2</t> - Group limit 5 skill 70% | Medic skill (can use the Medikit item) unlocked <br>| Poor Lock Pick skill unlocked<br />
+	<t color='#ffff00'>LVL 3</t> - Group limit 6 skill 75% | Basic Lock Pick ability | Explosives skill unlocked<br />
+	<t color='#ffff00'>LVL 4</t> - Group limit 7 skill 80% | Good Lock Pick ability |</t>
+	<br/>
+	<t color='#ffff00'>LVL 5</t> - Group limit 8 skill 85% | Better Lock Pick ability |<br />
+	<t color='#ffff00'>LVL 6</t> - Group limit 9 skill 90% | Pro Lock Pick ability | UAV hacker skill unlocked<br />"], //--- Barracks
 	["Light Factory", "<t>Unlock better motorized units.</t>"], //--- Light
 	["Heavy Factory", "<t>Unlock better armored units.</t>"], //--- Heavy
 	["Naval Factory", "<t>Unlock better naval units.</t>"], //--- Naval
@@ -220,16 +221,10 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Air Radar", "<t>Increases the range of the Air Radar.<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Air Radar
 	["Artillery Radar", "<t>Increases the range of the Artillery Radar.<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Art Radar
 	["Respawn Range", "<t>Increases the max range of the respawn vehicles/crates and FOBS.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t><br /><t color='#ffff00'>LVL 5</t> - 3000m</t><br /><t color='#ffff00'>LVL 6</t> -4000m</t>"], //--- Respawn Range
-	["LVOSS System", "<t>Enables Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage.<br />
-	<t color='#ffff00'>LVL 1</t> - Ammo 1 per side - 15 sec cool down<br />
-	<t color='#ffff00'>LVL 2</t> - Ammo 2 per side - 15 sec cool down</t>"], //--- LVOSS System
-	["ERA System", "<t>Enables Explosive Reactive Armor (ERA) and an active protection system for Heavy Vehicles.<br />
-	<t color='#ffff00'>LVL 1</t> - ERA Mode Ammo 1 per side - 15 sec cool down<br />
-	<t color='#ffff00'>LVL 2</t> - ERA Mode Ammo 2 per side - 15 sec cool down<br />
-	<t color='#ffff00'>LVL 3</t> - APS Mode Ammo 3 per side - 15 sec cool down<br />
-	<t color='#ffff00'>LVL 4</t> - APS Mode Ammo 4 per side - 15 sec cool down</t>"], //--- ERA System
+	["LVOSS System", "<t>Enables Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage.<br /><t color='#ffff00'>LVL 1</t> - Ammo 1 per side, Cooldown 120s<br /><t color='#ffff00'>LVL 2</t> - Ammo 2 per side, Cooldown 90s </t>"], //--- LVOSS System
+	["ERA System", "<t>Enables Explosive Reactive Armor (ERA) and an active protection system for Heavy Vehicles, tanks are still vulnerable from the rear.<br /><t color='#ffff00'>LVL 1</t> - ERA Mode Ammo 1 per side, Cooldown 150s<br /><t color='#ffff00'>LVL 2</t> - ERA Mode Ammo 2 per side, Cooldown 120s<br /><t color='#ffff00'>LVL 3</t> - APS Mode Ammo 3 per side, Cooldown 90s<br /><t color='#ffff00'>LVL 4</t> - APS Mode Ammo 4 per side, Cooldown 60s</t>"], //--- ERA System
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam and town intel.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
-	["WMD Unlock", "<t>Unlocks the Nuke Truck and Rocket Artillery in the Light Factory.<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //--- Nuke and Arty
+	["WMD Unlock", "<t>Unlocks the Nuke Truck, Rhino, and Rocket Artillery in the Heavy Factory.<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //--- Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV raises.<br /><t color='#ffff00'>LVL 1</t> - 1.25 SV per Interval<br /><t color='#ffff00'>LVL 2</t> - 1.5 SV per Interval<br /><t color='#ffff00'>LVL 3</t> - 1.75 SV per Interval</t>"], //--- Supply Rate
 	["Base Health", "<t>Improves base structures' health<br /><t color='#ffff00'>LVL 1</t> - 25% Boost </t><br /><t color='#ffff00'>LVL 2</t> - 50% Boost<br /><t color='#ffff00'>LVL 3</t> - 75% Boost <br /><t color='#ffff00'>LVL 4</t> - 100% Boost </t>"], //--- Base Health
 	["Base Defences", "<t>Unlock better defence structures and weapons.<br /><t color='#ffff00'>LVL 1</t> - Unlocks METIS launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks C-RAM and more.<br /><t color='#ffff00'>LVL 4</t> - Unlocks the D-30 Artillery piece in the Repair Truck build menu."], //--- Base defense

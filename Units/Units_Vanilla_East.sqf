@@ -125,7 +125,7 @@ _u pushBack [
 	/*MenuName*/['Empty Supply Crate'],
 	/*Location*/[CTI_AMMO,[CTI_DEPOT,"logistics",1],[CTI_FOB,"logistics",1],[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/0,
-	/*Price*/500,
+	/*Price*/10,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['CRATE'],
