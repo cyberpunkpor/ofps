@@ -203,7 +203,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit',
 	/*Class*/"O_Radar_System_02_F",
-	/*Price*/20000,
+	/*Price*/8000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
@@ -212,14 +212,14 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","radar_tower_east",2]]],
-	/*Price*/25000,
+	/*Price*/13000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -228,7 +228,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
