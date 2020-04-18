@@ -97,7 +97,7 @@ switch (CTI_FACTION_EAST) do {
         //Vest
 		["V_BandollierB_rgr",["30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green"]],
 		//Backpack
-		["b_fieldpack_oli",["RPG32_F","RPG32_F"]]],
+		["b_fieldpack_oli",["cup_pg7v_m","cup_pg7v_m"]]],
 		//Helmet,facegear and NVG
 		["cup_h_rus_6b27_cover_headset","g_combat"],
 		//Equipment
