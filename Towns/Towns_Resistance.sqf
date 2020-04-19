@@ -58,11 +58,11 @@ GUER_VEHICLE_LIGHT5 = "I_MRAP_03_gmg_F";
 GUER_VEHICLE_LIGHT6 = "I_MRAP_03_gmg_F";
 GUER_VEHICLE_LIGHT7 = "I_LT_01_cannon_F";
 //--- APCs
-GUER_VEHICLE_APC1 = "I_APC_Wheeled_03_cannon_F";
+GUER_VEHICLE_APC1 = "I_APC_tracked_03_cannon_F";
 GUER_VEHICLE_APC2 = "I_APC_tracked_03_cannon_F";
-GUER_VEHICLE_APC3 = "I_APC_tracked_03_cannon_F";
+GUER_VEHICLE_APC3 = "I_APC_Wheeled_03_cannon_F";
 //--- Tanks
-GUER_VEHICLE_ARMORED1 = "I_APC_tracked_03_cannon_F";	
+GUER_VEHICLE_ARMORED1 = "I_MBT_03_cannon_F";	
 GUER_VEHICLE_ARMORED2 = "I_MBT_03_cannon_F";
 GUER_VEHICLE_ARMORED3 = "I_MBT_03_cannon_F";
 //--- AA Vehicles
@@ -392,9 +392,9 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 		GUER_VEHICLE_LIGHT6 = "I_MRAP_03_gmg_F";
 		GUER_VEHICLE_LIGHT7 = "I_LT_01_cannon_F";
 		//--- APCs
-		GUER_VEHICLE_APC1 = "I_APC_Wheeled_03_cannon_F";
+		GUER_VEHICLE_APC1 = "I_APC_tracked_03_cannon_F";
 		GUER_VEHICLE_APC2 = "I_APC_tracked_03_cannon_F";
-		GUER_VEHICLE_APC3 = "I_APC_tracked_03_cannon_F";
+		GUER_VEHICLE_APC3 = "I_APC_Wheeled_03_cannon_F";
 		//--- Tanks
 		GUER_VEHICLE_ARMORED1 = "I_MBT_03_cannon_F";	
 		GUER_VEHICLE_ARMORED2 = "I_MBT_03_cannon_F";
