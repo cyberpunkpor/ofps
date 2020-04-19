@@ -55,7 +55,7 @@ switch (CTI_FACTION_EAST) do {
 				["30Rnd_65x39_caseless_green_mag_Tracer", 20],
 				["30Rnd_65x39_caseless_green", 50], 
 				["CUP_launch_RPG18", 20],
-				["HandGrenade", 20]
+				["HandGrenade", 20],
 				["launch_RPG32_F", 5], 
 				["RPG32_F", 20],
 				["UGL_FlareRed_F", 27],
@@ -130,7 +130,7 @@ switch (CTI_FACTION_EAST) do {
 				["UGL_FlareRed_F", 28],
 				["acc_flashlight", 10],
 				["RPG32_F", 20],
-				["optic_ACO_grn", 10]
+				["optic_ACO_grn", 10],
 				["HandGrenade", 20]
 			]],
 			["O_T_MRAP_02_hmg_ghex_F", [
