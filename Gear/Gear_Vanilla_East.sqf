@@ -209,7 +209,7 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'arifle_Katiba_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/0,
+			/*UpgradeLevel*/3,
 			/*Price*/0,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
@@ -1056,7 +1056,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'30Rnd_65x39_caseless_green',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
+				/*UpgradeLevel*/1,
 				/*Price*/15,
 				/*Camo*/[],
 				/*Type*/["Rifle"]
@@ -1862,7 +1862,7 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'U_O_CombatUniform_ocamo',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/0,
+			/*UpgradeLevel*/3,
 			/*Price*/500,
 			/*Camo*/[],
 			/*Type*/["Uniform"]

@@ -28,17 +28,17 @@ switch (CTI_FACTION_EAST) do {
 		//--- Overfilling their equipment past its max carry will cause a black screen on mission startup		
 		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
 		//Rifle and attachments
-		[["arifle_Katiba_F",["","acc_flashlight","optic_ACO_grn",""],["30Rnd_65x39_caseless_green"]],
+		[["hgun_pdw2000_f",["","acc_flashlight","optic_ACO_grn",""],["30rnd_9x21_mag"]],
         //Launcher and attachments
-		["cup_launch_rpg7v",["","","",""],["cup_pg7v_m"]],
+		["CUP_launch_RPG18",["","","",""]],
 		//Sidearm
 		["hgun_rook40_f",["","","",""],["30rnd_9x21_mag"]]],
         //Uniform
 		[["U_O_CombatUniform_ocamo",["firstaidkit","firstaidkit","handgrenade","handgrenade"]],
         //Vest
-		["V_BandollierB_khk",["30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green"]],
+		["V_BandollierB_khk",["30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag"]],
 		//Backpack
-		["b_fieldpack_cbr",["cup_pg7v_m","cup_pg7v_m"]]],
+		["b_fieldpack_cbr",["CUP_launch_RPG18","firstaidkit","firstaidkit"]]],
 		//Helmet,facegear and NVG
 		["cup_h_rus_6b27_cover_beigedigital_headset","g_combat"],
 		//Equipment
@@ -50,19 +50,30 @@ switch (CTI_FACTION_EAST) do {
 			["O_Truck_03_medical_F", [
 				["Toolkit", 1],
 				["firstaidkit", 20], 
-				["CUP_sgun_Saiga12K", 10],
-				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
+				["30rnd_9x21_mag", 20],
+				["arifle_Katiba_GL_F", 10],
+				["30Rnd_65x39_caseless_green_mag_Tracer", 20],
 				["30Rnd_65x39_caseless_green", 50], 
-				["cup_pg7v_m", 20],
+				["CUP_launch_RPG18", 20],
 				["HandGrenade", 20]
+				["launch_RPG32_F", 5], 
+				["RPG32_F", 20],
+				["UGL_FlareRed_F", 27],
+				["acc_flashlight", 10],
+				["1Rnd_HE_Grenade_shell", 48],
+				["optic_ACO_grn", 10]
+
 			]],
 			["O_MRAP_02_hmg_F", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
-				["CUP_sgun_Saiga12K", 10],
-				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
-				["30Rnd_65x39_caseless_green", 50], 
-				["cup_pg7v_m", 20]
+				["1Rnd_HE_Grenade_shell", 15],
+				["arifle_Katiba_GL_F", 5],
+				["30Rnd_65x39_caseless_green_mag_Tracer", 20],
+				["CUP_lmg_UK59", 5],
+				["CUP_50Rnd_UK59_762x54R_Tracer", 15], 
+				["CUP_launch_RPG18", 20],
+				["optic_ACO_grn", 5]
 			]]
 		]];
 	};
@@ -87,17 +98,17 @@ switch (CTI_FACTION_EAST) do {
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
 		//Rifle and attachments
-		[["arifle_Katiba_F",["","acc_flashlight","optic_ACO_grn",""],["30Rnd_65x39_caseless_green"]],
+		[["hgun_pdw2000_f",["","acc_flashlight","optic_ACO_grn",""],["30rnd_9x21_mag"]],
         //Launcher and attachments
-		["cup_launch_rpg7v",["","","",""],["cup_pg7v_m"]],
+		["CUP_launch_RPG18",["","","",""]],
 		//Sidearm
 		["hgun_rook40_f",["","","",""],["30rnd_9x21_mag"]]],
         //Uniform
 		[["U_O_T_Soldier_F",["firstaidkit","firstaidkit","handgrenade","handgrenade"]],
         //Vest
-		["V_BandollierB_rgr",["30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green"]],
+		["V_BandollierB_rgr",["30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag"]],
 		//Backpack
-		["b_fieldpack_oli",["cup_pg7v_m","cup_pg7v_m"]]],
+		["b_fieldpack_oli",["CUP_launch_RPG18","firstaidkit","firstaidkit"]]],
 		//Helmet,facegear and NVG
 		["cup_h_rus_6b27_cover_headset","g_combat"],
 		//Equipment
@@ -109,19 +120,26 @@ switch (CTI_FACTION_EAST) do {
 			["O_T_Truck_03_medical_ghex_F", [
 				["Toolkit", 1],
 				["firstaidkit", 20],
-				["CUP_sgun_Saiga12K", 10],
-				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
-				["30Rnd_65x39_caseless_green", 50], 
-				["cup_pg7v_m", 20],
+				["30rnd_9x21_mag", 20],
+				["arifle_CTAR_GL_ghex_F", 10],
+				["100Rnd_580x42_Mag_F", 10],
+				["30Rnd_580x42_Mag_Tracer_F", 50], 
+				["launch_RPG32_ghex_F", 5],
+				["CUP_launch_RPG18", 20],
+				["1Rnd_HE_Grenade_shell", 24],
+				["UGL_FlareRed_F", 28],
+				["acc_flashlight", 10],
+				["RPG32_F", 20],
+				["optic_ACO_grn", 10]
 				["HandGrenade", 20]
 			]],
 			["O_T_MRAP_02_hmg_ghex_F", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
-				["CUP_sgun_Saiga12K", 10],
-				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
-				["30Rnd_65x39_caseless_green", 50], 
-				["cup_pg7v_m", 20]
+				["arifle_CTAR_GL_ghex_F", 10],
+				["100Rnd_580x42_ghex_Mag_Tracer_F", 5],
+				["30Rnd_580x42_Mag_Tracer_F", 50], 
+				["CUP_launch_RPG18", 20]
 			]]
 		]];
 	};
@@ -143,39 +161,52 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-		[["cup_arifle_ak74m_camo",["","acc_flashlight","cup_optic_kobra",""],["cup_30rnd_545x39_ak_m"]],["cup_launch_rpg7v",["","","",""],["cup_pg7v_m"]],["cup_hgun_pmm",["","","",""],["cup_12rnd_9x18_pmm_m"]]],[["cup_u_o_rus_emr_gloves_pads",["firstaidkit","firstaidkit","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO"]],["cup_v_rus_6b45_3",["cup_30rnd_545x39_ak_m","cup_30rnd_545x39_ak_m","cup_30rnd_545x39_ak_m","cup_30rnd_545x39_ak_m","cup_30rnd_545x39_ak_m","cup_30rnd_545x39_ak_m","cup_30rnd_545x39_ak_m","cup_30rnd_545x39_ak_m","cup_30rnd_545x39_ak_m"]],["b_fieldpack_oli",["cup_pg7v_m","cup_pg7v_m","cup_pg7v_m"]]],["cup_h_rus_6b27_cover_headset","g_combat"],[["",["binocular",""]],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+		[["CUP_smg_vityaz",["","acc_flashlight","cup_optic_kobra",""],["CUP_30Rnd_9x19_Vityaz"]],["CUP_launch_RPG18",["","","",""],[""]],["cup_hgun_pmm",["","","",""],["cup_12rnd_9x18_pmm_m"]]],[["cup_u_o_rus_emr_gloves_pads",["firstaidkit","firstaidkit","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO"]],["cup_v_rus_6b45_3",["CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz"]],["CUP_B_RPGPack_Khaki",["CUP_launch_RPG18","firstaidkit","firstaidkit"]]],["cup_h_rus_6b27_cover_headset","g_combat"],[["",["binocular",""]],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 			["CUP_O_GAZ_Vodnik_MedEvac_RU", [
-				["cup_pg7v_m", 20], 
+				["CUP_launch_RPG18", 20],
+				["CUP_HandGrenade_RGD5", 10],
 				["Toolkit", 1],
 				["firstaidkit", 20],
+				["CUP_HandGrenade_RGO", 10],
+				["CUP_arifle_AK74M", 10],
+				["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M", 20],
+				["CUP_30Rnd_9x19_Vityaz", 20],
+				["CUP_optic_Kobra", 10],
 				["cup_30rnd_545x39_ak_m", 20]
 			]],
 			["CUP_O_UAZ_SPG9_RU", [
 				["Toolkit", 1],
-				["CUP_sgun_Saiga12K", 10],
+				["firstaidkit", 10],
 				["CUP_HandGrenade_RGO", 10],
-				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
-				["cup_pg7v_m", 20], 
-				["CUP_HandGrenade_RGD5", 10],
-				["cup_30rnd_545x39_ak_m", 20]
+				["CUP_launch_RPG18", 10], 
+				["CUP_HandGrenade_RGD5", 10]
 			]],
 			["CUP_O_GAZ_Vodnik_AGS_RU", [
-				["cup_pg7v_m", 20],
+				["CUP_launch_RPG18", 20],
 				["Toolkit", 1],
-				["CUP_sgun_Saiga12K", 10],
-				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
+				["CUP_arifle_AK74M", 10],
+				["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M", 20],
+				["CUP_lmg_PKM", 2],
+				["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", 6],
 				["CUP_HandGrenade_RGD5", 10],
+				["CUP_optic_Kobra", 10],
 				["cup_30rnd_545x39_ak_m", 20]
 			]],
 			["CUP_O_BTR60_RU", [
-				["cup_pg7v_m", 20], 
+				["CUP_launch_RPG18", 20], 
 				["Toolkit", 1],
+				["CUP_arifle_AK74M", 10],
 				["CUP_sgun_Saiga12K", 10],
-				["CUP_8Rnd_B_Saiga12_74Slug_M", 20],
+				["CUP_8Rnd_B_Saiga12_74Slug_M", 10],
+				["CUP_8Rnd_B_Saiga12_74Pellets_M", 10],
+				["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M", 20],
 				["CUP_HandGrenade_RGD5", 10],
 				["CUP_HandGrenade_RGO", 10],
+				["CUP_optic_Kobra", 20],
+				["CUP_lmg_PKM", 5],
+				["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", 15], 
 				["cup_30rnd_545x39_ak_m", 20]
 			]]
 			//,	["O_Heli_Light_02_unarmed_F", []]
