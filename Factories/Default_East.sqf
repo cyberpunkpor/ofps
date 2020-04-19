@@ -34,7 +34,7 @@ switch (CTI_FACTION_EAST) do {
 		//Sidearm
 		["hgun_rook40_f",["","","",""],["30rnd_9x21_mag"]]],
         //Uniform
-		[["U_O_CombatUniform_ocamo",["firstaidkit","firstaidkit","handgrenade","handgrenade"]],
+		[["U_O_officer_noInsignia_hex_F",["firstaidkit","firstaidkit","handgrenade","handgrenade"]],
         //Vest
 		["V_BandollierB_khk",["30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag"]],
 		//Backpack
@@ -104,7 +104,7 @@ switch (CTI_FACTION_EAST) do {
 		//Sidearm
 		["hgun_rook40_f",["","","",""],["30rnd_9x21_mag"]]],
         //Uniform
-		[["U_O_T_Soldier_F",["firstaidkit","firstaidkit","handgrenade","handgrenade"]],
+		[["U_O_T_Officer_F",["firstaidkit","firstaidkit","handgrenade","handgrenade"]],
         //Vest
 		["V_BandollierB_rgr",["30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag"]],
 		//Backpack
