@@ -28,7 +28,7 @@ switch (CTI_FACTION_EAST) do {
 		//--- Overfilling their equipment past its max carry will cause a black screen on mission startup		
 		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
 		//Rifle and attachments
-		[["hgun_pdw2000_f",["","acc_flashlight","optic_ACO_grn",""],["30rnd_9x21_mag"]],
+		[["SMG_02_F",["","acc_flashlight","optic_ACO_grn",""],["30Rnd_9x21_Mag_SMG_02"]],
         //Launcher and attachments
 		["CUP_launch_RPG18",["","","",""]],
 		//Sidearm
@@ -98,7 +98,7 @@ switch (CTI_FACTION_EAST) do {
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
 		//Rifle and attachments
-		[["hgun_pdw2000_f",["","acc_flashlight","optic_ACO_grn",""],["30rnd_9x21_mag"]],
+		[["SMG_02_F",["","acc_flashlight","optic_ACO_grn",""],["30Rnd_9x21_Mag_SMG_02"]],
         //Launcher and attachments
 		["CUP_launch_RPG18",["","","",""]],
 		//Sidearm
@@ -161,7 +161,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-		[["CUP_smg_vityaz",["","acc_flashlight","cup_optic_kobra",""],["CUP_30Rnd_9x19_Vityaz"]],["CUP_launch_RPG18",["","","",""],[""]],["cup_hgun_pmm",["","","",""],["cup_12rnd_9x18_pmm_m"]]],[["cup_u_o_rus_emr_gloves_pads",["firstaidkit","firstaidkit","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO"]],["cup_v_rus_6b45_3",["CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz"]],["CUP_B_RPGPack_Khaki",["CUP_launch_RPG18","firstaidkit","firstaidkit"]]],["cup_h_rus_6b27_cover_headset","g_combat"],[["",["binocular",""]],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+		[["CUP_smg_vityaz_vfg",["","acc_flashlight","cup_optic_kobra",""],["CUP_30Rnd_9x19_Vityaz"]],["CUP_launch_RPG18",["","","",""],[""]],["cup_hgun_pmm",["","","",""],["cup_12rnd_9x18_pmm_m"]]],[["cup_u_o_rus_emr_gloves_pads",["firstaidkit","firstaidkit","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO"]],["cup_v_rus_6b45_3",["CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz"]],["CUP_B_RPGPack_Khaki",["CUP_launch_RPG18","firstaidkit","firstaidkit"]]],["cup_h_rus_6b27_cover_headset","g_combat"],[["",["binocular",""]],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
 			["CUP_O_GAZ_Vodnik_MedEvac_RU", [

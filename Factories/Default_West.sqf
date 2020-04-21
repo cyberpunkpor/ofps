@@ -28,7 +28,7 @@ switch (CTI_FACTION_WEST) do {
 		//--- Overfilling their equipment past its max carry will cause a black screen on mission startup
 		missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
 		//Rifle and attachments
-		[["smg_01_f",["","acc_flashlight","optic_aco_grn",""],["30rnd_45acp_mag_smg_01"]],
+		[["smg_01_f",["","acc_flashlight_smg_01","optic_aco_grn",""],["30rnd_45acp_mag_smg_01"]],
         //Launcher and attachments
 		["CUP_launch_M72A6_Special",["","","",""],[""]],
 		//Sidearm
@@ -98,7 +98,7 @@ switch (CTI_FACTION_WEST) do {
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
 		missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
 		//Rifle and attachments
-		[["smg_01_f",["","acc_flashlight","optic_aco_grn",""],["30rnd_45acp_mag_smg_01"]],
+		[["smg_01_f",["","acc_flashlight_smg_01","optic_aco_grn",""],["30rnd_45acp_mag_smg_01"]],
         //Launcher and attachments
 		["CUP_launch_M72A6_Special",["","","",""],[""]],
 		//Sidearm
