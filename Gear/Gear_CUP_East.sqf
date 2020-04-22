@@ -3604,8 +3604,8 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_U_CRYE_BLK_RUS_Full',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/50,
+				/*UpgradeLevel*/5,
+				/*Price*/800,
 				/*Camo*/[],
 				/*Type*/["Uniform"]
 			];
