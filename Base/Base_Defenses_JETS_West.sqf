@@ -281,7 +281,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Briefing Room Desk',
 	/*Class*/"Land_BriefingRoomDesk_01_F",
 	/*Price*/50,
@@ -297,7 +297,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Briefing Room Screen',
 	/*Class*/"Land_BriefingRoomScreen_01_F",
 	/*Price*/50,

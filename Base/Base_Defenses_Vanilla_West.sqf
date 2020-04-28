@@ -1390,7 +1390,7 @@ _u pushBack [
 	/*Class*/"Land_LampHalogen_F",
 	/*Price*/50,
 	/*Placement*/[90, 15],
-	/*Tags*/["Misc"],
+	/*Tags*/["Lighting"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
@@ -1401,7 +1401,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Flag',
 	/*Class*/"Flag_NATO_F",
 	/*Price*/50,
@@ -1417,7 +1417,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Warning Sign- Mines',
 	/*Class*/"Land_Sign_Mines_F",
 	/*Price*/5,
@@ -1433,7 +1433,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Campfire',
 	/*Class*/"FirePlace_burning_F",
 	/*Price*/50,
@@ -1449,7 +1449,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Camp Chair',
 	/*Class*/"Land_CampingChair_V1_F",
 	/*Price*/50,
@@ -1465,7 +1465,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Camp Table',
 	/*Class*/"Land_CampingTable_F",
 	/*Price*/50,
@@ -1481,7 +1481,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Latrine',
 	/*Class*/"Land_ToiletBox_F",
 	/*Price*/50,
@@ -1497,7 +1497,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Tent',
 	/*Class*/"Land_TentDome_F",
 	/*Price*/50,
@@ -1518,7 +1518,7 @@ _u pushBack [
 	/*Class*/"Land_PortableLight_double_F",
 	/*Price*/50,
 	/*Placement*/[90, 7],
-	/*Tags*/["Misc"],
+	/*Tags*/["Lighting"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
@@ -1529,7 +1529,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Map',
 	/*Class*/"MapBoard_altis_F",
 	/*Price*/1,
@@ -1545,7 +1545,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Runway Light (Blue)',
 	/*Class*/"Land_runway_edgelight_blue_F",
 	/*Price*/1,
@@ -1561,7 +1561,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'WindSock',
 	/*Class*/"Windsock_01_F",
 	/*Price*/1,
