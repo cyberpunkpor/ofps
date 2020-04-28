@@ -377,7 +377,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Noticeboard (OFPS)',
 	/*Class*/["Land_Noticeboard_F", [["Sign","notice_ofps","\ofps_assets\images\sign_ofps.paa"]]],
 	/*Price*/100,
@@ -393,7 +393,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Sign Small (OFPS)',
 	/*Class*/["SignAd_SponsorS_F", [["Sign","sign_small_ofps","\ofps_assets\images\sign_ofps.paa"]]],
 	/*Price*/100,
@@ -409,7 +409,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Map (tips over easy)',
 	/*Class*/["Land_MapBoard_F", [["Sign","map","\ofps_assets\images\sign_map.paa"]]],
 	/*Price*/100,
@@ -425,7 +425,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Sign (CSAT)',
 	/*Class*/["SignAd_Sponsor_F", [["Sign","sign_csat","\ofps_assets\images\sign_csat.paa"]]],
 	/*Price*/100,
@@ -441,7 +441,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Sign (OFPS)',
 	/*Class*/["SignAd_Sponsor_F", [["Sign","sign_ofps","\ofps_assets\images\sign_ofps.paa"]]],
 	/*Price*/100,
@@ -457,7 +457,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Billboard (OFPS)',
 	/*Class*/["Land_Billboard_F", [["Sign","billboard_ofps","\ofps_assets\images\sign_ofps.paa"]]],
 	/*Price*/100,
@@ -473,7 +473,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Large Billboard (OFPS)',
 	/*Class*/["Land_Billboard_04_blank_F", [["Sign","large_billboard_ofps","\ofps_assets\images\sign_ofps.paa"]]],
 	/*Price*/100,
@@ -489,7 +489,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Briefing Room Desk',
 	/*Class*/["Land_BriefingRoomDesk_01_F", [["Sign","briefing_room_desk_ofps","\ofps_assets\images\sign_map.paa"]]],
 	/*Price*/50,
@@ -505,7 +505,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Briefing Room Screen',
 	/*Class*/["Land_BriefingRoomScreen_01_F", [["Sign","briefing_room_screen_ofps","\ofps_assets\images\sign_map.paa"]]],
 	/*Price*/50,

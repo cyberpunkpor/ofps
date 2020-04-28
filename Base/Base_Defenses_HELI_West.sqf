@@ -104,7 +104,7 @@ _u = []; //Defense Classname
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (Purple)',
 	/*Class*/"Land_PortableHelipadLight_01_F",
 	/*Price*/5,
@@ -119,7 +119,7 @@ _u pushBack [
 	/*Specials*/[]
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (Blue)',
 	/*Class*/"PortableHelipadLight_01_blue_F",
 	/*Price*/5,
@@ -134,7 +134,7 @@ _u pushBack [
 	/*Specials*/[]
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (Red)',
 	/*Class*/"PortableHelipadLight_01_red_F",
 	/*Price*/5,
@@ -149,7 +149,7 @@ _u pushBack [
 	/*Specials*/[]
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (White)',
 	/*Class*/"PortableHelipadLight_01_white_F",
 	/*Price*/5,
@@ -164,7 +164,7 @@ _u pushBack [
 	/*Specials*/[]
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (Green)',
 	/*Class*/"PortableHelipadLight_01_green_F",
 	/*Price*/5,
@@ -179,7 +179,7 @@ _u pushBack [
 	/*Specials*/[]
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (Yellow)',
 	/*Class*/"PortableHelipadLight_01_yellow_F",
 	/*Price*/5,
