@@ -255,7 +255,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_G_Van_02_transport_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",1],[CTI_LARGE_FOB,"logistics",1]],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",0],[CTI_LARGE_FOB,"logistics",0]],
 	/*UpgradeLevel*/0,
 	/*Price*/500,
 	/*BuildTime*/5,
