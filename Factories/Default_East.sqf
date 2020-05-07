@@ -30,7 +30,7 @@ switch (CTI_FACTION_EAST) do {
 		//Rifle and attachments
 		[["SMG_02_F",["","acc_flashlight","optic_ACO_grn",""],["30Rnd_9x21_Mag_SMG_02"]],
         //Launcher and attachments
-		["CUP_launch_RPG18",["","","",""]],
+		["CUP_launch_RPG18",["","","",""],[""]],
 		//Sidearm
 		["hgun_rook40_f",["","","",""],["30rnd_9x21_mag"]]],
         //Uniform
