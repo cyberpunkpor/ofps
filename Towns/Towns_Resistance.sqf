@@ -83,16 +83,21 @@ GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
 GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
 //--- Town Statics
 GUER_TOWN_MG = "I_HMG_01_high_F";
+GUER_TOWN_MGLO = "I_HMG_01_F";
 GUER_TOWN_GL = "I_GMG_01_high_F";
 GUER_TOWN_AT = "I_static_AT_F";
 GUER_TOWN_AA = "I_static_AA_F";
+GUER_TOWN_IGLA = GUER_TOWN_AA;
 GUER_TOWN_MORTAR = "I_static_AA_F";
 GUER_TOWN_ZSU = "I_static_AA_F";
 GUER_TOWN_D30 = "I_static_AT_F";
 GUER_TOWN_SPG = "I_static_AT_F";
 GUER_TOWN_DSHKM = "I_HMG_01_high_F";
-GUER_TOWN_MG50 = "I_HMG_01_high_F";
-GUER_TOWN_AGS = "I_GMG_01_high_F";
+GUER_TOWN_KORD = "I_HMG_01_high_F";
+GUER_TOWN_KORDLO = "I_HMG_01_F";
+GUER_TOWN_MG50 = "I_G_HMG_02_high_F";
+GUER_TOWN_M2LO = "I_G_HMG_02_F";
+GUER_TOWN_AGS = "I_GMG_01_F";
 GUER_TOWN_COAST = "I_static_AT_F";
 GUER_TOWN_CRAM = "I_static_AA_F";
 //--- Town Statics Compositions
@@ -102,6 +107,7 @@ GUER_TOWN_AT_COMP = [];
 GUER_TOWN_SPG_COMP = [];
 GUER_TOWN_DSHKM_COMP = [];
 GUER_TOWN_MG50_COMP = [];
+GUER_TOWN_MGLO_COMP = [];
 
 //--- END DO NOT TOUCH THIS LIST
 
@@ -134,6 +140,31 @@ if (CTI_VANILLA_ADDON > 0 ) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
+
+	GUER_TOWN_MGLO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["I_HMG_01_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+
 	GUER_TOWN_GL_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -183,6 +214,7 @@ if (CTI_VANILLA_ADDON > 0 ) then {
 	GUER_TOWN_SPG_COMP = GUER_TOWN_AT_COMP; //fallback for vanilla
 	GUER_TOWN_DSHKM_COMP = GUER_TOWN_MG_COMP; //fallback for vanilla
 	GUER_TOWN_MG50_COMP = GUER_TOWN_MG_COMP; //fallback for vanilla
+	GUER_TOWN_M2LO_COMP = GUER_TOWN_MG_COMP; //fallback for vanilla
 };
 //--Load Heli Units
 if (CTI_HELI_ADDON > 0) then {
@@ -222,11 +254,14 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	GUER_TOWN_ZSU = "CUP_I_ZU23_TK_GUE";
 	GUER_TOWN_MOR = "CUP_I_2b14_82mm_TK_GUE";
 	GUER_TOWN_DSHKM = "CUP_I_DSHKM_TK_GUE";
+	GUER_TOWN_KORD = "CUP_I_KORD_high_UN";
+	GUER_TOWN_KORDLO = "CUP_I_KORD_UN";
 	GUER_TOWN_AGS = "CUP_I_AGS_TK_GUE";
 	GUER_TOWN_CRAM = "CUP_I_ZU23_TK_GUE";
 	GUER_TOWN_MK29 = "CUP_I_ZU23_TK_GUE";
 	GUER_TOWN_MK49 = "CUP_I_ZU23_TK_GUE";
 	GUER_TOWN_MG50 = "CUP_I_M2StaticMG_RACS";
+	GUER_TOWN_M2LO = "CUP_I_M2StaticMG_MiniTripod_RACS";
 	GUER_TOWN_MG50 = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -242,6 +277,29 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["CUP_I_M2StaticMG_RACS", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	GUER_TOWN_M2LO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_I_M2StaticMG_MiniTripod_RACS", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -273,7 +331,7 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];	
-	GUER_TOWN_SPG = [{
+	GUER_TOWN_SPG_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
 		

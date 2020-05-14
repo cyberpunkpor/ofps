@@ -80,6 +80,7 @@ EAST_NAVAL_LARGE_ASSAULT_BOAT = "O_Boat_Armed_01_hmg_F";
 EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "O_Boat_Armed_01_hmg_F";
 //--- Town Statics
 EAST_TOWN_MG = "O_HMG_01_High_F";
+EAST_TOWN_MGLO = "O_HMG_01_F";
 EAST_TOWN_GL = "O_GMG_01_high_F";
 EAST_TOWN_AT = "O_static_AT_F";
 EAST_TOWN_AA = "O_static_AA_F";
@@ -88,8 +89,11 @@ EAST_TOWN_ZSU = "O_static_AA_F";
 EAST_TOWN_D30 = "O_static_AT_F";
 EAST_TOWN_SPG = "O_static_AT_F";
 EAST_TOWN_DSHKM = "O_HMG_01_High_F";
-EAST_TOWN_MG50 = "O_HMG_01_High_F";
-EAST_TOWN_AGS = "O_GMG_01_high_F";
+EAST_TOWN_KORD = "O_HMG_01_High_F";
+EAST_TOWN_KORDLO = "O_HMG_01_F";
+EAST_TOWN_MG50 = "O_HMG_02_high_F";
+EAST_TOWN_M2LO = "O_G_HMG_02_F";
+EAST_TOWN_AGS = "O_GMG_01_F";
 EAST_TOWN_COAST = "O_static_AT_F";
 EAST_TOWN_CRAM = "O_static_AA_F";
 EAST_TOWN_IGLA = "O_static_AA_F";
@@ -100,6 +104,8 @@ EAST_TOWN_AT_COMP = [];
 EAST_TOWN_SPG_COMP = [];
 EAST_TOWN_DSHKM_COMP = [];
 EAST_TOWN_MG50_COMP = [];
+EAST_TOWN_MGLO_COMP = [];
+
 //--- END DO NOT TOUCH THIS LIST
 
 //--------------------------------------------------------------------------------------------
@@ -124,6 +130,29 @@ if (CTI_VANILLA_ADDON > 0) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["O_HMG_01_High_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_MGLO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["O_HMG_01_F", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -220,11 +249,14 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	EAST_TOWN_ZSU = "CUP_O_ZS23_RU";
 	EAST_TOWN_IGLA = "CUP_O_Igla_AA_pod_RU";
 	EAST_TOWN_SPG = "CUP_O_SPG9_ChDKZ";
-	EAST_TOWN_DSHKM = "CUP_I_DSHKM_TK_GUE";
+	EAST_TOWN_DSHKM = "CUP_O_DSHKM_TK_INS";
+	EAST_TOWN_KORD = "CUP_O_KORD_high_RU";
+	EAST_TOWN_KORDLO = "CUP_O_KORD_RU";
 	EAST_TOWN_MG50 = "CUP_I_M2StaticMG_RACS";
 	EAST_TOWN_CRAM = "CUP_O_ZS23_RU";
 	EAST_TOWN_MK29 = "CUP_O_ZS23_RU";
 	EAST_TOWN_MK49 = "CUP_O_Igla_AA_pod_RU";
+	EAST_TOWN_M2LO = "CUP_I_M2StaticMG_MiniTripod_RACS";
 	EAST_TOWN_MG50_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -248,6 +280,29 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
+	EAST_TOWN_M2LO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_I_M2StaticMG_MiniTripod_RACS", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	EAST_TOWN_DSHKM_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -262,7 +317,7 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 		_object enableSimulationGlobal false;
 		_t_composition pushBack _object;
 		
-		_object = createVehicle ["CUP_I_DSHKM_TK_GUE", _t_center, [], 0, "CAN_COLLIDE"];
+		_object = createVehicle ["CUP_O_DSHKM_TK_INS", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;

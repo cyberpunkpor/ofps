@@ -80,16 +80,21 @@ WEST_NAVAL_LARGE_ASSAULT_BOAT = "B_Boat_Armed_01_minigun_F";
 WEST_NAVAL_CAPITAL_ASSAULT_BOAT = "B_Boat_Armed_01_minigun_F";
 //--- Town Statics
 WEST_TOWN_MG = "B_HMG_01_High_F";
+WEST_TOWN_MGLO = "B_HMG_01_F";
 WEST_TOWN_GL = "B_GMG_01_high_F";
 WEST_TOWN_AT = "B_static_AT_F";
 WEST_TOWN_AA = "B_static_AA_F";
+WEST_TOWN_IGLA = WEST_TOWN_AA;
 WEST_TOWN_MORTAR = "B_Mortar_01_F";
 WEST_TOWN_ZSU = "B_static_AA_F";
 WEST_TOWN_D30 = "B_static_AT_F";
 WEST_TOWN_SPG = "B_static_AT_F";
 WEST_TOWN_DSHKM = "B_HMG_01_High_F";
-WEST_TOWN_MG50 = "B_HMG_01_High_F";
-WEST_TOWN_AGS = "B_GMG_01_high_F";
+WEST_TOWN_KORD = "B_HMG_01_High_F";
+WEST_TOWN_KORDLO = "B_HMG_01_F";
+WEST_TOWN_MG50 = "B_G_HMG_02_high_F";
+WEST_TOWN_M2LO = "B_G_HMG_02_F";
+WEST_TOWN_AGS = "B_GMG_01_F";
 WEST_TOWN_COAST = "B_static_AT_F";
 WEST_TOWN_CRAM = "B_static_AA_F";
 //--- Town Statics Compositions
@@ -99,6 +104,7 @@ WEST_TOWN_AT_COMP = [];
 WEST_TOWN_SPG_COMP = [];
 WEST_TOWN_DSHKM_COMP = [];
 WEST_TOWN_MG50_COMP = [];
+WEST_TOWN_MGLO_COMP = [];
 //--- END DO NOT TOUCH THIS LIST
 
 //--------------------------------------------------------------------------------------------
@@ -123,6 +129,29 @@ if (CTI_VANILLA_ADDON > 0) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["B_HMG_01_High_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	WEST_TOWN_MGLO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["B_HMG_01_F", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -219,8 +248,11 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	WEST_TOWN_ZSU = "CUP_B_ZU23_CDF";
 	WEST_TOWN_D30 = "OFPS_I_D30_GND";
 	WEST_TOWN_SPG = "CUP_B_SPG9_CDF";
-	WEST_TOWN_DSHKM = "CUP_I_DSHKM_TK_GUE";
-	WEST_TOWN_MG50 = "CUP_I_M2StaticMG_RACS";
+	WEST_TOWN_DSHKM = "CUP_B_DSHKM_ACR";
+	WEST_TOWN_KORD = "CUP_O_KORD_high_RU";
+	WEST_TOWN_KORDLO = "CUP_O_KORD_RU";
+	WEST_TOWN_MG50 = "CUP_B_M2StaticMG_US";
+	WEST_TOWN_M2LO = "CUP_B_M2StaticMG_MiniTripod_US";
 	WEST_TOWN_CRAM = "CUP_WV_B_CRAM";
 	WEST_TOWN_MK29 = "CUP_WV_B_SS_Launcher";
 	WEST_TOWN_MK49 = "CUP_WV_B_RAM_Launcher";
@@ -239,7 +271,31 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 		_object enableSimulationGlobal false;
 		_t_composition pushBack _object;
 		
-		_object = createVehicle ["CUP_I_M2StaticMG_RACS", _t_center, [], 0, "CAN_COLLIDE"];
+		_object = createVehicle ["CUP_B_M2StaticMG_US", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+
+	WEST_TOWN_M2LO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_B_M2StaticMG_MiniTripod_US", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
