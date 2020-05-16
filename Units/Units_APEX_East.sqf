@@ -1320,7 +1320,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'C_Scooter_Transport_01_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics",1]],
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL]],
 	/*UpgradeLevel*/0,
 	/*Price*/150,
 	/*BuildTime*/10,
