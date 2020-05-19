@@ -179,7 +179,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_I_PMC_Soldier_MG',
 	/*MenuName*/'',
-	/*Location*/[CTI_BARRACKS],r
+	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/140,
 	/*BuildTime*/5,
