@@ -209,6 +209,7 @@ if (CTI_VANILLA_ADDON > 0) then {
 	WEST_TOWN_SPG_COMP = WEST_TOWN_AT_COMP; //fallback for vanilla
 	WEST_TOWN_DSHKM_COMP = WEST_TOWN_MG_COMP; //fallback for vanilla
 	WEST_TOWN_MG50_COMP = WEST_TOWN_MG_COMP; //fallback for vanilla
+	WEST_TOWN_M2LO_COMP = WEST_TOWN_MGLO_COMP; //fallback for vanilla
 };
 
 //--Load Heli Mod

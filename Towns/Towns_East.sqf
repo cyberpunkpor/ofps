@@ -210,6 +210,7 @@ if (CTI_VANILLA_ADDON > 0) then {
 	EAST_TOWN_SPG_COMP = EAST_TOWN_AT_COMP; //fallback for vanilla
 	EAST_TOWN_DSHKM_COMP = EAST_TOWN_MG_COMP; //fallback for vanilla
 	EAST_TOWN_MG50_COMP = EAST_TOWN_MG_COMP; //fallback for vanilla	
+	EAST_TOWN_M2LO_COMP = EAST_TOWN_MGLO_COMP; //fallback for vanilla
 };
 
 //--Load Heli Mod

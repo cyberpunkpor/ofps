@@ -214,7 +214,7 @@ if (CTI_VANILLA_ADDON > 0 ) then {
 	GUER_TOWN_SPG_COMP = GUER_TOWN_AT_COMP; //fallback for vanilla
 	GUER_TOWN_DSHKM_COMP = GUER_TOWN_MG_COMP; //fallback for vanilla
 	GUER_TOWN_MG50_COMP = GUER_TOWN_MG_COMP; //fallback for vanilla
-	GUER_TOWN_M2LO_COMP = GUER_TOWN_MG_COMP; //fallback for vanilla
+	GUER_TOWN_M2LO_COMP = GUER_TOWN_MGLO_COMP; //fallback for vanilla
 };
 //--Load Heli Units
 if (CTI_HELI_ADDON > 0) then {
