@@ -219,7 +219,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk41 VLS',
 	/*Class*/"B_Ship_MRLS_01_F",
-	/*Price*/80000,
+	/*Price*/280000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
