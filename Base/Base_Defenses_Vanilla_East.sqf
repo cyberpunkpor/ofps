@@ -1585,6 +1585,70 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*Class*/"O_HMG_01_F",
+	/*Price*/2000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*Class*/"O_HMG_01_High_F",
+	/*Price*/2000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk30 HMG (Low)',
+	/*Class*/"O_HMG_01_F",
+	/*Price*/2000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk32 GMG',
+	/*Class*/"O_GMG_01_F",
+	/*Price*/3000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk32 GMG',
 	/*Class*/"O_GMG_01_high_F",

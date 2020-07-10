@@ -3602,7 +3602,83 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/2000,
+	/*Price*/3000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_2b14_82mm_TK_GUE',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/20000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_KORD_UN',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_M2StaticMG_MiniTripod_RACS',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1000,
+	/*BuildTime*/20,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_KORD_high_UN',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1000,
 	/*BuildTime*/20,
 	/*Distance*/0,
 	/*Camo*/[""],
