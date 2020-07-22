@@ -234,12 +234,12 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Radar Unit',
+	/*Name*/'Radar Unit (Requires AI Outside Base)',
 	/*Class*/"B_Radar_System_01_F",
 	/*Price*/8000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
 	/*MaxCount*/1,
