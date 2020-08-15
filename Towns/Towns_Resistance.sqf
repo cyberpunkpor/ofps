@@ -797,12 +797,16 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 		GUER_AIR_AA = "I_Plane_Fighter_03_AA_F";
 		//GUER_AIR_CAS = "CUP_I_L39_AAF";
 		//--- Boats
-		//GUER_NAVAL_ASSAULT_BOAT1 = "I_Boat_Armed_01_minigun_F";
-		//GUER_NAVAL_ASSAULT_BOAT2 = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_ASSAULT_BOAT1 = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_ASSAULT_BOAT2 = "I_Boat_Armed_01_minigun_F";
 		//GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "HAFM_GunBoat";
 		//GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_GunBoat";
 		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "HAFM_GunBoat";		
 		//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
+
+		//Town Statics
+		GUER_TOWN_MG50 = "I_G_HMG_02_high_F";
+		GUER_TOWN_M2LO = "I_G_HMG_02_F";
 	};
 	//--Load Heli Mod
 	if (CTI_HELI_ADDON > 0) then {
@@ -1466,7 +1470,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 		GUER_VEHICLE_ARMORED2 = "CUP_I_M60A3_TTS_RACS";
 		GUER_VEHICLE_ARMORED3 = "CUP_I_T72_RACS";
 		//--- AA Vehicles
-		GUER_VEHICLE_AA1 = "CUP_I_M163_RACS";
+		GUER_VEHICLE_AA1 = "CUP_I_LR_AA_RACS";
 		GUER_VEHICLE_AA2 = "CUP_I_M163_RACS";
 		GUER_VEHICLE_AA3 = "CUP_I_M163_RACS";
 		//--- Air
