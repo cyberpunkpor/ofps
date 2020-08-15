@@ -252,7 +252,7 @@ if (CTI_CONTACT_ADDON > 0) then {
 if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	GUER_TOWN_SPG = "CUP_I_SPG9_TK_GUE";
 	GUER_TOWN_ZSU = "CUP_I_ZU23_TK_GUE";
-	GUER_TOWN_MOR = "CUP_I_2b14_82mm_TK_GUE";
+	GUER_TOWN_MORTAR = "CUP_I_2b14_82mm_TK_GUE";
 	GUER_TOWN_DSHKM = "CUP_I_DSHKM_TK_GUE";
 	GUER_TOWN_KORD = "CUP_I_KORD_high_UN";
 	GUER_TOWN_KORDLO = "CUP_I_KORD_UN";
@@ -260,54 +260,6 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	GUER_TOWN_CRAM = "CUP_I_ZU23_TK_GUE";
 	GUER_TOWN_MK29 = "CUP_I_ZU23_TK_GUE";
 	GUER_TOWN_MK49 = "CUP_I_ZU23_TK_GUE";
-	GUER_TOWN_MG50 = "CUP_I_M2StaticMG_RACS";
-	GUER_TOWN_M2LO = "CUP_I_M2StaticMG_MiniTripod_RACS";
-	GUER_TOWN_MG50_COMP = [{
-		_t_center = _this select 0;
-		_t_direction = _this select 1;
-		
-		_t_defenses = [];
-		_t_composition = [];
-		
-		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
-		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object enableSimulationGlobal false;
-		_t_composition pushBack _object;
-		
-		_object = createVehicle ["CUP_I_M2StaticMG_RACS", _t_center, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object setVectorUp surfaceNormal position _object;
-		_t_defenses pushBack _object;
-		
-		//--- Return the defenses objects and the composition
-		[_t_defenses, _t_composition]
-	}];
-	GUER_TOWN_M2LO_COMP = [{
-		_t_center = _this select 0;
-		_t_direction = _this select 1;
-		
-		_t_defenses = [];
-		_t_composition = [];
-		
-		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
-		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object enableSimulationGlobal false;
-		_t_composition pushBack _object;
-		
-		_object = createVehicle ["CUP_I_M2StaticMG_MiniTripod_RACS", _t_center, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object setVectorUp surfaceNormal position _object;
-		_t_defenses pushBack _object;
-		
-		//--- Return the defenses objects and the composition
-		[_t_defenses, _t_composition]
-	}];
 	GUER_TOWN_DSHKM_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -1276,23 +1228,23 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	//--- CUP UNITS
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 		//--- Infantry
-		GUER_SOLDIER = "CUP_I_GUE_Soldier_AKM";
-		GUER_SOLDIER_AA = "I_Soldier_AA_F";
+		GUER_SOLDIER = "CUP_I_GUE_Soldier_AKS74";
+		GUER_SOLDIER_AA = "CUP_I_GUE_Soldier_AA";
 		GUER_SOLDIER_AR = "CUP_I_GUE_Soldier_AR";
-		GUER_SOLDIER_AT = "I_Soldier_LAT2_F";
+		GUER_SOLDIER_AT = "CUP_I_GUE_Soldier_AT";
 		GUER_SOLDIER_CREW = "CUP_I_GUE_Crew";
-		GUER_SOLDIER_LAT = "CUP_I_GUE_Soldier_AT";
-		GUER_SOLDIER_HAT = "I_Soldier_AT_F";
+		GUER_SOLDIER_LAT = "CUP_I_GUE_Soldier_LAT";
+		GUER_SOLDIER_HAT = "CUP_I_GUE_Soldier_AT";
 		GUER_SOLDIER_ENGINEER = "CUP_I_GUE_Engineer";
 		GUER_SOLDIER_EXP = "CUP_I_GUE_Saboteur";
 		GUER_SOLDIER_GL = "CUP_I_GUE_Soldier_GL";
 		GUER_SOLDIER_MEDIC = "CUP_I_GUE_Medic";
 		GUER_SOLDIER_MG = "CUP_I_GUE_Soldier_MG";
 		GUER_SOLDIER_PILOT = "CUP_I_GUE_Pilot";
-		GUER_SOLDIER_SNIPER = "CUP_I_GUE_Sniper";
-		GUER_SOLDIER_MARKSMAN = "CUP_I_GUE_Sniper";
-		GUER_SOLDIER_TEAMLEADER = "I_Soldier_TL_F";
-		GUER_SOLDIER_SQUADLEADER = "CUP_I_GUE_Commander";
+		GUER_SOLDIER_SNIPER = "CUP_I_GUE_Gamekeeper";
+		GUER_SOLDIER_MARKSMAN = "CUP_I_GUE_Soldier_Scout";
+		GUER_SOLDIER_TEAMLEADER = "CUP_I_GUE_Officer";
+		GUER_SOLDIER_SQUADLEADER = "CUP_I_GUE_Officer";
 		//--- Naval Infantry
 		//GUER_SOLDIER_NAVAL_INFANTRY = "I_diver_F";
 		//GUER_SOLDIER_NAVAL_SQUADLEADER = "I_diver_TL_F";
@@ -1306,8 +1258,8 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 		GUER_VEHICLE_LIGHT7 = "I_LT_01_AT_F";
 		//--- APCs
 		GUER_VEHICLE_APC1 = "CUP_I_BMP2_NAPA";
-		GUER_VEHICLE_APC2 = "I_APC_tracked_03_cannon_F";
-		GUER_VEHICLE_APC3 = "I_APC_tracked_03_cannon_F";
+		GUER_VEHICLE_APC2 = "CUP_I_BMP2_NAPA";
+		GUER_VEHICLE_APC3 = "I_E_APC_tracked_03_cannon_F";
 		//--- Tanks
 		GUER_VEHICLE_ARMORED1 = "CUP_I_T72_NAPA";	
 		GUER_VEHICLE_ARMORED2 = "I_MBT_03_cannon_F";
@@ -1328,6 +1280,11 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 		//GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 		//GUER_NAVAL_SUBMARINE = "OFPS_GUNBOAT_I";
+
+		//Town Statics
+		GUER_TOWN_MG50 = "I_E_HMG_02_high_F";
+		GUER_TOWN_M2LO = "I_E_HMG_02_F";
+		GUER_TOWN_MORTAR = "I_E_Mortar_01_F";
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
