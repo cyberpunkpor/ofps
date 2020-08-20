@@ -616,7 +616,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Shed Large Concrete Walled',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","shed_large_walled_concrete",2]]],
 	/*Price*/10000,
