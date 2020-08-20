@@ -568,7 +568,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Shed Large',
 	/*Class*/"Land_SCF_01_shed_F",
 	/*Price*/8000,
