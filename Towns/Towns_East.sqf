@@ -105,6 +105,7 @@ EAST_TOWN_SPG_COMP = [];
 EAST_TOWN_DSHKM_COMP = [];
 EAST_TOWN_MG50_COMP = [];
 EAST_TOWN_MGLO_COMP = [];
+EAST_TOWN_M2LO_COMP = [];
 
 //--- END DO NOT TOUCH THIS LIST
 
@@ -130,6 +131,53 @@ if (CTI_VANILLA_ADDON > 0) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["O_HMG_01_High_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_M2LO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["O_G_HMG_02_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+		if (CTI_VANILLA_ADDON > 0 ) then {
+	GUER_TOWN_MG50_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["O_HMG_02_high_F", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -209,8 +257,6 @@ if (CTI_VANILLA_ADDON > 0) then {
 	}];	
 	EAST_TOWN_SPG_COMP = EAST_TOWN_AT_COMP; //fallback for vanilla
 	EAST_TOWN_DSHKM_COMP = EAST_TOWN_MG_COMP; //fallback for vanilla
-	EAST_TOWN_MG50_COMP = EAST_TOWN_MG_COMP; //fallback for vanilla	
-	EAST_TOWN_M2LO_COMP = EAST_TOWN_MGLO_COMP; //fallback for vanilla
 };
 
 //--Load Heli Mod
@@ -1588,7 +1634,7 @@ See below for pools
 //--- Statics Groups
 EAST_TOWNS_STATICS_ALL = [EAST_TOWN_MG,EAST_TOWN_MGLO,EAST_TOWN_KORD,EAST_TOWN_KORDLO,EAST_TOWN_M2LO,EAST_TOWN_GL,EAST_TOWN_AT,EAST_TOWN_AA,EAST_TOWN_IGLA,EAST_TOWN_ZSU,EAST_TOWN_D30,EAST_TOWN_SPG,EAST_TOWN_DSHKM,EAST_TOWN_MG50,EAST_TOWN_AGS,EAST_TOWN_COAST];
 EAST_TOWNS_STATICS_CORE = [EAST_TOWN_MG,EAST_TOWN_GL,EAST_TOWN_AT];
-EAST_TOWNS_STATICS_COMPS = EAST_TOWN_MG_COMP + EAST_TOWN_GL_COMP + EAST_TOWN_AT_COMP + EAST_TOWN_SPG_COMP + EAST_TOWN_DSHKM_COMP + EAST_TOWN_MG50_COMP;
+EAST_TOWNS_STATICS_COMPS = EAST_TOWN_MG_COMP + EAST_TOWN_GL_COMP + EAST_TOWN_AT_COMP + EAST_TOWN_SPG_COMP + EAST_TOWN_DSHKM_COMP + EAST_TOWN_MG50_COMP + EAST_TOWN_MGLO_COMP + EAST_TOWN_M2LO_COMP;
 EAST_TOWNS_STATICS_INFANTRY = [EAST_TOWN_MG,EAST_TOWN_KORD,EAST_TOWN_GL,EAST_TOWN_DSHKM,EAST_TOWN_MG50,EAST_TOWN_AGS];
 EAST_TOWNS_STATICS_VEHICLE = [EAST_TOWN_AT,EAST_TOWN_D30,EAST_TOWN_SPG];
 EAST_TOWNS_STATICS_AIR = [EAST_TOWN_AA,EAST_TOWN_ZSU,EAST_TOWN_IGLA];
