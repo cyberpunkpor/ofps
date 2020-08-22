@@ -163,7 +163,7 @@ if (CTI_VANILLA_ADDON > 0) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
-		EAST_TOWN_M2LO_COMP = [{
+	WEST_TOWN_M2LO_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
 		
