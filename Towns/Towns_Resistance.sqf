@@ -108,6 +108,7 @@ GUER_TOWN_SPG_COMP = [];
 GUER_TOWN_DSHKM_COMP = [];
 GUER_TOWN_MG50_COMP = [];
 GUER_TOWN_MGLO_COMP = [];
+GUER_TOWN_M2LO_COMP = [];
 
 //--- END DO NOT TOUCH THIS LIST
 
@@ -142,7 +143,7 @@ if (CTI_VANILLA_ADDON > 0 ) then {
 	}];
 
 	if (CTI_VANILLA_ADDON > 0 ) then {
-	GUER_TOWN_MG_COMP = [{
+	GUER_TOWN_MG50_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
 		
@@ -166,7 +167,7 @@ if (CTI_VANILLA_ADDON > 0 ) then {
 		[_t_defenses, _t_composition]
 	}];
 
-	GUER_TOWN_MGLO_COMP = [{
+	GUER_TOWN_M2LO_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
 		
