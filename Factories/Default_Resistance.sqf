@@ -69,7 +69,14 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	
 	};
 
-	case 9: { //Unsung
+	case 9: { //CUP - NAPA Chernarus (2035)
+	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_GUE_Commander"];
+	missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_I_GUE_Soldier_AKS74"];
+	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_GUE_Soldier_AKS74"];
+	missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "CUP_I_GUE_Soldier_AKS74"];
+	missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_I_GUE_Crew"];
+	missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_I_GUE_Crew"];
+	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_GUE_Soldier_AKS74"];
 
 	};
 
