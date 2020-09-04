@@ -18,7 +18,13 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	};
 
 	case 2: { //Syndikat Paramilitary - APEX
-
+	missionNamespace setVariable [format["CTI_%1_Commander", _side], "I_officer_F"];
+	missionNamespace setVariable [format["CTI_%1_Worker", _side], "I_soldier_F"];
+	missionNamespace setVariable [format["CTI_%1_Static", _side], "I_C_Soldier_Para_1_F"];
+	missionNamespace setVariable [format["CTI_%1_Diver", _side], "I_diver_F"];
+	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "I_C_Soldier_Para_1_F"];
+	missionNamespace setVariable [format["CTI_%1_Crew", _side], "I_crew_F"];
+	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "I_pilot_F"];
 	};
 
 	case 3: { //ION PMC - CUP
@@ -65,8 +71,14 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	
 	};
 
-	case 8: { //Cold War
-	
+	case 8: { //CUP - ION PMC (ARCTIC)
+	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_PMC_Soldier_TL"];
+	missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_I_PMC_Winter_Soldier"];
+	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_PMC_Winter_Soldier"];
+	missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_I_PMC_Winter_Crew"];
+	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_PMC_Winter_Soldier"];
+	missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_I_PMC_Winter_Crew"];
+	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_PMC_Winter_Pilot"];
 	};
 
 	case 9: { //CUP - NAPA Chernarus (2035)
