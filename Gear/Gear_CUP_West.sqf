@@ -2375,7 +2375,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_lmg_M249_E2',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/1,
-				/*Price*/1100,
+				/*Price*/110,
 				/*Camo*/[],
 				/*Type*/["LMG"]
 			];
