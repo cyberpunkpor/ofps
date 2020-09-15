@@ -649,7 +649,18 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_lmg_PKM',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/1,
-				/*Price*/60,
+				/*Price*/100,
+				/*Camo*/[],
+				/*Type*/["MMG"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_lmg_PKM_front_rail_B50_vfg',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/3,
+				/*Price*/100,
 				/*Camo*/[],
 				/*Type*/["MMG"]
 			];
