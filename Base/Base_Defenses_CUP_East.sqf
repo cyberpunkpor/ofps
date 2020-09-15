@@ -475,7 +475,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Metis AT-13',
 	/*Class*/"CUP_O_Metis_RU",
-	/*Price*/4000,
+	/*Price*/3000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
@@ -489,9 +489,25 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'Kornet AT-14',
+	/*Class*/"CUP_O_Kornet_RU",
+	/*Price*/3500,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'AA Igla Pod',
 	/*Class*/"CUP_O_Igla_AA_pod_RU",
-	/*Price*/4000,
+	/*Price*/3500,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ", "RepairTruck"],

@@ -681,15 +681,31 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'RBS-70 (360° AA)',
+	/*Enabled*/true,
+	/*Name*/'RBS-70 (360° AA/AT)',
 	/*Class*/"CUP_B_RBS70_ACR",
-	/*Price*/6000,
+	/*Price*/5000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
 	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'AA Stinger Pod',
+	/*Class*/"CUP_B_Stinger_AA_pod_US",
+	/*Price*/3500,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,

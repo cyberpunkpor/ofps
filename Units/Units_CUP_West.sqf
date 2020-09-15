@@ -3754,7 +3754,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/1,
-	/*Price*/15500,
+	/*Price*/11500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -5553,6 +5553,44 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_Boxer_HMG_HIL',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",2,"logistics",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/7000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_Boxer_GMG_HIL',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",2,"logistics",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/8500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1130_CV_M2_Woodland_Slat',
@@ -6922,13 +6960,13 @@ _u pushBack [
 
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Challenger2_Woodland_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/55000,
+	/*Price*/55500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -6998,16 +7036,16 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Challenger2_Desert_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/4,
-	/*Price*/55000,
+	/*UpgradeLevel*/3,
+	/*Price*/55500,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Tan'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -7045,7 +7083,7 @@ _u pushBack [
 	/*Price*/55000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Tan'],
+	/*Camo*/['Sand'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -7055,13 +7093,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_Challenger2_Snow_BAF',
+	/*ClassName*/'CUP_B_Challenger2_2CS_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/55000,
+	/*Price*/55500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Winter'],
@@ -7076,7 +7114,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_Challenger2_2CS_BAF',
+	/*ClassName*/'CUP_B_Challenger2_Snow_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
@@ -7111,6 +7149,43 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_M151_M2_HIL',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB ]],
+	/*UpgradeLevel*/1,
+	/*Price*/600,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_M151_HIL',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB ]],
+	/*UpgradeLevel*/0,
+	/*Price*/350,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 _u pushBack [
 	/*Enabled*/false,
@@ -8143,6 +8218,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_JAS39_HIL',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/3,
+	/*Price*/60000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Fighter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_MV22_USMC',
 	/*MenuName*/'MV-22B Osprey (Medevac)',
 	/*Location*/[CTI_AIR_FIXED],
@@ -8608,6 +8702,25 @@ _u pushBack [
 	/*Distance*/80,
 	/*Camo*/[],
 	/*Type*/['Attack Ship'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_ZUBR_CDF',
+	/*MenuName*/['ZUBR LCAC (Vehicle Transport / Medic)'],
+	/*Location*/[CTI_NAVAL],
+	/*UpgradeLevel*/2,
+	/*Price*/50000,
+	/*BuildTime*/30,
+	/*Distance*/80,
+	/*Camo*/[],
+	/*Type*/[''],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
