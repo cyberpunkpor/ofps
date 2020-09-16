@@ -84,7 +84,7 @@ WEST_TOWN_MGLO = "B_HMG_01_F";
 WEST_TOWN_GL = "B_GMG_01_high_F";
 WEST_TOWN_AT = "B_static_AT_F";
 WEST_TOWN_AA = "B_static_AA_F";
-WEST_TOWN_IGLA = "CUP_B_Stinger_AA_pod_US";
+WEST_TOWN_IGLA = WEST_TOWN_AA;
 WEST_TOWN_MORTAR = "B_Mortar_01_F";
 WEST_TOWN_ZSU = "B_static_AA_F";
 WEST_TOWN_D30 = "B_static_AT_F";
@@ -304,6 +304,7 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	WEST_TOWN_MK29 = "CUP_WV_B_SS_Launcher";
 	WEST_TOWN_MK49 = "CUP_WV_B_RAM_Launcher";
 	WEST_TOWN_AGS = "CUP_B_AGS_ACR";
+	WEST_TOWN_IGLA = "CUP_B_Stinger_AA_pod_US"
 	//COMPS
 	WEST_TOWN_MG50_COMP = [{
 		_t_center = _this select 0;
