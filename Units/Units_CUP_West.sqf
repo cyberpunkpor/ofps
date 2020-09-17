@@ -7694,7 +7694,7 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
-	/*Type*/['Armed Vehicle Transport/Heavy lift Helicopter'],
+	/*Type*/['Armed Vehicle Transport/Heavy Lift Helicopter'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
