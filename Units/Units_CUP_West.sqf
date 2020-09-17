@@ -3617,7 +3617,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'	CUP_B_LR_Special_M2_GB_W',
+	/*ClassName*/'CUP_B_LR_Special_M2_GB_W',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/1,
