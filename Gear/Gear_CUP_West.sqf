@@ -5433,33 +5433,6 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["SMG"]
 			];
-this addItemToBackpack "CUP_PG7VL_M";
-for "_i" from 1 to 2 do {this addItemToBackpack "CUP_HandGrenade_RGD5";};
-for "_i" from 1 to 6 do {this addItemToBackpack "CUP_1Rnd_HE_GP25_M";};
-for "_i" from 1 to 2 do {this addItemToBackpack "CUP_10Rnd_762x54_SVD_M";};
-this addItemToBackpack "CUP_30Rnd_45ACP_M3A1_SND_M";
-this addItemToBackpack "CUP_30Rnd_45ACP_Green_Tracer_M3A1_SND_M";
-this addItemToBackpack "CUP_30Rnd_45ACP_Yellow_Tracer_M3A1_SND_M";
-this addItemToBackpack "CUP_30Rnd_45ACP_Red_Tracer_M3A1_SND_M";
-this addItemToBackpack "CUP_30Rnd_45ACP_Yellow_Tracer_M3A1_GRN_M";
-this addItemToBackpack "CUP_30Rnd_45ACP_Red_Tracer_M3A1_GRN_M";
-this addItemToBackpack "CUP_30Rnd_45ACP_Green_Tracer_M3A1_GRN_M";
-this addHeadgear "CUP_H_RUS_6B47_v2_GogglesClosed_Winter";
-this addGoggles "CUP_G_RUS_Balaclava_Ratnik_winter";
-
-comment "Add items";
-this linkItem "ItemMap";
-this linkItem "ItemCompass";
-this linkItem "ItemWatch";
-this linkItem "ItemRadio";
-this linkItem "CUP_NVG_HMNVS_Hide";
-
-comment "Set identity";
-[this,"LivonianHead_3","male01rus"] call BIS_fnc_setIdentity;
-
-
-    
-    //Rifles (Rifles w/ Nade Launcher uses same Ammo)
 		
 			_u pushBack [
 				/*Enabled*/true,
