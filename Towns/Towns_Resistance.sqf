@@ -1013,13 +1013,13 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 		//GUER_AIR_AA = "";
 		GUER_AIR_CAS = "CUP_I_SU34_AAF";
 		//--- Boats
-		//GUER_NAVAL_ASSAULT_BOAT1 = "I_Boat_Armed_01_minigun_F";
-		//GUER_NAVAL_ASSAULT_BOAT2 = "I_Boat_Armed_01_minigun_F";
-		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_CB90_I";
-		GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_GunBoat";
+		GUER_NAVAL_ASSAULT_BOAT1 = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_ASSAULT_BOAT2 = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
 			//Ships
-		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "HAFM_GunBoatF";
-		GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";
+		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "HAFM_GunBoatF";
+		//GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";
 		
 	};
 	//--- Load RHS Mod
@@ -1937,7 +1937,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 		//--- Infantry
 		GUER_SOLDIER = "CUP_I_PMC_Winter_Soldier";
 		GUER_SOLDIER_AA = "CUP_I_PMC_Winter_Soldier_AA";
-		GUER_SOLDIER_AR = "CUP_I_PMC_Winter_Soldier_M4A3";
+		GUER_SOLDIER_AR = "CUP_I_PMC_Winter_Soldier_MG";
 		GUER_SOLDIER_AT = "CUP_I_PMC_Winter_Soldier_AT";
 		GUER_SOLDIER_CREW = "CUP_I_PMC_Winter_Crew";
 		GUER_SOLDIER_LAT = "CUP_I_PMC_Winter_Soldier_AT";
