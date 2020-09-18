@@ -5433,6 +5433,8 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["SMG"]
 			];
+
+	//Rifles (Rifles w/ Nade Launcher use the same ammo)
 		
 			_u pushBack [
 				/*Enabled*/true,
