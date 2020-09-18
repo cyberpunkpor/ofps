@@ -590,7 +590,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 		GUER_SOLDIER_AA = "I_Soldier_AA_F";
 		GUER_SOLDIER_AR = "I_G_Soldier_AR_F";
 		GUER_SOLDIER_AT = "I_Soldier_LAT_F";
-		GUER_SOLDIER_CREW = "I_crew_F";
+		GUER_SOLDIER_CREW = "I_G_Soldier_lite_F";
 		GUER_SOLDIER_LAT = "I_G_Soldier_LAT2_F";
 		GUER_SOLDIER_HAT = "I_Soldier_LAT_F";
 		GUER_SOLDIER_ENGINEER = "I_G_engineer_F";
@@ -598,8 +598,8 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 		GUER_SOLDIER_GL = "I_G_Soldier_GL_F";
 		GUER_SOLDIER_MEDIC = "I_G_medic_F";
 		GUER_SOLDIER_MG = "I_G_Soldier_AR_F";
-		GUER_SOLDIER_PILOT = "I_G_officer_F";
-		GUER_SOLDIER_SNIPER = "I_G_Soldier_M_F";
+		GUER_SOLDIER_PILOT = "I_G_Soldier_lite_F";
+		GUER_SOLDIER_SNIPER = "I_G_Snarpshooter_F";
 		GUER_SOLDIER_MARKSMAN = "I_G_Soldier_M_F";
 		GUER_SOLDIER_TEAMLEADER = "I_G_Soldier_TL_F";
 		GUER_SOLDIER_SQUADLEADER = "I_G_Soldier_SL_F";
@@ -615,9 +615,9 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 		GUER_VEHICLE_LIGHT6 = "I_MRAP_03_gmg_F";
 		GUER_VEHICLE_LIGHT7 = "I_MRAP_03_gmg_F";
 		//--- APCs
-		GUER_VEHICLE_APC1 = "I_APC_Wheeled_03_cannon_F";
+		GUER_VEHICLE_APC1 = "I_APC_tracked_03_cannon_F";
 		GUER_VEHICLE_APC2 = "I_APC_tracked_03_cannon_F";
-		GUER_VEHICLE_APC3 = "I_APC_tracked_03_cannon_F";
+		GUER_VEHICLE_APC3 = "I_APC_Wheeled_03_cannon_F";
 		//--- Tanks
 		GUER_VEHICLE_ARMORED1 = "I_APC_tracked_03_cannon_F";	
 		GUER_VEHICLE_ARMORED2 = "I_MBT_03_cannon_F";
@@ -633,11 +633,11 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 		GUER_AIR_CAS = "I_Plane_Fighter_03_dynamicLoadout_F";
 		//--- Boats
 		GUER_NAVAL_ASSAULT_BOAT1 = "I_Boat_Armed_01_minigun_F";
-		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90";
-		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "HAFM_GunBoat";
-		GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_GunBoat";
-		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "HAFM_GunBoat";	
-		GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";	
+		GUER_NAVAL_ASSAULT_BOAT2 = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";	
+		//GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";	
 	};
 	//--Load Heli Mod
 	if (CTI_HELI_ADDON > 0) then {
@@ -677,9 +677,15 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 	};
 	//--- CUP UNITS
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
+		//--- Light Vehicles
+		GUER_VEHICLE_LIGHT3 = "CUP_I_Hilux_armored_AGS30_IND_G_F";
+		GUER_VEHICLE_LIGHT4 = "CUP_I_Hilux_armored_BTR60_IND_G_F";
+		GUER_VEHICLE_LIGHT5 = "CUP_I_Hilux_armored_metis_IND_G_F";
+		GUER_VEHICLE_LIGHT6 = "CUP_I_Hilux_zu23_IND_G_F";
+		GUER_VEHICLE_LIGHT7 = "CUP_I_Hilux_armored_BMP1_IND_G_F";
 		//--- AA Vehicles
-		GUER_VEHICLE_AA1 = "CUP_I_M163_AAF";
-		GUER_VEHICLE_AA3 = "CUP_I_M163_AAF";
+		GUER_VEHICLE_AA1 = "CUP_I_Hilux_igla_IND_G_F";
+		GUER_VEHICLE_AA2 = "CUP_I_Hilux_armored_zu23_IND_G_F";
 		//--- Air
 		GUER_AIR_HELI2 = "CUP_I_Wildcat_Green_AAF";
 		//Ships
@@ -698,6 +704,8 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
+		//---APCs
+		GUER_VEHICLE_APC3 = "OFPS_GORGON_G_SEMIARID";
 
 	};
 	//--- OFPS RHS Mod
@@ -1485,10 +1493,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 		//--- Boats
 		GUER_NAVAL_ASSAULT_BOAT1 = "CUP_I_RHIB2Turret_RACS";
 		GUER_NAVAL_ASSAULT_BOAT2 = "CUP_I_RHIB2Turret_RACS";
-		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "HAFM_CB90";
-		GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_GunBoat";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "CUP_I_RHIB2Turret_RACS";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "CUP_I_RHIB2Turret_RACS";
 		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_I_Frigate_RACS";
-		GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";
+		//GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
