@@ -23,8 +23,6 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "I_G_Soldier_lite_F"];
 	};
 
-	};
-
 	case 2: { //Syndikat Paramilitary - APEX
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "I_officer_F"];
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "I_soldier_F"];
