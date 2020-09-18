@@ -68,7 +68,7 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	case 6: { //Takistani Military - CUP
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_TK_GUE_Commander"];
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_I_TK_GUE_Soldier_AK_47S"];
-	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_TK_GUE_Soldier_AR"];
+	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_TK_GUE_Soldier_AK_47S"];
 	missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_I_TK_GUE_Soldier_AR"];
 	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_TK_GUE_Soldier_AK_47S"];
 	missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_I_TK_GUE_Soldier_AK_47S"];
