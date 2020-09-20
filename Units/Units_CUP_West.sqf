@@ -8729,7 +8729,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_ZUBR_CDF',
 	/*MenuName*/['ZUBR LCAC (Vehicle Transport / Medic)'],

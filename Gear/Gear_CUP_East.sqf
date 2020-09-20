@@ -3882,7 +3882,7 @@ _u = []; //Gear Classname
 
     //Diving
 		
-		//Pilot
+	//Pilot
 
   //Vests
 
