@@ -3646,6 +3646,39 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
+				/*ClassName*/'CUP_U_O_RUS_Ratnik_Autumn',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/0,
+				/*Camo*/[],
+				/*Type*/["Uniform"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_U_O_RUS_Ratnik_BeigeDigital',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/0,
+				/*Camo*/[],
+				/*Type*/["Uniform"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_U_O_RUS_Ratnik_Summer',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/0,
+				/*Camo*/[],
+				/*Type*/["Uniform"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
 				/*ClassName*/'CUP_U_O_RUS_Ratnik_Winter',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
@@ -4146,7 +4179,7 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'CUP_B_RUS_Patrol_bag_Winter',
+				/*ClassName*/'CUP_O_RUS_Patrol_bag_Winter',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
 				/*Price*/20,
@@ -4157,7 +4190,7 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'CUP_B_RUS_Patrol_bag_Desert',
+				/*ClassName*/'CUP_O_RUS_Patrol_bag_Desert',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
 				/*Price*/20,
@@ -4168,7 +4201,7 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'CUP_B_RUS_Patrol_bag_Summer',
+				/*ClassName*/'CUP_O_RUS_Patrol_bag_Summer',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
 				/*Price*/20,
@@ -4179,7 +4212,7 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'CUP_B_RUS_Patrol_bag_BeigeDigital',
+				/*ClassName*/'CUP_O_RUS_Patrol_bag_BeigeDigital',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
 				/*Price*/20,
@@ -4190,7 +4223,7 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'CUP_B_RUS_Patrol_bag_Green',
+				/*ClassName*/'CUP_O_RUS_Patrol_bag_Green',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
 				/*Price*/20,
@@ -4746,9 +4779,42 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
+				/*ClassName*/'CUP_RUS_Balaclava_grn',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/0,
+				/*Camo*/[],
+				/*Type*/["Facewear"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_RUS_Balaclava_emr',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/0,
+				/*Camo*/[],
+				/*Type*/["Facewear"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_G_RUS_Balaclava_Ratnik',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/0,
+				/*Camo*/[],
+				/*Type*/["Facewear"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
 				/*ClassName*/'CUP_G_RUS_Balaclava_Ratnik_Winter',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
+				/*UpgradeLevel*/0,
 				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
@@ -4759,7 +4825,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_G_RUS_Balaclava_Ratnik_Winter_v2',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
+				/*UpgradeLevel*/0,
 				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
