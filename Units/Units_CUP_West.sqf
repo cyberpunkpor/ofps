@@ -7152,6 +7152,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_Leopard2A6_HIL',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/40000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_Leopard2A6_GER',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
@@ -7159,7 +7178,7 @@ _u pushBack [
 	/*Price*/40000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Winter'],
+	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
