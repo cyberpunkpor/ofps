@@ -178,25 +178,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_AA_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2]],
-	/*UpgradeLevel*/2,
-	/*Price*/2200,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_AA_VDV_EMR',
 	/*MenuName*/['Airborne %1 (EMR)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2]],
@@ -231,26 +212,6 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_AR_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB]],
-	/*UpgradeLevel*/2,
-	/*Price*/100,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
 
 _u pushBack [
 	/*Enabled*/true,
@@ -293,49 +254,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_MG_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
-	/*UpgradeLevel*/2,
-	/*Price*/200,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_MG_VDV_EMR',
 	/*MenuName*/['Airborne %1 (EMR)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/200,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_GL_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
-	/*UpgradeLevel*/2,
-	/*Price*/120,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['EMR'],
@@ -407,25 +330,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_AT_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
-	/*UpgradeLevel*/2,
-	/*Price*/800,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_AT_VDV_EMR',
 	/*MenuName*/['Airborne %1 (EMR)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
@@ -464,49 +368,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_HAT_M_EMR',
-	/*MenuName*/['%1 (Metis)'],
+	/*ClassName*/'CUP_O_RU_Soldier_HAT_VDV_EMR',
+	/*MenuName*/'Russian Airborne Soldier (Metis)',
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",4],[CTI_LARGE_FOB,"default",4]],
 	/*UpgradeLevel*/4,
 	/*Price*/2600,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/['CUP_O_RU_Soldier_HAT_VDV_EMR'],
-	/*MenuName*/['Russian Airborne Soldier (Metis)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",4],[CTI_LARGE_FOB,"default",4]],
-	/*UpgradeLevel*/4,
-	/*Price*/2600,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Engineer_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1]],
-	/*UpgradeLevel*/2,
-	/*Price*/500,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['EMR'],
@@ -540,49 +406,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_TL_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/150,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_TL_VDV_EMR',
 	/*MenuName*/['Airborne %1 (EMR)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/1,
 	/*Price*/150,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Medic_VDV_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
-	/*UpgradeLevel*/2,
-	/*Price*/175,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['EMR'],
@@ -654,49 +482,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_Marksman_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
-	/*UpgradeLevel*/2,
-	/*Price*/175,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_Marksman_VDV_EMR',
 	/*MenuName*/['Airborne %1 (EMR)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/175,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_LAT_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",1]],
-	/*UpgradeLevel*/2,
-	/*Price*/700,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['EMR'],
@@ -977,25 +767,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_SL_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/200,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_SL_VDV',
 	/*MenuName*/['Airborne %1 (Flora)'],
 	/*Location*/[CTI_BARRACKS],
@@ -1091,101 +862,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_Ratnik_Winter',
-	/*MenuName*/['Ratnik %1 (Winter)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
-	/*UpgradeLevel*/2,
-	/*Price*/150,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['Winter'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_Ratnik_Autumn',
-	/*MenuName*/['Ratnik %1'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
-	/*UpgradeLevel*/2,
-	/*Price*/150,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['Woodland'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_Ratnik_Desert',
-	/*MenuName*/['Ratnik %1'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
-	/*UpgradeLevel*/2,
-	/*Price*/150,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['Desert'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_Ratnik_Summer',
-	/*MenuName*/['Ratnik %1'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
-	/*UpgradeLevel*/2,
-	/*Price*/150,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['Woodland'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_Ratnik_BeigeDigital',
-	/*MenuName*/['Ratnik %1'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
-	/*UpgradeLevel*/2,
-	/*Price*/150,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['Desert'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Medic_Ratnik_Winter',
 	/*MenuName*/['Ratnik %1 (Winter)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
@@ -1262,25 +938,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Sniper_KSVK_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/600,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Sniper_KSVK_VDV',
 	/*MenuName*/['Airborne %1 (Flora)'],
 	/*Location*/[CTI_BARRACKS],
@@ -1308,25 +965,6 @@ _u pushBack [
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Mountain Flora'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Explosive_Specialist_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/500,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -1640,25 +1278,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Recon_Marksman_Ratnik_Winter',
-	/*MenuName*/['Ratnik %1 (Winter)'],
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/2,
-	/*Price*/195,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['Winter'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_Marksman_EMR',
@@ -1946,25 +1565,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Crew_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
-	/*UpgradeLevel*/2,
-	/*Price*/50,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Crew',
 	/*MenuName*/['%1 (Flora)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
@@ -2201,25 +1801,6 @@ _u pushBack [
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Mountain Flora'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_M_EMR',
-	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2]],
-	/*UpgradeLevel*/2,
-	/*Price*/50,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['EMR'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
