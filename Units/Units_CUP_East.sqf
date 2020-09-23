@@ -201,7 +201,7 @@ _u pushBack [
 	/*MenuName*/['Airborne %1 (EMR)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2]],
 	/*UpgradeLevel*/2,
-	/*Price*/2200,
+	/*Price*/2000,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['EMR'],
@@ -1111,7 +1111,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_Ratnik_Autumn',
-	/*MenuName*/['Ratnik %1'],
+	/*MenuName*/['Ratnik %1 (Woodland)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
 	/*UpgradeLevel*/2,
 	/*Price*/150,
@@ -1127,10 +1127,10 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_Ratnik_Desert',
-	/*MenuName*/['Ratnik %1'],
+	/*MenuName*/['Ratnik %1 (Desert)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
 	/*UpgradeLevel*/2,
 	/*Price*/150,
@@ -1149,7 +1149,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_Ratnik_Summer',
-	/*MenuName*/['Ratnik %1'],
+	/*MenuName*/['Ratnik %1 (Woodland)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
 	/*UpgradeLevel*/2,
 	/*Price*/150,
@@ -1168,7 +1168,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_Ratnik_BeigeDigital',
-	/*MenuName*/['Ratnik %1'],
+	/*MenuName*/['Ratnik %1 (Desert)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
 	/*UpgradeLevel*/2,
 	/*Price*/150,
@@ -1279,7 +1279,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Sniper_KSVK_VDV',
 	/*MenuName*/['Airborne %1 (Flora)'],
@@ -1469,7 +1469,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_AA_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -1526,7 +1526,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_AR_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -1621,7 +1621,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_MG_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -1754,7 +1754,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_LAT_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -1773,7 +1773,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_AT_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -1830,7 +1830,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Sniper_KSVK_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -1906,7 +1906,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_TL_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -2324,7 +2324,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Sniper_KSVK',
 	/*MenuName*/['%1 (Flora)'],
