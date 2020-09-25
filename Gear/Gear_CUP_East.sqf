@@ -295,6 +295,17 @@ _u = []; //Gear Classname
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
+			/*ClassName*/'CUP_arifle_AKMN_railed_afg_desert',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/2,
+			/*Price*/10,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
 			/*ClassName*/'CUP_arifle_AKS',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/0,
@@ -765,6 +776,17 @@ _u = []; //Gear Classname
 			/*Type*/["DMR"]
 		];
 
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'CUP_srifle_SVD_des',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/1,
+			/*Price*/100,
+			/*Camo*/[],
+			/*Type*/["DMR"]
+		];
+		
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
