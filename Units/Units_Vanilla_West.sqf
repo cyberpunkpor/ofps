@@ -2375,14 +2375,14 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/['B_G_Offroad_01_repair_F','salvager'],
+	/*Script*/['B_Truck_01_mover_F','salvager'],
 	/*Picture*/''
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'B_G_Offroad_01_repair_F',
+	/*ClassName*/'B_Truck_01_mover_F',
 	/*MenuName*/'Salvage Truck',
 	/*Location*/[],
 	/*UpgradeLevel*/0,
@@ -2413,7 +2413,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/['B_G_Offroad_01_repair_F','salvager-independent'],
+	/*Script*/['B_Truck_01_mover_F','salvager-independent'],
 	/*Picture*/''
 ];
 

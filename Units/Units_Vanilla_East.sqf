@@ -2774,14 +2774,14 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/['O_G_Offroad_01_repair_F','salvager'],
+	/*Script*/['O_Truck_02_box_F','salvager'],
 	/*Picture*/''
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'O_G_Offroad_01_repair_F',
+	/*ClassName*/'O_Truck_02_box_F',
 	/*MenuName*/'Salvage Truck',
 	/*Location*/[],
 	/*UpgradeLevel*/0,
@@ -2812,7 +2812,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/['O_G_Offroad_01_repair_F','salvager-independent'],
+	/*Script*/['O_Truck_02_box_F','salvager-independent'],
 	/*Picture*/''
 ];
 
