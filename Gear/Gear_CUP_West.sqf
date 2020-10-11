@@ -7620,7 +7620,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_Mine_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
+				/*UpgradeLevel*/2,
 				/*Price*/400,
 				/*Camo*/[],
 				/*Type*/["AT Mine"]
