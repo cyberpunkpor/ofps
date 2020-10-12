@@ -148,7 +148,7 @@ _u pushback [
 
 _u pushback [ 
 	/*headers*/[CTI_AIR_ROTARY, "Rotary Wing Aircraft Factory", "Air Rotary"],
-	/*classes*/["Land_Airport_02_controlTower_F", "Land_Airport_Tower_ruins_F"],
+	/*classes*/["Land_Mil_ControlTower", "Land_Mil_ControlTower_ruins"],
 	/*prices*/3000,
 	/*times*/120,
 	/*MaxCount*/1,
