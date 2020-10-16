@@ -2741,25 +2741,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'O_Truck_02_box_F',
-	/*MenuName*/'Deployable Large FOB',
-	/*Location*/[CTI_REPAIR],
-	/*UpgradeLevel*/3,
-	/*Price*/100000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Black'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'deployable-fob-large',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CTI_Salvager_EAST',
