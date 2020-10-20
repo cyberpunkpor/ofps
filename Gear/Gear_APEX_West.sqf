@@ -380,6 +380,17 @@ _u = []; //Gear Classname
 			/*Camo*/[],
 			/*Type*/["Semi-Auto Pistol"]
 		];
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'hgun_P07_blk_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/0,
+			/*Price*/10,
+			/*Camo*/[],
+			/*Type*/["Semi-Auto Pistol"]
+		];
   
 //----WEAPON ACCESSORY MENU----
 
@@ -1054,7 +1065,29 @@ _u = []; //Gear Classname
 				_u pushBack [
 					/*Enabled*/true,
 					/*Name*/'',
+					/*ClassName*/'U_B_CTRG_Soldier_2__Arid_F',
+					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+					/*UpgradeLevel*/6,
+					/*Price*/800,
+					/*Camo*/[],
+					/*Type*/["Uniform"]
+				];
+
+				_u pushBack [
+					/*Enabled*/true,
+					/*Name*/'',
 					/*ClassName*/'U_B_CTRG_Soldier_3_F',
+					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+					/*UpgradeLevel*/6,
+					/*Price*/900,
+					/*Camo*/[],
+					/*Type*/["Uniform"]
+				];
+
+				_u pushBack [
+					/*Enabled*/true,
+					/*Name*/'',
+					/*ClassName*/'U_B_CTRG_Soldier_3_Arid_F',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 					/*UpgradeLevel*/6,
 					/*Price*/900,
@@ -1072,6 +1105,18 @@ _u = []; //Gear Classname
 					/*Camo*/[],
 					/*Type*/["Uniform"]
 				];
+
+				
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'U_B_CTRG_Soldier_Arid_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/6,
+				/*Price*/1000,
+				/*Camo*/[],
+				/*Type*/["Uniform"]
+			];
       
       //Ghillie Suits
 			
@@ -1363,6 +1408,17 @@ _u = []; //Gear Classname
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'H_HelmetB_TI_tna_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/6,
+				/*Price*/1000,
+				/*Camo*/[],
+				/*Type*/["Helmet"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'H_HelmetB_TI_arid_f',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/6,
 				/*Price*/1000,
