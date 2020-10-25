@@ -475,7 +475,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Metis AT-13',
 	/*Class*/"CUP_O_Metis_RU",
-	/*Price*/3000,
+	/*Price*/2000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
