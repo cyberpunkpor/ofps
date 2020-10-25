@@ -109,6 +109,7 @@ GUER_TOWN_DSHKM_COMP = [];
 GUER_TOWN_MG50_COMP = [];
 GUER_TOWN_MGLO_COMP = [];
 GUER_TOWN_M2LO_COMP = [];
+GUER_TOWN_AGS_COMP = [];
 
 //--- END DO NOT TOUCH THIS LIST
 
@@ -237,6 +238,31 @@ if (CTI_VANILLA_ADDON > 0 ) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
+
+	GUER_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["I_GMG_01_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+
 	GUER_TOWN_AT_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -472,6 +498,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 		GUER_NAVAL_LARGE_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
 		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";		
 		//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
+
+		//--- Town Statics
+		GUER_TOWN_AGS = "I_GMG_01_F";
+		GUER_TOWN_MORTAR = "I_Mortar_01_F";
 	};
 	//--Load Heli Mod
 	if (CTI_HELI_ADDON > 0) then {
@@ -1017,9 +1047,34 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 		GUER_NAVAL_ASSAULT_BOAT2 = "I_Boat_Armed_01_minigun_F";
 		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
 		GUER_NAVAL_LARGE_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
-			//Ships
+		//Ships
 		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "HAFM_GunBoatF";
 		//GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";
+
+		//Town Statics
+		GUER_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_I_AGS_TK_GUE", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 		
 	};
 	//--- Load RHS Mod
@@ -1178,6 +1233,31 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 		GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_CB90";
 		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
 		//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
+
+		//Town Statics
+		GUER_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_I_AGS_TK_GUE", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
@@ -1497,6 +1577,32 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 		GUER_NAVAL_LARGE_ASSAULT_BOAT = "CUP_I_RHIB2Turret_RACS";
 		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_I_Frigate_RACS";
 		//GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";
+
+		//Town Statics
+		GUER_TOWN_MORTAR = "CUP_I_M252_RACS";
+		GUER_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_I_AGS_TK_GUE", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
@@ -1654,6 +1760,31 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 		//GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_BUYAN_I";
 		//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
+
+		//Town Statics
+		GUER_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_I_AGS_TK_GUE", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
@@ -1987,6 +2118,31 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 		GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_GunBoat";
 		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "HAFM_GunBoat";
 		//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
+
+		//Town Statics
+		GUER_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_I_AGS_TK_GUE", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
@@ -2229,7 +2385,7 @@ See below for pools
 //--- Statics Groups
 GUER_TOWNS_STATICS_ALL = [GUER_TOWN_MG,GUER_TOWN_GL,GUER_TOWN_AT,GUER_TOWN_M2LO,GUER_TOWN_KORD,GUER_TOWN_KORDLO,GUER_TOWN_MGLO,GUER_TOWN_AA,GUER_TOWN_ZSU,GUER_TOWN_IGLA,GUER_TOWN_D30,GUER_TOWN_SPG,GUER_TOWN_DSHKM,GUER_TOWN_MG50,GUER_TOWN_AGS,GUER_TOWN_COAST];
 GUER_TOWNS_STATICS_CORE = [GUER_TOWN_MG,GUER_TOWN_GL,GUER_TOWN_AT];
-GUER_TOWNS_STATICS_COMPS = GUER_TOWN_MG_COMP + GUER_TOWN_GL_COMP + GUER_TOWN_AT_COMP + GUER_TOWN_SPG_COMP + GUER_TOWN_DSHKM_COMP + GUER_TOWN_MG50_COMP + GUER_TOWN_MGLO_COMP + GUER_TOWN_M2LO_COMP;
+GUER_TOWNS_STATICS_COMPS = GUER_TOWN_MG_COMP + GUER_TOWN_GL_COMP + GUER_TOWN_AT_COMP + GUER_TOWN_SPG_COMP + GUER_TOWN_DSHKM_COMP + GUER_TOWN_MG50_COMP + GUER_TOWN_MGLO_COMP + GUER_TOWN_M2LO_COMP + GUER_TOWN_AGS_COMP;
 GUER_TOWNS_STATICS_INFANTRY = [GUER_TOWN_MG,GUER_TOWN_GL,GUER_TOWN_DSHKM,GUER_TOWN_KORD,GUER_TOWN_MG50,GUER_TOWN_AGS];
 GUER_TOWNS_STATICS_VEHICLE = [GUER_TOWN_AT,GUER_TOWN_D30,GUER_TOWN_SPG];
 GUER_TOWNS_STATICS_AIR = [GUER_TOWN_AA,GUER_TOWN_ZSU,GUER_TOWN_IGLA];

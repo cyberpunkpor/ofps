@@ -378,7 +378,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk 19',
-	/*Class*/"CUP_I_MK19_TriPod_AAF",
+	/*Class*/"CUP_B_MK19_TriPod_US",
 	/*Price*/2000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
