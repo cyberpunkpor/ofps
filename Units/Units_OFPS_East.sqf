@@ -327,7 +327,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_O_Truck_03_device_F',
 	/*MenuName*/'Nuke Truck',
