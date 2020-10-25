@@ -496,6 +496,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 0) then {
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//--- LOADS ALL DEFAULTS FROM ABOVE -- only add vanilla faction specific overrides as neeeded here
+		WEST_TOWN_AGS = "B_GMG_01_F";
 		WEST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -684,6 +685,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 		//WEST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_MEKO_TN";
 
 		//Town Statics
+		WEST_TOWN_AGS = "B_GMG_01_F";
 		WEST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -920,6 +922,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 		//--- Town Statics
 		WEST_TOWN_AT = "CUP_B_Tow2_TriPod_US";
 		WEST_TOWN_MORTAR = "CUP_B_M252_US";
+		WEST_TOWN_AGS = "CUP_B_MK19_TriPod_US";
 		WEST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -1261,6 +1264,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 		//--- Town Statics
 		WEST_TOWN_AT = "CUP_B_Tow2_TriPod_US";
 		WEST_TOWN_MORTAR = "CUP_B_M252_US";
+		WEST_TOWN_AGS = "CUP_B_MK19_TriPod_US";
 		WEST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
