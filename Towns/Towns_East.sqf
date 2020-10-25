@@ -843,6 +843,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 		//--- Town Statics
 		EAST_TOWN_AA = "CUP_O_Igla_AA_pod_RU";
 		EAST_TOWN_AT = "CUP_O_Kornet_RU";
+		EAST_TOWN_MORTAR = "CUP_O_2b14_82mm_RU";
 		EAST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -1161,6 +1162,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 		//---Statics
 		EAST_TOWN_AA = "CUP_O_Igla_AA_pod_RU";
 		EAST_TOWN_AT = "CUP_O_Kornet_RU";
+		EAST_TOWN_MORTAR = "CUP_O_2b14_82mm_RU";
 		EAST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;

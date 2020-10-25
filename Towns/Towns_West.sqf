@@ -919,6 +919,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 
 		//--- Town Statics
 		WEST_TOWN_AT = "CUP_B_Tow2_TriPod_US";
+		WEST_TOWN_MORTAR = "CUP_B_M252_US";
 		WEST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -1259,6 +1260,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 		
 		//--- Town Statics
 		WEST_TOWN_AT = "CUP_B_Tow2_TriPod_US";
+		WEST_TOWN_MORTAR = "CUP_B_M252_US";
 		WEST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
