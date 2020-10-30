@@ -1762,6 +1762,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 		//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
 
 		//Town Statics
+		GUER_TOWN_M2LO = "CUP_I_DSHkM_MiniTriPod_TK_GUE";
 		GUER_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
