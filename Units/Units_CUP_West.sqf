@@ -5673,7 +5673,7 @@ _u pushBack [
 	/*MenuName*/'M1129 MC MK19 MORTAR SLAT(Woodland)',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
-	/*Price*/32000,
+	/*Price*/62000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
