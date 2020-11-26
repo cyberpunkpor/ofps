@@ -518,7 +518,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Support_AMort_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -613,7 +613,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Support_Mort_F',
 	/*MenuName*/['%1 (Pacific)'],
