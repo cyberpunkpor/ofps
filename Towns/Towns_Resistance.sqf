@@ -1731,11 +1731,11 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 		//--- Light Vehicles
 		GUER_VEHICLE_LIGHT1 = "CUP_I_Hilux_armored_DSHKM_TK";
 		GUER_VEHICLE_LIGHT2 = "CUP_I_Hilux_armored_AGS30_TK";
-		GUER_VEHICLE_LIGHT3 = "CUP_I_BRDM2_TK_Gue";
-		GUER_VEHICLE_LIGHT4 = "CUP_I_BRDM2_TK_Gue";
-		GUER_VEHICLE_LIGHT5 = "CUP_I_Hilux_armored_SPG9_TK";
+		GUER_VEHICLE_LIGHT3 = "CUP_I_Hilux_armored_SPG9_TK";
+		GUER_VEHICLE_LIGHT4 = "CUP_I_Hilux_armored_BTR60_TK";
+		GUER_VEHICLE_LIGHT5 = "CUP_I_BRDM2_TK_Gue";
 		GUER_VEHICLE_LIGHT6 = "CUP_I_BRDM2_ATGM_TK_Gue";
-		GUER_VEHICLE_LIGHT7 = "CUP_I_Hilux_armored_BTR60_TK";
+		GUER_VEHICLE_LIGHT7 = "CUP_I_BRDM2_TK_Gue";
 		//--- APCs
 		GUER_VEHICLE_APC1 = "CUP_I_Hilux_armored_BMP1_TK";
 		GUER_VEHICLE_APC2 = "CUP_I_BMP1_TK_GUE";
@@ -1778,6 +1778,29 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["CUP_I_AGS_TK_GUE", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	GUER_TOWN_MGLO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_I_DSHkM_MiniTriPod_TK_GUE", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
