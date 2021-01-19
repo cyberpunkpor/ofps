@@ -1701,6 +1701,8 @@ inside init place | this setVariable ["cti_static_defense", [TOWNVAR,["TOWN_MG",
 "Vehicle" = EAST_TOWNS_STATICS_VEHICLE
 "Air" = EAST_TOWNS_STATICS_AIR
 "All" = EAST_TOWNS_STATICS_ALL
+"Icomps" = EAST_TOWNS_STATICS_ICOMPS
+"Vcomps" = EAST_TOWNS_STATICS_VCOMPS
 No value defaults to = EAST_TOWNS_STATICS_CORE
 
 See below for pools
