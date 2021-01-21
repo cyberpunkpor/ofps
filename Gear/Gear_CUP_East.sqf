@@ -913,12 +913,12 @@ _u = []; //Gear Classname
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
-			/*ClassName*/'CUP_glaunch_M79',
+			/*ClassName*/'CUP_srifle_Mosin_Nagant',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/0,
-			/*Price*/20,
+			/*Price*/0,
 			/*Camo*/[],
-			/*Type*/["Special"]
+			/*Type*/["Sniper"]
 		];
 
   //Grenade Launcher
@@ -930,6 +930,17 @@ _u = []; //Gear Classname
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/1,
 			/*Price*/70,
+			/*Camo*/[],
+			/*Type*/["Special"]
+		];
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'CUP_glaunch_M79',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/0,
+			/*Price*/20,
 			/*Camo*/[],
 			/*Type*/["Special"]
 		];
@@ -1628,6 +1639,17 @@ _u = []; //Gear Classname
       //Medium Range w/ Close Range
       
       //Long Range
+
+				_u pushBack [
+					/*Enabled*/true,
+					/*Name*/'',
+					/*ClassName*/'CUP_optic_PEM',
+					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+					/*UpgradeLevel*/1,
+					/*Price*/5,
+					/*Camo*/[],
+					/*Type*/["Long"]
+				];
 
 				_u pushBack [
 					/*Enabled*/true,
@@ -2877,7 +2899,7 @@ _u = []; //Gear Classname
 			];
 
     //Snipers
-
+		
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
@@ -2887,6 +2909,17 @@ _u = []; //Gear Classname
 				/*Price*/3,
 				/*Camo*/[],
 				/*Type*/["Special"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_5Rnd_762x54_Mosin_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/0,
+				/*Camo*/[],
+				/*Type*/["Sniper"]
 			];
 
   //Handheld Grenades
