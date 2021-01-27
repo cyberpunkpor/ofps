@@ -2533,6 +2533,82 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'CDF AT RPG18',
+	/*ClassName*/'CUP_B_CDF_Soldier_RPG18_SNW',
+	/*MenuName*/['%1 (Winter)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/500,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Winter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'CDF AT RPG18',
+	/*ClassName*/'CUP_B_CDF_Soldier_RPG18_DST',
+	/*MenuName*/['%1 (Arid)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/500,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Arid'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'CDF AT RPG18',
+	/*ClassName*/'CUP_B_CDF_Soldier_RPG18_FST',
+	/*MenuName*/['%1 (Tropic)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/500,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'CDF AT RPG18',
+	/*ClassName*/'CUP_B_CDF_Soldier_RPG18_MNT',
+	/*MenuName*/['%1 (Woodland)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/500,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Soldier_Assault_GL_DES',
 	/*MenuName*/'BFR Soldier (M4A1 M203)',
