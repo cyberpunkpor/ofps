@@ -1045,9 +1045,6 @@ _u = []; //Gear Classname
     //Goggles
 
     //Face Wear (scarfs, bandanas, etc.)
-    
-    //Masks
-
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
@@ -1068,6 +1065,41 @@ _u = []; //Gear Classname
 				/*Price*/1,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
+			];
+    
+    //Masks
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'G_AirPurifyingRespirator_02_sand_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/1,
+				/*Price*/10,
+				/*Camo*/[],
+				/*Type*/["Mask"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'G_AirPurifyingRespirator_02_black_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/1,
+				/*Price*/10,
+				/*Camo*/[],
+				/*Type*/["Mask"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'G_AirPurifyingRespirator_02_olive_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/1,
+				/*Price*/10,
+				/*Camo*/[],
+				/*Type*/["Mask"]
 			];
 
 //--------------------------------------------------------------------------------------------------------------
