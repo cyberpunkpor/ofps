@@ -824,28 +824,6 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'B_SCBA_01_F',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
-				/*Price*/10,
-				/*Camo*/[],
-				/*Type*/["Backpack"]
-			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'B_CombinationUnitRespirator_01_F',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
-				/*Price*/10,
-				/*Camo*/[],
-				/*Type*/["Backpack"]
-			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
 				/*ClassName*/'B_RadioBag_01_black_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
