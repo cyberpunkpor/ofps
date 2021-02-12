@@ -135,10 +135,13 @@ with missionNamespace do {
 	];
 	//Towns > 120
 	TOWNS_OCC_POOL_6 = [
-		[
-			["TOWNS_SQUAD_RIFLEMEN3", 10, 80],
+		[	
+			["TOWNS_SQUAD_RIFLEMEN1", 4, 30],
+			["TOWNS_SQUAD_RIFLEMEN2", 6, 20],
+			["TOWNS_SQUAD_RIFLEMEN3", 11, 80],
 			["TOWNS_SQUAD_SNIPER", 2, 40], 
-			["TOWNS_SQUAD_AT2", 4, 75], 
+			["TOWNS_SQUAD_AT2", 6, 75],
+			["TOWNS_SQUAD_AT1", 8, 30], 
 			["TOWNS_SQUAD_AA", 4, 65]
 		],
 		[	
