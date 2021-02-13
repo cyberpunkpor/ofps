@@ -2647,7 +2647,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'U_B_HeliPilotCoveralls',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
-				/*Price*/200,
+				/*Price*/50,
 				/*Camo*/[],
 				/*Type*/["Pilot"]
 			];
