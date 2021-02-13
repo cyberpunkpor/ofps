@@ -1999,10 +1999,65 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
+				/*ClassName*/'CUP_5Rnd_B_Saiga12_74Pellets_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/4,
+				/*Camo*/[],
+				/*Type*/["Shotgun"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
 				/*ClassName*/'CUP_8Rnd_B_Saiga12_74Pellets_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
 				/*Price*/4,
+				/*Camo*/[],
+				/*Type*/["Shotgun"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_5Rnd_B_Saiga12_Buck_00',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/2,
+				/*Camo*/[],
+				/*Type*/["Shotgun"]
+			];
+			
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_5Rnd_B_Saiga12_HE',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/10,
+				/*Camo*/[],
+				/*Type*/["Shotgun"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_1Rnd_12Gauge_HE',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/5,
+				/*Camo*/[],
+				/*Type*/["Shotgun"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_12Rnd_B_Saiga12_HE',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/1,
+				/*Price*/15,
 				/*Camo*/[],
 				/*Type*/["Shotgun"]
 			];
@@ -2036,6 +2091,28 @@ _u = []; //Gear Classname
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
 				/*Price*/6,
+				/*Camo*/[],
+				/*Type*/["Shotgun"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_6Rnd_12Gauge_HE',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/1,
+				/*Price*/15,
+				/*Camo*/[],
+				/*Type*/["Shotgun"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_6Rnd_12Gauge_Pellets_No00_Buck',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/2,
 				/*Camo*/[],
 				/*Type*/["Shotgun"]
 			];
