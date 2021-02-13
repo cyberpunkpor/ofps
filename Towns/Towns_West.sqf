@@ -96,7 +96,7 @@ WEST_TOWN_MG50 = "B_G_HMG_02_high_F";
 WEST_TOWN_M2LO = "B_G_HMG_02_F";
 WEST_TOWN_AGS = "B_GMG_01_F";
 WEST_TOWN_COAST = "B_static_AT_F";
-WEST_TOWN_CRAM = "B_AAA_System_01_F";
+WEST_TOWN_CRAM = "B_HMG_01_High_F";
 //--- Town Statics Compositions
 WEST_TOWN_MG_COMP = [];
 WEST_TOWN_GL_COMP = [];
@@ -324,7 +324,7 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	WEST_TOWN_DSHKM = "CUP_B_DSHKM_ACR";
 	WEST_TOWN_KORD = "CUP_O_KORD_high_RU";
 	WEST_TOWN_KORDLO = "CUP_O_KORD_RU";
-	WEST_TOWN_CRAM = "CUP_WV_B_CRAM";
+	WEST_TOWN_CRAM = "CUP_B_ZU23_CDF";
 	WEST_TOWN_MK29 = "CUP_WV_B_SS_Launcher";
 	WEST_TOWN_MK49 = "CUP_WV_B_RAM_Launcher";
 	WEST_TOWN_AGS = "CUP_B_AGS_ACR";
@@ -497,7 +497,6 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 0) then {
 	if (CTI_VANILLA_ADDON > 0) then {
 		//--- LOADS ALL DEFAULTS FROM ABOVE -- only add vanilla faction specific overrides as neeeded here
 		WEST_TOWN_AGS = "B_GMG_01_F";
-		WEST_TOWN_CRAM = "B_AAA_System_01_F";
 		WEST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -687,7 +686,6 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 
 		//Town Statics
 		WEST_TOWN_AGS = "B_GMG_01_F";
-		WEST_TOWN_CRAM = "B_AAA_System_01_F";
 		WEST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
