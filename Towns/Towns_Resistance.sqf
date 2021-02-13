@@ -99,7 +99,7 @@ GUER_TOWN_MG50 = "I_G_HMG_02_high_F";
 GUER_TOWN_M2LO = "I_G_HMG_02_F";
 GUER_TOWN_AGS = "I_GMG_01_F";
 GUER_TOWN_COAST = "I_static_AT_F";
-GUER_TOWN_CRAM = "I_static_AA_F";
+GUER_TOWN_CRAM = "B_AAA_System_01_F";
 //--- Town Statics Compositions
 GUER_TOWN_MG_COMP = [];
 GUER_TOWN_GL_COMP = [];
@@ -502,6 +502,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 		//--- Town Statics
 		GUER_TOWN_AGS = "I_GMG_01_F";
 		GUER_TOWN_MORTAR = "I_Mortar_01_F";
+		GUER_TOWN_CRAM = "B_AAA_System_01_F";
 	};
 	//--Load Heli Mod
 	if (CTI_HELI_ADDON > 0) then {

@@ -95,7 +95,7 @@ EAST_TOWN_MG50 = "O_HMG_02_high_F";
 EAST_TOWN_M2LO = "O_G_HMG_02_F";
 EAST_TOWN_AGS = "O_GMG_01_F";
 EAST_TOWN_COAST = "O_static_AT_F";
-EAST_TOWN_CRAM = "O_static_AA_F";
+EAST_TOWN_CRAM = "B_AAA_System_01_F";
 EAST_TOWN_IGLA = "O_static_AA_F";
 //--- Town Statics Compositions
 EAST_TOWN_MG_COMP = [];
@@ -659,6 +659,8 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		EAST_NAVAL_LARGE_ASSAULT_BOAT = "O_T_Boat_Armed_01_hmg_F";
 		EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "O_T_Boat_Armed_01_hmg_F";
 	};
+		//--- Town Statics
+		EAST_TOWN_CRAM = "B_AAA_System_01_F";
 	//--Load Heli Mod
 	if (CTI_HELI_ADDON > 0) then {
 
