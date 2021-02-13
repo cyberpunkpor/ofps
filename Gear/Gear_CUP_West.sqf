@@ -3170,7 +3170,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_launch_PzF3',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/500,
+				/*Price*/550,
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
@@ -3181,7 +3181,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_launch_HCPF3',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/550,
+				/*Price*/500,
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
