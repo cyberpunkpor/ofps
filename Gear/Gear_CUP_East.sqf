@@ -1951,28 +1951,6 @@ _u = []; //Gear Classname
   //Primary Weapons
 	
 		//Shotguns
-  
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_8Rnd_B_Beneli_74Pellets',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/4,
-				/*Camo*/[],
-				/*Type*/["Shotgun"]
-			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_8Rnd_B_Beneli_74Slug',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/4,
-				/*Camo*/[],
-				/*Type*/["Shotgun"]
-			];
 
 			_u pushBack [
 				/*Enabled*/true,
@@ -1980,7 +1958,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_1Rnd_B_CZ584_74Slug',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
-				/*Price*/1,
+				/*Price*/2,
 				/*Camo*/[],
 				/*Type*/["Shotgun"]
 			];
@@ -1992,6 +1970,17 @@ _u = []; //Gear Classname
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
 				/*Price*/1,
+				/*Camo*/[],
+				/*Type*/["Shotgun"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_1Rnd_12Gauge_Slug',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/2,
 				/*Camo*/[],
 				/*Type*/["Shotgun"]
 			];
@@ -2069,6 +2058,17 @@ _u = []; //Gear Classname
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
 				/*Price*/4,
+				/*Camo*/[],
+				/*Type*/["Shotgun"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_12Rnd_B_Saiga12_Slug',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/5,
 				/*Camo*/[],
 				/*Type*/["Shotgun"]
 			];
