@@ -180,54 +180,63 @@ with missionNamespace do {
 //--- INFANTRY ONLY TOWNS ---------------------------------------------------	
 	//Towns < 50
 	TOWNS_OCC_INF_POOL_1 = [
-		["TOWNS_SQUAD_RIFLEMEN1", 1, 99],
-		["TOWNS_SQUAD_AT1", 1, 99]
+		["TOWNS_SQUAD_RIFLEMEN1", 3, 99],
+		["TOWNS_SQUAD_AT1", 5, 99]
 	];
 	//Towns 50-60
 	TOWNS_OCC_INF_POOL_2 = [
 		[	
-			["TOWNS_SQUAD_RIFLEMEN1", 1, 50],
-			["TOWNS_SQUAD_SNIPER", 1, 50], 
-			["TOWNS_SQUAD_AT1", 4, 75], 
-			["TOWNS_SQUAD_AA", 4, 65]
+			["TOWNS_SQUAD_RIFLEMEN1", 3, 99],
+			["TOWNS_SQUAD_RIFLEMEN2", 1, 70],
+			["TOWNS_SQUAD_SNIPER", 1, 60], 
+			["TOWNS_SQUAD_AT1", 7, 75], 
+			["TOWNS_SQUAD_AA", 2, 65]
 		]
 	];
 	//Towns 60-80
 	TOWNS_OCC_INF_POOL_3 = [
 		[	
 			["TOWNS_SQUAD_RIFLEMEN2", 1, 50],
-			["TOWNS_SQUAD_SNIPER", 1, 50], 
-			["TOWNS_SQUAD_AT1", 4, 75], 
-			["TOWNS_SQUAD_AA", 4, 65]
+			["TOWNS_SQUAD_RIFLEMEN3", 7, 80],
+			["TOWNS_SQUAD_SNIPER", 1, 60], 
+			["TOWNS_SQUAD_AT1", 9, 60],
+			["TOWNS_SQUAD_AT2", 2, 75], 
+			["TOWNS_SQUAD_AA", 2, 65]
 		]
 	];
 	//Towns 80-100
 	TOWNS_OCC_INF_POOL_4 = [
 		[	
-			["TOWNS_SQUAD_RIFLEMEN2", 1, 50],
+			["TOWNS_SQUAD_RIFLEMEN2", 2, 50],
+			["TOWNS_SQUAD_RIFLEMEN3", 8, 80],
 			["TOWNS_SQUAD_SNIPER", 1, 50], 
-			["TOWNS_SQUAD_AT1", 4, 75], 
-			["TOWNS_SQUAD_AA", 4, 65]
+			["TOWNS_SQUAD_AT1", 13, 60], 
+			["TOWNS_SQUAD_AT2", 7, 75], 
+			["TOWNS_SQUAD_AA", 5, 65]
 		]
 	];
 	//Towns 100-120
 	TOWNS_OCC_INF_POOL_5 = [
 		[	
-			["TOWNS_SQUAD_RIFLEMEN2", 1, 50],
-			["TOWNS_SQUAD_SNIPER", 1, 50], 
-			["TOWNS_SQUAD_AT1", 4, 75],
-			["TOWNS_SQUAD_AT2", 1, 15], 
-			["TOWNS_SQUAD_AA", 4, 65]
+			["TOWNS_SQUAD_RIFLEMEN1", 2, 99],
+			["TOWNS_SQUAD_RIFLEMEN2", 4, 50],
+			["TOWNS_SQUAD_RIFLEMEN3", 9, 80],
+			["TOWNS_SQUAD_SNIPER", 2, 60], 
+			["TOWNS_SQUAD_AT1", 22, 40],
+			["TOWNS_SQUAD_AT2", 8, 75], 
+			["TOWNS_SQUAD_AA", 7, 65]
 		]
 	];
 	//Towns > 120
 	TOWNS_OCC_INF_POOL_6 = [
 		[	
-			["TOWNS_SQUAD_RIFLEMEN3", 2, 60],
+			["TOWNS_SQUAD_RIFLEMEN1", 4, 99],
+			["TOWNS_SQUAD_RIFLEMEN2", 6, 70],
+			["TOWNS_SQUAD_RIFLEMEN3", 11, 80],
 			["TOWNS_SQUAD_SNIPER", 2, 70],
-			["TOWNS_SQUAD_AT1", 2, 85], 
-			["TOWNS_SQUAD_AT2", 4, 75], 
-			["TOWNS_SQUAD_AA", 4, 70]
+			["TOWNS_SQUAD_AT1", 23, 50], 
+			["TOWNS_SQUAD_AT2", 15, 85], 
+			["TOWNS_SQUAD_AA", 9, 70]
 		]
 	];
 //--- NAVAL TOWNS ---------------------------------------------------	
