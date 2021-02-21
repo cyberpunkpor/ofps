@@ -3214,7 +3214,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_launch_APILAS',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/500,
+				/*Price*/600,
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
