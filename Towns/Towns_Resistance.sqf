@@ -891,7 +891,6 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 		[_t_defenses, _t_composition]
 	}];
 
-	if (CTI_VANILLA_ADDON > 0 ) then {
 	GUER_TOWN_MG_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -1059,7 +1058,6 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
-}; //-- End Vanilla Mode here NO IDEA @TOOK
 	};
 	//--Load Heli Mod
 	if (CTI_HELI_ADDON > 0) then {
