@@ -3290,7 +3290,7 @@ _u = []; //Gear Classname
     //Lock-on
 		
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false, //replaced by disposable NLAW
 				/*Name*/'',
 				/*ClassName*/'CUP_launch_NLAW_Loaded',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
@@ -3299,7 +3299,18 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Lock-on or Dumbfire"]
 			];
-		
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'Disposable NLAW',
+				/*ClassName*/'CUP_launch_NLAW',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/3,
+				/*Price*/600,
+				/*Camo*/[],
+				/*Type*/["Lock-on or Dumbfire"]
+			];	
+
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
@@ -7510,7 +7521,7 @@ _u = []; //Gear Classname
     //Lock-on
 		
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false, //replaced by disposable NLAW
 				/*Name*/'',
 				/*ClassName*/'CUP_NLAW_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
