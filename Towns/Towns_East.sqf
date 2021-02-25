@@ -280,6 +280,7 @@ if (CTI_VANILLA_ADDON > 0) then {
 	}];	
 	EAST_TOWN_SPG_COMP = EAST_TOWN_AT_COMP; //fallback for vanilla
 	EAST_TOWN_DSHKM_COMP = EAST_TOWN_MG_COMP; //fallback for vanilla
+	EAST_TOWN_KORDLO_COMP = EAST_TOWN_M2LO_COMP; //fallback for vanilla
 };
 
 //--Load Heli Mod
@@ -322,57 +323,9 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	EAST_TOWN_DSHKM = "CUP_O_DSHKM_TK_INS";
 	EAST_TOWN_KORD = "CUP_O_KORD_high_RU";
 	EAST_TOWN_KORDLO = "CUP_O_KORD_RU";
-	EAST_TOWN_MG50 = "CUP_I_M2StaticMG_RACS";
 	EAST_TOWN_CRAM = "CUP_O_ZS23_RU";
 	EAST_TOWN_MK29 = "CUP_O_ZS23_RU";
 	EAST_TOWN_MK49 = "CUP_O_Igla_AA_pod_RU";
-	EAST_TOWN_M2LO = "CUP_I_M2StaticMG_MiniTripod_RACS";
-	EAST_TOWN_MG50_COMP = [{
-		_t_center = _this select 0;
-		_t_direction = _this select 1;
-		
-		_t_defenses = [];
-		_t_composition = [];
-		
-		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
-		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object enableSimulationGlobal false;
-		_t_composition pushBack _object;
-		
-		_object = createVehicle ["CUP_I_M2StaticMG_RACS", _t_center, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object setVectorUp surfaceNormal position _object;
-		_t_defenses pushBack _object;
-		
-		//--- Return the defenses objects and the composition
-		[_t_defenses, _t_composition]
-	}];
-	EAST_TOWN_M2LO_COMP = [{
-		_t_center = _this select 0;
-		_t_direction = _this select 1;
-		
-		_t_defenses = [];
-		_t_composition = [];
-		
-		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
-		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object enableSimulationGlobal false;
-		_t_composition pushBack _object;
-		
-		_object = createVehicle ["CUP_I_M2StaticMG_MiniTripod_RACS", _t_center, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object setVectorUp surfaceNormal position _object;
-		_t_defenses pushBack _object;
-		
-		//--- Return the defenses objects and the composition
-		[_t_defenses, _t_composition]
-	}];
 	EAST_TOWN_DSHKM_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -411,6 +364,29 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["CUP_O_SPG9_ChDKZ", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_KORDLO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_O_KORD_RU", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -859,6 +835,29 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["CUP_O_SPG9_ChDKZ", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_KORDLO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_O_KORD_RU", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -1919,12 +1918,12 @@ See below for pools
 //--- Statics Groups
 EAST_TOWNS_STATICS_ALL = [EAST_TOWN_MG,EAST_TOWN_MGLO,EAST_TOWN_KORD,EAST_TOWN_KORDLO,EAST_TOWN_M2LO,EAST_TOWN_GL,EAST_TOWN_AT,EAST_TOWN_AA,EAST_TOWN_IGLA,EAST_TOWN_ZSU,EAST_TOWN_D30,EAST_TOWN_SPG,EAST_TOWN_DSHKM,EAST_TOWN_MG50,EAST_TOWN_AGS,EAST_TOWN_COAST];
 EAST_TOWNS_STATICS_CORE = [EAST_TOWN_MG,EAST_TOWN_GL,EAST_TOWN_AT];
-EAST_TOWNS_STATICS_COMPS = EAST_TOWN_MG_COMP + EAST_TOWN_GL_COMP + EAST_TOWN_AT_COMP + EAST_TOWN_SPG_COMP + EAST_TOWN_DSHKM_COMP + EAST_TOWN_MG50_COMP + EAST_TOWN_MGLO_COMP + EAST_TOWN_M2LO_COMP + EAST_TOWN_AGS_COMP;
+EAST_TOWNS_STATICS_COMPS = EAST_TOWN_MG_COMP + EAST_TOWN_GL_COMP + EAST_TOWN_AT_COMP + EAST_TOWN_SPG_COMP + EAST_TOWN_DSHKM_COMP + EAST_TOWN_MG50_COMP + EAST_TOWN_MGLO_COMP + EAST_TOWN_M2LO_COMP + EAST_TOWN_AGS_COMP + EAST_TOWN_KORDLO_COMP];
 EAST_TOWNS_STATICS_INFANTRY = [EAST_TOWN_MG,EAST_TOWN_KORD,EAST_TOWN_GL,EAST_TOWN_DSHKM,EAST_TOWN_MG50,EAST_TOWN_AGS];
 EAST_TOWNS_STATICS_VEHICLE = [EAST_TOWN_AT,EAST_TOWN_D30,EAST_TOWN_SPG];
 EAST_TOWNS_STATICS_AIR = [EAST_TOWN_AA,EAST_TOWN_ZSU,EAST_TOWN_IGLA];
-EAST_TOWNS_STATICS_ICOMPS =  EAST_TOWN_MG_COMP + EAST_TOWN_GL_COMP + EAST_TOWN_DSHKM_COMP + EAST_TOWN_MG50_COMP + EAST_TOWN_MGLO_COMP + EAST_TOWN_M2LO_COMP + EAST_TOWN_AGS_COMP;
-EAST_TOWNS_STATICS_VCOMPS =  EAST_TOWN_AT_COMP + EAST_TOWN_SPG_COMP;
+EAST_TOWNS_STATICS_ICOMPS = EAST_TOWN_MG_COMP + EAST_TOWN_GL_COMP + EAST_TOWN_DSHKM_COMP + EAST_TOWN_MG50_COMP + EAST_TOWN_MGLO_COMP + EAST_TOWN_M2LO_COMP + EAST_TOWN_AGS_COMP + EAST_TOWN_KORDLO_COMP;
+EAST_TOWNS_STATICS_VCOMPS = EAST_TOWN_AT_COMP + EAST_TOWN_SPG_COMP;
 
 //--- Infantry Squads
 EAST_TOWNS_SQUAD_RIFLEMEN1 = [EAST_SOLDIER_SQUADLEADER, EAST_SOLDIER_AR, EAST_SOLDIER, EAST_SOLDIER, EAST_SOLDIER, EAST_SOLDIER_MARKSMAN, EAST_SOLDIER_MEDIC];
