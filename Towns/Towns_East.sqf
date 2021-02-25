@@ -107,6 +107,7 @@ EAST_TOWN_MG50_COMP = [];
 EAST_TOWN_MGLO_COMP = [];
 EAST_TOWN_M2LO_COMP = [];
 EAST_TOWN_AGS_COMP = [];
+EAST_TOWN_KORDLO_COMP = [];
 
 //--- END DO NOT TOUCH THIS LIST
 
@@ -797,7 +798,49 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];	
-	EAST_TOWN_DSHKM_COMP = [{
+	
+	};
+
+	//--Load Heli Mod
+	if (CTI_HELI_ADDON > 0) then {
+
+	};
+	//--- Load Marksmen Mod
+	if (CTI_MARKSMEN_ADDON > 0) then {
+
+	};
+	//--- Load APEX Mod
+	if (CTI_APEX_ADDON > 0) then {
+
+	};
+	//--- Load JETS Mod
+	if (CTI_JETS_ADDON > 0) then {
+
+	};
+	//--- Load Laws Of War Mod
+	if (CTI_LAWSOFWAR_ADDON > 0) then {
+
+	};
+	//--- Load TANKS Mod
+	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- CUP UNITS
+	if (CTI_CUP_VEHICLES_ADDON > 0) then {
+
+	};
+	//--- Load CUP Mod
+	if (CTI_CUP_WEAPONS_ADDON > 0) then {
+		//--- Town Statics
+			EAST_TOWN_DSHKM_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
 		
@@ -866,46 +909,6 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
-];
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
-
-	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load GLOBAL MOBILIZATION Mod
-	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
-
-	};
-	//--- Load CONTACT Mod
-	if (CTI_CONTACT_ADDON > 0) then {
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
