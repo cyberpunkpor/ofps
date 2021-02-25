@@ -866,6 +866,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
+];
 	//--Load Heli Mod
 	if (CTI_HELI_ADDON > 0) then {
 
