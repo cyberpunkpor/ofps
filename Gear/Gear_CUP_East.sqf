@@ -1011,8 +1011,8 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_launch_RShG2',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
-				/*Price*/300,
+				/*UpgradeLevel*/0,
+				/*Price*/100,
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
@@ -3648,7 +3648,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_AT13_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/4,
-				/*Price*/1200,
+				/*Price*/3000,
 				/*Camo*/[],
 				/*Type*/["SACLOS"]
 			];

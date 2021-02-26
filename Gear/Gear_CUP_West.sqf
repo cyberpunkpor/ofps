@@ -3203,7 +3203,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_launch_BF3',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/600,
+				/*Price*/300,
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
@@ -7500,7 +7500,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_MAAWS_HEDP_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/1000,
+				/*Price*/600,
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
@@ -7510,7 +7510,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_MAAWS_HEAT_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
+				/*UpgradeLevel*/3,
 				/*Price*/800,
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
