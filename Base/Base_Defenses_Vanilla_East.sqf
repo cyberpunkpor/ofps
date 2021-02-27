@@ -2541,7 +2541,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Darter Patrol',
 	/*Class*/"O_UAV_01_F",
 	/*Price*/4000,

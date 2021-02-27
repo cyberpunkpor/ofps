@@ -117,7 +117,7 @@ _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
 
-_u pushBack [
+_u pushBack [ //Right so any unit that is not from SIDE O = Opfor or B = Bluefor cant be used because of side conflicts. this causes issues with targeting or friendly and enemy AI. enemy AI might not shoot at at and friendly AI will think its a enemy.
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'I_E_APC_tracked_03_cannon_F',
