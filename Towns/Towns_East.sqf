@@ -1996,3 +1996,11 @@ EAST_TOWNS_SQUAD_VEHICLE_AA3_MIXED = EAST_TOWNS_SQUAD_VEHICLE_AA3 + EAST_TOWNS_S
 EAST_TOWNS_SQUAD_ZOMBIE1 = ["Zombie_Villager_1_F"];
 EAST_TOWNS_SQUAD_ZOMBIE2 = ["Zombie_Citizen_1_F"];
 EAST_TOWNS_SQUAD_ZOMBIE3 = ["Zombie_Priest_1_F"];
+
+//--- Player Starter Squads
+//--- Player Starter AI Infantry Squad
+
+//--- Vanilla Pulls From Town OCC
+
+//--- CUP 
+EAST_PLAYER_SQUAD_RIFLEMEN1 = ["CUP_O_RU_Soldier_M_EMR", "CUP_O_RU_Soldier_AR_M_EMR", "CUP_O_RU_Soldier_GL_M_EMR", "CUP_O_RU_Medic_M_EMR"];

@@ -1997,6 +1997,11 @@ WEST_TOWNS_SQUAD_ZOMBIE1 = ["Zombie_Villager_1_F"];
 WEST_TOWNS_SQUAD_ZOMBIE2 = ["Zombie_Citizen_1_F"];
 WEST_TOWNS_SQUAD_ZOMBIE3 = ["Zombie_Priest_1_F"];
 
-//Starter AI Infantry Squad
-WEST_PLAYER_SQUAD_RIFLEMEN1 = ["CUP_B_US_Soldier", "CUP_B_US_Soldier_AR", "CUP_B_US_Soldier_SL", "CUP_B_US_Soldier_GL", "CUP_B_US_Medic"];
+//--- Player Starter Squads
+//--- Player Starter AI Infantry Squad
+
+//--- Vanilla Pulls From Town OCC
+
+//--- CUP 
+WEST_PLAYER_SQUAD_RIFLEMEN1 = ["CUP_B_US_Soldier", "CUP_B_US_Soldier_AR", "CUP_B_US_Soldier_GL","CUP_B_US_Medic"];
 };
