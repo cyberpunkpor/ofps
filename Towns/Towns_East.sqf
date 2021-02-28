@@ -564,6 +564,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 0) then {
 if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
+		//-- Only add vanilla faction specific overrides as neeeded here
 		//--- Infantry
 		EAST_SOLDIER = "O_T_Soldier_F";
 		EAST_SOLDIER_AA = "O_T_Soldier_AA_F";
@@ -635,7 +636,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		EAST_NAVAL_MEDIUM_ASSAULT_BOAT = "O_T_Boat_Armed_01_hmg_F";
 		EAST_NAVAL_LARGE_ASSAULT_BOAT = "O_T_Boat_Armed_01_hmg_F";
 		EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "O_T_Boat_Armed_01_hmg_F";
-	};
+
 		//--- Town Statics
 		EAST_TOWN_MG_COMP = [{
 		_t_center = _this select 0;
@@ -2004,3 +2005,4 @@ EAST_TOWNS_SQUAD_ZOMBIE3 = ["Zombie_Priest_1_F"];
 
 //--- CUP 
 EAST_PLAYER_SQUAD_RIFLEMEN1 = ["CUP_O_RU_Soldier_M_EMR", "CUP_O_RU_Soldier_AR_M_EMR", "CUP_O_RU_Soldier_GL_M_EMR", "CUP_O_RU_Medic_M_EMR"];
+};
