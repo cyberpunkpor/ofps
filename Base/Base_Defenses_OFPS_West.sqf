@@ -233,7 +233,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false, //Broken needs rebuild cent knocks itself off tower during traversal and kills itself
 	/*Name*/'Coastal Centurion Fortified (Anti Naval)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_coastal_fortified_west",2]]],
 	/*Price*/80000,
@@ -278,22 +278,6 @@ _u pushBack [
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
 	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'MIM-145 Defender Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_tower_ofps_west",2]]],
-	/*Price*/80000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/3,
-	/*MaxCount*/1,
-	/*Cooldown*/600,
-	/*Dismantle*/-1,
-	/*Specials*/[]
 ];
 
 _u pushBack [
