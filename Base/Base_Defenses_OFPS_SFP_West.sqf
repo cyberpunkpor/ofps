@@ -105,7 +105,7 @@ _u = []; //Defense Classname
 
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false, //Broken needs rebuild cent knocks itself off tower during traversal and kills itself
 	/*Name*/'Anti Ship Missle Fortified',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","anti_ship_fortified_west",2]]],
 	/*Price*/51000,

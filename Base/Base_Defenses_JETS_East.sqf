@@ -185,22 +185,6 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'S-750 Rhea Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_tower_east",2]]],
-	/*Price*/100000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
 	/*Name*/'Radar Unit (Requires AI Outside Base)',
 	/*Class*/"O_Radar_System_02_F",
 	/*Price*/8000,

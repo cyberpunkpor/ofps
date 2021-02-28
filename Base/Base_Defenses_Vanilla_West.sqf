@@ -841,7 +841,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false, //broken MG does not spawn
 	/*Name*/'Bunker (MG)',
 	/*Class*/["Land_BagBunker_Small_F", [["Armed","MG"]]],
 	/*Price*/3000,
@@ -873,7 +873,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false, //broken no AA turrets spawn
 	/*Name*/'Cargo Tower (AA)',
 	/*Class*/["Land_Cargo_Tower_V1_No1_F", [["Armed","AA"]]],
 	/*Price*/15000,
@@ -889,7 +889,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false, //Broken needs rebuild, knocks itself off tower during traversal and kills itself
 	/*Name*/'Praetorian Fortified',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","praetorian_fortified_west",2]]],
 	/*Price*/30000,
@@ -921,7 +921,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false, //Broken needs rebuild cent knocks itself off tower during traversal and kills itself
 	/*Name*/'Centurion Fortified',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_fortified_west",2]]],
 	/*Price*/250000,
