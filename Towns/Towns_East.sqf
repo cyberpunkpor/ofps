@@ -2004,5 +2004,5 @@ EAST_TOWNS_SQUAD_ZOMBIE3 = ["Zombie_Priest_1_F"];
 //--- Vanilla Pulls From Town OCC
 
 //--- CUP 
-EAST_PLAYER_SQUAD_RIFLEMEN1 = ["CUP_O_RU_Soldier_M_EMR", "CUP_O_RU_Soldier_AR_M_EMR", "CUP_O_RU_Soldier_GL_M_EMR", "CUP_O_RU_Medic_M_EMR"];
+EAST_PLAYER_SQUAD_RIFLEMEN1 = ["CUP_O_RU_Soldier_Light", "CUP_O_RU_Soldier_Light", "CUP_O_RU_Soldier_Light", "CUP_O_RU_Soldier_Light"];
 };

@@ -2003,5 +2003,5 @@ WEST_TOWNS_SQUAD_ZOMBIE3 = ["Zombie_Priest_1_F"];
 //--- Vanilla Pulls From Town OCC
 
 //--- CUP 
-WEST_PLAYER_SQUAD_RIFLEMEN1 = ["CUP_B_US_Soldier", "CUP_B_US_Soldier_AR", "CUP_B_US_Soldier_GL","CUP_B_US_Medic"];
+WEST_PLAYER_SQUAD_RIFLEMEN1 = ["CUP_B_USMC_Soldier_Light", "CUP_B_USMC_Soldier_Light", "CUP_B_USMC_Soldier_Light","CUP_B_USMC_Soldier_Light"];
 };
