@@ -749,7 +749,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'2x20mmUAV (R1.5Km)',
 	/*Class*/"CUP_O_Type072_Turret",
-	/*Price*/4000,
+	/*Price*/10000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
