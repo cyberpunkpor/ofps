@@ -314,17 +314,6 @@ _u = []; //Gear Classname
 		];  
 
   //Snipers
-		
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'srifle_LRR_tna_F',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/5,
-			/*Price*/2000,
-			/*Camo*/[],
-			/*Type*/["Sniper"]
-		];
 
 		_u pushBack [
 			/*Enabled*/true,
@@ -841,18 +830,7 @@ _u = []; //Gear Classname
 				/*Type*/["DMR"]
 			];
 
-    //Snipers
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'7Rnd_408_Mag',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/5,
-				/*Price*/4,
-				/*Camo*/[],
-				/*Type*/["Sniper"]
-			];    
+    //Snipers  
 
   //Handheld Grenades
 
