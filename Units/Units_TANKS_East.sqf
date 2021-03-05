@@ -257,7 +257,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/3,
-	/*Price*/13000,
+	/*Price*/8000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
