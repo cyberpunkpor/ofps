@@ -1833,8 +1833,8 @@ _u pushBack [
 	/*ClassName*/'M_120mm_cannon_ATGM_LG',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/4000,
-	/*RearmTime*/0.5,
+	/*Price*/5500,
+	/*RearmTime*/2,
 	/*Filters*/[]
 ];
 

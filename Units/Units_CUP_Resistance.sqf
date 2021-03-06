@@ -1147,6 +1147,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_RACS_Soldier_HAT_Urban',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/550,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_RACS_Crew',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
@@ -2782,11 +2801,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_T34_TKA',
+	/*ClassName*/'CUP_O_T55_TK',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
-	/*Price*/6000,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[""],
@@ -2801,7 +2820,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_T55_TK',
+	/*ClassName*/'CUP_I_T55_NAPA',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
@@ -3295,11 +3314,30 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_T34_TK_GUE',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/9000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_T34_NAPA',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
-	/*Price*/6000,
+	/*Price*/9000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[""],
@@ -4207,6 +4245,44 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_RG31_Mk19_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/2500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Black ION'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_RG31_Mk19_W_ION',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/2500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Winter ION'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_RG31_M2_W_GC_ION',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
@@ -4214,7 +4290,7 @@ _u pushBack [
 	/*Price*/1800,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Olive'],
+	/*Camo*/['Winter ION'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,

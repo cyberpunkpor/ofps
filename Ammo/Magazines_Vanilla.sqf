@@ -2551,8 +2551,8 @@ _u pushBack [
 	/*ClassName*/'4Rnd_120mm_LG_cannon_missiles',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/16000,
-	/*RearmTime*/10,
+	/*Price*/22000,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
 
