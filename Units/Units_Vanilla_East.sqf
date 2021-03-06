@@ -2367,7 +2367,7 @@ _u pushBack [
 	/*MenuName*/'Offroad M2',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",0],[CTI_LARGE_FOB,"logistics",0]],
 	/*UpgradeLevel*/0,
-	/*Price*/1500,
+	/*Price*/1200,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Black'],
