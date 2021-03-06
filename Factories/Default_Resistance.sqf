@@ -58,7 +58,7 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_I_RACS_Soldier_wdl"];
 	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_RACS_Soldier_wdl"];
 	missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_I_RACS_Soldier"];
-	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_RACS_Soldier"];
+	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_RACS_Soldier_wdl"];
 	missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_I_RACS_Crew"];
 	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_RACS_Pilot"];
 	};
@@ -106,5 +106,15 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Crew", _side], "LIB_US_Tank_Sergeant"];
 	missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "LIB_US_Tank_Sergeant"];
 	missionNamespace setVariable [format["CTI_%1_Static", _side], "LIB_UK_Engineer"];
+	};
+
+	case 11: { //Royal Army Corp Of Sahrani (Desert)- CUP
+	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_RACS_Officer"];
+	missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_I_RACS_Soldier"];
+	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_RACS_Soldier"];
+	missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_I_RACS_Soldier"];
+	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_RACS_Soldier"];
+	missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_I_RACS_Crew"];
+	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_RACS_Pilot"];
 	};
 };
