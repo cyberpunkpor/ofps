@@ -5103,7 +5103,7 @@ _u pushBack [
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/600,
-	/*BuildTime*/30,
+	/*BuildTime*/5,
 	/*Distance*/1,
 	/*Camo*/['SandHex'],
 	/*Type*/[],
