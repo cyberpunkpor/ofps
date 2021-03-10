@@ -2835,6 +2835,179 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 };
 
 //--------------------------------------------------------------------------------------------
+//--- VANILLA - LDF TOWN OCCUPATION
+//--------------------------------------------------------------------------------------------
+if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then { 
+	//--Load Vanilla
+	if (CTI_VANILLA_ADDON > 0) then {
+		//-- Only add vanilla faction specific overrides as neeeded here
+		//--- Infantry
+		GUER_SOLDIER = "I_E_Soldier_F";
+		GUER_SOLDIER_AA = "I_E_Soldier_AA_F";
+		GUER_SOLDIER_AR = "I_E_Soldier_AR_F";
+		GUER_SOLDIER_AT = "I_E_Soldier_LAT_F";
+		GUER_SOLDIER_CREW = "I_E_Crew_F";
+		GUER_SOLDIER_LAT = "I_E_Soldier_LAT2_F";
+		GUER_SOLDIER_HAT = "I_E_Soldier_AT_F";
+		GUER_SOLDIER_ENGINEER = "I_E_Engineer_F";
+		GUER_SOLDIER_EXP = "I_E_Soldier_exp_F";
+		GUER_SOLDIER_GL = "I_E_Soldier_GL_F";
+		GUER_SOLDIER_MEDIC = "I_E_Medic_F";
+		GUER_SOLDIER_MG = "I_E_Soldier_AR_F";
+		GUER_SOLDIER_PILOT = "I_E_Helipilot_F";
+		GUER_SOLDIER_SNIPER = "I_ghillie_sard_F";
+		GUER_SOLDIER_MARKSMAN = "I_E_soldier_M_F";
+		GUER_SOLDIER_TEAMLEADER = "I_E_Soldier_TL_F";
+		GUER_SOLDIER_SQUADLEADER = "I_E_Soldier_SL_F";
+
+		//--- Naval Infantry
+		//GUER_SOLDIER_NAVAL_INFANTRY = "I_diver_F";
+		//GUER_SOLDIER_NAVAL_SQUADLEADER = "I_diver_TL_F";
+		//--- Light Vehicles
+		GUER_VEHICLE_LIGHT1 = "I_G_Offroad_01_armed_F";
+		GUER_VEHICLE_LIGHT2 = "I_G_Offroad_01_AT_F";
+		GUER_VEHICLE_LIGHT3 = "I_MRAP_03_hmg_F";
+		GUER_VEHICLE_LIGHT4 = "I_LT_01_cannon_F";
+		GUER_VEHICLE_LIGHT5 = "I_MRAP_03_gmg_F";
+		GUER_VEHICLE_LIGHT6 = "I_MRAP_03_gmg_F";
+		GUER_VEHICLE_LIGHT7 = "I_LT_01_AT_F";
+		//--- APCs
+		GUER_VEHICLE_APC1 = "I_E_APC_tracked_03_cannon_F";
+		GUER_VEHICLE_APC2 = "I_E_APC_tracked_03_cannon_F";
+		GUER_VEHICLE_APC3 = "I_E_APC_tracked_03_cannon_F";
+		//--- Tanks
+		GUER_VEHICLE_ARMORED1 = "I_MBT_03_cannon_F";	
+		GUER_VEHICLE_ARMORED2 = "I_MBT_03_cannon_F";
+		GUER_VEHICLE_ARMORED3 = "I_MBT_03_cannon_F";
+		//--- AA Vehicles
+		//GUER_VEHICLE_AA1 = "CUP_I_M163_AAF";
+		GUER_VEHICLE_AA2 = "I_LT_01_AA_F";
+		//GUER_VEHICLE_AA3 = "CUP_I_ZSU23_AAF";
+		//--- Air
+		GUER_AIR_HELI1 = "I_E_Heli_light_03_dynamicLoadout_F";
+		//GUER_AIR_HELI2 = "CUP_I_AH1Z_Dynamic_AAF";
+		GUER_AIR_AA = "I_Plane_Fighter_03_AA_F";
+		GUER_AIR_CAS = "I_Plane_Fighter_03_dynamicLoadout_F";
+		//--- Boats
+		GUER_NAVAL_ASSAULT_BOAT1 = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_ASSAULT_BOAT2 = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";		
+		//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
+
+		//--- Town Statics
+		GUER_TOWN_AGS = "I_E_GMG_01_F";
+		GUER_TOWN_MORTAR = "I_E_Mortar_01_F";
+		GUER_TOWN_MG50 = "I_E_HMG_02_high_F";
+		GUER_TOWN_M2LO = "I_E_HMG_02_F";
+	};
+	//--Load Heli Mod
+	if (CTI_HELI_ADDON > 0) then {
+
+	};
+	//--- Load Marksmen Mod
+	if (CTI_MARKSMEN_ADDON > 0) then {
+
+	};
+	//--- Load APEX Mod
+	if (CTI_APEX_ADDON > 0) then {
+
+	};
+	//--- Load JETS Mod
+	if (CTI_JETS_ADDON > 0) then {
+
+	};
+	//--- Load Laws Of War Mod
+	if (CTI_LAWSOFWAR_ADDON > 0) then {
+
+	};
+	//--- Load TANKS Mod
+	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- Load CUP Mod
+	if (CTI_CUP_WEAPONS_ADDON > 0) then {
+
+	};
+	//--- CUP UNITS
+	if (CTI_CUP_VEHICLES_ADDON > 0) then {
+		//--- Light Vehicles
+		GUER_VEHICLE_LIGHT1 = "CUP_I_LR_MG_AAF";
+		//--- AA Vehicles
+		GUER_VEHICLE_AA1 = "CUP_I_M163_AAF";
+		GUER_VEHICLE_AA3 = "CUP_I_ZSU23_AAF";
+		//--- Air
+		GUER_AIR_HELI2 = "CUP_I_AH1Z_Dynamic_AAF";	
+		//Ships
+		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_I_Frigate_AAF";
+	};
+	//--- Load RHS Mod
+	if (CTI_RHS_AFRF_ADDON > 0) then {
+
+	};
+	if (CTI_RHS_USAF_ADDON > 0) then {
+
+	};
+	//--- Load RHS Loadout Ammo
+	if (CTI_RHS_AFRF_ADDON > 0) then {
+
+	};
+	//--- OFPS Units Mod
+	if (CTI_OFPS_UNITS_ADDON > 0) then {
+
+	};
+	//--- OFPS RHS Mod
+	if (CTI_OFPS_RHS_ADDON > 0) then {
+
+	};
+	//--- OFPS CUP Mod
+	if (CTI_OFPS_CUP_ADDON > 0) then {
+
+	};
+	//--- SFP Mod
+	if (CTI_SFP_ADDON > 0) then {
+
+	};
+	//--- OFPS SFP Mod
+	if (CTI_OFPS_SFP_ADDON > 0) then {
+
+	};
+	//--- 2035 Russia
+	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
+
+	};
+	//--- HAFM UNITS
+	if (CTI_HAFM_ADDON > 0) then {
+
+	};
+	//--- HAFM SUBS UNITS
+	if (CTI_HAFM_SUBS_ADDON > 0) then {
+
+	};
+	//--- OFPS HAFM UNITS
+	if (CTI_OFPS_HAFM_ADDON > 0) then {
+
+	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
+};
+
+//--------------------------------------------------------------------------------------------
 //--- Town Teams Templates
 //--------------------------------------------------------------------------------------------
 /*
