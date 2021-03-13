@@ -332,4 +332,68 @@ switch (CTI_FACTION_EAST) do {
 	case 6: { //IFA3
 
 	};
+	case 7: { //Spetsnaz Livonia Contact (woodland)
+		//Set MHQ
+		missionNamespace setVariable [format["CTI_%1_HQ", _side], "O_T_APC_Wheeled_02_rcws_ghex_F"];
+		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["Male01RUS", "Male02RUS", "Male03RUS"]];
+		missionNamespace setVariable [format["CTI_%1_Commander", _side], "O_R_recon_TL_F"];
+		missionNamespace setVariable [format["CTI_%1_Worker", _side], "O_R_Gorka_camo_F"];
+		missionNamespace setVariable [format["CTI_%1_Diver", _side], "O_T_Diver_F"];
+		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "O_R_Gorka_camo_F"];
+		missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "O_R_Gorka_camo_F"];
+		missionNamespace setVariable [format["CTI_%1_Crew", _side], "O_R_Gorka_base_F"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "O_R_Gorka_base_F"];
+		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_T_Pilot_F"];
+		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "O_T_Helipilot_F"];
+		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "O_T_Helicrew_F"];
+		missionNamespace setVariable [format["CTI_%1_Static", _side], "O_R_Gorka_camo_F"];
+		// Set crewmen backpack (To hold a repair kit)
+		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
+		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
+		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
+		//Rifle and attachments
+		[["SMG_02_F",["","acc_flashlight","optic_ACO_grn",""],["30Rnd_9x21_Mag_SMG_02"]],
+        //Launcher and attachments
+	    ["CUP_launch_RPG18",["","","",""],[""]],
+		//Sidearm
+		["hgun_rook40_f",["","","",""],["30rnd_9x21_mag"]]],
+        //Uniform
+		[["U_O_T_Officer_F",["firstaidkit","firstaidkit","handgrenade","handgrenade"]],
+        //Vest
+		["V_BandollierB_rgr",["30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag"]],
+		//Backpack
+		["b_fieldpack_oli",["CUP_launch_RPG18","firstaidkit","firstaidkit"]]],
+		//Helmet,facegear and NVG
+		["cup_h_rus_6b27_cover_headset","g_combat"],
+		//Equipment
+		[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+
+
+		//Set starting vehicles
+		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
+			["O_T_Truck_03_medical_ghex_F", [
+				["Toolkit", 1],
+				["firstaidkit", 20],
+				["30rnd_9x21_mag", 20],
+				["arifle_CTAR_GL_ghex_F", 10],
+				["100Rnd_580x42_Mag_F", 10],
+				["30Rnd_580x42_Mag_Tracer_F", 50], 
+				["CUP_launch_RPG18", 30],
+				["1Rnd_HE_Grenade_shell", 24],
+				["UGL_FlareRed_F", 28],
+				["acc_flashlight", 10],
+				["optic_ACO_grn", 10],
+				["HandGrenade", 20]
+			]],
+			["O_T_MRAP_02_hmg_ghex_F", [
+				["Toolkit", 1],
+				["firstaidkit", 10],
+				["arifle_CTAR_GL_ghex_F", 10],
+				["100Rnd_580x42_ghex_Mag_Tracer_F", 5],
+				["30Rnd_580x42_Mag_Tracer_F", 50], 
+				["CUP_launch_RPG18", 20]
+			]]
+		]];
+	};
 };

@@ -74,7 +74,7 @@ switch (CTI_FACTION_WEST) do {
 			]]
 		]];
 	};
-	case 1: { //NATO Pacific APEX (woodland)
+	case 1: { //NATO Pacific APEX (jungle)
 		
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_T_APC_Wheeled_01_cannon_F"];
@@ -267,5 +267,74 @@ switch (CTI_FACTION_WEST) do {
 	};
 	case 6: { //IFA3
 
+	};
+	case 7: { //NATO Livonia Contact (woodland)
+		
+		//Set MHQ
+		missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_T_APC_Wheeled_01_cannon_F"];
+		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers_Low", _side], ["CUP_D_Male01_EN", "CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN", "CUP_D_Female01_EN"]];
+		missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male01_EN", "CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN", "CUP_D_Female01_EN"]];
+		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["Male01ENG", "Male02ENG", "Male03ENG", "Male04ENG", "Male05ENG", "Male06ENG", "Male07ENG", "Male08ENG", "Male09ENG", "Male10ENG", "Male11ENG", "Male12ENG", "Male01ENGB", "Male02ENGB", "Male03ENGB", "Male04ENGB", "Male05ENGB"]];
+		missionNamespace setVariable [format["CTI_%1_Commander", _side], "B_W_Officer_F"];
+		missionNamespace setVariable [format["CTI_%1_Worker", _side], "B_W_Soldier_F"];
+		missionNamespace setVariable [format["CTI_%1_Diver", _side], "B_T_Diver_F"];
+		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "B_W_Soldier_F"];
+		missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "B_W_Soldier_F"];
+		missionNamespace setVariable [format["CTI_%1_Crew", _side], "B_W_Crew_F"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "B_W_Crew_F"];
+		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "B_T_Pilot_F"];
+		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "B_T_Helipilot_F"];
+		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "B_T_Helicrew_F"];
+		missionNamespace setVariable [format["CTI_%1_Static", _side], "B_W_Officer_F"];
+		// Set crewmen backpack (To hold a repair kit)
+		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
+		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
+		missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
+		//Rifle and attachments
+		[["smg_01_f",["","acc_flashlight_smg_01","optic_aco_grn",""],["30rnd_45acp_mag_smg_01"]],
+        //Launcher and attachments
+		["CUP_launch_M72A6_Special",["","","",""],[""]],
+		//Sidearm
+		["hgun_p07_f",["","","",""],["16rnd_9x21_mag"]]],
+        //Uniform
+		[["U_B_CombatUniform_mcam_wdl_F",["firstaidkit","firstaidkit","handgrenade","handgrenade"]],
+        //Vest
+		["V_BandollierB_oli",["30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01"]],
+		//Backpack
+		["cup_b_usmc_assaultpack",["CUP_launch_M72A6"]]],
+		//Helmet,facegear and NVG
+		["cup_h_usmc_helmetwdl","g_combat"],
+		//Equipment
+		[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+
+
+		//Set starting vehicles
+		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
+			["B_T_Truck_01_medical_F", [
+				["Toolkit", 1],
+				["firstaidkit", 20],
+				["30Rnd_556x45_Stanag", 50],
+				["CUP_launch_M72A6", 20],
+				["HandGrenade", 20],
+				["arifle_SPAR_01_GL_khk_F", 10],
+				["30rnd_45acp_mag_smg_01", 10],
+				["optic_aco_grn", 10],
+				["firstaidkit", 20]
+			]],
+			["B_T_MRAP_01_hmg_F", [
+				["Toolkit", 1],
+				["firstaidkit", 10],
+				["CUP_8Rnd_B_Beneli_74Slug", 20],
+				["CUP_8Rnd_B_Beneli_74Pellets", 20],
+				["arifle_SPAR_01_GL_khk_F", 10],
+				["optic_aco_grn", 10],
+				["30Rnd_556x45_Stanag", 45],
+				["150Rnd_556x45_Drum_Mag_Tracer_F", 5],
+				["1Rnd_HE_Grenade_shell", 24],
+				["CUP_sgun_M1014", 10],
+				["CUP_launch_M72A6", 20]
+			]]
+		]];
 	};
 };

@@ -1896,6 +1896,388 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 7) then {
 		//EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_BUYAN";
 	};
 };
+
+//--------------------------------------------------------------------------------------------
+//--- Livonia TOWN OCCUPATION - Spetsnaz forces
+//--------------------------------------------------------------------------------------------
+if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then { 
+	//--Load Vanilla
+	if (CTI_VANILLA_ADDON > 0) then {
+		//-- Only add vanilla faction specific overrides as neeeded here
+		//--- Infantry
+		EAST_SOLDIER = "O_R_Gorka_camo_F";
+		EAST_SOLDIER_AA = "O_Soldier_AA_F";
+		EAST_SOLDIER_AR = "O_R_Soldier_AR_F";
+		EAST_SOLDIER_AT = "O_R_recon_LAT_F";
+		EAST_SOLDIER_CREW = "O_R_Gorka_base_F";
+		EAST_SOLDIER_LAT = "O_R_Soldier_LAT_F";
+		EAST_SOLDIER_HAT = "O_R_recon_LAT_F";
+		EAST_SOLDIER_ENGINEER = "O_R_Patrol_Soldier_Engineer_F";
+		EAST_SOLDIER_EXP = "O_R_soldier_exp_F";
+		EAST_SOLDIER_GL = "O_R_Soldier_GL_F";
+		EAST_SOLDIER_MEDIC = "O_R_medic_F";
+		EAST_SOLDIER_MG = "O_R_recon_AR_F";
+		EAST_SOLDIER_PILOT = "O_T_Helipilot_F";
+		EAST_SOLDIER_SNIPER = "O_R_recon_M_F";
+		EAST_SOLDIER_MARKSMAN = "O_R_soldier_M_F";
+		EAST_SOLDIER_TEAMLEADER = "O_R_Soldier_TL_F";
+		EAST_SOLDIER_SQUADLEADER = "O_R_recon_TL_F";
+
+		//--- Naval Infantry
+		//EAST_SOLDIER_NAVAL_INFANTRY = "O_T_Diver_F";
+		//EAST_SOLDIER_NAVAL_SQUADLEADER = "O_T_Diver_TL_F";
+		//--- Light Vehicles
+		EAST_VEHICLE_LIGHT1 = "O_T_LSV_02_armed_F";
+		EAST_VEHICLE_LIGHT2 = "O_T_LSV_02_armed_F";
+		EAST_VEHICLE_LIGHT3 = "O_T_MRAP_02_hmg_ghex_F";
+		EAST_VEHICLE_LIGHT4 = "O_T_MRAP_02_gmg_ghex_F";
+		EAST_VEHICLE_LIGHT5 = "O_T_MRAP_02_gmg_ghex_F";
+		EAST_VEHICLE_LIGHT6 = "O_T_LSV_02_AT_F";
+		EAST_VEHICLE_LIGHT7 = "O_T_MRAP_02_gmg_ghex_F";
+		//--- APCs
+		EAST_VEHICLE_APC1 = "O_T_APC_Wheeled_02_rcws_ghex_F";
+		EAST_VEHICLE_APC2 = "O_T_APC_Tracked_02_cannon_ghex_F";
+		EAST_VEHICLE_APC3 = "O_T_APC_Tracked_02_cannon_ghex_F";
+		//--- Tanks
+		EAST_VEHICLE_ARMORED1 = "O_T_MBT_02_cannon_ghex_F";	
+		EAST_VEHICLE_ARMORED2 = "O_T_MBT_04_cannon_F";
+		EAST_VEHICLE_ARMORED3 = "O_T_MBT_04_command_F";
+		//--- AA Vehicles
+		EAST_VEHICLE_AA1 = "O_T_APC_Tracked_02_AA_ghex_F";
+		EAST_VEHICLE_AA2 = "O_T_APC_Tracked_02_AA_ghex_F";
+		EAST_VEHICLE_AA3 = "O_T_APC_Tracked_02_AA_ghex_F";
+		//--- Air
+		EAST_AIR_HELI1 = "O_Heli_Light_02_F";
+		EAST_AIR_HELI2 = "O_Heli_Light_02_v2_F";
+		EAST_AIR_HELI_ATTACK = "O_Heli_Attack_02_F";
+		//EAST_AIR_AA = "";
+		EAST_AIR_CAS = "O_Plane_CAS_02_F";
+		//--- Boats
+		EAST_NAVAL_ASSAULT_BOAT1 = "O_T_Boat_Armed_01_hmg_F";
+		EAST_NAVAL_ASSAULT_BOAT2 = "O_T_Boat_Armed_01_hmg_F";
+		EAST_NAVAL_MEDIUM_ASSAULT_BOAT = "O_T_Boat_Armed_01_hmg_F";
+		EAST_NAVAL_LARGE_ASSAULT_BOAT = "O_T_Boat_Armed_01_hmg_F";
+		EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "O_T_Boat_Armed_01_hmg_F";
+
+		//--- Town Statics
+		EAST_TOWN_MG_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["O_HMG_01_High_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_M2LO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["O_G_HMG_02_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_MG50_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["O_HMG_02_high_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_MGLO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["O_HMG_01_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_GL_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["O_GMG_01_high_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["O_GMG_01_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["O_static_AT_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];	
+	
+	};
+
+	//--Load Heli Mod
+	if (CTI_HELI_ADDON > 0) then {
+
+	};
+	//--- Load Marksmen Mod
+	if (CTI_MARKSMEN_ADDON > 0) then {
+
+	};
+	//--- Load APEX Mod
+	if (CTI_APEX_ADDON > 0) then {
+
+	};
+	//--- Load JETS Mod
+	if (CTI_JETS_ADDON > 0) then {
+
+	};
+	//--- Load Laws Of War Mod
+	if (CTI_LAWSOFWAR_ADDON > 0) then {
+
+	};
+	//--- Load TANKS Mod
+	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- CUP UNITS
+	if (CTI_CUP_VEHICLES_ADDON > 0) then {
+
+	};
+	//--- Load CUP Mod
+	if (CTI_CUP_WEAPONS_ADDON > 0) then {
+		//--- Town Statics
+			EAST_TOWN_DSHKM_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_O_DSHKM_TK_INS", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_SPG_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_O_SPG9_ChDKZ", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_KORDLO_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_O_KORD_RU", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	};
+	//--- Load RHS Mod
+	if (CTI_RHS_AFRF_ADDON > 0) then {
+
+	};
+	if (CTI_RHS_USAF_ADDON > 0) then {
+
+	};
+	//--- Load RHS Loadout Ammo
+	if (CTI_RHS_AFRF_ADDON > 0) then {
+
+	};
+	//--- OFPS Units Mod
+	if (CTI_OFPS_UNITS_ADDON > 0) then {
+
+	};
+	//--- OFPS RHS Mod
+	if (CTI_OFPS_RHS_ADDON > 0) then {
+
+	};
+	//--- OFPS CUP Mod
+	if (CTI_OFPS_CUP_ADDON > 0) then {
+	
+	};
+	//--- SFP Mod
+	if (CTI_SFP_ADDON > 0) then {
+
+	};
+	//--- OFPS SFP Mod
+	if (CTI_OFPS_SFP_ADDON > 0) then {
+
+	};	
+	//--- 2035 Russia
+	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
+
+	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
+};
+
 //--------------------------------------------------------------------------------------------
 //--- Town Teams Templates
 //--------------------------------------------------------------------------------------------

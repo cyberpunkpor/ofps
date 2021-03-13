@@ -421,6 +421,63 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'O_R_Patrol_Soldier_Engineer_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/4,
+	/*Price*/600,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_Gorka_camo_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",3,"logistics",1],[CTI_LARGE_FOB,"default",3,"logistics",1]],
+	/*UpgradeLevel*/4,
+	/*Price*/150,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[''],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_R_Gorka_base_F',
+	/*MenuName*/['%1 (Contact Spetsnaz)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",3,"logistics",1],[CTI_LARGE_FOB,"default",3,"logistics",1]],
+	/*UpgradeLevel*/4,
+	/*Price*/150,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[''],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';
