@@ -387,7 +387,7 @@ switch (CTI_FACTION_EAST) do {
 				["optic_ACO_grn", 10],
 				["HandGrenade", 20]
 			]],
-			["O_T_MRAP_02_hmg_ghex_F", [
+			["CUP_O_BTR80A_GREEN_RU", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
 				["CUP_arifle_AK109_GL_top_rail", 10],

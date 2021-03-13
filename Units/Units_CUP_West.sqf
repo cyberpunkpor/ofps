@@ -5648,13 +5648,51 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_Boxer_HMG_GER_WDL',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",2,"logistics",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Boxer_HMG_HIL',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",2,"logistics",1]],
 	/*UpgradeLevel*/2,
-	/*Price*/7000,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_Boxer_GMG_GER_WDL',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",2,"logistics",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/7500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tropic'],
@@ -5673,7 +5711,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",2,"logistics",1]],
 	/*UpgradeLevel*/2,
-	/*Price*/8500,
+	/*Price*/7500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tropic'],
@@ -6890,6 +6928,25 @@ _u pushBack [
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/2,
 	/*Price*/25000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_M6LineBacker_USA_T',
+	/*MenuName*/'M6 Bradley-AA',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/2,
+	/*Price*/17500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],

@@ -4678,6 +4678,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_BTR80A_GREEN_RU',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1 ]],
+	/*UpgradeLevel*/1,
+	/*Price*/4400,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['SandHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BTR80_CAMO_RU',

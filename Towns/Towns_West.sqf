@@ -920,9 +920,9 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 		WEST_VEHICLE_LIGHT2 = "CUP_B_Boxer_HMG_HIL";
 		WEST_VEHICLE_LIGHT6 = "CUP_B_Boxer_GMG_HIL";
 		//--- Tanks
-		WEST_VEHICLE_ARMORED3 = "CUP_B_Leopard2A6_HIL";
+		WEST_VEHICLE_ARMORED2 = "CUP_B_Leopard2A6_HIL";
 		//--- AA Vehicles
-		WEST_VEHICLE_AA1 = "CUP_B_HMMV_Avenger_NATO_T";
+		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_NATO_T";
 		WEST_VEHICLE_AA2 = "CUP_B_M6LineBacker_NATO_T";
 		//--- Town Statics
 		WEST_TOWN_KORDLO_COMP = [{
@@ -2164,11 +2164,13 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then {
 	//--- CUP UNITS
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 		//--- Light Vehicles
+		WEST_VEHICLE_LIGHT2 = "CUP_B_Boxer_HMG_GER_WDL";
+		WEST_VEHICLE_LIGHT6 = "CUP_B_Boxer_GMG_GER_WDL";
 		//--- Tanks
-		WEST_VEHICLE_ARMORED3 = "CUP_B_Leopard2A6_HIL";
+		WEST_VEHICLE_ARMORED2 = "CUP_B_Leopard2A6_GER";
 		//--- AA Vehicles
-		WEST_VEHICLE_AA1 = "CUP_B_HMMV_Avenger_NATO_T";
-		WEST_VEHICLE_AA2 = "CUP_B_M6LineBacker_NATO_T";
+		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_USMC";
+		WEST_VEHICLE_AA2 = "CUP_B_M6LineBacker_USA_T";
 		//--- Town Statics
 		WEST_TOWN_KORDLO_COMP = [{
 		_t_center = _this select 0;
