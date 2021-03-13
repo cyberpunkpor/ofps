@@ -2162,6 +2162,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then {
 	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
+		//--- Light Vehicles
+		EAST_VEHICLE_LIGHT1 = "CUP_O_BTR80_CAMO_RU";
+		EAST_VEHICLE_LIGHT5 = "CUP_O_GAZ_Vodnik_BPPU_RU";
+		EAST_VEHICLE_LIGHT7 = "CUP_O_BTR90_RU";
 		//--- Town Statics
 			EAST_TOWN_DSHKM_COMP = [{
 		_t_center = _this select 0;
