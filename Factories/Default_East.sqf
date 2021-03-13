@@ -376,12 +376,13 @@ switch (CTI_FACTION_EAST) do {
 				["Toolkit", 1],
 				["firstaidkit", 20],
 				["30rnd_9x21_mag", 20],
-				["arifle_CTAR_GL_ghex_F", 10],
-				["100Rnd_580x42_Mag_F", 10],
-				["30Rnd_580x42_Mag_Tracer_F", 50], 
+				["arifle_AKU12U_lush_F", 5],
+				["CUP_arifle_AK109_GL_top_rail", 5],
+				["75rnd_762x39_AK12_Lush_Mag_F", 10],
+				["30rnd_762x39_AK12_Lush_Mag_F", 50], 
 				["CUP_launch_RPG18", 30],
-				["1Rnd_HE_Grenade_shell", 24],
-				["UGL_FlareRed_F", 28],
+				["CUP_1Rnd_HE_GP25_M", 24],
+				["CUP_FlareRed_GP25_M", 28],
 				["acc_flashlight", 10],
 				["optic_ACO_grn", 10],
 				["HandGrenade", 20]
@@ -389,9 +390,9 @@ switch (CTI_FACTION_EAST) do {
 			["O_T_MRAP_02_hmg_ghex_F", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
-				["arifle_CTAR_GL_ghex_F", 10],
-				["100Rnd_580x42_ghex_Mag_Tracer_F", 5],
-				["30Rnd_580x42_Mag_Tracer_F", 50], 
+				["CUP_arifle_AK109_GL_top_rail", 10],
+				["75rnd_762x39_AK12_Lush_Mag_F", 5],
+				["30rnd_762x39_AK12_Lush_Mag_F", 50], 
 				["CUP_launch_RPG18", 20]
 			]]
 		]];
