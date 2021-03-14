@@ -1857,7 +1857,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Concrete Block',
 	/*Class*/"BlockConcrete_F",
 	/*Price*/200,
@@ -1895,7 +1895,7 @@ _u pushBack [
 	/*Price*/400,
 	/*Placement*/[[0, 5],["CanAutoAlign", 5.2, 0]],
 	/*Tags*/["Walls Medium"],
-	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Location*/["RepairTruck", "DefenseTruck"],
 	/*Blacklist*/["*"],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -1911,7 +1911,7 @@ _u pushBack [
 	/*Price*/600,
 	/*Placement*/[[180, 7],["CanAutoAlign", 8.1, 0]],
 	/*Tags*/["Walls Medium"],
-	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Location*/["RepairTruck", "DefenseTruck"],
 	/*Blacklist*/["*"],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -1927,7 +1927,7 @@ _u pushBack [
 	/*Price*/400,
 	/*Placement*/[90, 7],
 	/*Tags*/["Walls Medium"],
-	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Location*/["RepairTruck", "DefenseTruck"],
 	/*Blacklist*/["*"],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -1943,7 +1943,7 @@ _u pushBack [
 	/*Price*/200,
 	/*Placement*/[90, 7],
 	/*Tags*/["Walls Medium"],
-	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Location*/["RepairTruck", "DefenseTruck"],
 	/*Blacklist*/["*"],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
@@ -1969,7 +1969,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Concrete Barrier (med 4)',
 	/*Class*/"Land_CncBarrierMedium4_F",
 	/*Price*/400,
@@ -2001,7 +2001,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Concrete Wall (sm4)',
 	/*Class*/"Land_Concrete_SmallWall_4m_F",
 	/*Price*/100,
@@ -2017,7 +2017,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Concrete Wall (sm8)',
 	/*Class*/"Land_Concrete_SmallWall_8m_F",
 	/*Price*/200,
@@ -2177,8 +2177,8 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'ConcreteWall',
+	/*Enabled*/false,
+	/*Name*/'Concrete Wall',
 	/*Class*/"Land_Mil_ConcreteWall_F",
 	/*Price*/400,
 	/*Placement*/[[0, 7],["CanAutoAlign", 4, 0]],
@@ -2199,7 +2199,7 @@ _u pushBack [
 	/*Price*/2000,
 	/*Placement*/[0, 7],
 	/*Tags*/["Misc"],
-	/*Location*/["HQ"],
+	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
 	/*MaxCount*/-1,
