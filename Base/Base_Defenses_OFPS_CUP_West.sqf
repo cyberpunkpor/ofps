@@ -183,6 +183,21 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'TOW-2 Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tow_2_tower_west",2]]],
+	/*Price*/7500,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 
 _u pushBack [
 	/*Enabled*/true,
