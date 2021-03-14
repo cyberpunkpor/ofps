@@ -153,6 +153,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_tower_tall_west",2]]],
+	/*Price*/105000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'MIM-145 Defender',
 	/*Class*/"B_SAM_System_03_F",
 	/*Price*/100000,
@@ -170,8 +186,8 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'MIM-145 Defender Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_west",2]]],
-	/*Price*/100000,
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mim-145_tall_tower",2]]],
+	/*Price*/105000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -215,7 +231,6 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
-
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit (Requires AI Outside Base)',
@@ -235,7 +250,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","radar_tower_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","anmpq-105_tower_tall",2]]],
 	/*Price*/13000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],

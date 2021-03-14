@@ -32,6 +32,6 @@ class items
 		{
 		};
 		id=111;
-		type="Misc_cargo_cont_small_EP1";
+		type="Land_Cargo10_military_green_F";
 	};
 };

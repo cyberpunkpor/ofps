@@ -1,0 +1,140 @@
+version=54;
+center[]={1345.6642,5,3121.6797};
+class items
+{
+	items=3;
+	class Item0
+	{
+		dataType="Layer";
+		name="r-750talltower";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-2.5447998,17.076332,1.128418};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=367;
+				type="Land_FireEscape_01_tall_F";
+				atlOffset=11.946922;
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.2653809,10.38773,-0.012207031};
+				};
+				side="Empty";
+				flags=5;
+				class Attributes
+				{
+				};
+				id=366;
+				type="Land_ReservoirTower_F";
+				atlOffset=0.18084908;
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.708374,5.1294098,-0.77612305};
+					angles[]={0,4.7160048,0};
+				};
+				side="Empty";
+				flags=5;
+				class Attributes
+				{
+				};
+				id=368;
+				type="Land_FireEscape_01_tall_F";
+			};
+		};
+		id=372;
+		atlOffset=9.5349836;
+	};
+	class Item1
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.987793,22.713438,-0.28955078};
+					angles[]={0,3.1440885,0};
+				};
+				side="West";
+				flags=2;
+				class Attributes
+				{
+					isPlayer=1;
+				};
+				id=412;
+				type="B_UAV_AI";
+				atlOffset=14.118588;
+			};
+		};
+		class Attributes
+		{
+		};
+		class CrewLinks
+		{
+			class LinkIDProvider
+			{
+				nextID=1;
+			};
+			class Links
+			{
+				items=1;
+				class Item0
+				{
+					linkID=0;
+					item0=412;
+					item1=411;
+					class CustomData
+					{
+						role=2;
+						turretPath[]={0};
+					};
+				};
+			};
+		};
+		id=375;
+		atlOffset=14.118588;
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={2.987793,24.682667,-0.33959961};
+			angles[]={0,3.1440885,0};
+		};
+		side="West";
+		flags=2;
+		class Attributes
+		{
+			reportRemoteTargets=1;
+			receiveRemoteTargets=1;
+			reportOwnPosition=1;
+			aiRadarUsage=1;
+		};
+		id=411;
+		type="B_SAM_System_02_F";
+		atlOffset=14.118588;
+	};
+};

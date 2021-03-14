@@ -1,0 +1,125 @@
+version=54;
+center[]={1390.0173,5,3093.8696};
+class items
+{
+	items=5;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={3.1914063,10.206881,0.27832031};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+		};
+		id=343;
+		type="Land_ReservoirTower_F";
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-2.6187744,17.076332,1.4189453};
+		};
+		side="Empty";
+		flags=1;
+		class Attributes
+		{
+		};
+		id=352;
+		type="Land_FireEscape_01_tall_F";
+		atlOffset=11.946922;
+	};
+	class Item2
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-3.7823486,5.1294098,-0.4855957};
+			angles[]={0,4.7160048,0};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+		};
+		id=357;
+		type="Land_FireEscape_01_tall_F";
+	};
+	class Item3
+	{
+		dataType="Group";
+		side="West";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.2095947,22.53281,-1.1618652};
+					angles[]={-0,3.1440885,0};
+				};
+				side="West";
+				flags=6;
+				class Attributes
+				{
+					isPlayer=1;
+				};
+				id=438;
+				type="B_UAV_AI";
+			};
+		};
+		class Attributes
+		{
+		};
+		class CrewLinks
+		{
+			class LinkIDProvider
+			{
+				nextID=1;
+			};
+			class Links
+			{
+				items=1;
+				class Item0
+				{
+					linkID=0;
+					item0=438;
+					item1=437;
+					class CustomData
+					{
+						role=2;
+						turretPath[]={0};
+					};
+				};
+			};
+		};
+		id=375;
+	};
+	class Item4
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={3.2095947,25.460291,-1.2119141};
+			angles[]={-0,3.1440885,0};
+		};
+		side="West";
+		flags=6;
+		class Attributes
+		{
+			reportRemoteTargets=1;
+			receiveRemoteTargets=1;
+			reportOwnPosition=1;
+			aiRadarUsage=1;
+		};
+		id=437;
+		type="B_Radar_System_01_F";
+	};
+};

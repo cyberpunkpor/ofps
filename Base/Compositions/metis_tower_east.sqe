@@ -1,36 +1,47 @@
-version=53;
-center[]={1923.9346,5,3568.0378};
+version=54;
+center[]={1401.6814,5,3105.0583};
 class items
 {
-	items=2;
+	items=1;
 	class Item0
 	{
-		dataType="Object";
-		class PositionInfo
+		dataType="Layer";
+		name="spg9towereast";
+		class Entities
 		{
-			position[]={0.014404297,3.6169815,-0.16333008};
+			items=2;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.071166992,1.3528881,0.12915039};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=337;
+				type="Land_Cargo10_military_green_F";
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.071289063,3.6400547,-0.12915039};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=340;
+				type="CUP_O_Metis_RU";
+			};
 		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=104;
-		type="CUP_O_Metis_RU";
-	};
-	class Item1
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-0.014404297,1.2842684,0.16333008};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=107;
-		type="Misc_cargo_cont_small_EP1";
+		id=339;
+		atlOffset=1.968646;
 	};
 };
