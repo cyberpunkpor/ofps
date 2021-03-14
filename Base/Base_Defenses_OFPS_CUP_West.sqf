@@ -183,6 +183,7 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+/*
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'TOW-2 Tower',
@@ -198,7 +199,7 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
-
+*/
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'GMG Tower',
