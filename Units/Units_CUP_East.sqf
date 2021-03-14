@@ -3070,7 +3070,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",3]],
 	/*UpgradeLevel*/0,
-	/*Price*/10000,
+	/*Price*/8000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
