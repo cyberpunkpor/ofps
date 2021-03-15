@@ -169,6 +169,22 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk45 Advanced Cannon Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_tower_tall_west",2]]],
+	/*Price*/55000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (4km)',
 	/*Class*/"OFPS_CENTURION_B_4KM",
@@ -196,6 +212,22 @@ _u pushBack [
 	/*Upgrade*/3,
 	/*MaxCount*/2,
 	/*Cooldown*/300,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion (6km) Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","6km_centurion_tower_tall_west",2]]],
+	/*Price*/55000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
@@ -324,6 +356,38 @@ _u pushBack [
 	/*Upgrade*/2,
 	/*MaxCount*/1,
 	/*Cooldown*/600,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Illuminant Tower AT (360)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_at_west",2]]],
+	/*Price*/9000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Illuminant Tower AA (360)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_aa_west",2]]],
+	/*Price*/9000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];

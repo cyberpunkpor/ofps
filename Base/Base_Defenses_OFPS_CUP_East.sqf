@@ -121,70 +121,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'Illuminant Tower AT (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_at_east",2]]],
-	/*Price*/9000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'Illuminant Tower AT (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_at_east",2]]],
-	/*Price*/9000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'Illuminant Tower AT (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_at_east",2]]],
-	/*Price*/9000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'Illuminant Tower AA (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_aa_east",2]]],
-	/*Price*/9000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'D-30 (Multipurpose)',
 	/*Class*/"OFPS_O_D30_MP",
@@ -204,6 +140,22 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Metis AT-13 Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","metis_tower_east",2]]],
+	/*Price*/5500,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Kornet AT-14 Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","kornet_tower_east",2]]],
 	/*Price*/7000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],

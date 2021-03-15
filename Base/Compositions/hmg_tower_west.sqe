@@ -1,5 +1,5 @@
-version=53;
-center[]={1946.6626,5,3537.0991};
+version=54;
+center[]={2304.7156,5,1812.5793};
 class items
 {
 	items=2;
@@ -8,29 +8,29 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-0.082519531,3.6950207,-0.63183594};
+			position[]={0.1340332,4.3440695,0.06262207};
 		};
 		side="Empty";
-		flags=4;
+		flags=5;
 		class Attributes
 		{
 		};
-		id=26;
-		type="Land_Vez";
+		id=0;
+		type="Land_WaterTower_01_F";
 	};
 	class Item1
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={0.082397461,6.7171822,0.6315918};
+			position[]={-0.1340332,9.7712917,-0.06262207};
 		};
 		side="Empty";
 		flags=4;
 		class Attributes
 		{
 		};
-		id=31;
+		id=5;
 		type="B_HMG_01_high_F";
 	};
 };

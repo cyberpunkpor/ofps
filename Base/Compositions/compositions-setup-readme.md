@@ -11,3 +11,4 @@ HOW TO ADD NEW COMPOSITIONS
 * Once added, you need to update the Common/Config/MODE/Base/Compositions/compositions.cfg file with your new entry
 * Any armed and side specific compositions need to be added into compositions_(east/west).cfg
 * Once all that is done, simple add your composition to the corresponding defense file Common/Config/MODE/Base/Base_Defenses_MOD_(east/west) following format as others
+*NOTE-If a composition places objects at the wrong height in the mission (but correctly in the editor), open that composition's .sqe file and delete all the atlOffset=(value) lines

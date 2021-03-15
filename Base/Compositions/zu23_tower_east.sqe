@@ -1,5 +1,5 @@
-version=53;
-center[]={1964.7565,5,3563.9385};
+version=54;
+center[]={1191.3142,5,3158.332};
 class items
 {
 	items=2;
@@ -8,29 +8,30 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={0.084106445,1.2842684,-0.29199219};
+			position[]={0.0390625,1.3528881,-0.15600586};
 		};
 		side="Empty";
 		flags=4;
 		class Attributes
 		{
 		};
-		id=117;
-		type="Misc_cargo_cont_small_EP1";
+		id=8;
+		type="Land_Cargo10_military_green_F";
 	};
 	class Item1
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-0.084106445,4.5548658,0.29199219};
+			position[]={-0.03918457,4.578146,0.15576172};
 		};
 		side="Empty";
 		flags=4;
 		class Attributes
 		{
 		};
-		id=122;
+		id=10;
 		type="CUP_O_ZU23_RU";
+		atlOffset=0.00020742416;
 	};
 };

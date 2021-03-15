@@ -121,6 +121,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'Praetorian 1C Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","praetorian_tower_tall_east",2]]],
+	/*Price*/30000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'Mk49 Spartan',
 	/*Class*/"OFPS_SPARTAN_O",
 	/*Price*/50000,
@@ -131,6 +147,22 @@ _u pushBack [
 	/*Upgrade*/3,
 	/*MaxCount*/2,
 	/*Cooldown*/240,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk49 Spartan Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","spartan_tower_tall_east",2]]],
+	/*Price*/55000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
@@ -153,6 +185,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_tower_tall_east",2]]],
+	/*Price*/105000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'S-750 Rhea',
 	/*Class*/"O_SAM_System_04_F",
 	/*Price*/90000,
@@ -169,6 +217,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'S-750 Rhea Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","s-750_tower_tall",2]]],
+	/*Price*/100000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'S-750 Rhea Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_east",2]]],
 	/*Price*/100000,
@@ -202,7 +266,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","radar_tower_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","r-750_tower_tall",2]]],
 	/*Price*/13000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],

@@ -121,38 +121,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'Illuminant Tower AT (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_at_west",2]]],
-	/*Price*/9000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'Illuminant Tower AA (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_aa_west",2]]],
-	/*Price*/9000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'D-30 (Multipurpose)',
 	/*Class*/"OFPS_B_D30_MP",
@@ -174,6 +142,21 @@ _u pushBack [
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tow_tower_west",2]]],
 	/*Price*/7000,
 	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'TOW-2 Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tow2_tower_west",2]]],
+	/*Price*/7500,
+	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
