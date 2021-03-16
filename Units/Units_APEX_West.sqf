@@ -162,7 +162,7 @@ _u pushBack [
 	/*ClassName*/'B_T_Soldier_AT_F',
 	/*MenuName*/['%1 (Pacific)'],
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/6,
 	/*Price*/7000,
 	/*BuildTime*/6,
 	/*Distance*/0,
