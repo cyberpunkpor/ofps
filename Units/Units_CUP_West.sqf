@@ -4286,7 +4286,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/1,
-	/*Price*/2300,
+	/*Price*/1600,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -8938,7 +8938,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_S1203_Ambulance_CDF',
 	/*MenuName*/'Skoda 1203 Ambulance',
@@ -8963,7 +8963,7 @@ _u pushBack [
 	/*MenuName*/'Land Rover Ambulance',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics", 2],[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/0,
-	/*Price*/6000,
+	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
