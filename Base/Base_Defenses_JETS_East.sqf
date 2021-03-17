@@ -218,7 +218,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'S-750 Rhea Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","s-750_tower_tall",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","s750_tower_tall",2]]],
 	/*Price*/100000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -266,7 +266,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","r-750_tower_tall",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","r750_tower_tall",2]]],
 	/*Price*/13000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
