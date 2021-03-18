@@ -7038,7 +7038,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M6LineBacker_USA_D',
-	/*MenuName*/'M6 Bradley-AA-Desert',
+	/*MenuName*/'M6 Bradley-(Short-Range AA)-Desert',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/2,
 	/*Price*/17500,
