@@ -256,20 +256,20 @@ switch (CTI_FACTION_EAST) do {
 			//,	["O_Heli_Light_02_unarmed_F", []]
 		]];
 	};
-	case 4: { //Russia CUP (Snow)
+	case 4: { //Russia CUP (Winter)
 	//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BTR90_HQ_RU"];
 		//Set Infantry
 		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["CUP_D_Male01_RU", "CUP_D_Male02_RU", "CUP_D_Male03_RU", "CUP_D_Male04_RU", "Male01RUS", "Male02RUS", "Male03RUS"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_O_RU_Officer"];
-		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_O_RU_Soldier"];
-		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier"];
-		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_O_RU_Soldier_M_EMR"];
+		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_O_RU_Soldier_Ratnik_Winter"];
+		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier_Ratnik_Winter"];
+		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_O_RU_Soldier_Ratnik_Winter"];
 		missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_O_RU_Crew_M_EMR"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_O_RU_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_O_RU_Pilot"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_O_RU_Pilot"];
-		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_O_RU_Soldier_M_EMR"];
+		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_O_RU_Soldier_Ratnik_Winter"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.

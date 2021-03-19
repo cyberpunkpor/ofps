@@ -8249,6 +8249,17 @@ _u = []; //Gear Classname
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
+			/*ClassName*/'CUP_V_B_PASGT_no_bags_winter',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/0,
+			/*Price*/1,
+			/*Camo*/[],
+			/*Type*/["Vest"]
+		];
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
 			/*ClassName*/'CUP_V_PMC_CIRAS_Black_Veh',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
