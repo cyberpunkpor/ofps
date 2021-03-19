@@ -371,7 +371,7 @@ switch (CTI_FACTION_WEST) do {
 		//Backpack
 		["cup_b_usmc_assaultpack",["CUP_launch_M72A6"]]],
 		//Helmet,facegear and NVG
-		["cup_h_usmc_helmetwdl","g_combat"],
+		["CUP_H_PASGTv2_NVG_ERDL_highland","g_combat"],
 		//Equipment
 		[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 
