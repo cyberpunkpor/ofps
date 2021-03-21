@@ -1817,7 +1817,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Tent Hangar',
 	/*Class*/["Land_TentHangar_V1_F",[["RuinOnDestroyed", "Land_TentHangar_V1_ruins_F"], ["DMG_Reduce", 5]]],
 	/*Price*/2500,
