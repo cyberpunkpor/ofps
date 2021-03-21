@@ -8966,7 +8966,7 @@ _u pushBack [
 	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/[],
+	/*Camo*/['Medical'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
