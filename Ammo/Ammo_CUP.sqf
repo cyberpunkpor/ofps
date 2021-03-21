@@ -713,7 +713,7 @@ _u pushBack [
 	/*ClassName*/'CUP_R_70mm_Hydra_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/300,
+	/*Price*/40,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];

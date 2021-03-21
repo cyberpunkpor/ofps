@@ -4472,7 +4472,7 @@ _u pushBack [
 	/*ClassName*/'PylonRack_19Rnd_Rocket_Skyfire',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/19000,
+	/*Price*/760,
 	/*RearmTime*/57,
 	/*Filters*/[]
 ];
@@ -4736,7 +4736,7 @@ _u pushBack [
 	/*ClassName*/'PylonRack_12Rnd_missiles',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/6000,
+	/*Price*/360,
 	/*RearmTime*/36,
 	/*Filters*/[]
 ];

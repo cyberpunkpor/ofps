@@ -254,7 +254,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_ABurke',
-	/*MenuName*/['%1 (Ammo)'],
+	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
 	/*Price*/200000,
@@ -265,7 +265,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-ammotruck',
+	/*Script*/'service-medic',
 	/*Picture*/''
 ];
 

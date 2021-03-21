@@ -2609,7 +2609,7 @@ _u pushBack [
 	/*ClassName*/'M_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/400,
+	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -2645,7 +2645,7 @@ _u pushBack [
 	/*ClassName*/'R_80mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/400,
+	/*Price*/40,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
