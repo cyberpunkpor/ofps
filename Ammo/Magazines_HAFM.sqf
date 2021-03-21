@@ -105,6 +105,29 @@ _u pushBack [
 	/*Filters*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'HAFM_20Rnd_127mm_Shells_mag',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/4,
+	/*Price*/9000,
+	/*RearmTime*/400,
+	/*Filters*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'HAFM_1550Rnd_25mm_shells',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/4,
+	/*Price*/6000,
+	/*RearmTime*/100,
+	/*Filters*/[]
+];
 //--- Missles --------------------------
 
 _u pushBack [
@@ -114,7 +137,7 @@ _u pushBack [
 	/*ClassName*/'HAFM_Maverick_mag',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/1,
+	/*Price*/1650,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
