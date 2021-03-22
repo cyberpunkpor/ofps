@@ -175,7 +175,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_MEKO_HN',
 	/*MenuName*/['%1 (Respawn)'],
