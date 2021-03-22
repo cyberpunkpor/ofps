@@ -522,7 +522,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
 		GUER_NAVAL_LARGE_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
 		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";		
-		//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
 
 		//--- Town Statics
 		GUER_TOWN_AGS = "I_GMG_01_F";
@@ -617,10 +617,15 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 	};
 	//--- HAFM SUBS UNITS
 	if (CTI_HAFM_SUBS_ADDON > 0) then {
+	GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_Russen_IND";
+	//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
 
 	};
 	//--- OFPS HAFM UNITS
 	if (CTI_OFPS_HAFM_ADDON > 0) then {
+	GUER_NAVAL_ASSAULT_BOAT2 = "OFPS_CB90_I";
+	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_BUYAN_I";	
 
 	};
 	//--- Unsung
