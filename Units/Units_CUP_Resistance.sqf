@@ -4264,25 +4264,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_I_Frigate_AAF',
-	/*MenuName*/[],
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/0,
-	/*Price*/180000,
-	/*BuildTime*/30,
-	/*Distance*/80,
-	/*Camo*/[],
-	/*Type*/['Attack Ship'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_I_Frigate_RACS',
 	/*MenuName*/[],
 	/*Location*/[CTI_NAVAL],
