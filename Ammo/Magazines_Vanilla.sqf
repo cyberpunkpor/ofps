@@ -3889,7 +3889,7 @@ _u pushBack [
 	/*ClassName*/'2Rnd_LG_scalpel',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/3100,
+	/*Price*/2800,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
@@ -3901,7 +3901,7 @@ _u pushBack [
 	/*ClassName*/'6Rnd_LG_scalpel',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/9900,
+	/*Price*/8400,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -3913,7 +3913,7 @@ _u pushBack [
 	/*ClassName*/'8Rnd_LG_scalpel',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/13200,
+	/*Price*/11200,
 	/*RearmTime*/120,
 	/*Filters*/[]
 ];
@@ -4892,7 +4892,7 @@ _u pushBack [
 	/*ClassName*/'PylonRack_1Rnd_LG_scalpel',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/1650,
+	/*Price*/1400,
 	/*RearmTime*/16,
 	/*Filters*/[]
 ];
@@ -4904,7 +4904,7 @@ _u pushBack [
 	/*ClassName*/'PylonMissile_1Rnd_LG_scalpel',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/1650,
+	/*Price*/1400,
 	/*RearmTime*/16,
 	/*Filters*/[]
 ];
@@ -4916,7 +4916,7 @@ _u pushBack [
 	/*ClassName*/'PylonRack_3Rnd_LG_scalpel',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/4950,
+	/*Price*/4200,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -4928,7 +4928,7 @@ _u pushBack [
 	/*ClassName*/'PylonRack_4Rnd_LG_scalpel',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/6600,
+	/*Price*/5600,
 	/*RearmTime*/25,
 	/*Filters*/[]
 ];
