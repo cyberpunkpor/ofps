@@ -486,7 +486,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"default",3,"logistics",1]],
 	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*Price*/1570,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Hex'],

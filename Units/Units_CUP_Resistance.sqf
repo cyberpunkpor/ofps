@@ -519,7 +519,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'UP_I_PMC_Winter_Medic',
+	/*ClassName*/'CUP_I_PMC_Winter_Medic',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
