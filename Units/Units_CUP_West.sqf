@@ -6962,7 +6962,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M6LineBacker_USA_W',
-	/*MenuName*/'M6 Bradley-(Short-Range AA)-AA',
+	/*MenuName*/'M6 Bradley-(Short-Range AA)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/2,
 	/*Price*/12500,
