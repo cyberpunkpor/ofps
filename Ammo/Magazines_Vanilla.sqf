@@ -3481,8 +3481,8 @@ _u pushBack [
 	/*ClassName*/'12Rnd_230mm_rockets',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/60000,
-	/*RearmTime*/180,
+	/*Price*/78000,
+	/*RearmTime*/420,
 	/*Filters*/[]
 ];
 
@@ -3493,8 +3493,8 @@ _u pushBack [
 	/*ClassName*/'12Rnd_230mm_rockets_cluster',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/78000,
-	/*RearmTime*/180,
+	/*Price*/60000,
+	/*RearmTime*/420,
 	/*Filters*/[]
 ];
 

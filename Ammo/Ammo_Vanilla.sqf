@@ -2371,11 +2371,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*Type*/'Air',
+	/*Type*/'Land',
 	/*ClassName*/'R_230mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/5000,
+	/*Price*/6500,
 	/*RearmTime*/35,
 	/*Filters*/[]
 ];
@@ -2383,11 +2383,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*Type*/'Air',
+	/*Type*/'Land',
 	/*ClassName*/'R_230mm_Cluster',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/6500,
+	/*Price*/5000,
 	/*RearmTime*/35,
 	/*Filters*/[]
 ];
