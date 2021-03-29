@@ -4874,7 +4874,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB ]],
 	/*UpgradeLevel*/0,
-	/*Price*/200,
+	/*Price*/150,
 	/*BuildTime*/5,
 	/*Distance*/1,
 	/*Camo*/[''],
