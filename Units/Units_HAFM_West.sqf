@@ -251,7 +251,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_ABurke',
 	/*MenuName*/['%1 (Respawn)'],
