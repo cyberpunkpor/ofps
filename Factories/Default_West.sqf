@@ -174,8 +174,11 @@ switch (CTI_FACTION_WEST) do {
 				["Toolkit", 1]
 			]],
 			["CUP_B_M113_USA", [
-				["CUP_launch_M72A6", 15],
+				["CUP_launch_M72A6", 22],
 				["CUP_arifle_M4A1", 10],
+				["CUP_sgun_M1014", 5],
+				["CUP_8Rnd_B_Beneli_74Slug", 5],
+				["CUP_8Rnd_B_Beneli_74Pellets", 5],
 				["CUP_30Rnd_556x45_Stanag", 20],
 				["CUP_30Rnd_556x45_Stanag_Tracer_Red", 20],
 				["CUP_lmg_M60E4_norail", 5],
@@ -197,12 +200,12 @@ switch (CTI_FACTION_WEST) do {
 				["Toolkit", 1]
 			]],
 			["CUP_B_HMMWV_M1114_USMC", [
-				["CUP_launch_M72A6", 15],
+				["CUP_launch_M72A6", 8],
 				["CUP_arifle_M4A1", 5],
 				["firstaidkit", 10],
-				["CUP_8Rnd_B_Beneli_74Slug", 20],
-				["CUP_8Rnd_B_Beneli_74Pellets", 20],
-				["CUP_sgun_M1014", 10],
+				["CUP_8Rnd_B_Beneli_74Slug", 15],
+				["CUP_8Rnd_B_Beneli_74Pellets", 15],
+				["CUP_sgun_M1014", 5],
 				["CUP_lmg_M60E4_norail", 2],
 				["CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M", 5],
 				["CUP_HandGrenade_M67", 10],
@@ -290,8 +293,11 @@ switch (CTI_FACTION_WEST) do {
 				["Toolkit", 1]
 			]],
 			["CUP_B_M113_USA", [
-				["CUP_launch_M72A6", 15],
+				["CUP_launch_M72A6", 22],
 				["CUP_arifle_M4A1", 10],
+				["CUP_sgun_M1014", 5],
+				["CUP_8Rnd_B_Beneli_74Slug", 5],
+				["CUP_8Rnd_B_Beneli_74Pellets", 5],
 				["CUP_30Rnd_556x45_Stanag", 20],
 				["CUP_30Rnd_556x45_Stanag_Tracer_Red", 20],
 				["CUP_lmg_M60E4_norail", 5],
@@ -313,12 +319,12 @@ switch (CTI_FACTION_WEST) do {
 				["Toolkit", 1]
 			]],
 			["CUP_B_HMMWV_M1114_USMC", [
-				["CUP_launch_M72A6", 15],
+				["CUP_launch_M72A6", 8],
 				["CUP_arifle_M4A1", 5],
 				["firstaidkit", 10],
-				["CUP_8Rnd_B_Beneli_74Slug", 20],
-				["CUP_8Rnd_B_Beneli_74Pellets", 20],
-				["CUP_sgun_M1014", 10],
+				["CUP_8Rnd_B_Beneli_74Slug", 15],
+				["CUP_8Rnd_B_Beneli_74Pellets", 15],
+				["CUP_sgun_M1014", 5],
 				["CUP_lmg_M60E4_norail", 2],
 				["CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M", 5],
 				["CUP_HandGrenade_M67", 10],
