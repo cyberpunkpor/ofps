@@ -1778,7 +1778,7 @@ _u pushBack [
 	/*MenuName*/'M5 Sandstorm',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/5,
-	/*Price*/300000,
+	/*Price*/310000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
