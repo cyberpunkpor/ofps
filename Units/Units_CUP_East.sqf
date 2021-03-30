@@ -882,25 +882,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Spotter_Ratnik_Winter',
-	/*MenuName*/['Ratnik %1 (Winter)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2]],
-	/*UpgradeLevel*/2,
-	/*Price*/550,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['Winter'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Crew_VDV',
 	/*MenuName*/['Airborne %1 (Flora)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
@@ -1186,7 +1167,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Medic_Ratnik_Winter',
+	/*ClassName*/'CUP_O_RU_Recon_Medic_Ratnik_Winter',
 	/*MenuName*/['Ratnik %1 (Winter)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
 	/*UpgradeLevel*/2,
@@ -3979,7 +3960,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_MTLB_pk_WDL_ChDKZ',
+	/*ClassName*/'CUP_O_MTLB_pk_ChDKZ',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB]],
 	/*UpgradeLevel*/0,

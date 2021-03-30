@@ -2056,17 +2056,6 @@ _u = []; //Gear Classname
 			/*Camo*/[],
 			/*Type*/["Rifle-GL"]
 		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_arifle_HK416_CBQ_M203_Wood',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/80,
-			/*Camo*/[],
-			/*Type*/["Rifle-GL"]
-		];
 		
 		_u pushBack [
 			/*Enabled*/true,
@@ -3870,17 +3859,6 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Flash Hider/Silencer"]
 			];
-			
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_muzzle_snds_AMW',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/3,
-				/*Price*/300,
-				/*Camo*/[],
-				/*Type*/["Flash Hider/Silencer"]
-			];
 
 			_u pushBack [
 				/*Enabled*/true,
@@ -5607,39 +5585,6 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_20Rnd_TE1_Yellow_Tracer_762x51_CZ805B',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/1,
-				/*Price*/10,
-				/*Camo*/[],
-				/*Type*/["Rifle"]
-			];
-		
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_20Rnd_556x45_Stanag_Red',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/10,
-				/*Camo*/[],
-				/*Type*/["Rifle"]
-			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_20Rnd_556x45_Stanag_Yellow',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/10,
-				/*Camo*/[],
-				/*Type*/["Rifle"]
-			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_20Rnd_556x45_Stanag_Green',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
 				/*Price*/10,
 				/*Camo*/[],
 				/*Type*/["Rifle"]

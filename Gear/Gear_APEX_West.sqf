@@ -1065,7 +1065,7 @@ _u = []; //Gear Classname
 				_u pushBack [
 					/*Enabled*/true,
 					/*Name*/'',
-					/*ClassName*/'U_B_CTRG_Soldier_2__Arid_F',
+					/*ClassName*/'U_B_CTRG_Soldier_2_Arid_F',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 					/*UpgradeLevel*/6,
 					/*Price*/800,

@@ -6864,25 +6864,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_B_M6LineBacker_USA_T',
-	/*MenuName*/'M6 Bradley-AA',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/2,
-	/*Price*/12500,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Woodland'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M6LineBacker_USA_W',

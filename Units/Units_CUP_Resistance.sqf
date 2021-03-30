@@ -4168,7 +4168,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_LR_SF_HMG_AAF',
+	/*ClassName*/'CUP_I_LR_SF_HMG_AAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
@@ -4187,7 +4187,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_LR_SF_GMG_AAF',
+	/*ClassName*/'CUP_I_LR_SF_GMG_AAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,

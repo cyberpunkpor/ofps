@@ -1329,7 +1329,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 		EAST_SOLDIER_ENGINEER = "CUP_O_RU_Engineer_Ratnik_Winter";
 		EAST_SOLDIER_EXP = "CUP_O_RU_Soldier_Exp_Ratnik_Winter";
 		EAST_SOLDIER_GL = "CUP_O_RUS_Soldier_GL_Ratnik_Winter";
-		EAST_SOLDIER_MEDIC = "CUP_O_RU_Medic_Ratnik_Winter";
+		EAST_SOLDIER_MEDIC = "CUP_O_RU_Recon_Medic_Ratnik_Winter";
 		EAST_SOLDIER_MG = "CUP_O_RU_Soldier_MG_Ratnik_Winter";
 		EAST_SOLDIER_PILOT = "CUP_O_RU_Pilot";
 		EAST_SOLDIER_SNIPER = "CUP_O_RU_Recon_Marksman_Ratnik_Winter";

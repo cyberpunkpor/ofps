@@ -222,13 +222,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'HMG2_M2',
-	/*MaxMags*/20
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'UGL_F',
 	/*MaxMags*/20
 ];
@@ -254,12 +247,6 @@ _u pushBack [
 	/*MaxMags*/20
 ];
 
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'ram_gatling_20mm',
-	/*MaxMags*/20
-];
 //--- Explosives --------------------------
 
 //--- Heavy --------------------------
@@ -267,41 +254,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'cannon_20mm',
-	/*MaxMags*/4
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'cannon_40mm_CTWS',
-	/*MaxMags*/4
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'cannon2_40mm_CTWS',
-	/*MaxMags*/4
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'cannon_76mm',
-	/*MaxMags*/4
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'cannon_100mm',
-	/*MaxMags*/4
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'cannon_100mm_CTWS',
 	/*MaxMags*/4
 ];
 
@@ -565,13 +517,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'launcher_SPG9',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'SeaRAM_AA',
 	/*MaxMags*/1
 ];
 //--- Naval --------------------------
@@ -874,20 +819,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'RIM162_W',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'RIM162_W2',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'missiles_RIM_116',
 	/*MaxMags*/1
 ];
@@ -1154,20 +1085,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'DecoyLauncher_L',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'DecoyLauncher_R',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'weapon_mim145Launcher',
 	/*MaxMags*/1
 ];
@@ -1177,13 +1094,6 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'weapon_ShipCannon_120mm',
 	/*MaxMags*/2
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'weapon_Artillery_rockets_230mm_GAT',
-	/*MaxMags*/1
 ];
 
 _u pushBack [

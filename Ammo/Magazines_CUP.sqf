@@ -3705,30 +3705,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
-	/*ClassName*/'CUP_1Rnd_AGM114L_Hellfire_II_M',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/3,
-	/*Price*/1450,
-	/*RearmTime*/10,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
-	/*ClassName*/'CUP_2Rnd_AGM114L_Hellfire_II_M',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/3,
-	/*Price*/2700,
-	/*RearmTime*/20,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
 	/*ClassName*/'CUP_4Rnd_AGM114L_Hellfire_II_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
@@ -3746,18 +3722,6 @@ _u pushBack [
 	/*UpgradeLevel*/3,
 	/*Price*/11600,
 	/*RearmTime*/80,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
-	/*ClassName*/'CUP_Sidewinder_G',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
-	/*Price*/800,
-	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
@@ -4286,18 +4250,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
-	/*ClassName*/'CUP_GBU12_G',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/4,
-	/*Price*/7000,
-	/*RearmTime*/20,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
 	/*ClassName*/'CUP_2Rnd_GBU12_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
@@ -4327,18 +4279,6 @@ _u pushBack [
 	/*UpgradeLevel*/4,
 	/*Price*/48000,
 	/*RearmTime*/360,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
-	/*ClassName*/'CUP_8Rnd_GBU12_M',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/3,
-	/*Price*/64000,
-	/*RearmTime*/480,
 	/*Filters*/[]
 ];
 
