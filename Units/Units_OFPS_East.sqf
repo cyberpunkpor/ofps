@@ -592,24 +592,7 @@ _u pushBack [
 	/*Picture*/''
 ];
 
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'jean_sleigh',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/5,
-	/*Price*/50000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Present Delivery'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
+//OPFOR needs a unique 'jean_sleigh' classname, causes warning in the .rpt when defined here using the same classname as in the WEST file.
 
 //--------------------------------------------------------------------------------------------------------------
 

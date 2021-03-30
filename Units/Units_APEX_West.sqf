@@ -1318,7 +1318,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'C_Scooter_Transport_01_F',
+	/*ClassName*/'C_Scooter_Transport_01_F',//OFPS BLUFOR version needed, rather than using the civilian version
 	/*MenuName*/'',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL]],
 	/*UpgradeLevel*/0,

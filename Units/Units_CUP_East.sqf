@@ -2345,25 +2345,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_Light',
-	/*MenuName*/['%1 (Flora)'],
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/1,
-	/*Price*/30,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['Mountain Flora'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Spotter',
 	/*MenuName*/['%1 (Flora)'],
 	/*Location*/[CTI_BARRACKS],
@@ -4536,25 +4517,6 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['SandHex'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_B_TowingTractor_USMC',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/1000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Other'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,

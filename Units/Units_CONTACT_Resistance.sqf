@@ -216,7 +216,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'I_Soldier_LAT2_F',
+	/*ClassName*/'I_E_Soldier_LAT2_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,

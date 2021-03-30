@@ -181,7 +181,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/1,
-	/*Price*/1200,
+	/*Price*/1500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -2648,26 +2648,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_I_Hilux_armored_BTR60_IND_G_F',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/3800,
-	/*BuildTime*/30,
-	/*Distance*/0,
-	/*Camo*/[""],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_I_Hilux_armored_BTR60_TK',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
@@ -3182,25 +3162,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_LR_MG_RACS',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/1500,
-	/*BuildTime*/30,
-	/*Distance*/0,
-	/*Camo*/[""],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_LR_MG_AAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
@@ -3770,25 +3731,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_I_LCVP_VIV_RACS',
-	/*MenuName*/'LCVP VIV (Vehicle Transport / Medic)',
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
-	/*Price*/5000,
-	/*BuildTime*/30,
-	/*Distance*/5,
-	/*Camo*/['Grey'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'service-medic',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_I_Frigate_AAF',
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
@@ -4254,25 +4196,6 @@ _u pushBack [
 	/*Distance*/0,
 	/*Camo*/[""],
 	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_Frigate_RACS',
-	/*MenuName*/[],
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/0,
-	/*Price*/180000,
-	/*BuildTime*/30,
-	/*Distance*/80,
-	/*Camo*/[],
-	/*Type*/['Attack Ship'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],

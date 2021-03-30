@@ -1315,24 +1315,7 @@ _u pushBack [
 	/*Picture*/''
 ];
 
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'C_Scooter_Transport_01_F',
-	/*MenuName*/'',
-	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL]],
-	/*UpgradeLevel*/0,
-	/*Price*/150,
-	/*BuildTime*/10,
-	/*Distance*/3,
-	/*Camo*/['Black'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
+//OPFOR and BLUFOR need OPFS versions of the ''C_Scooter_Transport_01_F'', as defining the same classname twice causes a warning.
 
 //--------------------------------------------------------------------------------------------------------------
 

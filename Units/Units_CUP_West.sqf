@@ -2344,45 +2344,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_CDF_Soldier_Marksman_SNW',
-	/*MenuName*/'',
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/0,
-	/*Price*/100,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['Winter'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
 	/*ClassName*/'CUP_B_CDF_Soldier_MG_SNW',
-	/*MenuName*/'',
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/0,
-	/*Price*/100,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/['Winter'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_B_CDF_Soldier_GL_SNW',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
@@ -6296,25 +6258,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_BRDM2_CZ',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/4000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['TropicHex'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
 	/*ClassName*/'CUP_B_BRDM2_CZ_Des',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
@@ -6415,25 +6358,6 @@ _u pushBack [
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
 	/*Price*/10000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['TropicHex'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_BMP2_CSAT_T',
-	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/1,
-	/*Price*/14000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['TropicHex'],
@@ -7090,26 +7014,6 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'CUP_B_M60A3_TTS_USMC',
-	/*MenuName*/'M60A3 Patton',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/2,
-	/*Price*/18500,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Winter'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
 
 _u pushBack [
 	/*Enabled*/true,
