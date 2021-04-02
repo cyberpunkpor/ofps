@@ -2494,7 +2494,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'CDF AT RPG18',
 	/*ClassName*/'CUP_B_CDF_Soldier_RPG18_SNW',
 	/*MenuName*/['%1 (Winter)'],
@@ -2513,7 +2513,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'CDF AT RPG18',
 	/*ClassName*/'CUP_B_CDF_Soldier_RPG18_DST',
 	/*MenuName*/['%1 (Arid)'],
@@ -2532,7 +2532,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'CDF AT RPG18',
 	/*ClassName*/'CUP_B_CDF_Soldier_RPG18_FST',
 	/*MenuName*/['%1 (Tropic)'],
@@ -2551,7 +2551,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'CDF AT RPG18',
 	/*ClassName*/'CUP_B_CDF_Soldier_RPG18_MNT',
 	/*MenuName*/['%1 (Woodland)'],
