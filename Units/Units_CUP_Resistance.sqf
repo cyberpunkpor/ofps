@@ -4168,25 +4168,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_I_LR_SF_HMG_AAF',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/1500,
-	/*BuildTime*/30,
-	/*Distance*/0,
-	/*Camo*/[""],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_I_LR_SF_GMG_AAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
