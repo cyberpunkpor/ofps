@@ -575,7 +575,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'launch_NLAW_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/1200,
+				/*Price*/300,
 				/*Camo*/[],
 				/*Type*/["Lock-on or Dumbfire"]
 			];
@@ -2099,7 +2099,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'NLAW_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/800,
+				/*Price*/600,
 				/*Camo*/[],
 				/*Type*/["Lock-on or Dumbfire"]
 			];
