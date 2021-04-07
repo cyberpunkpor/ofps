@@ -47,7 +47,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1000,1000,1000], //--- ERA System
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
-	[1000,2000,3000], //--- Supply Rate
+	[2000,2500,3000], //--- Supply Rate
 	[500,1000,2000,2000], //--- Base Health
 	[500,1000,2000,2000], //--- Base Defense
 	[500,1000,2000], //--- Jamming Types
