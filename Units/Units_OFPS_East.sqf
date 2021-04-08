@@ -504,7 +504,7 @@ _u pushBack [
 	/*MenuName*/['%1 (ECM)'],
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
-	/*Price*/18000,
+	/*Price*/8000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
