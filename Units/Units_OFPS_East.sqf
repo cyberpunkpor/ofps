@@ -255,7 +255,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'OFPS_MORA_O',
 	/*MenuName*/'FV-720 Mora (CSAT)',
-	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
+	/*Location*/[CTI_HEAVY,CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/18000,
 	/*BuildTime*/30,
