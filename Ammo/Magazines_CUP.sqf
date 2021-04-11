@@ -744,7 +744,7 @@ _u pushBack [
 	/*ClassName*/'CUP_210Rnd_TE1_Red_Tracer_25mm_M242_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/525,
+	/*Price*/2100,
 	/*RearmTime*/6,
 	/*Filters*/[]
 ];
@@ -756,7 +756,7 @@ _u pushBack [
 	/*ClassName*/'CUP_210Rnd_TE1_Red_Tracer_25mm_M242_APFSDS',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/945,
+	/*Price*/3150,
 	/*RearmTime*/6,
 	/*Filters*/[]
 ];
