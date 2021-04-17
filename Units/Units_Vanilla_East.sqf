@@ -1715,6 +1715,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'O_Boat_Armed_01_hmg_F',
+	/*MenuName*/'',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics",1]],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/3,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'Land_Pod_Heli_Transport_04_medevac_F',
