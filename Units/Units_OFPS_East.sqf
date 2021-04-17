@@ -141,7 +141,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'OFPS_CAESAR_O',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",1]],
 	/*UpgradeLevel*/0,
 	/*Price*/3000,
 	/*BuildTime*/30,
