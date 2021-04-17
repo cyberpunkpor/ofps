@@ -2901,7 +2901,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
 		GUER_NAVAL_LARGE_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";
 		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "I_Boat_Armed_01_minigun_F";		
-		//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
+		GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
 
 		//--- Town Statics
 		GUER_TOWN_AGS = "I_E_GMG_01_F";
