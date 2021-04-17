@@ -5521,7 +5521,7 @@ _u pushBack [
 	/*MenuName*/'M1129 MC MK19 MORTAR (Woodland)',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
-	/*Price*/60000,
+	/*Price*/80000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
