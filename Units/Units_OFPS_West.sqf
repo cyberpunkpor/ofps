@@ -403,13 +403,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MORA_B',
 	/*MenuName*/'FV-720 Mora (NATO)',
 	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
-	/*UpgradeLevel*/1,
-	/*Price*/18000,
+	/*UpgradeLevel*/2,
+	/*Price*/19000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Sand'],

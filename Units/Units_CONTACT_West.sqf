@@ -116,26 +116,6 @@ _mod = 'CONTACT';
 _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
-
-_u pushBack [ //Right so any unit that is not from SIDE O = Opfor or B = Bluefor cant be used because of side conflicts. this causes issues with targeting or friendly and enemy AI. enemy AI might not shoot at at and friendly AI will think its a enemy.
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_E_APC_tracked_03_cannon_F',
-	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
-	/*UpgradeLevel*/2,
-	/*Price*/19000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['NATO'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
