@@ -2952,10 +2952,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 		//--- AA Vehicles
 		GUER_VEHICLE_AA1 = "CUP_I_M163_AAF";
 		GUER_VEHICLE_AA3 = "CUP_I_ZSU23_AAF";
+		//--- Boats
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_I_Frigate_AAF";
 		//--- Air
 		GUER_AIR_HELI2 = "CUP_I_AH1Z_Dynamic_AAF";	
-		//Ships
-		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_I_Frigate_AAF";
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
