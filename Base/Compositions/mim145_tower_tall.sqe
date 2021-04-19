@@ -9,27 +9,6 @@ class items
 		name="mim-145talltower";
 		class Entities
 		{
-			items=1;
-			class Item0
-			{
-				dataType="Layer";
-				name="6kmcenturiontalltowerwest";
-				class Entities
-				{
-					items=1;
-					class Item0
-					{
-						dataType="Layer";
-						name="6kmcenturiontalltowerwest_1";
-						class Entities
-						{
-							items=1;
-							class Item0
-							{
-								dataType="Layer";
-								name="r-750talltower_2";
-								class Entities
-								{
 									items=3;
 									class Item0
 									{
@@ -45,7 +24,6 @@ class items
 										};
 										id=3;
 										type="Land_FireEscape_01_tall_F";
-										
 									};
 									class Item1
 									{
@@ -78,21 +56,8 @@ class items
 										id=5;
 										type="Land_FireEscape_01_tall_F";
 									};
-								};
-								id=2;
-								
-							};
-						};
-						id=1;
-					
-					};
-				};
-				id=0;
-				
-			};
 		};
 		id=7;
-
 	};
 	class Item1
 	{
@@ -110,6 +75,5 @@ class items
 		};
 		id=9;
 		type="B_SAM_System_03_F";
-	
 	};
 };

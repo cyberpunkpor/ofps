@@ -218,7 +218,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'MIM-145 Defender Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mim145_tall_tower",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mim145_tower_tall",2]]],
 	/*Price*/105000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
