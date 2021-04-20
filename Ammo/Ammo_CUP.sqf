@@ -737,7 +737,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_127x99_Ball_Green_Tracer',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/1,
+	/*Price*/.5,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -749,7 +749,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_127x99_Ball_Yellow_Tracer',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/1.5,
+	/*Price*/.5,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -761,7 +761,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_127x99_Ball_M3P_Red_Tracer',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/1.5,
+	/*Price*/.5,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -773,7 +773,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_127x99_Ball_Red_Tracer_Splash',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/1.5,
+	/*Price*/.5,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
