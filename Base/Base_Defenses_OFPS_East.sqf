@@ -185,6 +185,22 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk45 Advanced Cannon Elevated Ultra-High',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_ultra_high_east",2]]],
+	/*Price*/60000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (4km)',
 	/*Class*/"OFPS_CENTURION_O_4KM",
@@ -233,6 +249,22 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion (6km) Elevated Ultra-High',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","6km_centurion_ultra_high_east",2]]],
+	/*Price*/60000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (8km)',
 	/*Class*/"OFPS_CENTURION_O_8KM",
@@ -244,6 +276,54 @@ _u pushBack [
 	/*Upgrade*/3,
 	/*MaxCount*/1,
 	/*Cooldown*/300,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion',
+	/*Class*/"OFPS_CENTURION_O",
+	/*Price*/100000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/1,
+	/*Cooldown*/300,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_tower_tall_east",2]]],
+	/*Price*/105000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion Elevated Ultra-High',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_ultra_high_east",2]]],
+	/*Price*/110000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
@@ -391,6 +471,39 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'AA/AT Titan Tower Ultra-High (360)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","aaat_titan_ultra_high_east",2]]],
+	/*Price*/26000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'AA/AT Titan Tower (360)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","aaat_titan_tower_east",2]]],
+	/*Price*/21000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
 
 _u pushBack [
 	/*Enabled*/true,

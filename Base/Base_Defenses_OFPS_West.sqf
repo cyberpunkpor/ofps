@@ -185,6 +185,22 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk45 Advanced Cannon Elevated Ultra-High',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_ultra_high_west",2]]],
+	/*Price*/60000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (4km)',
 	/*Class*/"OFPS_CENTURION_B_4KM",
@@ -221,6 +237,22 @@ _u pushBack [
 	/*Name*/'Mk21 Centurion (6km) Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","6km_centurion_tower_tall_west",2]]],
 	/*Price*/55000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk21 Centurion (6km) Elevated Ultra-High',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","6km_centurion_ultra_high_west",2]]],
+	/*Price*/60000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -356,6 +388,38 @@ _u pushBack [
 	/*Upgrade*/2,
 	/*MaxCount*/1,
 	/*Cooldown*/600,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'AA/AT Titan Tower Ultra-High (360)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","aaat_titan_ultra_high_west",2]]],
+	/*Price*/26000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'AA/AT Titan Tower (360)',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","aaat_titan_tower_west",2]]],
+	/*Price*/21000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
