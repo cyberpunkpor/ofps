@@ -223,7 +223,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["LVOSS System", "<t>Enables Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage.<br />
 	<t color='#ffff00'>LVL 1</t> - Ammo 1 per side - 15 sec cool down<br />
 	<t color='#ffff00'>LVL 2</t> - Ammo 2 per side - 15 sec cool down</t>"], //--- LVOSS System
-	["ERA System", "<t>Enables Explosive Reactive Armor (ERA) and an active protection system for Heavy Vehicles.<br />
+	["ERA/APS System", "<t>Enables Explosive Reactive Armor (ERA), which absorb incoming light AT rockets and tank shells. Later unlocks an active protection system (APS) which destroys incoming projectiles before impact. ERA and APS are for Heavy vehicles only.<br />
 	<t color='#ffff00'>LVL 1</t> - ERA Mode Ammo 1 per side - 15 sec cool down<br />
 	<t color='#ffff00'>LVL 2</t> - ERA Mode Ammo 2 per side - 15 sec cool down<br />
 	<t color='#ffff00'>LVL 3</t> - APS Mode Ammo 3 per side - 15 sec cool down<br />
