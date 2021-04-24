@@ -24,6 +24,10 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_LIGHT4_MIXED", 1, 50]
 		],
 		[
+			["GUER_TOWNS_SQUAD_VEHICLE_AIR1_MIXED", 1, 80],
+			["GUER_TOWNS_SQUAD_VEHICLE_AIR2_MIXED", 1, 90]
+		],
+		[
 			["GUER_TOWNS_SQUAD_APC1_MIXED", 1, 80],
 			["GUER_TOWNS_SQUAD_APC2_MIXED", 1, 50]
 		]
@@ -47,6 +51,9 @@ with missionNamespace do {
 		],
 		[
 			["GUER_TOWNS_SQUAD_VEHICLE_AA1_MIXED", 1, 20]
+		],
+		[
+			["GUER_TOWNS_SQUAD_VEHICLE_AIR1_MIXED", 1, 10]
 		]
 	];
 	//Towns 80-100
@@ -73,6 +80,10 @@ with missionNamespace do {
 		[
 			["GUER_TOWNS_SQUAD_VEHICLE_AA1_MIXED", 1, 50],
 			["GUER_TOWNS_SQUAD_VEHICLE_AA2_MIXED", 1, 20]
+		],
+		[
+			["GUER_TOWNS_SQUAD_VEHICLE_AIR1_MIXED", 1, 20],
+			["GUER_TOWNS_SQUAD_VEHICLE_AIR2_MIXED", 1, 10]
 		]
 	];
 	//Towns 100-120
@@ -96,9 +107,14 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_ARMORED2_MIXED", 1, 20],
 			["GUER_TOWNS_SQUAD_ARMORED3_MIXED", 1, 10]
 		],
+		
 		[
 			["GUER_TOWNS_SQUAD_VEHICLE_AA2_MIXED", 1, 30],
 			["GUER_TOWNS_SQUAD_VEHICLE_AA3_MIXED", 1, 40]
+		],
+		[
+			["GUER_TOWNS_SQUAD_VEHICLE_AIR1_MIXED", 1, 30],
+			["GUER_TOWNS_SQUAD_VEHICLE_AIR2_MIXED", 1, 20]
 		]
 	];
 	//Towns > 120
@@ -120,6 +136,10 @@ with missionNamespace do {
 		[
 			["GUER_TOWNS_SQUAD_ARMORED2_MIXED", 1, 40],
 			["GUER_TOWNS_SQUAD_ARMORED3_MIXED", 1, 50]
+		],
+		[
+			["GUER_TOWNS_SQUAD_VEHICLE_AIR1_MIXED", 1, 60],
+			["GUER_TOWNS_SQUAD_VEHICLE_AIR2_MIXED", 1, 50]
 		],
 		[
 			["GUER_TOWNS_SQUAD_VEHICLE_AA2_MIXED", 1, 30],

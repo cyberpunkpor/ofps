@@ -596,7 +596,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'I_C_Heli_Light_01_civil_F',
-	/*MenuName*/'Scout Plane',
+	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
 	/*Price*/5000,
