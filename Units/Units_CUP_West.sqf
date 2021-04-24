@@ -8747,7 +8747,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Frigate_ANZAC',
 	/*MenuName*/['%1 (Respawn)'],
