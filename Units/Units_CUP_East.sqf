@@ -5213,7 +5213,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_V3S_Repair_TKA',
-	/*MenuName*/'Praga Repair',
+	/*MenuName*/'Praga Repair (90 second respawn timer)',
 	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/0,
 	/*Price*/11000,
