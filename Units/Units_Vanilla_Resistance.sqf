@@ -143,7 +143,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/1,
-	/*Price*/520,
+	/*Price*/50,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/["Digital"],
