@@ -575,7 +575,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MK10_NATO',
 	/*MenuName*/'MK10 (Vehicle Transport / Medic)',
