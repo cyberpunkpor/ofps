@@ -4339,7 +4339,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_I_Ka60_GL_Bllk_ION',
+	/*ClassName*/'CUP_I_Ka60_GL_Blk_ION',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
