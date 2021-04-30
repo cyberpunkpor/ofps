@@ -1282,7 +1282,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_LSV_02_unarmed_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",1],[CTI_LARGE_FOB,"logistics",1]],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/0,
 	/*Price*/300,
 	/*BuildTime*/5,
