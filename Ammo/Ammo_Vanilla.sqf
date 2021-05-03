@@ -1255,7 +1255,7 @@ _u pushBack [
 	/*ClassName*/'G_40mm_HEDP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/4,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -1267,7 +1267,7 @@ _u pushBack [
 	/*ClassName*/'G_40mm_Smoke',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/3,
+	/*Price*/2,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];

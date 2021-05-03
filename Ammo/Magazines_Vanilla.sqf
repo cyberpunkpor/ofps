@@ -999,7 +999,7 @@ _u pushBack [
 	/*ClassName*/'96Rnd_40mm_G_belt',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/300,
+	/*Price*/384,
 	/*RearmTime*/7,
 	/*Filters*/[]
 ];
@@ -1011,7 +1011,7 @@ _u pushBack [
 	/*ClassName*/'64Rnd_40mm_G_belt',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/280,
+	/*Price*/256,
 	/*RearmTime*/6,
 	/*Filters*/[]
 ];
@@ -1023,7 +1023,7 @@ _u pushBack [
 	/*ClassName*/'32Rnd_40mm_G_belt',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/130,
+	/*Price*/128,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
 ];
