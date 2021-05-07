@@ -3843,13 +3843,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_M1114_USMC',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/0,
-	/*Price*/1200,
+	/*Price*/900,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
