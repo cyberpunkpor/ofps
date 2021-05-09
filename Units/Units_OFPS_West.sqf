@@ -175,10 +175,10 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_B_Truck_03_device_F',
-	/*MenuName*/'Nuke Truck',
+	/*MenuName*/'Nuke Truck (Detonate under 500 meters)',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
 	/*Price*/150000,
