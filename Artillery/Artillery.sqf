@@ -121,6 +121,10 @@ if (CTI_GLOBAL_MOBILIZATION_ADDON >= 2) then {
 if (CTI_CONTACT_ADDON >= 2) then { 
 
 };
+//--- PRAIRIE_FIRE UNITS
+if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+};
 
 //--- CUP UNITS
 if (CTI_CUP_VEHICLES_ADDON > 0) then { 

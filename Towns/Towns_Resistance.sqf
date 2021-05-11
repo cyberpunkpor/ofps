@@ -323,6 +323,10 @@ if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 if (CTI_CONTACT_ADDON > 0) then {
 
 };
+//--- PRAIRIE_FIRE UNITS
+if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+};
 //--- Load CUP Units
 if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_I_Frigate_AAF";
@@ -562,6 +566,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 	if (CTI_CONTACT_ADDON > 0) then {
 
 	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -731,6 +739,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 	};
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- Load CUP Mod
@@ -1077,6 +1089,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 	if (CTI_CONTACT_ADDON > 0) then {
 
 	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1263,6 +1279,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 	if (CTI_CONTACT_ADDON > 0) then {
 
 	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1447,6 +1467,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 	if (CTI_CONTACT_ADDON > 0) then {
 
 	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1629,6 +1653,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	if (CTI_CONTACT_ADDON > 0) then {
 
 	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -1789,6 +1817,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 	};	
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- Load CUP Mod
@@ -1972,6 +2004,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 	};	
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- Load CUP Mod
@@ -2182,6 +2218,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 7) then {
 	if (CTI_CONTACT_ADDON > 0) then {
 
 	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -2354,6 +2394,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 	};	
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- Load CUP Mod
@@ -2537,6 +2581,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 10) then {
 	if (CTI_CONTACT_ADDON > 0) then {
 
 	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 
@@ -2696,6 +2744,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 	};	
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- Load CUP Mod
@@ -2939,6 +2991,10 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 	};
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- Load CUP Mod

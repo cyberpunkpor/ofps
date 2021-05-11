@@ -316,6 +316,10 @@ if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
 if (CTI_CONTACT_ADDON > 0) then {
 
 };
+//--- PRAIRIE_FIRE UNITS
+if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+};
 //--- Load CUP Mod
 if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	EAST_TOWN_ZSU = "CUP_O_ZS23_RU";
@@ -501,6 +505,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 0) then {
 	};
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- CUP UNITS
@@ -834,6 +842,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 	if (CTI_CONTACT_ADDON > 0) then {
 
 	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
 	//--- CUP UNITS
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 
@@ -994,6 +1006,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 	};
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- CUP UNITS
@@ -1171,6 +1187,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 3) then {
 	if (CTI_CONTACT_ADDON > 0) then {
 
 	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
 	//--- CUP UNITS
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 
@@ -1314,6 +1334,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 	};
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- CUP UNITS
@@ -1489,6 +1513,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 5) then {
 	if (CTI_CONTACT_ADDON > 0) then {
 
 	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
 	//--- CUP UNITS
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 		
@@ -1631,6 +1659,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 6) then {
 	};
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- CUP UNITS
@@ -1778,6 +1810,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 7) then {
 	};	
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- Load CUP Mod
@@ -2154,6 +2190,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then {
 	};
 	//--- Load CONTACT Mod
 	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
 
 	};
 	//--- CUP UNITS
