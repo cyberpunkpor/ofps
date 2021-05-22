@@ -747,7 +747,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'2x20mmUAV (R1.5Km)',
+	/*Name*/'Type 072A UAV Turret (1.5km)',
 	/*Class*/"CUP_O_Type072_Turret",
 	/*Price*/10000,
 	/*Placement*/[180, 15],
@@ -761,5 +761,20 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Type 072A UAV Turret (1.5km) Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","type072_tower_tall",2]]],
+	/*Price*/15000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";

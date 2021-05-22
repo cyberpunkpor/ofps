@@ -217,7 +217,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (6km)',
 	/*Class*/"OFPS_CENTURION_B_6KM",
 	/*Price*/50000,
@@ -233,7 +233,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (6km) Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","6km_centurion_tower_tall_west",2]]],
 	/*Price*/55000,
@@ -249,7 +249,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (6km) Elevated Ultra-High',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","6km_centurion_ultra_high_west",2]]],
 	/*Price*/60000,

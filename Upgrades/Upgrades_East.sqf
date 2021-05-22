@@ -156,7 +156,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120], 					//--- Satellite
 		[420], 						//--- Nuke and Arty
 		[60,60,60], 				//--- Supply Rate
-		[30,60,90,120], 			//--- Base Health
+		[30,30,30,30], 			//--- Base Health
 		[30,60,90,120],     		//--- Base Defense
 		[15,30,60], 				//--- Jamming Types
 		[15,30,45,60]   			//--- Jamming Range
@@ -225,7 +225,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
 	["WMD Unlock", "<t>Unlocks the Nuke Truck and Rocket Artillery in the Light Factory.<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //--- Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV raises.<br /><t color='#ffff00'>LVL 1</t> - 1.5 SV per Interval<br /><t color='#ffff00'>LVL 2</t> - 1.75 SV per Interval<br /><t color='#ffff00'>LVL 3</t> - 2.0 SV per Interval</t>"], //--- Supply Rate
-	["Base Health", "<t>Improves base structures' health<br /><t color='#ffff00'>LVL 1</t> - 4x structure health </t><br /><t color='#ffff00'>LVL 2</t> - 4.5x structure health<br /><t color='#ffff00'>LVL 3</t> - 5x structure health <br /><t color='#ffff00'>LVL 4</t> - 5.5x structure health </t>"], //--- Base Health
+	["Base Health", "<t>Improves base structures' health (does not stack)<br /><t color='#ffff00'>LVL 1</t> - 3.1x damage reduction multiplier </t><br /><t color='#ffff00'>LVL 2</t> - 3.2x damage reduction multiplier<br /><t color='#ffff00'>LVL 3</t> - 3.3x damage reduction multiplier <br /><t color='#ffff00'>LVL 4</t> - 3.4x damage reduction multiplier </t>"], //--- Base Health
 	["Base Defences", "<t>Unlock better defence structures and weapons.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Metis launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks C-RAM and more.<br /><t color='#ffff00'>LVL 4</t> - Unlocks the D-30 Artillery piece in the Repair Truck build menu."], //--- Base defense
 	["Jamming Type", "<t>Unlocks jamming capabilities.<br /><t color='#ffff00'>LVL 0</t> - Unlocks IR jamming.<br /><t color='#ffff00'>LVL 1</t> - Unlocks passive radar jamming.<br /><t color='#ffff00'>LVL 2</t> - Unlocks LIDAR jamming <br /><t color='#ffff00'>LVL 3</t> - Unlocks active radar jamming"], //--- Jamming Types
     ["Jamming Range", "<t>Increases Jamming Range.<br /><t color='#ffff00'>LVL 1</t> - Range 2km <br /><t color='#ffff00'>LVL 2</t> - Range 3km <br /><t color='#ffff00'>LVL 3</t> - Range 4km <br /><t color='#ffff00'>LVL 4</t> - Range 6km <br />"]  //--- Jamming Range

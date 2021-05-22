@@ -168,7 +168,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion',
 	/*Class*/"B_SAM_System_02_F",
 	/*Price*/100000,
@@ -184,7 +184,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_tower_tall_west",2]]],
 	/*Price*/105000,
@@ -200,7 +200,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion Elevated Ultra-High',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_ultra_high_west",2]]],
 	/*Price*/110000,
@@ -216,7 +216,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender',
 	/*Class*/"B_SAM_System_03_F",
 	/*Price*/100000,
@@ -232,7 +232,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mim145_tower_tall",2]]],
 	/*Price*/105000,
@@ -248,7 +248,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender Elevated Ultra-High',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mim145_ultra_high",2]]],
 	/*Price*/110000,

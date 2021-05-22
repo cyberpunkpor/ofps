@@ -729,24 +729,24 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'C-RAM',
+	/*Enabled*/true,
+	/*Name*/'C-RAM (1.5km)',
 	/*Class*/"CUP_WV_B_CRAM",
-	/*Price*/30000,
+	/*Price*/10000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
-	/*Upgrade*/3,
-	/*MaxCount*/4,
-	/*Cooldown*/120,
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'2x20mmUAV (R1.5Km)',
+	/*Enabled*/false,
+	/*Name*/'Type 072A UAV Turret (1.5km)',
 	/*Class*/"CUP_B_Type072_Turret",
 	/*Price*/10000,
 	/*Placement*/[180, 15],
@@ -760,5 +760,20 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'C-RAM Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","cram_tower_tall",2]]],
+	/*Price*/15000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";

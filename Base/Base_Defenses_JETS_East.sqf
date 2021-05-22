@@ -168,7 +168,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'S-750 Rhea',
 	/*Class*/"O_SAM_System_04_F",
 	/*Price*/90000,
@@ -184,7 +184,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'S-750 Rhea Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","s750_tower_tall",2]]],
 	/*Price*/100000,
@@ -200,7 +200,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'S-750 Rhea Elevated Ultra-High',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","s750_ultra_high",2]]],
 	/*Price*/105000,
