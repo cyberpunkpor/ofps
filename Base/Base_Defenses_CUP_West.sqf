@@ -729,7 +729,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'C-RAM (1.5km)',
 	/*Class*/"CUP_WV_B_CRAM",
 	/*Price*/10000,
@@ -745,7 +745,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Type 072A UAV Turret (1.5km)',
 	/*Class*/"CUP_B_Type072_Turret",
 	/*Price*/10000,
@@ -761,9 +761,25 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'C-RAM Elevated',
+	/*Enabled*/false,
+	/*Name*/'C-RAM (1.5km) Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","cram_tower_tall",2]]],
+	/*Price*/15000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Type 072A UAV Turret (1.5km) Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","type072_tower_tall_west.sqe",2]]],
 	/*Price*/15000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
