@@ -93,8 +93,8 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_GUE_Soldier_AKS74"];
 	missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "CUP_I_GUE_Soldier_AKS74"];
 	missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_I_GUE_Crew"];
-	missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_I_GUE_Crew"];
-	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_GUE_Pilot"];
+	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_GUE_Crew"];
+	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_GUE_Pilot"];
 
 	};
 
