@@ -178,7 +178,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_B_Truck_03_device_F',
-	/*MenuName*/'Nuke Truck (Detonate under 500 meters)',
+	/*MenuName*/'Nuke Truck (1km factory destruction radius)',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
 	/*Price*/150000,
