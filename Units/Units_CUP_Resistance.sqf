@@ -1489,6 +1489,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_RACS_M',
+	/*MenuName*/'',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/0,
+	/*Price*/150,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_RACS_RoyalMarksman',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
