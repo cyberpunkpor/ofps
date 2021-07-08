@@ -697,7 +697,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'AA Stinger Pod',
 	/*Class*/"CUP_B_Stinger_AA_pod_US",
 	/*Price*/3500,
