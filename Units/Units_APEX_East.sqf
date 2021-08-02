@@ -1314,7 +1314,290 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_T_MRAP_02_ghex_F',
+	/*MenuName*/'Ifrit Unarmed (Tropic)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/1,
+	/*Price*/1000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_T_Boat_Armed_01_hmg_F',
+	/*MenuName*/'',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics",1]],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/3,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_T_MBT_02_cannon_ghex_F',
+	/*MenuName*/'T-100 Varsuk (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/37000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_T_APC_Tracked_02_AA_ghex_F',
+	/*MenuName*/'ZSU-39 Tigris (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/13000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_T_APC_Wheeled_02_rcws_ghex_F',
+	/*MenuName*/'MSE-3 Marid (Tropic)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/2,
+	/*Price*/8000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_T_MRAP_02_gmg_ghex_F',
+	/*MenuName*/'Ifrit GMG (Tropic)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/3,
+	/*Price*/6000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_T_MRAP_02_hmg_ghex_F',
+	/*MenuName*/'Ifrit HMG (Tropic)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/2,
+	/*Price*/3000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'O_T_MBT_02_arty_ghex_F',
+	/*MenuName*/'2S9 Sochor Artillery (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/5,
+	/*Price*/250000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_T_APC_Tracked_02_cannon_ghex_F',
+	/*MenuName*/'BTR-K Kamysh (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/23000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'O_T_Truck_03_ammo_ghex_F',
+	/*MenuName*/'Tempest Ammo (Tropic)',
+	/*Location*/[CTI_AMMO],
+	/*UpgradeLevel*/0,
+	/*Price*/8000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-ammotruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'O_T_UGV_01_rcws_ghex_F',
+	/*MenuName*/'UGV Stomper Armed (Tropic)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/2,
+	/*Price*/8000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'O_T_Truck_03_fuel_ghex_F',
+	/*MenuName*/'Tempest Fuel (Tropic)',
+	/*Location*/[CTI_REPAIR],
+	/*UpgradeLevel*/0,
+	/*Price*/3000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-fueltruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'O_T_Truck_03_medical_ghex_F',
+	/*MenuName*/'Tempest Medic (Tropic)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/7500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'O_T_Truck_03_transport_ghex_F',
+	/*MenuName*/'Tempest Transport (Tropic)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/1,
+	/*Price*/1000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'O_T_Truck_03_repair_ghex_F',
+	/*MenuName*/'Tempest Repair (Tropic)',
+	/*Location*/[CTI_REPAIR],
+	/*UpgradeLevel*/0,
+	/*Price*/15000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-repairtruck',
+	/*Picture*/''
+];
 //OPFOR and BLUFOR need OPFS versions of the ''C_Scooter_Transport_01_F'', as defining the same classname twice causes a warning.
 
 //--------------------------------------------------------------------------------------------------------------

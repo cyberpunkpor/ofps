@@ -1334,8 +1334,100 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_APC_Tracked_01_AA_F',
+	/*MenuName*/'IFV-6a Cheetah (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/14000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_MBT_01_cannon_F',
+	/*MenuName*/'M2A1 Slammer (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/40000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_T_MBT_01_TUSK_F',
+	/*MenuName*/'M2A1 Slammer UP (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/45000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Tropic'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'B_T_MBT_01_arty_F',
+	/*MenuName*/'M4 Scorcher Artillery (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/5,
+	/*Price*/250000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'B_T_MBT_01_mlrs_F',
+	/*MenuName*/'M5 Sandstorm (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/5,
+	/*Price*/300000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 //--------------------------------------------------------------------------------------------------------------
 
