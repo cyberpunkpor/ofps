@@ -1639,13 +1639,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_MBT_01_cannon_F',
 	/*MenuName*/'M2A1 Slammer (120mm)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/30000,
+	/*Price*/40000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
