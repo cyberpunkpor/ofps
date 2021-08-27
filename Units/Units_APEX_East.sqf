@@ -1187,7 +1187,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_T_UAV_04_CAS_F',
 	/*MenuName*/'KH-3A Fengchuang (4x ATGM)',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"default",2,"logistics",1]],
 	/*UpgradeLevel*/2,
 	/*Price*/20000,
 	/*BuildTime*/30,

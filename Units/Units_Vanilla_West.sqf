@@ -1567,7 +1567,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_UAV_02_dynamicLoadout_F',
 	/*MenuName*/'MQ-4A Greyhawk (6x ATGM)',
-	/*Location*/[CTI_AIR_FIXED],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"default",3,"logistics",1]],
 	/*UpgradeLevel*/3,
 	/*Price*/25000,
 	/*BuildTime*/30,
