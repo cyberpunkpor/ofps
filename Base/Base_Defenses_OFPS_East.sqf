@@ -201,7 +201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk45 Advanced Cannon Elevated Ultra-High',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_ultra_high_east",2]]],
 	/*Price*/60000,
@@ -489,7 +489,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'AA/AT Titan Tower Ultra-High (360)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","aaat_titan_ultra_high_east",2]]],
 	/*Price*/26000,

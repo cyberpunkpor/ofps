@@ -265,6 +265,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
+	/*Name*/'Radar Unit Tower Ultra-High',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","r750_ultra_high",2]]],
+	/*Price*/18000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'USS Liberty Static Defense',
 	/*Class*/"Land_Destroyer_01_base_F",
 	/*Price*/300000,

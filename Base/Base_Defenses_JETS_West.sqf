@@ -328,7 +328,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Radar Unit Tower Ultra-High',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","anmpq105_ultra_high",2]]],
 	/*Price*/18000,
