@@ -1063,7 +1063,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_9M311_Tunguska_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/1250,
+	/*Price*/1050,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1075,7 +1075,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_9M311M_Tunguska_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/1750,
+	/*Price*/1250,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
