@@ -4231,7 +4231,7 @@ _u pushBack [
 	/*ClassName*/'PylonRack_7Rnd_Rocket_04_AP_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/3700,
+	/*Price*/280,
 	/*RearmTime*/21,
 	/*Filters*/[]
 ];
@@ -4243,7 +4243,7 @@ _u pushBack [
 	/*ClassName*/'PylonRack_7Rnd_Rocket_04_HE_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/6000,
+	/*Price*/210,
 	/*RearmTime*/21,
 	/*Filters*/[]
 ];
@@ -4255,7 +4255,7 @@ _u pushBack [
 	/*ClassName*/'PylonRack_20Rnd_Rocket_03_HE_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/1800,
+	/*Price*/600,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
@@ -4267,7 +4267,7 @@ _u pushBack [
 	/*ClassName*/'PylonRack_20Rnd_Rocket_03_AP_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/10000,
+	/*Price*/800,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];

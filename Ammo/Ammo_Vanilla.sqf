@@ -2441,7 +2441,7 @@ _u pushBack [
 	/*ClassName*/'Rocket_04_AP_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/250,
+	/*Price*/40,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -2453,7 +2453,7 @@ _u pushBack [
 	/*ClassName*/'Rocket_03_HE_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/400,
+	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -2465,7 +2465,7 @@ _u pushBack [
 	/*ClassName*/'Rocket_03_AP_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/250,
+	/*Price*/40,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -2477,7 +2477,7 @@ _u pushBack [
 	/*ClassName*/'Rocket_04_HE_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/400,
+	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
