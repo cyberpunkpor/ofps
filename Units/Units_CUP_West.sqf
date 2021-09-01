@@ -6484,13 +6484,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV432_Bulldog_GB_D',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
-	/*Price*/4000,
+	/*Price*/3200,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
@@ -6503,13 +6503,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV432_Bulldog_GB_D_RWS',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
-	/*Price*/8000,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Tan'],
