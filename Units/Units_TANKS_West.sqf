@@ -289,13 +289,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_T_AFV_Wheeled_01_cannon_F',
 	/*MenuName*/['%1 (Tropic)'],
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
-	/*Price*/20000,
+	/*Price*/27000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
