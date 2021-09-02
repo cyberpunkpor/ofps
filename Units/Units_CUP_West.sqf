@@ -6144,6 +6144,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_FV432_GB_Ambulance',
+	/*MenuName*/'FV432 Medic',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/1,
+	/*Price*/5800,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Medical'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_M113_Med_USA',
 	/*MenuName*/'M113 Medic',
 	/*Location*/[CTI_HEAVY],
@@ -6180,7 +6199,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M113_desert_USA',
 	/*MenuName*/'',
@@ -6437,6 +6456,25 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['TropicHex'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_FV432_GB_GPMG',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/2200,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
