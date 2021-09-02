@@ -952,8 +952,8 @@ _u pushBack [
 	/*ClassName*/'B_35mm_AA_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/20,
-	/*RearmTime*/1,
+	/*Price*/2,
+	/*RearmTime*/2,
 	/*Filters*/[]
 ];
 
@@ -964,7 +964,7 @@ _u pushBack [
 	/*ClassName*/'B_35mm_AA_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -976,8 +976,8 @@ _u pushBack [
 	/*ClassName*/'ammo_AAA_Gun35mm_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
-	/*Price*/20,
-	/*RearmTime*/1,
+	/*Price*/1,
+	/*RearmTime*/2,
 	/*Filters*/[]
 ];
 
@@ -1084,8 +1084,8 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_35mm_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*UpgradeLevel*/2,
+	/*Price*/10,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -1096,8 +1096,8 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_35mm_AA_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
-	/*Price*/20,
+	/*UpgradeLevel*/2,
+	/*Price*/10,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];

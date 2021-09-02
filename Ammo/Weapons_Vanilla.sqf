@@ -631,7 +631,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'autocannon_35mm',
-	/*MaxMags*/6
+	/*MaxMags*/1
 ];
 
 _u pushBack [
@@ -771,7 +771,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'missiles_titan_AA',
-	/*MaxMags*/1
+	/*MaxMags*/2
 ];
 
 _u pushBack [
