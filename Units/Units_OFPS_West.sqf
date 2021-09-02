@@ -175,7 +175,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_B_Truck_03_device_F',
 	/*MenuName*/'Nuke Truck (1km factory destruction radius)',
