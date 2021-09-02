@@ -3564,7 +3564,7 @@ _u pushBack [
 	/*ClassName*/'4Rnd_Titan_long_missiles',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/7000,
+	/*Price*/4000,
 	/*RearmTime*/25,
 	/*Filters*/[]
 ];
@@ -3576,7 +3576,7 @@ _u pushBack [
 	/*ClassName*/'4Rnd_Titan_long_missiles_O',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/7000,
+	/*Price*/4000,
 	/*RearmTime*/25,
 	/*Filters*/[]
 ];
