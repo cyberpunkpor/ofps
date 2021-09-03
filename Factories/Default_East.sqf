@@ -22,7 +22,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "O_helipilot_F"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "O_helicrew_F"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "O_Soldier_F"];
-		missionNamespace setVariable [format["CTI_%1_StaticUAV", _side], "O_UAV_AI"];
+		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "O_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_coyote_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
@@ -92,6 +92,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "O_T_Helipilot_F"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "O_T_Helicrew_F"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "O_T_Soldier_F"];
+		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "O_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
@@ -154,6 +155,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_O_RU_Pilot"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_O_RU_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_O_RU_Soldier_M_EMR"];
+		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "O_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
@@ -222,6 +224,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "rhs_pilot"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "rhs_pilot"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "rhs_msv_emr_rifleman"];
+		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "O_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
@@ -271,6 +274,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_O_RU_Pilot"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_O_RU_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_O_RU_Soldier_Ratnik_Winter"];
+		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "O_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
@@ -349,6 +353,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "O_T_Helipilot_F"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "O_T_Helicrew_F"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "O_R_Gorka_camo_F"];
+		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "O_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
