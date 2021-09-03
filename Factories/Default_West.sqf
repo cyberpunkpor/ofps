@@ -21,7 +21,7 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "B_Helipilot_F"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "B_helicrew_F"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "B_Soldier_F"];
-		missionNamespace setVariable [format["CTI_%1_Static_uav", _side], "B_UAV_AI"];
+		missionNamespace setVariable [format["CTI_%1_StaticUAV", _side], "B_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_coyote_F"];
 		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
