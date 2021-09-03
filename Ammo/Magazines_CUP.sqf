@@ -2533,7 +2533,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*Type*/'Air',
+	/*Type*/'Land',
 	/*ClassName*/'CUP_8Rnd_9M311_Tunguska_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
@@ -2545,7 +2545,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*Type*/'Air',
+	/*Type*/'Land',
 	/*ClassName*/'CUP_8Rnd_9M311M_Tunguska_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
@@ -4065,7 +4065,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*Type*/'Air',
+	/*Type*/'Land',
 	/*ClassName*/'CUP_2Rnd_Igla_Rack_Twin_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,

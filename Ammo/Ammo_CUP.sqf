@@ -1295,7 +1295,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*Type*/'Air',
+	/*Type*/'Land',
 	/*ClassName*/'CUP_M_9K38_Igla_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
