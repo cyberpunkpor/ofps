@@ -74,8 +74,8 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Tropic'],
-			//['Tropic','Tropic'],
+			//['Woodland'],
+			//['Woodland','Woodland'],
 
 	/*Type*/
 		//DESCRIPTION:  
@@ -127,7 +127,7 @@ _u pushBack [
 	/*Price*/16000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['SandHex'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -146,7 +146,7 @@ _u pushBack [
 	/*Price*/16000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['TropicHex'],
+	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -165,7 +165,7 @@ _u pushBack [
 	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['SandHex'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -184,7 +184,7 @@ _u pushBack [
 	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['TropicHex'],
+	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -203,7 +203,7 @@ _u pushBack [
 	/*Price*/36000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['SandHex'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -222,7 +222,7 @@ _u pushBack [
 	/*Price*/36000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['TropicHex'],
+	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,

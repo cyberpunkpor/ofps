@@ -74,8 +74,8 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Tropic'],
-			//['Tropic','Tropic'],
+			//['Woodland'],
+			//['Woodland','Woodland'],
 
 	/*Type*/
 		//DESCRIPTION:  

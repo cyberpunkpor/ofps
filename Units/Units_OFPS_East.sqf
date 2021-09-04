@@ -74,8 +74,8 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Tropic'],
-			//['Tropic','Tropic'],
+			//['Woodland'],
+			//['Woodland','Woodland'],
 
 	/*Type*/
 		//DESCRIPTION:  
@@ -260,7 +260,7 @@ _u pushBack [
 	/*Price*/18000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['SandHex'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -279,7 +279,7 @@ _u pushBack [
 	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['SandHex'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -317,7 +317,7 @@ _u pushBack [
 	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['SandHex'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
