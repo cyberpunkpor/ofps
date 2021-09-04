@@ -5477,13 +5477,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1135_ATGMV_Woodland',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/3,
-	/*Price*/20000,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -5838,13 +5838,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1135_ATGMV_Desert',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/4,
-	/*Price*/20000,
+	/*UpgradeLevel*/3,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -5971,13 +5971,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1135_ATGMV_Desert_Slat',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/4,
-	/*Price*/21000,
+	/*UpgradeLevel*/3,
+	/*Price*/14000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
