@@ -95,7 +95,6 @@ class items
 		};
 		id=60;
 		type="Land_Cargo_Patrol_V1_F";
-		atlOffset=4.7683716e-007;
 	};
 	class Item6
 	{
@@ -112,7 +111,6 @@ class items
 		};
 		id=61;
 		type="B_GMG_01_high_F";
-		atlOffset=0.2039547;
 	};
 	class Item7
 	{
@@ -129,6 +127,5 @@ class items
 		};
 		id=62;
 		type="B_GMG_01_high_F";
-		atlOffset=0.20395565;
 	};
 };

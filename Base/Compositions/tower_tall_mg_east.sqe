@@ -17,7 +17,6 @@ class items
 		};
 		id=173;
 		type="Land_Cargo_Patrol_V1_F";
-
 	};
 	class Item1
 	{
@@ -34,7 +33,6 @@ class items
 		};
 		id=174;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item2
 	{
@@ -51,7 +49,6 @@ class items
 		};
 		id=176;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item3
 	{
@@ -68,7 +65,6 @@ class items
 		};
 		id=178;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item4
 	{
@@ -85,7 +81,6 @@ class items
 		};
 		id=179;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item5
 	{
@@ -102,7 +97,6 @@ class items
 		};
 		id=181;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item6
 	{
@@ -119,7 +113,6 @@ class items
 		};
 		id=183;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item7
 	{
@@ -183,7 +176,6 @@ class items
 		};
 		id=219;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item11
 	{
@@ -200,7 +192,6 @@ class items
 		};
 		id=220;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item12
 	{
@@ -217,7 +208,6 @@ class items
 		};
 		id=221;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item13
 	{
@@ -234,7 +224,6 @@ class items
 		};
 		id=222;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item14
 	{
@@ -251,7 +240,6 @@ class items
 		};
 		id=223;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 	class Item15
 	{
@@ -268,6 +256,5 @@ class items
 		};
 		id=224;
 		type="Land_Mil_WallBig_4m_F";
-
 	};
 };

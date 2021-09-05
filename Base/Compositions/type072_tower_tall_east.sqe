@@ -1,0 +1,80 @@
+version=54;
+center[]={3391.5972,5.7233934,4235.4326};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="type072_tower_tall_east";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Layer";
+				name="praetoriantowertalleast";
+				class Entities
+				{
+					items=2;
+					class Item0
+					{
+						dataType="Layer";
+						name="6kmcenturiontowertalleast";
+						class Entities
+						{
+							items=1;
+							class Item0
+							{
+								dataType="Layer";
+								name="r-750talltower_1";
+								class Entities
+								{
+									items=1;
+									class Item0
+									{
+										dataType="Object";
+										class PositionInfo
+										{
+											position[]={-0.14013672,10.206881,-0.20556641};
+										};
+										side="Empty";
+										flags=1;
+										class Attributes
+										{
+										};
+										id=18;
+										type="Land_ReservoirTower_F";
+									};
+								};
+								id=16;
+							};
+						};
+						id=15;
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={0.14038086,24.602787,0.20605469};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+							reportRemoteTargets=1;
+							receiveRemoteTargets=1;
+							reportOwnPosition=1;
+							aiRadarUsage=1;
+						};
+						id=20;
+						type="CUP_O_Type072_Turret";
+					};
+				};
+				id=14;
+			};
+		};
+		id=21;
+	};
+};

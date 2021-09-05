@@ -17,7 +17,6 @@ class items
 		};
 		id=11;
 		type="ATMine";
-		atlOffset=0.00046396255;
 	};
 	class Item1
 	{
@@ -33,7 +32,6 @@ class items
 		};
 		id=12;
 		type="ATMine";
-		atlOffset=0.00032758713;
 	};
 	class Item2
 	{
@@ -49,7 +47,6 @@ class items
 		};
 		id=13;
 		type="ATMine";
-		atlOffset=0.0012850761;
 	};
 	class Item3
 	{
@@ -80,7 +77,6 @@ class items
 		};
 		id=16;
 		type="ATMine";
-		atlOffset=0.00032758713;
 	};
 	class Item5
 	{

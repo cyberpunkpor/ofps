@@ -18,7 +18,6 @@ class items
 		};
 		id=18;
 		type="BlockConcrete_F";
-		atlOffset=0.5;
 	};
 	class Item1
 	{
@@ -35,7 +34,6 @@ class items
 		};
 		id=19;
 		type="BlockConcrete_F";
-		atlOffset=0.010960102;
 	};
 	class Item2
 	{
@@ -52,7 +50,6 @@ class items
 		};
 		id=20;
 		type="BlockConcrete_F";
-		atlOffset=0.010959625;
 	};
 	class Item3
 	{
@@ -69,7 +66,6 @@ class items
 		};
 		id=21;
 		type="BlockConcrete_F";
-		atlOffset=0.010959625;
 	};
 	class Item4
 	{
@@ -86,7 +82,6 @@ class items
 		};
 		id=22;
 		type="BlockConcrete_F";
-		atlOffset=0.010959625;
 	};
 	class Item5
 	{
@@ -105,6 +100,5 @@ class items
 		};
 		id=23;
 		type="OFPS_MK45_CANNON_O";
-		atlOffset=0.010959625;
 	};
 };

@@ -17,7 +17,6 @@ class items
 		};
 		id=0;
 		type="Land_CncWall4_F";
-		atlOffset=0.00021362305;
 	};
 	class Item1
 	{

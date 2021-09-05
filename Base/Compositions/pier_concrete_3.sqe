@@ -18,7 +18,6 @@ class items
 		};
 		id=3;
 		type="Land_nav_pier_m_F";
-		atlOffset=0.5;
 	};
 	class Item1
 	{
@@ -35,7 +34,6 @@ class items
 		};
 		id=4;
 		type="Land_nav_pier_m_F";
-		atlOffset=0.5;
 	};
 	class Item2
 	{
@@ -52,6 +50,5 @@ class items
 		};
 		id=5;
 		type="Land_nav_pier_m_F";
-		atlOffset=0.5;
 	};
 };

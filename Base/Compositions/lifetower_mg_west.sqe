@@ -33,6 +33,5 @@ class items
 		};
 		id=1;
 		type="B_HMG_01_high_F";
-
 	};
 };

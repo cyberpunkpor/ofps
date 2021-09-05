@@ -17,7 +17,6 @@ class items
 		};
 		id=31;
 		type="Land_Shoot_House_Tunnel_F";
-		atlOffset=2.8610229e-006;
 	};
 	class Item1
 	{
@@ -33,7 +32,6 @@ class items
 		};
 		id=32;
 		type="Land_Shoot_House_Panels_F";
-		atlOffset=-3.8146973e-006;
 	};
 	class Item2
 	{
@@ -49,7 +47,6 @@ class items
 		};
 		id=77;
 		type="Land_Shoot_House_Panels_F";
-		atlOffset=1.9073486e-006;
 	};
 	class Item3
 	{
@@ -65,7 +62,6 @@ class items
 		};
 		id=78;
 		type="Land_Shoot_House_Panels_F";
-		atlOffset=-1.9073486e-006;
 	};
 	class Item4
 	{
@@ -127,7 +123,6 @@ class items
 		};
 		id=85;
 		type="Land_Shoot_House_Panels_F";
-		atlOffset=1.9073486e-006;
 	};
 	class Item8
 	{
@@ -176,7 +171,6 @@ class items
 		};
 		id=88;
 		type="Land_Shoot_House_Panels_F";
-		atlOffset=9.5367432e-007;
 	};
 	class Item11
 	{
@@ -193,7 +187,6 @@ class items
 		};
 		id=89;
 		type="Land_Shoot_House_Panels_F";
-		atlOffset=-9.5367432e-007;
 	};
 	class Item12
 	{
@@ -274,7 +267,6 @@ class items
 		};
 		id=94;
 		type="Land_Shoot_House_Panels_F";
-		atlOffset=-7.6293945e-006;
 	};
 	class Item17
 	{
@@ -355,7 +347,6 @@ class items
 		};
 		id=99;
 		type="Land_Shoot_House_Panels_F";
-		atlOffset=-1.9073486e-006;
 	};
 	class Item22
 	{
@@ -420,7 +411,6 @@ class items
 		};
 		id=103;
 		type="Land_Shoot_House_Panels_F";
-		atlOffset=5.7220459e-006;
 	};
 	class Item26
 	{
@@ -436,7 +426,6 @@ class items
 		};
 		id=127;
 		type="Land_Cargo_Patrol_V1_F";
-		atlOffset=-3.3378601e-006;
 	};
 	class Item27
 	{
@@ -452,7 +441,6 @@ class items
 		};
 		id=128;
 		type="Land_Cargo_Patrol_V1_F";
-		atlOffset=4.7683716e-007;
 	};
 	class Item28
 	{
@@ -469,7 +457,6 @@ class items
 		};
 		id=134;
 		type="Land_Cargo_Patrol_V1_F";
-		atlOffset=6.1988831e-006;
 	};
 	class Item29
 	{
@@ -486,6 +473,5 @@ class items
 		};
 		id=135;
 		type="Land_Cargo_Patrol_V1_F";
-		atlOffset=2.3365021e-005;
 	};
 };

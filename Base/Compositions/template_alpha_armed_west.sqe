@@ -1074,7 +1074,6 @@ class items
 		};
 		id=251;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item67
 	{
@@ -1091,7 +1090,6 @@ class items
 		};
 		id=252;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item68
 	{
@@ -1108,7 +1106,6 @@ class items
 		};
 		id=253;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item69
 	{
@@ -1125,7 +1122,6 @@ class items
 		};
 		id=254;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item70
 	{
@@ -1142,7 +1138,6 @@ class items
 		};
 		id=255;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item71
 	{
@@ -1207,7 +1202,6 @@ class items
 		};
 		id=259;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item75
 	{
@@ -1224,7 +1218,6 @@ class items
 		};
 		id=260;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item76
 	{
@@ -1241,7 +1234,6 @@ class items
 		};
 		id=261;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item77
 	{
@@ -1258,7 +1250,6 @@ class items
 		};
 		id=262;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item78
 	{
@@ -1275,7 +1266,6 @@ class items
 		};
 		id=263;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item79
 	{
@@ -1340,7 +1330,6 @@ class items
 		};
 		id=267;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item83
 	{
@@ -1357,7 +1346,6 @@ class items
 		};
 		id=268;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item84
 	{
@@ -1374,7 +1362,6 @@ class items
 		};
 		id=269;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item85
 	{
@@ -1391,7 +1378,6 @@ class items
 		};
 		id=270;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item86
 	{
@@ -1408,7 +1394,6 @@ class items
 		};
 		id=271;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item87
 	{
@@ -1473,7 +1458,6 @@ class items
 		};
 		id=275;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item91
 	{
@@ -1490,7 +1474,6 @@ class items
 		};
 		id=276;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item92
 	{
@@ -1507,7 +1490,6 @@ class items
 		};
 		id=277;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item93
 	{
@@ -1524,7 +1506,6 @@ class items
 		};
 		id=278;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item94
 	{
@@ -1541,7 +1522,6 @@ class items
 		};
 		id=279;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item95
 	{
@@ -1606,7 +1586,6 @@ class items
 		};
 		id=284;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item99
 	{
@@ -1623,7 +1602,6 @@ class items
 		};
 		id=285;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item100
 	{
@@ -1640,7 +1618,6 @@ class items
 		};
 		id=286;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item101
 	{
@@ -1657,7 +1634,6 @@ class items
 		};
 		id=287;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item102
 	{
@@ -1674,7 +1650,6 @@ class items
 		};
 		id=288;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item103
 	{
@@ -1771,7 +1746,6 @@ class items
 		};
 		id=300;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item109
 	{
@@ -1788,7 +1762,6 @@ class items
 		};
 		id=301;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item110
 	{
@@ -1805,7 +1778,6 @@ class items
 		};
 		id=302;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item111
 	{
@@ -1822,7 +1794,6 @@ class items
 		};
 		id=303;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item112
 	{
@@ -1839,7 +1810,6 @@ class items
 		};
 		id=304;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item113
 	{
@@ -1872,7 +1842,6 @@ class items
 		};
 		id=306;
 		type="B_HMG_01_high_F";
-		atlOffset=4.7683716e-007;
 	};
 	class Item115
 	{
@@ -1889,7 +1858,6 @@ class items
 		};
 		id=307;
 		type="B_HMG_01_high_F";
-		atlOffset=4.7683716e-007;
 	};
 	class Item116
 	{
@@ -1906,7 +1874,6 @@ class items
 		};
 		id=308;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item117
 	{
@@ -1923,7 +1890,6 @@ class items
 		};
 		id=309;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item118
 	{
@@ -1940,7 +1906,6 @@ class items
 		};
 		id=310;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item119
 	{
@@ -1957,7 +1922,6 @@ class items
 		};
 		id=311;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item120
 	{
@@ -1974,7 +1938,6 @@ class items
 		};
 		id=312;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item121
 	{
@@ -2039,7 +2002,6 @@ class items
 		};
 		id=316;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item125
 	{
@@ -2056,7 +2018,6 @@ class items
 		};
 		id=317;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item126
 	{
@@ -2073,7 +2034,6 @@ class items
 		};
 		id=318;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item127
 	{
@@ -2090,7 +2050,6 @@ class items
 		};
 		id=319;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item128
 	{
@@ -2107,7 +2066,6 @@ class items
 		};
 		id=320;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item129
 	{

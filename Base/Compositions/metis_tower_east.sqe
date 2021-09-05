@@ -42,6 +42,5 @@ class items
 			};
 		};
 		id=339;
-		atlOffset=1.968646;
 	};
 };

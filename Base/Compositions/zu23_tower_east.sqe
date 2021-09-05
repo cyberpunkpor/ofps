@@ -32,6 +32,5 @@ class items
 		};
 		id=10;
 		type="CUP_O_ZU23_RU";
-		atlOffset=0.00020742416;
 	};
 };

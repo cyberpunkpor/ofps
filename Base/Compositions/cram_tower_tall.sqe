@@ -52,7 +52,6 @@ class items
 												};
 												id=33;
 												type="Land_FireEscape_01_tall_F";
-												
 											};
 											class Item1
 											{
@@ -68,7 +67,6 @@ class items
 												};
 												id=34;
 												type="Land_ReservoirTower_F";
-											
 											};
 											class Item2
 											{
@@ -88,19 +86,15 @@ class items
 											};
 										};
 										id=32;
-										
 									};
 								};
 								id=31;
-							
 							};
 						};
 						id=30;
-					
 					};
 				};
 				id=29;
-				
 			};
 			class Item1
 			{
@@ -119,10 +113,8 @@ class items
 				};
 				id=38;
 				type="CUP_WV_B_CRAM";
-				
 			};
 		};
 		id=37;
-		
 	};
 };

@@ -1,97 +1,58 @@
 version=54;
-center[]={1235.6823,5,3135.4087};
+center[]={5054.5723,5,7028.8525};
 class items
 {
 	items=1;
 	class Item0
 	{
 		dataType="Layer";
-		name="illuminanttoweraawest";
+		name="illuminanttower_at_west";
 		class Entities
 		{
-			items=5;
+			items=1;
 			class Item0
 			{
-				dataType="Object";
-				class PositionInfo
+				dataType="Layer";
+				name="illuminanttoweraawest";
+				class Entities
 				{
-					position[]={-3.0128174,1.0924516,0.40844727};
-					angles[]={0,4.6415319,0};
+					items=2;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-0.036132813,9.9707508,-0.48828125};
+							angles[]={0,6.2533593,0};
+						};
+						side="Empty";
+						flags=5;
+						class Attributes
+						{
+						};
+						id=19;
+						type="Land_Sawmill_01_illuminati_tower_F";
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={0.036132813,21.259802,0.48876953};
+							angles[]={-0,3.0966678,0};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+						};
+						id=21;
+						type="ofps_B_Van_static_AT_F";
+					};
 				};
-				side="Empty";
-				flags=5;
-				class Attributes
-				{
-				};
-				id=304;
-				type="Land_New_WiredFence_5m_F";
-			};
-			class Item1
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={0.16870117,1.0924516,-2.2158203};
-					angles[]={0,3.0891819,0};
-				};
-				side="Empty";
-				flags=5;
-				class Attributes
-				{
-				};
-				id=305;
-				type="Land_New_WiredFence_5m_F";
-			};
-			class Item2
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-0.0703125,9.9707508,0.047119141};
-					angles[]={0,6.2533593,0};
-				};
-				side="Empty";
-				flags=5;
-				class Attributes
-				{
-				};
-				id=302;
-				type="Land_Sawmill_01_illuminati_tower_F";
-			};
-			class Item3
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={2.9550781,1.0924516,0.87841797};
-					angles[]={0,1.5508518,0};
-				};
-				side="Empty";
-				flags=5;
-				class Attributes
-				{
-				};
-				id=306;
-				type="Land_New_WiredFence_5m_F";
-			};
-			class Item4
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-0.036987305,21.251833,0.75610352};
-					angles[]={-0,3.0966678,0};
-				};
-				side="Empty";
-				flags=4;
-				class Attributes
-				{
-				};
-				id=308;
-				type="ofps_B_Van_static_AT_F";
+				id=16;
 			};
 		};
-		id=307;
-		atlOffset=14.994956;
+		id=22;
 	};
 };

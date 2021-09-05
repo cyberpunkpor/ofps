@@ -34,7 +34,6 @@ class items
 		};
 		id=51;
 		type="BlockConcrete_F";
-		atlOffset=4.7683716e-007;
 	};
 	class Item2
 	{

@@ -17,7 +17,6 @@ class items
 		};
 		id=62;
 		type="O_at_phalanx_35AI";
-		atlOffset=2.8938551;
 	};
 	class Item1
 	{
@@ -33,7 +32,6 @@ class items
 		};
 		id=70;
 		type="Land_PierLadder_F";
-		atlOffset=3.4880638;
 	};
 	class Item2
 	{
@@ -49,7 +47,6 @@ class items
 		};
 		id=75;
 		type="Land_Bunker_01_big_F";
-		atlOffset=3.1518774;
 	};
 	class Item3
 	{
@@ -159,7 +156,6 @@ class items
 		};
 		id=86;
 		type="Land_Bunker_01_blocks_3_F";
-		atlOffset=4.0005627;
 	};
 	class Item10
 	{
@@ -176,7 +172,6 @@ class items
 		};
 		id=87;
 		type="Land_Bunker_01_blocks_3_F";
-		atlOffset=4.0098577;
 	};
 	class Item11
 	{
@@ -193,7 +188,6 @@ class items
 		};
 		id=88;
 		type="Land_Bunker_01_blocks_3_F";
-		atlOffset=3.9573336;
 	};
 	class Item12
 	{
@@ -210,7 +204,6 @@ class items
 		};
 		id=89;
 		type="Land_Bunker_01_blocks_3_F";
-		atlOffset=6.237093;
 	};
 	class Item13
 	{
@@ -227,7 +220,6 @@ class items
 		};
 		id=90;
 		type="Land_SandbagBarricade_01_half_F";
-		atlOffset=3.0739975;
 	};
 	class Item14
 	{
@@ -244,7 +236,6 @@ class items
 		};
 		id=92;
 		type="Land_SandbagBarricade_01_half_F";
-		atlOffset=3.0795965;
 	};
 	class Item15
 	{
@@ -261,7 +252,6 @@ class items
 		};
 		id=94;
 		type="Land_SandbagBarricade_01_half_F";
-		atlOffset=3.114933;
 	};
 	class Item16
 	{
@@ -278,7 +268,6 @@ class items
 		};
 		id=97;
 		type="Land_SandbagBarricade_01_half_F";
-		atlOffset=3.0670738;
 	};
 	class Item17
 	{
@@ -295,7 +284,6 @@ class items
 		};
 		id=98;
 		type="Land_SandbagBarricade_01_half_F";
-		atlOffset=3.0750618;
 	};
 	class Item18
 	{
@@ -312,7 +300,6 @@ class items
 		};
 		id=101;
 		type="Land_SandbagBarricade_01_half_F";
-		atlOffset=3.0621338;
 	};
 	class Item19
 	{
@@ -329,7 +316,6 @@ class items
 		};
 		id=103;
 		type="Land_SandbagBarricade_01_half_F";
-		atlOffset=6.2916403;
 	};
 	class Item20
 	{
@@ -345,7 +331,6 @@ class items
 		};
 		id=108;
 		type="ofps_O_Van_static_AT_F";
-		atlOffset=3.2056718;
 	};
 	class Item21
 	{
@@ -360,7 +345,6 @@ class items
 		};
 		id=116;
 		type="ofps_O_Van_static_AT_F";
-		atlOffset=3.1889982;
 	};
 	class Item22
 	{
@@ -377,7 +361,6 @@ class items
 		};
 		id=118;
 		type="O_GMG_01_high_F";
-		atlOffset=0.00030231476;
 	};
 	class Item23
 	{
@@ -394,7 +377,6 @@ class items
 		};
 		id=119;
 		type="O_GMG_01_high_F";
-		atlOffset=2.8610229e-006;
 	};
 	class Item24
 	{
@@ -410,7 +392,6 @@ class items
 		};
 		id=125;
 		type="Land_BagFence_Corner_F";
-		atlOffset=2.8263221;
 	};
 	class Item25
 	{
@@ -426,7 +407,6 @@ class items
 		};
 		id=126;
 		type="Land_BagFence_Corner_F";
-		atlOffset=2.8381486;
 	};
 	class Item26
 	{
@@ -442,7 +422,6 @@ class items
 		};
 		id=127;
 		type="Land_BagFence_Short_F";
-		atlOffset=2.8703842;
 	};
 	class Item27
 	{
@@ -458,7 +437,6 @@ class items
 		};
 		id=128;
 		type="Land_BagFence_Short_F";
-		atlOffset=2.8927908;
 	};
 	class Item28
 	{
@@ -474,7 +452,6 @@ class items
 		};
 		id=129;
 		type="Land_BagFence_Corner_F";
-		atlOffset=2.9229107;
 	};
 	class Item29
 	{
@@ -490,7 +467,6 @@ class items
 		};
 		id=130;
 		type="Land_BagFence_Corner_F";
-		atlOffset=2.9347086;
 	};
 	class Item30
 	{
@@ -506,7 +482,6 @@ class items
 		};
 		id=131;
 		type="Land_BagFence_Short_F";
-		atlOffset=2.9669662;
 	};
 	class Item31
 	{
@@ -522,7 +497,6 @@ class items
 		};
 		id=132;
 		type="Land_BagFence_Short_F";
-		atlOffset=2.9893508;
 	};
 	class Item32
 	{
@@ -537,7 +511,6 @@ class items
 		};
 		id=133;
 		type="Land_BagFence_Corner_F";
-		atlOffset=2.8955531;
 	};
 	class Item33
 	{
@@ -553,7 +526,6 @@ class items
 		};
 		id=134;
 		type="Land_BagFence_Corner_F";
-		atlOffset=2.9073744;
 	};
 	class Item34
 	{
@@ -569,7 +541,6 @@ class items
 		};
 		id=135;
 		type="Land_BagFence_Short_F";
-		atlOffset=2.9396091;
 	};
 	class Item35
 	{
@@ -585,7 +556,6 @@ class items
 		};
 		id=136;
 		type="Land_BagFence_Short_F";
-		atlOffset=2.9620166;
 	};
 	class Item36
 	{
@@ -601,7 +571,6 @@ class items
 		};
 		id=137;
 		type="Land_BagFence_Corner_F";
-		atlOffset=2.8460264;
 	};
 	class Item37
 	{
@@ -617,7 +586,6 @@ class items
 		};
 		id=138;
 		type="Land_BagFence_Corner_F";
-		atlOffset=2.85818;
 	};
 	class Item38
 	{
@@ -633,7 +601,6 @@ class items
 		};
 		id=139;
 		type="Land_BagFence_Short_F";
-		atlOffset=2.8902855;
 	};
 	class Item39
 	{
@@ -649,7 +616,6 @@ class items
 		};
 		id=140;
 		type="Land_BagFence_Short_F";
-		atlOffset=2.9130831;
 	};
 	class Item40
 	{
@@ -665,7 +631,6 @@ class items
 		};
 		id=141;
 		type="Land_BagFence_Long_F";
-		atlOffset=2.8660698;
 	};
 	class Item41
 	{
@@ -681,7 +646,6 @@ class items
 		};
 		id=143;
 		type="Land_BagFence_Corner_F";
-		atlOffset=4.9899578;
 	};
 	class Item42
 	{
@@ -698,7 +662,6 @@ class items
 		};
 		id=144;
 		type="Land_BagFence_Short_F";
-		atlOffset=0.0056762695;
 	};
 	class Item43
 	{
@@ -714,7 +677,6 @@ class items
 		};
 		id=145;
 		type="Land_BagFence_Long_F";
-		atlOffset=2.9201345;
 	};
 	class Item44
 	{
@@ -730,7 +692,6 @@ class items
 		};
 		id=147;
 		type="Land_BagFence_Short_F";
-		atlOffset=7.6111012;
 	};
 	class Item45
 	{
@@ -746,7 +707,6 @@ class items
 		};
 		id=148;
 		type="Land_BagFence_Long_F";
-		atlOffset=3.0034714;
 	};
 	class Item46
 	{
@@ -763,7 +723,6 @@ class items
 		};
 		id=150;
 		type="ofps_O_Van_static_AA_F";
-		atlOffset=0.00082969666;
 	};
 	class Item47
 	{
@@ -779,6 +738,5 @@ class items
 		};
 		id=151;
 		type="ofps_O_Van_static_AA_F";
-		atlOffset=3.2055378;
 	};
 };

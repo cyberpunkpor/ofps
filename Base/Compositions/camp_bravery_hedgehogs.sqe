@@ -26,7 +26,6 @@ class items
 				};
 				id=991;
 				type="Land_Cargo_Tower_V1_F";
-				atlOffset=-0.29342651;
 			};
 			class Item1
 			{
@@ -44,7 +43,6 @@ class items
 				};
 				id=994;
 				type="Land_Razorwire_F";
-				atlOffset=0.056030273;
 			};
 			class Item2
 			{
@@ -62,7 +60,6 @@ class items
 				};
 				id=995;
 				type="Land_Razorwire_F";
-				atlOffset=0.011871338;
 			};
 			class Item3
 			{
@@ -80,7 +77,6 @@ class items
 				};
 				id=996;
 				type="Land_Razorwire_F";
-				atlOffset=0.020477295;
 			};
 			class Item4
 			{
@@ -98,7 +94,6 @@ class items
 				};
 				id=997;
 				type="Land_Razorwire_F";
-				atlOffset=0.02545166;
 			};
 			class Item5
 			{
@@ -116,7 +111,6 @@ class items
 				};
 				id=998;
 				type="Land_Razorwire_F";
-				atlOffset=0.036102295;
 			};
 			class Item6
 			{
@@ -134,7 +128,6 @@ class items
 				};
 				id=999;
 				type="Land_Razorwire_F";
-				atlOffset=0.039794922;
 			};
 			class Item7
 			{
@@ -152,7 +145,6 @@ class items
 				};
 				id=1000;
 				type="Land_Razorwire_F";
-				atlOffset=0.0069885254;
 			};
 			class Item8
 			{
@@ -170,7 +162,6 @@ class items
 				};
 				id=1001;
 				type="Land_Razorwire_F";
-				atlOffset=0.037719727;
 			};
 			class Item9
 			{
@@ -188,7 +179,6 @@ class items
 				};
 				id=1002;
 				type="Land_Razorwire_F";
-				atlOffset=0.034515381;
 			};
 			class Item10
 			{
@@ -206,7 +196,6 @@ class items
 				};
 				id=1003;
 				type="Land_Razorwire_F";
-				atlOffset=0.006652832;
 			};
 			class Item11
 			{
@@ -224,7 +213,6 @@ class items
 				};
 				id=1004;
 				type="Land_Razorwire_F";
-				atlOffset=0.075531006;
 			};
 			class Item12
 			{
@@ -276,7 +264,6 @@ class items
 				};
 				id=1009;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.055999756;
 			};
 			class Item15
 			{
@@ -294,7 +281,6 @@ class items
 				};
 				id=1010;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.078994751;
 			};
 			class Item16
 			{
@@ -312,7 +298,6 @@ class items
 				};
 				id=1011;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.036376953;
 			};
 			class Item17
 			{
@@ -330,7 +315,6 @@ class items
 				};
 				id=1012;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.065765381;
 			};
 			class Item18
 			{
@@ -348,7 +332,6 @@ class items
 				};
 				id=1013;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.044342041;
 			};
 			class Item19
 			{
@@ -366,7 +349,6 @@ class items
 				};
 				id=1014;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.21810913;
 			};
 			class Item20
 			{
@@ -384,7 +366,6 @@ class items
 				};
 				id=1015;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.11929321;
 			};
 			class Item21
 			{
@@ -402,7 +383,6 @@ class items
 				};
 				id=1016;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.0086975098;
 			};
 			class Item22
 			{
@@ -420,7 +400,6 @@ class items
 				};
 				id=1017;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.023681641;
 			};
 			class Item23
 			{
@@ -438,7 +417,6 @@ class items
 				};
 				id=1018;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.042999268;
 			};
 			class Item24
 			{
@@ -456,7 +434,6 @@ class items
 				};
 				id=1019;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.09967041;
 			};
 			class Item25
 			{
@@ -474,7 +451,6 @@ class items
 				};
 				id=1020;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.15457153;
 			};
 			class Item26
 			{
@@ -492,7 +468,6 @@ class items
 				};
 				id=1021;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.098114014;
 			};
 			class Item27
 			{
@@ -510,7 +485,6 @@ class items
 				};
 				id=1022;
 				type="Land_HBarrier_01_big_4_green_F";
-				atlOffset=0.033981323;
 			};
 			class Item28
 			{
@@ -528,7 +502,6 @@ class items
 				};
 				id=1023;
 				type="Land_HBarrier_01_line_5_green_F";
-				atlOffset=0.037963867;
 			};
 			class Item29
 			{
@@ -546,7 +519,6 @@ class items
 				};
 				id=1024;
 				type="Land_HBarrier_01_line_5_green_F";
-				atlOffset=0.019256592;
 			};
 			class Item30
 			{
@@ -564,7 +536,6 @@ class items
 				};
 				id=1025;
 				type="Land_HBarrier_01_line_5_green_F";
-				atlOffset=-0.01663208;
 			};
 			class Item31
 			{
@@ -582,7 +553,6 @@ class items
 				};
 				id=1026;
 				type="Land_HBarrier_01_line_5_green_F";
-				atlOffset=0.022003174;
 			};
 			class Item32
 			{
@@ -600,7 +570,6 @@ class items
 				};
 				id=1027;
 				type="Land_HBarrier_01_line_3_green_F";
-				atlOffset=0.050567627;
 			};
 			class Item33
 			{
@@ -618,7 +587,6 @@ class items
 				};
 				id=1028;
 				type="Land_HBarrier_01_line_3_green_F";
-				atlOffset=0.057373047;
 			};
 			class Item34
 			{
@@ -636,7 +604,6 @@ class items
 				};
 				id=1029;
 				type="Land_HBarrier_01_line_3_green_F";
-				atlOffset=0.0069885254;
 			};
 			class Item35
 			{
@@ -654,7 +621,6 @@ class items
 				};
 				id=1030;
 				type="Land_HBarrier_01_line_3_green_F";
-				atlOffset=0.024169922;
 			};
 			class Item36
 			{
@@ -672,7 +638,6 @@ class items
 				};
 				id=1031;
 				type="Land_HBarrier_01_line_3_green_F";
-				atlOffset=0.025054932;
 			};
 			class Item37
 			{
@@ -690,7 +655,6 @@ class items
 				};
 				id=1032;
 				type="Land_HBarrier_01_line_3_green_F";
-				atlOffset=0.082489014;
 			};
 			class Item38
 			{
@@ -708,7 +672,6 @@ class items
 				};
 				id=1033;
 				type="Land_HBarrier_01_line_3_green_F";
-				atlOffset=0.070220947;
 			};
 			class Item39
 			{
@@ -726,7 +689,6 @@ class items
 				};
 				id=1034;
 				type="Land_HBarrier_01_line_3_green_F";
-				atlOffset=0.053039551;
 			};
 			class Item40
 			{
@@ -744,7 +706,6 @@ class items
 				};
 				id=1035;
 				type="Land_HBarrier_01_line_3_green_F";
-				atlOffset=0.039489746;
 			};
 			class Item41
 			{
@@ -762,11 +723,9 @@ class items
 				};
 				id=1051;
 				type="Land_HBarrier_01_line_3_green_F";
-				atlOffset=0.056999207;
 			};
 		};
 		id=369;
-		atlOffset=0.051704407;
 	};
 	class Item1
 	{
@@ -782,7 +741,6 @@ class items
 		};
 		id=1036;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=-3.0517578e-005;
 	};
 	class Item2
 	{
@@ -799,7 +757,6 @@ class items
 		};
 		id=1037;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=0.00024414063;
 	};
 	class Item3
 	{
@@ -816,7 +773,6 @@ class items
 		};
 		id=1038;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=-0.00057983398;
 	};
 	class Item4
 	{
@@ -849,7 +805,6 @@ class items
 		};
 		id=1040;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=-3.0517578e-005;
 	};
 	class Item6
 	{
@@ -865,7 +820,6 @@ class items
 		};
 		id=1041;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=-0.00057983398;
 	};
 	class Item7
 	{
@@ -881,7 +835,6 @@ class items
 		};
 		id=1042;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=-0.00073242188;
 	};
 	class Item8
 	{
@@ -898,7 +851,6 @@ class items
 		};
 		id=1043;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=3.0517578e-005;
 	};
 	class Item9
 	{
@@ -914,7 +866,6 @@ class items
 		};
 		id=1044;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=0.00064086914;
 	};
 	class Item10
 	{
@@ -930,7 +881,6 @@ class items
 		};
 		id=1045;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=0.00088500977;
 	};
 	class Item11
 	{
@@ -947,7 +897,6 @@ class items
 		};
 		id=1046;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=-0.00088500977;
 	};
 	class Item12
 	{
@@ -964,7 +913,6 @@ class items
 		};
 		id=1047;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=0.0002746582;
 	};
 	class Item13
 	{
@@ -981,7 +929,6 @@ class items
 		};
 		id=1048;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=-0.00042724609;
 	};
 	class Item14
 	{
@@ -998,7 +945,6 @@ class items
 		};
 		id=1049;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=-9.1552734e-005;
 	};
 	class Item15
 	{
@@ -1015,6 +961,5 @@ class items
 		};
 		id=1050;
 		type="Land_CzechHedgehog_01_new_F";
-		atlOffset=0.00012207031;
 	};
 };

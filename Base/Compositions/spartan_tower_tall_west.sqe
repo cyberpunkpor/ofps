@@ -1,117 +1,90 @@
 version=54;
-center[]={5173.9609,5,3697.4917};
+center[]={5115.2012,5.1808481,7106.1821};
 class items
 {
-	items=2;
+	items=1;
 	class Item0
 	{
 		dataType="Layer";
-		name="spartantowetallwest";
+		name="spartan_tower_tall_west";
 		class Entities
 		{
-			items=1;
+			items=2;
 			class Item0
 			{
 				dataType="Layer";
-				name="6kmcenturiontalltowerwest_6";
+				name="spartantowetallwest";
 				class Entities
 				{
 					items=1;
 					class Item0
 					{
 						dataType="Layer";
-						name="6kmcenturiontalltowerwest_7";
+						name="6kmcenturiontalltowerwest_6";
 						class Entities
 						{
 							items=1;
 							class Item0
 							{
 								dataType="Layer";
-								name="r-750talltower_12";
+								name="6kmcenturiontalltowerwest_7";
 								class Entities
 								{
-									items=3;
+									items=1;
 									class Item0
 									{
-										dataType="Object";
-										class PositionInfo
+										dataType="Layer";
+										name="r-750talltower_12";
+										class Entities
 										{
-											position[]={-2.5820313,17.076332,1.0871582};
+											items=1;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={0.0009765625,10.206881,0.15478516};
+												};
+												side="Empty";
+												flags=5;
+												class Attributes
+												{
+												};
+												id=61;
+												type="Land_ReservoirTower_F";
+											};
 										};
-										side="Empty";
-										flags=1;
-										class Attributes
-										{
-										};
-										id=252;
-										type="Land_FireEscape_01_tall_F";
-									
-									};
-									class Item1
-									{
-										dataType="Object";
-										class PositionInfo
-										{
-											position[]={3.2275391,10.206881,-0.053466797};
-										};
-										side="Empty";
-										flags=5;
-										class Attributes
-										{
-										};
-										id=253;
-										type="Land_ReservoirTower_F";
-									};
-									class Item2
-									{
-										dataType="Object";
-										class PositionInfo
-										{
-											position[]={-3.7460938,5.1294098,-0.81738281};
-											angles[]={0,4.7160048,0};
-										};
-										side="Empty";
-										flags=5;
-										class Attributes
-										{
-										};
-										id=254;
-										type="Land_FireEscape_01_tall_F";
+										id=59;
 									};
 								};
-								id=251;
-							
+								id=58;
 							};
 						};
-						id=250;
-					
+						id=57;
 					};
 				};
-				id=249;
-				
+				id=56;
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.0009765625,24.287846,-0.15478516};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					reportRemoteTargets=1;
+					receiveRemoteTargets=1;
+					reportOwnPosition=1;
+					aiRadarUsage=1;
+				};
+				id=63;
+				type="B_SAM_System_01_F";
 			};
 		};
-		id=256;
-	
-	};
-	class Item1
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={3.1010742,24.287857,-0.21630859};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			reportRemoteTargets=1;
-			receiveRemoteTargets=1;
-			reportOwnPosition=1;
-			aiRadarUsage=1;
-		};
-		id=257;
-		type="B_SAM_System_01_F";
-		
+		id=64;
 	};
 };

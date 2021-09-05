@@ -52,6 +52,5 @@ class items
 		};
 		id=20;
 		type="BlockConcrete_F";
-		atlOffset=4.7683716e-007;
 	};
 };

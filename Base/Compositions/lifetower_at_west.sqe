@@ -33,6 +33,5 @@ class items
 		};
 		id=3;
 		type="B_static_AT_F";
-
 	};
 };

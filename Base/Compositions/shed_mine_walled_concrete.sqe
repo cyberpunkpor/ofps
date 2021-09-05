@@ -32,7 +32,6 @@ class items
 		};
 		id=24;
 		type="Land_CncWall4_F";
-		atlOffset=1.9073486e-006;
 	};
 	class Item2
 	{
@@ -127,7 +126,6 @@ class items
 		};
 		id=30;
 		type="Land_CncWall4_F";
-		atlOffset=1.9073486e-006;
 	};
 	class Item8
 	{
@@ -192,7 +190,6 @@ class items
 		};
 		id=34;
 		type="Land_CncWall4_F";
-		atlOffset=0.00059890747;
 	};
 	class Item12
 	{
@@ -241,7 +238,6 @@ class items
 		};
 		id=37;
 		type="Land_CncWall4_F";
-		atlOffset=1.9073486e-006;
 	};
 	class Item15
 	{

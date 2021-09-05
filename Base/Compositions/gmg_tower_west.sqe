@@ -31,6 +31,5 @@ class items
 		};
 		id=7;
 		type="B_GMG_01_high_F";
-		atlOffset=8.1109982;
 	};
 };

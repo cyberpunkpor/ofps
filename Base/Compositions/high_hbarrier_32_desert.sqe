@@ -18,7 +18,6 @@ class items
 		};
 		id=1544;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.0440979;
 	};
 	class Item1
 	{
@@ -34,7 +33,6 @@ class items
 		};
 		id=1545;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.405508;
 	};
 	class Item2
 	{
@@ -50,7 +48,6 @@ class items
 		};
 		id=1546;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550888;
 	};
 	class Item3
 	{
@@ -67,7 +64,6 @@ class items
 		};
 		id=1547;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.0089244843;
 	};
 	class Item4
 	{
@@ -83,7 +79,6 @@ class items
 		};
 		id=1548;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3703346;
 	};
 	class Item5
 	{
@@ -99,7 +94,6 @@ class items
 		};
 		id=1549;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550907;
 	};
 	class Item6
 	{
@@ -116,7 +110,6 @@ class items
 		};
 		id=1550;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.048124313;
 	};
 	class Item7
 	{
@@ -132,7 +125,6 @@ class items
 		};
 		id=1551;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4095345;
 	};
 	class Item8
 	{
@@ -148,7 +140,6 @@ class items
 		};
 		id=1552;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550907;
 	};
 	class Item9
 	{
@@ -165,7 +156,6 @@ class items
 		};
 		id=1553;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.012950897;
 	};
 	class Item10
 	{
@@ -181,7 +171,6 @@ class items
 		};
 		id=1554;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item11
 	{
@@ -197,7 +186,6 @@ class items
 		};
 		id=1555;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3743668;
 	};
 	class Item12
 	{
@@ -213,7 +201,6 @@ class items
 		};
 		id=1556;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3965836;
 	};
 	class Item13
 	{
@@ -229,7 +216,6 @@ class items
 		};
 		id=1557;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2552128;
 	};
 	class Item14
 	{
@@ -261,7 +247,6 @@ class items
 		};
 		id=1559;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3614101;
 	};
 	class Item16
 	{
@@ -277,7 +262,6 @@ class items
 		};
 		id=1560;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item17
 	{
@@ -294,7 +278,6 @@ class items
 		};
 		id=1561;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.039199829;
 	};
 	class Item18
 	{
@@ -310,7 +293,6 @@ class items
 		};
 		id=1562;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.40061;
 	};
 	class Item19
 	{
@@ -326,7 +308,6 @@ class items
 		};
 		id=1563;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item20
 	{
@@ -343,7 +324,6 @@ class items
 		};
 		id=1564;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.004026413;
 	};
 	class Item21
 	{
@@ -359,7 +339,6 @@ class items
 		};
 		id=1565;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550945;
 	};
 	class Item22
 	{
@@ -375,7 +354,6 @@ class items
 		};
 		id=1566;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3654423;
 	};
 	class Item23
 	{
@@ -392,7 +370,6 @@ class items
 		};
 		id=1567;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.035051346;
 	};
 	class Item24
 	{
@@ -409,7 +386,6 @@ class items
 		};
 		id=1568;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.059680939;
 	};
 	class Item25
 	{
@@ -425,7 +401,6 @@ class items
 		};
 		id=1569;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4211197;
 	};
 	class Item26
 	{
@@ -441,7 +416,6 @@ class items
 		};
 		id=1570;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item27
 	{
@@ -458,7 +432,6 @@ class items
 		};
 		id=1571;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.022521973;
 	};
 	class Item28
 	{
@@ -474,7 +447,6 @@ class items
 		};
 		id=1572;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3839588;
 	};
 	class Item29
 	{
@@ -490,7 +462,6 @@ class items
 		};
 		id=1573;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550945;
 	};
 	class Item30
 	{
@@ -507,7 +478,6 @@ class items
 		};
 		id=1574;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.059972763;
 	};
 	class Item31
 	{
@@ -523,7 +493,6 @@ class items
 		};
 		id=1575;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4213829;
 	};
 	class Item32
 	{
@@ -539,7 +508,6 @@ class items
 		};
 		id=1576;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550945;
 	};
 	class Item33
 	{
@@ -556,7 +524,6 @@ class items
 		};
 		id=1577;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.024799347;
 	};
 	class Item34
 	{
@@ -572,7 +539,6 @@ class items
 		};
 		id=1578;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550964;
 	};
 	class Item35
 	{
@@ -588,7 +554,6 @@ class items
 		};
 		id=1579;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3862152;
 	};
 	class Item36
 	{
@@ -604,7 +569,6 @@ class items
 		};
 		id=1580;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4184322;
 	};
 	class Item37
 	{
@@ -620,7 +584,6 @@ class items
 		};
 		id=1581;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2552128;
 	};
 	class Item38
 	{
@@ -637,7 +600,6 @@ class items
 		};
 		id=1582;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.021682739;
 	};
 	class Item39
 	{
@@ -653,7 +615,6 @@ class items
 		};
 		id=1583;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3831215;
 	};
 	class Item40
 	{
@@ -669,7 +630,6 @@ class items
 		};
 		id=1584;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item41
 	{
@@ -686,7 +646,6 @@ class items
 		};
 		id=1585;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.05884552;
 	};
 	class Item42
 	{
@@ -702,7 +661,6 @@ class items
 		};
 		id=1586;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4202824;
 	};
 	class Item43
 	{
@@ -718,7 +676,6 @@ class items
 		};
 		id=1587;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item44
 	{
@@ -735,7 +692,6 @@ class items
 		};
 		id=1588;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.021684647;
 	};
 	class Item45
 	{
@@ -751,7 +707,6 @@ class items
 		};
 		id=1589;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550945;
 	};
 	class Item46
 	{
@@ -767,7 +722,6 @@ class items
 		};
 		id=1590;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3831291;
 	};
 	class Item47
 	{
@@ -784,7 +738,6 @@ class items
 		};
 		id=1591;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.056900024;
 	};
 	class Item48
 	{
@@ -801,7 +754,6 @@ class items
 		};
 		id=1592;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.043815613;
 	};
 	class Item49
 	{
@@ -817,7 +769,6 @@ class items
 		};
 		id=1593;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4052467;
 	};
 	class Item50
 	{
@@ -833,7 +784,6 @@ class items
 		};
 		id=1594;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550888;
 	};
 	class Item51
 	{
@@ -850,7 +800,6 @@ class items
 		};
 		id=1595;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.0065536499;
 	};
 	class Item52
 	{
@@ -866,7 +815,6 @@ class items
 		};
 		id=1596;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3679829;
 	};
 	class Item53
 	{
@@ -882,7 +830,6 @@ class items
 		};
 		id=1597;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550907;
 	};
 	class Item54
 	{
@@ -899,7 +846,6 @@ class items
 		};
 		id=1598;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.043720245;
 	};
 	class Item55
 	{
@@ -915,7 +861,6 @@ class items
 		};
 		id=1599;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4051514;
 	};
 	class Item56
 	{
@@ -931,7 +876,6 @@ class items
 		};
 		id=1600;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550907;
 	};
 	class Item57
 	{
@@ -948,7 +892,6 @@ class items
 		};
 		id=1601;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.0064582825;
 	};
 	class Item58
 	{
@@ -964,7 +907,6 @@ class items
 		};
 		id=1602;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item59
 	{
@@ -980,7 +922,6 @@ class items
 		};
 		id=1603;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.367897;
 	};
 	class Item60
 	{
@@ -996,7 +937,6 @@ class items
 		};
 		id=1604;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3966789;
 	};
 	class Item61
 	{
@@ -1012,7 +952,6 @@ class items
 		};
 		id=1605;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2552128;
 	};
 	class Item62
 	{
@@ -1044,7 +983,6 @@ class items
 		};
 		id=1607;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3614025;
 	};
 	class Item64
 	{
@@ -1060,7 +998,6 @@ class items
 		};
 		id=1608;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item65
 	{
@@ -1077,7 +1014,6 @@ class items
 		};
 		id=1609;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.039205551;
 	};
 	class Item66
 	{
@@ -1093,7 +1029,6 @@ class items
 		};
 		id=1610;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.40061;
 	};
 	class Item67
 	{
@@ -1109,7 +1044,6 @@ class items
 		};
 		id=1611;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item68
 	{
@@ -1126,7 +1060,6 @@ class items
 		};
 		id=1612;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.0039310455;
 	};
 	class Item69
 	{
@@ -1142,7 +1075,6 @@ class items
 		};
 		id=1613;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550945;
 	};
 	class Item70
 	{
@@ -1158,7 +1090,6 @@ class items
 		};
 		id=1614;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3653412;
 	};
 	class Item71
 	{
@@ -1175,7 +1106,6 @@ class items
 		};
 		id=1615;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.035152435;
 	};
 	class Item72
 	{
@@ -1192,7 +1122,6 @@ class items
 		};
 		id=1616;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.056264877;
 	};
 	class Item73
 	{
@@ -1208,7 +1137,6 @@ class items
 		};
 		id=1617;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4176693;
 	};
 	class Item74
 	{
@@ -1224,7 +1152,6 @@ class items
 		};
 		id=1618;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item75
 	{
@@ -1241,7 +1168,6 @@ class items
 		};
 		id=1619;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.020990372;
 	};
 	class Item76
 	{
@@ -1257,7 +1183,6 @@ class items
 		};
 		id=1620;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3823948;
 	};
 	class Item77
 	{
@@ -1273,7 +1198,6 @@ class items
 		};
 		id=1621;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550945;
 	};
 	class Item78
 	{
@@ -1290,7 +1214,6 @@ class items
 		};
 		id=1622;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.060195923;
 	};
 	class Item79
 	{
@@ -1306,7 +1229,6 @@ class items
 		};
 		id=1623;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4216003;
 	};
 	class Item80
 	{
@@ -1322,7 +1244,6 @@ class items
 		};
 		id=1624;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550945;
 	};
 	class Item81
 	{
@@ -1339,7 +1260,6 @@ class items
 		};
 		id=1625;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.024921417;
 	};
 	class Item82
 	{
@@ -1355,7 +1275,6 @@ class items
 		};
 		id=1626;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550964;
 	};
 	class Item83
 	{
@@ -1371,7 +1290,6 @@ class items
 		};
 		id=1627;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3863316;
 	};
 	class Item84
 	{
@@ -1387,7 +1305,6 @@ class items
 		};
 		id=1628;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4107838;
 	};
 	class Item85
 	{
@@ -1403,7 +1320,6 @@ class items
 		};
 		id=1629;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2554646;
 	};
 	class Item86
 	{
@@ -1420,7 +1336,6 @@ class items
 		};
 		id=1630;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.014200211;
 	};
 	class Item87
 	{
@@ -1436,7 +1351,6 @@ class items
 		};
 		id=1631;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3756104;
 	};
 	class Item88
 	{
@@ -1452,7 +1366,6 @@ class items
 		};
 		id=1632;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item89
 	{
@@ -1469,7 +1382,6 @@ class items
 		};
 		id=1633;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.051532745;
 	};
 	class Item90
 	{
@@ -1485,7 +1397,6 @@ class items
 		};
 		id=1634;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.4129639;
 	};
 	class Item91
 	{
@@ -1501,7 +1412,6 @@ class items
 		};
 		id=1635;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550926;
 	};
 	class Item92
 	{
@@ -1518,7 +1428,6 @@ class items
 		};
 		id=1636;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.016212463;
 	};
 	class Item93
 	{
@@ -1534,7 +1443,6 @@ class items
 		};
 		id=1637;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.2550945;
 	};
 	class Item94
 	{
@@ -1550,7 +1458,6 @@ class items
 		};
 		id=1638;
 		type="Land_HBarrier_1_F";
-		atlOffset=1.3776226;
 	};
 	class Item95
 	{
@@ -1567,6 +1474,5 @@ class items
 		};
 		id=1639;
 		type="Land_HBarrier_1_F";
-		atlOffset=0.048999786;
 	};
 };

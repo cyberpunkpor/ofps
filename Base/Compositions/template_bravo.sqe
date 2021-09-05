@@ -1074,7 +1074,6 @@ class items
 		};
 		id=108;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item67
 	{
@@ -1091,7 +1090,6 @@ class items
 		};
 		id=109;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item68
 	{
@@ -1108,7 +1106,6 @@ class items
 		};
 		id=110;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item69
 	{
@@ -1125,7 +1122,6 @@ class items
 		};
 		id=111;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=-4.7683716e-007;
 	};
 	class Item70
 	{
@@ -1142,7 +1138,6 @@ class items
 		};
 		id=112;
 		type="Land_Mil_WallBig_Corner_F";
-		atlOffset=-2.3841858e-007;
 	};
 	class Item71
 	{

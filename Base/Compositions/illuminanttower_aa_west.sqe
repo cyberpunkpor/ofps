@@ -1,97 +1,58 @@
 version=54;
-center[]={1200.5375,5,3131.7502};
+center[]={5017.3643,5.2410231,7057.2725};
 class items
 {
-	items=5;
+	items=1;
 	class Item0
 	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-0.072631836,9.9707508,0.11645508};
-			angles[]={0,6.2533593,0};
-		};
-		side="Empty";
-		flags=5;
-		class Attributes
-		{
-		};
-		id=20;
-		type="Land_Sawmill_01_illuminati_tower_F";
-	};
-	class Item1
-	{
 		dataType="Layer";
-		name="poo test";
+		name="illuminanttower_aa_west";
 		class Entities
 		{
-			items=1;
+			items=2;
 			class Item0
+			{
+				dataType="Layer";
+				name="poo test_1";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={0.0009765625,21.261501,0.38378906};
+							angles[]={-0,3.096662,0};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+						};
+						id=44;
+						type="ofps_B_Van_static_AA_F";
+					};
+				};
+				id=43;
+			};
+			class Item1
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.03112793,21.261503,0.60375977};
-					angles[]={-0,3.096662,0};
+					position[]={-0.0009765625,9.9707508,-0.38378906};
+					angles[]={0,6.2533593,0};
 				};
 				side="Empty";
-				flags=4;
+				flags=5;
 				class Attributes
 				{
 				};
-				id=23;
-				type="ofps_B_Van_static_AA_F";
+				id=42;
+				type="Land_Sawmill_01_illuminati_tower_F";
 			};
 		};
-		id=28;
-		atlOffset=0.77642298;
-	};
-	class Item2
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-3.0151367,1.0924516,0.4777832};
-			angles[]={0,4.6415319,0};
-		};
-		side="Empty";
-		flags=5;
-		class Attributes
-		{
-		};
-		id=31;
-		type="Land_New_WiredFence_5m_F";
-	};
-	class Item3
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={0.16638184,1.0924516,-2.1464844};
-			angles[]={0,3.0891819,0};
-		};
-		side="Empty";
-		flags=5;
-		class Attributes
-		{
-		};
-		id=32;
-		type="Land_New_WiredFence_5m_F";
-	};
-	class Item4
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={2.9527588,1.0924516,0.94775391};
-			angles[]={0,1.5508518,0};
-		};
-		side="Empty";
-		flags=5;
-		class Attributes
-		{
-		};
-		id=33;
-		type="Land_New_WiredFence_5m_F";
+		id=48;
 	};
 };

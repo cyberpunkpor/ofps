@@ -17,7 +17,6 @@ class items
 		};
 		id=136;
 		type="Land_PierLadder_F";
-		atlOffset=-0.25;
 	};
 	class Item1
 	{
@@ -33,7 +32,6 @@ class items
 		};
 		id=137;
 		type="Land_Cargo_Patrol_V1_F";
-		atlOffset=0;
 	};
 	class Item2
 	{
@@ -50,7 +48,6 @@ class items
 		};
 		id=187;
 		type="O_static_AT_F";
-		atlOffset=0;
 	};
 	class Item3
 	{
@@ -67,7 +64,6 @@ class items
 		};
 		id=194;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=0;
 	};
 	class Item4
 	{
@@ -100,7 +96,6 @@ class items
 		};
 		id=196;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=0;
 	};
 	class Item6
 	{
@@ -148,7 +143,6 @@ class items
 		};
 		id=203;
 		type="Land_BagFence_Corner_F";
-		atlOffset=0;
 	};
 	class Item9
 	{
@@ -166,7 +160,6 @@ class items
 		};
 		id=204;
 		type="Land_BagFence_Corner_F";
-		atlOffset=0;
 	};
 	class Item10
 	{
@@ -183,7 +176,6 @@ class items
 		};
 		id=208;
 		type="Land_BagFence_Short_F";
-		atlOffset=0;
 	};
 	class Item11
 	{
@@ -199,7 +191,6 @@ class items
 		};
 		id=209;
 		type="Land_BagFence_Short_F";
-		atlOffset=0;
 	};
 	class Item12
 	{
@@ -216,7 +207,6 @@ class items
 		};
 		id=212;
 		type="Land_BagFence_End_F";
-		atlOffset=0;
 	};
 	class Item13
 	{
@@ -233,7 +223,6 @@ class items
 		};
 		id=213;
 		type="Land_BagFence_Short_F";
-		atlOffset=0;
 	};
 	class Item14
 	{
@@ -249,6 +238,5 @@ class items
 		};
 		id=214;
 		type="Land_Mil_WallBig_4m_F";
-		atlOffset=0;
 	};
 };

@@ -17,7 +17,6 @@ class items
 		};
 		id=0;
 		type="Land_Shed_Big_F";
-		atlOffset=0.0031776428;
 	};
 	class Item1
 	{
@@ -175,7 +174,6 @@ class items
 		};
 		id=14;
 		type="Land_CncWall4_F";
-		atlOffset=1.9073486e-006;
 	};
 	class Item11
 	{
@@ -192,7 +190,6 @@ class items
 		};
 		id=16;
 		type="Land_CncWall4_F";
-		atlOffset=0.00040054321;
 	};
 	class Item12
 	{

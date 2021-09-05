@@ -35,6 +35,5 @@ class items
 		};
 		id=57;
 		type="OFPS_B_SAM_System_03_F";
-		atlOffset=0.0019893646;
 	};
 };

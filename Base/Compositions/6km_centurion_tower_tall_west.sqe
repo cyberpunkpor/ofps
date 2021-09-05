@@ -31,7 +31,6 @@ class items
 						};
 						id=4;
 						type="Land_FireEscape_01_tall_F";
-						
 					};
 					class Item1
 					{
@@ -47,7 +46,6 @@ class items
 						};
 						id=5;
 						type="Land_ReservoirTower_F";
-				
 					};
 					class Item2
 					{
@@ -67,11 +65,9 @@ class items
 					};
 				};
 				id=3;
-				
 			};
 		};
 		id=10;
-		
 	};
 	class Item1
 	{

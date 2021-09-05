@@ -40,11 +40,9 @@ class items
 				};
 				id=30;
 				type="Land_Cargo_Tower_V1_F";
-			
 			};
 		};
 		id=35;
-		
 	};
 	class Item1
 	{
@@ -81,7 +79,6 @@ class items
 								};
 								id=65;
 								type="Land_FireEscape_01_tall_F";
-								
 							};
 							class Item1
 							{
@@ -97,7 +94,6 @@ class items
 								};
 								id=66;
 								type="Land_ReservoirTower_F";
-							
 							};
 							class Item2
 							{
@@ -114,19 +110,15 @@ class items
 								};
 								id=67;
 								type="Land_FireEscape_01_tall_F";
-								
 							};
 						};
 						id=64;
-						
 					};
 				};
 				id=63;
-				
 			};
 		};
 		id=69;
-		
 	};
 	class Item2
 	{
@@ -146,6 +138,5 @@ class items
 		};
 		id=120;
 		type="B_SAM_System_03_F";
-		
 	};
 };

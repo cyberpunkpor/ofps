@@ -95,7 +95,6 @@ class items
 		};
 		id=5;
 		type="Land_Cargo_Patrol_V1_F";
-		atlOffset=4.7683716e-007;
 	};
 	class Item6
 	{
