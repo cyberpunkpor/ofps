@@ -4185,7 +4185,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Avenger_USA',
 	/*MenuName*/'',
@@ -6085,13 +6085,32 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_LAV25_HQ_green',
+	/*MenuName*/['%1 (ECM)'],
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/3,
+	/*Price*/6000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'ecm',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_LAV25_HQ_desert_USMC',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/2,
-	/*Price*/8000,
+	/*MenuName*/['%1 (ECM)'],
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/3,
+	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -6099,7 +6118,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'ecm',
 	/*Picture*/''
 ];
 

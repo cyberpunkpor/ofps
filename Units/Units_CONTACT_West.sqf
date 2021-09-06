@@ -401,6 +401,25 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_GEN_Offroad_01_comms_F',
+	/*MenuName*/['%1 (ECM)'],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics", 3],[CTI_LARGE_FOB,"logistics",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Other'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'ecm',
+	/*Picture*/''
+];
+
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';

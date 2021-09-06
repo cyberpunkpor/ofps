@@ -4053,10 +4053,10 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP_HQ_RU',
-	/*MenuName*/'BMP HQ (RU)',
+	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
 	/*Price*/10000,
@@ -4067,7 +4067,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'service-defensetruck',
 	/*Picture*/''
 ];
 _u pushBack [
@@ -4560,6 +4560,25 @@ _u pushBack [
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_BRDM2_HQ',
+	/*MenuName*/['%1 (ECM)'],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics", 3],[CTI_LARGE_FOB,"logistics",1]],
+	/*UpgradeLevel*/1,
+	/*Price*/6000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'ecm',
 	/*Picture*/''
 ];
 

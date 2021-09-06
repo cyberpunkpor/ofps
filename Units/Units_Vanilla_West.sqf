@@ -1610,7 +1610,7 @@ _u pushBack [
 	/*Price*/12000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
