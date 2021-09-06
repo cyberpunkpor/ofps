@@ -1069,7 +1069,7 @@ _u = []; //Gear Classname
 		/*UpgradeLevel*/4,
 		/*Price*/0,
 		/*Camo*/[],
-		/*Type*/[""]
+		/*Type*/["Batteries"]
 	];
 
   //Secondary Weapon
