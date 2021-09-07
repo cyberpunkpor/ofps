@@ -4059,7 +4059,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
-	/*Price*/10000,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
