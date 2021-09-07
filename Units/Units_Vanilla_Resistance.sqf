@@ -1412,11 +1412,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'I_Plane_Fighter_03_CAS_F',
+	/*ClassName*/'I_Plane_Fighter_03_dynamicLoadout_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/0,
-	/*Price*/50000,
+	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/["Digital"],
