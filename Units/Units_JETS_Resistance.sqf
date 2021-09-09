@@ -120,25 +120,6 @@ _u = []; //--- Units
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'I_Plane_Fighter_03_dynamicLoadout_F',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/4,
-	/*Price*/67500,
-	/*BuildTime*/30,
-	/*Distance*/30,
-	/*Camo*/["Digital"],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'I_Plane_Fighter_04_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
