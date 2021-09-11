@@ -1085,7 +1085,7 @@ _u pushBack [
 	/*ClassName*/'B_35mm_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/10,
+	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
@@ -1097,7 +1097,7 @@ _u pushBack [
 	/*ClassName*/'B_35mm_AA_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/10,
+	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
 ];
