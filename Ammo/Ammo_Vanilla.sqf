@@ -1,4 +1,4 @@
-B/*
+/*
 //--------------------------------------------------------------------------------------------------------------
 # HEADER #
 Description:	This file presents classnames and their values to the mission.
