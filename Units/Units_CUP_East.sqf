@@ -5330,7 +5330,7 @@ _u pushBack [
 	/*MenuName*/'Ural ZU-23',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/0,
-	/*Price*/4000,
+	/*Price*/5500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
