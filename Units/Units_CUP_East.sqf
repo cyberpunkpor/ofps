@@ -4393,13 +4393,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_T55_CSAT_T',
 	/*MenuName*/'T-55 (Tropic)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
-	/*Price*/16000,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -4431,13 +4431,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_T72_CSAT_T',
 	/*MenuName*/'T-72 (NV)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
-	/*Price*/25000,
+	/*Price*/24000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
