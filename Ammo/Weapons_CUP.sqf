@@ -969,6 +969,20 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_mortar_82mm_veh',
+	/*MaxMags*/1
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_Vmlauncher_ub32_technical',
+	/*MaxMags*/1
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_Vmlauncher_GRAD_veh',
 	/*MaxMags*/1
 ];

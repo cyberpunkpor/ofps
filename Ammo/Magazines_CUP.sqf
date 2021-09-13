@@ -2111,7 +2111,29 @@ _u pushBack [
 
 //--- Arty --------------------------
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'CUP_8Rnd_82mm_Mo_shells_veh',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/4,
+	/*Price*/3500,
+	/*RearmTime*/90,
+	/*Filters*/[]
+];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'CUP_32Rnd_UB32_technical_HE',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/4,
+	/*Price*/16000,
+	/*RearmTime*/160,
+	/*Filters*/[]
+];
 
 _u pushBack [
 	/*Enabled*/true,

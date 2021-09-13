@@ -1082,6 +1082,17 @@ _u pushBack [
 
 
 //--- Arty --------------------------
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'CUP_R_S8_techical_HE',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/4,
+	/*Price*/500,
+	/*RearmTime*/5,
+	/*Filters*/[]
+];
 
 _u pushBack [
 	/*Enabled*/true,

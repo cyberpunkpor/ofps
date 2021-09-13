@@ -4528,6 +4528,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_O_Hilux_UB32_CHDKZ',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1 ]],
+	/*UpgradeLevel*/5,
+	/*Price*/30000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_BM21_RU',
 	/*MenuName*/'BM21 Grad MLRS',
 	/*Location*/[CTI_LIGHT],
@@ -5106,6 +5125,62 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Hilux_podnos_CHDKZ',
+	/*MenuName*/'Hilux Mortar',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/5,
+	/*Price*/50000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Hilux_AGS30_CHDKZ',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/1,
+	/*Price*/1050,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Hilux_DSHKM_CHDKZ',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/1,
+	/*Price*/800,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
