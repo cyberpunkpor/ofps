@@ -7873,6 +7873,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_AH6X_USA',
+	/*MenuName*/['%1 (ECM)'],
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/2,
+	/*Price*/6000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['UAV'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'ecm',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_AH6J_USA',
