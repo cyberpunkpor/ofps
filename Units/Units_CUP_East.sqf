@@ -4624,7 +4624,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BRDM2_ATGM_CSAT',
-	/*MenuName*/'BRDM2 ATGM (CSAT)',
+	/*MenuName*/'BRDM-2 ATGM (CSAT)',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1 ]],
 	/*UpgradeLevel*/1,
 	/*Price*/7000,
@@ -4640,11 +4640,11 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BRDM2_ATGM_CSAT_T',
-	/*MenuName*/'BRDM2 ATGM (Tropic)',
-	/*Location*/[CTI_LIGHT],
+	/*MenuName*/'BRDM-2 ATGM (Tropic)',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1 ]],
 	/*UpgradeLevel*/1,
 	/*Price*/7000,
 	/*BuildTime*/30,
