@@ -1724,7 +1724,7 @@ _u pushBack [
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -2076,25 +2076,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_T_MRAP_01_F',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/1,
-	/*Price*/1000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Desert'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_MRAP_01_gmg_F',
@@ -2114,47 +2095,9 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_T_MRAP_01_gmg_F',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/3,
-	/*Price*/6000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Desert'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_MRAP_01_hmg_F',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/2,
-	/*Price*/4000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Desert'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_T_MRAP_01_hmg_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
