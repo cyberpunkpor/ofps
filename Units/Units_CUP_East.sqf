@@ -4567,7 +4567,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BRDM2_CSAT',
-	/*MenuName*/'BRDM2 (CSAT)',
+	/*MenuName*/'BRDM-2 (CSAT)',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/4000,
@@ -4583,11 +4583,11 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BRDM2_CSAT_T',
-	/*MenuName*/'BRDM2 (Tropic)',
-	/*Location*/[CTI_LIGHT],
+	/*MenuName*/'BRDM-2 (Tropic)',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/4000,
 	/*BuildTime*/30,
@@ -4604,7 +4604,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_BRDM2_HQ',
+	/*ClassName*/'CUP_O_BRDM2_HQ_RUS',
 	/*MenuName*/['%1 (ECM)'],
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics", 3],[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/1,
