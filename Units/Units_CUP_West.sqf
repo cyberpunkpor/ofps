@@ -7875,7 +7875,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_AH6X_USA',
+	/*ClassName*/'CUP_B_MH6J_OBS_USA',
 	/*MenuName*/['%1 (ECM)'],
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,

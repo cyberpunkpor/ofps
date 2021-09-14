@@ -3162,25 +3162,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Pchela1T_RU',
-	/*MenuName*/['%1 (ECM)'],
-	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"default",0,"logistics",1]],
-	/*UpgradeLevel*/1,
-	/*Price*/4500,
-	/*BuildTime*/20,
-	/*Distance*/1,
-	/*Camo*/[],
-	/*Type*/['UAV'],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'ecm',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_O_Pchela1T_RU',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"default",0,"logistics",1]],
 	/*UpgradeLevel*/0,
