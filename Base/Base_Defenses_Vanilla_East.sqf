@@ -2212,7 +2212,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mortar',
 	/*Class*/"O_Mortar_01_F",
-	/*Price*/20000,
+	/*Price*/40000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
