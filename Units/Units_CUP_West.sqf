@@ -7883,7 +7883,7 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
-	/*Type*/['UAV'],
+	/*Type*/['Jammer Helicopter'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
