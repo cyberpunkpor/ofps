@@ -806,6 +806,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
+	/*ClassName*/'B_UAV_AI',
+	/*MenuName*/'UAV Static',
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/1,
+	/*Price*/50,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/[''],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
 	/*ClassName*/'jean_sleigh',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
