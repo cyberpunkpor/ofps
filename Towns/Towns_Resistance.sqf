@@ -1888,6 +1888,8 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 		GUER_NAVAL_SUBMARINE = "CUP_I_RHIB2Turret_RACS";
 
 		//Town Statics
+		GUER_TOWN_MG = "CUP_I_M2StaticMG_RACS";
+		GUER_TOWN_MGLO = "CUP_I_M2StaticMG_MiniTripod_RACS"; 
 		GUER_TOWN_MORTAR = "CUP_I_M252_RACS";
 		GUER_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
