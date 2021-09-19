@@ -276,7 +276,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
-	/*Price*/1000,
+	/*Price*/1500,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['UAV'],
@@ -289,13 +289,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_UAV_06_medical_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
-	/*Price*/1000,
+	/*Price*/1500,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['UAV'],

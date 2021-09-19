@@ -862,18 +862,18 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_UAV_06_backpack_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/4,
-				/*Price*/2000,
+				/*Price*/1500,
 				/*Camo*/[],
 				/*Type*/["UAV/UGV"]
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'B_UAV_06_medical_backpack_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/4,
-				/*Price*/2150,
+				/*Price*/1500,
 				/*Camo*/[],
 				/*Type*/["UAV/UGV"]
 			];
