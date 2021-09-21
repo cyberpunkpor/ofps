@@ -246,11 +246,12 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Artillery Radar", "<t>Increases the range of the Artillery Radar.<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Art Radar
 	["Respawn Range", "<t>Increases the max range of the respawn vehicles/crates and FOBS.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t><br /><t color='#ffff00'>LVL 5</t> - 3000m</t><br /><t color='#ffff00'>LVL 6</t> -4000m</t>"], //--- Respawn Range
 	["LVOSS System", "<t>Enables the Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage. LVOSS is for Light Factory vehicles only.<br />
-	<t color='#ffff00'>LVL 1</t> - Ammo 1 per side - 15 sec cool down<br />
-	<t color='#ffff00'>LVL 2</t> - Ammo 2 per side - 15 sec cool down</t>"], //--- LVOSS System
-	["ERA/APS System", "<t>Enables Explosive Reactive Armor (ERA), which absorb incoming light AT rockets. Later unlocks an Active Protection System (APS) which destroys incoming projectiles before impact. ERA and APS are for Heavy Factory vehicles only.<br />	<t color='#ffff00'>LVL 1</t> - ERA Mode Ammo 1 per side - 15 sec cool down<br />
-	<t color='#ffff00'>LVL 2</t> - ERA Mode Ammo 2 per side - 15 sec cool down<br />
-	<t color='#ffff00'>LVL 3</t> - APS Mode Ammo 3 per side - 15 sec cool down<br />
+	<t color='#ffff00'>LVL 1</t> - Ammo 1 per side - 45 sec cool down<br />
+	<t color='#ffff00'>LVL 2</t> - Ammo 2 per side - 35 sec cool down</t>"], //--- LVOSS System
+	["ERA/APS System", "<t>Enables Explosive Reactive Armor (ERA), which absorb incoming light AT rockets. Later unlocks an Active Protection System (APS) which destroys incoming projectiles before impact. ERA and APS are for Heavy Factory vehicles only.<br />	
+	<t color='#ffff00'>LVL 1</t> - ERA Mode Ammo 1 per side - 45 sec cool down<br />
+	<t color='#ffff00'>LVL 2</t> - ERA Mode Ammo 2 per side - 35 sec cool down<br />
+	<t color='#ffff00'>LVL 3</t> - APS Mode Ammo 3 per side - 25 sec cool down<br />
 	<t color='#ffff00'>LVL 4</t> - APS Mode Ammo 4 per side - 15 sec cool down</t>"], //--- ERA System
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
 	["WMD Unlock", "<t>Unlocks Rocket Artillery in the Light Factory.<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //---Nuke and Arty
