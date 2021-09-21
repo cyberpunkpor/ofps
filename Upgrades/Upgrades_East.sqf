@@ -79,7 +79,34 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	3, //--- Jamming Type
 	4  //--- Jamming Range
 ]];
+if (CTI_DEV_MODE > 0) then { 
+missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
+	[[],[],[],[],[],[]], //--- Gear
+	[[],[],[],[],[],[]], //--- Barracks
+	[[],[],[],[],[]], //--- Light
+	[[],[],[],[],[]], //--- Heavy
+	[[],[],[]], //--- Naval
+	[[],[],[],[],[]], //--- Air Rotary
+	[[],[],[],[],[]], //--- Air Fixed
+	[[],[],[],[]], //--- Air Ordinance 
+	[[],[],[],[]], //--- Land Ordinance
+	[[],[],[],[]], //--- Forward Logistics / Forward Logistics
+	[[],[],[]], //--- Halo
+	[[],[],[],[]], //--- Air Radar
+	[[],[],[],[]], //--- Art Radar
+	[[],[],[],[],[],[]], //--- Respawn Range
+	[[],[]], //--- LVOSS System
+	[[],[],[],[]], //--- ERA System
+	[[],[]], //--- Satellite
+	[[]], //--- Nuke and Arty
+	[[],[],[]], //--- Supply Rate
+	[[],[],[],[]], //--- Base Health
+	[[],[],[],[]], //--- Base Defense
+	[[],[],[]], //--- Jamming Types
+	[[],[],[],[]] //--- Jamming Range
+]];
 
+} else {	
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[],[],[]], //--- Gear
 	[[CTI_UPGRADE_GEAR, 1],[CTI_UPGRADE_GEAR, 2],[CTI_UPGRADE_GEAR, 3],[CTI_UPGRADE_GEAR, 4],[CTI_UPGRADE_GEAR, 5],[CTI_UPGRADE_GEAR, 6]], //--- Barracks
@@ -105,7 +132,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[]], //--- Jamming Types
 	[[],[],[],[]] //--- Jamming Range
 ]];
-
+};
 
 if (CTI_DEV_MODE > 0) then { 
 	//------------------------------ DEV Mode	------------------------------
