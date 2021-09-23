@@ -3638,9 +3638,9 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_SOV_NATO_T',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/2000,
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/1,
+	/*Price*/1600,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -3696,7 +3696,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_HMMWV_SOV_M2_NATO_T',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/1400,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -3862,13 +3862,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_MK19_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2,"logistics",1]],
 	/*UpgradeLevel*/2,
-	/*Price*/2500,
+	/*Price*/2000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -3900,13 +3900,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_M2_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1,"logistics",1]],
 	/*UpgradeLevel*/1,
-	/*Price*/1900,
+	/*Price*/1500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -4071,13 +4071,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_MK19_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2,"logistics",1]],
 	/*UpgradeLevel*/2,
-	/*Price*/2200,
+	/*Price*/2000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -4090,13 +4090,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_M2_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1,"logistics",1]],
 	/*UpgradeLevel*/1,
-	/*Price*/1900,
+	/*Price*/1500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -4109,13 +4109,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_M2_GPK_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/2200,
+	/*Price*/1700,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -4166,13 +4166,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_TOW_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/12000,
+	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -4267,7 +4267,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/3000,
+	/*Price*/2300,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -4400,7 +4400,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/3000,
+	/*Price*/2300,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -4508,13 +4508,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1165_GMV_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/2300,
+	/*UpgradeLevel*/1,
+	/*Price*/1600,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -4533,7 +4533,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/3000,
+	/*Price*/2300,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -4665,8 +4665,8 @@ _u pushBack [
 	/*ClassName*/'CUP_B_M1151_Mk19_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/1500,
+	/*UpgradeLevel*/2,
+	/*Price*/2300,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -4798,8 +4798,8 @@ _u pushBack [
 	/*ClassName*/'CUP_B_M1151_Mk19_DSRT_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/1,
-	/*Price*/1500,
+	/*UpgradeLevel*/2,
+	/*Price*/2000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -4888,13 +4888,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1167_DSRT_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/6500,
+	/*Price*/9500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -4935,7 +4935,7 @@ _u pushBack [
 	/*Price*/1800,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -4966,6 +4966,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_RG31_M2_OD_GC_USA',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/2,
+	/*Price*/1800,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_RG31_M2_OD_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
@@ -4983,7 +5002,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_RG31_Mk19_USMC',
 	/*MenuName*/'',
@@ -5021,13 +5040,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_RG31E_M2_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/2,
-	/*Price*/1800,
+	/*Price*/1900,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -5593,6 +5612,44 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_Boxer_Empty_GER_WDL',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",2,"logistics",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/3000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_Boxer_Empty_GER_DES',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",2,"logistics",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/3000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_Boxer_Empty_HIL',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",2,"logistics",1]],
@@ -5630,6 +5687,25 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_Boxer_HMG_GER_DES',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",2,"logistics",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Boxer_HMG_HIL',
 	/*MenuName*/'',
