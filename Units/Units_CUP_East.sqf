@@ -5176,7 +5176,7 @@ _u pushBack [
 	/*ClassName*/'CUP_O_UAZ_MG_CSAT',
 	/*MenuName*/'UAZ DShKm (CSAT)',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/600,
 	/*BuildTime*/5,
 	/*Distance*/1,
