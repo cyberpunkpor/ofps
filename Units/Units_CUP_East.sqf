@@ -4511,7 +4511,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Hilux_UB32_CHDKZ',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1 ]],
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",5 ]],
 	/*UpgradeLevel*/5,
 	/*Price*/30000,
 	/*BuildTime*/30,
