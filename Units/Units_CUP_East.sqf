@@ -5157,7 +5157,7 @@ _u pushBack [
 	/*ClassName*/'CUP_O_Hilux_DSHKM_CHDKZ',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/800,
 	/*BuildTime*/5,
 	/*Distance*/1,
