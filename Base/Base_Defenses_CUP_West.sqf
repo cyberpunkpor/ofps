@@ -779,7 +779,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Type 072A UAV Turret (1.5km) Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","type072_tower_tall_west.sqe",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","type072_tower_tall_west",2]]],
 	/*Price*/15000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
