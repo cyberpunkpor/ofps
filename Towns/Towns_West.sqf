@@ -330,10 +330,10 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	WEST_TOWN_DSHKM = "CUP_B_DSHKM_ACR";
 	WEST_TOWN_KORD = "CUP_O_KORD_high_RU";
 	WEST_TOWN_KORDLO = "CUP_O_KORD_RU";
-	WEST_TOWN_CRAM = "CUP_B_ZU23_CDF";
+	WEST_TOWN_CRAM = "CUP_B_Type072_Turret";
 	WEST_TOWN_MK29 = "CUP_WV_B_SS_Launcher";
 	WEST_TOWN_MK49 = "CUP_WV_B_RAM_Launcher";
-	WEST_TOWN_AGS = "CUP_B_AGS_ACR";
+	WEST_TOWN_AGS = "CUP_B_MK19_TriPod_USMC";
 	WEST_TOWN_IGLA = "CUP_B_Stinger_AA_pod_Base_USMC";
 	//COMPS
 	WEST_TOWN_MG50_COMP = [{
@@ -1172,7 +1172,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 
 		//--- Town Statics
 		WEST_TOWN_AT = "CUP_B_Tow2_TriPod_US";
-		WEST_TOWN_MORTAR = "CUP_B_M252_US";
+		WEST_TOWN_MORTAR = "B_Mortar_01_F";
 		WEST_TOWN_AGS = "CUP_B_MK19_TriPod_US";
 		WEST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
@@ -1522,7 +1522,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 		
 		//--- Town Statics
 		WEST_TOWN_AT = "CUP_B_Tow2_TriPod_US";
-		WEST_TOWN_MORTAR = "CUP_B_M252_US";
+		WEST_TOWN_MORTAR = "B_Mortar_01_F";
 		WEST_TOWN_AGS = "CUP_B_MK19_TriPod_US";
 		WEST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;

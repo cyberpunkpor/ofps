@@ -322,14 +322,14 @@ if (CTI_PRAIRIE_FIRE_ADDON >= 2) then {
 };
 //--- Load CUP Mod
 if (CTI_CUP_WEAPONS_ADDON > 0) then {
-	EAST_TOWN_ZSU = "CUP_O_ZS23_RU";
+	EAST_TOWN_ZSU = "CUP_O_ZU23_RU";
 	EAST_TOWN_IGLA = "CUP_O_Igla_AA_pod_RU";
 	EAST_TOWN_SPG = "CUP_O_SPG9_ChDKZ";
 	EAST_TOWN_DSHKM = "CUP_O_DSHKM_TK_INS";
 	EAST_TOWN_KORD = "CUP_O_KORD_high_RU";
 	EAST_TOWN_KORDLO = "CUP_O_KORD_RU";
-	EAST_TOWN_CRAM = "CUP_O_ZS23_RU";
-	EAST_TOWN_MK29 = "CUP_O_ZS23_RU";
+	EAST_TOWN_CRAM = "CUP_O_Type072_Turret";
+	EAST_TOWN_MK29 = "CUP_O_ZU23_RU";
 	EAST_TOWN_MK49 = "CUP_O_Igla_AA_pod_RU";
 	EAST_TOWN_DSHKM_COMP = [{
 		_t_center = _this select 0;
@@ -1071,7 +1071,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 		//--- Town Statics
 		EAST_TOWN_AA = "CUP_O_Igla_AA_pod_RU";
 		EAST_TOWN_AT = "CUP_O_Kornet_RU";
-		EAST_TOWN_MORTAR = "CUP_O_2b14_82mm_RU";
+		EAST_TOWN_MORTAR = "O_Mortar_01_F";
 		EAST_TOWN_AGS = "CUP_O_AGS_RU";
 		EAST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
@@ -1399,7 +1399,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 		//---Statics
 		EAST_TOWN_AA = "CUP_O_Igla_AA_pod_RU";
 		EAST_TOWN_AT = "CUP_O_Kornet_RU";
-		EAST_TOWN_MORTAR = "CUP_O_2b14_82mm_RU";
+		EAST_TOWN_MORTAR = "O_Mortar_01_F";
 		EAST_TOWN_AGS = "CUP_O_AGS_RU";
 		EAST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;

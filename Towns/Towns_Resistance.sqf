@@ -333,7 +333,7 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	GUER_NAVAL_LARGE_ASSAULT_BOAT = "CUP_I_Frigate_AAF";
 	GUER_TOWN_SPG = "CUP_I_SPG9_TK_GUE";
 	GUER_TOWN_ZSU = "CUP_I_ZU23_TK_GUE";
-	GUER_TOWN_MORTAR = "CUP_I_2b14_82mm_TK_GUE";
+	//GUER_TOWN_MORTAR = "CUP_I_2b14_82mm_TK_GUE";
 	GUER_TOWN_DSHKM = "CUP_I_DSHKM_TK_GUE";
 	GUER_TOWN_KORD = "CUP_I_KORD_high_UN";
 	GUER_TOWN_KORDLO = "CUP_I_KORD_UN";
@@ -1940,7 +1940,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 		//Town Statics
 		GUER_TOWN_MG = "CUP_I_M2StaticMG_RACS";
 		GUER_TOWN_MGLO = "CUP_I_M2StaticMG_MiniTripod_RACS"; 
-		GUER_TOWN_MORTAR = "CUP_I_M252_RACS";
+		GUER_TOWN_MORTAR = "I_Mortar_01_F";
 		GUER_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -2867,7 +2867,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 		GUER_NAVAL_SUBMARINE = "CUP_I_RHIB2Turret_RACS";
 
 		//Town Statics
-		GUER_TOWN_MORTAR = "CUP_I_M252_RACS";
+		GUER_TOWN_MORTAR = "I_Mortar_01_F";
 		GUER_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
