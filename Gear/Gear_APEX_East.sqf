@@ -1168,7 +1168,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_ViperLightHarness_oli_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/6,
+				/*Price*/30,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -1179,7 +1179,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_ViperLightHarness_khk_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/6,
+				/*Price*/30,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -1190,7 +1190,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_ViperLightHarness_hex_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/15,
+				/*Price*/30,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -1201,7 +1201,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_ViperLightHarness_ghex_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/15,
+				/*Price*/30,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -1212,7 +1212,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_ViperHarness_blk_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/40,
+				/*Price*/400,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -1223,7 +1223,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_ViperHarness_oli_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/500,
+				/*Price*/400,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -1234,7 +1234,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_ViperHarness_khk_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/500,
+				/*Price*/400,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -1245,7 +1245,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_ViperHarness_hex_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/20,
+				/*Price*/400,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -1256,7 +1256,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_ViperHarness_ghex_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
-				/*Price*/20,
+				/*Price*/400,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];

@@ -4950,7 +4950,7 @@ _u pushBack [
 	/*MenuName*/'Vodnik AGS/PKM',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2]],
 	/*UpgradeLevel*/2,
-	/*Price*/2400,
+	/*Price*/1600,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],

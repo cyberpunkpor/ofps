@@ -4463,12 +4463,12 @@ _u = []; //Gear Classname
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'CUP_O_RUS_Patrol_bag_Desert',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/20,
+				/*Price*/30,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -4479,7 +4479,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_O_RUS_Patrol_bag_Summer',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/20,
+				/*Price*/30,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -4490,7 +4490,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_O_RUS_Patrol_bag_BeigeDigital',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/20,
+				/*Price*/30,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -4501,7 +4501,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_O_RUS_Patrol_bag_Green',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/20,
+				/*Price*/30,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -4914,7 +4914,7 @@ _u = []; //Gear Classname
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'CUP_H_RUS_6B47_v2_Desert',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
@@ -4925,7 +4925,7 @@ _u = []; //Gear Classname
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'CUP_H_RUS_6B47_v2_GogglesDown_Desert',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
