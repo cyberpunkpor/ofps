@@ -142,8 +142,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'srifle_DMR_06_olive_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/4,
-			/*Price*/80,
+			/*UpgradeLevel*/3,
+			/*Price*/100,
 			/*Camo*/[],
 			/*Type*/["DMR"]
 		];
@@ -153,8 +153,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'srifle_DMR_06_camo_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/4,
-			/*Price*/80,
+			/*UpgradeLevel*/3,
+			/*Price*/100,
 			/*Camo*/[],
 			/*Type*/["DMR"]
 		];
@@ -165,7 +165,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'srifle_DMR_03_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/4,
-			/*Price*/80,
+			/*Price*/180,
 			/*Camo*/[],
 			/*Type*/["DMR"]
 		];
@@ -176,7 +176,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'srifle_DMR_03_Khaki_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/4,
-			/*Price*/80,
+			/*Price*/180,
 			/*Camo*/[],
 			/*Type*/["DMR"]
 		];
@@ -187,7 +187,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'srifle_DMR_03_tan_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/4,
-			/*Price*/80,
+			/*Price*/180,
 			/*Camo*/[],
 			/*Type*/["DMR"]
 		];
@@ -198,7 +198,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'srifle_DMR_03_woodland_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/4,
-			/*Price*/80,
+			/*Price*/180,
 			/*Camo*/[],
 			/*Type*/["DMR"]
 		];
@@ -209,7 +209,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'srifle_DMR_03_multicam_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/4,
-			/*Price*/80,
+			/*Price*/180,
 			/*Camo*/[],
 			/*Type*/["DMR"]
 		];

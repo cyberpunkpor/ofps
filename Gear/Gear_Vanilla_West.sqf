@@ -341,7 +341,7 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'arifle_TRG20_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
+			/*UpgradeLevel*/1,
 			/*Price*/20,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
@@ -527,8 +527,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'srifle_EBR_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/3,
-			/*Price*/40,
+			/*UpgradeLevel*/4,
+			/*Price*/170,
 			/*Camo*/[],
 			/*Type*/["DMR"]
 		];
@@ -642,17 +642,6 @@ _u = []; //Gear Classname
 //----SECONDARY WEAPON MENU----
 
   //Revolvers
-	
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'hgun_Pistol_heavy_02_F',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/0,
-			/*Price*/10,
-			/*Camo*/[],
-			/*Type*/["Revolver"]
-		];
   
   //Regular Pistols
 	
