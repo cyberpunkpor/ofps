@@ -497,7 +497,7 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'CUP_arifle_XM8_Carbine_FG',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/0,
+			/*UpgradeLevel*/1,
 			/*Price*/40,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
