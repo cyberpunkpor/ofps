@@ -152,7 +152,9 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_B_USMC_Soldier"];
+		missionNamespace setVariable [format["CTI_%1_Soldier_low", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_B_USMC_Crew"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_B_USMC_Crew"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_B_USMC_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_B_USMC_Pilot"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_B_USMC_Pilot"];
@@ -225,7 +227,9 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "rhsusf_army_ocp_rifleman_m16"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "rhsusf_army_ocp_rifleman_m16"];
 		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "rhsusf_army_ocp_rifleman_m16"];
+		missionNamespace setVariable [format["CTI_%1_Soldier_low", _side], "rhsusf_army_ocp_rifleman_m16"];
 		missionNamespace setVariable [format["CTI_%1_Crew", _side], "rhsusf_army_ocp_combatcrewman"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "rhsusf_army_ocp_combatcrewman"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "rhsusf_army_ocp_helipilot"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "rhsusf_army_ocp_helipilot"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "rhsusf_army_ocp_helipilot"];
@@ -273,7 +277,9 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_B_USMC_Soldier"];
+		missionNamespace setVariable [format["CTI_%1_Soldier_low", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_B_USMC_Crew"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_B_USMC_Crew"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_B_USMC_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_B_USMC_Pilot"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_B_USMC_Pilot"];
