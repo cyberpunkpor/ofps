@@ -3374,7 +3374,7 @@ _u pushBack [
 	/*MenuName*/'KA-50 Blackshark - 4AA/40RKTS',   
 	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"logistics",2]],
 	/*UpgradeLevel*/3,
-	/*Price*/15000,
+	/*Price*/18000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
