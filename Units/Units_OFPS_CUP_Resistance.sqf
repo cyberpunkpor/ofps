@@ -116,24 +116,7 @@ _mod = 'CUP';
 _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_I_D30_GND',
-	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/0,
-	/*Price*/4000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Woodland'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
+
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';
