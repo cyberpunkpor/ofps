@@ -1,36 +1,48 @@
 version=54;
-center[]={1191.5095,5,3158.1348};
+center[]={5572.7231,5,3207.3857};
 class items
 {
-	items=2;
+	items=1;
 	class Item0
 	{
-		dataType="Object";
-		class PositionInfo
+		dataType="Layer";
+		name="spg9towereast";
+		class Entities
 		{
-			position[]={-0.15625,1.3528881,0.041259766};
+			items=2;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.099121094,2.621861,0.37011719};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=14;
+				type="CUP_O_SPG9_ChDKZ";
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.15625,1.3528881,0.041259766};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+					createAsSimpleObject=1;
+					disableSimulation=1;
+				};
+				id=13;
+				type="Land_Cargo10_military_green_F";
+			};
 		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=8;
-		type="Land_Cargo10_military_green_F";
-	};
-	class Item1
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-0.099121094,2.621861,0.37011719};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=16;
-		type="CUP_O_SPG9_ChDKZ";
+		id=15;
 	};
 };
