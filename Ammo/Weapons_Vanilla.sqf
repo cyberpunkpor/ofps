@@ -764,7 +764,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'missiles_titan',
-	/*MaxMags*/1
+	/*MaxMags*/2
 ];
 
 _u pushBack [
