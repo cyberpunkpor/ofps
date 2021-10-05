@@ -9107,6 +9107,43 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_CESSNA_T41_ARMED_USA',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",1]],
+	/*UpgradeLevel*/1,
+	/*Price*/6000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Ground Attack Aircraft'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_CESSNA_T41_UNARMED_USA',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",1]],
+	/*UpgradeLevel*/0,
+	/*Price*/5000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Transport Plane'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';
