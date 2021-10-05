@@ -346,7 +346,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'M134 Minigun (UAV)',
-	/*Class*/"CUP_B_M134_A_US_ARMY",
+	/*Class*/"CUP_B_M134_A_USMC",
 	/*Price*/2700,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
