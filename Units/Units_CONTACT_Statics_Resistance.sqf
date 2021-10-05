@@ -105,7 +105,7 @@ _u = []; //Defense Classname
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Mk32 GMG 20mm',
 	/*Class*/"I_E_GMG_01_F",
 	/*Price*/3000,
 	/*Placement*/[180, 15],
@@ -121,7 +121,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Mk.6 Mortar',
 	/*Class*/"I_E_Mortar_01_F",
 	/*Price*/20000,
 	/*Placement*/[180, 15],

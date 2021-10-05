@@ -105,7 +105,7 @@ _u = []; //Defense Classname
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'ZU-23',
 	/*Class*/"CUP_I_ZU23_TK_GUE",
 	/*Price*/5000,
 	/*Placement*/[180, 15],
@@ -121,7 +121,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'SPG-9',
 	/*Class*/"CUP_I_SPG9_TK_GUE",
 	/*Price*/3000,
 	/*Placement*/[180, 15],
@@ -137,7 +137,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'2b14 Podnos Mortar',
 	/*Class*/"CUP_I_2b14_82mm_TK_GUE",
 	/*Price*/20000,
 	/*Placement*/[180, 15],
@@ -153,7 +153,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'M252 Mortar',
 	/*Class*/"CUP_I_M252_RACS",
 	/*Price*/20000,
 	/*Placement*/[180, 15],
@@ -169,7 +169,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'KORD Low',
 	/*Class*/"CUP_I_KORD_UN",
 	/*Price*/1500,
 	/*Placement*/[180, 15],
@@ -185,7 +185,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'M2 Minitripod',
 	/*Class*/"CUP_I_M2StaticMG_MiniTripod_RACS",
 	/*Price*/1000,
 	/*Placement*/[180, 15],
@@ -201,7 +201,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'KORD',
 	/*Class*/"CUP_I_KORD_high_UN",
 	/*Price*/1500,
 	/*Placement*/[180, 15],
@@ -217,7 +217,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'DSHKM Minitripod',
 	/*Class*/"CUP_I_DSHkM_MiniTriPod_TK_GUE",
 	/*Price*/1000,
 	/*Placement*/[180, 15],
@@ -233,7 +233,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'DSHKM',
 	/*Class*/"CUP_I_DSHKM_TK_GUE",
 	/*Price*/1000,
 	/*Placement*/[180, 15],
@@ -249,7 +249,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'AGS-30',
 	/*Class*/"CUP_I_AGS_TK_GUE",
 	/*Price*/2000,
 	/*Placement*/[180, 15],
@@ -265,7 +265,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Mk-19',
 	/*Class*/"CUP_I_MK19_TriPod_AAF",
 	/*Price*/2000,
 	/*Placement*/[180, 15],
@@ -281,7 +281,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'M2',
 	/*Class*/"CUP_I_M2StaticMG_RACS",
 	/*Price*/1000,
 	/*Placement*/[180, 15],
@@ -297,97 +297,18 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_DSHkM_MiniTriPod_TK_GUE',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/1000,
-	/*BuildTime*/20,
-	/*Distance*/0,
-	/*Camo*/[''],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_DSHKM_TK_GUE',
-	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/0,
-	/*Price*/1000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Woodland'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_MK19_TriPod_AAF',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/2000,
-	/*BuildTime*/20,
-	/*Distance*/0,
-	/*Camo*/[""],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_AGS_TK_GUE',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
-	/*Price*/2000,
-	/*BuildTime*/20,
-	/*Distance*/0,
-	/*Camo*/[''],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'CUP_I_Type072_Turret',
-	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
+	/*Name*/'Type 072A Turret',
+	/*Class*/"CUP_I_Type072_Turret",
 	/*Price*/20000,
-	/*BuildTime*/20,
-	/*Distance*/0,
-	/*Camo*/[""],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
 ];
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";

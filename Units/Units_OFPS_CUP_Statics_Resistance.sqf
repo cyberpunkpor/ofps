@@ -105,7 +105,7 @@ _u = []; //Defense Classname
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'D-30 AT',
 	/*Class*/"OFPS_I_D30_GND",
 	/*Price*/4000,
 	/*Placement*/[180, 15],
