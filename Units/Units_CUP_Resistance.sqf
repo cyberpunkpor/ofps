@@ -4187,6 +4187,44 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_412_dynamicLoadout_PMC',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/19000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Armed Transport Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_412_dynamicLoadout_PMC',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/19000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Armed Transport Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_Ka60_GL_Digi_AAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
