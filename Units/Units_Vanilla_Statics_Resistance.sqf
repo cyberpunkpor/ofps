@@ -297,7 +297,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'M2 HMG .50',
+	/*Name*/'Mk32 GMG 20mm (Raised)',
 	/*Class*/"I_GMG_01_high_F",
 	/*Price*/1300,
 	/*Placement*/[180, 15],
