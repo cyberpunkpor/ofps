@@ -295,4 +295,20 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'M2 HMG .50',
+	/*Class*/"I_GMG_01_high_F",
+	/*Price*/1300,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";
