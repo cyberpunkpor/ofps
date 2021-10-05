@@ -280,6 +280,17 @@ _u = []; //Gear Classname
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'CUP_smg_BallisticShield_MP7',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/4,
+			/*Price*/900,
+			/*Camo*/[],
+			/*Type*/["SMG"]
+		];
 	
 		_u pushBack [
 			/*Enabled*/true,
@@ -315,18 +326,18 @@ _u = []; //Gear Classname
 		];
   
   //Rifles
-	
+
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
-			/*ClassName*/'CUP_hgun_BallisticShield_Armed',
+			/*ClassName*/'CUP_arifle_M4_MOE_BW',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/0,
-			/*Price*/50,
+			/*UpgradeLevel*/4,
+			/*Price*/80,
 			/*Camo*/[],
-			/*Type*/["Special"]
+			/*Type*/["Rifle"]
 		];
-		
+
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
@@ -3434,6 +3445,17 @@ _u = []; //Gear Classname
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
+			/*ClassName*/'CUP_hgun_BallisticShield_Armed',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/0,
+			/*Price*/50,
+			/*Camo*/[],
+			/*Type*/["Semi-Auto Pistol"]
+		];
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
 			/*ClassName*/'CUP_hgun_Colt1911',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/0,
@@ -5623,6 +5645,17 @@ _u = []; //Gear Classname
 			];
 
 	//Rifles (Rifles w/ Nade Launcher use the same ammo)
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_10Rnd_50BW_Mag_M4_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/4,
+				/*Price*/15,
+				/*Camo*/[],
+				/*Type*/["Rifle"]
+			];
 		
 			_u pushBack [
 				/*Enabled*/true,

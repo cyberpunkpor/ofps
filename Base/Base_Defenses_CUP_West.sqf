@@ -345,6 +345,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'M134 Minigun (UAV)',
+	/*Class*/"CUP_B_M134_A_US_ARMY",
+	/*Price*/2700,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'M2 Machine Gun',
 	/*Class*/"CUP_B_M2StaticMG_USMC",
 	/*Price*/1000,

@@ -135,6 +135,16 @@ _u = []; //Gear Classname
 			];
 			
   //SMGs
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'CUP_smg_BallisticShield_Sa61',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/1,
+			/*Price*/250,
+			/*Camo*/[],
+			/*Type*/["Machine Pistol"]
+		];  
 
 		_u pushBack [
 			/*Enabled*/true,
@@ -187,6 +197,17 @@ _u = []; //Gear Classname
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/0,
 			/*Price*/0,
+			/*Camo*/[],
+			/*Type*/["SMG"]
+		];
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'CUP_smg_BallisticShield_PP19',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/1,
+			/*Price*/100,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -1097,6 +1118,17 @@ _u = []; //Gear Classname
   
   //Regular Pistols
 		
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'CUP_hgun_BallisticShield_PMM',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/0,
+			/*Price*/40,
+			/*Camo*/[],
+			/*Type*/["Semi-Auto Pistol"]
+		];
+
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
