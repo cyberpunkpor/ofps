@@ -4187,11 +4187,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_I_412_dynamicLoadout_PMC',
+	/*ClassName*/'CUP_I_412_Military_Armed_PMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
-	/*Price*/19000,
+	/*Price*/13000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
