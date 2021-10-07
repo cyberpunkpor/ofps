@@ -167,7 +167,7 @@ switch (CTI_FACTION_WEST) do {
 		[["CUP_smg_MP5A5_Flashlight",["","","CUP_optic_MicroT1",""],["CUP_30Rnd_9x19_MP5"]],["CUP_launch_M72A6_Special",[],[]],["CUP_hgun_M9",["","","",""],["CUP_15Rnd_9x19_M9"]]],[["cup_u_b_usmc_marpat_wdl_twokneepads",["firstaidkit","firstaidkit","CUP_HandGrenade_M67","CUP_HandGrenade_M67"]],["cup_v_b_mtv_patrol",["CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","cup_30rnd_556x45_emag","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"]],["cup_b_usmc_assaultpack",["CUP_launch_M72A6","firstaidkit","firstaidkit"]]],["cup_h_usmc_helmetwdl","g_combat"],[["",["binocular",""]],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
-			["CUP_B_nM997_DF_USMC_WDL", [
+			["CUP_B_nM997_DF_USMC_DES", [
 				["CUP_launch_M72A6", 10],
 				["CUP_30Rnd_556x45_Stanag_Tracer_Red", 20],
 				["CUP_arifle_M4A1", 10],
@@ -203,7 +203,7 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_optic_MicroT1", 10],
 				["Toolkit", 1]
 			]],
-			["CUP_B_HMMWV_M1114_USMC", [
+			["CUP_B_nM1025_M240_DF_USA_DES", [
 				["CUP_launch_M72A6", 8],
 				["CUP_arifle_M4A1", 5],
 				["firstaidkit", 10],
@@ -328,7 +328,7 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_optic_MicroT1", 10],
 				["Toolkit", 1]
 			]],
-			["CUP_B_HMMWV_M1114_USMC", [
+			["CUP_B_nM1025_M240_DF_USMC_WDL", [
 				["CUP_launch_M72A6", 8],
 				["CUP_arifle_M4A1", 5],
 				["firstaidkit", 10],

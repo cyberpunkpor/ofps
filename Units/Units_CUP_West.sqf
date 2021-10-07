@@ -3843,7 +3843,26 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_nM997_DF_USMC_DES',
+	/*MenuName*/'HMMWV Medic',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB]],
+	/*UpgradeLevel*/0,
+	/*Price*/8500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Medical'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_nM997_DF_USMC_WDL',
 	/*MenuName*/'HMMWV Medic',
