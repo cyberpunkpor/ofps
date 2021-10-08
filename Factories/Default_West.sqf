@@ -71,6 +71,16 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_sgun_M1014", 10],
 				["optic_aco_grn", 10],
 				["CUP_launch_M72A6", 20]
+			]],
+			["B_MRAP_01_hmg_F", [
+				["Toolkit", 1],
+				["firstaidkit", 10],
+				["arifle_mx_gl_f", 10], 
+				["30Rnd_65x39_caseless_mag", 45],
+				["100Rnd_65x39_caseless_mag", 5],
+				["1Rnd_HE_Grenade_shell", 24],
+				["optic_aco_grn", 10],
+				["CUP_launch_M72A6", 20]
 			]]
 		]];
 	};
@@ -140,6 +150,17 @@ switch (CTI_FACTION_WEST) do {
 				["150Rnd_556x45_Drum_Mag_Tracer_F", 5],
 				["1Rnd_HE_Grenade_shell", 24],
 				["CUP_sgun_M1014", 10],
+				["CUP_launch_M72A6", 20]
+			]],
+			["B_T_MRAP_01_gmg_F", [
+				["Toolkit", 1],
+				["firstaidkit", 10],
+				["arifle_SPAR_01_GL_khk_F", 10],
+				["optic_aco_grn", 10],
+				["30Rnd_556x45_Stanag", 45],
+				["150Rnd_556x45_Drum_Mag_Tracer_F", 5],
+				["1Rnd_HE_Grenade_shell", 24],
+				["arifle_SPAR_02_khk_F", 5],
 				["CUP_launch_M72A6", 20]
 			]]
 		]];
@@ -295,7 +316,7 @@ switch (CTI_FACTION_WEST) do {
 			["CUP_B_nM997_DF_USMC_WDL", [
 				["CUP_launch_M72A6", 10],
 				["CUP_30Rnd_556x45_Stanag_Tracer_Red", 20],
-				["CUP_arifle_M4A1", 10],
+				["CUP_arifle_M4A1_standard_winter", 10],
 				["CUP_30Rnd_556x45_Stanag", 20],
 				["firstaidkit", 20],
 				["CUP_optic_MicroT1", 10],
@@ -304,7 +325,7 @@ switch (CTI_FACTION_WEST) do {
 			]],
 			["CUP_B_M113A3_USA", [
 				["CUP_launch_M72A6", 22],
-				["CUP_arifle_M4A1", 10],
+				["CUP_arifle_M4A1_standard_winter", 10],
 				["CUP_sgun_M1014", 5],
 				["CUP_8Rnd_B_Beneli_74Slug", 5],
 				["CUP_8Rnd_B_Beneli_74Pellets", 5],
@@ -321,7 +342,7 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_launch_M72A6", 10], 
 				["CUP_30Rnd_556x45_Stanag_Tracer_Red", 20],
 				["CUP_30Rnd_556x45_Stanag", 20],
-				["CUP_arifle_M4A1", 10],
+				["CUP_arifle_M4A1_standard_winter", 10],
 				["firstaidkit", 10],
 				["CUP_HandGrenade_M67", 10],
 				["CUP_30Rnd_556x45_Stanag", 20],
@@ -330,7 +351,7 @@ switch (CTI_FACTION_WEST) do {
 			]],
 			["CUP_B_nM1025_M240_DF_USMC_WDL", [
 				["CUP_launch_M72A6", 8],
-				["CUP_arifle_M4A1", 5],
+				["CUP_arifle_M4A1_standard_winter", 5],
 				["firstaidkit", 10],
 				["CUP_8Rnd_B_Beneli_74Slug", 15],
 				["CUP_8Rnd_B_Beneli_74Pellets", 15],
@@ -398,13 +419,15 @@ switch (CTI_FACTION_WEST) do {
 			["B_T_Truck_01_medical_F", [
 				["Toolkit", 1],
 				["firstaidkit", 20],
-				["30Rnd_556x45_Stanag", 50],
+				["30Rnd_65x39_caseless_mag", 30],
+				["100Rnd_65x39_caseless_khaki_mag", 10],
 				["CUP_launch_M72A6", 20],
-				["HandGrenade", 20],
-				["arifle_SPAR_01_GL_khk_F", 10],
 				["30rnd_45acp_mag_smg_01", 10],
+				["arifle_MX_GL_khk_F", 10],
 				["optic_aco_grn", 10],
-				["firstaidkit", 20]
+				["1Rnd_HE_Grenade_shell", 24],
+				["3rnd_he_grenade_shell", 24],
+				["HandGrenade", 20]
 			]],
 			["B_T_MRAP_01_hmg_F", [
 				["Toolkit", 1],
@@ -417,6 +440,17 @@ switch (CTI_FACTION_WEST) do {
 				["150Rnd_556x45_Drum_Mag_Tracer_F", 5],
 				["1Rnd_HE_Grenade_shell", 24],
 				["CUP_sgun_M1014", 10],
+				["CUP_launch_M72A6", 20]
+			]],
+			["B_T_MRAP_01_gmg_F", [
+				["Toolkit", 1],
+				["firstaidkit", 10],
+				["arifle_SPAR_01_GL_khk_F", 10],
+				["optic_aco_grn", 10],
+				["30Rnd_556x45_Stanag", 45],
+				["150Rnd_556x45_Drum_Mag_Tracer_F", 5],
+				["1Rnd_HE_Grenade_shell", 24],
+				["arifle_SPAR_02_khk_F", 5],
 				["CUP_launch_M72A6", 20]
 			]]
 		]];

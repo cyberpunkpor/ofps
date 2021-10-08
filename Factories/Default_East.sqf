@@ -73,6 +73,15 @@ switch (CTI_FACTION_EAST) do {
 				["CUP_50Rnd_UK59_762x54R_Tracer", 15], 
 				["CUP_launch_RPG18", 20],
 				["optic_ACO_grn", 5]
+			]],
+			["O_MRAP_02_gmg_F", [
+				["Toolkit", 1],
+				["firstaidkit", 5],
+				["1Rnd_HE_Grenade_shell", 15],
+				["arifle_Katiba_GL_F", 2],
+				["30Rnd_65x39_caseless_green_mag_Tracer", 10],
+				["CUP_launch_RPG18", 2],
+				["optic_ACO_grn", 2]
 			]]
 		]];
 	};
@@ -138,6 +147,15 @@ switch (CTI_FACTION_EAST) do {
 				["100Rnd_580x42_ghex_Mag_Tracer_F", 5],
 				["30Rnd_580x42_Mag_Tracer_F", 50], 
 				["CUP_launch_RPG18", 20]
+			]],
+			["O_T_MRAP_02_gmg_ghex_F", [
+				["Toolkit", 1],
+				["firstaidkit", 5],
+				["1Rnd_HE_Grenade_shell", 20],
+				["arifle_CTAR_GL_ghex_F", 2],
+				["30Rnd_580x42_Mag_Tracer_F",20],
+				["CUP_launch_RPG18", 2],
+				["optic_ACO_grn", 2]
 			]]
 		]];
 	};

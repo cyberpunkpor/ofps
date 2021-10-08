@@ -815,6 +815,17 @@ _u = []; //Gear Classname
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
+			/*ClassName*/'CUP_arifle_M4A1_standard_winter',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/1,
+			/*Price*/0,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
+		
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
 			/*ClassName*/'CUP_arifle_M4A3_black',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/1,
