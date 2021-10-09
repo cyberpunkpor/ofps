@@ -1227,7 +1227,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/4,
-	/*Price*/65000,
+	/*Price*/61000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['PacificHex'],
