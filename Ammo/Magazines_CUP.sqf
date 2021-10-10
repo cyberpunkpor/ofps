@@ -830,7 +830,7 @@ _u pushBack [
 	/*UpgradeLevel*/1,
 	/*Price*/1950,
 	/*RearmTime*/4.5,
-	/*Filters*/[]0
+	/*Filters*/[]
 ];
 
 _u pushBack [
