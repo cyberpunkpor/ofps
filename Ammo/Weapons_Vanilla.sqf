@@ -624,7 +624,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'autocannon_30mm_RCWS',
-	/*MaxMags*/3
+	/*MaxMags*/4
 ];
 
 _u pushBack [
