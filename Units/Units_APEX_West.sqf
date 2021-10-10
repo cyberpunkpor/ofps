@@ -1433,7 +1433,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_T_APC_Tracked_01_rcws_F',
-	/*MenuName*/'',
+	/*MenuName*/'IFV-6c Panther (Woodland)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
 	/*Price*/10000,
