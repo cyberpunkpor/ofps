@@ -90,21 +90,21 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HMG_127',
-	/*MaxMags*/20
+	/*MaxMags*/2
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HMG_127_APC',
-	/*MaxMags*/20
+	/*MaxMags*/4
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HMG_127_UGV',
-	/*MaxMags*/20
+	/*MaxMags*/1
 ];
 
 _u pushBack [
@@ -132,14 +132,14 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HMG_NSVT',
-	/*MaxMags*/20
+	/*MaxMags*/2
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HMG_127_LSV_01',
-	/*MaxMags*/20
+	/*MaxMags*/3
 ];
 
 _u pushBack [
@@ -167,7 +167,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'MMG_02_vehicle',
-	/*MaxMags*/20
+	/*MaxMags*/3
 ];
 
 _u pushBack [
@@ -216,7 +216,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HMG_127_MBT',
-	/*MaxMags*/20
+	/*MaxMags*/4
 ];
 
 _u pushBack [
