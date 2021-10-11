@@ -124,7 +124,7 @@ _u pushBack [
 	/*ClassName*/'B_Plane_Fighter_01_F',
 	/*MenuName*/['%1 (Dynamic Loadout)'],
 	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/5,
 	/*Price*/90000,
 	/*BuildTime*/30,
 	/*Distance*/30,

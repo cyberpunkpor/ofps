@@ -559,7 +559,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vcannon_2A46_Txx',
-	/*MaxMags*/6
+	/*MaxMags*/43
 ];
 
 _u pushBack [
