@@ -4469,7 +4469,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_T90_RU',
 	/*MenuName*/'T-90a (Thermal)',
