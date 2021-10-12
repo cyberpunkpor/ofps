@@ -118,21 +118,21 @@ _u = []; //--- Units
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_Heli_Transport_03_unarmed_F',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/0,
-	/*Price*/10000,
+	/*MenuName*/'Large FOB Huron',
+	/*Location*/[CTI_REPAIR,[CTI_AIR_ROTARY,"default",4,"logistics",4]],
+	/*UpgradeLevel*/4,
+	/*Price*/110000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
-	/*Type*/['Transport/Heavy Lift Helicopter'],
+	/*Type*/['Logistics Helicopter'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'deployable-fob-large',
 	/*Picture*/''
 ];
 

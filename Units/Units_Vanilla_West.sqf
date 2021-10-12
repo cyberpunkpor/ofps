@@ -1720,7 +1720,7 @@ _u pushBack [
 	/*ClassName*/'B_APC_Wheeled_01_cannon_F',
 	/*MenuName*/'AMV-7 Marshall',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -2076,7 +2076,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_MRAP_01_gmg_F',
 	/*MenuName*/'',

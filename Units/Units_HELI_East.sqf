@@ -174,13 +174,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'O_Heli_Transport_04_repair_F',
-	/*MenuName*/'Taru Repair',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
-	/*Price*/20000,
+	/*ClassName*/'O_Heli_Transport_04_repair_black_F',
+	/*MenuName*/'Large FOB Taru',
+	/*Location*/[CTI_REPAIR,[CTI_AIR_ROTARY,"default",4,"logistics",4]],
+	/*UpgradeLevel*/4,
+	/*Price*/110000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -188,7 +188,26 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-repairtruck',
+	/*Script*/'deployable-fob-large',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_Heli_Transport_04_repair_F',
+	/*MenuName*/'Small FOB Taru',
+	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"default",4,"logistics",4]],
+	/*UpgradeLevel*/3,
+	/*Price*/25000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'deployable-fob',
 	/*Picture*/''
 ];
 

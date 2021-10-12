@@ -3786,7 +3786,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_nM1097_AVENGER_USA_WDL',
 	/*MenuName*/'',
@@ -3805,9 +3805,9 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_B_HMMWV_Avenger_NATO_T',
+	/*ClassName*/'CUP_B_HMMWV_Avenger_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/1,
@@ -3995,7 +3995,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Avenger_USMC',
 	/*MenuName*/'',
@@ -4242,7 +4242,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_nM1097_AVENGER_USA_DES',
 	/*MenuName*/'',
@@ -6869,7 +6869,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_MCV80_GB_W_SLAT',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/18500,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -7059,7 +7059,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_M7Bradley_USA_W',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/11000,
 	/*BuildTime*/30,
 	/*Distance*/1,

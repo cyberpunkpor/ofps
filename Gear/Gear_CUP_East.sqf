@@ -4533,7 +4533,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_B_RUS_Backpack',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
-				/*Price*/20,
+				/*Price*/30,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
