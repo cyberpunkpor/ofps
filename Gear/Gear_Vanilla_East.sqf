@@ -375,12 +375,12 @@ _u = []; //Gear Classname
   //Ground to Air
 
 		_u pushBack [
-			/*Enabled*/true,
+			/*Enabled*/false,
 			/*Name*/'',
 			/*ClassName*/'launch_I_Titan_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/5,
-			/*Price*/3500,
+			/*Price*/1500,
 			/*Camo*/[],
 			/*Type*/["Rocket AA"]
 		];
@@ -391,7 +391,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'launch_O_Titan_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/5,
-			/*Price*/3500,
+			/*Price*/1500,
 			/*Camo*/[],
 			/*Type*/["Rocket AA"]
 		];
@@ -1485,7 +1485,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'Titan_AA',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/5,
-				/*Price*/2500,
+				/*Price*/900,
 				/*Camo*/[],
 				/*Type*/["Rocket AA"]
 			];
