@@ -379,7 +379,7 @@ _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'SPG-9',
 	/*Class*/"CUP_B_SPG9_CDF",
-	/*Price*/3000,
+	/*Price*/2000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
