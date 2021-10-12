@@ -2005,7 +2005,7 @@ _u pushBack [
 	/*ClassName*/'B_Slingload_01_Medevac_F',
 	/*MenuName*/'Respawn Container',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,

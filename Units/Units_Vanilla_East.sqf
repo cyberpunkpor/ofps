@@ -1720,7 +1720,7 @@ _u pushBack [
 	/*ClassName*/'Land_Pod_Heli_Transport_04_medevac_F',
 	/*MenuName*/'Respawn Pod',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/5000,
 	/*BuildTime*/5,
 	/*Distance*/1,
