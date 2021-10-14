@@ -526,7 +526,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'SmokeLauncher',
-	/*MaxMags*/1
+	/*MaxMags*/2
 ];
 
 _u pushBack [

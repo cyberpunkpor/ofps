@@ -4434,7 +4434,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_T72_CSAT_T',
-	/*MenuName*/'T-72 (NV)',
+	/*MenuName*/'T-72 (NV, Tropic)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
 	/*Price*/24000,

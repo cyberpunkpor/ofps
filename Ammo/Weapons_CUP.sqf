@@ -96,8 +96,29 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_Vhmg_M2_M1Abrams_TUSK_Coax',
+	/*MaxMags*/1
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_Vhmg_M2_M1Abrams_Commander2',
+	/*MaxMags*/8
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_Vhmg_M2_M1Abrams_Commander2_CROWS',
+	/*MaxMags*/8
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_M2_M1Abrams_Commander',
-	/*MaxMags*/20
+	/*MaxMags*/8
 ];
 
 _u pushBack [
@@ -174,7 +195,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_SGMT',
-	/*MaxMags*/20
+	/*MaxMags*/12
 ];
 
 _u pushBack [
@@ -230,7 +251,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_PKT_T34',
-	/*MaxMags*/20
+	/*MaxMags*/4
 ];
 
 _u pushBack [
@@ -306,6 +327,13 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_Vlmg_M240_M60Patton_Coax',
+	/*MaxMags*/3
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_Vlmg_M240_veh',
 	/*MaxMags*/20
 ];
@@ -363,7 +391,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vlmg_M240_M1Abrams_Coax',
-	/*MaxMags*/20
+	/*MaxMags*/3
 ];
 
 _u pushBack [
@@ -447,14 +475,14 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vacannon_D10',
-	/*MaxMags*/6
+	/*MaxMags*/42
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vacannon_D5_T34',
-	/*MaxMags*/6
+	/*MaxMags*/60
 ];
 
 _u pushBack [
@@ -531,7 +559,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vcannon_M256_M1Abrams',
-	/*MaxMags*/40
+	/*MaxMags*/42
 ];
 
 _u pushBack [
@@ -559,7 +587,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vcannon_2A46_Txx',
-	/*MaxMags*/43
+	/*MaxMags*/45
 ];
 
 _u pushBack [
