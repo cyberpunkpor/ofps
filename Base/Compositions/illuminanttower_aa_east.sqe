@@ -31,7 +31,7 @@ class items
 						{
 						};
 						id=36;
-						type="ofps_B_Van_static_AA_F";
+						type="ofps_O_Van_static_AA_F";
 					};
 				};
 				id=35;
