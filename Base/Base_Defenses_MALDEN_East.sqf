@@ -256,7 +256,7 @@ _u pushBack [
 	/*Placement*/[0, 7],
 	/*Tags*/["Sheds"],
 	/*Location*/["HQ"],
-	/*Blacklist*/[["Factories", 25]],
+	/*Blacklist*/[["All",20]],
 	/*Upgrade*/2,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
