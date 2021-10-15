@@ -142,20 +142,20 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*times*/120,
 			/*MaxCount*/1,
 			/*placements*/[0, 40],
-			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+			/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 2]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 			/*respawnBPos*/-1
 		];
 	};
 	case 1: {//CUP
-		_u pushback [ 
+	_u pushback [ 
 	/*headers*/[CTI_AIR_ROTARY, "Rotary Wing Aircraft Factory", "Air Rotary"],
 	/*classes*/["Land_Mil_ControlTower", "Land_Mil_ControlTower_ruins"],
 	/*prices*/3000,
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[0, 40],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]], 
+	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 2]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1
 		];
@@ -174,7 +174,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 40],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]], 
+	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 2]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1
 ];
