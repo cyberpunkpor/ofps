@@ -18,7 +18,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "O_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Crew", _side], "O_crew_F"];
 		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "O_crew_F"];
-		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_Pilot_F"];
+		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_helipilot_F"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "O_helipilot_F"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "O_helicrew_F"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "O_Soldier_F"];
@@ -97,7 +97,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "O_T_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Crew", _side], "O_T_Crew_F"];
 		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "O_T_Crew_F"];
-		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_T_Pilot_F"];
+		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_T_Helipilot_F"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "O_T_Helipilot_F"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "O_T_Helicrew_F"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "O_T_Soldier_F"];
@@ -373,7 +373,7 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "O_R_Gorka_camo_F"];
 		missionNamespace setVariable [format["CTI_%1_Crew", _side], "O_R_Gorka_base_F"];
 		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "O_R_Gorka_base_F"];
-		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_T_Pilot_F"];
+		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "O_T_Helipilot_F"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "O_T_Helipilot_F"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "O_T_Helicrew_F"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "O_R_Gorka_camo_F"];
