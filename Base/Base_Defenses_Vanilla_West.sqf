@@ -2201,7 +2201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Bridge',
 	/*Class*/"Land_Canal_Dutch_01_bridge_F",
 	/*Price*/2000,
