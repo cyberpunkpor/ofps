@@ -120,7 +120,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Short Sandbag Wall',
 	/*Class*/"FenceWood",
 	/*Price*/50,
@@ -136,7 +136,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Corner Sandbag Wall',
 	/*Class*/"Fence",
 	/*Price*/50,
@@ -152,7 +152,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Large Round Sandbag Wall',
 	/*Class*/"Land_fort_bagfence_round",
 	/*Price*/125,
@@ -296,7 +296,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Concrete Vehicle Bunker',
 	/*Class*/"Land_Ammostore2",
 	/*Price*/4000,

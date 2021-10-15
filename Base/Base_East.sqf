@@ -142,7 +142,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*times*/120,
 			/*MaxCount*/1,
 			/*placements*/[0, 40],
-			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+			/*specials*/[["DMG_Explosion", 0.1]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 			/*respawnBPos*/-1
 		];
@@ -155,7 +155,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[0, 40],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]], 
+	/*specials*/[["DMG_Explosion", 0.1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1
 		];

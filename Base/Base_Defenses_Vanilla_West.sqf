@@ -937,7 +937,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Razor Wire',
 	/*Class*/"Land_Razorwire_F",
 	/*Price*/50,
@@ -953,7 +953,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Short Sandbag',
 	/*Class*/"Land_BagFence_Short_F",
 	/*Price*/75,
@@ -969,7 +969,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Long Sandbag',
 	/*Class*/"Land_BagFence_Long_F",
 	/*Price*/75,
@@ -985,7 +985,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Round Sandbag',
 	/*Class*/"Land_BagFence_Round_F",
 	/*Price*/75,
@@ -1001,7 +1001,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wood Wall Low',
 	/*Class*/"Land_Shoot_House_Wall_Crouch_F",
 	/*Price*/100,
@@ -1017,7 +1017,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wood Wall Low (long)',
 	/*Class*/"Land_Shoot_House_Wall_Long_Crouch_F",
 	/*Price*/100,
@@ -1033,7 +1033,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wood Wall Short',
 	/*Class*/"Land_Shoot_House_Wall_Stand_F",
 	/*Price*/100,
@@ -1049,7 +1049,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wood Wall Short (long)',
 	/*Class*/"Land_Shoot_House_Wall_Long_Stand_F",
 	/*Price*/100,
@@ -1065,7 +1065,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wood Wall',
 	/*Class*/"Land_Shoot_House_Wall_F",
 	/*Price*/100,
@@ -1081,7 +1081,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wood Wall (long)',
 	/*Class*/"Land_Shoot_House_Wall_Long_F",
 	/*Price*/100,
@@ -1097,7 +1097,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wood Tunnel',
 	/*Class*/"Land_Shoot_House_Tunnel_F",
 	/*Price*/100,
@@ -1113,7 +1113,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Tin Wall (4)',
 	/*Class*/"Land_TinWall_02_l_4m_F",
 	/*Price*/100,
@@ -1257,7 +1257,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Tin Wall (8)',
 	/*Class*/"Land_TinWall_02_l_8m_F",
 	/*Price*/100,
@@ -2488,7 +2488,7 @@ _u pushBack [
 	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Pier (Wooden)',
 	/*Class*/"Land_Pier_small_F",
 	/*Price*/200,
@@ -2533,7 +2533,7 @@ _u pushBack [
 	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Rock Wavebreaker',
 	/*Class*/"Land_Sea_Wall_F",
 	/*Price*/200,
