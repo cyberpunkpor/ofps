@@ -813,18 +813,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Land',
-	/*ClassName*/'CUP_70Rnd_TE1_Red_Tracer_25mm_M242_APFSDS',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
-	/*Price*/1050,
-	/*RearmTime*/2.1,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Land',
 	/*ClassName*/'CUP_150Rnd_TE1_Red_Tracer_25mm_M242_APDS',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
@@ -1895,7 +1883,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'CUP_1Rnd_85mmHEFRAG_D5',
@@ -1907,7 +1895,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'CUP_1Rnd_85mmHEAT_D5',
@@ -1919,7 +1907,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'CUP_1Rnd_85mmAPCR_D5',
@@ -2112,7 +2100,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'CUP_1Rnd_100mmHEFRAG_D10',
@@ -2124,7 +2112,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'CUP_1Rnd_100mm_BM25',
@@ -2381,7 +2369,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Land',
-	/*ClassName*/'CUP_1Rnd_TE1_Red_Tracer_105mm_M900_M68_Cannon_M',
+	/*ClassName*/'CUP_1Rnd_TE1_Red_Tracer_105mm_M393A3_M68_Cannon_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/50,
@@ -2394,6 +2382,18 @@ _u pushBack [
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'CUP_1Rnd_TE1_Red_Tracer_105mm_M900_M68_Cannon_M',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/1,
+	/*Price*/50,
+	/*RearmTime*/1,
+	/*Filters*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'CUP_1Rnd_TE1_Red_Tracer_105mm_M456A2_M68_Cannon_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
 	/*Price*/60,

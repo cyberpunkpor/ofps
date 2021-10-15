@@ -939,18 +939,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Land',
-	/*ClassName*/'CUP_Sh_85mm_APCR',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
-	/*Price*/24.5,
-	/*RearmTime*/1,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Land',
 	/*ClassName*/'CUP_Sh_100mm_M1000A1',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/1,
@@ -1085,7 +1073,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'CUP_Sh_105mm_M393A3',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/50,
 	/*RearmTime*/1,
 	/*Filters*/[]
