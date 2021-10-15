@@ -162,7 +162,7 @@ _u pushBack [
 	/*Blacklist*/[],
 	/*Upgrade*/3,
 	/*MaxCount*/-1,
-	/*Cooldown*/-1,
+	/*Cooldown*/240,
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
