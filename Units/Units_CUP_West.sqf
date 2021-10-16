@@ -6228,7 +6228,7 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
-	/*Type*/[],
+	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
@@ -6247,7 +6247,7 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
-	/*Type*/[],
+	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
@@ -6266,7 +6266,7 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
-	/*Type*/[],
+	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
@@ -6285,7 +6285,7 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
-	/*Type*/[],
+	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
@@ -8988,6 +8988,25 @@ _u pushBack [
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_Seafox_USV_USMC',
+	/*MenuName*/['%1 (ECM)'],
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"default",1]],
+	/*UpgradeLevel*/1,
+	/*Price*/1500,
+	/*BuildTime*/15,
+	/*Distance*/3,
+	/*Camo*/['Black'],
+	/*Type*/['Jammer Boat'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'ecm',
 	/*Picture*/''
 ];
 

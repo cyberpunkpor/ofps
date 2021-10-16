@@ -412,7 +412,7 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Other'],
-	/*Type*/[],
+	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
