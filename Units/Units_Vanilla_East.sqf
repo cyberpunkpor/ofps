@@ -1930,7 +1930,7 @@ _u pushBack [
 	/*MenuName*/'T-100 Varsuk (CSAT)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/37000,
+	/*Price*/38000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
