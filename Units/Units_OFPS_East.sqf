@@ -484,7 +484,7 @@ _u pushBack [
 	/*ClassName*/'OFPS_AWC_AT_O',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/11000,
 	/*BuildTime*/30,
 	/*Distance*/1,
