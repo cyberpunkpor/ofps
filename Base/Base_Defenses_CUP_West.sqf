@@ -472,6 +472,38 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'KORD',
+	/*Class*/"CUP_O_KORD_high_RU",
+	/*Price*/1500,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'DShKM',
+	/*Class*/"CUP_B_DSHKM_ACR",
+	/*Price*/1000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'TOW Tripod (2K)',
 	/*Class*/"CUP_B_TOW_TriPod_USMC",

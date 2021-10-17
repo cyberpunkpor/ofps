@@ -325,7 +325,7 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	EAST_TOWN_ZSU = "CUP_O_ZU23_RU";
 	EAST_TOWN_IGLA = "CUP_O_Igla_AA_pod_RU";
 	EAST_TOWN_SPG = "CUP_O_SPG9_ChDKZ";
-	EAST_TOWN_DSHKM = "CUP_O_DSHKM_TK_INS";
+	EAST_TOWN_DSHKM = "CUP_O_DSHKM_ChDKZ";
 	EAST_TOWN_KORD = "CUP_O_KORD_high_RU";
 	EAST_TOWN_KORDLO = "CUP_O_KORD_RU";
 	EAST_TOWN_CRAM = "CUP_O_Type072_Turret";
@@ -345,7 +345,7 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 		_object enableSimulationGlobal false;
 		_t_composition pushBack _object;
 		
-		_object = createVehicle ["CUP_O_DSHKM_TK_INS", _t_center, [], 0, "CAN_COLLIDE"];
+		_object = createVehicle ["CUP_O_DSHKM_ChDKZ", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -867,7 +867,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		_object enableSimulationGlobal false;
 		_t_composition pushBack _object;
 		
-		_object = createVehicle ["CUP_O_DSHKM_TK_INS", _t_center, [], 0, "CAN_COLLIDE"];
+		_object = createVehicle ["CUP_O_DSHKM_ChDKZ", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -2221,7 +2221,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then {
 		_object enableSimulationGlobal false;
 		_t_composition pushBack _object;
 		
-		_object = createVehicle ["CUP_O_DSHKM_TK_INS", _t_center, [], 0, "CAN_COLLIDE"];
+		_object = createVehicle ["CUP_O_DSHKM_ChDKZ", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
