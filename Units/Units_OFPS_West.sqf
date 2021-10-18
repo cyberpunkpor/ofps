@@ -409,7 +409,7 @@ _u pushBack [
 	/*MenuName*/'FV-720 Mora (NATO)',
 	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/2,
-	/*Price*/19000,
+	/*Price*/18000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Sand'],
