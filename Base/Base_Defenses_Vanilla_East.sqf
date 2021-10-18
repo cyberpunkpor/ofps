@@ -1587,7 +1587,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
-	/*Class*/"O_HMG_01_F",
+	/*Class*/"O_HMG_02_high_F",
 	/*Price*/2000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
@@ -1603,7 +1603,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
-	/*Class*/"O_HMG_01_High_F",
+	/*Class*/"O_G_HMG_02_F",
 	/*Price*/2000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
