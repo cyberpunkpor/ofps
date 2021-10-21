@@ -1610,7 +1610,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
-	/*Name*/'',
+	/*Name*/'M2 HMG .50 (Raised)',
 	/*Class*/"B_G_HMG_02_high_F",
 	/*Price*/2000,
 	/*Placement*/[180, 5],
@@ -1626,7 +1626,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
-	/*Name*/'',
+	/*Name*/'M2 HMG .50',
 	/*Class*/"B_G_HMG_02_F",
 	/*Price*/2000,
 	/*Placement*/[180, 5],
