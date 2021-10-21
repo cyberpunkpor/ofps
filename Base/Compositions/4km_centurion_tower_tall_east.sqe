@@ -1,0 +1,84 @@
+version=54;
+center[]={5257.2441,5.1808481,1371.8835};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="6kmcenturiontowertalleast";
+		class Entities
+		{
+			items=2;
+			class Item0
+			{
+				dataType="Layer";
+				name="6kmcenturiontowertalleast";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Layer";
+						name="6kmcenturiontowertalleast_5";
+						class Entities
+						{
+							items=1;
+							class Item0
+							{
+								dataType="Layer";
+								name="r-750talltower_8";
+								class Entities
+								{
+									items=1;
+									class Item0
+									{
+										dataType="Object";
+										class PositionInfo
+										{
+											position[]={-0.034179688,10.206881,0.31970215};
+										};
+										side="Empty";
+										flags=5;
+										class Attributes
+										{
+										};
+										id=27;
+										type="Land_ReservoirTower_F";
+									};
+								};
+								id=25;
+								
+							};
+						};
+						id=24;
+						
+					};
+				};
+				id=23;
+				
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={0.034667969,24.50182,-0.31958008};
+				};
+				side="Empty";
+				class Attributes
+				{
+					reportRemoteTargets=1;
+					receiveRemoteTargets=1;
+					reportOwnPosition=1;
+					aiRadarUsage=1;
+				};
+				id=31;
+				type="OFPS_CENTURION_O_4KM";
+				
+			};
+		};
+		id=30;
+		
+	};
+};

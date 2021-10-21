@@ -250,6 +250,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
+	/*Name*/'Mk21 Centurion (4km) Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","4km_centurion_tower_tall_east",2]]],
+	/*Price*/45000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[["All", 15]],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (6km) Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","6km_centurion_tower_tall_east",2]]],
 	/*Price*/55000,
