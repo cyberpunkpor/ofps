@@ -5180,7 +5180,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'CUP_PylonPod_20Rnd_S8_M',
@@ -5204,7 +5204,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'CUP_PylonPod_20Rnd_S8N_M',
@@ -5216,7 +5216,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'CUP_PylonPod_20Rnd_S8N_CCIP_M',
