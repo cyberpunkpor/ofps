@@ -97,8 +97,8 @@ EAST_TOWN_AGS = "O_GMG_01_F";
 EAST_TOWN_COAST = "O_static_AT_F";
 EAST_TOWN_CRAM = "O_HMG_01_High_F";
 EAST_TOWN_IGLA = "O_static_AA_F";
-EAST_TOWN_MK29 = "CUP_O_ZU23_RU";
-EAST_TOWN_MK49 = "CUP_O_Igla_AA_pod_RU";
+EAST_TOWN_MK29 = "O_static_AA_F";
+EAST_TOWN_MK49 = "O_static_AA_F";
 //--- Town Statics Compositions
 EAST_TOWN_MG_COMP = [];
 EAST_TOWN_GL_COMP = [];
