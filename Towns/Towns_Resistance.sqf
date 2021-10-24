@@ -100,6 +100,8 @@ GUER_TOWN_M2LO = "I_G_HMG_02_F";
 GUER_TOWN_AGS = "I_GMG_01_F";
 GUER_TOWN_COAST = "I_static_AT_F";
 GUER_TOWN_CRAM = "I_HMG_01_high_F";
+GUER_TOWN_MK29 = "I_static_AA_F";
+GUER_TOWN_MK49 = "I_static_AA_F";
 //--- Town Statics Compositions
 GUER_TOWN_MG_COMP = [];
 GUER_TOWN_GL_COMP = [];
