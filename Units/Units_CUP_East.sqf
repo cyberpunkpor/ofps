@@ -5308,7 +5308,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_V3S_Refuel_TKA',
 	/*MenuName*/'Praga Fuel',
-	/*Location*/[CTI_REPAIR],
+	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"default",0]],
 	/*UpgradeLevel*/0,
 	/*Price*/2000,
 	/*BuildTime*/30,
@@ -5325,9 +5325,28 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_O_V3S_Rearm_TKM',
+	/*MenuName*/'Praga Ammo',
+	/*Location*/[CTI_AMMO,[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/7000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-ammotruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_V3S_Repair_TKA',
 	/*MenuName*/'Praga Repair (90 second respawn timer)',
-	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"default",1]],
+	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"default",0]],
 	/*UpgradeLevel*/0,
 	/*Price*/11000,
 	/*BuildTime*/90,
@@ -5357,6 +5376,44 @@ _u pushBack [
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'service-repairtruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Kamaz_Refuel_RU',
+	/*MenuName*/'Kamaz Fuel',
+	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/3000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-fueltruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Kamaz_Reammo_RU',
+	/*MenuName*/'Kamaz Ammo',
+	/*Location*/[CTI_AMMO,[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/8000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-ammotruck',
 	/*Picture*/''
 ];
 
