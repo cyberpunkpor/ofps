@@ -121,6 +121,25 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_Heli_Transport_03_unarmed_F',
+	/*MenuName*/'Small FOB Huron',
+	/*Location*/[CTI_REPAIR,[CTI_DEPOT_AIR,"logistics",4]],
+	/*UpgradeLevel*/3,
+	/*Price*/25000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'deployable-fob',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'B_Heli_Transport_03_unarmed_green_F',
 	/*MenuName*/'Large FOB Huron',
 	/*Location*/[CTI_REPAIR,[CTI_AIR_ROTARY,"default",4,"logistics",4]],
 	/*UpgradeLevel*/4,
