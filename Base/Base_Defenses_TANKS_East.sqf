@@ -217,7 +217,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Concrete Hedgehog',
 	/*Class*/"Land_ConcreteHedgehog_01_F",
 	/*Price*/200,
@@ -265,7 +265,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Czech Hedgehog New',
 	/*Class*/"Land_CzechHedgehog_01_new_F",
 	/*Price*/200,
