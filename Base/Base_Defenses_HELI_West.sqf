@@ -102,6 +102,37 @@ _mod = "Heli";
 _u = []; //Defense Classname
 
 //--------------------------------------------------------------------------------------------------------------
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Refueling Bladder (Tan)',
+	/*Class*/"StorageBladder_01_fuel_sand_F",
+	/*Price*/3000,
+	/*Placement*/[0, 5],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Refueling Bladder (Green)',
+	/*Class*/"StorageBladder_01_fuel_forest_F",
+	/*Price*/3000,
+	/*Placement*/[0, 5],
+	/*Tags*/["Misc"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 
 _u pushBack [
 	/*Enabled*/false,
@@ -118,6 +149,8 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+
+
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (Blue)',
@@ -133,6 +166,7 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (Red)',
@@ -148,6 +182,7 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (White)',
@@ -163,6 +198,7 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (Green)',
@@ -178,6 +214,7 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Portable Helipad Light (Yellow)',

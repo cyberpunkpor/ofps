@@ -106,7 +106,7 @@ _u = []; //Defense Classname
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Repair Depot (tan)',
+	/*Name*/'Repair Depot (Tan)',
 	/*Class*/["Land_RepairDepot_01_tan_F",[["RuinOnDestroyed", "Land_Cargo_Tower_V1_ruins_F"]]],
 	/*Price*/5000,
 	/*Placement*/[0, 0],
@@ -122,7 +122,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Repair Depot (green)',
+	/*Name*/'Repair Depot (Green)',
 	/*Class*/["Land_RepairDepot_01_green_F",[["RuinOnDestroyed", "Land_RepairDepot_01_green_ruins_F"]]],
 	/*Price*/5000,
 	/*Placement*/[0, 0],
