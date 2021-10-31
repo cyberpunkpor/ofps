@@ -9076,7 +9076,7 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'CUP_H_US_H_PASGT_winter',
+				/*ClassName*/'CUP_H_PASGTv2_NVG_winter',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
 				/*Price*/50,
