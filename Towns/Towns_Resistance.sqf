@@ -2993,7 +2993,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 		GUER_VEHICLE_APC2 = "I_E_APC_tracked_03_cannon_F";
 		GUER_VEHICLE_APC3 = "I_E_APC_tracked_03_cannon_F";
 		//--- Tanks
-		GUER_VEHICLE_ARMORED1 = "I_MBT_03_cannon_F";	
+		GUER_VEHICLE_ARMORED1 = "CUP_B_M1A2C_TUSK_II_LDF";	
 		GUER_VEHICLE_ARMORED2 = "I_MBT_03_cannon_F";
 		GUER_VEHICLE_ARMORED3 = "I_MBT_03_cannon_F";
 		//--- AA Vehicles

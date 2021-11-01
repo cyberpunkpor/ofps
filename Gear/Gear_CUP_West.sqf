@@ -3789,7 +3789,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_muzzle_snds_G36_black',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/500,
+				/*Price*/300,
 				/*Camo*/[],
 				/*Type*/["Flash Hider/Silencer"]
 			];
@@ -3800,7 +3800,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_muzzle_snds_G36_desert',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/500,
+				/*Price*/300,
 				/*Camo*/[],
 				/*Type*/["Flash Hider/Silencer"]
 			];
