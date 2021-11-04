@@ -598,6 +598,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 0) then {
 	};
 	//--- CUP UNITS
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
+		WEST_AIR_HELI2 = "CUP_B_MH60L_DAP_4x_USN";
 		WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2SEP_TUSK_NATO";
 	};
 	//--- Load RHS Mod
@@ -709,7 +710,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 		WEST_VEHICLE_AA3 = "B_T_APC_Tracked_01_AA_F";
 		//--- Air
 		WEST_AIR_HELI1 = "B_Heli_Light_01_dynamicLoadout_F";
-		WEST_AIR_HELI2 = "B_Heli_Light_01_dynamicLoadout_F";
+		WEST_AIR_HELI2 = "CUP_B_MH60L_DAP_4x_USN";
 		WEST_AIR_HELI_ATTACK = "B_Heli_Attack_01_F";
 		WEST_AIR_AA = "";
 		WEST_AIR_CAS = "B_Plane_CAS_01_F";
