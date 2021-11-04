@@ -576,6 +576,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_RU_Medic_M_EMR',
+	/*MenuName*/['%1 (EMR)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
+	/*UpgradeLevel*/2,
+	/*Price*/175,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/['EMR'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Medic_VDV_M_EMR',
