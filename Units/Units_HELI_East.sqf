@@ -178,7 +178,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_Heli_Transport_04_repair_black_F',
 	/*MenuName*/'Large FOB Taru',
-	/*Location*/[CTI_REPAIR,[CTI_AIR_ROTARY,"default",4,"logistics",4]],
+	/*Location*/[CTI_REPAIR],
 	/*UpgradeLevel*/4,
 	/*Price*/110000,
 	/*BuildTime*/30,

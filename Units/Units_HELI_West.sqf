@@ -141,7 +141,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_Heli_Transport_03_unarmed_green_F',
 	/*MenuName*/'Large FOB Huron',
-	/*Location*/[CTI_REPAIR,[CTI_AIR_ROTARY,"default",4,"logistics",4]],
+	/*Location*/[CTI_REPAIR],
 	/*UpgradeLevel*/4,
 	/*Price*/110000,
 	/*BuildTime*/30,
