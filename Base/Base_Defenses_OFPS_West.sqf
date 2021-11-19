@@ -143,7 +143,7 @@ _u pushBack [
 	/*Price*/4000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ", "RepairTruck"],
+	/*Location*/["HQ", "RepairTruck", "Defense"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
 	/*MaxCount*/-1,
@@ -153,7 +153,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Static Titan AA (360°)',
 	/*Class*/"ofps_B_Van_static_AA_F",
 	/*Price*/4000,
