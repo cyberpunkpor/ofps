@@ -1170,22 +1170,6 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'H-Barrier (Block, Green)',
-	/*Class*/"Land_HBarrier_01_line_1_green_F",
-	/*Price*/10,
-	/*Placement*/[[90, 5],["CanAutoAlign", 1.7, 0]],
-	/*Tags*/["Walls Medium"],
-	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
-	/*Blacklist*/["*"],
-	/*Upgrade*/0,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
 	/*Name*/'H-Barrier (Small) (3 Block)',
 	/*Class*/"Land_HBarrier_3_F",
 	/*Price*/30,
