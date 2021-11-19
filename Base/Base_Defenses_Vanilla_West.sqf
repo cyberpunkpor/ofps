@@ -2111,7 +2111,7 @@ _u pushBack [
 	/*Price*/2000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ", "RepairTruck"],
+	/*Location*/["HQ", "RepairTruck", "Defense"],
 	/*Blacklist*/[],
 	/*Upgrade*/1,
 	/*MaxCount*/-1,
