@@ -600,7 +600,7 @@ _u = []; //Gear Classname
 					/*ClassName*/'optic_LRPS_tna_F',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 					/*UpgradeLevel*/3,
-					/*Price*/500,
+					/*Price*/70,
 					/*Camo*/[],
 					/*Type*/["Long"]
 				];
