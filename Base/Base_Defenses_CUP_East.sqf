@@ -535,7 +535,6 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
-
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'D-30 (Artillery)',

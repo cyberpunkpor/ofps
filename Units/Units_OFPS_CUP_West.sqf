@@ -119,24 +119,6 @@ _u = []; //--- Units
 
 
 
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_Frigate_NATO',
-	/*MenuName*/['%1 (Respawn)'],
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/3,
-	/*Price*/180000,
-	/*BuildTime*/30,
-	/*Distance*/80,
-	/*Camo*/['Attack Ship'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'service-medic',
-	/*Picture*/''
-];
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';
