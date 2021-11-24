@@ -8990,27 +8990,6 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Static"]
 			];
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_B_Tow_Gun_Bag',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
-				/*Price*/5000,
-				/*Camo*/[],
-				/*Type*/["Static"]
-			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_B_TOW_Tripod_Bag',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
-				/*Price*/1000,
-				/*Camo*/[],
-				/*Type*/["Static"]
-			];
 
   //Head gear
 

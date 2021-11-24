@@ -3262,7 +3262,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_AT_01_weapon_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/6,
-				/*Price*/10000,
+				/*Price*/3400,
 				/*Camo*/[],
 				/*Type*/["Static"]
 			];
@@ -3273,7 +3273,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_AA_01_weapon_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/5,
-				/*Price*/15000,
+				/*Price*/3400,
 				/*Camo*/[],
 				/*Type*/["Static"]
 			];
