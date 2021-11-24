@@ -4981,6 +4981,17 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
+				/*ClassName*/'CUP_H_RUS_6B47_SF_headset_black',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/0,
+				/*Camo*/[],
+				/*Type*/["Helmet"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
 				/*ClassName*/'CUP_H_RUS_TSH_4_Brown',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
