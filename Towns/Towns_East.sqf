@@ -433,7 +433,7 @@ if (CTI_OFPS_RHS_ADDON > 0) then {
 };
 //--- OFPS CUP Mod
 if (CTI_OFPS_CUP_ADDON > 0) then {
-	EAST_TOWN_D30 = "OFPS_I_D30_GND";
+
 };
 //--- SFP Mod
 if (CTI_SFP_ADDON > 0) then {
