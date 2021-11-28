@@ -4108,24 +4108,26 @@ _u pushBack [
 	/*Script*/'service-defensetruck',
 	/*Picture*/''
 ];
+
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP_HQ_CSAT',
-	/*MenuName*/'BMP HQ (CSAT)',
-	/*Location*/[CTI_HEAVY],
+	/*MenuName*/'Salvage BMP-2K',
+	/*Location*/[CTI_REPAIR],
 	/*UpgradeLevel*/0,
-	/*Price*/10000,
+	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Desert'],
+	/*Camo*/['Salvage'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'salvager',
 	/*Picture*/''
 ];
+
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
