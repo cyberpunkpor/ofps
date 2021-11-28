@@ -9030,6 +9030,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_412_Military_Radar_HIL',
+	/*MenuName*/['%1 (ECM)'],
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/8500,
+	/*BuildTime*/20,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/['Jammer Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'ecm',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Seafox_USV_USMC',
