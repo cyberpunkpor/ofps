@@ -122,7 +122,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_SupplyCrate_F',
-	/*MenuName*/['Ammo Supply Crate'],
+	/*MenuName*/['Gear Ammo Supply Crate'],
 	/*Location*/[CTI_AMMO,[CTI_DEPOT,"logistics",1],[CTI_FOB,"logistics",1],[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/0,
 	/*Price*/1500,

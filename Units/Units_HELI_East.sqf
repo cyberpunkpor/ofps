@@ -287,6 +287,24 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_Heli_Transport_04_ammo_black_F',
+	/*MenuName*/'Taru Gear Ammo',
+	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"logistics",3]],
+	/*UpgradeLevel*/0,
+	/*Price*/8500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-gear',
+	/*Picture*/''
+];
 
 //--------------------------------------------------------------------------------------------------------------
 

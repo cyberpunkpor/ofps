@@ -3617,6 +3617,82 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_M113A3_Reammo_USA',
+	/*MenuName*/'M113A3 Gear Ammo',
+	/*Location*/[CTI_AMMO,[CTI_DEPOT,"default",3],[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/4500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-gear',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_M113A3_Reammo_desert_USA',
+	/*MenuName*/'M113A3 Gear Ammo (Desert)',
+	/*Location*/[CTI_AMMO,[CTI_DEPOT,"default",3],[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/4500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-gear',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_nM1038_Ammo_DF_USA_DES',
+	/*MenuName*/'HMMWV Gear Ammo (Desert)',
+	/*Location*/[CTI_AMMO,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/2500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-gear',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_nM1038_Ammo_DF_USA_WDL',
+	/*MenuName*/'HMMWV Gear Ammo',
+	/*Location*/[CTI_AMMO,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/2500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-gear',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_HMMWV_Unarmed_NATO_T',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",0],[CTI_LARGE_FOB,"default",0]],

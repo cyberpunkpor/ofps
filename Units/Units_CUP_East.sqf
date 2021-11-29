@@ -5346,6 +5346,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_O_Ural_Reammo_RU',
+	/*MenuName*/'Ural Gear Ammo',
+	/*Location*/[CTI_AMMO,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/2000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-gear',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_V3S_Rearm_TKM',
 	/*MenuName*/'Praga Ammo',
 	/*Location*/[CTI_AMMO,[CTI_LARGE_FOB,"default",0]],
