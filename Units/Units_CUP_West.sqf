@@ -3258,10 +3258,10 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1030_USMC',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",0],[CTI_LARGE_FOB,"logistics",0]],
 	/*UpgradeLevel*/0,
 	/*Price*/180,
-	/*BuildTime*/10,
+	/*BuildTime*/5,
 	/*Distance*/1,
 	/*Camo*/['Other'],
 	/*Type*/[],
@@ -3372,7 +3372,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MTVR_USMC',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",0],[CTI_LARGE_FOB,"logistics",0]],
 	/*UpgradeLevel*/0,
 	/*Price*/800,
 	/*BuildTime*/30,
@@ -3391,7 +3391,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MTVR_USA',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",0],[CTI_LARGE_FOB,"logistics",0]],
 	/*UpgradeLevel*/0,
 	/*Price*/800,
 	/*BuildTime*/30,
@@ -6486,6 +6486,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_M113A1_USA',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/2800,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_M113A3_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
@@ -6494,6 +6513,25 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_M113A1_desert_USA',
+	/*MenuName*/'M113A1 (Desert)',
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/2800,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -6769,7 +6807,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV432_GB_GPMG',
 	/*MenuName*/'',
@@ -6788,7 +6826,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV432_Bulldog_GB_W',
 	/*MenuName*/'',
@@ -6826,7 +6864,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV432_Bulldog_GB_D',
 	/*MenuName*/'',
@@ -6907,7 +6945,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_AAV_USMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/7000,
 	/*BuildTime*/30,
 	/*Distance*/1,
