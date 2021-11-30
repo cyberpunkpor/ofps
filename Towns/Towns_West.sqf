@@ -1073,7 +1073,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 };
 
 //--------------------------------------------------------------------------------------------
-//--- CUP - US Army TOWN OCCUPATION
+//--- CUP - USMC (Arid) TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
 if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then { 
 	//--Load Vanilla
@@ -1147,17 +1147,17 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 		WEST_VEHICLE_LIGHT1 = "CUP_B_M1151_Deploy_USA";
 		WEST_VEHICLE_LIGHT2 = "CUP_B_nM1025_SOV_M2_USMC_DES";
 		WEST_VEHICLE_LIGHT3 = "CUP_B_RG31E_M2_OD_USA";
-		WEST_VEHICLE_LIGHT4 = "CUP_B_M1126_ICV_MK19_Woodland";
-		WEST_VEHICLE_LIGHT5 = "CUP_B_M1165_GMV_WDL_USA";
-		WEST_VEHICLE_LIGHT6 = "CUP_B_M1167_WDL_USA";
-		WEST_VEHICLE_LIGHT7 = "CUP_B_LAV25M240_USMC";
+		WEST_VEHICLE_LIGHT4 = "CUP_B_M1126_ICV_MK19_Desert";
+		WEST_VEHICLE_LIGHT5 = "CUP_B_M1165_GMV_USA";
+		WEST_VEHICLE_LIGHT6 = "CUP_B_M1167_DSRT_USMC";
+		WEST_VEHICLE_LIGHT7 = "CUP_B_LAV25M240_desert_USMC";
 		//--- APCs
-		WEST_VEHICLE_APC1 = "CUP_B_M2Bradley_USA_W";
-		WEST_VEHICLE_APC2 = "CUP_B_M2A3Bradley_USA_W";
-		WEST_VEHICLE_APC3 = "CUP_B_M1128_MGS_Woodland_Slat";
+		WEST_VEHICLE_APC1 = "CUP_B_M2Bradley_USA_D";
+		WEST_VEHICLE_APC2 = "CUP_B_M2A3Bradley_USA_D";
+		WEST_VEHICLE_APC3 = "CUP_B_M1128_MGS_Desert_Slat";
 		//--- Tanks
 		WEST_VEHICLE_ARMORED1 = "CUP_B_M60A3_TTS_USMC";	
-		WEST_VEHICLE_ARMORED2 = "CUP_B_M1A1SA_Woodland_US_Army";
+		WEST_VEHICLE_ARMORED2 = "CUP_B_M1A1FEP_Desert_USMC";
 		WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2C_TUSK_II_Woodland_US_Army";
 		//--- AA Vehicles
 		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_USA";
@@ -2342,6 +2342,195 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then {
 
 	};
 };
+//--------------------------------------------------------------------------------------------
+//--- CUP - USMC (Woodland) TOWN OCCUPATION
+//--------------------------------------------------------------------------------------------
+if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 8) then { 
+	//--Load Vanilla
+	if (CTI_VANILLA_ADDON > 0) then {
+		//-- Only add vanilla faction specific overrides as neeeded here
+	};
+	//--Load Heli Mod
+	if (CTI_HELI_ADDON > 0) then {
+
+	};
+	//--- Load Marksmen Mod
+	if (CTI_MARKSMEN_ADDON > 0) then {
+
+	};
+	//--- Load APEX Mod
+	if (CTI_APEX_ADDON > 0) then {
+
+	};
+	//--- Load JETS Mod
+	if (CTI_JETS_ADDON > 0) then {
+
+	};
+	//--- Load Laws Of War Mod
+	if (CTI_LAWSOFWAR_ADDON > 0) then {
+
+	};
+	//--- Load TANKS Mod
+	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};	
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
+	//--- Load CUP Mod
+	if (CTI_CUP_WEAPONS_ADDON > 0) then {
+
+	};
+	//--- CUP UNITS
+	if (CTI_CUP_VEHICLES_ADDON > 0) then {
+		//--- Infantry
+		WEST_SOLDIER = "CUP_B_USMC_Soldier";
+		WEST_SOLDIER_AA = "CUP_B_USMC_Soldier_AA";
+		WEST_SOLDIER_AR = "CUP_B_USMC_Soldier_AR";
+		WEST_SOLDIER_AT = "CUP_B_USMC_Soldier_AT";
+		WEST_SOLDIER_CREW = "CUP_B_USMC_Crew";
+		WEST_SOLDIER_LAT = "CUP_B_USMC_Soldier_LAT";
+		WEST_SOLDIER_HAT = "CUP_B_USMC_Soldier_HAT";
+		WEST_SOLDIER_ENGINEER = "CUP_B_USMC_Soldier_Engineer";
+		WEST_SOLDIER_EXP = "CUP_B_FR_Saboteur";
+		WEST_SOLDIER_GL = "CUP_B_USMC_Soldier_GL";
+		WEST_SOLDIER_MEDIC = "CUP_B_USMC_Medic";
+		WEST_SOLDIER_MG = "CUP_B_USMC_Soldier_MG";
+		WEST_SOLDIER_PILOT = "CUP_B_USMC_Pilot";
+		WEST_SOLDIER_SNIPER = "CUP_B_USMC_Sniper_M107";
+		WEST_SOLDIER_MARKSMAN = "CUP_B_USMC_Soldier_Marksman";
+		WEST_SOLDIER_TEAMLEADER = "CUP_B_USMC_Soldier_TL";
+		WEST_SOLDIER_SQUADLEADER = "CUP_B_USMC_Soldier_SL";
+		//--- Naval Units
+		//WEST_SOLDIER_NAVAL_INFANTRY = "B_diver_F";
+		//WEST_SOLDIER_NAVAL_SQUADLEADER = "B_diver_TL_F";
+		//--- Light Vehicles
+		WEST_VEHICLE_LIGHT1 = "CUP_B_M1151_Deploy_USA";
+		WEST_VEHICLE_LIGHT2 = "CUP_B_nM1025_SOV_M2_USMC_WDL";
+		WEST_VEHICLE_LIGHT3 = "CUP_B_RG31E_M2_OD_USA";
+		WEST_VEHICLE_LIGHT4 = "CUP_B_M1126_ICV_MK19_Woodland";
+		WEST_VEHICLE_LIGHT5 = "CUP_B_M1165_GMV_WDL_USA";
+		WEST_VEHICLE_LIGHT6 = "CUP_B_M1167_WDL_USA";
+		WEST_VEHICLE_LIGHT7 = "CUP_B_LAV25M240_USMC";
+		//--- APCs
+		WEST_VEHICLE_APC1 = "CUP_B_M2Bradley_USA_W";
+		WEST_VEHICLE_APC2 = "CUP_B_M2A3Bradley_USA_W";
+		WEST_VEHICLE_APC3 = "CUP_B_M1128_MGS_Woodland_Slat";
+		//--- Tanks
+		WEST_VEHICLE_ARMORED1 = "CUP_B_M60A3_TTS_USMC";	
+		WEST_VEHICLE_ARMORED2 = "CUP_B_M1A1SA_Woodland_US_Army";
+		WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2C_TUSK_II_Woodland_US_Army";
+		//--- AA Vehicles
+		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_USMC";
+		WEST_VEHICLE_AA2 = "CUP_B_M6LineBacker_USA_W";
+		WEST_VEHICLE_AA3 = "CUP_B_M163_Vulcan_USA";
+		//--- Air
+		WEST_AIR_HELI1 = "CUP_B_AH6M_USA";
+		WEST_AIR_HELI2 = "CUP_B_MH60L_DAP_4x_US";
+		//WEST_AIR_HELI_ATTACK = "";
+		WEST_AIR_AA = "CUP_B_F35B_AA_USMC";
+		WEST_AIR_CAS = "CUP_B_F35B_LGB_USMC";
+		//--- Boats
+		//WEST_NAVAL_ASSAULT_BOAT1 = "B_Boat_Armed_01_minigun_F";
+		//WEST_NAVAL_ASSAULT_BOAT2 = "B_Boat_Armed_01_minigun_F";
+		//WEST_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_CB90_B";
+		//WEST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_B";
+		//WEST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_MEKO_TN";
+
+		//--- Town Statics
+		WEST_TOWN_AT = "CUP_B_Tow2_TriPod_US";
+		WEST_TOWN_MORTAR = "B_Mortar_01_F";
+		WEST_TOWN_AGS = "CUP_B_MK19_TriPod_US";
+		WEST_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_B_MK19_TriPod_US", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	};
+	//--- Load RHS Mod
+	if (CTI_RHS_AFRF_ADDON > 0) then {
+
+	};
+	if (CTI_RHS_USAF_ADDON > 0) then {
+
+	};
+	//--- Load RHS Loadout Ammo
+	if (CTI_RHS_AFRF_ADDON > 0) then {
+
+	};
+	//--- OFPS Units Mod
+	if (CTI_OFPS_UNITS_ADDON > 0) then {
+
+	};
+	//--- OFPS RHS Mod
+	if (CTI_OFPS_RHS_ADDON > 0) then {
+
+	};
+	//--- OFPS CUP Mod
+	if (CTI_OFPS_CUP_ADDON > 0) then {
+
+	};
+	//--- SFP Mod
+	if (CTI_SFP_ADDON > 0) then {
+
+	};
+	//--- OFPS SFP Mod
+	if (CTI_OFPS_SFP_ADDON > 0) then {
+
+	};
+	//--- 2035 Russia
+	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
+
+	};
+	//--- HAFM UNITS
+	if (CTI_HAFM_ADDON > 0) then {
+
+	};
+	//--- HAFM SUBS UNITS
+	if (CTI_HAFM_SUBS_ADDON > 0) then {
+
+	};
+	//--- OFPS HAFM UNITS
+	if (CTI_OFPS_HAFM_ADDON > 0) then {
+
+	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
+};
+
 //--------------------------------------------------------------------------------------------
 //--- Town Teams Templates
 //--------------------------------------------------------------------------------------------

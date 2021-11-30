@@ -974,7 +974,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 };
 
 //--------------------------------------------------------------------------------------------
-//--- CUP - Russians TOWN OCCUPATION
+//--- CUP - Russians (Woodland) TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
 if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then { 
 	//--Load Vanilla
@@ -1020,32 +1020,32 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 	//--- CUP UNITS
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 		//--- Infantry
-		EAST_SOLDIER = "CUP_O_RU_Soldier_M_EMR";
-		EAST_SOLDIER_AA = "CUP_O_RU_Soldier_AA_M_EMR";
-		EAST_SOLDIER_AR = "CUP_O_RU_Soldier_AR_M_EMR";
-		EAST_SOLDIER_AT = "CUP_O_RU_Soldier_AT_M_EMR";
-		EAST_SOLDIER_CREW = "CUP_O_RU_Crew_M_EMR";
-		EAST_SOLDIER_LAT = "CUP_O_RU_Soldier_LAT_M_EMR";
-		EAST_SOLDIER_HAT = "CUP_O_RU_Soldier_HAT_M_EMR";
-		EAST_SOLDIER_ENGINEER = "CUP_O_RU_Engineer_M_EMR";
-		EAST_SOLDIER_EXP = "CUP_O_RU_Explosive_Specialist_M_EMR";
-		EAST_SOLDIER_GL = "CUP_O_RU_Soldier_GL_M_EMR";
-		EAST_SOLDIER_MEDIC = "CUP_O_RU_Medic_M_EMR";
-		EAST_SOLDIER_MG = "CUP_O_RU_Soldier_MG_M_EMR";
+		EAST_SOLDIER = "CUP_O_RU_Soldier_M_EMR_v2";
+		EAST_SOLDIER_AA = "CUP_O_RU_Soldier_AA_M_EMR_v2";
+		EAST_SOLDIER_AR = "CUP_O_RU_Soldier_AR_M_EMR_v2";
+		EAST_SOLDIER_AT = "CUP_O_RU_Soldier_AT_M_EMR_v2";
+		EAST_SOLDIER_CREW = "CUP_O_RU_Crew_M_EMR_v2";
+		EAST_SOLDIER_LAT = "CUP_O_RU_Soldier_LAT_M_EMR_v2";
+		EAST_SOLDIER_HAT = "CUP_O_RU_Soldier_HAT_M_EMR_v2";
+		EAST_SOLDIER_ENGINEER = "CUP_O_RU_Engineer_M_EMR_v2";
+		EAST_SOLDIER_EXP = "CUP_O_RU_Soldier_Exp_M_EMR_v2";
+		EAST_SOLDIER_GL = "CUP_O_RU_Soldier_GL_M_EMR_v2";
+		EAST_SOLDIER_MEDIC = "CUP_O_RU_Medic_M_EMR_v2";
+		EAST_SOLDIER_MG = "CUP_O_RU_Soldier_MG_M_EMR_v2";
 		EAST_SOLDIER_PILOT = "CUP_O_RU_Pilot";
 		EAST_SOLDIER_SNIPER = "CUP_O_RU_Sniper_KSVK_M_EMR";
-		EAST_SOLDIER_MARKSMAN = "CUP_O_RU_Soldier_Marksman_M_EMR";
-		EAST_SOLDIER_TEAMLEADER = "CUP_O_RU_Soldier_TL_M_EMR";
-		EAST_SOLDIER_SQUADLEADER = "CUP_O_RU_Soldier_SL_M_EMR";
+		EAST_SOLDIER_MARKSMAN = "CUP_O_RU_Soldier_Marksman_M_EMR_v2";
+		EAST_SOLDIER_TEAMLEADER = "CUP_O_RU_Soldier_TL_M_EMR_v2";
+		EAST_SOLDIER_SQUADLEADER = "CUP_O_RU_Soldier_SL_M_EMR_v2";
 		//--- Naval Infantry
 		EAST_SOLDIER_NAVAL_INFANTRY = "O_diver_F";
 		EAST_SOLDIER_NAVAL_SQUADLEADER = "O_diver_TL_F";
 		//--- Light Vehicles
 		EAST_VEHICLE_LIGHT1 = "CUP_O_UAZ_MG_RU";
 		EAST_VEHICLE_LIGHT2 = "CUP_O_UAZ_AGS30_RU";
-		EAST_VEHICLE_LIGHT3 = "CUP_O_BRDM2_ATGM_RU";
+		EAST_VEHICLE_LIGHT3 = "CUP_O_BRDM2_ATGM_RUS";
 		EAST_VEHICLE_LIGHT4 = "CUP_O_GAZ_Vodnik_AGS_RU";
-		EAST_VEHICLE_LIGHT5 = "CUP_O_BRDM2_RU";
+		EAST_VEHICLE_LIGHT5 = "CUP_O_BRDM2_RUS";
 		EAST_VEHICLE_LIGHT6 = "CUP_O_BTR80A_CAMO_RU";
 		EAST_VEHICLE_LIGHT7 = "CUP_O_BTR90_RU";
 		//--- APCs
@@ -1086,7 +1086,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 		_t_composition = [];
 		
 		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
-		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object enableSimulationGlobal false;
@@ -2315,6 +2315,185 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then {
 	if (CTI_OFPS_SFP_ADDON > 0) then {
 
 	};	
+	//--- 2035 Russia
+	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
+
+	};
+	//--- Unsung
+	if (CTI_UNSUNG_ADDON > 0 ) then {
+
+	};
+	//--- IFA3
+	if (CTI_IFA3_ADDON > 0 ) then {
+
+	};
+};
+
+//--------------------------------------------------------------------------------------------
+//--- CUP - Russians (Arid) TOWN OCCUPATION
+//--------------------------------------------------------------------------------------------
+if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 9) then { 
+	//--Load Vanilla
+	if (CTI_VANILLA_ADDON > 0) then {
+
+	};
+	//--Load Heli Mod
+	if (CTI_HELI_ADDON > 0) then {
+
+	};
+	//--- Load Marksmen Mod
+	if (CTI_MARKSMEN_ADDON > 0) then {
+
+	};
+	//--- Load APEX Mod
+	if (CTI_APEX_ADDON > 0) then {
+
+	};
+	//--- Load JETS Mod
+	if (CTI_JETS_ADDON > 0) then {
+
+	};
+	//--- Load Laws Of War Mod
+	if (CTI_LAWSOFWAR_ADDON > 0) then {
+
+	};
+	//--- Load TANKS Mod
+	if (CTI_TANKS_ADDON > 0) then {
+
+	};
+	//--- Load GLOBAL MOBILIZATION Mod
+	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
+
+	};
+	//--- Load CONTACT Mod
+	if (CTI_CONTACT_ADDON > 0) then {
+
+	};
+	//--- PRAIRIE_FIRE UNITS
+	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
+
+	};
+	//--- CUP UNITS
+	if (CTI_CUP_VEHICLES_ADDON > 0) then {
+		//--- Infantry
+		EAST_SOLDIER = "CUP_O_RU_Soldier_M_BeigeDigital";
+		EAST_SOLDIER_AA = "CUP_O_RU_Soldier_AA_M_BeigeDigital";
+		EAST_SOLDIER_AR = "CUP_O_RU_Soldier_AR_M_BeigeDigital";
+		EAST_SOLDIER_AT = "CUP_O_RU_Soldier_AT_M_BeigeDigital";
+		EAST_SOLDIER_CREW = "CUP_O_RU_Crew_M_BeigeDigital";
+		EAST_SOLDIER_LAT = "CUP_O_RU_Soldier_LAT_M_BeigeDigital";
+		EAST_SOLDIER_HAT = "CUP_O_RU_Soldier_HAT_M_BeigeDigital";
+		EAST_SOLDIER_ENGINEER = "CUP_O_RU_Engineer_M_BeigeDigital";
+		EAST_SOLDIER_EXP = "CUP_O_RU_Soldier_Exp_M_BeigeDigital";
+		EAST_SOLDIER_GL = "CUP_O_RU_Soldier_GL_M_BeigeDigital";
+		EAST_SOLDIER_MEDIC = "CUP_O_RU_Medic_M_BeigeDigital";
+		EAST_SOLDIER_MG = "CUP_O_RU_Soldier_MG_M_BeigeDigital";
+		EAST_SOLDIER_PILOT = "CUP_O_RU_Pilot";
+		EAST_SOLDIER_SNIPER = "CUP_O_RU_Sniper_KSVK_M_EMR";
+		EAST_SOLDIER_MARKSMAN = "CUP_O_RU_Soldier_Marksman_M_BeigeDigital";
+		EAST_SOLDIER_TEAMLEADER = "CUP_O_RU_Soldier_TL_M_BeigeDigital";
+		EAST_SOLDIER_SQUADLEADER = "CUP_O_RU_Soldier_SL_M_BeigeDigital";
+		//--- Naval Infantry
+		EAST_SOLDIER_NAVAL_INFANTRY = "O_diver_F";
+		EAST_SOLDIER_NAVAL_SQUADLEADER = "O_diver_TL_F";
+		//--- Light Vehicles
+		EAST_VEHICLE_LIGHT1 = "CUP_O_UAZ_MG_RU";
+		EAST_VEHICLE_LIGHT2 = "CUP_O_UAZ_AGS30_RU";
+		EAST_VEHICLE_LIGHT3 = "CUP_O_BRDM2_ATGM_RUS";
+		EAST_VEHICLE_LIGHT4 = "CUP_O_GAZ_Vodnik_AGS_RU";
+		EAST_VEHICLE_LIGHT5 = "CUP_O_BRDM2_RUS";
+		EAST_VEHICLE_LIGHT6 = "CUP_O_BTR80A_DESERT_RU";
+		EAST_VEHICLE_LIGHT7 = "CUP_O_BTR90_RU";
+		//--- APCs
+		EAST_VEHICLE_APC1 = "CUP_O_BMP2_RU";
+		EAST_VEHICLE_APC2 = "CUP_O_BMP2_RU";
+		EAST_VEHICLE_APC3 = "CUP_O_BMP3_RU";
+		//--- Tanks
+		EAST_VEHICLE_ARMORED1 = "CUP_O_T72_RU";	
+		EAST_VEHICLE_ARMORED2 = "CUP_O_T72_RU";
+		EAST_VEHICLE_ARMORED3 = "CUP_O_T90_RU";
+		//--- AA Vehicles
+		EAST_VEHICLE_AA1 = "CUP_O_Ural_ZU23_RU";
+		EAST_VEHICLE_AA2 = "CUP_O_2S6_RU";
+		EAST_VEHICLE_AA3 = "CUP_O_2S6M_RU";
+		//--- Air
+		EAST_AIR_HELI1 = "CUP_O_UH1H_armed_SLA";
+		EAST_AIR_HELI2 = "CUP_O_Mi8_RU";
+		//EAST_AIR_HELI_ATTACK = "";
+		//EAST_AIR_AA = "OFPS_SU25";
+		EAST_AIR_CAS = "CUP_O_SU34_AGM_CSAT";
+		//--- Boats
+		EAST_NAVAL_ASSAULT_BOAT1 = "O_Boat_Armed_01_hmg_F";
+		EAST_NAVAL_ASSAULT_BOAT2 = "O_Boat_Armed_01_hmg_F";
+		EAST_NAVAL_MEDIUM_ASSAULT_BOAT = "O_Boat_Armed_01_hmg_F";
+		EAST_NAVAL_LARGE_ASSAULT_BOAT = "O_Boat_Armed_01_hmg_F";
+		EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "O_Boat_Armed_01_hmg_F";
+
+		//--- Town Statics
+		EAST_TOWN_AA = "CUP_O_Igla_AA_pod_RU";
+		EAST_TOWN_AT = "CUP_O_Kornet_RU";
+		EAST_TOWN_MORTAR = "O_Mortar_01_F";
+		EAST_TOWN_AGS = "CUP_O_AGS_RU";
+		EAST_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_O_AGS_RU", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	};
+	//--- Load CUP Mod
+	if (CTI_CUP_WEAPONS_ADDON > 0) then {
+
+	};
+	//--- Load RHS Mod
+	if (CTI_RHS_AFRF_ADDON > 0) then {
+
+	};
+	if (CTI_RHS_USAF_ADDON > 0) then {
+
+	};
+	//--- Load RHS Loadout Ammo
+	if (CTI_RHS_AFRF_ADDON > 0) then {
+
+	};
+	//--- OFPS Units Mod
+	if (CTI_OFPS_UNITS_ADDON > 0) then {
+
+	};
+	//--- OFPS RHS Mod
+	if (CTI_OFPS_RHS_ADDON > 0) then {
+
+	};
+	//--- OFPS CUP Mod
+	if (CTI_OFPS_CUP_ADDON > 0) then {
+		//--- Air
+		EAST_AIR_AA = "OFPS_SU25";
+	};
+	//--- SFP Mod
+	if (CTI_SFP_ADDON > 0) then {
+
+	};
+	//--- OFPS SFP Mod
+	if (CTI_OFPS_SFP_ADDON > 0) then {
+
+	};
 	//--- 2035 Russia
 	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
 

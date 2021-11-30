@@ -159,22 +159,22 @@ switch (CTI_FACTION_EAST) do {
 			]]
 		]];
 	};
-	case 2: { //Russia CUP (Arid)
+	case 2: { //Russia CUP (Woodland)
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BTR90_HQ_RU"];
 		//Set Infantry
 		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["CUP_D_Male01_RU", "CUP_D_Male02_RU", "CUP_D_Male03_RU", "CUP_D_Male04_RU", "Male01RUS", "Male02RUS", "Male03RUS"]];
-		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_O_RU_Officer"];
-		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_O_RU_Soldier"];
-		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier"];
-		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_O_RU_Soldier_M_EMR"];
-		missionNamespace setVariable [format["CTI_%1_Soldier_low", _side], "CUP_O_RU_Soldier_M_EMR"];
-		missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_O_RU_Crew_M_EMR"];
-		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_O_RU_Crew_M_EMR"];
+		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_O_RU_Officer_M_EMR_v2"];
+		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_O_RU_Soldier_M_EMR_v2"];
+		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier_M_EMR_v2"];
+		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_O_RU_Soldier_M_EMR_v2"];
+		missionNamespace setVariable [format["CTI_%1_Soldier_low", _side], "CUP_O_RU_Soldier_M_EMR_v2"];
+		missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_O_RU_Crew_M_EMR_v2"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_O_RU_Crew_M_EMR_v2"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_O_RU_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_O_RU_Pilot"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_O_RU_Pilot"];
-		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_O_RU_Soldier_M_EMR"];
+		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_O_RU_Soldier_M_EMR_v2"];
 		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "O_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
@@ -358,10 +358,13 @@ switch (CTI_FACTION_EAST) do {
 	case 5: { //Unsung
 
 	};
-	case 6: { //IFA3
+	case 6: { //--- 2035 Russians (snow)
 
 	};
-	case 7: { //Spetsnaz Livonia Contact (woodland)
+	case 7: { //IFA3
+
+	};
+	case 8: { //Spetsnaz Livonia Contact (woodland)
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "O_T_APC_Wheeled_02_rcws_ghex_F"];
 		//Set Infantry
@@ -425,6 +428,78 @@ switch (CTI_FACTION_EAST) do {
 				["30rnd_762x39_AK12_Lush_Mag_F", 50], 
 				["CUP_launch_RPG18", 20]
 			]]
+		]];
+	};
+	case 9: { //Russia CUP (Arid)
+		//Set MHQ
+		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BTR90_HQ_RU"];
+		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["CUP_D_Male01_RU", "CUP_D_Male02_RU", "CUP_D_Male03_RU", "CUP_D_Male04_RU", "Male01RUS", "Male02RUS", "Male03RUS"]];
+		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_O_RU_Officer_M_BeigeDigital"];
+		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_O_RU_Soldier_M_BeigeDigital"];
+		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier_M_BeigeDigital"];
+		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_O_RU_Soldier_M_BeigeDigital"];
+		missionNamespace setVariable [format["CTI_%1_Soldier_low", _side], "CUP_O_RU_Soldier_M_BeigeDigital"];
+		missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_O_RU_Crew_M_BeigeDigital"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_O_RU_Crew_M_BeigeDigital"];
+		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_O_RU_Pilot"];
+		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_O_RU_Pilot"];
+		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_O_RU_Pilot"];
+		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_O_RU_Soldier_M_BeigeDigital"];
+		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "O_UAV_AI"];
+		// Set crewmen backpack (To hold a repair kit)
+		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_coyote_F"];
+		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
+		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
+		[["CUP_smg_vityaz_vfg",["","acc_flashlight","cup_optic_kobra",""],["CUP_30Rnd_9x19_Vityaz"]],["CUP_launch_RPG18",["","","",""],[""]],["cup_hgun_pmm",["","","",""],["cup_12rnd_9x18_pmm_m"]]],[["CUP_U_O_RUS_Ratnik_BeigeDigital",["firstaidkit","firstaidkit","CUP_HandGrenade_RGO","CUP_HandGrenade_RGO"]],["CUP_V_RUS_6B45_3_BeigeDigital",["CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz","CUP_30Rnd_9x19_Vityaz"]],["CUP_B_RPGPack_Khaki",["CUP_launch_RPG18","firstaidkit","firstaidkit"]]],["CUP_H_RUS_6B27_cover_BeigeDigital_headset","g_combat"],[["",["binocular",""]],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
+		//Set starting vehicles
+		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
+			["CUP_O_GAZ_Vodnik_MedEvac_RU", [
+				["CUP_launch_RPG18", 20],
+				["CUP_HandGrenade_RGD5", 10],
+				["Toolkit", 1],
+				["firstaidkit", 20],
+				["CUP_HandGrenade_RGO", 10],
+				["CUP_arifle_AK74M", 10],
+				["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M", 20],
+				["CUP_30Rnd_9x19_Vityaz", 20],
+				["CUP_optic_Kobra", 10],
+				["cup_30rnd_545x39_ak_m", 20]
+			]],
+			["CUP_O_UAZ_SPG9_RU", [
+				["Toolkit", 1],
+				["firstaidkit", 10],
+				["CUP_HandGrenade_RGO", 10],
+				["CUP_launch_RPG18", 10], 
+				["CUP_HandGrenade_RGD5", 10]
+			]],
+			["CUP_O_GAZ_Vodnik_AGS_RU", [
+				["CUP_launch_RPG18", 20],
+				["Toolkit", 1],
+				["CUP_arifle_AK74M", 10],
+				["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M", 20],
+				["CUP_lmg_PKM", 2],
+				["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", 6],
+				["CUP_HandGrenade_RGD5", 10],
+				["CUP_optic_Kobra", 10],
+				["cup_30rnd_545x39_ak_m", 20]
+			]],
+			["CUP_O_BTR60_RU", [
+				["CUP_launch_RPG18", 20], 
+				["Toolkit", 1],
+				["CUP_arifle_AK74M", 10],
+				["CUP_sgun_Saiga12K", 10],
+				["CUP_8Rnd_B_Saiga12_74Slug_M", 10],
+				["CUP_8Rnd_B_Saiga12_74Pellets_M", 10],
+				["CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M", 20],
+				["CUP_HandGrenade_RGD5", 10],
+				["CUP_HandGrenade_RGO", 10],
+				["CUP_optic_Kobra", 20],
+				["CUP_lmg_PKM", 5],
+				["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", 15], 
+				["cup_30rnd_545x39_ak_m", 20]
+			]]
+			//,	["O_Heli_Light_02_unarmed_F", []]
 		]];
 	};
 };
