@@ -314,17 +314,6 @@ _u = []; //Gear Classname
 			/*Type*/["Sniper"]
 		];
 
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'srifle_GM6_camo_F',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/6,
-			/*Price*/3000,
-			/*Camo*/[],
-			/*Type*/["Sniper"]
-		];
-
   //Grenade Launcher
 
 //----ROCKET LAUNCHER MENU----
