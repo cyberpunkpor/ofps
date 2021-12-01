@@ -2649,7 +2649,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'V_BandollierB_khk',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/0,
-			/*Price*/200,
+			/*Price*/00,
 			/*Camo*/[],
 			/*Type*/["Vest"]
 		];
@@ -2660,7 +2660,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'V_BandollierB_oli',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/0,
-			/*Price*/200,
+			/*Price*/0,
 			/*Camo*/[],
 			/*Type*/["Vest"]
 		];

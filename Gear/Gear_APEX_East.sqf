@@ -1075,7 +1075,7 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'V_BandollierB_ghex_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/3,
+			/*UpgradeLevel*/0,
 			/*Price*/0,
 			/*Camo*/[],
 			/*Type*/["Vest"]
@@ -1086,8 +1086,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'V_HarnessOGL_ghex_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/3,
-			/*Price*/400,
+			/*UpgradeLevel*/1,
+			/*Price*/0,
 			/*Camo*/[],
 			/*Type*/["Vest"]
 		];
@@ -1097,8 +1097,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'V_HarnessO_ghex_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/0,
-			/*Price*/400,
+			/*UpgradeLevel*/1,
+			/*Price*/0,
 			/*Camo*/[],
 			/*Type*/["Vest"]
 		];
