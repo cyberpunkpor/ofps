@@ -1809,7 +1809,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Bo_GBU12_LGB',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/7000,
+	/*Price*/3500,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
@@ -1821,7 +1821,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Mk_82',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/2500,
+	/*Price*/1500,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
@@ -1833,7 +1833,7 @@ _u pushBack [
 	/*ClassName*/'CUP_FAB250',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/2500,
+	/*Price*/1500,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
@@ -1845,7 +1845,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Bo_KAB250_LGB',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/7000,
+	/*Price*/3500,
 	/*RearmTime*/20,
 	/*Filters*/[]
 ];
