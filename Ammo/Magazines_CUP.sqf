@@ -5280,6 +5280,18 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
+	/*ClassName*/'CUP_PylonPod_2Rnd_AGM114L_Hellfire_II_Plane_M',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/0,
+	/*Price*/1,
+	/*RearmTime*/1,
+	/*Filters*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Air',
 	/*ClassName*/'CUP_PylonPod_2Rnd_AGM114L_Hellfire_II_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
