@@ -1039,6 +1039,17 @@ _u = []; //Gear Classname
 			];
 
 			_u pushBack [
+				/*Enabled*/false,
+				/*Name*/'',
+				/*ClassName*/'CUP_launch_RPG18_Loaded',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/100,
+				/*Camo*/[],
+				/*Type*/["Dumbfire"]
+			];
+			
+			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_launch_RPG18',

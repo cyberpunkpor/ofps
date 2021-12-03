@@ -97,7 +97,7 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'SMG_02_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/1,
+			/*UpgradeLevel*/0,
 			/*Price*/0,
 			/*Camo*/[],
 			/*Type*/["SMG"]
@@ -2552,7 +2552,7 @@ _u = []; //Gear Classname
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'O_Mortar_01_weapon_F',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"gear"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/6,
 				/*Price*/15000,
 				/*Camo*/[],
