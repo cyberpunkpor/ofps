@@ -2274,7 +2274,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_FieldPack_blk',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/25,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -2285,7 +2285,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_FieldPack_oli',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/25,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -2296,7 +2296,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_FieldPack_khk',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/25,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -2307,7 +2307,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_FieldPack_cbr',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/25,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -2318,7 +2318,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_FieldPack_ocamo',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/25,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -2329,7 +2329,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_FieldPack_oucamo',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/25,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
