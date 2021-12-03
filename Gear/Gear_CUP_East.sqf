@@ -1051,7 +1051,7 @@ _u = []; //Gear Classname
 			
 			_u pushBack [
 				/*Enabled*/true,
-				/*Name*/'',
+				/*Name*/'RPG-18',
 				/*ClassName*/'CUP_launch_RPG18',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
