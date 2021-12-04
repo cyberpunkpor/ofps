@@ -1284,7 +1284,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Special Forces)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/4,
-	/*Price*/700,
+	/*Price*/650,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['MTP'],
