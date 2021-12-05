@@ -577,7 +577,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Soldier_HAT_VDV_EMR_v2',
+	/*ClassName*/'CUP_O_RU_Soldier_HAT_M_EMR_v2',
 	/*MenuName*/['Russian Airborne Soldier (Metis)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",4],[CTI_LARGE_FOB,"default",4]],
 	/*UpgradeLevel*/4,
@@ -596,7 +596,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Engineer_M_BeigeDigital',
+	/*ClassName*/'CUP_O_RU_Soldier_Engineer_M_BeigeDigital',
 	/*MenuName*/['%1 (Desert)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1]],
 	/*UpgradeLevel*/2,
@@ -615,7 +615,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Engineer_M_EMR_v2',
+	/*ClassName*/'CUP_O_RU_Soldier_Engineer_M_EMR_v2',
 	/*MenuName*/['%1 (EMR)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1]],
 	/*UpgradeLevel*/2,
@@ -710,7 +710,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Medic_M_BeigeDigital',
+	/*ClassName*/'CUP_O_RU_Soldier_Medic_M_BeigeDigital',
 	/*MenuName*/['%1 (Desert)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/2,
@@ -729,7 +729,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Medic_M_EMR_v2',
+	/*ClassName*/'CUP_O_RU_Soldier_Medic_M_EMR_v2',
 	/*MenuName*/['%1 (EMR)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
 	/*UpgradeLevel*/2,
@@ -2211,7 +2211,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Crew_M_BeigeDigital',
+	/*ClassName*/'CUP_O_RU_Soldier_Crew_M_BeigeDigital',
 	/*MenuName*/['%1 (Desert)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
 	/*UpgradeLevel*/2,
@@ -2230,7 +2230,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_O_RU_Crew_M_EMR_v2',
+	/*ClassName*/'CUP_O_RU_Soldier_Crew_M_EMR_v2',
 	/*MenuName*/['%1 (EMR)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
 	/*UpgradeLevel*/2,

@@ -169,8 +169,8 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier_M_EMR_v2"];
 		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_O_RU_Soldier_M_EMR_v2"];
 		missionNamespace setVariable [format["CTI_%1_Soldier_low", _side], "CUP_O_RU_Soldier_M_EMR_v2"];
-		missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_O_RU_Crew_M_EMR_v2"];
-		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_O_RU_Crew_M_EMR_v2"];
+		missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_O_RU_Soldier_Crew_M_EMR_v2"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_O_RU_Soldier_Crew_M_EMR_v2"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_O_RU_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_O_RU_Pilot"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_O_RU_Pilot"];
@@ -440,8 +440,8 @@ switch (CTI_FACTION_EAST) do {
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier_M_BeigeDigital"];
 		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_O_RU_Soldier_M_BeigeDigital"];
 		missionNamespace setVariable [format["CTI_%1_Soldier_low", _side], "CUP_O_RU_Soldier_M_BeigeDigital"];
-		missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_O_RU_Crew_M_BeigeDigital"];
-		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_O_RU_Crew_M_BeigeDigital"];
+		missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_O_RU_Soldier_Crew_M_BeigeDigital"];
+		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_O_RU_Soldier_Crew_M_BeigeDigital"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_O_RU_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_O_RU_Pilot"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_O_RU_Pilot"];
