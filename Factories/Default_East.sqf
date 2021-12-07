@@ -8,6 +8,7 @@ switch (CTI_FACTION_EAST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "O_APC_Wheeled_02_rcws_F"];
 		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["Male01PER", "Male02PER", "Male03PER"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "O_officer_F"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "O_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "O_diver_F"];
@@ -86,6 +87,7 @@ switch (CTI_FACTION_EAST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "O_T_APC_Wheeled_02_rcws_ghex_F"];
 		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["Male01CHI", "Male02CHI", "Male03CHI"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "O_T_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "O_T_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "O_T_Diver_F"];
