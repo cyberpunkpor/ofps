@@ -730,7 +730,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_Medic_M_EMR_v2',
 	/*MenuName*/['%1 (EMR)'],
-	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/2,
 	/*Price*/175,
 	/*BuildTime*/30,
