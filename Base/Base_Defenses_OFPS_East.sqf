@@ -153,22 +153,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Static Titan AA (360°)',
-	/*Class*/"ofps_O_Van_static_AA_F",
-	/*Price*/4000,
-	/*Placement*/[180, 5],
-	/*Tags*/["Defense"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk45 Advanced Cannon',
 	/*Class*/"OFPS_MK45_CANNON_O",

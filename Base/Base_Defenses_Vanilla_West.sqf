@@ -841,22 +841,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false, //broken MG does not spawn
-	/*Name*/'Bunker (MG)',
-	/*Class*/["Land_BagBunker_Small_F", [["Armed","MG"]]],
-	/*Price*/3000,
-	/*Placement*/[0, 7],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ", "RepairTruck"],
-	/*Blacklist*/["*"],
-	/*Upgrade*/1,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Tower (MG)',
 	/*Class*/["Land_Cargo_Patrol_V3_F", [["Armed","MG"]]],

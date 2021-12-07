@@ -832,23 +832,6 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
-
-_u pushBack [
-	/*Enabled*/false, //No MG spawns
-	/*Name*/'Bunker (MG)',
-	/*Class*/["Land_BagBunker_Small_F", [["Armed","MG"]]],
-	/*Price*/3000,
-	/*Placement*/[0, 7],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ", "RepairTruck"],
-	/*Blacklist*/["*"],
-	/*Upgrade*/1,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
-];
-
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Tower (MG)',
