@@ -120,7 +120,7 @@ _u pushBack [
 //--- Heavy --------------------------
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'OFPS_30Rnd_122mmHE_D30_M',
@@ -132,7 +132,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'OFPS_30Rnd_122mmWP_D30_M',
@@ -144,7 +144,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'OFPS_30Rnd_122mmAT_D30_M',
@@ -244,7 +244,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'OFPS_rbs97_mag',

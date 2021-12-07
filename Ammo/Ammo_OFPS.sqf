@@ -170,7 +170,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'OFPS_rbs97_ammo',
