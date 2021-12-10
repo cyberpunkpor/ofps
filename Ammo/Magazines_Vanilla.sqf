@@ -3888,7 +3888,7 @@ _u pushBack [
 	/*ClassName*/'PylonMissile_Missile_HARM_x1',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/4500,
+	/*Price*/10500,
 	/*RearmTime*/16,
 	/*Filters*/[]
 ];
@@ -3900,7 +3900,7 @@ _u pushBack [
 	/*ClassName*/'PylonRack_Missile_HARM_x1',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/4500,
+	/*Price*/10500,
 	/*RearmTime*/16,
 	/*Filters*/[]
 ];
@@ -3912,7 +3912,7 @@ _u pushBack [
 	/*ClassName*/'PylonMissile_Missile_HARM_INT_x1',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/4500,
+	/*Price*/10500,
 	/*RearmTime*/16,
 	/*Filters*/[]
 ];
@@ -3924,7 +3924,7 @@ _u pushBack [
 	/*ClassName*/'PylonMissile_Missile_KH58_x1',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/4500,
+	/*Price*/10500,
 	/*RearmTime*/16,
 	/*Filters*/[]
 ];
@@ -3936,7 +3936,7 @@ _u pushBack [
 	/*ClassName*/'PylonMissile_Missile_KH58_INT_x1',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/4500,
+	/*Price*/10500,
 	/*RearmTime*/16,
 	/*Filters*/[]
 ];

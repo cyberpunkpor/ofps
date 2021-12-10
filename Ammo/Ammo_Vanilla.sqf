@@ -2573,7 +2573,7 @@ _u pushBack [
 	/*ClassName*/'ammo_Missile_HARM',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/4500,
+	/*Price*/10500,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
@@ -2585,7 +2585,7 @@ _u pushBack [
 	/*ClassName*/'ammo_Missile_KH58',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/4500,
+	/*Price*/10500,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
