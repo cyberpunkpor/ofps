@@ -345,7 +345,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Coastal Centurion (Anti Naval)',
 	/*Class*/"OFPS_CENTURION_O_COASTAL",
 	/*Price*/80000,
