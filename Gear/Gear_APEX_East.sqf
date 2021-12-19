@@ -379,7 +379,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/5000,
 				/*Camo*/[],
-				/*Type*/["Lock-On/TOW"]
+				/*Type*/["Lock-On or SACLOS"]
 			];
     
     //Lock-on & SACLOS

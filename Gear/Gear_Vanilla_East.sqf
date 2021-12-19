@@ -347,7 +347,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/5000,
 				/*Camo*/[],
-				/*Type*/["Lock-On/Tow"]
+				/*Type*/["Lock-On or SACLOS"]
 			];
 
 			_u pushBack [
@@ -358,7 +358,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/5000,
 				/*Camo*/[],
-				/*Type*/["Lock-On/Tow"]
+				/*Type*/["Lock-On or SACLOS"]
 			];
 
   //Ground to Air
@@ -1452,7 +1452,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/2500,
 				/*Camo*/[],
-				/*Type*/["Lock-On/TOW"]
+				/*Type*/["Lock-On or SACLOS"]
 			];
 
 			_u pushBack [
@@ -1463,7 +1463,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/3500,
 				/*Camo*/[],
-				/*Type*/["Lock-On/TOW"]
+				/*Type*/["Lock-On or SACLOS"]
 			];    
 		
 		//Ground to Air
