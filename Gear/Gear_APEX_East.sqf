@@ -392,7 +392,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'launch_O_Titan_ghex_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/5,
-			/*Price*/3500,
+			/*Price*/1500,
 			/*Camo*/[],
 			/*Type*/["Rocket AA"]
 		];

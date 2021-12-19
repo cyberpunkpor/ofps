@@ -1040,7 +1040,7 @@ _u = []; //Gear Classname
 
 			_u pushBack [
 				/*Enabled*/true,
-				/*Name*/'RPG-18 %1 Gear-Template incompatible',
+				/*Name*/'',
 				/*ClassName*/'CUP_launch_RPG18_Loaded',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
@@ -1051,7 +1051,7 @@ _u = []; //Gear Classname
 			
 			_u pushBack [
 				/*Enabled*/true,
-				/*Name*/'RPG-18',
+				/*Name*/'Disposable RPG-18 (Gear-Template incompatible)',
 				/*ClassName*/'CUP_launch_RPG18',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
@@ -3128,7 +3128,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/0,
 				/*Price*/2,
 				/*Camo*/[],
-				/*Type*/["Lethal"]
+				/*Type*/["Lethal Grenade"]
 			];
 
 			_u pushBack [
@@ -3139,7 +3139,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/0,
 				/*Price*/2,
 				/*Camo*/[],
-				/*Type*/["Lethal"]
+				/*Type*/["Lethal Grenade"]
 			];
   
   //Under-Barrel Grenade Launcher Rounds

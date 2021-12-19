@@ -3286,8 +3286,8 @@ _u = []; //Gear Classname
 			];
 		
 			_u pushBack [
-				/*Enabled*/false,
-				/*Name*/'',
+				/*Enabled*/true,
+				/*Name*/'Disposable M72A6 (Gear-Template incompatible)',
 				/*ClassName*/'CUP_launch_M72A6',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
@@ -3297,8 +3297,8 @@ _u = []; //Gear Classname
 			];
 			
 			_u pushBack [
-				/*Enabled*/true, //replaced by disposable M72A6
-				/*Name*/'%1 Gear-Template incompatible',
+				/*Enabled*/true,
+				/*Name*/'',
 				/*ClassName*/'CUP_launch_M72A6_Loaded',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
@@ -3306,25 +3306,14 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_M72A6_M',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/50,
-				/*Camo*/[],
-				/*Type*/["Dumbfire"]
-			];
 		
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'CUP_launch_M72A6_Special',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
-				/*Price*/100,
+				/*Price*/50,
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
@@ -3336,17 +3325,6 @@ _u = []; //Gear Classname
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/1,
 				/*Price*/200,
-				/*Camo*/[],
-				/*Type*/["Dumbfire"]
-			];
-		
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_M136_M',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
-				/*Price*/150,
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
@@ -3368,36 +3346,25 @@ _u = []; //Gear Classname
 		
 			_u pushBack [
 				/*Enabled*/true, //replaced by disposable NLAW
-				/*Name*/'%1 Gear-Template incompatible',
+				/*Name*/'',
 				/*ClassName*/'CUP_launch_NLAW_Loaded',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
 				/*Price*/800,
 				/*Camo*/[],
-				/*Type*/["Lock-on or Dumbfire"]
+				/*Type*/["Lock-On Only"]
 			];
 
 			_u pushBack [
 				/*Enabled*/true,
-				/*Name*/'Disposable NLAW',
+				/*Name*/'Disposable NLAW (Gear-Template incompatible)',
 				/*ClassName*/'CUP_launch_NLAW',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
 				/*Price*/1125,
 				/*Camo*/[],
-				/*Type*/["Lock-on or Dumbfire"]
+				/*Type*/["Lock-On Only"]
 			];	
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_Javelin_M',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/5,
-				/*Price*/1000,
-				/*Camo*/[],
-				/*Type*/["Lock-on"]
-			];
 			
 			_u pushBack [
 				/*Enabled*/true,
@@ -3407,7 +3374,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/5,
 				/*Price*/3000,
 				/*Camo*/[],
-				/*Type*/["Lock-on"]
+				/*Type*/["Lock-On Only"]
 			];
     
     //Lock-on & SACLOS
@@ -3421,17 +3388,6 @@ _u = []; //Gear Classname
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
 			/*Price*/600,
-			/*Camo*/[],
-			/*Type*/["Rocket AA"]
-		];
-	
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_Stinger_M',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/300,
 			/*Camo*/[],
 			/*Type*/["Rocket AA"]
 		];
@@ -7378,7 +7334,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/0,
 				/*Price*/2,
 				/*Camo*/[],
-				/*Type*/["Lethal"]
+				/*Type*/["Lethal Grenade"]
 			];
 
 			_u pushBack [
@@ -7389,7 +7345,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/0,
 				/*Price*/2,
 				/*Camo*/[],
-				/*Type*/["Lethal"]
+				/*Type*/["Lethal Grenade"]
 			];
 
 			_u pushBack [
@@ -7400,7 +7356,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/0,
 				/*Price*/2,
 				/*Camo*/[],
-				/*Type*/["Lethal"]
+				/*Type*/["Lethal Grenade"]
 			];
   
   //Under-Barrel Grenade Launcher Rounds
@@ -7716,17 +7672,6 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'CUP_1Rnd_RBS70_M',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/500,
-				/*Camo*/[],
-				/*Type*/["Dumbfire"]
-			];
-		
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
 				/*ClassName*/'CUP_SMAW_Spotting',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
@@ -7789,25 +7734,69 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
+			
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_M72A6_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/50,
+				/*Camo*/[],
+				/*Type*/["Dumbfire"]
+			];
+			
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_M136_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/1,
+				/*Price*/150,
+				/*Camo*/[],
+				/*Type*/["Dumbfire"]
+			];
     
     //SACLOS
     
     //Lock-on
 		
 			_u pushBack [
-				/*Enabled*/false, //replaced by disposable NLAW
+				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'CUP_NLAW_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
 				/*Price*/700,
 				/*Camo*/[],
-				/*Type*/["Lock-on or Dumbfire"]
+				/*Type*/["Lock-On Only"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_Javelin_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/5,
+				/*Price*/1000,
+				/*Camo*/[],
+				/*Type*/["Lock-On Only"]
 			];
     
     //Lock-on and SACLOS
     
     //Ground to Air
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'CUP_Stinger_M',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/2,
+			/*Price*/300,
+			/*Camo*/[],
+			/*Type*/["Rocket AA"]
+		];
 
 //----EQUIPMENT MENU----
 

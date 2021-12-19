@@ -2341,7 +2341,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/["Lethal"]
+	/*Type*/["Lethal Grenade"]
 ];
 
 _u pushBack [
@@ -2352,7 +2352,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/["Lethal"]
+	/*Type*/["Lethal Grenade"]
 ];
 
 _u pushBack [
@@ -2363,7 +2363,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/50,
 	/*Camo*/[],
-	/*Type*/["Lethal"]
+	/*Type*/["Lethal Grenade"]
 ];
 
 _u pushBack [

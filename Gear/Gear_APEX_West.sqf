@@ -348,7 +348,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/5000,
 				/*Camo*/[],
-				/*Type*/["Lock-On/SACLOS"]
+				/*Type*/["Lock-On or SACLOS"]
 			];
   
   //Ground to Air
@@ -359,7 +359,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'launch_B_Titan_tna_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/5,
-			/*Price*/3500,
+			/*Price*/1500,
 			/*Camo*/[],
 			/*Type*/["Rocket AA"]
 		];
@@ -752,7 +752,7 @@ _u = []; //Gear Classname
 					/*UpgradeLevel*/4,
 					/*Price*/75,
 					/*Camo*/[],
-					/*Type*/["Rife"]
+					/*Type*/["Rifle"]
 				];
     
     //MGs

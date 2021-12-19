@@ -1156,9 +1156,9 @@ _u = []; //Gear Classname
 				/*ClassName*/'HandGrenade',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
-				/*Price*/1,
+				/*Price*/2,
 				/*Camo*/[],
-				/*Type*/["Lethal"]
+				/*Type*/["Lethal Grenade"]
 			];
 
 			_u pushBack [
@@ -1169,7 +1169,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/0,
 				/*Price*/1,
 				/*Camo*/[],
-				/*Type*/["Lethal"]
+				/*Type*/["Lethal Grenade"]
 			];
 		
 	//Under-Barrel Grenade Launcher Rounds

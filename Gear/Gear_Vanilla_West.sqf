@@ -511,7 +511,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/3,
 				/*Price*/300,
 				/*Camo*/[],
-				/*Type*/["Lock-on or Dumbfire"]
+				/*Type*/["Lock-On Only"]
 			];
     
     //Lock-on & SACLOS
@@ -524,7 +524,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/5000,
 				/*Camo*/[],
-				/*Type*/["Lock-On/SACLOS"]
+				/*Type*/["Lock-On or SACLOS"]
 			];
 
 			_u pushBack [
@@ -535,7 +535,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/5000,
 				/*Camo*/[],
-				/*Type*/["Lock-On/SACLOS"]
+				/*Type*/["Lock-On or SACLOS"]
 			];
 
 			_u pushBack [
@@ -546,7 +546,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/5000,
 				/*Camo*/[],
-				/*Type*/["Lock-On/SACLOS"]
+				/*Type*/["Lock-On or SACLOS"]
 			];
   
   //Ground to Air
@@ -1686,9 +1686,9 @@ _u = []; //Gear Classname
 				/*ClassName*/'HandGrenade',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
-				/*Price*/1,
+				/*Price*/2,
 				/*Camo*/[],
-				/*Type*/["Lethal"]
+				/*Type*/["Lethal Grenade"]
 			];
 
 			_u pushBack [
@@ -1699,7 +1699,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/0,
 				/*Price*/1,
 				/*Camo*/[],
-				/*Type*/["Lethal"]
+				/*Type*/["Lethal Grenade"]
 			];
   
   //Under-Barrel Grenade Launcher Rounds
@@ -2024,7 +2024,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/3,
 				/*Price*/600,
 				/*Camo*/[],
-				/*Type*/["Lock-on or Dumbfire"]
+				/*Type*/["Lock-On Only"]
 			];
     
     //Lock-on and SACLOS
@@ -2037,7 +2037,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/2500,
 				/*Camo*/[],
-				/*Type*/["Lock-On/SACLOS"]
+				/*Type*/["Lock-On or SACLOS"]
 			];
 
 			_u pushBack [
@@ -2048,7 +2048,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/6,
 				/*Price*/3500,
 				/*Camo*/[],
-				/*Type*/["Lock-On/SACLOS"]
+				/*Type*/["Lock-On or SACLOS"]
 			];
     
     //Ground to Air
