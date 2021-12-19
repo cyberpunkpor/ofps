@@ -3297,8 +3297,8 @@ _u = []; //Gear Classname
 			];
 			
 			_u pushBack [
-				/*Enabled*/false, //replaced by disposable M72A6
-				/*Name*/'',
+				/*Enabled*/true, //replaced by disposable M72A6
+				/*Name*/'%1 Gear-Template incompatible',
 				/*ClassName*/'CUP_launch_M72A6_Loaded',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
@@ -3367,8 +3367,8 @@ _u = []; //Gear Classname
     //Lock-on
 		
 			_u pushBack [
-				/*Enabled*/false, //replaced by disposable NLAW
-				/*Name*/'',
+				/*Enabled*/true, //replaced by disposable NLAW
+				/*Name*/'%1 Gear-Template incompatible',
 				/*ClassName*/'CUP_launch_NLAW_Loaded',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,

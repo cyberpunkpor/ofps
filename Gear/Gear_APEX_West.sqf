@@ -1375,7 +1375,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'H_HelmetB_Light_tna_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/1,
-				/*Price*/25,
+				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Helmet"]
 			];
