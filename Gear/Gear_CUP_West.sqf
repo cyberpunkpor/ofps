@@ -2144,28 +2144,6 @@ _u = []; //Gear Classname
 			/*Camo*/[],
 			/*Type*/["Rifle-GL"]
 		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_arifle_HK416_CQB_M203_Black',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/80,
-			/*Camo*/[],
-			/*Type*/["Rifle-GL"]
-		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_arifle_HK416_CQB_M203_Desert',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/80,
-			/*Camo*/[],
-			/*Type*/["Rifle-GL"]
-		];
 		
 		_u pushBack [
 			/*Enabled*/true,
@@ -2193,39 +2171,6 @@ _u = []; //Gear Classname
 			/*Enabled*/true,
 			/*Name*/'',
 			/*ClassName*/'CUP_arifle_HK417_12_AG36_Wood',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/150,
-			/*Camo*/[],
-			/*Type*/["Rifle-GL"]
-		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_arifle_HK417_12_M203',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/150,
-			/*Camo*/[],
-			/*Type*/["Rifle-GL"]
-		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_arifle_HK417_12_M203_Desert',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/150,
-			/*Camo*/[],
-			/*Type*/["Rifle-GL"]
-		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_arifle_HK417_12_M203_Wood',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
 			/*Price*/150,
