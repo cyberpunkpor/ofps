@@ -2082,39 +2082,6 @@ _u = []; //Gear Classname
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
-			/*ClassName*/'CUP_arifle_HK416_M203_Black',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/80,
-			/*Camo*/[],
-			/*Type*/["Rifle-GL"]
-		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_arifle_HK416_M203_Desert',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/80,
-			/*Camo*/[],
-			/*Type*/["Rifle-GL"]
-		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_arifle_HK416_M203_Wood',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/80,
-			/*Camo*/[],
-			/*Type*/["Rifle-GL"]
-		];
-		
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
 			/*ClassName*/'CUP_arifle_HK416_CQB_AG36',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
