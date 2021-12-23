@@ -426,7 +426,9 @@ if (CTI_RHS_AFRF_ADDON > 0) then {
 };
 //--- OFPS Units
 if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+	GUER_TOWN_AT = "OFPS_F_TITAN_AT_360_INDI";
+	GUER_TOWN_AA = "OFPS_F_TITAN_AA_360_INDI";
+	GUER_TOWN_IGLA = "OFPS_F_IGLA_AA_POD_INDI";
 };
 //--- OFPS RHS Units
 if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -1439,7 +1441,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+		GUER_TOWN_AA = "OFPS_F_RBS70_INDI";
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -1447,7 +1449,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+		
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -1625,7 +1627,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+		GUER_TOWN_AT = "OFPS_F_KORNET_AT14_INDI";
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -1633,7 +1635,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+	
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -1980,7 +1982,8 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+		GUER_TOWN_AT = "OFPS_F_M220_TOW_INDI";
+		GUER_TOWN_IGLA = "OFPS_F_FIM92_STINGER_POD_INDI";
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -1988,7 +1991,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+		
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -2189,8 +2192,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		//--- Air
-		GUER_AIR_AA = "bwi_a3_at6b_4";
-		GUER_AIR_CAS = "bwi_a3_at6b_2";
+		GUER_TOWN_AT = "OFPS_F_KORNET_AT14_INDI";
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -2554,7 +2556,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+		GUER_TOWN_AA = "OFPS_F_RBS70_INDI";
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -2562,7 +2564,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+		
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -2905,7 +2907,8 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+		GUER_TOWN_IGLA = "OFPS_F_FIM92_STINGER_POD_INDI";
+		GUER_TOWN_AT = "OFPS_F_M220_TOW_INDI";
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -2913,7 +2916,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+	
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -3131,7 +3134,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+		GUER_TOWN_IGLA = "OFPS_F_FIM92_STINGER_POD_INDI";
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -3139,7 +3142,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+		
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {

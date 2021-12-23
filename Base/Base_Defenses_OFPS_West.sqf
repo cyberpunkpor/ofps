@@ -201,16 +201,16 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (4km)',
 	/*Class*/"OFPS_CENTURION_B_4KM",
-	/*Price*/40000,
+	/*Price*/50000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/3,
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
 	/*Specials*/[]
