@@ -105,7 +105,7 @@ _u = []; //Defense Classname
 
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mk.19 (M3)',
 	/*Class*/"RHS_MK19_TriPod_D",
 	/*Price*/2000,
@@ -121,7 +121,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'M2HB (M3)',
 	/*Class*/"RHS_M2StaticMG_MiniTriPod_D",
 	/*Price*/1000,
@@ -137,7 +137,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'FIM-92F (DMS)',
 	/*Class*/"RHS_Stinger_AA_pod_D",
 	/*Price*/4000,
@@ -153,7 +153,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Zu-23-2',
 	/*Class*/"RHS_ZU23_MSV",
 	/*Price*/5000,
@@ -169,7 +169,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'M41A4 TOW',
 	/*Class*/"RHS_TOW_TriPod_D",
 	/*Price*/4000,
@@ -185,7 +185,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'2A18M (D-30A) AT',
 	/*Class*/"rhs_d30_at_msv",
 	/*Price*/6000,
@@ -201,7 +201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'2B14-1 Podnos',
 	/*Class*/"rhs_2b14_82mm_msv",
 	/*Price*/20000,

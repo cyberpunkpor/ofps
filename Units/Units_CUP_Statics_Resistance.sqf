@@ -123,7 +123,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'SPG-9',
 	/*Class*/"CUP_I_SPG9_TK_GUE",
-	/*Price*/3000,
+	/*Price*/2000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],

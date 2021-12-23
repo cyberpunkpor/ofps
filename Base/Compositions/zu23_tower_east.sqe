@@ -52,8 +52,8 @@ class items
 								flags=4;
 								class Attributes
 								{
-									disableSimulation=1;
 								};
+
 								id=44;
 								type="Land_PillboxBunker_01_rectangle_F";
 							};

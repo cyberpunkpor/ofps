@@ -104,7 +104,7 @@ _u = []; //Defense Classname
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'KORD (6T7)',
 	/*Class*/"rhs_KORD_MSV",
 	/*Price*/1000,
@@ -120,7 +120,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'AGS-30 (6P17)',
 	/*Class*/"rhs_AGS30_TriPod_MSV",
 	/*Price*/1000,
@@ -136,7 +136,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'SPG-9M',
 	/*Class*/"rhs_SPG9M_MSV",
 	/*Price*/1000,
@@ -152,7 +152,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'9K38 (Djigit)',
 	/*Class*/"rhs_Igla_AA_pod_msv",
 	/*Price*/1000,
@@ -168,7 +168,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Zu-23-2',
 	/*Class*/"RHS_ZU23_MSV",
 	/*Price*/5000,
@@ -184,7 +184,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'KORD (6U16)',
 	/*Class*/"rhs_KORD_high_MSV",
 	/*Price*/1000,
@@ -200,7 +200,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'2B14-1 Podnos',
 	/*Class*/"rhs_2b14_82mm_msv",
 	/*Price*/20000,
@@ -216,7 +216,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'2A18M (D-30A) AT',
 	/*Class*/"rhs_d30_at_msv",
 	/*Price*/6000,
@@ -232,7 +232,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'9M133-1 Kornet-M',
 	/*Class*/"rhs_Kornet_9M133_2_msv",
 	/*Price*/5000,

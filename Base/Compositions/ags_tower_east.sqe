@@ -1,0 +1,36 @@
+version=54;
+center[]={3500.5227,5,8056.2188};
+class items
+{
+	items=2;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={0.89770508,0.13264942,-1.0307617};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=0;
+		type="Land_PillboxBunker_01_rectangle_F";
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-0.89770508,3.2075367,1.03125};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=17;
+		type="CUP_O_AGS_RU";
+	};
+};

@@ -833,7 +833,7 @@ _u pushBack [
 	/*Specials*/[]
 ];
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Tower (MG)',
 	/*Class*/["Land_Cargo_Patrol_V3_F", [["Armed","MG"]]],
 	/*Price*/3000,

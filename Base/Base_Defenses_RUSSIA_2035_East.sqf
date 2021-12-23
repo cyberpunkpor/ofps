@@ -105,7 +105,7 @@ _u = []; //Defense Classname
 
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Metis',
 	/*Class*/"min_rf_Metis",
 	/*Price*/2000,
@@ -121,7 +121,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'AGS',
 	/*Class*/"min_rf_AGS_30",
 	/*Price*/2000,
@@ -137,7 +137,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Kord',
 	/*Class*/"min_rf_Kord",
 	/*Price*/2000,
@@ -153,7 +153,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'GMG',
 	/*Class*/"min_rf_GMG",
 	/*Price*/2000,
@@ -169,7 +169,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'HMG',
 	/*Class*/"min_rf_HMG",
 	/*Price*/2000,
@@ -185,7 +185,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mortar',
 	/*Class*/"min_rf_Mortar",
 	/*Price*/2000,
@@ -201,7 +201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Metis (Desert)',
 	/*Class*/"min_rf_Metis_desert",
 	/*Price*/2000,
@@ -217,7 +217,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Metis (Winter)',
 	/*Class*/"min_rf_Metis_winter",
 	/*Price*/2000,
@@ -233,7 +233,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'AGS 30 (Desert)',
 	/*Class*/"min_rf_ags_30_desert",
 	/*Price*/2000,
@@ -249,7 +249,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'AGS 30 (Winter)',
 	/*Class*/"min_rf_ags_30_winter",
 	/*Price*/2000,
@@ -265,7 +265,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Kord (Desert)',
 	/*Class*/"min_rf_Kord_desert",
 	/*Price*/2000,
@@ -281,7 +281,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Kord (Winter)',
 	/*Class*/"min_rf_Kord_winter",
 	/*Price*/2000,
@@ -297,7 +297,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'GMG (Desert)',
 	/*Class*/"min_rf_GMG_desert",
 	/*Price*/2000,
@@ -313,7 +313,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'GMG (Winter)',
 	/*Class*/"min_rf_GMG_winter",
 	/*Price*/2000,
@@ -329,7 +329,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'HMG (Desert)',
 	/*Class*/"min_rf_HMG_desert",
 	/*Price*/2000,
@@ -345,7 +345,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'HMG (Winter)',
 	/*Class*/"min_rf_HMG_winter",
 	/*Price*/2000,
@@ -361,7 +361,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mortar (Desert)',
 	/*Class*/"min_rf_Mortar_desert",
 	/*Price*/2000,
@@ -377,7 +377,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Mortar (Winter)',
 	/*Class*/"min_rf_Mortar_winter",
 	/*Price*/2000,

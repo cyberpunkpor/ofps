@@ -1,58 +1,67 @@
 version=54;
-center[]={2742.25,5,1897.25};
+center[]={3507.7451,5,8051.2656};
 class items
 {
-	items=2;
+	items=1;
 	class Item0
 	{
 		dataType="Layer";
 		name="m134uavraisedwest";
 		class Entities
 		{
-			items=1;
+			items=2;
 			class Item0
 			{
 				dataType="Layer";
-				name="m134uavraised";
+				name="m134uavraisedwest";
 				class Entities
 				{
 					items=1;
 					class Item0
 					{
-						dataType="Object";
-						class PositionInfo
+						dataType="Layer";
+						name="m134uavraised";
+						class Entities
 						{
-							position[]={1.125,0.13264942,-0.625};
+							items=1;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.87011719,0.13264942,-0.859375};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+								};
+								id=3;
+								type="Land_PillboxBunker_01_rectangle_F";
+							};
 						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							disableSimulation=1;
-						};
-						id=46;
-						type="Land_PillboxBunker_01_rectangle_F";
+						id=2;
 					};
 				};
-				id=40;
+				id=1;
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.94628906,2.2122316,1.449707};
+					angles[]={-0,0.00048587404,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=4;
+				type="CUP_B_M134_A_USMC";
 			};
 		};
-		id=45;
-	};
-	class Item1
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-1.2011719,2.2539177,1.2155762};
-			angles[]={0,4.7122397,-0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-		};
-		id=103;
-		type="CUP_B_M134_A_USMC";
+		id=5;
 	};
 };

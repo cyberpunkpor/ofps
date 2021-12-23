@@ -338,7 +338,7 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 	WEST_TOWN_CRAM = "CUP_B_Type072_Turret";
 	//WEST_TOWN_MK29 = "CUP_WV_B_SS_Launcher";
 	//WEST_TOWN_MK49 = "CUP_WV_B_RAM_Launcher";
-	WEST_TOWN_AGS = "CUP_B_MK19_TriPod_USMC";
+	WEST_TOWN_AGS = "CUP_B_MK19_TriPod_US";
 	WEST_TOWN_IGLA = "CUP_B_Stinger_AA_pod_Base_USMC";
 	//COMPS
 	WEST_TOWN_MG50_COMP = [{

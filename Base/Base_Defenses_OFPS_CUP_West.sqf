@@ -140,7 +140,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'TOW Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tow_tower_west",2]]],
-	/*Price*/7000,
+	/*Price*/3400,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -156,7 +156,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'TOW-2 Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tow2_tower_west",2]]],
-	/*Price*/7500,
+	/*Price*/3900,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -172,7 +172,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'ZU-23 Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","zu23_tower_west",2]]],
-	/*Price*/6700,
+	/*Price*/5400,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -188,7 +188,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'M134 Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","m134a_tower_west",2]]],
-	/*Price*/3700,
+	/*Price*/3100,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -200,4 +200,19 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'Mk 19 Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk19_tower_west",2]]],
+	/*Price*/2400,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";
