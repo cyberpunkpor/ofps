@@ -102,6 +102,7 @@ GUER_TOWN_COAST = "I_static_AT_F";
 GUER_TOWN_CRAM = "I_HMG_01_high_F";
 GUER_TOWN_MK29 = "I_static_AA_F";
 GUER_TOWN_MK49 = "I_static_AA_F";
+GUER_TOWN_M134 = GUER_TOWN_MGLO;
 //--- Town Statics Compositions
 GUER_TOWN_MG_COMP = [];
 GUER_TOWN_GL_COMP = [];
@@ -113,6 +114,7 @@ GUER_TOWN_MGLO_COMP = [];
 GUER_TOWN_M2LO_COMP = [];
 GUER_TOWN_AGS_COMP = [];
 GUER_TOWN_KORDLO_COMP = [];
+GUER_TOWN_M134_COMP = [];
 
 //--- END DO NOT TOUCH THIS LIST
 
@@ -292,6 +294,7 @@ if (CTI_VANILLA_ADDON > 0 ) then {
 	GUER_TOWN_SPG_COMP = GUER_TOWN_AT_COMP; //fallback for vanilla
 	GUER_TOWN_DSHKM_COMP = GUER_TOWN_MG_COMP; //fallback for vanilla
 	GUER_TOWN_KORDLO_COMP = GUER_TOWN_MG_COMP; //fallback for vanilla
+	GUER_TOWN_M134_COMP = GUER_TOWN_MGLO_COMP; //fallback for vanilla
 };
 //--Load Heli Units
 if (CTI_HELI_ADDON > 0) then {
@@ -429,6 +432,29 @@ if (CTI_OFPS_UNITS_ADDON > 0) then {
 	GUER_TOWN_AT = "OFPS_F_TITAN_AT_360_INDI";
 	GUER_TOWN_AA = "OFPS_F_TITAN_AA_360_INDI";
 	GUER_TOWN_IGLA = "OFPS_F_IGLA_AA_POD_INDI";
+	GUER_TOWN_M134_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["OFPS_F_M134_A_USMC_INDI", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 };
 //--- OFPS RHS Units
 if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -1253,7 +1279,29 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+	GUER_TOWN_M134_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["OFPS_F_M134_A_USMC_INDI", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -3203,13 +3251,13 @@ See below for pools
 */
 
 //--- Statics Groups
-GUER_TOWNS_STATICS_ALL = [GUER_TOWN_MG,GUER_TOWN_GL,GUER_TOWN_AT,GUER_TOWN_M2LO,GUER_TOWN_KORD,GUER_TOWN_KORDLO,GUER_TOWN_MGLO,GUER_TOWN_AA,GUER_TOWN_ZSU,GUER_TOWN_IGLA,GUER_TOWN_D30,GUER_TOWN_SPG,GUER_TOWN_DSHKM,GUER_TOWN_MG50,GUER_TOWN_AGS,GUER_TOWN_COAST];
+GUER_TOWNS_STATICS_ALL = [GUER_TOWN_MG,GUER_TOWN_GL,GUER_TOWN_AT,GUER_TOWN_M2LO,GUER_TOWN_KORD,GUER_TOWN_KORDLO,GUER_TOWN_MGLO,GUER_TOWN_AA,GUER_TOWN_ZSU,GUER_TOWN_IGLA,GUER_TOWN_D30,GUER_TOWN_SPG,GUER_TOWN_DSHKM,GUER_TOWN_MG50,GUER_TOWN_AGS,GUER_TOWN_COAST,GUER_TOWN_M134];
 GUER_TOWNS_STATICS_CORE = [GUER_TOWN_MG,GUER_TOWN_GL,GUER_TOWN_AT];
-GUER_TOWNS_STATICS_COMPS = [GUER_TOWN_MG_COMP + GUER_TOWN_GL_COMP + GUER_TOWN_AT_COMP + GUER_TOWN_SPG_COMP + GUER_TOWN_DSHKM_COMP + GUER_TOWN_MG50_COMP + GUER_TOWN_MGLO_COMP + GUER_TOWN_M2LO_COMP + GUER_TOWN_AGS_COMP + GUER_TOWN_KORDLO_COMP];
-GUER_TOWNS_STATICS_INFANTRY = [GUER_TOWN_MG,GUER_TOWN_GL,GUER_TOWN_DSHKM,GUER_TOWN_KORD,GUER_TOWN_MG50,GUER_TOWN_AGS];
+GUER_TOWNS_STATICS_COMPS = [GUER_TOWN_MG_COMP + GUER_TOWN_GL_COMP + GUER_TOWN_AT_COMP + GUER_TOWN_SPG_COMP + GUER_TOWN_DSHKM_COMP + GUER_TOWN_MG50_COMP + GUER_TOWN_MGLO_COMP + GUER_TOWN_M2LO_COMP + GUER_TOWN_AGS_COMP + GUER_TOWN_KORDLO_COMP + GUER_TOWN_M134_COMP];
+GUER_TOWNS_STATICS_INFANTRY = [GUER_TOWN_MG,GUER_TOWN_GL,GUER_TOWN_DSHKM,GUER_TOWN_KORD,GUER_TOWN_MG50,GUER_TOWN_AGS,GUER_TOWN_M134];
 GUER_TOWNS_STATICS_VEHICLE = [GUER_TOWN_AT,GUER_TOWN_D30,GUER_TOWN_SPG];
 GUER_TOWNS_STATICS_AIR = [GUER_TOWN_AA,GUER_TOWN_ZSU,GUER_TOWN_IGLA];
-GUER_TOWNS_STATICS_ICOMPS = GUER_TOWN_MG_COMP + GUER_TOWN_GL_COMP + GUER_TOWN_DSHKM_COMP + GUER_TOWN_MG50_COMP + GUER_TOWN_MGLO_COMP + GUER_TOWN_M2LO_COMP + GUER_TOWN_KORDLO_COMP + GUER_TOWN_AGS_COMP;
+GUER_TOWNS_STATICS_ICOMPS = GUER_TOWN_MG_COMP + GUER_TOWN_GL_COMP + GUER_TOWN_DSHKM_COMP + GUER_TOWN_MG50_COMP + GUER_TOWN_MGLO_COMP + GUER_TOWN_M2LO_COMP + GUER_TOWN_KORDLO_COMP + GUER_TOWN_AGS_COMP + GUER_TOWN_M134_COMP;
 GUER_TOWNS_STATICS_VCOMPS = GUER_TOWN_AT_COMP + GUER_TOWN_SPG_COMP;
 
 //--- Infantry Squads

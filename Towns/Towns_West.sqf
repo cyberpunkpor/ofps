@@ -99,6 +99,7 @@ WEST_TOWN_COAST = "B_static_AT_F";
 WEST_TOWN_CRAM = "B_AAA_System_01_F";
 WEST_TOWN_MK29 = "B_SAM_System_01_F";
 WEST_TOWN_MK49 = "B_SAM_System_01_F";
+WEST_TOWN_M134 = WEST_TOWN_MGLO;
 //--- Town Statics Compositions
 WEST_TOWN_MG_COMP = [];
 WEST_TOWN_GL_COMP = [];
@@ -110,6 +111,7 @@ WEST_TOWN_MGLO_COMP = [];
 WEST_TOWN_M2LO_COMP = [];
 WEST_TOWN_AGS_COMP = [];
 WEST_TOWN_KORDLO_COMP = [];
+WEST_TOWN_M134_COMP = [];
 
 //--- END DO NOT TOUCH THIS LIST
 
@@ -286,6 +288,7 @@ if (CTI_VANILLA_ADDON > 0) then {
 	WEST_TOWN_MG50_COMP = WEST_TOWN_MG_COMP; //fallback for vanilla
 	WEST_TOWN_M2LO_COMP = WEST_TOWN_MGLO_COMP; //fallback for vanilla
 	WEST_TOWN_KORDLO_COMP = WEST_TOWN_MGLO_COMP; //fallback for vanilla
+	WEST_TOWN_M134_COMP = WEST_TOWN_MGLO_COMP; //fallback for vanilla
 };
 
 //--Load Heli Mod
@@ -478,6 +481,29 @@ if (CTI_OFPS_UNITS_ADDON > 0) then {
 	WEST_TOWN_AT = "ofps_B_Van_static_AT_F";
 	WEST_TOWN_AA = "ofps_B_Van_static_AA_F";
 	WEST_TOWN_COAST = "OFPS_CENTURION_B_COASTAL";
+	WEST_TOWN_M134_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_B_M134_A_USMC", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 };
 //--- OFPS RHS Mod
 if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -1027,7 +1053,29 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+	WEST_TOWN_M134_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_B_M134_A_USMC", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -2298,7 +2346,29 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+	WEST_TOWN_M134_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_B_M134_A_USMC", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -2487,7 +2557,29 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 8) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+	WEST_TOWN_M134_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_B_M134_A_USMC", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -2556,13 +2648,13 @@ See below for pools
 */
 
 //--- Statics Groups
-WEST_TOWNS_STATICS_ALL = [WEST_TOWN_MG,WEST_TOWN_GL,WEST_TOWN_AT,WEST_TOWN_AA,WEST_TOWN_IGLA,WEST_TOWN_KORDLO,WEST_TOWN_M2LO,WEST_TOWN_MGLO,WEST_TOWN_ZSU,WEST_TOWN_D30,WEST_TOWN_SPG,WEST_TOWN_DSHKM,WEST_TOWN_KORD,WEST_TOWN_MG50,WEST_TOWN_AGS,WEST_TOWN_COAST];
+WEST_TOWNS_STATICS_ALL = [WEST_TOWN_MG,WEST_TOWN_GL,WEST_TOWN_AT,WEST_TOWN_AA,WEST_TOWN_IGLA,WEST_TOWN_KORDLO,WEST_TOWN_M2LO,WEST_TOWN_MGLO,WEST_TOWN_ZSU,WEST_TOWN_D30,WEST_TOWN_SPG,WEST_TOWN_DSHKM,WEST_TOWN_KORD,WEST_TOWN_MG50,WEST_TOWN_AGS,WEST_TOWN_COAST,WEST_TOWN_M134];
 WEST_TOWNS_STATICS_CORE = [WEST_TOWN_MG,WEST_TOWN_GL,WEST_TOWN_AT];
-WEST_TOWNS_STATICS_COMPS = [WEST_TOWN_MG_COMP + WEST_TOWN_GL_COMP + WEST_TOWN_AT_COMP + WEST_TOWN_SPG_COMP + WEST_TOWN_DSHKM_COMP + WEST_TOWN_MG50_COMP + WEST_TOWN_MGLO_COMP + WEST_TOWN_M2LO_COMP + WEST_TOWN_AGS_COMP + WEST_TOWN_KORDLO_COMP];
-WEST_TOWNS_STATICS_INFANTRY = [WEST_TOWN_MG,WEST_TOWN_GL,WEST_TOWN_DSHKM,WEST_TOWN_KORD,WEST_TOWN_MG50,WEST_TOWN_AGS];
+WEST_TOWNS_STATICS_COMPS = [WEST_TOWN_MG_COMP + WEST_TOWN_GL_COMP + WEST_TOWN_AT_COMP + WEST_TOWN_SPG_COMP + WEST_TOWN_DSHKM_COMP + WEST_TOWN_MG50_COMP + WEST_TOWN_MGLO_COMP + WEST_TOWN_M2LO_COMP + WEST_TOWN_AGS_COMP + WEST_TOWN_KORDLO_COMP + WEST_TOWN_M134_COMP];
+WEST_TOWNS_STATICS_INFANTRY = [WEST_TOWN_MG,WEST_TOWN_GL,WEST_TOWN_DSHKM,WEST_TOWN_KORD,WEST_TOWN_MG50,WEST_TOWN_AGS,WEST_TOWN_M134];
 WEST_TOWNS_STATICS_VEHICLE = [WEST_TOWN_AT,WEST_TOWN_D30,WEST_TOWN_SPG];
 WEST_TOWNS_STATICS_AIR = [WEST_TOWN_AA,WEST_TOWN_ZSU,WEST_TOWN_IGLA];
-WEST_TOWNS_STATICS_ICOMPS = WEST_TOWN_MG_COMP + WEST_TOWN_GL_COMP + WEST_TOWN_DSHKM_COMP + WEST_TOWN_MG50_COMP + WEST_TOWN_MGLO_COMP + WEST_TOWN_M2LO_COMP + WEST_TOWN_KORDLO_COMP + WEST_TOWN_AGS_COMP;
+WEST_TOWNS_STATICS_ICOMPS = WEST_TOWN_MG_COMP + WEST_TOWN_GL_COMP + WEST_TOWN_DSHKM_COMP + WEST_TOWN_MG50_COMP + WEST_TOWN_MGLO_COMP + WEST_TOWN_M2LO_COMP + WEST_TOWN_KORDLO_COMP + WEST_TOWN_AGS_COMP + WEST_TOWN_M134_COMP;
 WEST_TOWNS_STATICS_VCOMPS = WEST_TOWN_AT_COMP + WEST_TOWN_SPG_COMP;
 
 //--- Infantry Squads

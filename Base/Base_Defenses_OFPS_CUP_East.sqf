@@ -170,22 +170,6 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'GMG Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","gmg_tower_east",2]]],
-	/*Price*/3700,
-	/*Placement*/[180, 5],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/1,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
 	/*Name*/'SPG-9 Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","spg9_tower_east",2]]],
 	/*Price*/3000,

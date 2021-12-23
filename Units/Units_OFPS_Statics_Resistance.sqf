@@ -149,6 +149,21 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'M134 Minigun (UAV)',
+	/*Class*/"OFPS_F_M134_A_USMC_INDI",
+	/*Price*/2700,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
 
 _u pushBack [
 	/*Enabled*/true,

@@ -1,5 +1,5 @@
 version=54;
-center[]={5581.584,5,3201.6204};
+center[]={2745.1304,5,1964.6016};
 class items
 {
 	items=1;
@@ -13,46 +13,60 @@ class items
 			class Item0
 			{
 				dataType="Layer";
-				name="spg9towereast";
+				name="metistowereast";
 				class Entities
 				{
-					items=2;
+					items=1;
 					class Item0
 					{
-						dataType="Object";
-						class PositionInfo
+						dataType="Layer";
+						name="spg9towereast_3";
+						class Entities
 						{
-							position[]={0.071289063,1.3528881,0.12915039};
+							items=2;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-1.1303711,3.2235756,0.7734375};
+									angles[]={-0,4.7126312,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+								};
+								id=90;
+								type="CUP_O_Metis_RU";
+							};
+							class Item1
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={1.1306152,0.13264942,-0.77355957};
+									angles[]={0,0.00012925453,-0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=92;
+								type="Land_PillboxBunker_01_rectangle_F";
+							};
 						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=10;
-						type="Land_Cargo10_military_green_F";
-					};
-					class Item1
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.071289063,3.6400547,-0.12915039};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-						};
-						id=11;
-						type="CUP_O_Metis_RU";
+						id=88;
+						
 					};
 				};
-				id=9;
+				id=87;
+				
 			};
 		};
-		id=12;
+		id=91;
+		
 	};
 };

@@ -154,6 +154,38 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'HMG Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","hmg_tower_east",2]]],
+	/*Price*/2700,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'GMG Tower',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","gmg_tower_east",2]]],
+	/*Price*/3700,
+	/*Placement*/[180, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'Mk45 Advanced Cannon',
 	/*Class*/"OFPS_MK45_CANNON_O",
 	/*Price*/50000,
@@ -233,17 +265,17 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (4km) Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","4km_centurion_tower_tall_east",2]]],
-	/*Price*/45000,
+	/*Price*/55000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[["All", 15]],
 	/*Upgrade*/3,
 	/*MaxCount*/-1,
-	/*Cooldown*/-1,
+	/*Cooldown*/300,
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];

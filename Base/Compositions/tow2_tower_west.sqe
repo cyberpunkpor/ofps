@@ -1,5 +1,5 @@
 version=54;
-center[]={5583.0044,5,3212.2764};
+center[]={2744.7251,5,1918.8595};
 class items
 {
 	items=1;
@@ -13,46 +13,60 @@ class items
 			class Item0
 			{
 				dataType="Layer";
-				name="spg9towereast_1";
+				name="tow2towerwest";
 				class Entities
 				{
-					items=2;
+					items=1;
 					class Item0
 					{
-						dataType="Object";
-						class PositionInfo
+						dataType="Layer";
+						name="spg9towereast_1";
+						class Entities
 						{
-							position[]={0.043457031,1.3528881,0.085693359};
+							items=2;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.85009766,3.2586765,0.89050293};
+									angles[]={-0,4.7126627,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+								};
+								id=69;
+								type="CUP_B_TOW2_TriPod_US";
+							};
+							class Item1
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.84985352,0.13264942,-0.89050293};
+									angles[]={0,0.00086663372,-0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=71;
+								type="Land_PillboxBunker_01_rectangle_F";
+							};
 						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							createAsSimpleObject=1;
-							disableSimulation=1;
-						};
-						id=17;
-						type="Land_Cargo10_military_green_F";
-					};
-					class Item1
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.043457031,3.6751547,-0.085449219};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-						};
-						id=18;
-						type="CUP_B_TOW2_TriPod_US";
+						id=67;
+						
 					};
 				};
-				id=16;
+				id=66;
+				
 			};
 		};
-		id=19;
+		id=70;
+		
 	};
 };

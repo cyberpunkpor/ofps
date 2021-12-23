@@ -99,6 +99,7 @@ EAST_TOWN_CRAM = "O_HMG_01_High_F";
 EAST_TOWN_IGLA = "O_static_AA_F";
 EAST_TOWN_MK29 = "O_static_AA_F";
 EAST_TOWN_MK49 = "O_static_AA_F";
+EAST_TOWN_M134 = EAST_TOWN_AGS;
 //--- Town Statics Compositions
 EAST_TOWN_MG_COMP = [];
 EAST_TOWN_GL_COMP = [];
@@ -110,6 +111,7 @@ EAST_TOWN_MGLO_COMP = [];
 EAST_TOWN_M2LO_COMP = [];
 EAST_TOWN_AGS_COMP = [];
 EAST_TOWN_KORDLO_COMP = [];
+EAST_TOWN_M134_COMP = [];
 
 //--- END DO NOT TOUCH THIS LIST
 
@@ -284,6 +286,7 @@ if (CTI_VANILLA_ADDON > 0) then {
 	EAST_TOWN_SPG_COMP = EAST_TOWN_AT_COMP; //fallback for vanilla
 	EAST_TOWN_DSHKM_COMP = EAST_TOWN_MG_COMP; //fallback for vanilla
 	EAST_TOWN_KORDLO_COMP = EAST_TOWN_M2LO_COMP; //fallback for vanilla
+	EAST_TOWN_M134_COMP = EAST_TOWN_AGS_COMP; //fallback for vanilla
 };
 
 //--Load Heli Mod

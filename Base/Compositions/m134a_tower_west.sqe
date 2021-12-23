@@ -1,0 +1,61 @@
+version=54;
+center[]={2742.25,5,1897.25};
+class items
+{
+	items=2;
+	class Item0
+	{
+		dataType="Layer";
+		name="m134uavraisedwest";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Layer";
+				name="m134uavraised";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={1.125,0.13264942,-0.625};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+							disableSimulation=1;
+						};
+						id=46;
+						type="Land_PillboxBunker_01_rectangle_F";
+					};
+				};
+				id=40;
+				
+			};
+		};
+		id=45;
+		
+	};
+	class Item1
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-1.2011719,2.2539177,1.2155762};
+			angles[]={0,4.7122397,-0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=103;
+		type="CUP_B_M134_A_USMC";
+		
+	};
+};
