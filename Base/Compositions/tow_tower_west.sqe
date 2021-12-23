@@ -1,5 +1,5 @@
 version=54;
-center[]={2765.9844,5,1960.7075};
+center[]={6171.4307,5,3865.0164};
 class items
 {
 	items=1;
@@ -16,46 +16,55 @@ class items
 				name="towtowerwest";
 				class Entities
 				{
-					items=2;
+					items=1;
 					class Item0
 					{
-						dataType="Object";
-						class PositionInfo
+						dataType="Layer";
+						name="towtowerwest_1";
+						class Entities
 						{
-							position[]={-0.859375,3.2586765,0.91748047};
-							angles[]={-0,4.7119365,0};
+							items=2;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.85986328,3.2586765,0.91748047};
+									angles[]={0,6.2826829,-0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+								};
+								id=60;
+								type="CUP_B_TOW_TriPod_USMC";
+								atlOffset=4.7683716e-007;
+							};
+							class Item1
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.859375,0.13264942,-0.91748047};
+									angles[]={0,0.0012767126,-0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=61;
+								type="Land_PillboxBunker_01_rectangle_F";
+							};
 						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-						};
-						id=105;
-						type="CUP_B_TOW_TriPod_USMC";
-					};
-					class Item1
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={0.85961914,0.13264942,-0.91748047};
-							angles[]={0,0.0012767126,-0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							disableSimulation=1;
-						};
-						id=108;
-						type="Land_PillboxBunker_01_rectangle_F";
+						id=59;
 					};
 				};
-				id=104;
-				
+				id=58;
 			};
 		};
-		id=107;
-		
+		id=62;
 	};
 };

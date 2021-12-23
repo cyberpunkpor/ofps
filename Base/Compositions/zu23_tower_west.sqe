@@ -1,5 +1,5 @@
 version=54;
-center[]={2744.491,5,1954.4585};
+center[]={6149.1411,5,3867.2939};
 class items
 {
 	items=1;
@@ -16,47 +16,54 @@ class items
 				name="zu23towerwest";
 				class Entities
 				{
-					items=2;
+					items=1;
 					class Item0
 					{
-						dataType="Object";
-						class PositionInfo
+						dataType="Layer";
+						name="zu23towerwest_1";
+						class Entities
 						{
-							position[]={-0.9909668,4.203146,0.79125977};
-							angles[]={-0,4.7120605,0};
+							items=2;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.99072266,4.1614599,0.79125977};
+									angles[]={-0,6.2821255,0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+								};
+								id=38;
+								type="CUP_B_ZU23_CDF";
+							};
+							class Item1
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.99072266,0.13264942,-0.79150391};
+									angles[]={0,0.00052052527,-0};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=39;
+								type="Land_PillboxBunker_01_rectangle_F";
+							};
 						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-						};
-						id=83;
-						type="CUP_B_ZU23_CDF";
-						
-					};
-					class Item1
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={0.9909668,0.13264942,-0.79150391};
-							angles[]={0,0.00052052527,-0};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							disableSimulation=1;
-						};
-						id=86;
-						type="Land_PillboxBunker_01_rectangle_F";
+						id=37;
 					};
 				};
-				id=82;
-			
+				id=36;
 			};
 		};
-		id=85;
-	
+		id=40;
 	};
 };

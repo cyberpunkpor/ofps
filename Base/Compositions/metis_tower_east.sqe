@@ -1,5 +1,5 @@
 version=54;
-center[]={2745.1304,5,1964.6016};
+center[]={6105.9355,5,3874.0278};
 class items
 {
 	items=1;
@@ -20,53 +20,60 @@ class items
 					class Item0
 					{
 						dataType="Layer";
-						name="spg9towereast_3";
+						name="metistowereast_1";
 						class Entities
 						{
-							items=2;
+							items=1;
 							class Item0
 							{
-								dataType="Object";
-								class PositionInfo
+								dataType="Layer";
+								name="spg9towereast_3";
+								class Entities
 								{
-									position[]={-1.1303711,3.2235756,0.7734375};
-									angles[]={-0,4.7126312,0};
+									items=2;
+									class Item0
+									{
+										dataType="Object";
+										class PositionInfo
+										{
+											position[]={-0.93554688,3.2235756,1.097168};
+											angles[]={-0,6.2830672,0};
+										};
+										side="Empty";
+										flags=4;
+										class Attributes
+										{
+										};
+										id=14;
+										type="CUP_O_Metis_RU";
+									};
+									class Item1
+									{
+										dataType="Object";
+										class PositionInfo
+										{
+											position[]={0.93554688,0.13264942,-1.097168};
+											angles[]={0,0.00012925453,-0};
+										};
+										side="Empty";
+										flags=4;
+										class Attributes
+										{
+											disableSimulation=1;
+										};
+										id=15;
+										type="Land_PillboxBunker_01_rectangle_F";
+									};
 								};
-								side="Empty";
-								flags=4;
-								class Attributes
-								{
-								};
-								id=90;
-								type="CUP_O_Metis_RU";
-							};
-							class Item1
-							{
-								dataType="Object";
-								class PositionInfo
-								{
-									position[]={1.1306152,0.13264942,-0.77355957};
-									angles[]={0,0.00012925453,-0};
-								};
-								side="Empty";
-								flags=4;
-								class Attributes
-								{
-									disableSimulation=1;
-								};
-								id=92;
-								type="Land_PillboxBunker_01_rectangle_F";
+								id=13;
 							};
 						};
-						id=88;
-						
+						id=12;
 					};
 				};
-				id=87;
-				
+				id=11;
 			};
 		};
-		id=91;
-		
+		id=16;
 	};
 };

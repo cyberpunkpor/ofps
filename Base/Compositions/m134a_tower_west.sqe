@@ -35,11 +35,9 @@ class items
 					};
 				};
 				id=40;
-				
 			};
 		};
 		id=45;
-		
 	};
 	class Item1
 	{
@@ -56,6 +54,5 @@ class items
 		};
 		id=103;
 		type="CUP_B_M134_A_USMC";
-		
 	};
 };
