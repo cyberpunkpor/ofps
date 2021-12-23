@@ -556,25 +556,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_UCSV_01',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/1,
-	/*Price*/4000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['UAV'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MK10_NATO',
@@ -623,63 +604,6 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/['Submarine'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'bwi_a3_t6a',
-	/*MenuName*/'Unarmed TurboProp',
-	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/2,
-	/*Price*/15000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Attack Plane'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'bwi_a3_at6b',
-	/*MenuName*/'GBU TurboProp',
-	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/2,
-	/*Price*/20000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Attack Plane'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'bwi_a3_at6b_3',
-	/*MenuName*/'AA TurboProp',
-	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/2,
-	/*Price*/20000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Attack Plane'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,

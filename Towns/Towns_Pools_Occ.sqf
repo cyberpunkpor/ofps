@@ -296,44 +296,6 @@ with missionNamespace do {
 				["TOWNS_SQUAD_AIR1", 3, 70],
 				["TOWNS_SQUAD_AIR2", 2, 60]
 	];
-//--- ZOMBIE TOWNS ---------------------------------------------------	
-	//Towns < 50
-	TOWNS_OCC_ZOM_POOL_1 = [
-					["TOWNS_SQUAD_ZOMBIE1", 6, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 4, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 2, 99]
-	];
-	//Towns 50-60
-	TOWNS_OCC_ZOM_POOL_2 = [
-					["TOWNS_SQUAD_ZOMBIE1", 4, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 4, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 4, 99]
-	];
-	//Towns 60-80
-	TOWNS_OCC_ZOM_POOL_3 = [
-					["TOWNS_SQUAD_ZOMBIE1", 4, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 4, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 4, 99]
-	];
-	//Towns 80-100
-	TOWNS_OCC_ZOM_POOL_4 = [
-					["TOWNS_SQUAD_ZOMBIE1", 2, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 4, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 6, 99]
-	];
-	//Towns 100-120
-	TOWNS_OCC_ZOM_POOL_5 = [
-					["TOWNS_SQUAD_ZOMBIE1", 2, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 4, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 8, 99]
-	];
-	//Towns > 120
-	TOWNS_OCC_ZOM_POOL_6 = [
-					["TOWNS_SQUAD_ZOMBIE1", 2, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 4, 99],
-					["TOWNS_SQUAD_ZOMBIE1", 8, 99]
-	];
-
 
 //--- STATICS TOWNS ---------------------------------------------------
 

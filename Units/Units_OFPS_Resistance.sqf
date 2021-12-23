@@ -367,82 +367,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'RyanZombieboss15',
-	/*MenuName*/'',
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/0,
-	/*Price*/500,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/[""],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'RyanZombieB_Soldier_02_f',
-	/*MenuName*/'',
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/0,
-	/*Price*/300,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/[""],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'RyanZombieB_Soldier_02_fmedium',
-	/*MenuName*/'',
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/0,
-	/*Price*/200,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/[""],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'RyanZombieB_Soldier_02_fwalker',
-	/*MenuName*/'',
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/0,
-	/*Price*/150,
-	/*BuildTime*/5,
-	/*Distance*/0,
-	/*Camo*/[""],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'xmas_santa_ind',
 	/*MenuName*/'Father Christmas',
 	/*Location*/[CTI_BARRACKS],
@@ -458,7 +382,6 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
-
 
 //--------------------------------------------------------------------------------------------------------------
 

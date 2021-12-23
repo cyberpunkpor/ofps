@@ -749,17 +749,6 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/false,
 				/*Name*/'',
-				/*ClassName*/'B_UAV_06_Civilian_F',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
-				/*Price*/2000,
-				/*Camo*/[],
-				/*Type*/["UAV/UGV"]
-			];
-
-			_u pushBack [
-				/*Enabled*/false,
-				/*Name*/'',
 				/*ClassName*/'I_UAV_06_medical_Civilian_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/4,
