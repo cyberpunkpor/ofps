@@ -709,13 +709,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'xmas_santa_blufor',
 	/*MenuName*/'Father Christmas',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/4,
-	/*Price*/5000,
+	/*Price*/500,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Holiday'],
@@ -747,13 +747,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'jean_sleigh',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/5,
-	/*Price*/50000,
+	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Present Delivery'],
