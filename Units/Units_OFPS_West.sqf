@@ -747,7 +747,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'jean_sleigh',
 	/*MenuName*/'',

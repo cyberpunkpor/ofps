@@ -557,7 +557,7 @@ _u pushBack [
 //OPFOR needs a unique 'jean_sleigh' classname, causes warning in the .rpt when defined here using the same classname as in the WEST file.
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'jean_sleigh',
 	/*MenuName*/'',
