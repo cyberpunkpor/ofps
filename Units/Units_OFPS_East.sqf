@@ -403,25 +403,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'bwi_a3_at6b_4',
-	/*MenuName*/'AA TurboProp',
-	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/2,
-	/*Price*/20000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Attack Plane'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_AWC_AT_O',
@@ -555,26 +536,6 @@ _u pushBack [
 ];
 
 //OPFOR needs a unique 'jean_sleigh' classname, causes warning in the .rpt when defined here using the same classname as in the WEST file.
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'jean_sleigh',
-	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/5,
-	/*Price*/10000,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Present Delivery'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
-];
-
 
 //--------------------------------------------------------------------------------------------------------------
 
