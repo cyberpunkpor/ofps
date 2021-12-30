@@ -271,8 +271,8 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'LMG_Zafir_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
-				/*Price*/100,
+				/*UpgradeLevel*/3,
+				/*Price*/110,
 				/*Camo*/[],
 				/*Type*/["MMG"]
 			];
