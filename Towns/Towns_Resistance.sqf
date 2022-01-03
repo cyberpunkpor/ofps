@@ -432,6 +432,7 @@ if (CTI_OFPS_UNITS_ADDON > 0) then {
 	GUER_TOWN_AT = "OFPS_F_TITAN_AT_360_INDI";
 	GUER_TOWN_AA = "OFPS_F_TITAN_AA_360_INDI";
 	GUER_TOWN_IGLA = "OFPS_F_IGLA_AA_POD_INDI";
+	GUER_TOWN_M134 = "OFPS_F_M134_A_USMC_INDI";
 	GUER_TOWN_M134_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
