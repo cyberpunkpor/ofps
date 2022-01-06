@@ -130,7 +130,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS System
 	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[],[]], //--- ERA System
 	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
-	[[CTI_UPGRADE_LIGHT,4]], //--- Nuke and Arty
+	[[CTI_UPGRADE_HEAVY,4]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
 	[[],[],[],[]], //--- Base Health
 	[[],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Base Defense
