@@ -715,6 +715,28 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
+				/*ClassName*/'75Rnd_762x39_Mag_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/1,
+				/*Price*/37,
+				/*Camo*/[],
+				/*Type*/["Rifle"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'75Rnd_762x39_Mag_Tracer_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/1,
+				/*Price*/37,
+				/*Camo*/[],
+				/*Type*/["Rifle"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
 				/*ClassName*/'30Rnd_762x39_Mag_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
