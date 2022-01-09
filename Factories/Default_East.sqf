@@ -161,6 +161,7 @@ switch (CTI_FACTION_EAST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BTR90_HQ_RU"];
 		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["CUP_D_Male01_RU", "CUP_D_Male02_RU", "CUP_D_Male03_RU","CUP_D_Male04_RU","CUP_D_Male05_RU"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_O_RU_Officer_M_EMR_v2"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_O_RU_Soldier_M_EMR_v2"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier_M_EMR_v2"];
@@ -283,6 +284,7 @@ switch (CTI_FACTION_EAST) do {
 	//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BTR90_HQ_RU"];
 		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["CUP_D_Male01_RU", "CUP_D_Male02_RU", "CUP_D_Male03_RU","CUP_D_Male04_RU","CUP_D_Male05_RU"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_O_RU_Officer"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_O_RU_Soldier_Ratnik_Winter"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier_Ratnik_Winter"];
@@ -364,6 +366,7 @@ switch (CTI_FACTION_EAST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "O_T_APC_Wheeled_02_rcws_ghex_F"];
 		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["Male01RUS", "Male02RUS", "Male03RUS"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "O_R_recon_TL_F"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "O_R_Gorka_camo_F"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "O_T_Diver_F"];
@@ -429,6 +432,7 @@ switch (CTI_FACTION_EAST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BTR90_HQ_RU"];
 		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers", _side], ["CUP_D_Male01_RU", "CUP_D_Male02_RU", "CUP_D_Male03_RU","CUP_D_Male04_RU","CUP_D_Male05_RU"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_O_RU_Officer_M_BeigeDigital"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_O_RU_Soldier_M_BeigeDigital"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_O_RU_Soldier_M_BeigeDigital"];

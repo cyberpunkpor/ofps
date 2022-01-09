@@ -82,7 +82,7 @@ switch (CTI_FACTION_WEST) do {
 			]]
 		]];
 	};
-	case 1: { //NATO Pacific APEX (jungle)
+	case 1: { //NATO Pacific APEX (Jungle)
 		
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_T_APC_Wheeled_01_cannon_F"];
@@ -368,7 +368,7 @@ switch (CTI_FACTION_WEST) do {
 	case 6: { //IFA3
 
 	};
-	case 7: { //NATO Livonia Contact (woodland)
+	case 7: { //NATO Livonia Contact (Woodland)
 		
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_T_APC_Wheeled_01_cannon_F"];
