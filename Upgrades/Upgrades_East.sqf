@@ -128,7 +128,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[CTI_UPGRADE_HEAVY,4]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
 	[[],[],[],[]], //--- Base Health
-	[[],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Base Defense
+	[[],[],[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_NUKE, 1]], //--- Base Defense
 	[[],[],[]], //--- Jamming Types
 	[[],[],[],[]] //--- Jamming Range
 ]];
@@ -226,7 +226,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 0</t> - Group limit 3 skill 60% <br />
 	<t color='#ffff00'>LVL 1</t> - Group limit 4 skill 65% <br />
 	<t color='#ffff00'>LVL 2</t> - Group limit 5 skill 70% | Medikit | LockPick 1<br />
-	<t color='#ffff00'>LVL 3</t> - Group limit 6 skill 75% | LockPick 2 | Explosives skill<br />
+	<t color='#ffff00'>LVL 3</t> - Group limit 6 skill 75% | LockPick 2 | Unlocks Base Defense 3 | Explosives skill<br />
 	<t color='#ffff00'>LVL 4</t> - Group limit 7 skill 80% | LockPick 3 <br/>
 	<t color='#ffff00'>LVL 5</t> - Group limit 8 skill 85% | LockPick 3 <br />
 	<t color='#ffff00'>LVL 6</t> - Group limit 9 skill 90% | LockPick 4 | UAV hacker <br />"], //--- Barracks
