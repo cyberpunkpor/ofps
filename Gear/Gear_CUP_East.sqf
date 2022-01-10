@@ -152,7 +152,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'CUP_smg_SA61',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/1,
-			/*Price*/150,
+			/*Price*/6,
 			/*Camo*/[],
 			/*Type*/["Machine Pistol"]
 		];  
