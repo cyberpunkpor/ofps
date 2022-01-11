@@ -149,14 +149,6 @@ _u pushBack [
 	/*ClassName*/'OFPS_weapon_s750Launcher',
 	/*MaxMags*/1
 ];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'ofps_torpedo45',
-	/*MaxMags*/4
-];
-
 //--- Naval --------------------------
 
 _u pushBack [
@@ -211,13 +203,6 @@ _u pushBack [
 //--- Pylons --------------------------
 
 //--- Other --------------------------
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'rkb_kraftStrahlKanone',
-	/*MaxMags*/20
-];
-
 
 
 

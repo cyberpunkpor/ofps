@@ -287,30 +287,6 @@ _u pushBack [
 
 //--- Other --------------------------
 
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
-	/*ClassName*/'rkb_ksk_ap',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/0,
-	/*Price*/1,
-	/*RearmTime*/1,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
-	/*ClassName*/'rkb_ksk_he',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/0,
-	/*Price*/1,
-	/*RearmTime*/1,
-	/*Filters*/[]
-];
-
 
 
 //--------------------------------------------------------------------------------------------------------------

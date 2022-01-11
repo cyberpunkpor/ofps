@@ -243,19 +243,6 @@ _u pushBack [
 	/*Filters*/[]
 ];
 
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*Type*/'Air',
-	/*ClassName*/'OFPS_rbs97_mag',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/0,
-	/*Price*/1,
-	/*RearmTime*/1,
-	/*Filters*/[]
-];
-
-
 //--- AIR ------------------------------------------------------------
 
 _u pushBack [
