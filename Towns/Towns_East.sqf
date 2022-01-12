@@ -2516,10 +2516,12 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 9) then {
 //--------------------------------------------------------------------------------------------
 /*
 //--- Town statics usage
-Place VR marker = VR_GroundIcon_01_F
-inside init place | this setVariable ["cti_static_defense", [TOWNVAR,"Default"]]; //tp use static pools
-inside init place | this setVariable ["cti_static_defense", [TOWNVAR,["TOWN_MG"]]; //to set specific
-inside init place | this setVariable ["cti_static_defense", [TOWNVAR,["TOWN_MG","TOWN_GL"]]; //to set specific
+Place VR marker = "VR_GroundIcon_01_F"
+Link marker to City Logic
+Empty init is also supported! Will default to "Default"
+inside init place | this setVariable ["cti_static_defense", "Default"]; //to use static pools, only one supported!
+inside init place | this setVariable ["cti_static_defense", ["TOWN_MG"]]; //to set specific
+inside init place | this setVariable ["cti_static_defense", ["TOWN_MG","TOWN_GL"]]; //to set random
 
 --- Options for static types
 "Default" = EAST_TOWNS_STATICS_CORE
