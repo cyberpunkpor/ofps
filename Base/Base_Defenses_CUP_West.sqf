@@ -459,7 +459,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'D-30 AT (3.5K)',
 	/*Class*/"CUP_B_D30_AT_CDF",
-	/*Price*/4000,
+	/*Price*/9000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ", "RepairTruck"],

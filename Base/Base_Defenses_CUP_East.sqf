@@ -475,7 +475,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'D-30 AT',
 	/*Class*/"CUP_O_D30_AT_RU",
-	/*Price*/4000,
+	/*Price*/9000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ", "RepairTruck"],
