@@ -178,7 +178,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_B_Truck_03_device_F',
-	/*MenuName*/'Nuke Truck (2.5km destruction radius)',
+	/*MenuName*/'Nuke Truck',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
 	/*Price*/150000,
