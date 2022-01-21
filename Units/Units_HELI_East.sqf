@@ -296,7 +296,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/8500,
 	/*BuildTime*/30,
-	/*Distance*/1,
+	/*Distance*/10,
 	/*Camo*/['Desert'],
 	/*Type*/['Logistics Helicopter'],
 	/*Ammmo*/true,
