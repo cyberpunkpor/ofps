@@ -7775,7 +7775,7 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'CUP_NVG_PVS15_winter',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
+			/*UpgradeLevel*/3,
 			/*Price*/200,
 			/*Camo*/[],
 			/*Type*/["NVG"]
