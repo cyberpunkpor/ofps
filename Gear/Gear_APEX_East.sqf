@@ -926,7 +926,7 @@ _u = []; //Gear Classname
 
 		_u pushBack [
 			/*Enabled*/true,
-			/*Name*/'',
+			/*Name*/'Compact NVG (Urban/Winter)',
 			/*ClassName*/'O_NVGoggles_urb_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,

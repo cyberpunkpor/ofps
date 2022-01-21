@@ -3232,50 +3232,6 @@ _u = []; //Gear Classname
 			/*Type*/["NVG"]
 		];
 
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_NVG_PVS15_black',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/200,
-			/*Camo*/[],
-			/*Type*/["NVG"]
-		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_NVG_PVS15_green',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/200,
-			/*Camo*/[],
-			/*Type*/["NVG"]
-		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_NVG_PVS15_tan',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/200,
-			/*Camo*/[],
-			/*Type*/["NVG"]
-		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_NVG_PVS15_winter',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/200,
-			/*Camo*/[],
-			/*Type*/["NVG"]
-		];
-
   //ENVGs (Night Vision and Thermal)
   
   //Binoculars and Range finders
