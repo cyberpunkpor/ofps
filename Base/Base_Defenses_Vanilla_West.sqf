@@ -1259,7 +1259,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Infantry Spawn Pad',
-	/*Class*/"Land_MobileLandingPlatform_01_F",
+	/*Class*/"Land_PedestrianCrossing_01_6m_6str_F",
 	/*Price*/100,
 	/*Placement*/[0, 7],
 	/*Tags*/["Markers"],
