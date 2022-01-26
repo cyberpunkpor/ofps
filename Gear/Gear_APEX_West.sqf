@@ -1147,7 +1147,7 @@ _u = []; //Gear Classname
   //Vests
 	
 		_u pushBack [
-			/*Enabled*/true,
+			/*Enabled*/false,
 			/*Name*/'',
 			/*ClassName*/'V_TacChestrig_cbr_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
@@ -1158,7 +1158,7 @@ _u = []; //Gear Classname
 		];
 
 		_u pushBack [
-			/*Enabled*/true,
+			/*Enabled*/false,
 			/*Name*/'',
 			/*ClassName*/'V_TacChestrig_grn_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
@@ -1169,7 +1169,7 @@ _u = []; //Gear Classname
 		];
 
 		_u pushBack [
-			/*Enabled*/true,
+			/*Enabled*/false,
 			/*Name*/'',
 			/*ClassName*/'V_TacChestrig_oli_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
@@ -1191,7 +1191,7 @@ _u = []; //Gear Classname
 		];
 
 		_u pushBack [
-			/*Enabled*/true,
+			/*Enabled*/false,
 			/*Name*/'',
 			/*ClassName*/'V_PlateCarrier1_rgr_noflag_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
@@ -1213,7 +1213,7 @@ _u = []; //Gear Classname
 		];
 
 		_u pushBack [
-			/*Enabled*/true,
+			/*Enabled*/false,
 			/*Name*/'',
 			/*ClassName*/'V_PlateCarrier2_rgr_noflag_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
