@@ -320,10 +320,10 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'srifle_GM6_ghex_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/6,
-			/*Price*/3000,
+			/*UpgradeLevel*/4,
+			/*Price*/850,
 			/*Camo*/[],
-			/*Type*/["Special"]
+			/*Type*/["Sniper"]
 		];			
  
   //Grenade Launcher
