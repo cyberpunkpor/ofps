@@ -4416,8 +4416,8 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_RUS_Balaclava_grn',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/0,
+				/*UpgradeLevel*/2,
+				/*Price*/5,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
 			];
@@ -4427,8 +4427,8 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_RUS_Balaclava_emr',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/0,
+				/*UpgradeLevel*/2,
+				/*Price*/5,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
 			];
@@ -4438,8 +4438,8 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_RUS_Balaclava_Tan',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/0,
+				/*UpgradeLevel*/2,
+				/*Price*/5,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
 			];
@@ -4449,19 +4449,19 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_G_RUS_Balaclava_Ratnik',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/0,
+				/*UpgradeLevel*/2,
+				/*Price*/5,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'CUP_G_RUS_Balaclava_Ratnik_Winter',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/0,
+				/*UpgradeLevel*/2,
+				/*Price*/5,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
 			];
@@ -4471,8 +4471,8 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_G_RUS_Balaclava_Ratnik_Winter_v2',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/0,
+				/*UpgradeLevel*/2,
+				/*Price*/5,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
 			];
@@ -4515,7 +4515,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_PMC_Facewrap_Black',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
+				/*UpgradeLevel*/1,
 				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
@@ -4526,7 +4526,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_PMC_Facewrap_Ranger',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
+				/*UpgradeLevel*/1,
 				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
@@ -4537,7 +4537,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_PMC_Facewrap_Red',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
+				/*UpgradeLevel*/1,
 				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
@@ -4559,7 +4559,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_PMC_Facewrap_Winter',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
+				/*UpgradeLevel*/1,
 				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
@@ -4570,7 +4570,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_PMC_Facewrap_Tropical',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
+				/*UpgradeLevel*/1,
 				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
@@ -4581,7 +4581,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_PMC_Facewrap_Tan',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
+				/*UpgradeLevel*/1,
 				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Facewear"]
