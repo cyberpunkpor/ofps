@@ -1,7 +1,7 @@
 private ["_side", "_u"];
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male03_RU", "CUP_D_Female01_RU"]];
+missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male03_RU", "Male01RUS","Male02RUS","Male03RUS"]];
 
 switch (CTI_FACTION_EAST) do {
 	case 0: { //CSAT Vanilla (arid)

@@ -1,7 +1,7 @@
 private ["_side", "_u"];
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN", "CUP_D_Female01_EN"]];
+missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN", "Male01ENGB","Male02ENGB","Male03ENGB","Male04ENGB","Male05ENGB"]];
 
 switch (CTI_FACTION_WEST) do {
 	case 0: { //NATO Vanilla (arid)
@@ -165,6 +165,7 @@ switch (CTI_FACTION_WEST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_LAV25_HQ_desert_USMC"];
 		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male01_EN","CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_B_USMC_Officer_des"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_B_USMC_Soldier_des"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_B_USMC_Soldier_des"];
@@ -290,6 +291,7 @@ switch (CTI_FACTION_WEST) do {
 	//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_LAV25_HQ_USMC"];
 		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male01_EN","CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_B_USMC_Officer"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_B_USMC_Soldier"];
@@ -453,6 +455,7 @@ switch (CTI_FACTION_WEST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_LAV25_HQ_USMC"];
 		//Set Infantry
+		missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male01_EN","CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_B_USMC_Officer"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_B_USMC_Soldier"];
