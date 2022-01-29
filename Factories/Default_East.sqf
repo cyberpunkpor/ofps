@@ -390,7 +390,7 @@ switch (CTI_FACTION_EAST) do {
 		//Sidearm
 		["hgun_rook40_f",["","","",""],["30rnd_9x21_mag"]]],
         //Uniform
-		[["U_O_T_Officer_F",["firstaidkit","firstaidkit","handgrenade","handgrenade"]],
+		[["cup_u_o_rus_emr_gloves_pads",["firstaidkit","firstaidkit","handgrenade","handgrenade"]],
         //Vest
 		["V_BandollierB_rgr",["30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag"]],
 		//Backpack
