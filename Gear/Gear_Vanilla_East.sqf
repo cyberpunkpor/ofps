@@ -2172,7 +2172,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'V_TacVestIR_blk',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/60,
+			/*Price*/50,
 			/*Camo*/[],
 			/*Type*/["Vest"]
 		];
