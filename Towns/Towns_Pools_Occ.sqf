@@ -283,8 +283,8 @@ with missionNamespace do {
 				["TOWNS_SQUAD_MEDIUM_ASSAULT_BOAT", 2, 99],
 				["TOWNS_SQUAD_LARGE_ASSAULT_BOAT", 1, 99],
 				["TOWNS_SQUAD_CAPITAL_ASSAULT_BOAT", 1, 99],
-				["TOWNS_SQUAD_AIR1", 2, 60],
-				["TOWNS_SQUAD_AIR2", 2, 50]
+				["TOWNS_SQUAD_AIR1", 2, 70],
+				["TOWNS_SQUAD_AIR2", 2, 80]
 	];
 	//Towns > 120
 	TOWNS_OCC_NAVAL_POOL_6 = [
@@ -293,8 +293,8 @@ with missionNamespace do {
 				["TOWNS_SQUAD_MEDIUM_ASSAULT_BOAT", 3, 99],
 				["TOWNS_SQUAD_LARGE_ASSAULT_BOAT", 2, 99],
 				["TOWNS_SQUAD_CAPITAL_ASSAULT_BOAT", 1, 99],
-				["TOWNS_SQUAD_AIR1", 3, 70],
-				["TOWNS_SQUAD_AIR2", 2, 60]
+				["TOWNS_SQUAD_AIR1", 3, 90],
+				["TOWNS_SQUAD_AIR2", 2, 95]
 	];
 
 //--- STATICS TOWNS ---------------------------------------------------
