@@ -704,22 +704,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Base Bunker 9000 (CRAM/AT/AA/GL)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","base_bunker_9000_west",0]]],
-	/*Price*/80000,
-	/*Placement*/[0, 10],
-	/*Tags*/["Templates"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[["All", 20]],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'H-Barrier x3',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","hbarrier_3",2]]],

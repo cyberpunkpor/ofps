@@ -217,22 +217,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Mk45 Advanced Cannon Elevated Ultra-High',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_ultra_high_west",2]]],
-	/*Price*/60000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[["All", 15]],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (4km)',
 	/*Class*/"OFPS_CENTURION_B_4KM",
@@ -282,38 +266,6 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
-	/*Name*/'Mk21 Centurion (6km) Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","6km_centurion_tower_tall_west",2]]],
-	/*Price*/55000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[["All", 15]],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Mk21 Centurion (6km) Elevated Ultra-High',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","6km_centurion_ultra_high_west",2]]],
-	/*Price*/60000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[["All", 15]],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion (8km)',
 	/*Class*/"OFPS_CENTURION_B_8KM",
 	/*Price*/60000,
@@ -339,22 +291,6 @@ _u pushBack [
 	/*Blacklist*/[],
 	/*Upgrade*/2,
 	/*MaxCount*/2,
-	/*Cooldown*/300,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/false, //Broken needs rebuild cent knocks itself off tower during traversal and kills itself
-	/*Name*/'Coastal Centurion Fortified (Anti Naval)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_coastal_fortified_west",2]]],
-	/*Price*/80000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/2,
-	/*MaxCount*/1,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
 	/*Specials*/[]
@@ -436,22 +372,6 @@ _u pushBack [
 	/*Upgrade*/2,
 	/*MaxCount*/1,
 	/*Cooldown*/600,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'AA/AT Titan Tower Ultra-High (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","aaat_titan_ultra_high_west",2]]],
-	/*Price*/26000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[["All", 15]],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];

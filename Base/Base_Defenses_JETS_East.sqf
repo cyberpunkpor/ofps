@@ -201,22 +201,6 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
-	/*Name*/'S-750 Rhea Elevated Ultra-High',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","s750_ultra_high",2]]],
-	/*Price*/105000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[["All", 15]],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/false,
 	/*Name*/'S-750 Rhea Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_east",2]]],
 	/*Price*/100000,
@@ -250,24 +234,8 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","r750_tower_tall",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","r750_tower_tall_east",2]]],
 	/*Price*/13000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[["All", 15]],
-	/*Upgrade*/3,
-	/*MaxCount*/1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Radar Unit Tower Ultra-High',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","r750_ultra_high",2]]],
-	/*Price*/18000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],

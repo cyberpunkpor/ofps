@@ -841,22 +841,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'C-RAM (1.5km) Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","cram_tower_tall",2]]],
-	/*Price*/15000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Type 072A UAV Turret (1.5km) Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","type072_tower_tall_west",2]]],

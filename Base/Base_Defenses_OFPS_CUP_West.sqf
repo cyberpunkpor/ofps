@@ -103,23 +103,6 @@ _u = []; //Defense Classname
 
 //--------------------------------------------------------------------------------------------------------------
 
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Cram Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","cram_fortified_west",2]]],
-	/*Price*/50500,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'D-30 (Multipurpose)',

@@ -201,22 +201,6 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
-	/*Name*/'Mk21 Centurion Elevated Ultra-High',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_ultra_high_west",2]]],
-	/*Price*/110000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[["All", 15]],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender',
 	/*Class*/"B_SAM_System_03_F",
 	/*Price*/100000,
@@ -236,22 +220,6 @@ _u pushBack [
 	/*Name*/'MIM-145 Defender Elevated',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mim145_tower_tall",2]]],
 	/*Price*/105000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[["All", 15]],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'MIM-145 Defender Elevated Ultra-High',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mim145_ultra_high",2]]],
-	/*Price*/110000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -314,24 +282,8 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","anmpq105_tower_tall",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","anmpq105_tower_tall_west",2]]],
 	/*Price*/13000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[["All", 15]],
-	/*Upgrade*/3,
-	/*MaxCount*/1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Radar Unit Tower Ultra-High',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","anmpq105_ultra_high",2]]],
-	/*Price*/18000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
