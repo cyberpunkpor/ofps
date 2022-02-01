@@ -682,7 +682,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Bravo Armed (Mg)',
+	/*Name*/'Bravo Armed',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","template_bravo_armed_east",0]]],
 	/*Price*/7000,
 	/*Placement*/[0, 5],
