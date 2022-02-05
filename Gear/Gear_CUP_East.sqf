@@ -3643,7 +3643,7 @@ _u = []; //Gear Classname
   //Vests
 
 		_u pushBack [
-			/*Enabled*/false,
+			/*Enabled*/true,
 			/*Name*/'',
 			/*ClassName*/'CUP_V_RUS_6B45_1_BeigeDigital',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
