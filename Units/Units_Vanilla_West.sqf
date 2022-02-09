@@ -157,13 +157,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_RangeMaster_F',
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/400,
+	/*Price*/15,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['MTP'],
@@ -201,7 +201,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"default",3,"logistics",1]],
 	/*UpgradeLevel*/3,
-	/*Price*/80,
+	/*Price*/330,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['MTP'],
@@ -220,7 +220,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"default",3,"logistics",1]],
 	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*Price*/450,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['MTP'],
@@ -277,7 +277,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",3,"logistics",1],[CTI_LARGE_FOB,"default",3,"logistics",1]],
 	/*UpgradeLevel*/3,
-	/*Price*/175,
+	/*Price*/425,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/['MTP'],
@@ -334,7 +334,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/100,
+	/*Price*/350,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['MTP'],
@@ -372,7 +372,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/50,
+	/*Price*/250,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -499,13 +499,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_Competitor_F',
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/450,
+	/*Price*/20,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -521,10 +521,10 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_Pilot_F',
-	/*MenuName*/['%1 (Arid)'],
+	/*MenuName*/[],
 	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"default",3,"logistics",1]],
-	/*UpgradeLevel*/3,
-	/*Price*/250,
+	/*UpgradeLevel*/4,
+	/*Price*/1805,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -543,7 +543,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"default",3,"logistics",1]],
 	/*UpgradeLevel*/3,
-	/*Price*/150,
+	/*Price*/250,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -600,7 +600,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/400,
+	/*Price*/10,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['MTP'],
@@ -619,7 +619,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Arid)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/10,
+	/*Price*/20,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['MTP'],
@@ -784,13 +784,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Soldier_F',
 	/*MenuName*/['%1 (FIA)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/500,
+	/*Price*/240,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -803,7 +803,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Soldier_lite_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -822,7 +822,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Soldier_SL_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -841,7 +841,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Soldier_TL_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -860,7 +860,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Soldier_AR_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -917,7 +917,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Soldier_exp_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -936,7 +936,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Soldier_GL_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -955,13 +955,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Soldier_M_F',
 	/*MenuName*/['%1 (FIA)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/500,
+	/*Price*/300,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -993,7 +993,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Soldier_A_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -1031,13 +1031,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Soldier_unarmed_F',
 	/*MenuName*/['%1 (FIA)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*Price*/10,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -1056,7 +1056,7 @@ _u pushBack [
 	/*MenuName*/['%1 (FIA)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/150,
+	/*Price*/10,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -1069,7 +1069,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'I_G_Story_Protagonist_F',
 	/*MenuName*/['%1 (FIA)'],
