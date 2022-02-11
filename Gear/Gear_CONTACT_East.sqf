@@ -139,12 +139,34 @@ _u = []; //Gear Classname
 		];
 
 		_u pushBack [
-			/*Enabled*/true,
+			/*Enabled*/false,
 			/*Name*/'',
-			/*ClassName*/'30Rnd_762x39_AK12_Mag_F',
+			/*ClassName*/'arifle_AK12_lush_arco_pointer_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/1,
-			/*Price*/15,
+			/*UpgradeLevel*/3,
+			/*Price*/20,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_AK12U_lush_holo_pointer_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/2,
+			/*Price*/20,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_AK12_lush_arco_snds_pointer_bipod_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/220,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
 		];
@@ -204,7 +226,29 @@ _u = []; //Gear Classname
 			/*Price*/40,
 			/*Camo*/[],
 			/*Type*/["Rifle-GL"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_AK12_GL_lush_holo_snds_pointer_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/4,
+			/*Price*/240,
+			/*Camo*/[],
+			/*Type*/["Rifle-GL"]
 		];  
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_AK12_GL_lush_arco_pointer_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/4,
+			/*Price*/40,
+			/*Camo*/[],
+			/*Type*/["Rifle-GL"]
+		];   
 
   //MGs
   
@@ -242,10 +286,32 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["LMG"]
 			];
+
+			_u pushBack [
+				/*Enabled*/false,
+				/*Name*/'',
+				/*ClassName*/'arifle_RPK12_lush_arco_snds_pointer_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/3,
+				/*Price*/45,
+				/*Camo*/[],
+				/*Type*/["LMG"]
+			];
     
     //MMGs (Ammo larger than 5.56)
   
   //DMRs
+
+	_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'srifle_DMR_04_DMS_weathered_Kir_F_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/2,
+			/*Price*/20,
+			/*Camo*/[],
+			/*Type*/["DMR"]
+		];
   
   //Snipers
   
@@ -436,6 +502,17 @@ _u = []; //Gear Classname
     //SMGs
     
     //Rifles (Rifles w/ Nade Launcher uses same Ammo)
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'30Rnd_762x39_AK12_Mag_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/1,
+				/*Price*/15,
+				/*Camo*/[],
+				/*Type*/["Rifle"]
+			];
 
 			_u pushBack [
 				/*Enabled*/true,
