@@ -214,7 +214,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_Engineer_Sapper',
 	/*MenuName*/['%1 (ACU)'],
@@ -252,7 +252,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_AHAT',
 	/*MenuName*/['%1 (ACU)'],
@@ -271,7 +271,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_AAT',
 	/*MenuName*/['%1 (ACU)'],
@@ -290,7 +290,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_AAR',
 	/*MenuName*/['%1 (ACU)'],
@@ -309,7 +309,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_AMG',
 	/*MenuName*/['%1 (ACU)'],
@@ -366,7 +366,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Engineer',
 	/*MenuName*/['%1 (ACU)'],
@@ -385,7 +385,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_Engineer_EOD',
 	/*MenuName*/['%1 (ACU)'],
@@ -518,7 +518,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Spotter',
 	/*MenuName*/['%1 (ACU)'],
@@ -556,7 +556,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Officer',
 	/*MenuName*/['%1 (ACU)'],
@@ -651,7 +651,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Spotter',
 	/*MenuName*/['%1 (ACU)'],
@@ -670,7 +670,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_SL',
 	/*MenuName*/['%1 (ACU)'],
@@ -689,7 +689,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_TL',
 	/*MenuName*/['%1 (ACU)'],
@@ -746,7 +746,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_SpecOps_JTAC',
 	/*MenuName*/'US Army SF SpecOps (MK17)',
@@ -917,7 +917,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_SpecOps_TL',
 	/*MenuName*/'US Army SF Soldier (M17)',
@@ -936,7 +936,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_SpecOps_UAV',
 	/*MenuName*/'US Army SF Soldier (UAV)',
@@ -1050,7 +1050,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Engineer',
 	/*MenuName*/['%1 (Woodland)'],
@@ -1202,7 +1202,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_TL',
 	/*MenuName*/['%1 (Woodland)'],
@@ -1221,7 +1221,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Officer',
 	/*MenuName*/['%1 (Woodland)'],
@@ -1335,7 +1335,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_SL',
 	/*MenuName*/['%1 (Woodland)'],
@@ -1354,7 +1354,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_UAV',
 	/*MenuName*/['%1 (Woodland)'],
@@ -1449,7 +1449,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Engineer_FROG_WDL',
 	/*MenuName*/'USMC Soldier (M4A1)',
@@ -1468,7 +1468,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_TL_FROG_WDL',
 	/*MenuName*/'USMC Soldier (M16A4 - M203)',
@@ -1658,7 +1658,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_SL_FROG_WDL',
 	/*MenuName*/'USMC Soldier (M16A4)',
@@ -1677,7 +1677,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_UAV_FROG_WDL',
 	/*MenuName*/'USMC Soldier (UAV)',
@@ -1753,7 +1753,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Officer_FROG_WDL',
 	/*MenuName*/'USMC Officer (M4A1)',
@@ -1867,7 +1867,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Engineer_FROG_DES',
 	/*MenuName*/'USMC Engineer (M4A1)',
@@ -1886,7 +1886,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_TL_FROG_DES',
 	/*MenuName*/'USMC Soldier (M16A4 M203)',
@@ -2038,7 +2038,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Officer_FROG_DES',
 	/*MenuName*/'USMC Officer (M4A1)',
@@ -2095,7 +2095,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_SL_FROG_DES',
 	/*MenuName*/'USMC Soldier (M14A4)',
@@ -2114,7 +2114,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_UAV_FROG_DES',
 	/*MenuName*/'USMC Soldier (UAV)',
@@ -2665,7 +2665,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Soldier_Exp_DES',
 	/*MenuName*/'BFR Soldier (M4A1)',
@@ -2874,7 +2874,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Soldier_TL_DES',
 	/*MenuName*/'BFR Soldier (M4A1 M203)',
@@ -2893,7 +2893,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Soldier_UAV_DES',
 	/*MenuName*/'BFR Soldier (UAV)',
@@ -3007,7 +3007,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Soldier_Exp',
 	/*MenuName*/'BFR Soldier (M4A1)',
@@ -3216,7 +3216,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Soldier_TL',
 	/*MenuName*/'BFR Soldier (M4A1 M203)',
@@ -3235,7 +3235,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Soldier_UAV',
 	/*MenuName*/'BFR Soldier (UAV)',

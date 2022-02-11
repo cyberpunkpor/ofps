@@ -335,6 +335,50 @@ _u = []; //Gear Classname
 			/*Camo*/[],
 			/*Type*/["Rifle"]
 		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_ACO_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/1,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_ACO_pointer_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/1,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_Hamr_pointer_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/1,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_ACO_pointer_snds_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/1,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
   
   //Rifles w/ Nade Launcher
 	
@@ -392,6 +436,39 @@ _u = []; //Gear Classname
 			/*Camo*/[],
 			/*Type*/["Rifle-GL"]
 		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_GL_ACO_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/30,
+			/*Camo*/[],
+			/*Type*/["Rifle-GL"]
+		];
+		
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_GL_Hamr_pointer_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/30,
+			/*Camo*/[],
+			/*Type*/["Rifle-GL"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_GL_Holo_pointer_snds_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/30,
+			/*Camo*/[],
+			/*Type*/["Rifle-GL"]
+		];
   
   //MGs
   
@@ -412,6 +489,17 @@ _u = []; //Gear Classname
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'arifle_MX_SW_F',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/3,
+				/*Price*/90,
+				/*Camo*/[],
+				/*Type*/["LMG"]
+			];
+
+			_u pushBack [
+				/*Enabled*/false,
+				/*Name*/'',
+				/*ClassName*/'arifle_MX_SW_pointer_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
 				/*Price*/90,
@@ -457,6 +545,17 @@ _u = []; //Gear Classname
 		];
 
 		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MXM_Hamr_LP_BI_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/30,
+			/*Camo*/[],
+			/*Type*/["DMR"]
+		];
+
+		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
 			/*ClassName*/'srifle_EBR_F',
@@ -484,6 +583,17 @@ _u = []; //Gear Classname
 			/*Enabled*/true,
 			/*Name*/'',
 			/*ClassName*/'srifle_LRR_camo_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/5,
+			/*Price*/2000,
+			/*Camo*/[],
+			/*Type*/["Sniper"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'srifle_LRR_camo_LRPS_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/5,
 			/*Price*/2000,

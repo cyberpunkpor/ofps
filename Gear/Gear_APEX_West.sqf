@@ -159,7 +159,40 @@ _u = []; //Gear Classname
 			/*Camo*/[],
 			/*Type*/["Rifle"]
 		];
-  
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_khk_ACO_Pointer_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/0,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_khk_ACO_Pointer_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/0,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MXC_khk_Holo_Pointer_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/0,
+			/*Camo*/[],
+			/*Type*/["Rifle"]
+		];
+
   //Rifles w/ Nade Launcher
 	
 		_u pushBack [
@@ -202,6 +235,28 @@ _u = []; //Gear Classname
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/4,
 			/*Price*/60,
+			/*Camo*/[],
+			/*Type*/["Rifle-GL"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_GL_khk_Hamr_Pointer_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/30,
+			/*Camo*/[],
+			/*Type*/["Rifle-GL"]
+		];
+
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MX_GL_khk_ACO_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/30,
 			/*Camo*/[],
 			/*Type*/["Rifle-GL"]
 		];
@@ -268,7 +323,18 @@ _u = []; //Gear Classname
     //MMGs (Ammo larger than 5.56)
   
   //DMRs
-	
+		
+		_u pushBack [
+			/*Enabled*/false,
+			/*Name*/'',
+			/*ClassName*/'arifle_MXM_khk_MOS_Pointer_Bipod_F',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/3,
+			/*Price*/30,
+			/*Camo*/[],
+			/*Type*/["DMR"]
+		];
+
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',

@@ -214,7 +214,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Engineer_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -233,7 +233,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Soldier_Exp_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -328,7 +328,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Officer_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -347,7 +347,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Soldier_TL_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -366,7 +366,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Soldier_SL_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -461,7 +461,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_soldier_UAV_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -480,7 +480,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Soldier_AAR_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -499,7 +499,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Support_AMG_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -537,7 +537,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Soldier_AAA_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -556,7 +556,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Soldier_AAT_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -575,7 +575,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Support_GMG_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -594,7 +594,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Support_MG_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -689,7 +689,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Diver_TL_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -708,7 +708,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Diver_Exp_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -746,7 +746,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Recon_Exp_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -765,7 +765,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Recon_JTAC_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -841,7 +841,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Recon_TL_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -898,7 +898,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Spotter_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -936,7 +936,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_V_Soldier_TL_hex_F',
 	/*MenuName*/['%1 (Viper)'],
@@ -955,7 +955,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_V_Soldier_Exp_hex_F',
 	/*MenuName*/['%1 (Viper)'],
@@ -1031,7 +1031,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_V_Soldier_JTAC_hex_F',
 	/*MenuName*/['%1 (Viper)'],
@@ -1050,7 +1050,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_V_Soldier_Exp_ghex_F',
 	/*MenuName*/['%1 (Pacific Viper)'],
@@ -1069,7 +1069,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_V_Soldier_JTAC_ghex_F',
 	/*MenuName*/['%1 (Pacific Viper)'],
@@ -1164,7 +1164,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_V_Soldier_TL_ghex_F',
 	/*MenuName*/['%1 (Pacific Viper)'],

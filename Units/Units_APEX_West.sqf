@@ -214,7 +214,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Engineer_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -233,7 +233,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Soldier_Exp_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -328,7 +328,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Officer_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -347,7 +347,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Soldier_TL_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -366,7 +366,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Soldier_SL_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -461,7 +461,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_soldier_UAV_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -480,7 +480,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Soldier_AAR_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -499,7 +499,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Support_AMG_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -537,7 +537,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Soldier_AAA_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -556,7 +556,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Soldier_AAT_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -575,7 +575,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Support_GMG_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -594,7 +594,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Support_MG_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -689,7 +689,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Diver_TL_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -708,7 +708,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Recon_Exp_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -727,7 +727,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Recon_JTAC_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -803,7 +803,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Recon_TL_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -860,7 +860,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Spotter_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -879,7 +879,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Diver_Exp_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -936,7 +936,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_GEN_Commander_F',
 	/*MenuName*/['%1 (Gendarmerie)'],
@@ -974,7 +974,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_CTRG_Soldier_Exp_tna_F',
 	/*MenuName*/['%1 (CTRG Thermal Masking)'],
@@ -993,7 +993,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_CTRG_Soldier_JTAC_tna_F',
 	/*MenuName*/['%1 (CTRG Thermal Masking)'],
@@ -1088,7 +1088,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_CTRG_Soldier_TL_tna_F',
 	/*MenuName*/['%1 (CTRG Thermal Masking)'],

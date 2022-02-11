@@ -117,7 +117,7 @@ _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_R_Soldier_TL_F',
 	/*MenuName*/['%1 (Contact Spetsnaz)'],
@@ -174,7 +174,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_R_JTAC_F',
 	/*MenuName*/['%1 (Contact Spetsnaz)'],
@@ -231,7 +231,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_R_Soldier_exp_F',
 	/*MenuName*/['%1 (Contact Spetsnaz)'],
@@ -269,7 +269,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_R_recon_TL_F',
 	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],
@@ -345,7 +345,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_R_recon_JTAC_F',
 	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],
@@ -383,7 +383,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_R_recon_exp_F',
 	/*MenuName*/['%1 (Contact Recon-Spetsnaz)'],

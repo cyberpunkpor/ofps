@@ -460,7 +460,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Spotter_VDV_EMR',
 	/*MenuName*/['Airborne %1 (EMR)'],
@@ -669,7 +669,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_TL_M_BeigeDigital',
 	/*MenuName*/['%1 (Desert)'],
@@ -688,7 +688,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_TL_M_EMR_v2',
 	/*MenuName*/['%1 (EMR)'],
@@ -707,7 +707,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_TL_VDV_EMR',
 	/*MenuName*/['Airborne %1 (EMR)'],
@@ -1068,7 +1068,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Spotter_VDV',
 	/*MenuName*/['Airborne %1 (Flora)'],
@@ -1144,7 +1144,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_SL_M_BeigeDigital',
 	/*MenuName*/['%1 (Desert)'],
@@ -1163,7 +1163,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_SL_M_EMR_v2',
 	/*MenuName*/['%1 (EMR)'],
@@ -1182,7 +1182,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_SL_VDV',
 	/*MenuName*/['Airborne %1 (Flora)'],
@@ -1201,7 +1201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_SL_Ratnik_Winter',
 	/*MenuName*/['Ratnik %1 (Winter)'],
@@ -1220,7 +1220,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_TL_VDV',
 	/*MenuName*/['Airborne %1 (Flora)'],
@@ -1239,7 +1239,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_TL_Ratnik_Winter',
 	/*MenuName*/['Ratnik %1 (Winter)'],
@@ -1524,7 +1524,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_Exp_M_BeigeDigital',
 	/*MenuName*/['%1 (Desert)'],
@@ -1543,7 +1543,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_Exp_M_EMR_v2',
 	/*MenuName*/['%1 (EMR)'],
@@ -1562,7 +1562,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Explosive_Specialist_VDV',
 	/*MenuName*/['Airborne %1 (Flora)'],
@@ -1638,7 +1638,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Officer_VDV',
 	/*MenuName*/['Airborne %1 (Flora)'],
@@ -1828,7 +1828,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Explosive_Specialist_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -1942,7 +1942,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Officer_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -2113,7 +2113,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Spotter_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -2132,7 +2132,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_SL_EMR',
 	/*MenuName*/['%1 (EMR)'],
@@ -2322,7 +2322,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Explosive_Specialist',
 	/*MenuName*/['%1 (Flora)'],
@@ -2436,7 +2436,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Officer',
 	/*MenuName*/['%1 (Flora)'],
@@ -2607,7 +2607,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Spotter',
 	/*MenuName*/['%1 (Flora)'],
@@ -2626,7 +2626,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_SL',
 	/*MenuName*/['%1 (Flora)'],
@@ -2645,7 +2645,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_TL',
 	/*MenuName*/['%1 (Flora)'],
@@ -2778,7 +2778,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_MVD_Soldier_TL',
 	/*MenuName*/'',
@@ -2968,7 +2968,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RUS_Soldier_TL',
 	/*MenuName*/'',
@@ -3120,7 +3120,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RUS_Soldier_TL_Autumn',
 	/*MenuName*/'',
