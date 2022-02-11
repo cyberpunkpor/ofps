@@ -2608,7 +2608,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Commander_DES',
 	/*MenuName*/'BFR Commander (M4A1)',
@@ -2627,7 +2627,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Story_Cooper_DES',
 	/*MenuName*/'BFR Soldier (M4A1 M203)',
@@ -2779,7 +2779,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Story_Miles_DES',
 	/*MenuName*/'BFR Soldier (M4A1 M203)',
@@ -2798,7 +2798,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Story_OHara_DES',
 	/*MenuName*/'BFR Soldier (M4A1)',
@@ -2817,7 +2817,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Story_Rodriguez_DES',
 	/*MenuName*/'BFR Machine Gunner (MK48)',
@@ -2836,7 +2836,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Saboteur_DES',
 	/*MenuName*/'BFR Saboteur (M4A1)',
@@ -2855,7 +2855,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Story_Sykes_DES',
 	/*MenuName*/'BFR Sniper (M14 DMR)',
@@ -2950,7 +2950,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Commander',
 	/*MenuName*/'BFR Commander (M4A1)',
@@ -2969,7 +2969,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Story_Cooper',
 	/*MenuName*/'BFR Cooper (M4A1 M203)',
@@ -3121,7 +3121,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Story_Miles',
 	/*MenuName*/'BFR Soldier (M4A1 M203)',
@@ -3140,7 +3140,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Story_OHara',
 	/*MenuName*/'BFR Soldier (M4A1)',
@@ -3159,7 +3159,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Story_Rodriguez',
 	/*MenuName*/'BFR Machine Gunner (MK48)',
@@ -3178,7 +3178,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Saboteur',
 	/*MenuName*/'BFR Saboteur (M4A1)',
@@ -3197,7 +3197,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Story_Sykes',
 	/*MenuName*/'BFR Sniper (MK14 DMR)',
