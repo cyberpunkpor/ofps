@@ -670,7 +670,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_Diver_F',
 	/*MenuName*/['%1 (Special Forces)'],
@@ -828,7 +828,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Special Forces)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/6,
-	/*Price*/2000,
+	/*Price*/1500,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -1107,7 +1107,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_CTRG_Miller_F',
 	/*MenuName*/['%1 (CTRG Thermal Masking)'],

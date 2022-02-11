@@ -118,7 +118,7 @@ _u = []; //--- Units
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_Soldier_AHAT_F',
 	/*MenuName*/'',
@@ -146,7 +146,7 @@ _u pushBack [
 	/*Price*/2000,
 	/*BuildTime*/5,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -156,7 +156,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Soldier_AHAT_F',
 	/*MenuName*/['%1 (Tropic)'],

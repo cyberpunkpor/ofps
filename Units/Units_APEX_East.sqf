@@ -201,7 +201,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Pacific)'],
 	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/3,
-	/*Price*/200,
+	/*Price*/50,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -670,7 +670,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Diver_F',
 	/*MenuName*/['%1 (Special Forces)'],

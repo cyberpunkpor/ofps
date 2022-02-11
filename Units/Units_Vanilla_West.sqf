@@ -518,10 +518,10 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_Pilot_F',
-	/*MenuName*/[],
+	/*MenuName*/[''],
 	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"default",3,"logistics",1]],
 	/*UpgradeLevel*/4,
 	/*Price*/1805,
@@ -879,7 +879,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_medic_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -1050,7 +1050,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_G_Survivor_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -1088,7 +1088,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'I_G_Story_SF_Captain_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -1107,7 +1107,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'I_G_resistanceLeader_F',
 	/*MenuName*/['%1 (FIA)'],
@@ -1341,7 +1341,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Special Forces)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/5,
-	/*Price*/2200,
+	/*Price*/1500,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['MTP'],

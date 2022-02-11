@@ -137,7 +137,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_soldier_UAV_06_F',
 	/*MenuName*/'',
@@ -156,7 +156,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_soldier_UAV_06_medical_F',
 	/*MenuName*/'',
@@ -194,7 +194,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_soldier_UAV_06_F',
 	/*MenuName*/['%1 (Pacific)'],
@@ -213,7 +213,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_soldier_UAV_06_medical_F',
 	/*MenuName*/['%1 (Pacific)'],

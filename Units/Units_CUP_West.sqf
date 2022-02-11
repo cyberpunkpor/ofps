@@ -147,7 +147,7 @@ _u pushBack [
 	/*Price*/60,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/['Desert'],
+	/*Camo*/['ACU'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -318,7 +318,7 @@ _u pushBack [
 	/*Price*/550,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/['Desert'],
+	/*Camo*/['ACU'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -331,13 +331,13 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_MG',
-	/*MenuName*/['%1 (ACU)'],
+	/*MenuName*/['Machine Gunner'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/1,
 	/*Price*/200,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/['ACU'],
+	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -347,16 +347,16 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Crew',
-	/*MenuName*/['%1 (ACU)'],
+	/*MenuName*/[''],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
 	/*UpgradeLevel*/0,
 	/*Price*/50,
 	/*BuildTime*/30,
 	/*Distance*/0,
-	/*Camo*/['ACU'],
+	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -594,7 +594,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Pilot_Light',
 	/*MenuName*/['%1 (ACU)'],
@@ -708,7 +708,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_UAV',
 	/*MenuName*/['%1 (ACU)'],
@@ -1981,7 +1981,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_Light_FROG_DES',
 	/*MenuName*/'USMC Soldier (Unarmed)',
@@ -2703,13 +2703,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Soldier_Light_DES',
 	/*MenuName*/'BFR Soldier (Unarmed)',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/450,
+	/*Price*/10,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Desert'],
@@ -3045,7 +3045,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FR_Soldier_Light',
 	/*MenuName*/'BFR Soldier (Unarmed)',

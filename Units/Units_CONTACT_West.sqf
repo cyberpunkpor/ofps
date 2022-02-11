@@ -136,7 +136,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_W_Soldier_AA_F',
 	/*MenuName*/['%1 (Woodland)'],
@@ -155,7 +155,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_W_Soldier_AT_F',
 	/*MenuName*/['%1 (Woodland)'],
@@ -212,7 +212,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_W_Soldier_AR_F',
 	/*MenuName*/['%1 (Woodland)'],
@@ -231,7 +231,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_W_Crew_F',
 	/*MenuName*/['%1 (Woodland)'],
