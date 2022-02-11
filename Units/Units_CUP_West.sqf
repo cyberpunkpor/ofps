@@ -1563,7 +1563,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_RTO_FROG_WDL',
 	/*MenuName*/'USMC Soldier (M16A4)',
@@ -2057,7 +2057,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_RTO_FROG_DES',
 	/*MenuName*/'USMC Soldier (M14A4)',
