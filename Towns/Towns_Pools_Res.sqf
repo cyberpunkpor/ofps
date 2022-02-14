@@ -178,6 +178,9 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_AT1", 13, 60], 
 			["GUER_TOWNS_SQUAD_AT2", 7, 75], 
 			["GUER_TOWNS_SQUAD_AA", 5, 65]
+		],
+		[
+			["GUER_TOWNS_SQUAD_AIR1_SQUAD2", 1, 90]
 		]
 	];
 	//Towns 100-120
@@ -190,6 +193,10 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_AT1", 22, 40],
 			["GUER_TOWNS_SQUAD_AT2", 8, 75], 
 			["GUER_TOWNS_SQUAD_AA", 7, 65]
+		],
+		[
+			["GUER_TOWNS_SQUAD_AIR1_SQUAD2", 1, 95],
+			["GUER_TOWNS_SQUAD_AIR2_SQUAD2", 1, 95]
 		]
 	];
 	//Towns > 120
@@ -202,6 +209,10 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_AT1", 23, 50], 
 			["GUER_TOWNS_SQUAD_AT2", 15, 85], 
 			["GUER_TOWNS_SQUAD_AA", 9, 70]
+		],
+		[
+			["GUER_TOWNS_SQUAD_AIR1_SQUAD2", 1, 99],
+			["GUER_TOWNS_SQUAD_AIR2_SQUAD2", 1, 99]
 		]
 	];
 

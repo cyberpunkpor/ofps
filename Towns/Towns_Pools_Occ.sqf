@@ -212,7 +212,9 @@ with missionNamespace do {
 			["TOWNS_SQUAD_SNIPER", 1, 99], 
 			["TOWNS_SQUAD_AT1", 13, 99], 
 			["TOWNS_SQUAD_AT2", 7, 99], 
-			["TOWNS_SQUAD_AA", 5, 99]
+			["TOWNS_SQUAD_AA", 5, 99],
+			["TOWNS_SQUAD_AIR1", 1, 99],
+			["TOWNS_SQUAD_AIR2", 1, 99]
 		]
 	];
 	//Towns 100-120
@@ -224,7 +226,9 @@ with missionNamespace do {
 			["TOWNS_SQUAD_SNIPER", 2, 99], 
 			["TOWNS_SQUAD_AT1", 22, 99],
 			["TOWNS_SQUAD_AT2", 8, 99], 
-			["TOWNS_SQUAD_AA", 7, 99]
+			["TOWNS_SQUAD_AA", 7, 99],
+			["TOWNS_SQUAD_AIR1", 2, 99],
+			["TOWNS_SQUAD_AIR2", 1, 99]
 		]
 	];
 	//Towns > 120
@@ -236,7 +240,9 @@ with missionNamespace do {
 			["TOWNS_SQUAD_SNIPER", 2, 99],
 			["TOWNS_SQUAD_AT1", 23, 99], 
 			["TOWNS_SQUAD_AT2", 15, 99], 
-			["TOWNS_SQUAD_AA", 9, 99]
+			["TOWNS_SQUAD_AA", 9, 99],
+			["TOWNS_SQUAD_AIR1", 3, 99],
+			["TOWNS_SQUAD_AIR2", 2, 99]
 		]
 	];
 //--- NAVAL TOWNS ---------------------------------------------------	
