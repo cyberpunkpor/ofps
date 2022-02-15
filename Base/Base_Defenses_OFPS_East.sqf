@@ -394,6 +394,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'Mk41 VLS Elevated',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk41_tower_tall_east",2]]],
+	/*Price*/285000,
+	/*Placement*/[180, 15],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[["All", 15]],
+	/*Upgrade*/3,
+	/*MaxCount*/1,
+	/*Cooldown*/600,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'Mk45 Hammer Bunker',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_east",2]]],
 	/*Price*/60000,
