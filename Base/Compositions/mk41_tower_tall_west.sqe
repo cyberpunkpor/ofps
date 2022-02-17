@@ -1,135 +1,146 @@
 version=54;
-center[]={4149.5752,5.1808481,2254.2925};
+center[]={6576.4453,5,6025.9326};
 class items
 {
 	items=1;
 	class Item0
 	{
 		dataType="Layer";
-		name="mim-145talltower";
+		name="mk41towertallwest";
 		class Entities
 		{
-			items=2;
+			items=1;
 			class Item0
 			{
 				dataType="Layer";
 				name="mim-145talltower";
 				class Entities
 				{
-					items=3;
+					items=2;
 					class Item0
 					{
-						dataType="Object";
-						class PositionInfo
+						dataType="Layer";
+						name="mim-145talltower_1";
+						class Entities
 						{
-							position[]={-2.5839844,16.922527,1.036377};
+							items=3;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.5844727,16.840366,1.0361328};
+								};
+								side="Empty";
+								flags=1;
+								class Attributes
+								{
+								};
+								id=2;
+								type="Land_FireEscape_01_tall_F";
+							};
+							class Item1
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={3.2260742,10.387729,-0.10449219};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=3;
+								type="Land_ReservoirTower_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item2
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-3.7475586,5.1294098,-0.86816406};
+									angles[]={0,4.7160044,0};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=4;
+								type="Land_FireEscape_01_tall_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
 						};
-						side="Empty";
-						flags=1;
-						class Attributes
-						{
-						};
-						id=43;
-						type="Land_FireEscape_01_tall_F";
+						id=1;
 					};
 					class Item1
 					{
 						dataType="Object";
 						class PositionInfo
 						{
-							position[]={3.2265625,10.206881,-0.10424805};
+							position[]={3.1044922,24.263508,-0.068359375};
 						};
 						side="Empty";
-						flags=5;
+						flags=4;
 						class Attributes
 						{
+							receiveRemoteTargets=1;
+							reportOwnPosition=1;
+							aiRadarUsage=1;
 						};
-						id=44;
-						type="Land_ReservoirTower_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=1;
-									};
-								};
-							};
-							nAttributes=1;
-						};
-					};
-					class Item2
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-3.7470703,5.9176302,-0.86816406};
-							angles[]={0,4.7160044,0};
-						};
-						side="Empty";
-						flags=1;
-						class Attributes
-						{
-						};
-						id=45;
-						type="Land_FireEscape_01_tall_F";
-						class CustomAttributes
-						{
-							class Attribute0
-							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=1;
-									};
-								};
-							};
-							nAttributes=1;
-						};
+						id=5;
+						type="B_Ship_MRLS_01_F";
 					};
 				};
-				id=42;
-			};
-			class Item1
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={3.1049805,23.904655,-0.068603516};
-				};
-				side="Empty";
-				class Attributes
-				{
-					receiveRemoteTargets=1;
-					reportOwnPosition=1;
-					aiRadarUsage=1;
-				};
-				id=48;
-				type="B_Ship_MRLS_01_F";
+				id=0;
 			};
 		};
-		id=47;
+		id=6;
 	};
 };
