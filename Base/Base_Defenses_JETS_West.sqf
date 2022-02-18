@@ -255,7 +255,7 @@ _u pushBack [
 	/*Placement*/[180, 15],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
-	/*Blacklist*/[],
+	/*Blacklist*/[["All", 15]],
 	/*Upgrade*/3,
 	/*MaxCount*/1,
 	/*Cooldown*/600,
