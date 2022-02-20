@@ -1012,13 +1012,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'O_G_Survivor_F',
 	/*MenuName*/['%1 (FIA)'],
-	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/3,
-	/*Price*/400,
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT],[CTI_LARGE_FOB]],
+	/*UpgradeLevel*/0,
+	/*Price*/10,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
