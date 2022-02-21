@@ -568,15 +568,15 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'Podnos 2B14',
 	/*Class*/"CUP_O_2b14_82mm_RU",
-	/*Price*/20000,
+	/*Price*/15500,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ"],
+	/*Location*/["RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/3,
+	/*Upgrade*/4,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,

@@ -552,15 +552,15 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'M252 81mm mortar',
 	/*Class*/"CUP_B_M252_USMC",
 	/*Price*/20000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ"],
+	/*Location*/["RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/3,
+	/*Upgrade*/4,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
