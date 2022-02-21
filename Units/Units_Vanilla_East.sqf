@@ -1360,7 +1360,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Urban)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/350,
+	/*Price*/30,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Urban'],
