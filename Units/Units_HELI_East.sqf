@@ -144,7 +144,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/7000,
 	/*BuildTime*/30,
-	/*Distance*/1,
+	/*Distance*/15,
 	/*Camo*/['Desert'],
 	/*Type*/['Heavy Lift Helicopter'],
 	/*Ammmo*/true,
