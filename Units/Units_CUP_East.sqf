@@ -4779,7 +4779,7 @@ _u pushBack [
 	/*MenuName*/'ZSU-23 Shilka (CSAT)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
-	/*Price*/10000,
+	/*Price*/9500,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
