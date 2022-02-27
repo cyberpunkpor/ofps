@@ -251,9 +251,9 @@ _u = []; //Gear Classname
   //GPS
 	  
   //UAV Terminal
-
+  	//--- Doesnt work
 		_u pushBack [
-			/*Enabled*/true,
+			/*Enabled*/false,
 			/*Name*/'',
 			/*ClassName*/'C_UavTerminal',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
