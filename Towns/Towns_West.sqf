@@ -505,6 +505,29 @@ if (CTI_OFPS_UNITS_ADDON > 0) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
+	WEST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["ofps_B_Van_static_AT_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 };
 //--- OFPS RHS Mod
 if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -888,29 +911,6 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];		
-	WEST_TOWN_AT_COMP = [{
-		_t_center = _this select 0;
-		_t_direction = _this select 1;
-		
-		_t_defenses = [];
-		_t_composition = [];
-		
-		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
-		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object enableSimulationGlobal false;
-		_t_composition pushBack _object;
-		
-		_object = createVehicle ["B_static_AT_F", _t_center, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object setVectorUp surfaceNormal position _object;
-		_t_defenses pushBack _object;
-		
-		//--- Return the defenses objects and the composition
-		[_t_defenses, _t_composition]
-	}];	
 
 	};
 
@@ -1077,6 +1077,29 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
+	WEST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["ofps_B_Van_static_AT_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];	
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -1207,7 +1230,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 		//--- Tanks
 		WEST_VEHICLE_ARMORED1 = "CUP_B_M60A3_TTS_USMC";	
 		WEST_VEHICLE_ARMORED2 = "CUP_B_M1A1FEP_Desert_USMC";
-		WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2C_TUSK_II_Woodland_US_Army";
+		WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2C_TUSK_II_Desert_US_Army";
 		//--- AA Vehicles
 		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_USA";
 		WEST_VEHICLE_AA2 = "CUP_B_M6LineBacker_USA_D";
@@ -1244,6 +1267,29 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["CUP_B_MK19_TriPod_US", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	WEST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_B_Tow2_TriPod_US", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -1594,6 +1640,29 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["CUP_B_MK19_TriPod_US", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	WEST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_B_Tow2_TriPod_US", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -2183,31 +2252,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then {
 		
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
-	}];		
-	WEST_TOWN_AT_COMP = [{
-		_t_center = _this select 0;
-		_t_direction = _this select 1;
-		
-		_t_defenses = [];
-		_t_composition = [];
-		
-		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
-		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object enableSimulationGlobal false;
-		_t_composition pushBack _object;
-		
-		_object = createVehicle ["B_static_AT_F", _t_center, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object setVectorUp surfaceNormal position _object;
-		_t_defenses pushBack _object;
-		
-		//--- Return the defenses objects and the composition
-		[_t_defenses, _t_composition]
-	}];	
-
+	}];			
 	};
 
 	//--- PUT ANY MOD RELATED OVERRIDES BELOW IN PROPER LOCATIONS
@@ -2362,6 +2407,29 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["CUP_B_M134_A_USMC", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+		WEST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["ofps_B_Van_static_AT_F", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -2573,6 +2641,29 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 8) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["CUP_B_M134_A_USMC", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+		WEST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_B_Tow2_TriPod_US", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;

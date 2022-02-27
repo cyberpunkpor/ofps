@@ -429,6 +429,29 @@ if (CTI_OFPS_UNITS_ADDON > 0) then {
 	EAST_TOWN_CRAM = "OFPS_PRAETORIAN_O";
 	EAST_TOWN_MK29 = "OFPS_SPARTAN_O";
 	EAST_TOWN_MK49 = "OFPS_SPARTAN_O";
+	EAST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["ofps_O_Van_static_AT_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];	
 };
 //--- OFPS RHS Mod
 if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -813,7 +836,6 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];	
-	
 	};
 
 	//--Load Heli Mod
@@ -944,7 +966,29 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+		EAST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["ofps_O_Van_static_AT_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -1077,8 +1121,6 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 		EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "O_Boat_Armed_01_hmg_F";
 
 		//--- Town Statics
-		EAST_TOWN_AA = "CUP_O_Igla_AA_pod_RU";
-		EAST_TOWN_AT = "CUP_O_Kornet_RU";
 		EAST_TOWN_MORTAR = "O_Mortar_01_F";
 		EAST_TOWN_AGS = "CUP_O_AGS_RU";
 		EAST_TOWN_AGS_COMP = [{
@@ -1107,7 +1149,55 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 	};
 	//--- Load CUP Mod
 	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
+		EAST_TOWN_AA = "CUP_O_Igla_AA_pod_RU";
+		EAST_TOWN_AT = "CUP_O_Kornet_RU";
+		EAST_TOWN_AGS = "CUP_O_AGS_RU";
+		EAST_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_O_AGS_RU", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+	EAST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_O_Kornet_RU", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
@@ -1405,9 +1495,12 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 		EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "O_Boat_Armed_01_hmg_F";
 
 		//---Statics
+		EAST_TOWN_MORTAR = "O_Mortar_01_F";
+	};
+	//--- Load CUP Mod
+	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 		EAST_TOWN_AA = "CUP_O_Igla_AA_pod_RU";
 		EAST_TOWN_AT = "CUP_O_Kornet_RU";
-		EAST_TOWN_MORTAR = "O_Mortar_01_F";
 		EAST_TOWN_AGS = "CUP_O_AGS_RU";
 		EAST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
@@ -1432,9 +1525,29 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
+	EAST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_O_Kornet_RU", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 
 	};
 	//--- Load RHS Mod
@@ -2142,30 +2255,6 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
-	EAST_TOWN_AT_COMP = [{
-		_t_center = _this select 0;
-		_t_direction = _this select 1;
-		
-		_t_defenses = [];
-		_t_composition = [];
-		
-		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
-		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object enableSimulationGlobal false;
-		_t_composition pushBack _object;
-		
-		_object = createVehicle ["O_static_AT_F", _t_center, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object setVectorUp surfaceNormal position _object;
-		_t_defenses pushBack _object;
-		
-		//--- Return the defenses objects and the composition
-		[_t_defenses, _t_composition]
-	}];	
-	
 	};
 
 	//--Load Heli Mod
@@ -2300,7 +2389,29 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+		EAST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["ofps_O_Van_static_AT_F", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];	
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -2433,9 +2544,12 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 9) then {
 		EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "O_Boat_Armed_01_hmg_F";
 
 		//--- Town Statics
+		EAST_TOWN_MORTAR = "O_Mortar_01_F";
+	};
+	//--- Load CUP Mod
+	if (CTI_CUP_WEAPONS_ADDON > 0) then {
 		EAST_TOWN_AA = "CUP_O_Igla_AA_pod_RU";
 		EAST_TOWN_AT = "CUP_O_Kornet_RU";
-		EAST_TOWN_MORTAR = "O_Mortar_01_F";
 		EAST_TOWN_AGS = "CUP_O_AGS_RU";
 		EAST_TOWN_AGS_COMP = [{
 		_t_center = _this select 0;
@@ -2460,10 +2574,29 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 9) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
+	EAST_TOWN_AT_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["CUP_O_Kornet_RU", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];	
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
