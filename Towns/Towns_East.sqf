@@ -69,7 +69,7 @@ EAST_VEHICLE_AA3 = "O_APC_Tracked_02_AA_F";
 //--- Air
 EAST_AIR_HELI1 = "O_Heli_Light_02_dynamicLoadout_F";
 EAST_AIR_HELI2 = "O_Heli_Light_02_dynamicLoadout_F";
-EAST_AIR_HELI_ATTACK = "O_Heli_Attack_02_F";
+EAST_AIR_HELI_ATTACK = "O_Heli_Attack_02_dynamicLoadout_F";
 EAST_AIR_AA = "O_Plane_CAS_02_F";
 EAST_AIR_CAS = "O_Plane_CAS_02_F";
 //--- Boats
@@ -641,7 +641,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		//--- Air
 		EAST_AIR_HELI1 = "O_Heli_Light_02_dynamicLoadout_F";
 		EAST_AIR_HELI2 = "O_Heli_Light_02_dynamicLoadout_F";
-		EAST_AIR_HELI_ATTACK = "O_Heli_Attack_02_F";
+		EAST_AIR_HELI_ATTACK = "O_Heli_Attack_02_dynamicLoadout_F";
 		//EAST_AIR_AA = "";
 		EAST_AIR_CAS = "O_Plane_CAS_02_F";
 		//--- Boats
@@ -1064,7 +1064,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 		EAST_VEHICLE_AA2 = "CUP_O_2S6_RU";
 		EAST_VEHICLE_AA3 = "CUP_O_2S6M_RU";
 		//--- Air
-		EAST_AIR_HELI1 = "CUP_O_UH1H_armed_SLA";
+		EAST_AIR_HELI1 = "CUP_O_Ka60_GL_Whale_CSAT";
 		EAST_AIR_HELI2 = "CUP_O_Mi8_RU";
 		//EAST_AIR_HELI_ATTACK = "";
 		//EAST_AIR_AA = "OFPS_SU25";
@@ -1392,7 +1392,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 		EAST_VEHICLE_AA2 = "CUP_O_2S6_RU";
 		EAST_VEHICLE_AA3 = "CUP_O_2S6M_RU";
 		//--- Air
-		EAST_AIR_HELI1 = "CUP_O_UH1H_armed_SLA";
+		EAST_AIR_HELI1 = "CUP_O_Ka60_GL_Whale_CSAT";
 		EAST_AIR_HELI2 = "CUP_O_Mi8_RU";
 		//EAST_AIR_HELI_ATTACK = "";
 		//EAST_AIR_AA = "OFPS_SU25";
@@ -1991,9 +1991,9 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then {
 		EAST_VEHICLE_AA2 = "O_T_APC_Tracked_02_AA_ghex_F";
 		EAST_VEHICLE_AA3 = "O_T_APC_Tracked_02_AA_ghex_F";
 		//--- Air
-		EAST_AIR_HELI1 = "O_Heli_Light_02_dynamicLoadout_F";
-		EAST_AIR_HELI2 = "O_Heli_Light_02_dynamicLoadout_F";
-		EAST_AIR_HELI_ATTACK = "O_Heli_Attack_02_F";
+		EAST_AIR_HELI1 = "O_Heli_Light_02_v2_F";
+		EAST_AIR_HELI2 = "O_Heli_Light_02_v2_F";
+		EAST_AIR_HELI_ATTACK = "O_Heli_Attack_02_dynamicLoadout_black_F";
 		//EAST_AIR_AA = "";
 		EAST_AIR_CAS = "O_Plane_CAS_02_F";
 		//--- Boats
@@ -2420,7 +2420,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 9) then {
 		EAST_VEHICLE_AA2 = "CUP_O_2S6_RU";
 		EAST_VEHICLE_AA3 = "CUP_O_2S6M_RU";
 		//--- Air
-		EAST_AIR_HELI1 = "CUP_O_UH1H_armed_SLA";
+		EAST_AIR_HELI1 = "CUP_O_Ka60_GL_Hex_CSAT";
 		EAST_AIR_HELI2 = "CUP_O_Mi8_RU";
 		//EAST_AIR_HELI_ATTACK = "";
 		//EAST_AIR_AA = "OFPS_SU25";
