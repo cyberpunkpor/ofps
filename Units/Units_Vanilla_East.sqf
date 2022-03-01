@@ -559,7 +559,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'O_Survivor_F',
-	/*MenuName*/['%1 (Arid)'],
+	/*MenuName*/['%1 (Unarmed)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
 	/*Price*/10,
@@ -993,13 +993,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_G_Soldier_unarmed_F',
 	/*MenuName*/['%1 (FIA)'],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
-	/*Price*/300,
+	/*Price*/30,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Woodland'],
@@ -1015,7 +1015,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'O_G_Survivor_F',
-	/*MenuName*/['%1 (FIA)'],
+	/*MenuName*/['%1 (Unarmed)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"logistics",0],[CTI_LARGE_FOB,"logistics",0]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,

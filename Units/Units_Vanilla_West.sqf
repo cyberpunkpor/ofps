@@ -594,7 +594,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_Survivor_F',
 	/*MenuName*/['%1 (Arid)'],
@@ -1053,7 +1053,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_G_Survivor_F',
-	/*MenuName*/['%1 (FIA)'],
+	/*MenuName*/['%1 (Unarmed)'],
 	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"logistics",0],[CTI_LARGE_FOB,"logistics",0]],
 	/*UpgradeLevel*/0,
 	/*Price*/5,
