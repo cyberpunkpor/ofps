@@ -3753,8 +3753,8 @@ _u pushBack [
 	/*ClassName*/'CUP_I_Mi24_D_Dynamic_ION',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/4,
-	/*Price*/20000,
+	/*UpgradeLevel*/2,
+	/*Price*/23000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[''],
@@ -4412,6 +4412,43 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_M270_DPICM_AAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/5,
+	/*Price*/400000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_AV8B_DYN_AAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/3,
+	/*Price*/75000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['VTOL'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 //--------------------------------------------------------------------------------------------------------------
 

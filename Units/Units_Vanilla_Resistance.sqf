@@ -1777,7 +1777,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
-	/*Price*/100000,
+	/*Price*/300000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],

@@ -2791,7 +2791,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Land',
 	/*ClassName*/'CUP_12Rnd_MLRS_DPICM',
