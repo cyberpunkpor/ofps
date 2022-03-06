@@ -480,7 +480,8 @@ if (CTI_RHS_AFRF_ADDON > 0) then {
 if (CTI_OFPS_UNITS_ADDON > 0) then {
 	WEST_TOWN_AT = "ofps_B_Van_static_AT_F";
 	WEST_TOWN_AA = "ofps_B_Van_static_AA_F";
-	WEST_TOWN_COAST = "OFPS_CENTURION_B_COASTAL";
+	WEST_TOWN_COAST = "ofps_B_Van_static_AT_F";
+	WEST_TOWN_MK29 = "OFPS_CENTURION_B_4KM";
 	WEST_TOWN_M134 = "CUP_B_M134_A_USMC";
 	WEST_TOWN_M134_COMP = [{
 		_t_center = _this select 0;

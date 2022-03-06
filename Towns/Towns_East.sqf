@@ -425,9 +425,9 @@ if (CTI_RHS_AFRF_ADDON > 0) then {
 if (CTI_OFPS_UNITS_ADDON > 0) then {
 	EAST_TOWN_AT = "ofps_O_Van_static_AT_F";
 	EAST_TOWN_AA = "ofps_O_Van_static_AA_F";
-	EAST_TOWN_COAST = "OFPS_CENTURION_O_COASTAL";
+	EAST_TOWN_COAST = "ofps_O_Van_static_AT_F";
 	EAST_TOWN_CRAM = "OFPS_PRAETORIAN_O";
-	EAST_TOWN_MK29 = "OFPS_SPARTAN_O";
+	EAST_TOWN_MK29 = "OFPS_CENTURION_O_4KM";
 	EAST_TOWN_MK49 = "OFPS_SPARTAN_O";
 	EAST_TOWN_AT_COMP = [{
 		_t_center = _this select 0;
