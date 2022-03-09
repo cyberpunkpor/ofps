@@ -3400,7 +3400,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 		//--- Boats
 		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_I_Frigate_AAF";
 		//--- Air
-		GUER_AIR_HELI1 = "CUP_I_412_dynamicLoadout_PMC";
+		GUER_AIR_HELI1 = "CUP_I_412_Military_Armed_AT_AAF";
 		GUER_AIR_HELI2 = "CUP_I_Mi24_Mk4_AAF";	
 	};
 	//--- Load RHS Mod

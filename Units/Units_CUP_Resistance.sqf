@@ -4225,6 +4225,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_412_Military_Armed_AT_AAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/1,
+	/*Price*/19000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Armed Transport Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_412_dynamicLoadout_PMC',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
@@ -4419,7 +4438,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/5,
-	/*Price*/400000,
+	/*Price*/800000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
