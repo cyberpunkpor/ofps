@@ -1415,7 +1415,7 @@ _u pushBack [
 	/*ClassName*/'O_T_MRAP_02_gmg_ghex_F',
 	/*MenuName*/'Ifrit GMG (Tropic)',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/2,
 	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/1,
