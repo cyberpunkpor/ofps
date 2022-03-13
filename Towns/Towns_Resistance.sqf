@@ -1961,6 +1961,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
+		GUER_TOWN_AT = "OFPS_F_KORNET_AT14_INDI";
 		GUER_TOWN_M134_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -2158,29 +2159,6 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 		GUER_TOWN_MG = "CUP_I_M2StaticMG_RACS";
 		GUER_TOWN_MGLO = "CUP_I_M2StaticMG_MiniTripod_RACS"; 
 		GUER_TOWN_MORTAR = "I_Mortar_01_F";
-		GUER_TOWN_AGS_COMP = [{
-		_t_center = _this select 0;
-		_t_direction = _this select 1;
-		
-		_t_defenses = [];
-		_t_composition = [];
-		
-		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
-		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object enableSimulationGlobal false;
-		_t_composition pushBack _object;
-		
-		_object = createVehicle ["CUP_I_AGS_TK_GUE", _t_center, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object setVectorUp surfaceNormal position _object;
-		_t_defenses pushBack _object;
-		
-		//--- Return the defenses objects and the composition
-		[_t_defenses, _t_composition]
-	}];
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
@@ -2197,6 +2175,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_TOWN_AT = "OFPS_F_M220_TOW_INDI";
 		GUER_TOWN_IGLA = "OFPS_F_FIM92_STINGER_POD_INDI";
+		GUER_TOWN_AGS = "OFPS_F_MK19_GL_INDI";
 		GUER_TOWN_AT_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -2212,6 +2191,29 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 		_t_composition pushBack _object;
 		
 		_object = createVehicle ["OFPS_F_M220_TOW_INDI", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
+		GUER_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_01_small_green_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["OFPS_F_MK19_GL_INDI", _t_center, [], 0, "CAN_COLLIDE"];
 		_object setDir _t_direction;
 		_object setPos _t_pos;
 		_object setVectorUp surfaceNormal position _object;
@@ -3129,29 +3131,6 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 
 		//Town Statics
 		GUER_TOWN_MORTAR = "I_Mortar_01_F";
-		GUER_TOWN_AGS_COMP = [{
-		_t_center = _this select 0;
-		_t_direction = _this select 1;
-		
-		_t_defenses = [];
-		_t_composition = [];
-		
-		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
-		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object enableSimulationGlobal false;
-		_t_composition pushBack _object;
-		
-		_object = createVehicle ["CUP_I_AGS_TK_GUE", _t_center, [], 0, "CAN_COLLIDE"];
-		_object setDir _t_direction;
-		_object setPos _t_pos;
-		_object setVectorUp surfaceNormal position _object;
-		_t_defenses pushBack _object;
-		
-		//--- Return the defenses objects and the composition
-		[_t_defenses, _t_composition]
-	}];
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
@@ -3168,6 +3147,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_TOWN_IGLA = "OFPS_F_FIM92_STINGER_POD_INDI";
 		GUER_TOWN_AT = "OFPS_F_M220_TOW_INDI";
+		GUER_TOWN_AGS = "OFPS_F_MK19_GL_INDI";
 		GUER_TOWN_AT_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -3190,7 +3170,30 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 		
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
-	}];	
+	}];
+	GUER_TOWN_AGS_COMP = [{
+		_t_center = _this select 0;
+		_t_direction = _this select 1;
+		
+		_t_defenses = [];
+		_t_composition = [];
+		
+		_t_pos = [_t_center, 5, _t_direction] call CTI_CO_FNC_GetPositionFrom;
+		_object = createVehicle ["Land_BagBunker_Small_F", _t_pos, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object enableSimulationGlobal false;
+		_t_composition pushBack _object;
+		
+		_object = createVehicle ["OFPS_F_MK19_GL_INDI", _t_center, [], 0, "CAN_COLLIDE"];
+		_object setDir _t_direction;
+		_object setPos _t_pos;
+		_object setVectorUp surfaceNormal position _object;
+		_t_defenses pushBack _object;
+		
+		//--- Return the defenses objects and the composition
+		[_t_defenses, _t_composition]
+	}];
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {

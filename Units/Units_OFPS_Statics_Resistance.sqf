@@ -151,6 +151,22 @@ _u pushBack [
 ];
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'Mk 19',
+	/*Class*/"OFPS_F_MK19_GL_INDI",
+	/*Price*/2000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'M134 Minigun (UAV)',
 	/*Class*/"OFPS_F_M134_A_USMC_INDI",
 	/*Price*/2700,
