@@ -1962,6 +1962,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_TOWN_AT = "OFPS_F_KORNET_AT14_INDI";
+		GUER_TOWN_IGLA = "OFPS_F_RBS70_INDI";
 		GUER_TOWN_M134_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
