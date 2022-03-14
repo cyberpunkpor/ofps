@@ -595,8 +595,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'srifle_LRR_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/5,
-			/*Price*/2000,
+			/*UpgradeLevel*/4,
+			/*Price*/300,
 			/*Camo*/[],
 			/*Type*/["Sniper"]
 		];
@@ -606,8 +606,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'srifle_LRR_camo_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/5,
-			/*Price*/2000,
+			/*UpgradeLevel*/4,
+			/*Price*/300,
 			/*Camo*/[],
 			/*Type*/["Sniper"]
 		];
@@ -617,8 +617,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'srifle_LRR_camo_LRPS_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/5,
-			/*Price*/2000,
+			/*UpgradeLevel*/4,
+			/*Price*/300,
 			/*Camo*/[],
 			/*Type*/["Sniper"]
 		];
