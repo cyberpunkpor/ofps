@@ -1662,7 +1662,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'7Rnd_408_Mag',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/5,
+				/*UpgradeLevel*/4,
 				/*Price*/3,
 				/*Camo*/[],
 				/*Type*/["Sniper"]
