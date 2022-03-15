@@ -341,7 +341,7 @@ _u pushback [
 _u pushback [ 
 	/*headers*/[CTI_SATELLITE, "Satellite Uplink", "Satellite Uplink"],
 	/*classes*/["Land_Radar_Small_F", "Land_Radar_Small_ruins_F"],
-	/*prices*/3000,
+	/*prices*/1000,
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
