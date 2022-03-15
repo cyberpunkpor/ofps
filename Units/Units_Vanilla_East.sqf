@@ -2287,6 +2287,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'O_G_Van_01_transport_F', 
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",1],[CTI_LARGE_FOB,"logistics",1]],
+	/*UpgradeLevel*/0,
+	/*Price*/400,
+	/*BuildTime*/20,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'O_UGV_01_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
