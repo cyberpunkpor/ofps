@@ -1329,7 +1329,7 @@ _u = []; //Gear Classname
 				/*UpgradeLevel*/1,
 				/*Price*/10,
 				/*Camo*/[],
-				/*Type*/["Mask"]
+				/*Type*/["Facewear"]
 			];
     
 
