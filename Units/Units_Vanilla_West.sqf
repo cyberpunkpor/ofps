@@ -1529,7 +1529,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_Plane_CAS_01_dynamicLoadout_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"default",4,"logistics",1]],
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"default",4,"logistics",2]],
 	/*UpgradeLevel*/4,
 	/*Price*/55000,
 	/*BuildTime*/30,

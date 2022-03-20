@@ -198,7 +198,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'OFPS_MOHAWK_O',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"logistics",1]],
+	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"default",1,"logistics",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/8000,
 	/*BuildTime*/30,

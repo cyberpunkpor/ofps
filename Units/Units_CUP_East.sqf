@@ -3788,7 +3788,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_UH1H_armed_SLA',
 	/*MenuName*/'UH-1H (x14 Hydra Rockets/x2 M240)',
-	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"logistics",1]],
+	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"default",1,"logistics",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/14000,
 	/*BuildTime*/30,
