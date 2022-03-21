@@ -2270,7 +2270,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_G_Van_01_fuel_F',
 	/*MenuName*/'Deployable FOB',
-	/*Location*/[CTI_REPAIR,[CTI_DEPOT,"default",2,"logistics",4]],
+	/*Location*/[CTI_REPAIR,[CTI_DEPOT,"logistics",4]],
 	/*UpgradeLevel*/2,
 	/*Price*/15000,
 	/*BuildTime*/30,
