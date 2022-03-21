@@ -5671,7 +5671,7 @@ _u pushBack [
 	/*MenuName*/'Praga Fuel',
 	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"default",0]],
 	/*UpgradeLevel*/0,
-	/*Price*/2000,
+	/*Price*/250,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
