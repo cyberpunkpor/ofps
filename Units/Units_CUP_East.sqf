@@ -5766,7 +5766,7 @@ _u pushBack [
 	/*MenuName*/'Kamaz Fuel',
 	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"default",0]],
 	/*UpgradeLevel*/0,
-	/*Price*/3000,
+	/*Price*/275,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
