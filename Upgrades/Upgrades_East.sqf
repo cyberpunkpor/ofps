@@ -90,7 +90,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[],[]], //--- Air Fixed
 	[[],[],[],[]], //--- Air Ordinance 
 	[[],[],[],[]], //--- Land Ordinance
-	[[],[],[],[]], //--- Forward Logistics / Forward Logistics
+	[[],[],[],[]], //--- Forward Logistics
 	[[],[],[]], //--- Halo
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
@@ -117,7 +117,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3],[],[]], //--- Air Fixed
 	[[],[],[],[]], //--- Air Ordinance 
 	[[],[],[],[]], //--- Land Ordinance
-	[[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HALO,1]], //--- Forward Logistics
+	[[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_GEAR,5]], //--- Forward Logistics
 	[[],[],[CTI_UPGRADE_TOWNS,3]], //--- Halo
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
