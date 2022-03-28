@@ -290,7 +290,7 @@ _u = []; //Gear Classname
 					/*Enabled*/true,
 					/*Name*/'',
 					/*ClassName*/'optic_KHS_old',
-					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 					/*UpgradeLevel*/3,
 					/*Price*/45,
 					/*Camo*/[],
