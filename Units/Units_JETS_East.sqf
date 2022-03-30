@@ -131,7 +131,7 @@ _u pushBack [
 	/*Camo*/['Desert'],
 	/*Type*/['Fighter'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/2,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
@@ -150,7 +150,7 @@ _u pushBack [
 	/*Camo*/['Desert'],
 	/*Type*/['Fighter'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/2,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''

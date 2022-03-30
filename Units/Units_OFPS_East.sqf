@@ -130,7 +130,7 @@ _u pushBack [
 	/*Camo*/[],
 	/*Type*/['Fighter'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/4,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
@@ -339,7 +339,7 @@ _u pushBack [
 	/*Camo*/['Nuke'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'nuke-truck',
 	/*Picture*/''
@@ -485,13 +485,13 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
-	/*Price*/600000,
+	/*Price*/300000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
