@@ -1112,9 +1112,9 @@ _u = []; //Gear Classname
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'B_UGV_02_Demining_backpack_F',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",3], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
-				/*Price*/3500,
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"gear",3], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/3,
+				/*Price*/1500,
 				/*Camo*/[],
 				/*Type*/["UAV/UGV"]
 			];
@@ -1123,9 +1123,9 @@ _u = []; //Gear Classname
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'B_UGV_02_Science_backpack_F',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",3], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
-				/*Price*/1500,
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"gear",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/2,
+				/*Price*/1000,
 				/*Camo*/[],
 				/*Type*/["UAV/UGV"]
 			];

@@ -2325,6 +2325,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'O_UAV_01_F',
+	/*MenuName*/[''],
+	/*Location*/[CTI_BARRACKS,[CTI_AIR_ROTARY,"gear",4]],
+	/*UpgradeLevel*/4,
+	/*Price*/2300,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[''],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'O_UGV_01_rcws_F',
 	/*MenuName*/'UGV Saif RCWS',
 	/*Location*/[CTI_LIGHT],
