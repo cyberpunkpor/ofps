@@ -2329,7 +2329,7 @@ _u pushBack [
 	/*MenuName*/['AR-2 Darter'],
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/3,
-	/*Price*/2300,
+	/*Price*/2000,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/[''],

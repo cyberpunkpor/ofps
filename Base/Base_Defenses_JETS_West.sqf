@@ -145,7 +145,7 @@ _u pushBack [
 	/*Location*/["HQ"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
-	/*MaxCount*/2,
+	/*MaxCount*/1,
 	/*Cooldown*/240,
 	/*Dismantle*/-1,
 	/*Specials*/[]
@@ -161,7 +161,7 @@ _u pushBack [
 	/*Location*/["HQ"],
 	/*Blacklist*/[["All", 15]],
 	/*Upgrade*/3,
-	/*MaxCount*/-1,
+	/*MaxCount*/1,
 	/*Cooldown*/240,
 	/*Dismantle*/-1,
 	/*Specials*/[]
@@ -289,7 +289,7 @@ _u pushBack [
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
-	/*MaxCount*/1,
+	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[]
