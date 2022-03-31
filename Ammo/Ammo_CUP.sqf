@@ -1098,7 +1098,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_122_SMOKE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/60,
+	/*Price*/133,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1110,7 +1110,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_122_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/400,
+	/*Price*/667,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1122,7 +1122,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_122_WP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/60,
+	/*Price*/500,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1134,7 +1134,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_122_LASER',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/4000,
+	/*Price*/1667,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1146,7 +1146,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_122_ILLUM',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/60,
+	/*Price*/33,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1170,7 +1170,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_105_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/400,
+	/*Price*/667,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1182,7 +1182,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_105_WP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/60,
+	/*Price*/500,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1194,7 +1194,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_105_LASER',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/4000,
+	/*Price*/1667,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1206,7 +1206,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_105_SMOKE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/60,
+	/*Price*/133,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1218,7 +1218,7 @@ _u pushBack [
 	/*ClassName*/'CUP_Sh_105_ILLUM',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/60,
+	/*Price*/33,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
