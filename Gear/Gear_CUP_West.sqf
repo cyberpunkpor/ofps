@@ -9412,7 +9412,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_PMC_G_Thug',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"gear",6], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/6,
+				/*UpgradeLevel*/1,
 				/*Price*/6969,
 				/*Camo*/[],
 				/*Type*/["Facewear"]

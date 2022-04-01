@@ -2457,7 +2457,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'SLAMDirectionalMine_Wire_Mag',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
+				/*UpgradeLevel*/1,
 				/*Price*/300,
 				/*Camo*/[],
 				/*Type*/["AT Mine"]
@@ -2468,7 +2468,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'ATMine_Range_Mag',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
+				/*UpgradeLevel*/1,
 				/*Price*/300,
 				/*Camo*/[],
 				/*Type*/["AT Mine"]
