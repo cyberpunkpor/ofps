@@ -2,6 +2,7 @@ private ["_side"];
 
 _side = _this;
 
+// ENABLE/DISABLE THE UPGRADE
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	true, //--- Gear
 	true, //--- Barracks
@@ -25,17 +26,19 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	(missionNamespace getVariable "CTI_BASE_HEALTH_UPGRADE") isEqualTo 1, //--- Base Health
 	true, //--- Base Defense Upgrade		
 	true, //--- Jamming Types
-	true //--- Jamming Range
+	true  //--- Jamming Range
 ]];
 
+
+// THIS IS HOW MUCH SUPPLY DOES THE UPGRADE COSTS
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
-	[500,2500,3500,4000,4500,5000], //--- Gear
-	[500,1500,2000,2500,3000,3500], //--- Barracks
-	[500,1500,2000,3000,10000], //--- Light
-	[2000,4000,5000,6000,8000], //--- Heavy
+	[500], //--- Gear
+	[500], //--- Barracks
+	[500], //--- Light
+	[2000], //--- Heavy
 	[500,500], //--- Naval
-	[1000,2000,3000,4000,5000], //--- Air Rotary
-	[1000,3000,6000,7000,8000], //--- Air Fixed
+	[1000], //--- Air Rotary
+	[1000], //--- Air Fixed
 	[1000,2000,3000,4000], //--- Air Ordinance
 	[1000,2000,3000,4000], //--- Land Ordinance
 	[750,1000,3000,5000], //--- Forward Logistics
@@ -48,19 +51,21 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
 	[2000,2500,3000], //--- Supply Rate
-	[500,1000,2000,2000], //--- Base Health
-	[500,1000,2000,2000], //--- Base Defense
+	[500], //--- Base Health
+	[500], //--- Base Defense
 	[500,1000,2000], //--- Jamming Types
 	[500,1000,1500,2000] //--- Jamming Range
 ]];
 
+// HOW MANY LEVELS ARE THERE 
+// this could probably be dynamically set from the above variable
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	6, //--- Gear
 	6, //--- Barracks
 	5, //--- Light
-	4, //--- Heavy
+	5, //--- Heavy
 	2, //--- Naval
-	4, //--- Air Rotary
+	5, //--- Air Rotary
 	5, //--- Air Fixed
 	4, //--- Air Ordinance
 	4, //--- Land Ordinance
@@ -76,59 +81,59 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	3, //--- Supply Rate
 	4, //--- Base Health
 	4, //--- Base Defense
-	3, //--- Jamming Type
+	3, //--- Jamming Types
 	4  //--- Jamming Range
 ]];
 if (CTI_DEV_MODE > 0) then { 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
-	[[],[],[],[],[],[]], //--- Gear
-	[[],[],[],[],[],[]], //--- Barracks
-	[[],[],[],[],[]], //--- Light
-	[[],[],[],[],[]], //--- Heavy
+	[[]], //--- Gear
+	[[CTI_UPGRADE_GEAR, 1],[],[],[CTI_UPGRADE_LIGHT, 1],[CTI_UPGRADE_HEAVY, 1],[CTI_UPGRADE_NUKE, 1]], //--- Barracks
+	[[CTI_UPGRADE_BARRACKS, 1]], //--- Light
+	[[CTI_UPGRADE_LIGHT, 1]], //--- Heavy
 	[[],[]], //--- Naval
-	[[],[],[],[],[]], //--- Air Rotary
-	[[],[],[],[],[]], //--- Air Fixed
+	[[CTI_UPGRADE_LIGHT,1]], //--- Air Rotary
+	[[CTI_UPGRADE_HEAVY,1]], //--- Air Fixed
 	[[],[],[],[]], //--- Air Ordinance 
 	[[],[],[],[]], //--- Land Ordinance
-	[[],[],[],[]], //--- Forward Logistics
+	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_AIR_FIXED,1]], //--- Forward Logistics
 	[[],[],[]], //--- Halo
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
 	[[],[]], //--- LVOSS System
 	[[],[],[],[]], //--- ERA System
-	[[],[]], //--- Satellite
-	[[]], //--- Nuke and Arty
+	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
+	[[CTI_UPGRADE_HEAVY,1]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
-	[[],[],[],[]], //--- Base Health
-	[[],[],[],[]], //--- Base Defense
+	[], //--- Base Health
+	[], //--- Base Defense
 	[[],[],[]], //--- Jamming Types
 	[[],[],[],[]] //--- Jamming Range
 ]];
 
 } else {	
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
-	[[],[],[],[],[],[]], //--- Gear
-	[[CTI_UPGRADE_GEAR, 1],[CTI_UPGRADE_GEAR, 2],[CTI_UPGRADE_GEAR, 3],[CTI_UPGRADE_GEAR, 4],[CTI_UPGRADE_GEAR, 5],[CTI_UPGRADE_GEAR, 6]], //--- Barracks
-	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Light
-	[[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_LIGHT,3],[],[CTI_UPGRADE_NUKE, 1]], //--- Heavy
+	[[]], //--- Gear
+	[[CTI_UPGRADE_GEAR, 1],[],[],[CTI_UPGRADE_LIGHT, 1],[CTI_UPGRADE_HEAVY, 1],[CTI_UPGRADE_NUKE, 1]], //--- Barracks
+	[[CTI_UPGRADE_BARRACKS, 1]], //--- Light
+	[[CTI_UPGRADE_LIGHT, 1]], //--- Heavy
 	[[],[]], //--- Naval
-	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3],[],[]], //--- Air Rotary
-	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3],[],[]], //--- Air Fixed
+	[[CTI_UPGRADE_LIGHT,1]], //--- Air Rotary
+	[[CTI_UPGRADE_HEAVY,1]], //--- Air Fixed
 	[[],[],[],[]], //--- Air Ordinance 
 	[[],[],[],[]], //--- Land Ordinance
-	[[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_GEAR,5]], //--- Forward Logistics
-	[[],[],[CTI_UPGRADE_TOWNS,3]], //--- Halo
+	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_AIR_FIXED,1]], //--- Forward Logistics
+	[[],[],[]], //--- Halo
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
-	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS System
-	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[],[]], //--- ERA System
+	[[],[]], //--- LVOSS System
+	[[],[],[],[]], //--- ERA System
 	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
-	[[CTI_UPGRADE_HEAVY,4]], //--- Nuke and Arty
+	[[CTI_UPGRADE_HEAVY,1]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
-	[[],[],[],[]], //--- Base Health
-	[[],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Base Defense
+	[], //--- Base Health
+	[], //--- Base Defense
 	[[],[],[]], //--- Jamming Types
 	[[],[],[],[]] //--- Jamming Range
 ]];
@@ -137,56 +142,56 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 if (CTI_DEV_MODE > 0) then { 
 	//------------------------------ DEV Mode	------------------------------
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
-		[1, 1, 1, 1, 1, 1], //--- Gear
-		[1, 1, 1, 1, 1, 1], //--- Barracks
-		[1, 1, 1, 1, 1], //--- Light
-		[1, 1, 1, 1, 1], //--- Heavy
-		[1, 1], //--- Naval
-		[1, 1, 1, 1, 1], //--- Air Rotary
-		[1, 1, 1, 1, 1], //--- Air Fixed
-		[1, 1, 1, 1], //--- Air Ordinance
-		[1, 1, 1, 1], //--- Land Ordinance
-		[1, 1, 1, 1], //--- Forward Logistics
-		[1, 1, 1], //--- Halo
-		[1, 1, 1, 1], //--- Air Radar
-		[1, 1, 1, 1], //--- Art Radar
-		[1, 1, 1, 1, 1, 1], //--- Respawn Range
-		[1, 1], //--- LVOSS System
-		[1, 1, 1, 1], //--- ERA System
-		[1, 1], //--- Satellite
+		[1], //--- Gear
+		[1], //--- Barracks
+		[1], //--- Light
+		[1], //--- Heavy
+		[1], //--- Naval
+		[1], //--- Air Rotary
+		[1], //--- Air Fixed
+		[1], //--- Air Ordinance
+		[1], //--- Land Ordinance
+		[1], //--- Forward Logistics
+		[1], //--- Halo
+		[1], //--- Air Radar
+		[1], //--- Art Radar
+		[1], //--- Respawn Range
+		[1], //--- LVOSS System
+		[1], //--- ERA System
+		[1], //--- Satellite
 		[1], //--- Nuke and Arty
-		[1,1,1], //--- Supply Rate
-		[1,1,1,1], //--- Base Health
-		[1,1,1,1], //--- Base Defense
-		[1,1,1], //--- Jamming Types
-		[1,1,1,1] //--- Jamming Range
+		[1], //--- Supply Rate
+		[1], //--- Base Health
+		[1], //--- Base Defense
+		[1], //--- Jamming Types
+		[1] //--- Jamming Range
 	]];
 }else {
 	//------------------------------ Normal Mode	------------------------------
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
-		[60,120,160,240,320,90], 	//--- Gear
-		[60,120,160,240,320,380], 	//--- Barracks
-		[60,120,160,240,320], 		//--- Light
-		[60,120,160,240,320],		//--- Heavy 
-		[30,60], 				//--- Naval
-		[60,120,160,240,320], 		//--- Air Rotary
-		[60,120,160,240,320], 		//--- Air Fixed
-		[60,120,160,240], 			//--- Air Ordinance
-		[60,120,160,240], 			//--- Land Ordinance
-		[60,120,160,240],			//--- Forward Logistics
-		[60,120,240], 				//--- Halo
-		[60,120,160,240], 			//--- Air Radar
-		[60,120,160,240], 			//--- Art Radar
-		[60,120,160,240,320,380], 	//--- Respawn Range
-		[60,120], 					//--- LVOSS System
-		[60,120,160,240], 			//--- ERA System
-		[60,120], 					//--- Satellite
-		[420], 						//--- Nuke and Arty
-		[60,60,60], 				//--- Supply Rate
-		[30,30,30,30], 			//--- Base Health
-		[30,60,90,120],     		//--- Base Defense
-		[15,30,60], 				//--- Jamming Types
-		[15,30,45,60]   			//--- Jamming Range
+		[60],  //--- Gear
+		[60,120,160,240,320,380], //--- Barracks
+		[60],     //--- Light
+		[60], 	  //--- Heavy 
+		[30,60],             //--- Naval
+		[60],     //--- Air Rotary
+		[60],     //--- Air Fixed
+		[60,120,160,240],         //--- Air Ordinance
+		[60,120,160,240],         //--- Land Ordinance
+		[60,120,160,240],         //--- Forward Logistics
+		[60,120,240], 			  //--- Halo
+		[60,120,160,240],         //--- Air Radar
+		[60,120,160,240],         //--- Art Radar
+		[60,120,160,240,320,380], //--- Respawn Range
+		[60,120],                 //--- LVOSS System
+		[60,120,160,240],         //--- ERA System
+		[60,120],                 //--- Satellite
+		[420],                    //--- Nuke and Arty
+		[60,60,60],               //--- Supply Rate
+		[30],           		  //--- Base Health
+		[30],          			  //--- Base Defense
+		[15,30,60],         	  //--- Jamming Types
+		[15,30,45,60]             //--- Jamming Range
 	]];
 };
 
@@ -254,7 +259,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 3</t> - APS Mode Ammo 3 - 25 sec cool down<br />
 	<t color='#ffff00'>LVL 4</t> - APS Mode Ammo 4 - 15 sec cool down</t>"], //--- ERA System
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
-	["WMD Unlock", "<t>Unlocks Rocket Artillery and the Nuke Truck in the Light Factory.<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //---Nuke and Arty
+	["WMD Unlock", "<t>Unlocks Rocket Artillery in the Light and Heavy factories and the Nuke Truck in the Light factory.<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //--- Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV raises and overall SV return<br />
 	<t color='#ffff00'>LVL 1</t> - 1.0 SV per interval town cap rate to max.<br />
 			20% overall town return boost per interval<br />
@@ -262,8 +267,8 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 			40% overall town return boost per interval<br />
 	<t color='#ffff00'>LVL 3</t> - 3.0 SV per interval town cap rate to max.<br />
 			60% overall town return boost per interval"], //--- Supply Rate
-	["Base Health", "<t>Improves base structures' health (does not stack)<br /><t color='#ffff00'>LVL 1</t> - 3.1x damage reduction multiplier </t><br /><t color='#ffff00'>LVL 2</t> - 3.2x damage reduction multiplier<br /><t color='#ffff00'>LVL 3</t> - 3.3x damage reduction multiplier <br /><t color='#ffff00'>LVL 4</t> - 3.4x damage reduction multiplier </t>"], //--- Base Health
-	["Base Defences", "<t>Unlock better defence structures and weapons.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Metis launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks the Mk49 Spartan and more.<br /><t color='#ffff00'>LVL 4</t> - Unlocks the D-30 Artillery piece and Podnos 2B14 mortar in the Repair Truck build menu."], //--- Base defense
+	["Base Health", "<t>Improves base structures' health (does not stack)<br /><t color='#ffff00'>LVL 1</t> - 3.1x damage reduction multiplier </t><br />"], //--- Base Health
+	["Base Defences", "<t>Unlock better defence structures and weapons.<br /><t color='#ffff00'>LVL 1</t> - Unlocks AT launcher and more.<br />"], //--- Base defense
 	["Jamming Type", "<t>Unlocks jamming capabilities.<br /><t color='#ffff00'>LVL 0</t> - Unlocks IR jamming.<br /><t color='#ffff00'>LVL 1</t> - Unlocks passive radar jamming.<br /><t color='#ffff00'>LVL 2</t> - Unlocks LIDAR jamming <br /><t color='#ffff00'>LVL 3</t> - Unlocks active radar jamming"], //--- Jamming Types
     ["Jamming Range", "<t>Increases Jamming Range.<br /><t color='#ffff00'>LVL 1</t> - Range 2km <br /><t color='#ffff00'>LVL 2</t> - Range 3km <br /><t color='#ffff00'>LVL 3</t> - Range 4km <br /><t color='#ffff00'>LVL 4</t> - Range 6km <br />"]  //--- Jamming Range
 

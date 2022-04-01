@@ -3412,7 +3412,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_MineE_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
+				/*UpgradeLevel*/1,
 				/*Price*/400,
 				/*Camo*/[],
 				/*Type*/["AT Mine"]
@@ -3436,7 +3436,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_IED_V2_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/3,
+				/*UpgradeLevel*/1,
 				/*Price*/1000,
 				/*Camo*/[],
 				/*Type*/["Remote Explosive"]
@@ -3458,7 +3458,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_IED_V4_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/3,
+				/*UpgradeLevel*/1,
 				/*Price*/500,
 				/*Camo*/[],
 				/*Type*/["Remote Explosive"]
