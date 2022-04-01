@@ -61,7 +61,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 // this could probably be dynamically set from the above variable
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	1, //--- Gear
-	6, //--- Barracks
+	1, //--- Barracks
 	1, //--- Light
 	1, //--- Heavy
 	2, //--- Naval
@@ -87,7 +87,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 if (CTI_DEV_MODE > 0) then { 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[]], //--- Gear
-	[[CTI_UPGRADE_GEAR, 1],[],[],[CTI_UPGRADE_LIGHT, 1],[CTI_UPGRADE_HEAVY, 1],[CTI_UPGRADE_NUKE, 1]], //--- Barracks
+	[[CTI_UPGRADE_GEAR, 1]], //--- Barracks
 	[[CTI_UPGRADE_BARRACKS, 1]], //--- Light
 	[[CTI_UPGRADE_LIGHT, 1]], //--- Heavy
 	[[],[]], //--- Naval
@@ -114,7 +114,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 } else {	
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[]], //--- Gear
-	[[CTI_UPGRADE_GEAR, 1],[],[],[CTI_UPGRADE_LIGHT, 1],[CTI_UPGRADE_HEAVY, 1],[CTI_UPGRADE_NUKE, 1]], //--- Barracks
+	[[CTI_UPGRADE_GEAR, 1]], //--- Barracks
 	[[CTI_UPGRADE_BARRACKS, 1]], //--- Light
 	[[CTI_UPGRADE_LIGHT, 1]], //--- Heavy
 	[[],[]], //--- Naval
@@ -170,7 +170,7 @@ if (CTI_DEV_MODE > 0) then {
 	//------------------------------ Normal Mode	------------------------------
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
 		[60],  //--- Gear
-		[60,120,160,240,320,380], //--- Barracks
+		[60], //--- Barracks
 		[60],     //--- Light
 		[60], 	  //--- Heavy 
 		[30,60],             //--- Naval
@@ -229,12 +229,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Barracks", "
 	<t>Unlock better infantry, group size, player abilities, and AI skill<br />
 	<t color='#ffff00'>LVL 0</t> - Group limit 3 skill 60% <br />
-	<t color='#ffff00'>LVL 1</t> - Group limit 4 skill 65% <br />
-	<t color='#ffff00'>LVL 2</t> - Group limit 5 skill 70% | Medikit | LockPick 1<br />
-	<t color='#ffff00'>LVL 3</t> - Group limit 6 skill 75% | LockPick 2 | Unlocks Base Defense 3 | Explosives skill<br />
-	<t color='#ffff00'>LVL 4</t> - Group limit 7 skill 80% | LockPick 3 <br/>
-	<t color='#ffff00'>LVL 5</t> - Group limit 8 skill 85% | LockPick 3 <br />
-	<t color='#ffff00'>LVL 6</t> - Group limit 9 skill 90% | LockPick 4 | UAV hacker <br />"], //--- Barracks
+	<t color='#ffff00'>LVL 1</t> - Group limit 4 skill 65% <br />"], //--- Barracks
 	["Light Factory", "<t>Unlock better motorized units.</t>"], //--- Light
 	["Heavy Factory", "<t>Unlock better armored units.</t>"], //--- Heavy
 	["Naval Factory", "<t>Unlock better naval units.</t>"], //--- Naval
