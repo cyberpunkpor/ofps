@@ -60,13 +60,13 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 // HOW MANY LEVELS ARE THERE 
 // this could probably be dynamically set from the above variable
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
-	6, //--- Gear
+	1, //--- Gear
 	6, //--- Barracks
-	5, //--- Light
-	5, //--- Heavy
+	1, //--- Light
+	1, //--- Heavy
 	2, //--- Naval
-	5, //--- Air Rotary
-	5, //--- Air Fixed
+	1, //--- Air Rotary
+	1, //--- Air Fixed
 	4, //--- Air Ordinance
 	4, //--- Land Ordinance
 	4, //--- Forward Logistics
@@ -79,8 +79,8 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	2, //--- Satellite
 	1, //--- Nuke and Arty
 	3, //--- Supply Rate
-	4, //--- Base Health
-	4, //--- Base Defense
+	1, //--- Base Health
+	1, //--- Base Defense
 	3, //--- Jamming Types
 	4  //--- Jamming Range
 ]];
