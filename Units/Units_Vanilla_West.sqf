@@ -2156,7 +2156,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_G_Offroad_01_F',
 	/*MenuName*/'Defense Truck',
-	/*Location*/[CTI_REPAIR,[CTI_DEPOT,"light",1],[CTI_LARGE_FOB,"logistics",1]],
+	/*Location*/[CTI_REPAIR,[CTI_DEPOT,"logistics",1],[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/0,
 	/*Price*/3000,
 	/*BuildTime*/30,
