@@ -149,6 +149,13 @@ _u pushBack [
 	/*ClassName*/'OFPS_weapon_s750Launcher',
 	/*MaxMags*/1
 ];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'ofps_missiles_zephyr',
+	/*MaxMags*/1
+];
 //--- Naval --------------------------
 
 _u pushBack [

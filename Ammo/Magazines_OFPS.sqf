@@ -243,6 +243,17 @@ _u pushBack [
 	/*Filters*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'ofps_4Rnd_GAA_missiles',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/2,
+	/*Price*/9200,
+	/*RearmTime*/25,
+	/*Filters*/[]
+];
 //--- AIR ------------------------------------------------------------
 
 _u pushBack [

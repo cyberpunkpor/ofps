@@ -3552,7 +3552,7 @@ _u pushBack [
 	/*ClassName*/'4Rnd_GAA_missiles',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/9000,
+	/*Price*/9200,
 	/*RearmTime*/25,
 	/*Filters*/[]
 ];

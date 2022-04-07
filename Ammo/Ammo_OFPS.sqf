@@ -170,6 +170,18 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'ofps_M_Zephyr',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/2,
+	/*Price*/2300,
+	/*RearmTime*/10,
+	/*Filters*/[]
+];
+
+_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Land',
