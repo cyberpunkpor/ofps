@@ -95,7 +95,8 @@ _u pushback [
 	/*placements*/[180, 15, false],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["!(%1 call CTI_CO_FNC_IsHQDeployed) && (CTI_P_SideLogic getVariable ['cti_hq_ready', true])", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 _u pushback [ 	
@@ -107,7 +108,8 @@ _u pushback [
 	/*placements*/[90, 25, false],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 _u pushback [ 
@@ -119,7 +121,8 @@ _u pushback [
 	/*placements*/[180, 15],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 _u pushback [ 
@@ -131,7 +134,8 @@ _u pushback [
 	/*placements*/[90, 25],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 _u pushback [ 
@@ -143,7 +147,8 @@ _u pushback [
 	/*placements*/[90, 25],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 switch (CTI_FACTION_DEFAULT_BASE) do {
@@ -157,7 +162,8 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*placements*/[0, 40],
 			/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 2]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-			/*respawnBPos*/-1
+			/*respawnBPos*/-1,
+	/*Factories*/[]
 		];
 	};
 	case 1: {//CUP
@@ -170,7 +176,8 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 	/*placements*/[0, 40],
 	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 2]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 		];
 	};	
 	case 3: {//Cold War
@@ -190,7 +197,8 @@ _u pushback [
 	/*placements*/[180, 40],
 	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 2]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 _u pushback [ 
@@ -202,7 +210,8 @@ _u pushback [
 	/*placements*/[90, 25],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 _u pushback [ 
@@ -214,7 +223,8 @@ _u pushback [
 	/*placements*/[90, 25],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 _u pushback [ 
@@ -226,7 +236,8 @@ _u pushback [
 	/*placements*/[180, 60],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 switch (CTI_FACTION_DEFAULT_BASE) do {
@@ -240,7 +251,8 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*placements*/[180, 30, false],
 			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-			/*respawnBPos*/-1
+			/*respawnBPos*/-1,
+	/*Factories*/[]
 		];
 	};
 	case 1: {//CUP
@@ -253,7 +265,8 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*placements*/[180, 30, false],
 			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-			/*respawnBPos*/-1
+			/*respawnBPos*/-1,
+			/*Factories*/[]
 		];
 	};
 	case 2: {//RHS
@@ -266,7 +279,8 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*placements*/[180, 30, false],
 			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-			/*respawnBPos*/-1
+			/*respawnBPos*/-1,
+			/*Factories*/[]
 		];
 	};
 	case 3: {//Cold War
@@ -288,7 +302,8 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*placements*/[180, 30, false],
 			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-			/*respawnBPos*/-1
+			/*respawnBPos*/-1,
+			/*Factories*/[]
 		];
 	};
 	case 1: {//CUP
@@ -301,7 +316,8 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*placements*/[180, 30, false],
 			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-			/*respawnBPos*/-1
+			/*respawnBPos*/-1,
+			/*Factories*/[]
 		];
 	};
 	case 2: {//RHS
@@ -314,7 +330,8 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*placements*/[180, 30, false],
 			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-			/*respawnBPos*/-1
+			/*respawnBPos*/-1,
+			/*Factories*/[]
 		];
 	};	
 	case 3: {//Cold War
@@ -335,7 +352,8 @@ _u pushback [
 	/*placements*/[180, 15],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 _u pushback [ 
@@ -347,7 +365,8 @@ _u pushback [
 	/*placements*/[180, 15],
 	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
 ];
 
 _u pushback [ 
@@ -359,7 +378,21 @@ _u pushback [
 	/*placements*/[0, 15, false],
 	/*specials*/[],
 	/*conditions*/(compile format["%1 call CTI_CO_FNC_IsHQDeployed && (CTI_P_SideLogic getVariable ['cti_hq_ready', true])", _side]),
-	/*respawnBPos*/-1
+	/*respawnBPos*/-1,
+	/*Factories*/[]
+];
+
+_u pushBack [
+	/*headers*/["HQComp1", "Headquarters Comp 1 (Deploy)", "HQ"],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_mhq_light_1_west",2]]],
+	/*prices*/1000,
+	/*times*/10,
+	/*MaxCount*/-1,
+	/*placements*/[0, 0],
+	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*conditions*/(compile format["!(%1 call CTI_CO_FNC_IsHQDeployed) && (CTI_P_SideLogic getVariable ['cti_hq_ready', true])", _side]),
+	/*respawnBPos*/-1,
+	/*Factories*/[CTI_HQ_DEPLOY]
 ];
 
 
