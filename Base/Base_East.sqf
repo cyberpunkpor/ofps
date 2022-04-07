@@ -370,18 +370,6 @@ _u pushback [
 
 //COMPOSITIONS
 
-_u pushBack [
-	/*headers*/["HQComp1", "Headquarters Comp 1 (Deploy)", "HQ"],
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_mhq_light_1_east",2]]],
-	/*prices*/1000,
-	/*times*/10,
-	/*MaxCount*/-1,
-	/*placements*/[0, 0],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
-	/*conditions*/(compile format["!(%1 call CTI_CO_FNC_IsHQDeployed) && (CTI_P_SideLogic getVariable ['cti_hq_ready', true])", _side]),
-	/*respawnBPos*/-1,
-	/*Factories*/[CTI_HQ_DEPLOY]
-];
 
 
 [_side, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Structures.sqf";
