@@ -2567,7 +2567,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'ammo_Missile_HARM',
@@ -2579,7 +2579,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'ammo_Missile_KH58',
