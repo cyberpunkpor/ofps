@@ -345,7 +345,7 @@ _u pushBack [
 	/*Camo*/['Nuke'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/1,
+	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'nuke-truck',
 	/*Picture*/''
