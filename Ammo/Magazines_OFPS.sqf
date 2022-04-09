@@ -250,7 +250,7 @@ _u pushBack [
 	/*ClassName*/'ofps_4Rnd_GAA_missiles',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/9200,
+	/*Price*/7200,
 	/*RearmTime*/25,
 	/*Filters*/[]
 ];

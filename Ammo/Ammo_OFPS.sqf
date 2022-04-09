@@ -176,7 +176,7 @@ _u pushBack [
 	/*ClassName*/'ofps_M_Zephyr',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/2300,
+	/*Price*/1800,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
