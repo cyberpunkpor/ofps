@@ -238,13 +238,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'O_T_LSV_02_AT_F',
 	/*MenuName*/['%1 (Tropic)'],
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/3,
-	/*Price*/13000,
+	/*Price*/8000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
@@ -266,7 +266,7 @@ _u pushBack [
 	/*Price*/8000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
