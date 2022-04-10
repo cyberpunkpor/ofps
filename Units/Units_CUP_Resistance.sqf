@@ -3186,11 +3186,30 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_I_LR_AA_AAF',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/1300,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Olive'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_I_LR_AA_RACS',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
-	/*Price*/9300,
+	/*Price*/1300,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Olive'],
@@ -3263,6 +3282,25 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_I_BTR40_MG_TKG',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/0,
+	/*Price*/3000,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/[""],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_I_M113A3_AAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
