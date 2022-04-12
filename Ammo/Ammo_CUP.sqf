@@ -1340,7 +1340,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
 	/*Price*/5000,
-	/*RearmTime*/20,
+	/*RearmTime*/35,
 	/*Filters*/[]
 ];
 
@@ -1352,7 +1352,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
 	/*Price*/10000,
-	/*RearmTime*/20,
+	/*RearmTime*/35,
 	/*Filters*/[]
 ];
 
