@@ -4233,7 +4233,7 @@ _u pushBack [
 	/*MenuName*/'2S6M Tunguska (10km)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/4,
-	/*Price*/20000,
+	/*Price*/18000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
