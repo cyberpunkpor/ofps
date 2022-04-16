@@ -4455,7 +4455,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP1_CSAT_T',
 	/*MenuName*/'BMP-1 (Tropic)',
@@ -4493,7 +4493,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP1P_CSAT_T',
 	/*MenuName*/'BMP-1P (Tropic)',
@@ -4531,7 +4531,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP2_CSAT_T',
 	/*MenuName*/'BMP-2 (Tropic)',
@@ -4569,7 +4569,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP2_AMB_CSAT_T',
 	/*MenuName*/'BMP Medic (Tropic)',
@@ -4607,13 +4607,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP2_ZU_CSAT_T',
 	/*MenuName*/'BMP-2 ZU (Tropic)',
 	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/0,
-	/*Price*/6000,
+	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
