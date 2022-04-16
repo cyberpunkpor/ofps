@@ -304,7 +304,7 @@ _u pushBack [
 	/*Price*/1500,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/[''],
+	/*Camo*/['UAV'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
