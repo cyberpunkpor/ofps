@@ -545,7 +545,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'ofps_custom_aa_o_ghex',
-	/*MenuName*/'ZSU-39 Tigris Zephyr II (Pacific)',
+	/*MenuName*/'ZSU-39 Tigris Zephyr II (Tropic)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/4,
 	/*Price*/20000,
