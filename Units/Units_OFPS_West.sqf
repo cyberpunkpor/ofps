@@ -765,7 +765,7 @@ _u pushBack [
 	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
@@ -784,7 +784,7 @@ _u pushBack [
 	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
