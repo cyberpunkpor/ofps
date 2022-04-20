@@ -3304,7 +3304,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_HMG_01_A_weapon_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/5000,
+				/*Price*/2000,
 				/*Camo*/[],
 				/*Type*/["UAV/UGV"]
 			];
@@ -3315,7 +3315,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'B_GMG_01_A_weapon_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
-				/*Price*/8000,
+				/*Price*/3000,
 				/*Camo*/[],
 				/*Type*/["UAV/UGV"]
 			];
