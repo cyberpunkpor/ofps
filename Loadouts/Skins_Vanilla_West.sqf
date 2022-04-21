@@ -74,7 +74,7 @@ _u pushBack [
 	/*Name*/'SolidBlack',
 	/*MenuName*/'Solid Black',
 	/*Texture*/'Rsc\Pictures\skin_solid_black.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -84,7 +84,7 @@ _u pushBack [
 	/*Name*/'SolidTan',
 	/*MenuName*/'Solid Tan',
 	/*Texture*/'Rsc\Pictures\skin_solid_tan.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -94,7 +94,7 @@ _u pushBack [
 	/*Name*/'SolidGreen',
 	/*MenuName*/'Solid Green',
 	/*Texture*/'Rsc\Pictures\skin_solid_green.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];	
@@ -104,7 +104,7 @@ _u pushBack [
 	/*Name*/'SolidGrey',
 	/*MenuName*/'Solid Grey',
 	/*Texture*/'Rsc\Pictures\skin_solid_grey.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -114,7 +114,7 @@ _u pushBack [
 	/*Name*/'FlatGreen (testing)',
 	/*MenuName*/'Flat Green',
 	/*Texture*/'#(argb,8,8,3)color(1,0.5,0,1,non)',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];

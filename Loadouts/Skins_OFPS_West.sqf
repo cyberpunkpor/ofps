@@ -76,7 +76,7 @@ _u pushBack [
 	/*Name*/'dark',
 	/*MenuName*/'Dark',
 	/*Texture*/'\ofps_assets\images\west_dark.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -86,7 +86,7 @@ _u pushBack [
 	/*Name*/'arid',
 	/*MenuName*/'Arid',
 	/*Texture*/'\ofps_assets\images\west_arid.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -96,7 +96,7 @@ _u pushBack [
 	/*Name*/'arid1',
 	/*MenuName*/'Arid1',
 	/*Texture*/'\ofps_assets\images\west_arid1.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -106,7 +106,7 @@ _u pushBack [
 	/*Name*/'arid2',
 	/*MenuName*/'Arid2',
 	/*Texture*/'\ofps_assets\images\west_arid2.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -116,7 +116,7 @@ _u pushBack [
 	/*Name*/'lush',
 	/*MenuName*/'Lush',
 	/*Texture*/'\ofps_assets\images\west_lush.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -126,7 +126,7 @@ _u pushBack [
 	/*Name*/'lush1',
 	/*MenuName*/'Lush1',
 	/*Texture*/'\ofps_assets\images\west_lush1.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -136,7 +136,7 @@ _u pushBack [
 	/*Name*/'lush2',
 	/*MenuName*/'Lush2',
 	/*Texture*/'\ofps_assets\images\west_lush2.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -146,7 +146,7 @@ _u pushBack [
 	/*Name*/'urban',
 	/*MenuName*/'Urban',
 	/*Texture*/'\ofps_assets\images\west_urban.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -156,7 +156,7 @@ _u pushBack [
 	/*Name*/'urban1',
 	/*MenuName*/'Urban1',
 	/*Texture*/'\ofps_assets\images\west_urban1.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -166,7 +166,7 @@ _u pushBack [
 	/*Name*/'urban2',
 	/*MenuName*/'Urban2',
 	/*Texture*/'\ofps_assets\images\west_urban2.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -176,7 +176,7 @@ _u pushBack [
 	/*Name*/'winter',
 	/*MenuName*/'Winter',
 	/*Texture*/'\ofps_assets\images\west_winter.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -186,7 +186,7 @@ _u pushBack [
 	/*Name*/'winter1',
 	/*MenuName*/'Winter1',
 	/*Texture*/'\ofps_assets\images\west_winter1.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -196,7 +196,7 @@ _u pushBack [
 	/*Name*/'winter2',
 	/*MenuName*/'Winter2',
 	/*Texture*/'\ofps_assets\images\west_winter2.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -206,7 +206,7 @@ _u pushBack [
 	/*Name*/'naval',
 	/*MenuName*/'Naval',
 	/*Texture*/'\ofps_assets\images\west_naval.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -216,7 +216,7 @@ _u pushBack [
 	/*Name*/'naval1',
 	/*MenuName*/'Naval1',
 	/*Texture*/'\ofps_assets\images\west_naval1.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -226,7 +226,7 @@ _u pushBack [
 	/*Name*/'naval2',
 	/*MenuName*/'Naval2',
 	/*Texture*/'\ofps_assets\images\west_naval2.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -236,7 +236,7 @@ _u pushBack [
 	/*Name*/'air',
 	/*MenuName*/'Air',
 	/*Texture*/'\ofps_assets\images\west_air.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -246,7 +246,7 @@ _u pushBack [
 	/*Name*/'air1',
 	/*MenuName*/'Air1',
 	/*Texture*/'\ofps_assets\images\west_air1.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -256,7 +256,7 @@ _u pushBack [
 	/*Name*/'air2',
 	/*MenuName*/'Air2',
 	/*Texture*/'\ofps_assets\images\west_air2.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/0
 ];
@@ -266,7 +266,7 @@ _u pushBack [
 	/*Name*/'vp',
 	/*MenuName*/'VP',
 	/*Texture*/'\ofps_assets\images\vp1.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/1
 ];
@@ -276,7 +276,7 @@ _u pushBack [
 	/*Name*/'admin',
 	/*MenuName*/'Admin',
 	/*Texture*/'\ofps_assets\images\admin1.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/2
 ];
@@ -286,7 +286,7 @@ _u pushBack [
 	/*Name*/'dev',
 	/*MenuName*/'Dev',
 	/*Texture*/'\ofps_assets\images\dev1.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/3
 ];
@@ -296,7 +296,7 @@ _u pushBack [
 	/*Name*/'shrubbery',
 	/*MenuName*/'Shrubbery',
 	/*Texture*/'\ofps_assets\images\dev2.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/3
 ];
@@ -306,7 +306,7 @@ _u pushBack [
 	/*Name*/'USA',
 	/*MenuName*/'USA',
 	/*Texture*/'\ofps_assets\images\skin_usa.paa',
-	/*Price*/100,
+	/*Price*/0,
 	/*Rank*/'PRIVATE',
 	/*Special*/3
 ];
