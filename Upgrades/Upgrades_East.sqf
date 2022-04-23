@@ -17,7 +17,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	true, //--- Air Radar
 	true, //--- Art Radar
 	true, //--- Respawn Range
-	(missionNamespace getVariable "CTI_VEHICLES_LVOSS") isEqualTo 1, //--- LVOSS System
+	(missionNamespace getVariable "CTI_VEHICLES_LVOSS") isEqualTo 1, //--- LVOSS
 	(missionNamespace getVariable "CTI_VEHICLES_ERA") isEqualTo 1, //--- ERA System
 	true, //--- Satellite
 	true, //--- Nuke and Arty
@@ -43,7 +43,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1000,2000,4000], //--- Air Radar
 	[500,1000,2000,4000], //--- Art Radar
 	[500,1000,1500,2000,3000,4000], //--- Respawn Range
-	[500,1000], //--- LVOSS System
+	[500,1000], //--- LVOSS
 	[1000,1500,3500,4000], //--- ERA System
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
@@ -69,7 +69,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	4, //--- Air Radar
 	4, //--- Art Radar
 	6, //--- Respawn Range
-	2, //--- LVOSS System
+	2, //--- LVOSS
 	4, //--- ERA System
 	2, //--- Satellite
 	1, //--- Nuke and Arty
@@ -95,7 +95,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
-	[[],[]], //--- LVOSS System
+	[[],[]], //--- LVOSS
 	[[],[],[],[]], //--- ERA System
 	[[],[]], //--- Satellite
 	[[]], //--- Nuke and Arty
@@ -122,7 +122,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
-	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS System
+	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS
 	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[],[]], //--- ERA System
 	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
 	[[CTI_UPGRADE_HEAVY,4]], //--- Nuke and Arty
@@ -151,7 +151,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1, 1], //--- Air Radar
 		[1, 1, 1, 1], //--- Art Radar
 		[1, 1, 1, 1, 1, 1], //--- Respawn Range
-		[1, 1], //--- LVOSS System
+		[1, 1], //--- LVOSS
 		[1, 1, 1, 1], //--- ERA System
 		[1, 1], //--- Satellite
 		[1], //--- Nuke and Arty
@@ -178,7 +178,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240], 			//--- Air Radar
 		[60,120,160,240], 			//--- Art Radar
 		[60,120,160,240,320,380], 	//--- Respawn Range
-		[60,120], 					//--- LVOSS System
+		[60,120], 					//--- LVOSS
 		[60,120,160,240], 			//--- ERA System
 		[60,120], 					//--- Satellite
 		[420], 						//--- Nuke and Arty
@@ -245,9 +245,9 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Air Radar", "<t>Increases the range of the Air Radar.<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Air Radar
 	["Artillery Radar", "<t>Increases the range of the Artillery Radar.<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Art Radar
 	["Respawn Range", "<t>Increases the max range of the respawn vehicles/crates and FOBS.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t><br /><t color='#ffff00'>LVL 5</t> - 3000m</t><br /><t color='#ffff00'>LVL 6</t> -4000m</t>"], //--- Respawn Range
-	["LVOSS System", "<t>Enables the Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage. Light Factory vehicles only.<br />
+	["LVOSS", "<t>Enables the Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage. Light Factory vehicles only.<br />
 	<t color='#ffff00'>LVL 1</t> - Ammo 1 - 45 sec cool down<br />
-	<t color='#ffff00'>LVL 2</t> - Ammo 2 - 35 sec cool down</t>"], //--- LVOSS System
+	<t color='#ffff00'>LVL 2</t> - Ammo 2 - 35 sec cool down</t>"], //--- LVOSS
 	["APS System", "<t>Enables Active Protection System (APS) which destroys incoming projectiles before impact. Heavy Factory vehicles only.<br />	
 	<t color='#ffff00'>LVL 1</t> - APS Mode Ammo 1 - 45 sec cool down<br />
 	<t color='#ffff00'>LVL 2</t> - APS Mode Ammo 2 - 35 sec cool down<br />
