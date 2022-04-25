@@ -253,7 +253,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["LVOSS", "<t>Enables the Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage. Light Factory vehicles only.<br />
 	<t color='#ffff00'>LVL 1</t> - Ammo 1 - 45 sec cool down<br />
 	<t color='#ffff00'>LVL 2</t> - Ammo 2 - 35 sec cool down</t>"], //--- LVOSS
-	["APS System", "<t>Enables Active Protection System (APS) which destroys incoming projectiles before impact. Heavy Factory vehicles only.<br />	
+	["APS", "<t>Enables Active Protection System (APS) which destroys incoming projectiles before impact. Heavy Factory vehicles only.<br />	
 	<t color='#ffff00'>LVL 1</t> - APS Mode Ammo 1 - 45 sec cool down<br />
 	<t color='#ffff00'>LVL 2</t> - APS Mode Ammo 2 - 35 sec cool down<br />
 	<t color='#ffff00'>LVL 3</t> - APS Mode Ammo 3 - 25 sec cool down<br />
