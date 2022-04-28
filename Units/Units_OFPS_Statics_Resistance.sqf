@@ -173,7 +173,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'M134 Minigun (UAV)',
+	/*Name*/'M134 Minigun',
 	/*Class*/"OFPS_F_M134_A_USMC_INDI",
 	/*Price*/2700,
 	/*Placement*/[180, 5],
