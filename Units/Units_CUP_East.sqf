@@ -3713,7 +3713,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Ka52_RU',
 	/*MenuName*/'KA-52 Alligator - 12AT/40RKTS',
