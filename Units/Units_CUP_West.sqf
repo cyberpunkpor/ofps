@@ -9269,7 +9269,7 @@ _u pushBack [
 	/*MenuName*/['%1 (ECM)'],
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/1,
-	/*Price*/8500,
+	/*Price*/5500,
 	/*BuildTime*/20,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
