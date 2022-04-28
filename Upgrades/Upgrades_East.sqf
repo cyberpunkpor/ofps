@@ -34,7 +34,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1500,2000,3000,10000], //--- Light
 	[2000,4000,5000,6000,8000], //--- Heavy
 	[500,500], //--- Naval
-	[1000,2000,3000,4000,5000], //--- Air Rotary
+	[1000,2000,3000,4000], //--- Air Rotary
 	[1000,3000,6000,7000,8000], //--- Air Fixed
 	[1000,2000,3000,4000], //--- Air Ordinance
 	[1000,2000,3000,4000], //--- Land Ordinance
@@ -60,7 +60,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	5, //--- Light
 	4, //--- Heavy
 	2, //--- Naval
-	4, //--- Air Rotary
+	3, //--- Air Rotary
 	5, //--- Air Fixed
 	4, //--- Air Ordinance
 	4, //--- Land Ordinance
@@ -86,7 +86,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[],[]], //--- Light
 	[[],[],[],[],[]], //--- Heavy
 	[[],[]], //--- Naval
-	[[],[],[],[],[]], //--- Air Rotary
+	[[],[],[],[]], //--- Air Rotary
 	[[],[],[],[],[]], //--- Air Fixed
 	[[],[],[],[]], //--- Air Ordinance 
 	[[],[],[],[]], //--- Land Ordinance
@@ -142,7 +142,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1, 1, 1], //--- Light
 		[1, 1, 1, 1, 1], //--- Heavy
 		[1, 1], //--- Naval
-		[1, 1, 1, 1, 1], //--- Air Rotary
+		[1, 1, 1, 1], //--- Air Rotary
 		[1, 1, 1, 1, 1], //--- Air Fixed
 		[1, 1, 1, 1], //--- Air Ordinance
 		[1, 1, 1, 1], //--- Land Ordinance
@@ -169,7 +169,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240,320], 		//--- Light
 		[60,120,160,240,320],		//--- Heavy 
 		[30,60], 				//--- Naval
-		[60,120,160,240,320], 		//--- Air Rotary
+		[60,120,160,240], 		//--- Air Rotary
 		[60,120,160,240,320], 		//--- Air Fixed
 		[60,120,160,240], 			//--- Air Ordinance
 		[60,120,160,240], 			//--- Land Ordinance
