@@ -9250,7 +9250,7 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"default",3,"logistics",1]],
 	/*UpgradeLevel*/3,
-	/*Price*/50000,
+	/*Price*/40000,
 	/*BuildTime*/30,
 	/*Distance*/10,
 	/*Camo*/[],
