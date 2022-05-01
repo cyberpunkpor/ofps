@@ -1530,13 +1530,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_T_MBT_01_mlrs_F',
 	/*MenuName*/'M5 Sandstorm (Tropic)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/5,
-	/*Price*/300000,
+	/*Price*/310000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
