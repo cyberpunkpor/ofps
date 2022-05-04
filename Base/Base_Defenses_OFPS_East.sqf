@@ -459,7 +459,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'AA/AT Titan Tower (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","aaat_titan_tower_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","aaat_titan_tower_east",1]]],
 	/*Price*/21000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],

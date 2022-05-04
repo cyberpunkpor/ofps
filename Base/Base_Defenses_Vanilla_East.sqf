@@ -879,6 +879,7 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
 ];
+
 _u pushBack [
 	/*Enabled*/false, //Broken needs rebuild cent knocks itself off tower during traversal and kills itself
 	/*Name*/'Centurion Fortified',
