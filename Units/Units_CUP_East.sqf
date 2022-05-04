@@ -3888,7 +3888,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Mi8_SLA_1',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
+	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"logistics",1]],
 	/*UpgradeLevel*/0,
 	/*Price*/5000,
 	/*BuildTime*/30,
