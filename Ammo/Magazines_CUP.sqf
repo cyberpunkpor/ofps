@@ -2807,8 +2807,8 @@ _u pushBack [
 	/*ClassName*/'CUP_40Rnd_GRAD_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/4,
-	/*Price*/120000,
-	/*RearmTime*/600,
+	/*Price*/100000,
+	/*RearmTime*/800,
 	/*Filters*/[]
 ];
 
