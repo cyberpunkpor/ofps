@@ -146,7 +146,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'O_Heli_Transport_04_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_ROTARY],
+	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"logistics",1]],
 	/*UpgradeLevel*/0,
 	/*Price*/7000,
 	/*BuildTime*/30,
