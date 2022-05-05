@@ -936,7 +936,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*Type*/'Land',
+	/*Type*/'Air',
 	/*ClassName*/'Gatling_30mm_HE_Plane_CAS_01_F',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
