@@ -1288,7 +1288,7 @@ _u pushBack [
 	/*ClassName*/'B_T_UAV_03_dynamicLoadout_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/3,
 	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,

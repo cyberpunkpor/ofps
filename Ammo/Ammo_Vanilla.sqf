@@ -2019,7 +2019,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/1200,
-	/*RearmTime*/15,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 
