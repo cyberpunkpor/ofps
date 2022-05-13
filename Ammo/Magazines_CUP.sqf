@@ -3973,7 +3973,7 @@ _u pushBack [
 	/*ClassName*/'CUP_4Rnd_AT3_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/10000,
+	/*Price*/1000,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -3985,7 +3985,7 @@ _u pushBack [
 	/*ClassName*/'CUP_8Rnd_AT5_BMP2_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/21600,
+	/*Price*/2800,
 	/*RearmTime*/100,
 	/*Filters*/[]
 ];
@@ -3997,7 +3997,7 @@ _u pushBack [
 	/*ClassName*/'CUP_5Rnd_AT5_BRDM2_M',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/13500,
+	/*Price*/7000,
 	/*RearmTime*/125,
 	/*Filters*/[]
 ];

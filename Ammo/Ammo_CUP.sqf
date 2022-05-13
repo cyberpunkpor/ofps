@@ -1639,7 +1639,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_9M17P_AT3_Sagger_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/1100,
+	/*Price*/250,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
@@ -1747,7 +1747,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_9M113_AT5_Spandrel_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
-	/*Price*/1350,
+	/*Price*/350,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
