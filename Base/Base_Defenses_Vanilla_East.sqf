@@ -849,54 +849,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,//Broken needs rebuild knocks itself off tower during traversal and kills itself.
-	/*Name*/'Praetorian Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","praetorian_fortified_east",2]]],
-	/*Price*/30000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/3,
-	/*MaxCount*/2,
-	/*Cooldown*/120,
-	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'Spartan Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","spartan_fortified_east",2]]],
-	/*Price*/55000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/3,
-	/*MaxCount*/2,
-	/*Cooldown*/240,
-	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
-];
-
-_u pushBack [
-	/*Enabled*/false, //Broken needs rebuild cent knocks itself off tower during traversal and kills itself
-	/*Name*/'Centurion Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_fortified_east",2]]],
-	/*Price*/250000,
-	/*Placement*/[180, 15],
-	/*Tags*/["Composition Armed"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/3,
-	/*MaxCount*/1,
-	/*Cooldown*/300,
-	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
-];
-
-_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Razor Wire',
 	/*Class*/"Land_Razorwire_F",
