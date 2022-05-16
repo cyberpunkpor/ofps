@@ -258,7 +258,7 @@ _u pushBack [
 	/*Location*/["HQ"],
 	/*Blacklist*/[["All", 15]],
 	/*Upgrade*/3,
-	/*MaxCount*/-1,
+	/*MaxCount*/1,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
 	/*Specials*/[]
