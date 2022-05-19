@@ -953,7 +953,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'weapon_VLS_01',
-	/*MaxMags*/1
+	/*MaxMags*/2
 ];
 
 _u pushBack [
