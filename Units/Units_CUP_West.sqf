@@ -6546,7 +6546,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV432_GB_Ambulance',
 	/*MenuName*/'FV432 Medic',
@@ -6569,6 +6569,25 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M113A3_Med_desert_USA',
 	/*MenuName*/'M113A3 Medic (Desert)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/1,
+	/*Price*/6000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Medical'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_M113A3_Med_USA',
+	/*MenuName*/'M113A3 Medic (Woodland)',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
 	/*Price*/6000,
