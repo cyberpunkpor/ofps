@@ -124,6 +124,13 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'HMG_M2_Mounted',
+	/*MaxMags*/4
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'HMG_M2',
 	/*MaxMags*/20
 ];
