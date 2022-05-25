@@ -3892,7 +3892,7 @@ _u pushBack [
 	/*UpgradeLevel*/0,
 	/*Price*/5000,
 	/*BuildTime*/30,
-	/*Distance*/1,
+	/*Distance*/15,
 	/*Camo*/[],
 	/*Type*/['Armed Transport Helicopter'],
 	/*Ammmo*/true,
