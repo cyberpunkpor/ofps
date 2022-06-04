@@ -1700,7 +1700,7 @@ _u = []; //Gear Classname
 			/*UpgradeLevel*/2,
 			/*Price*/25,
 			/*Camo*/[],
-			/*Type*/["Rifle-GL"]
+			/*Type*/["Rifle"]
 		];
 		
 		_u pushBack [
