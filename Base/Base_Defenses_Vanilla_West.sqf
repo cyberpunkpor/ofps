@@ -2452,21 +2452,5 @@ _u pushBack [
 	/*Specials*/[["Naval"],["DMG_Explosion", 0.2]]
 ];
 
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Darter Patrol',
-	/*Class*/"B_UAV_01_F",
-	/*Price*/4000,
-	/*Placement*/[180, 5],
-	/*Tags*/["Defense"],
-	/*Location*/["HQ"],
-	/*Blacklist*/[],
-	/*Upgrade*/3,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";
 
