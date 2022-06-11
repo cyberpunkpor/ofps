@@ -3526,7 +3526,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Su25_Dyn_RU',
-	/*MenuName*/'SU-25 (Dynamic)',
+	/*MenuName*/'SU-25 (Do not spawn on the USS Freedom, will explode)',
 	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"default",3,"logistics",1]],
 	/*UpgradeLevel*/3,
 	/*Price*/40000,
