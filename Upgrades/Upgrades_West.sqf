@@ -19,7 +19,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	true, //--- Art Radar
 	true, //--- Respawn Range
 	(missionNamespace getVariable "CTI_VEHICLES_LVOSS") isEqualTo 1, //--- LVOSS
-	(missionNamespace getVariable "CTI_VEHICLES_ERA") isEqualTo 1, //--- ERA System
+	(missionNamespace getVariable "CTI_VEHICLES_ERA") isEqualTo 1, //--- APS System
 	true, //--- Satellite
 	true, //--- Nuke and Arty
 	true, //--- Supply Rate
@@ -47,7 +47,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1000,2000,4000], //--- Art Radar
 	[500,1000,1500,2000,3000,4000], //--- Respawn Range
 	[500,1000], //--- LVOSS
-	[1000,1500,3500,4000], //--- ERA System
+	[5000,5500,6500,7000], //--- APS System
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
 	[2000,2500,3000], //--- Supply Rate
@@ -75,7 +75,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	4, //--- Art Radar
 	6, //--- Respawn Range
 	2, //--- LVOSS
-	4, //--- ERA System
+	4, //--- APS System
 	2, //--- Satellite
 	1, //--- Nuke and Arty
 	3, //--- Supply Rate
@@ -101,7 +101,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
 	[[],[]], //--- LVOSS
-	[[],[],[],[]], //--- ERA System
+	[[],[],[],[]], //--- APS System
 	[[],[]], //--- Satellite
 	[[]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
@@ -128,7 +128,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
 	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS
-	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[CTI_UPGRADE_HEAVY,3],[CTI_UPGRADE_HEAVY,4]], //--- ERA System
+	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[CTI_UPGRADE_HEAVY,3],[CTI_UPGRADE_HEAVY,4]], //--- APS System
 	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
 	[[CTI_UPGRADE_HEAVY,4]], //--- Nuke and Arty
 	[[],[CTI_UPGRADE_BARRACKS, 3],[CTI_UPGRADE_BARRACKS, 4]], //--- Supply Rate
@@ -157,7 +157,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1, 1], //--- Art Radar
 		[1, 1, 1, 1, 1, 1], //--- Respawn Range
 		[1, 1], //--- LVOSS
-		[1, 1, 1, 1], //--- ERA System
+		[1, 1, 1, 1], //--- APS System
 		[1, 1], //--- Satellite
 		[1], //--- Nuke and Arty
 		[1,1,1], //--- Supply Rate
@@ -184,7 +184,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240],         //--- Art Radar
 		[60,120,160,240,320,380], //--- Respawn Range
 		[60,120],                 //--- LVOSS
-		[60,120,160,240],         //--- ERA System
+		[60,120,160,240],         //--- APS System
 		[60,120],                 //--- Satellite
 		[420],                    //--- Nuke and Arty
 		[60,60,60],               //--- Supply Rate
@@ -257,7 +257,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 1</t> - APS Mode Ammo 1<br />
 	<t color='#ffff00'>LVL 2</t> - APS Mode Ammo 2<br />
 	<t color='#ffff00'>LVL 3</t> - APS Mode Ammo 3<br />
-	<t color='#ffff00'>LVL 4</t> - APS Mode Ammo 4</t>"], //--- ERA System
+	<t color='#ffff00'>LVL 4</t> - APS Mode Ammo 4</t>"], //--- APS System
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
 	["WMD Unlock", "<t>Unlocks Rocket Artillery in the Light and Heavy factories and the Nuke Truck in the Light factory.<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //--- Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV raises and overall SV return<br />
