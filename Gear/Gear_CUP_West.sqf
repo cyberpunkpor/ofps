@@ -3514,7 +3514,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_launch_Javelin',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"gear",6], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/5,
+				/*UpgradeLevel*/4,
 				/*Price*/3000,
 				/*Camo*/[],
 				/*Type*/["Lock-On Only"]
@@ -7844,7 +7844,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_Javelin_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"gear",6], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/5,
+				/*UpgradeLevel*/4,
 				/*Price*/1000,
 				/*Camo*/[],
 				/*Type*/["Lock-On Only"]
