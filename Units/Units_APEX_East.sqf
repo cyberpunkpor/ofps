@@ -1344,7 +1344,7 @@ _u pushBack [
 	/*ClassName*/'O_T_Boat_Armed_01_hmg_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics",1]],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/1,
 	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/3,
