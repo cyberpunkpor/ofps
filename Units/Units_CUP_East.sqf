@@ -3282,7 +3282,7 @@ _u pushBack [
 	/*ClassName*/'CUP_O_LCVP_VIV_SLA',
 	/*MenuName*/'LCVP VIV (Vehicle Transport/Medic)',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics",2]],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/1,
 	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/15,

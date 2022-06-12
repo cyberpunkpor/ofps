@@ -1687,7 +1687,7 @@ _u pushBack [
 	/*ClassName*/'O_SDV_01_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics",3]],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/2,
 	/*Price*/1000,
 	/*BuildTime*/30,
 	/*Distance*/3,

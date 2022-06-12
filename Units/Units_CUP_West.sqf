@@ -9401,7 +9401,7 @@ _u pushBack [
 	/*ClassName*/'CUP_B_MK10_GB',
 	/*MenuName*/'MK10 (Vehicle Transport / Medic)',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics",2]],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/2,
 	/*Price*/8000,
 	/*BuildTime*/30,
 	/*Distance*/25,
