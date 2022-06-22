@@ -2455,7 +2455,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'AR-2 Darter',
-	/*Class*/"O_UAV_01_F",
+	/*Class*/"B_UAV_01_F",
 	/*Price*/4000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
