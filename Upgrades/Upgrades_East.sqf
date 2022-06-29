@@ -128,7 +128,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[CTI_UPGRADE_HEAVY,4]], //--- Nuke and Arty
 	[[],[CTI_UPGRADE_BARRACKS, 3],[CTI_UPGRADE_BARRACKS, 4]], //--- Supply Rate
 	[[],[],[],[]], //--- Base Health
-	[[],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Base Defense
+	[[],[CTI_UPGRADE_BARRACKS,3],[],[CTI_UPGRADE_NUKE, 1]], //--- Base Defense
 	[[],[],[]], //--- Jamming Types
 	[[],[],[],[]] //--- Jamming Range
 ]];
