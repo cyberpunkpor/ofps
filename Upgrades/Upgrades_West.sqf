@@ -254,10 +254,10 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 1</t> - Ammo 1<br />
 	<t color='#ffff00'>LVL 2</t> - Ammo 2</t>"], //--- LVOSS
 	["APS", "<t>Enables the Active Protection System (APS) which destroys incoming projectiles before impact. Heavy Factory vehicles only.<br />	
-	<t color='#ffff00'>LVL 1</t> - APS Mode Ammo 1<br />
-	<t color='#ffff00'>LVL 2</t> - APS Mode Ammo 2<br />
-	<t color='#ffff00'>LVL 3</t> - APS Mode Ammo 3<br />
-	<t color='#ffff00'>LVL 4</t> - APS Mode Ammo 4</t>"], //--- APS System
+	<t color='#ffff00'>LVL 1</t> - Ammo 1<br />
+	<t color='#ffff00'>LVL 2</t> - Ammo 2<br />
+	<t color='#ffff00'>LVL 3</t> - Ammo 3<br />
+	<t color='#ffff00'>LVL 4</t> - Ammo 4</t>"], //--- APS System
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
 	["WMD Unlock", "<t>Unlocks Rocket Artillery in the Light and Heavy factories and the Nuke Truck in the Light factory.<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //--- Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV raises and overall SV return<br />

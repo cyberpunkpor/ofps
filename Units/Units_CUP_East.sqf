@@ -4837,9 +4837,28 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_O_Hilux_armored_UB32_TK_INS',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",5]],
+	/*UpgradeLevel*/5,
+	/*Price*/30200,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_Hilux_UB32_CHDKZ',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",5 ]],
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",5]],
 	/*UpgradeLevel*/5,
 	/*Price*/30000,
 	/*BuildTime*/30,
@@ -5012,10 +5031,10 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/0,
-	/*Price*/750,
+	/*Price*/650,
 	/*BuildTime*/10,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -5520,6 +5539,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_O_Hilux_armored_AGS30_TK_INS',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/1,
+	/*Price*/1150,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_Hilux_AGS30_CHDKZ',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
@@ -5528,6 +5566,25 @@ _u pushBack [
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Hilux_armored_DSHKM_TK_INS',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/0,
+	/*Price*/900,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Black'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -5878,6 +5935,43 @@ _u pushBack [
 	/*Picture*/''
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Hilux_zu23_CHDKZ',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/0,
+	/*Price*/3700,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_Hilux_armored_zu23_TK_INS',
+	/*MenuName*/'',
+	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/0,
+	/*Price*/3800,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call compile preprocessFileLineNumbers 'Common\Config\Common\Units\Set_Units.sqf';
