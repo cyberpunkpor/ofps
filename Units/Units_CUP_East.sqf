@@ -5520,11 +5520,30 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_O_Hilux_armored_podnos_TK_INS',
+	/*MenuName*/'Armored Hilux Mortar',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/5,
+	/*Price*/25200,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Black'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_Hilux_podnos_CHDKZ',
 	/*MenuName*/'Hilux Mortar',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/5,
-	/*Price*/50000,
+	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
