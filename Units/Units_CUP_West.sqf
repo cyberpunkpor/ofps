@@ -1055,6 +1055,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_USMC_Soldier_des',
+	/*MenuName*/['%1 (Desert)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",1]],
+	/*UpgradeLevel*/0,
+	/*Price*/50,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier',
