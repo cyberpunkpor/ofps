@@ -12,6 +12,9 @@ with missionNamespace do {
 			["TOWNS_SQUAD_LIGHT1_MIXED", 2, 99],
 			["TOWNS_SQUAD_LIGHT2_MIXED", 2, 99],
 			["TOWNS_SQUAD_LIGHT2", 2, 99]
+		],
+		[	
+			["TOWNS_SQUAD_APC1", 1, 99]
 		]
 	];
 	//Towns 50-60
@@ -28,6 +31,9 @@ with missionNamespace do {
 		[
 			["TOWNS_SQUAD_APC1_MIXED", 1, 99],
 			["TOWNS_SQUAD_APC2_MIXED", 1, 99]
+		],
+		[	
+			["TOWNS_SQUAD_ARMORED1", 1, 99]
 		]
 	];
 	//Towns 60-80
@@ -50,6 +56,10 @@ with missionNamespace do {
 			["TOWNS_SQUAD_APC1", 1, 99],
 			["TOWNS_SQUAD_APC1_MIXED", 1, 99],
 			["TOWNS_SQUAD_APC2_MIXED", 1, 99]
+		],
+		[	
+			["TOWNS_SQUAD_ARMORED1", 1, 99],
+			["TOWNS_SQUAD_ARMORED1_MIXED", 1, 99]
 		],
 		[
 			["TOWNS_SQUAD_VEHICLE_AA1_MIXED", 1, 99]
