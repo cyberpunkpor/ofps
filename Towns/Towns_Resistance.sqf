@@ -683,6 +683,8 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 		//--- Light Vehicles
 		GUER_VEHICLE_LIGHT1 = "CUP_I_LR_SF_HMG_AAF";
+		//--- Tanks
+		GUER_VEHICLE_ARMORED1 = "CUP_I_M60A3_TTS_RACS";
 		//--- AA Vehicles
 		GUER_VEHICLE_AA1 = "CUP_I_M163_Vulcan_AAF";
 		GUER_VEHICLE_AA3 = "CUP_I_ZSU23_AAF";
@@ -3280,7 +3282,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 		GUER_VEHICLE_APC2 = "I_E_APC_tracked_03_cannon_F";
 		GUER_VEHICLE_APC3 = "I_E_APC_tracked_03_cannon_F";
 		//--- Tanks
-		GUER_VEHICLE_ARMORED1 = "CUP_B_M1A2C_TUSK_II_LDF";	
+		GUER_VEHICLE_ARMORED1 = "I_E_APC_tracked_03_cannon_F";
 		GUER_VEHICLE_ARMORED2 = "I_MBT_03_cannon_F";
 		GUER_VEHICLE_ARMORED3 = "I_MBT_03_cannon_F";
 		//--- AA Vehicles
@@ -3398,6 +3400,8 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 		//--- Light Vehicles
 		GUER_VEHICLE_LIGHT1 = "CUP_I_LR_MG_AAF";
+		//--- Tanks
+		GUER_VEHICLE_ARMORED1 = "CUP_I_M60A3_TTS_RACS";
 		//--- AA Vehicles
 		GUER_VEHICLE_AA1 = "CUP_I_M163_Vulcan_AAF";
 		GUER_VEHICLE_AA3 = "CUP_I_ZSU23_AAF";
