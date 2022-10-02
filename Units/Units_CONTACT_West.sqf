@@ -144,6 +144,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
+	/*ClassName*/'B_W_Officer_F',
+	/*MenuName*/['%1 (Woodland)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/3,
+	/*Price*/75,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
 	/*ClassName*/'B_W_Soldier_AA_F',
 	/*MenuName*/['%1 (Woodland)'],
 	/*Location*/[CTI_BARRACKS,[CTI_LARGE_FOB,"logistics",1]],
