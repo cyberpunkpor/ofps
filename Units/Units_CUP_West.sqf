@@ -4079,7 +4079,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_nM997_DF_USMC_WDL',
-	/*MenuName*/'HMMWV Medic',
+	/*MenuName*/'HMMWV Medic (Woodland)',
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",0]],
 	/*UpgradeLevel*/0,
 	/*Price*/8500,
