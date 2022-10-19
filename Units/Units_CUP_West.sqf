@@ -6242,7 +6242,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1129_MC_MK19_Desert',
 	/*MenuName*/'M1129 MC MK19 MORTAR (Desert)',
@@ -6375,7 +6375,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1129_MC_MK19_Desert_Slat',
 	/*MenuName*/'M1129 MC MK19 MORTAR SLAT (Desert)',
