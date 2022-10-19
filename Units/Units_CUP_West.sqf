@@ -4684,12 +4684,12 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1151_Mk19_WDL_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/2,
 	/*Price*/2300,
 	/*BuildTime*/30,
 	/*Distance*/1,
@@ -4817,12 +4817,12 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1151_Mk19_USA',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/2,
 	/*Price*/2300,
 	/*BuildTime*/30,
 	/*Distance*/1,
