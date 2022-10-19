@@ -4120,8 +4120,8 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/0,
-	/*Price*/900,
-	/*BuildTime*/30,
+	/*Price*/700,
+	/*BuildTime*/15,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
 	/*Type*/[],
@@ -4139,8 +4139,8 @@ _u pushBack [
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/0,
-	/*Price*/900,
-	/*BuildTime*/30,
+	/*Price*/700,
+	/*BuildTime*/15,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
 	/*Type*/[],
@@ -5653,13 +5653,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Wolfhound_LMG_GB_D',
 	/*MenuName*/'',
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/1,
-	/*Price*/1450,
+	/*Price*/950,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],
@@ -5672,7 +5672,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Wolfhound_GMG_GB_D',
 	/*MenuName*/'',
@@ -5691,7 +5691,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Wolfhound_HMG_GB_D',
 	/*MenuName*/'',
