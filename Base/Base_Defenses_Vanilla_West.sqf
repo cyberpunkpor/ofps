@@ -2347,7 +2347,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Demolition (5m)',
-	/*Class*/["Land_JumpTarget_F", [["Demolition",5]]],
+	/*Class*/["Land_JumpTarget_F", [["","Demolition",5]]],
 	/*Price*/500,
 	/*Placement*/[0, 7],
 	/*Tags*/["Bulldozer"],
@@ -2363,7 +2363,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Demolition (25m)',
-	/*Class*/["Land_JumpTarget_F", [["Demolition",25]]],
+	/*Class*/["Land_JumpTarget_F", [["","Demolition",25]]],
 	/*Price*/1000,
 	/*Placement*/[0, 7],
 	/*Tags*/["Bulldozer"],
