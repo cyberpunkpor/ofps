@@ -3189,7 +3189,18 @@ _u = []; //Gear Classname
 		];
   
   //Snipers
-	
+
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'CUP_srifle_Remington700',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/0,
+			/*Price*/0,
+			/*Camo*/[],
+			/*Type*/["Sniper"]
+		];
+
 		_u pushBack [
 			/*Enabled*/true,
 			/*Name*/'',
@@ -4946,7 +4957,18 @@ _u = []; //Gear Classname
 				];
       
       //Long Range
-			
+
+				_u pushBack [
+					/*Enabled*/true,
+					/*Name*/'',
+					/*ClassName*/'CUP_optic_Remington_pip',
+					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+					/*UpgradeLevel*/0,
+					/*Price*/10,
+					/*Camo*/[],
+					/*Type*/["Long"]
+				];
+
 				_u pushBack [
 					/*Enabled*/true,
 					/*Name*/'',
@@ -5394,7 +5416,7 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'CUP_1Rnd_B_CZ584_74Slug',
+				/*ClassName*/'CUP_1Rnd_12Gauge_Slug',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
 				/*Price*/2,
@@ -5405,14 +5427,14 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
-				/*ClassName*/'CUP_1Rnd_B_CZ584_74Pellets',
+				/*ClassName*/'CUP_1Rnd_12Gauge_Pellets_No00_Buck',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
 				/*Price*/1,
 				/*Camo*/[],
 				/*Type*/["Shotgun"]
 			];
-			
+
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
@@ -7370,7 +7392,18 @@ _u = []; //Gear Classname
 			];
     
     //Snipers
-		
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_6Rnd_762x51_R700',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/3,
+				/*Camo*/[],
+				/*Type*/["Sniper"]
+			];
+			
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
