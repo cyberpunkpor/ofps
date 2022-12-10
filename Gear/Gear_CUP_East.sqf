@@ -1425,6 +1425,17 @@ _u = []; //Gear Classname
 			/*Camo*/[],
 			/*Type*/["Machine Pistol"]
 		];
+		
+		_u pushBack [
+			/*Enabled*/true,
+			/*Name*/'',
+			/*ClassName*/'CUP_hgun_FlareGun',
+			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+			/*UpgradeLevel*/0,
+			/*Price*/0,
+			/*Camo*/[],
+			/*Type*/["Flare Gun"]
+		];
 
 //----WEAPON ACCESSORY MENU----
 
@@ -2963,7 +2974,7 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Sniper"]
 			];
-			
+
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
@@ -3178,7 +3189,61 @@ _u = []; //Gear Classname
     //Smoke
     
     //Flare
-    
+
+    		_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_FlareGreen_GP25_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/1,
+				/*Camo*/[],
+				/*Type*/["Flare Gun"]
+			];
+			
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_IllumFlareWhite_265_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/3,
+				/*Camo*/[],
+				/*Type*/["Flare"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_IllumFlareRed_265_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/3,
+				/*Camo*/[],
+				/*Type*/["Flare"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_IllumFlareGreen_265_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/3,
+				/*Camo*/[],
+				/*Type*/["Flare"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'CUP_IllumFlareYellow_265_M',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/3,
+				/*Camo*/[],
+				/*Type*/["Flare"]
+			];
     //HE
     
     //HEDP
