@@ -94,7 +94,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'sgun_HunterShotgun_01_sawedoff_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
-				/*Price*/10,
+				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Shotgun"]
 			];
@@ -105,7 +105,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'sgun_HunterShotgun_01_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
-				/*Price*/15,
+				/*Price*/5,
 				/*Camo*/[],
 				/*Type*/["Shotgun"]
 			];

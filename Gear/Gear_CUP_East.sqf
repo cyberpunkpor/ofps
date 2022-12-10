@@ -94,7 +94,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_sgun_CZ584_RIS',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
-				/*Price*/25,
+				/*Price*/15,
 				/*Camo*/[],
 				/*Type*/["Shotgun"]
 			];
@@ -105,7 +105,7 @@ _u = []; //Gear Classname
 				/*ClassName*/'CUP_sgun_CZ584',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
-				/*Price*/20,
+				/*Price*/10,
 				/*Camo*/[],
 				/*Type*/["Shotgun"]
 			];
