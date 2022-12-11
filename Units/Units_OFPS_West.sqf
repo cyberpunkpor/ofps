@@ -721,7 +721,7 @@ _u pushBack [
 	/*MenuName*/'Father Christmas',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/4,
-	/*Price*/500,
+	/*Price*/50,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/['Holiday'],

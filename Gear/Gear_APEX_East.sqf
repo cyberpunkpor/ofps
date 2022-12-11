@@ -242,8 +242,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'arifle_AK12_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/3,
-			/*Price*/20,
+			/*UpgradeLevel*/4,
+			/*Price*/80,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
 		];
@@ -310,8 +310,8 @@ _u = []; //Gear Classname
 			/*Name*/'',
 			/*ClassName*/'arifle_AK12_GL_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",3], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/4,
-			/*Price*/40,
+			/*UpgradeLevel*/5,
+			/*Price*/120,
 			/*Camo*/[],
 			/*Type*/["Rifle-GL"]
 		];
