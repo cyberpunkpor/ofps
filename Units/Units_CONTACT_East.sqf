@@ -223,7 +223,7 @@ _u pushBack [
 	/*ClassName*/'O_R_soldier_M_F',
 	/*MenuName*/['%1 (Contact Spetsnaz)'],
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/5,
     /*Price*/375,
 	/*BuildTime*/5,
 	/*Distance*/0,

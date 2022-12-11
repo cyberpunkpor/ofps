@@ -148,7 +148,7 @@ _u pushBack [
 	/*ClassName*/'B_HeavyGunner_F',
 	/*MenuName*/['%1 (Heavy Gunner Arid)'],
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/5,
+	/*UpgradeLevel*/6,
 	/*Price*/400,
 	/*BuildTime*/5,
 	/*Distance*/0,
