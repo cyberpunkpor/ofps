@@ -298,7 +298,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'arifle_MXC_Black_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/0,
+			/*Price*/20,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
 		];
@@ -309,7 +309,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'arifle_MXC_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/0,
+			/*Price*/20,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
 		];
@@ -320,7 +320,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'arifle_MX_Black_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/0,
+			/*Price*/25,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
 		];
@@ -331,7 +331,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'arifle_MX_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/0,
+			/*Price*/25,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
 		];
@@ -342,7 +342,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'arifle_MX_ACO_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/1,
+			/*Price*/27,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
 		];
@@ -353,7 +353,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'arifle_MX_ACO_pointer_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/1,
+			/*Price*/27,
 			/*Camo*/[],
 			/*Type*/["Rifle"]
 		];
