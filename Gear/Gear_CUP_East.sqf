@@ -1276,7 +1276,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_launch_Metis',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"default"]],
-				/*UpgradeLevel*/4,
+				/*UpgradeLevel*/5,
 				/*Price*/2000,
 				/*Camo*/[],
 				/*Type*/["SACLOS"]
@@ -3336,7 +3336,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_AT13_M',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
+				/*UpgradeLevel*/5,
 				/*Price*/3000,
 				/*Camo*/[],
 				/*Type*/["SACLOS"]
