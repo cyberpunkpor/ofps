@@ -253,16 +253,17 @@ _u = []; //Gear Classname
   //MGs
   
     //LMGs
-
+    
+     //MMGs (Ammo larger than 5.56)
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'arifle_RPK12_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/4,
-				/*Price*/95,
+				/*Price*/45,
 				/*Camo*/[],
-				/*Type*/["LMG"]
+				/*Type*/["MMG"]
 			];
 
 			_u pushBack [
@@ -271,9 +272,9 @@ _u = []; //Gear Classname
 				/*ClassName*/'arifle_RPK12_arid_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/4,
-				/*Price*/95,
+				/*Price*/45,
 				/*Camo*/[],
-				/*Type*/["LMG"]
+				/*Type*/["MMG"]
 			];
 
 			_u pushBack [
@@ -281,10 +282,10 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'arifle_RPK12_lush_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/4,
-				/*Price*/95,
+				/*UpgradeLevel*/3,
+				/*Price*/45,
 				/*Camo*/[],
-				/*Type*/["LMG"]
+				/*Type*/["MMG"]
 			];
 
 			_u pushBack [
@@ -293,13 +294,11 @@ _u = []; //Gear Classname
 				/*ClassName*/'arifle_RPK12_lush_arco_snds_pointer_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/4,
-				/*Price*/105,
+				/*Price*/45,
 				/*Camo*/[],
-				/*Type*/["LMG"]
+				/*Type*/["MMG"]
 			];
-    
-    //MMGs (Ammo larger than 5.56)
-  
+			
   //DMRs
 
 	_u pushBack [
@@ -562,15 +561,17 @@ _u = []; //Gear Classname
     
       //LMGs
 
+	  //MMGs (Ammo larger than 5.56)
+
 				_u pushBack [
 					/*Enabled*/true,
 					/*Name*/'',
 					/*ClassName*/'75rnd_762x39_AK12_Mag_F',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-					/*UpgradeLevel*/1,
+					/*UpgradeLevel*/4,
 					/*Price*/37,
 					/*Camo*/[],
-					/*Type*/["LMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -578,10 +579,10 @@ _u = []; //Gear Classname
 					/*Name*/'',
 					/*ClassName*/'75rnd_762x39_AK12_Mag_Tracer_F',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-					/*UpgradeLevel*/1,
+					/*UpgradeLevel*/4,
 					/*Price*/37,
 					/*Camo*/[],
-					/*Type*/["LMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -589,10 +590,10 @@ _u = []; //Gear Classname
 					/*Name*/'',
 					/*ClassName*/'75rnd_762x39_AK12_Lush_Mag_F',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-					/*UpgradeLevel*/1,
+					/*UpgradeLevel*/4,
 					/*Price*/37,
 					/*Camo*/[],
-					/*Type*/["LMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -600,10 +601,10 @@ _u = []; //Gear Classname
 					/*Name*/'',
 					/*ClassName*/'75rnd_762x39_AK12_Lush_Mag_Tracer_F',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-					/*UpgradeLevel*/1,
+					/*UpgradeLevel*/4,
 					/*Price*/37,
 					/*Camo*/[],
-					/*Type*/["LMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -611,10 +612,10 @@ _u = []; //Gear Classname
 					/*Name*/'',
 					/*ClassName*/'75rnd_762x39_AK12_Arid_Mag_F',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-					/*UpgradeLevel*/1,
+					/*UpgradeLevel*/4,
 					/*Price*/37,
 					/*Camo*/[],
-					/*Type*/["LMG"]
+					/*Type*/["MMG"]
 				];
 
 				_u pushBack [
@@ -622,14 +623,11 @@ _u = []; //Gear Classname
 					/*Name*/'',
 					/*ClassName*/'75rnd_762x39_AK12_Arid_Mag_Tracer_F',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-					/*UpgradeLevel*/1,
+					/*UpgradeLevel*/4,
 					/*Price*/37,
 					/*Camo*/[],
-					/*Type*/["LMG"]
+					/*Type*/["MMG"]
 				];
-						
-      //MMGs (Ammo larger than 5.56)
-    
     //DMRs
     
     //Snipers
