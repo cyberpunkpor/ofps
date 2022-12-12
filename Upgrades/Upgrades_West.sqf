@@ -169,7 +169,7 @@ if (CTI_DEV_MODE > 0) then {
 }else {
 	//------------------------------ Normal Mode	------------------------------
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
-		[60,120,160,240,320,90],  //--- Gear
+		[60,120,160,240,320,420],  //--- Gear
 		[60,120,160,240,320,380], //--- Barracks
 		[60,120,160,240,320],     //--- Light
 		[60,120,160,240,320], 	  //--- Heavy 
