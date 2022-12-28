@@ -111,9 +111,9 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[CTI_UPGRADE_BARRACKS,2],[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_BARRACKS,4],[CTI_UPGRADE_BARRACKS,5]], //--- Gear
 	[[CTI_UPGRADE_GEAR, 1],[CTI_UPGRADE_GEAR, 2],[CTI_UPGRADE_GEAR, 3],[CTI_UPGRADE_GEAR, 4],[CTI_UPGRADE_GEAR, 5],[CTI_UPGRADE_GEAR, 6]], //--- Barracks
 	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Light
-	[[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_LIGHT,3],[],[CTI_UPGRADE_NUKE, 1]], //--- Heavy
+	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_LIGHT,3],[]], //--- Heavy
 	[[],[]], //--- Naval
-	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3],[]], //--- Air Rotary
+	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3]], //--- Air Rotary
 	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_AIR_ROTARY,3],[CTI_UPGRADE_HEAVY,4],[]], //--- Air Fixed
 	[[],[],[],[]], //--- Air Ordinance 
 	[[],[],[],[]], //--- Land Ordinance
@@ -123,7 +123,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
 	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS
-	[[CTI_UPGRADE_LVOSS, 1],[CTI_UPGRADE_LVOSS, 2],[CTI_UPGRADE_HEAVY,4],[CTI_UPGRADE_HEAVY,5]], //--- APS
+	[[CTI_UPGRADE_LVOSS,1],[CTI_UPGRADE_LVOSS,2],[CTI_UPGRADE_HEAVY,4],[CTI_UPGRADE_NUKE,1]], //--- APS
 	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
 	[[CTI_UPGRADE_HEAVY,4]], //--- Nuke and Arty
 	[[],[CTI_UPGRADE_BARRACKS, 3],[CTI_UPGRADE_BARRACKS, 4]], //--- Supply Rate
