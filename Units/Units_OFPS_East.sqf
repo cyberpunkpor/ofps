@@ -561,7 +561,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'xmas_santa_opfor',
 	/*MenuName*/'Father Christmas',
