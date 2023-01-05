@@ -1067,7 +1067,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_Carryall_green_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/3,
+				/*UpgradeLevel*/4,
 				/*Price*/600,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -1078,7 +1078,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_Carryall_eaf_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/3,
+				/*UpgradeLevel*/4,
 				/*Price*/600,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -1089,7 +1089,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_Carryall_taiga_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/3,
+				/*UpgradeLevel*/4,
 				/*Price*/600,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -1100,7 +1100,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_Carryall_wdl_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/3,
+				/*UpgradeLevel*/4,
 				/*Price*/600,
 				/*Camo*/[],
 				/*Type*/["Backpack"]

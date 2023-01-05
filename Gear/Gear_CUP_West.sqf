@@ -8935,7 +8935,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_B_AlicePack_Khaki',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
+				/*UpgradeLevel*/3,
 				/*Price*/100,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -8968,7 +8968,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_B_AlicePack_OD',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
+				/*UpgradeLevel*/3,
 				/*Price*/100,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
