@@ -230,8 +230,9 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 4</t> - Group limit 7 skill 80% | LockPick 3 <br/>
 	<t color='#ffff00'>LVL 5</t> - Group limit 8 skill 85% | LockPick 3 <br />
 	<t color='#ffff00'>LVL 6</t> - Group limit 9 skill 90% | LockPick 4 | UAV hacker <br />"], //--- Barracks
-	["Light Factory", "<t>Unlock better motorized units.</t>"], //--- Light
-	["Heavy Factory", "<t>Unlock better armored units.</t>"], //--- Heavy
+	["Light Factory", "<t>Unlock better wheeled units.</t>
+	<t color='#ffff00'>LVL 5</t> unlocks the Nuke Truck and Self-Propelled Artillery."], //--- Light
+	["Heavy Factory", "<t>Unlock better tracked units.</t>"], //--- Heavy
 	["Naval Factory", "<t>Unlock better naval units.</t>"], //--- Naval
 	["Rotary Aircraft Factory", "<t>Unlock better rotary wing aircraft units.</t>"], //--- Air Rotary
 	["Fixed Wing Aircraft Factory", "<t>Unlock better fixed wing aircraft units.</t>"], //--- Air Fixed
@@ -241,10 +242,10 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["High Altitude, Low Open Parachute Jump (HALO)", "<t>Enables HALO Jumping between bases and town depots using the HALO tablet button.<br />
 	<t color='#ffff00'>LVL 1</t> - HALO between Towns and Bases<br />
 	<t color='#ffff00'>LVL 2</t> - HALO to Large FOBs</t><br />
-	<t color='#ffff00'>LVL 3</t> - Vehicle HALO (requires Air or Rotary Factory)</t>"], //--- Halo
+	<t color='#ffff00'>LVL 3</t> - Vehicle HALO (requires Fixed or Rotary Factory)</t>"], //--- Halo
 	["Air Radar", "<t>Increases the range of the Air Radar.<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Air Radar
 	["Artillery Radar", "<t>Increases the range of the Artillery Radar.<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Art Radar
-	["Respawn Range", "<t>Increases the max range of the respawn vehicles/crates and FOBS.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t><br /><t color='#ffff00'>LVL 5</t> - 3000m</t><br /><t color='#ffff00'>LVL 6</t> -4000m</t>"], //--- Respawn Range
+	["Respawn Range", "<t>Increases the max range of the respawn vehicles/crates and FOBs.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t><br /><t color='#ffff00'>LVL 5</t> - 3000m</t><br /><t color='#ffff00'>LVL 6</t> -4000m</t>"], //--- Respawn Range
 	["LVOSS", "<t>Enables the Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage. Light and Naval Factory vehicles only.<br />
 	<t color='#ffff00'>LVL 1</t> - Ammo 1<br />
 	<t color='#ffff00'>LVL 2</t> - Ammo 2</t>"], //--- LVOSS
@@ -253,8 +254,8 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 2</t> - Ammo 2<br />
 	<t color='#ffff00'>LVL 3</t> - Ammo 3<br />
 	<t color='#ffff00'>LVL 4</t> - Ammo 4</t>"], //--- APS
-	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Full Satellite Cam </t>"], //--- Satellite
-	["WMD Unlock", "<t>Unlocks Rocket Artillery and the Nuke Truck in the Light Factory.<br /><t color='#ffff00'>Unlocks Light 5!</t></t>"], //---Nuke and Arty
+	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Map-Wide Satellite Cam </t>"], //--- Satellite
+	["WMD Unlock", "<t>Unlocks endgame upgrades.<br /><t color='#ffff00'>Required for the final levels of the Heavy, Light, and Sattelite upgrades</t></t>"], //---Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV raises and overall SV return<br />
 	<t color='#ffff00'>LVL 1</t> - 1.0 SV per interval town cap rate to max.<br />
 			20% overall town return boost per interval<br />
@@ -262,7 +263,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 			40% overall town return boost per interval<br />
 	<t color='#ffff00'>LVL 3</t> - 3.0 SV per interval town cap rate to max.<br />
 			60% overall town return boost per interval"], //--- Supply Rate
-	["Base Health", "<t>Improves base structures' health (does not stack)<br /><t color='#ffff00'>LVL 1</t> - 3.1x damage reduction multiplier </t><br /><t color='#ffff00'>LVL 2</t> - 3.2x damage reduction multiplier<br /><t color='#ffff00'>LVL 3</t> - 3.3x damage reduction multiplier <br /><t color='#ffff00'>LVL 4</t> - 3.4x damage reduction multiplier </t>"], //--- Base Health
+	["Base Health", "<t>Improves base structures' health (does not stack).<br /><t color='#ffff00'>LVL 1</t> - 3.1x damage reduction multiplier </t><br /><t color='#ffff00'>LVL 2</t> - 3.2x damage reduction multiplier<br /><t color='#ffff00'>LVL 3</t> - 3.3x damage reduction multiplier <br /><t color='#ffff00'>LVL 4</t> - 3.4x damage reduction multiplier </t>"], //--- Base Health
 	["Base Defences", "<t>Unlock better defence structures and weapons.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Metis launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks the Mk49 Spartan and more.<br /><t color='#ffff00'>LVL 4</t> - Unlocks the D-30 Artillery piece and Podnos 2B14 mortar in the Repair Truck build menu."], //--- Base defense
 	["Jamming Type", "<t>Unlocks jamming capabilities.<br /><t color='#ffff00'>LVL 0</t> - Unlocks IR jamming.<br /><t color='#ffff00'>LVL 1</t> - Unlocks passive radar jamming.<br /><t color='#ffff00'>LVL 2</t> - Unlocks LIDAR jamming <br /><t color='#ffff00'>LVL 3</t> - Unlocks active radar jamming"], //--- Jamming Types
     ["Jamming Range", "<t>Increases Jamming Range.<br /><t color='#ffff00'>LVL 1</t> - Range 4km <br /><t color='#ffff00'>LVL 2</t> - Range 6km <br /><t color='#ffff00'>LVL 3</t> - Range 8km <br /><t color='#ffff00'>LVL 4</t> - Range 10km <br />"]  //--- Jamming Range
