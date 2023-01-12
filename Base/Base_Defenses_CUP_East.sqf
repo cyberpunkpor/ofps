@@ -480,7 +480,7 @@ _u pushBack [
 	/*Tags*/["Defense"],
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
-	/*Upgrade*/2,
+	/*Upgrade*/3,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
