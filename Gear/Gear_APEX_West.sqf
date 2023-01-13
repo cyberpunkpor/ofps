@@ -1353,8 +1353,8 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_AssaultPack_tna_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/5,
+				/*UpgradeLevel*/1,
+				/*Price*/12,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];

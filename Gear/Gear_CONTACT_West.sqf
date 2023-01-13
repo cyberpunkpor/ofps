@@ -986,7 +986,7 @@ _u = []; //Gear Classname
   
     //Regular
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'B_RadioBag_01_black_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
@@ -997,7 +997,7 @@ _u = []; //Gear Classname
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'B_RadioBag_01_mtp_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
@@ -1008,7 +1008,7 @@ _u = []; //Gear Classname
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'B_RadioBag_01_eaf_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
@@ -1019,7 +1019,7 @@ _u = []; //Gear Classname
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'B_RadioBag_01_tropic_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
@@ -1030,7 +1030,7 @@ _u = []; //Gear Classname
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'B_RadioBag_01_wdl_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
@@ -1045,8 +1045,8 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_AssaultPack_eaf_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/5,
+				/*UpgradeLevel*/1,
+				/*Price*/12,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];
@@ -1056,8 +1056,8 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'B_AssaultPack_wdl_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/5,
+				/*UpgradeLevel*/1,
+				/*Price*/12,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
 			];

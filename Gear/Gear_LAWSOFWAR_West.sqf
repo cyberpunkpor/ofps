@@ -647,7 +647,7 @@ _u = []; //Gear Classname
     //Regualar
     
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'B_LegStrapBag_black_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
@@ -658,7 +658,7 @@ _u = []; //Gear Classname
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'B_LegStrapBag_olive_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
@@ -669,7 +669,7 @@ _u = []; //Gear Classname
 			];
 
 			_u pushBack [
-				/*Enabled*/true,
+				/*Enabled*/false,
 				/*Name*/'',
 				/*ClassName*/'B_LegStrapBag_coyote_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
