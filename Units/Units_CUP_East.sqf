@@ -5860,7 +5860,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_Kamaz_Reammo_RU',
 	/*MenuName*/'Kamaz Ammo',
