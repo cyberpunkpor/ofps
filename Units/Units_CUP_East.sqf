@@ -4512,10 +4512,29 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_BMP2_RU',
+	/*MenuName*/'BMP-2',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/1,
+	/*Price*/14000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP2_CSAT',
-	/*MenuName*/'BMP-2 (CSAT)',
+	/*MenuName*/'BMP-2',
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/1,
 	/*Price*/14000,
@@ -4709,6 +4728,25 @@ _u pushBack [
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/0,
 	/*Price*/13000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_T72_RU',
+	/*MenuName*/'T-72 (NV)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/1,
+	/*Price*/24000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
