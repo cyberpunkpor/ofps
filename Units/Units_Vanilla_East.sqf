@@ -2140,6 +2140,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'O_Truck_02_ammo_F', 
+	/*MenuName*/'Zamak Ammo (CSAT)',
+	/*Location*/[CTI_AMMO,[CTI_LARGE_FOB,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/8000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-ammotruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'O_Truck_03_ammo_F', 
 	/*MenuName*/'Tempest Ammo (CSAT)',
 	/*Location*/[CTI_AMMO],
