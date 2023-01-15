@@ -1511,7 +1511,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_T_MBT_01_mlrs_F',
 	/*MenuName*/'M5 Sandstorm (Tropic)',
@@ -1523,7 +1523,7 @@ _u pushBack [
 	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
