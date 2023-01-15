@@ -473,12 +473,28 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'D-30 AT',
+	/*Name*/'Repair Truck D-30 AT (3.5k)',
+	/*Class*/"CUP_O_D30_AT_TK",
+	/*Price*/12000,
+	/*Placement*/[180, 5],
+	/*Tags*/["Defense"],
+	/*Location*/["RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/3,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'D-30 AT (3.5K)',
 	/*Class*/"CUP_O_D30_AT_RU",
 	/*Price*/9000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
-	/*Location*/["HQ", "RepairTruck"],
+	/*Location*/["HQ"],
 	/*Blacklist*/[],
 	/*Upgrade*/3,
 	/*MaxCount*/-1,
