@@ -7705,7 +7705,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Leopard2A6_HIL',
 	/*MenuName*/'',
@@ -7724,7 +7724,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Leopard2A6DST_GER',
 	/*MenuName*/'Leopard 2A6 (Desert)',
@@ -7743,7 +7743,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Leopard2A6_GER',
 	/*MenuName*/'',
