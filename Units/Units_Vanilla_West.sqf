@@ -1911,7 +1911,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
-	/*Name*/'',
+	/*Name*/'Large FOB',
 	/*ClassName*/'B_T_Truck_01_box_F',
 	/*MenuName*/'Deployable Large FOB',
 	/*Location*/[CTI_REPAIR],

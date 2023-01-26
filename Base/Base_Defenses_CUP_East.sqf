@@ -132,7 +132,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Reduce", 1]]
 ];
 
 _u pushBack [
@@ -148,7 +148,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Reduce", 1]]
 ];
 
 _u pushBack [
@@ -164,7 +164,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Reduce", 1]]
 ];
 
 _u pushBack [
@@ -228,7 +228,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 3]]
+	/*Specials*/[["DMG_Reduce", 3]]
 ];
 
 _u pushBack [
@@ -244,7 +244,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 3]]
+	/*Specials*/[["DMG_Reduce", 3]]
 ];
 
 _u pushBack [
@@ -260,7 +260,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 3]]
+	/*Specials*/[["DMG_Reduce", 3]]
 ];
 
 _u pushBack [
@@ -276,7 +276,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 3]]
+	/*Specials*/[["DMG_Reduce", 3]]
 ];
 
 _u pushBack [
@@ -308,7 +308,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Reduce", 1]]
 ];
 
 _u pushBack [
@@ -324,7 +324,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 3]]
+	/*Specials*/[["DMG_Reduce", 3]]
 ];
 
 _u pushBack [
@@ -340,7 +340,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 3]]
+	/*Specials*/[["DMG_Reduce", 3]]
 ];
 
 _u pushBack [
@@ -612,7 +612,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["LARGE_FOB"],["DMG_Alternative"], ["DMG_Multiplier", 4],["Condition", {_cpt = if (isNil {CTI_P_SideLogic getVariable "cti_large_fobs"}) then {1000} else {count (CTI_P_SideLogic getVariable "cti_large_fobs")}}]]
+	/*Specials*/[["LARGE_FOB"],["DMG_Multiplier", 4],["Condition", {_cpt = if (isNil {CTI_P_SideLogic getVariable "cti_large_fobs"}) then {1000} else {count (CTI_P_SideLogic getVariable "cti_large_fobs")}}]]
 ];
 
 _u pushBack [

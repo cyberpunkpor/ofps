@@ -62,10 +62,8 @@ missionNamespace setVariable [format["CTI_%1_Factories", _side], ["ControlCenter
 		//DEFAULT: []
 		//FORMAT: [string tag, value]
 		//EXAMPLES: 
-			//[["DMG_Alternative"]] - DMG_Alternative: Need to be used in case of bisterious buildings usage 
-				//		If a building is damaged, all the EH it had will bisteriously vanish... This "feature" will probably never get fixed so once again, we fix it ourself!
-			//[["DMG_Alternative"], ["DMG_Reduce", 2]]- DMG_Reduce: Reduce the incoming damage on a building making it stronger if above 1.
-			//[["DMG_Alternative"], ["DMG_Multiplier", 2]]- DMG_Multiplier: Incrases the incoming damage on the building making it weaker if above 1.
+			//[["DMG_Reduce", 2]]- DMG_Reduce: Reduce the incoming damage on a building making it stronger if above 1.
+			//[["DMG_Multiplier", 2]]- DMG_Multiplier: Incrases the incoming damage on the building making it weaker if above 1.
 
 	/*Conditions*/
 		//DESCRIPTION: Special Conditions - block/allow placement
@@ -93,7 +91,7 @@ _u pushback [
 	/*times*/10,
 	/*MaxCount*/-1,
 	/*placements*/[180, 15, false],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Reduce", 25]],
 	/*conditions*/(compile format["!(%1 call CTI_CO_FNC_IsHQDeployed) && (CTI_P_SideLogic getVariable ['cti_hq_ready', true])", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -106,7 +104,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25, false],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Reduce", 2]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -119,7 +117,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Reduce", 17]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -132,7 +130,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Reduce", 1.5]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -145,7 +143,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Reduce", 3]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -160,7 +158,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*times*/120,
 			/*MaxCount*/1,
 			/*placements*/[0, 40],
-			/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 2]],
+			/*specials*/[["DMG_Reduce", 1.3]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 			/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -169,12 +167,12 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 	case 1: {//CUP
 		_u pushback [ 
 	/*headers*/[CTI_AIR_ROTARY, "Rotary Wing Aircraft Factory", "Air Rotary"],
-	/*classes*/["Land_Mil_ControlTower", "Land_Mil_ControlTower_ruins"],
+	/*classes*/["Land_ControlTower_02_F", "Land_ControlTower_02_ruins_F"],
 	/*prices*/3000,
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[0, 40],
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 2]],
+	/*specials*/[["DMG_Reduce", 2]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -190,12 +188,12 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 
 _u pushback [ 
 	/*headers*/[CTI_AIR_FIXED, "Fixed Wing Aircraft Factory", "Air Fixed"],
-	/*classes*/["Land_Airport_Tower_F", "Land_Airport_Tower_ruins_F"],
+	/*classes*/["Land_Airport_02_controlTower_F", "Land_Airport_Tower_ruins_F"],
 	/*prices*/4000,
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 40],
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 2]],
+	/*specials*/[["DMG_Reduce", 1.2]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -208,7 +206,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Reduce", 1.2]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -221,7 +219,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Reduce", 3]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -234,7 +232,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 60],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Reduce", 8]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -249,7 +247,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*times*/120,
 			/*MaxCount*/1,
 			/*placements*/[180, 30, false],
-			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+			/*specials*/[["DMG_Reduce", 4]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 			/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -263,7 +261,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*times*/120,
 			/*MaxCount*/1,
 			/*placements*/[180, 30, false],
-			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+			/*specials*/[["DMG_Reduce", 15]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 			/*respawnBPos*/-1,
 			/*Factories*/[]
@@ -277,7 +275,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*times*/120,
 			/*MaxCount*/1,
 			/*placements*/[180, 30, false],
-			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+			/*specials*/[["DMG_Reduce", 5]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 			/*respawnBPos*/-1,
 			/*Factories*/[]
@@ -300,7 +298,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*times*/120,
 			/*MaxCount*/1,
 			/*placements*/[180, 30, false],
-			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+			/*specials*/[["DMG_Reduce", 10]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 			/*respawnBPos*/-1,
 			/*Factories*/[]
@@ -314,7 +312,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*times*/120,
 			/*MaxCount*/1,
 			/*placements*/[180, 30, false],
-			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+			/*specials*/[["DMG_Reduce", 11]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 			/*respawnBPos*/-1,
 			/*Factories*/[]
@@ -328,7 +326,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*times*/120,
 			/*MaxCount*/1,
 			/*placements*/[180, 30, false],
-			/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+			/*specials*/[["DMG_Reduce", 5]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 			/*respawnBPos*/-1,
 			/*Factories*/[]
@@ -350,7 +348,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Reduce", 5]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -363,7 +361,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
-	/*specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Reduce", 3.5]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]

@@ -3412,7 +3412,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Tatra T810 Repair',
 	/*ClassName*/'CUP_B_T810_Repair_CZ_WDL',
 	/*MenuName*/'Tatra T810 Repair (90 second spawn timer)',
 	/*Location*/[CTI_REPAIR,[CTI_LARGE_FOB,"default",0]],
@@ -3431,7 +3431,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Large FOB',
 	/*ClassName*/'cup_b_mtvr_repair_usmc',
 	/*MenuName*/'Deployable Large FOB',
 	/*Location*/[CTI_REPAIR],

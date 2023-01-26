@@ -5918,7 +5918,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
+	/*Name*/'Large FOB',
 	/*ClassName*/'CUP_O_Ural_Repair_RU',
 	/*MenuName*/'Deployable Large FOB',
 	/*Location*/[CTI_REPAIR],

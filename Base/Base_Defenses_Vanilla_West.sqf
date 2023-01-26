@@ -837,7 +837,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
@@ -853,7 +853,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
@@ -1189,7 +1189,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Reduce", 1]]
 ];
 
 _u pushBack [
@@ -1413,7 +1413,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
@@ -1621,7 +1621,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Reduce", 1]]
 ];
 
 _u pushBack [
@@ -1637,7 +1637,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Reduce", 1]]
 ];
 
 _u pushBack [
@@ -1653,7 +1653,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 1]]
+	/*Specials*/[["DMG_Reduce", 1]]
 ];
 
 _u pushBack [
@@ -1669,7 +1669,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
@@ -1685,7 +1685,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
@@ -1701,7 +1701,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+	/*Specials*/[["DMG_Multiplier", 3]]
 ];
 
 _u pushBack [
@@ -1717,7 +1717,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 3]]
+	/*Specials*/[["DMG_Multiplier", 3]]
 ];
 
 _u pushBack [
@@ -1733,7 +1733,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 3]]
+	/*Specials*/[["DMG_Reduce", 3]]
 ];
 
 _u pushBack [
@@ -2165,7 +2165,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 4]]
+	/*Specials*/[["DMG_Multiplier", 4]]
 ];
 
 _u pushBack [
@@ -2181,13 +2181,13 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Multiplier", 4]]
+	/*Specials*/[["DMG_Multiplier", 4]]
 ];
 
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'FOB',
-	/*Class*/["CampEast",[["RuinOnDestroyed", ""]]],
+	/*Class*/["Small_Fob",[["RuinOnDestroyed", ""]]],
 	/*Price*/15000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Fortification"],
@@ -2197,7 +2197,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["FOB"],["DMG_Alternative"], ["DMG_Reduce", 1.5],["Condition", {_cpt = if (isNil {CTI_P_SideLogic getVariable "cti_fobs"}) then {1000} else {count (CTI_P_SideLogic getVariable "cti_fobs")}}]]
+	/*Specials*/[["FOB"],["DMG_Reduce", 20],["Condition", {_cpt = if (isNil {CTI_P_SideLogic getVariable "cti_fobs"}) then {1000} else {count (CTI_P_SideLogic getVariable "cti_fobs")}}]]
 ];
 
 _u pushBack [
@@ -2213,7 +2213,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["LARGE_FOB"],["DMG_Alternative"], ["DMG_Reduce", 1.5],["Condition", {_cpt = if (isNil {CTI_P_SideLogic getVariable "cti_large_fobs"}) then {1000} else {count (CTI_P_SideLogic getVariable "cti_large_fobs")}}]]
+	/*Specials*/[["LARGE_FOB"],["DMG_Reduce", 4.5],["Condition", {_cpt = if (isNil {CTI_P_SideLogic getVariable "cti_large_fobs"}) then {1000} else {count (CTI_P_SideLogic getVariable "cti_large_fobs")}}]]
 ];
 
 _u pushBack [
@@ -2229,7 +2229,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Alternative"], ["DMG_Reduce", 2]]
+	/*Specials*/[["DMG_Reduce", 2]]
 ];
 
 _u pushBack [
