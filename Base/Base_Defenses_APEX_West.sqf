@@ -564,7 +564,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Multiplier", 3]]
+	/*Specials*/[["DMG_Multiplier", 4]]
 ];
 
 _u pushBack [

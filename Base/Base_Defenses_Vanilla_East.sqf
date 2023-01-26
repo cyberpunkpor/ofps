@@ -2157,7 +2157,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Multiplier", 4]]
+	/*Specials*/[["DMG_Multiplier", 15]]
 ];
 
 _u pushBack [
@@ -2173,7 +2173,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Multiplier", 4]]
+	/*Specials*/[["DMG_Multiplier", 15]]
 ];
 
 _u pushBack [
