@@ -2603,7 +2603,7 @@ _u = []; //Gear Classname
     //UAV Bag
 
 			_u pushBack [
-				/*Enabled*/false,
+				/*Enabled*/true,
 				/*Name*/'',
 				/*ClassName*/'O_UAV_01_backpack_F',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",3], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
