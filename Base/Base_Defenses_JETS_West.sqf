@@ -148,7 +148,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/240,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Reduce", 90]]
+	/*Specials*/[["DMG_Multiply", 3]]
 ];
 
 _u pushBack [
@@ -260,7 +260,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Multiply", 3]]
 ];
 
 _u pushBack [

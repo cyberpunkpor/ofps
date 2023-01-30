@@ -148,7 +148,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/240,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Multiply", 3]]
 ];
 
 _u pushBack [

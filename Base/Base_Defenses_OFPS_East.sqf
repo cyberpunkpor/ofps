@@ -197,7 +197,7 @@ _u pushBack [
 	/*MaxCount*/4,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Multiply", 3]]
 ];
 
 _u pushBack [
@@ -229,7 +229,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/300,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Multiply", 3]]
 ];
 
 _u pushBack [
@@ -341,7 +341,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/240,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -421,7 +421,7 @@ _u pushBack [
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
-	/*Specials*/[["DMG_Reduce", 2]]
+	/*Specials*/[]
 ];
 
 _u pushBack [
@@ -453,7 +453,7 @@ _u pushBack [
 	/*MaxCount*/1,
 	/*Cooldown*/600,
 	/*Dismantle*/-1,
-	/*Specials*/[]
+	/*Specials*/[["DMG_Multiply", 3]]
 ];
 
 _u pushBack [
