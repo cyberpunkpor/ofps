@@ -263,13 +263,19 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Map-Wide Satellite Cam </t>"], //--- Satellite
 	["WMD Unlock", "<t>Unlocks endgame upgrades.<br /><t color='#ffff00'>Required for the final levels of the Heavy, Light, and Sattelite upgrades</t></t>"], //---Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV raises and overall SV return<br />
-	<t color='#ffff00'>LVL 1</t> - 1.0 SV per interval town cap rate to max.<br />
+	<t color='#ffff00'>LVL 1</t> - 2.0 SV per interval town cap rate to max.<br />
 			20% overall town return boost per interval<br />
-	<t color='#ffff00'>LVL 2</t> - 2.0 SV per interval town cap rate to max.<br />
+	<t color='#ffff00'>LVL 2</t> - 3.0 SV per interval town cap rate to max.<br />
 			40% overall town return boost per interval<br />
-	<t color='#ffff00'>LVL 3</t> - 3.0 SV per interval town cap rate to max.<br />
+	<t color='#ffff00'>LVL 3</t> - 4.0 SV per interval town cap rate to max.<br />
 			60% overall town return boost per interval"], //--- Supply Rate
-	["Base Health", "<t>Improves base structures' and statics' health (does not stack).<br /><t color='#ffff00'>LVL 1</t> - 1.5x health </t><br /><t color='#ffff00'>LVL 2</t> - 2.5x health<br /><t color='#ffff00'>LVL 3</t> - 3x health<br /><t color='#ffff00'>LVL 4</t> - 4x health</t>"], //--- Base Health
+
+	["Base Health", "<t>Improves base structures' health (does not stack).<br />
+	<t color='#ffff00'>LVL 1</t> - 1.5x damage reduction multiplier </t><br />
+	<t color='#ffff00'>LVL 2</t> - 2.5x damage reduction multiplier<br />
+	<t color='#ffff00'>LVL 3</t> - 3x damage reduction multiplier <br />
+	<t color='#ffff00'>LVL 4</t> - 4x damage reduction multiplier </t>"], //--- Base Health
+
 	["Base Defences", "<t>Unlock better defence structures and weapons.<br /><t color='#ffff00'>LVL 1</t> - Unlocks TOW launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks the Mk49 Spartan and more.<br /><t color='#ffff00'>LVL 4</t> - Unlocks the M119 Artillery piece and M252 mortar in the Repair Truck build menu."], //--- Base defense
 	["Jamming Type", "<t>Unlocks jamming capabilities.<br /><t color='#ffff00'>LVL 0</t> - Unlocks IR jamming.<br /><t color='#ffff00'>LVL 1</t> - Unlocks passive radar jamming.<br /><t color='#ffff00'>LVL 2</t> - Unlocks LIDAR jamming <br /><t color='#ffff00'>LVL 3</t> - Unlocks active radar jamming"], //--- Jamming Types
     ["Jamming Range", "<t>Increases Jamming Range.<br /><t color='#ffff00'>LVL 1</t> - Range 4km <br /><t color='#ffff00'>LVL 2</t> - Range 6km <br /><t color='#ffff00'>LVL 3</t> - Range 8km <br /><t color='#ffff00'>LVL 4</t> - Range 10km <br />"]  //--- Jamming Range
