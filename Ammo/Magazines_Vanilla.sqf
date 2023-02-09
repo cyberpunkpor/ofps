@@ -3834,7 +3834,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'PylonMissile_Missile_HARM_x1',
@@ -3846,7 +3846,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'PylonRack_Missile_HARM_x1',
@@ -3858,7 +3858,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'PylonMissile_Missile_HARM_INT_x1',
@@ -3870,7 +3870,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'PylonMissile_Missile_KH58_x1',
@@ -3882,7 +3882,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'PylonMissile_Missile_KH58_INT_x1',

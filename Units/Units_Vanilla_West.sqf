@@ -580,7 +580,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_UAV_01_F',
 	/*MenuName*/['AR-2 Darter'],
@@ -2157,7 +2157,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'B_MRAP_01_hmg_F',
 	/*MenuName*/'',

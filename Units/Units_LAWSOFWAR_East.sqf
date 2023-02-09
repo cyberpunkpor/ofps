@@ -276,7 +276,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'O_UAV_06_F',
 	/*MenuName*/'',

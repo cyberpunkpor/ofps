@@ -2366,7 +2366,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'O_UAV_01_F',
 	/*MenuName*/['AR-2 Darter'],
