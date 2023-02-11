@@ -109,7 +109,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03C_black',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
-			/*Price*/100,
+			/*Price*/30,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -120,7 +120,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03C_khaki',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
-			/*Price*/100,
+			/*Price*/30,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -131,7 +131,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03C_camo',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
-			/*Price*/100,
+			/*Price*/30,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -142,7 +142,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03C_hex',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
-			/*Price*/100,
+			/*Price*/30,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -153,7 +153,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03_black',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
-			/*Price*/100,
+			/*Price*/40,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -164,7 +164,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03_khaki',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
-			/*Price*/100,
+			/*Price*/40,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -175,7 +175,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03_hex',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
-			/*Price*/100,
+			/*Price*/40,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -186,7 +186,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03_camo',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
-			/*Price*/100,
+			/*Price*/40,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -197,7 +197,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03C_TR_camo',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/100,
+			/*Price*/45,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -208,7 +208,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03C_TR_hex',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/100,
+			/*Price*/45,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -219,7 +219,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03C_TR_black',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/100,
+			/*Price*/45,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -230,7 +230,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03C_TR_khaki',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/100,
+			/*Price*/45,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -241,7 +241,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03_TR_black',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/100,
+			/*Price*/45,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -252,7 +252,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03_TR_khaki',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/100,
+			/*Price*/45,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -263,7 +263,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03_TR_hex',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/100,
+			/*Price*/45,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
@@ -274,7 +274,7 @@ _u = []; //Gear Classname
 			/*ClassName*/'SMG_03_TR_camo',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
-			/*Price*/100,
+			/*Price*/45,
 			/*Camo*/[],
 			/*Type*/["SMG"]
 		];
