@@ -1227,18 +1227,7 @@ _u = []; //Gear Classname
 
 			_u pushBack [
 				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_launch_RPG18_Loaded',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/100,
-				/*Camo*/[],
-				/*Type*/["Dumbfire"]
-			];
-			
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'Disposable RPG-18 (Gear-Template incompatible)',
+				/*Name*/'Disposable RPG-18',
 				/*ClassName*/'CUP_launch_RPG18',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
@@ -3722,7 +3711,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_U_O_RUS_EMR_gloves_pads',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/0,
 				/*Camo*/[],
 				/*Type*/["Uniform"]

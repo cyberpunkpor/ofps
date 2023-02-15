@@ -1969,11 +1969,11 @@ _u = []; //Gear Classname
 		];    
 
 		_u pushBack [
-			/*Enabled*/false,
+			/*Enabled*/true,
 			/*Name*/'',
 			/*ClassName*/'U_O_officer_noInsignia_hex_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/1,
+			/*UpgradeLevel*/0,
 			/*Price*/50,
 			/*Camo*/[],
 			/*Type*/["Uniform"]

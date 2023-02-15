@@ -36,7 +36,7 @@ switch (CTI_FACTION_WEST) do {
         //Vest
 		["V_BandollierB_khk",["30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01"]],
 		//Backpack
-		["cup_b_usmc_assaultpack",["CUP_launch_M72A6","firstaidkit","firstaidkit"]]],
+		["cup_b_usmc_assaultpack",["CUP_launch_M72A6_Special","firstaidkit","firstaidkit"]]],
 		//Helmet,facegear and NVG
 		["cup_h_usmc_helmetwdl","g_combat"],
 		//Equipment
@@ -115,7 +115,7 @@ switch (CTI_FACTION_WEST) do {
         //Vest
 		["V_BandollierB_oli",["30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01"]],
 		//Backpack
-		["cup_b_usmc_assaultpack",["CUP_launch_M72A6"]]],
+		["cup_b_usmc_assaultpack",["CUP_launch_M72A6_Special"]]],
 		//Helmet,facegear and NVG
 		["CUP_H_PASGTv2_NVG_ERDL_lowland","g_combat"],
 		//Equipment
@@ -196,7 +196,7 @@ switch (CTI_FACTION_WEST) do {
 				["Toolkit", 1]
 			]],
 			["CUP_B_AAV_USMC", [
-				["CUP_launch_M72A6", 22],
+				["CUP_launch_M72A6_Special", 22],
 				["CUP_arifle_M4A1", 10],
 				["CUP_sgun_M1014", 5],
 				["CUP_8Rnd_B_Beneli_74Slug", 5],
@@ -403,7 +403,7 @@ switch (CTI_FACTION_WEST) do {
         //Vest
 		["V_BandollierB_oli",["30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01","30rnd_45acp_mag_smg_01"]],
 		//Backpack
-		["cup_b_usmc_assaultpack",["CUP_launch_M72A6"]]],
+		["cup_b_usmc_assaultpack",["CUP_launch_M72A6_Special"]]],
 		//Helmet,facegear and NVG
 		["CUP_H_PASGTv2_NVG_ERDL_highland","g_combat"],
 		//Equipment

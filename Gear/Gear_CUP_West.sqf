@@ -3541,29 +3541,7 @@ _u = []; //Gear Classname
 		
 			_u pushBack [
 				/*Enabled*/true,
-				/*Name*/'Disposable M72A6 (Gear-Template incompatible)',
-				/*ClassName*/'CUP_launch_M72A6',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/100,
-				/*Camo*/[],
-				/*Type*/["Dumbfire"]
-			];
-			
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_launch_M72A6_Loaded',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/100,
-				/*Camo*/[],
-				/*Type*/["Dumbfire"]
-			];
-		
-			_u pushBack [
-				/*Enabled*/false,
-				/*Name*/'',
+				/*Name*/'Disposable M72A6',
 				/*ClassName*/'CUP_launch_M72A6_Special',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/0,
@@ -3571,18 +3549,7 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Dumbfire"]
 			];
-			
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_launch_M136',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
-				/*Price*/200,
-				/*Camo*/[],
-				/*Type*/["Dumbfire"]
-			];
-			
+	
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
@@ -3599,19 +3566,8 @@ _u = []; //Gear Classname
     //Lock-on
 		
 			_u pushBack [
-				/*Enabled*/true, //replaced by disposable NLAW
-				/*Name*/'',
-				/*ClassName*/'CUP_launch_NLAW_Loaded',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/3,
-				/*Price*/800,
-				/*Camo*/[],
-				/*Type*/["Lock-On Only"]
-			];
-
-			_u pushBack [
 				/*Enabled*/true,
-				/*Name*/'Disposable NLAW (Gear-Template incompatible)',
+				/*Name*/'Disposable NLAW',
 				/*ClassName*/'CUP_launch_NLAW',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/3,
@@ -4574,7 +4530,18 @@ _u = []; //Gear Classname
 				/*Camo*/[],
 				/*Type*/["Other"]
 			];
-		
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'cup_optic_microt1',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/30,
+				/*Camo*/[],
+				/*Type*/["Other"]
+			];
+
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
@@ -8719,6 +8686,28 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
+				/*ClassName*/'cup_u_b_usmc_marpat_wdl_twokneepads',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/0,
+				/*Camo*/[],
+				/*Type*/["Uniform"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
+				/*ClassName*/'cup_u_b_usmc_mccuu_des_gloves',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/0,
+				/*Camo*/[],
+				/*Type*/["Uniform"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
 				/*ClassName*/'CUP_U_B_USMC_FROG4_DMARPAT',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 				/*UpgradeLevel*/2,
@@ -8963,7 +8952,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_U_B_BDUv2_gloves_Winter',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/100,
 				/*Camo*/[],
 				/*Type*/["Uniform"]
@@ -9606,7 +9595,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_B_US_Assault_OEFCP',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/25,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -9617,7 +9606,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_B_USMC_AssaultPack',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/25,
 				/*Camo*/[],
 				/*Type*/["Backpack"]
@@ -9881,7 +9870,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'cup_h_usmc_helmetwdl',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/20,
 				/*Camo*/[],
 				/*Type*/["Helmet"]
@@ -9934,9 +9923,20 @@ _u = []; //Gear Classname
 			_u pushBack [
 				/*Enabled*/true,
 				/*Name*/'',
+				/*ClassName*/'cup_h_pasgtv2_nvg_erdl_lowland',
+				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+				/*UpgradeLevel*/0,
+				/*Price*/20,
+				/*Camo*/[],
+				/*Type*/["Helmet"]
+			];
+
+			_u pushBack [
+				/*Enabled*/true,
+				/*Name*/'',
 				/*ClassName*/'CUP_H_PASGTv2_NVG_winter',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/20,
 				/*Camo*/[],
 				/*Type*/["Helmet"]
@@ -10090,7 +10090,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_H_LWHv2_MARPAT_cov_fr',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/20,
 				/*Camo*/[],
 				/*Type*/["Helmet"]
@@ -10101,7 +10101,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_H_LWHv2_MARPAT_des',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/20,
 				/*Camo*/[],
 				/*Type*/["Helmet"]
@@ -10112,7 +10112,7 @@ _u = []; //Gear Classname
 				/*Name*/'',
 				/*ClassName*/'CUP_H_LWHv2_MARPAT',
 				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/1,
+				/*UpgradeLevel*/0,
 				/*Price*/20,
 				/*Camo*/[],
 				/*Type*/["Helmet"]
