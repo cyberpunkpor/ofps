@@ -228,13 +228,13 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Gear", "<t>Unlock better gear."], //--- Gear
 	["Barracks", "
 	<t>Unlock better infantry, group size, player abilities, and AI skill<br />
-	<t color='#ffff00'>LVL 0</t> - Group limit 3 skill 60% <br />
-	<t color='#ffff00'>LVL 1</t> - Group limit 4 skill 65% <br />
-	<t color='#ffff00'>LVL 2</t> - Group limit 5 skill 70% | Medikit | LockPick 1<br />
-	<t color='#ffff00'>LVL 3</t> - Group limit 6 skill 75% | LockPick 2 | Unlocks Base Defense 3 | Explosives skill<br />
-	<t color='#ffff00'>LVL 4</t> - Group limit 7 skill 80% | LockPick 3 <br/>
-	<t color='#ffff00'>LVL 5</t> - Group limit 8 skill 85% | LockPick 3 <br />
-	<t color='#ffff00'>LVL 6</t> - Group limit 9 skill 90% | LockPick 4 | UAV hacker <br />"], //--- Barracks
+	<t color='#ffff00'>LVL 0</t> - Ai skill 60% <br />
+	<t color='#ffff00'>LVL 1</t> - Ai skill 65% <br />
+	<t color='#ffff00'>LVL 2</t> - Ai skill 70% | Medikit | LockPick 1<br />
+	<t color='#ffff00'>LVL 3</t> - Ai skill 75% | LockPick 2 | Base Defense 3 | Explosives skill<br />
+	<t color='#ffff00'>LVL 4</t> - Ai skill 80% | LockPick 3 <br/>
+	<t color='#ffff00'>LVL 5</t> - Ai skill 85% | LockPick 3 <br />
+	<t color='#ffff00'>LVL 6</t> - Ai skill 90% | LockPick 4 | UAV hacker <br />"], //--- Barracks
 	["Light Factory", "<t>Unlock better wheeled units.</t>
 	<t color='#ffff00'>LVL 5</t> unlocks the Nuke Truck and Self-Propelled Artillery."], //--- Light
 	["Heavy Factory", "<t>Unlock better tracked units.</t>
