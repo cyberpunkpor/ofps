@@ -4671,11 +4671,22 @@ _u = []; //Gear Classname
 					/*ClassName*/'CUP_optic_CompM4',
 					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 					/*UpgradeLevel*/1,
+					/*Price*/1,
+					/*Camo*/[],
+					/*Type*/["Close"]
+				];
+
+				_u pushBack [
+					/*Enabled*/true,
+					/*Name*/'',
+					/*ClassName*/'CUP_optic_Microt1',
+					/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+					/*UpgradeLevel*/0,
 					/*Price*/0,
 					/*Camo*/[],
 					/*Type*/["Close"]
 				];
-				
+
 				_u pushBack [
 					/*Enabled*/true,
 					/*Name*/'',
