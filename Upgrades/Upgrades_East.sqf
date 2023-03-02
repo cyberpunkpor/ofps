@@ -29,9 +29,9 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 ]];
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
-	[500,2500,3500,4000,4500,5000], //--- Gear
+	[1000,2500,3500,4000,4500,5000], //--- Gear
 	[500,1500,2000,2500,3000,3500], //--- Barracks
-	[500,1500,2000,3000,10000], //--- Light
+	[1000,1500,2000,3000,10000], //--- Light
 	[2000,4000,5000,6000,8000], //--- Heavy
 	[500,500], //--- Naval
 	[1000,2000,3000,4000], //--- Air Rotary
@@ -44,7 +44,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1000,2000,4000], //--- Art Radar
 	[500,1000,1500,2000,3000,4000], //--- Respawn Range
 	[500,1000], //--- LVOSS
-	[5000,7500,8500,9000], //--- APS
+	[5000,7500,8500,10000], //--- APS
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
 	[2000,2500,3000], //--- Supply Rate
