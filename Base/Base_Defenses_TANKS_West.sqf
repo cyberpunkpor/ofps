@@ -110,7 +110,7 @@ _u pushBack [
 	/*Class*/["Land_RepairDepot_01_tan_F",[["RuinOnDestroyed", "Land_Cargo_Tower_V1_ruins_F"]]],
 	/*Price*/5000,
 	/*Placement*/[0, 0],
-	/*Tags*/["Misc"],
+	/*Tags*/["Deployable Logistics"],
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/["*"],
 	/*Upgrade*/1,
@@ -126,7 +126,7 @@ _u pushBack [
 	/*Class*/["Land_RepairDepot_01_green_F",[["RuinOnDestroyed", "Land_RepairDepot_01_green_ruins_F"]]],
 	/*Price*/5000,
 	/*Placement*/[0, 0],
-	/*Tags*/["Misc"],
+	/*Tags*/["Deployable Logistics"],
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/["*"],
 	/*Upgrade*/1,
@@ -142,7 +142,7 @@ _u pushBack [
 	/*Class*/["Land_RepairDepot_01_civ_F",[["RuinOnDestroyed", "Land_RepairDepot_01_civ_ruins_F"]]],
 	/*Price*/5000,
 	/*Placement*/[0, 0],
-	/*Tags*/["Misc"],
+	/*Tags*/["Deployable Logistics"],
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/["*"],
 	/*Upgrade*/1,
@@ -169,7 +169,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Dragons Teeth Old (4x2)',
 	/*Class*/"Land_DragonsTeeth_01_4x2_old_F",
 	/*Price*/1000,
@@ -201,7 +201,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Dragons Teeth Old (1x1)',
 	/*Class*/"Land_DragonsTeeth_01_1x1_old_F",
 	/*Price*/200,
