@@ -260,9 +260,9 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 1</t> - 2.0 SV per interval town cap rate to max.<br />
 			20% overall town return boost per interval<br />
 	<t color='#ffff00'>LVL 2</t> - 3.0 SV per interval town cap rate to max.<br />
-			40% overall town return boost per interval<br />
+			30% overall town return boost per interval<br />
 	<t color='#ffff00'>LVL 3</t> - 4.0 SV per interval town cap rate to max.<br />
-			60% overall town return boost per interval"], //--- Supply Rate
+			40% overall town return boost per interval"], //--- Supply Rate
 
 	["Base Health", "<t>Improves base structures' health (does not stack).<br />
 	<t color='#ffff00'>LVL 1</t> - 1.5x damage reduction multiplier </t><br />
