@@ -2102,7 +2102,7 @@ _u pushBack [
 	/*ClassName*/'ammo_Missile_Cruise_01',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/10000,
+	/*Price*/6500,
 	/*RearmTime*/16,
 	/*Filters*/[]
 ];
@@ -2114,7 +2114,7 @@ _u pushBack [
 	/*ClassName*/'ammo_Missile_Cruise_01_Cluster',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/10000,
+	/*Price*/6500,
 	/*RearmTime*/16,
 	/*Filters*/[]
 ];

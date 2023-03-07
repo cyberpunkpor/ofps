@@ -3816,7 +3816,7 @@ _u pushBack [
 	/*ClassName*/'magazine_Missiles_Cruise_01_Cluster_x18',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/180000,
+	/*Price*/117000,
 	/*RearmTime*/600,
 	/*Filters*/[]
 ];
@@ -3828,7 +3828,7 @@ _u pushBack [
 	/*ClassName*/'magazine_Missiles_Cruise_01_x18',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/180000,
+	/*Price*/117000,
 	/*RearmTime*/600,
 	/*Filters*/[]
 ];
