@@ -652,6 +652,17 @@ _u pushBack [
 	/*Filters*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'CUP_100Rnd_23mm_AZP23_M',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/1,
+	/*Price*/200,
+	/*RearmTime*/1,
+	/*Filters*/[]
+];
 
 _u pushBack [
 	/*Enabled*/true,
