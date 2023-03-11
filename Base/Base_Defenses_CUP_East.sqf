@@ -472,7 +472,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Repair Truck D-30 AT (3.5k)',
 	/*Class*/"CUP_O_D30_AT_TK",
 	/*Price*/12000,
