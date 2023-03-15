@@ -856,4 +856,4 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
-[_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Defenses.sqf";
+[_side, _faction, _u, _mod] call CTI_CO_fnc_Set_Defenses;

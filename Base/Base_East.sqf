@@ -382,4 +382,4 @@ _u pushback [
 
 
 
-[_side, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Base\Set_Structures.sqf";
+[_side, _u] call CTI_CO_fnc_Set_Structures;

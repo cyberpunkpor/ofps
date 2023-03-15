@@ -1002,4 +1002,4 @@ if (CTI_IFA3_ADDON >= 2) then {
 };
 
 
-[_c, _m, _b, _r] call compile preprocessFileLineNumbers "Common\Config\Common\Artillery\Set_Artillery.sqf";
+[_c, _m, _b, _r] call CTI_CO_fnc_Set_Artillery;

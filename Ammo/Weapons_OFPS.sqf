@@ -215,4 +215,4 @@ _u pushBack [
 
 //--------------------------------------------------------------------------------------------------------------
 
-[_side, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Ammo\Weapon_Config_Set.sqf";
+[_side, _u] call CTI_CO_fnc_Weapon_Config_Set;

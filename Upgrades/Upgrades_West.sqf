@@ -284,4 +284,4 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 
 
 //--- Check potential missing definition.
-(_side) call Compile preprocessFileLineNumbers "Common\Config\Common\Upgrades\Check_Upgrades.sqf";
+(_side) call CTI_CO_fnc_Check_Upgrades;

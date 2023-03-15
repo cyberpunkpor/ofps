@@ -6661,4 +6661,4 @@ _u pushBack [
 
 //--------------------------------------------------------------------------------------------------------------
 
-[_side, _faction, _u, _mod] call compile preprocessFileLineNumbers "Common\Config\Common\Gear\Gear_Config_Set.sqf";
+[_side, _faction, _u, _mod] call CTI_CO_fnc_Gear_Config_Set;

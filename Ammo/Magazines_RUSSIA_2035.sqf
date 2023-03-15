@@ -79,4 +79,4 @@ _u = []; //Ammo Classname
 
 //--------------------------------------------------------------------------------------------------------------
 
-[_side, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Ammo\Ammo_Config_Set.sqf";
+[_side, _u] call CTI_CO_fnc_Ammo_Config_Set;

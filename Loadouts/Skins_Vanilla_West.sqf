@@ -122,4 +122,4 @@ _u pushBack [
 
 //--------------------------------------------------------------------------------------------------------------
 
-[_side, _faction, _u] call compile preprocessFileLineNumbers "Common\Config\Common\Loadouts\Skins_Config_Set.sqf";
+[_side, _faction, _u] call CTI_CO_fnc_Skins_Config_Set;

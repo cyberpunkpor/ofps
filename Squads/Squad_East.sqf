@@ -110,4 +110,4 @@ _m pushBack 25000;
 _c pushBack "Air";
 _s pushBack [];
 
-[_side, _v, _t, _p, _f, _m, _c, _s] call compile preprocessFileLineNumbers "Common\Config\Common\Squads\Squads_Set.sqf";
+[_side, _v, _t, _p, _f, _m, _c, _s] call CTI_CO_fnc_Squads_Set;
