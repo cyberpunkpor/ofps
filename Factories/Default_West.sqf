@@ -1,8 +1,6 @@
 private ["_side", "_u"];
 _side = _this;
 
-missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN", "Male01ENGB","Male02ENGB","Male03ENGB","Male04ENGB","Male05ENGB"]];
-
 switch (CTI_FACTION_WEST) do {
 	case 0: { //NATO Vanilla (arid)
 		//Set MHQ
@@ -18,7 +16,7 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "B_Pilot_F"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "B_Helipilot_F"];
 		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "B_helicrew_F"];
-		missionNamespace setVariable [format["CTI_%1_Static", _side], "B_Soldier_F"];
+		missionNamespace setVariable [format["CTI_%1_Static", _side], "B_Survivor_F"];
 		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "B_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_coyote_F"];
@@ -87,7 +85,6 @@ switch (CTI_FACTION_WEST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_T_APC_Wheeled_01_cannon_F"];
 		//Set Infantry
-		missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male01_EN", "CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN", "CUP_D_Female01_EN"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "B_T_Officer_F"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "B_T_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "B_T_Diver_F"];
@@ -97,7 +94,6 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "B_T_Crew_F"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "B_T_Pilot_F"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "B_T_Helipilot_F"];
-		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "B_T_Helicrew_F"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "B_T_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "B_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
@@ -165,7 +161,6 @@ switch (CTI_FACTION_WEST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_LAV25_HQ_desert_USMC"];
 		//Set Infantry
-		missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male01_EN","CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_B_USMC_Officer_des"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_B_USMC_Soldier_des"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_B_USMC_Soldier_des"];
@@ -175,8 +170,7 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_B_USMC_Crew_des"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_B_USMC_Pilot_des"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_B_USMC_Pilot_des"];
-		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_B_USMC_Pilot_des"];
-		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_B_USMC_Soldier_des"];
+		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_B_USMC_Soldier_Light_FROG_DES"];
 		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "B_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
 		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_coyote_F"];
@@ -250,7 +244,6 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "rhsusf_army_ocp_combatcrewman"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "rhsusf_army_ocp_helipilot"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "rhsusf_army_ocp_helipilot"];
-		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "rhsusf_army_ocp_helipilot"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "rhsusf_army_ocp_rifleman_m16"];
 		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "B_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
@@ -291,7 +284,6 @@ switch (CTI_FACTION_WEST) do {
 	//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_LAV25_HQ_USMC"];
 		//Set Infantry
-		missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male01_EN","CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_B_USMC_Officer"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_B_USMC_Soldier"];
@@ -301,7 +293,6 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_B_USMC_Crew"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_B_USMC_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_B_USMC_Pilot"];
-		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_B_USMC_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "B_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
@@ -375,7 +366,6 @@ switch (CTI_FACTION_WEST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_T_APC_Wheeled_01_cannon_F"];
 		//Set Infantry
-		missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male01_EN", "CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN", "CUP_D_Female01_EN"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "B_W_Officer_F"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "B_W_Soldier_F"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "B_T_Diver_F"];
@@ -385,7 +375,6 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "B_W_Crew_F"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "B_T_Pilot_F"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "B_T_Helipilot_F"];
-		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "B_T_Helicrew_F"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "B_W_Officer_F"];
 		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "B_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)
@@ -455,7 +444,6 @@ switch (CTI_FACTION_WEST) do {
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_LAV25_HQ_USMC"];
 		//Set Infantry
-		missionNamespace setVariable [format["CTI_%1_Speakers_CTI", _side], ["CUP_D_Male01_EN","CUP_D_Male02_EN", "CUP_D_Male03_EN", "CUP_D_Male04_EN", "CUP_D_Male05_EN"]];
 		missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_B_USMC_Officer"];
 		missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_B_USMC_Soldier"];
@@ -465,7 +453,6 @@ switch (CTI_FACTION_WEST) do {
 		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "CUP_B_USMC_Crew"];
 		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_B_USMC_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "CUP_B_USMC_Pilot"];
-		//missionNamespace setVariable [format["CTI_%1_Helicrew", _side], "CUP_B_USMC_Pilot"];
 		missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_B_USMC_Soldier"];
 		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "B_UAV_AI"];
 		// Set crewmen backpack (To hold a repair kit)

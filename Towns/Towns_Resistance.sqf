@@ -1,8 +1,5 @@
 with missionNamespace do {
 	GUER_TOWNS_FLAG_TEXTURE = "\A3\Data_F\Flags\Flag_green_CO.paa";
-	
-	// Default Voices
-	CTI_GUER_Speakers = ["Male01GRE", "Male02GRE", "Male03GRE", "Male04GRE", "Male05GRE"];
 
 //--------------------------------------------------------------------------------------------
 //--- Town Occupation Factions
