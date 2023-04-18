@@ -84,6 +84,19 @@ missionNamespace setVariable [format["CTI_%1_Factories", _side], ["ControlCenter
 
 //--------------------------------------------------------------------------------------------------------------*/
 
+_u pushBack [
+	/*headers*/["HQComp", "Headquarters Composition (Deploy)", "HQ"],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_mhq_light_1_east",2]]],
+	/*prices*/1000,
+	/*times*/10,
+	/*MaxCount*/-1,
+	/*placements*/[0, 0],
+	/*specials*/[["DMG_Reduce", 8]],
+	/*conditions*/(compile format["!(%1 call CTI_CO_FNC_IsHQDeployed) && (CTI_P_SideLogic getVariable ['cti_hq_ready', true])", _side]),
+	/*respawnBPos*/-1,
+	/*Factories*/[CTI_HQ_DEPLOY]
+];
+
 _u pushback [
 	/*headers*/[CTI_HQ_DEPLOY, "Headquarters (Deploy)", "HQ"],
 	/*classes*/["Land_Research_house_V1_F", "Land_Research_house_V1_ruins_F"],
@@ -95,6 +108,19 @@ _u pushback [
 	/*conditions*/(compile format["!(%1 call CTI_CO_FNC_IsHQDeployed) && (CTI_P_SideLogic getVariable ['cti_hq_ready', true])", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
+];
+
+_u pushBack [
+	/*headers*/["CCComp", "Control Center Composition", "CC"],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_CC_light_1_east",2]]],
+	/*prices*/4000,
+	/*times*/120,
+	/*MaxCount*/1,
+	/*placements*/[90, 25, false],
+	/*specials*/[["DMG_Reduce", 1]],
+	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
+	/*respawnBPos*/-1,
+	/*Factories*/[CTI_CONTROLCENTER]
 ];
 
 _u pushback [ 	
