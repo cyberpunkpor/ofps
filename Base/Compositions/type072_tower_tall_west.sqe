@@ -1,5 +1,5 @@
 version=54;
-center[]={6888.5581,5,2270.0923};
+center[]={1882.7434,5,4964.9014};
 class items
 {
 	items=1;
@@ -15,7 +15,55 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={2.7255859,25.6311,1.1425781};
+					position[]={-2.7950439,18.029493,1.074707};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=15;
+				type="Land_FireEscape_01_tall_F";
+				atlOffset=12.900084;
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.9586182,5.1294098,-0.82958984};
+					angles[]={0,4.7160048,0};
+				};
+				side="Empty";
+				flags=5;
+				class Attributes
+				{
+				};
+				id=16;
+				type="Land_FireEscape_01_tall_F";
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.0150146,11.834515,-0.065917969};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=17;
+				type="Land_ReservoirTower_F";
+				atlOffset=1.627635;
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.7384033,26.738796,-0.1796875};
 				};
 				side="Empty";
 				class Attributes
@@ -25,60 +73,12 @@ class items
 					reportOwnPosition=1;
 					aiRadarUsage=1;
 				};
-				id=268;
+				id=14;
 				type="CUP_B_Type072_Turret";
-				atlOffset=0.30491829;
-			};
-			class Item1
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-2.4570313,18.029493,0.63427734};
-				};
-				side="Empty";
-				flags=1;
-				class Attributes
-				{
-				};
-				id=265;
-				type="Land_FireEscape_01_tall_F";
-				atlOffset=12.900084;
-			};
-			class Item2
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={-3.6206055,5.1294098,-1.2700195};
-					angles[]={0,4.7160048,0};
-				};
-				side="Empty";
-				flags=5;
-				class Attributes
-				{
-				};
-				id=267;
-				type="Land_FireEscape_01_tall_F";
-			};
-			class Item3
-			{
-				dataType="Object";
-				class PositionInfo
-				{
-					position[]={3.3530273,10.930274,-0.50634766};
-				};
-				side="Empty";
-				flags=1;
-				class Attributes
-				{
-				};
-				id=266;
-				type="Land_ReservoirTower_F";
-				atlOffset=0.72339344;
+				atlOffset=0.50837326;
 			};
 		};
-		id=269;
-		atlOffset=3.1341877;
+		id=18;
+		atlOffset=13.234354;
 	};
 };

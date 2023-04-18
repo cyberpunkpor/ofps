@@ -1,88 +1,81 @@
 version=54;
-center[]={1920.2548,5,1085.8345};
+center[]={1880.4778,5,4895.8906};
 class items
 {
 	items=1;
 	class Item0
 	{
 		dataType="Layer";
-		name="mk45talltowerwest";
+		name="mk45_tower_tall_west";
 		class Entities
 		{
-			items=1;
+			items=4;
 			class Item0
 			{
-				dataType="Layer";
-				name="mk45talltowerwest";
-				class Entities
+				dataType="Object";
+				class PositionInfo
 				{
-					items=4;
-					class Item0
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-2.611084,17.076332,1.0142822};
-						};
-						side="Empty";
-						flags=1;
-						class Attributes
-						{
-						};
-						id=1;
-						type="Land_FireEscape_01_tall_F";
-					};
-					class Item1
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={3.1984863,10.387729,-0.12634277};
-						};
-						side="Empty";
-						flags=5;
-						class Attributes
-						{
-						};
-						id=2;
-						type="Land_ReservoirTower_F";
-					};
-					class Item2
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-3.7751465,5.1294098,-0.89025879};
-							angles[]={0,4.7160048,0};
-						};
-						side="Empty";
-						flags=5;
-						class Attributes
-						{
-						};
-						id=3;
-						type="Land_FireEscape_01_tall_F";
-					};
-					class Item3
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={3.1877441,25.451118,0.0023193359};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							receiveRemoteTargets=1;
-						};
-						id=4;
-						type="OFPS_MK45_CANNON_B";
-					};
+					position[]={-2.611084,17.345346,1.0141602};
 				};
-				id=0;
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=123;
+				type="Land_FireEscape_01_tall_F";
+				atlOffset=12.215937;
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.7751465,5.1294098,-0.89013672};
+					angles[]={0,4.7160048,0};
+				};
+				side="Empty";
+				flags=5;
+				class Attributes
+				{
+				};
+				id=125;
+				type="Land_FireEscape_01_tall_F";
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.1877441,26.094725,0.0024414063};
+				};
+				side="Empty";
+				class Attributes
+				{
+					receiveRemoteTargets=1;
+				};
+				id=126;
+				type="OFPS_MK45_CANNON_B";
+				atlOffset=0.46275902;
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={3.1984863,10.568577,-0.12646484};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=124;
+				type="Land_ReservoirTower_F";
+				atlOffset=0.36169624;
 			};
 		};
-		id=5;
+		id=127;
+		atlOffset=6.4708004;
 	};
 };
