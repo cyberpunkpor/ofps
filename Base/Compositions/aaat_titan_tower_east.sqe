@@ -1,122 +1,37 @@
 version=54;
-center[]={5365.1353,5,1820.573};
+center[]={6897.5869,6.0638857,2316.5623};
 class items
 {
 	items=1;
 	class Item0
 	{
 		dataType="Layer";
-		name="AAAT Titan Tower OPFOR";
+		name="aaat_titan_tower_east";
 		class Entities
 		{
-			items=5;
+			items=7;
 			class Item0
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.74365234,25.192627,-1.9984131};
+					position[]={-0.74365234,24.128746,-1.998291};
 					angles[]={0,4.029747,0};
 				};
 				side="Empty";
 				class Attributes
 				{
 				};
-				id=19;
+				id=73;
 				type="ofps_O_Van_static_AA_F";
+				atlOffset=13.937964;
 			};
 			class Item1
-			{
-				dataType="Layer";
-				name="Ultra-High 6km Centurion OPFOR_1";
-				class Entities
-				{
-					items=1;
-					class Item0
-					{
-						dataType="Layer";
-						name="r-750talltower_1";
-						class Entities
-						{
-							items=1;
-							class Item0
-							{
-								dataType="Layer";
-								name="6kmcenturiontowertalleast_3";
-								class Entities
-								{
-									items=1;
-									class Item0
-									{
-										dataType="Layer";
-										name="r-750talltower_4";
-										class Entities
-										{
-											items=3;
-											class Item0
-											{
-												dataType="Object";
-												class PositionInfo
-												{
-													position[]={-3.9667969,18.113811,1.416626};
-												};
-												side="Empty";
-												flags=1;
-												class Attributes
-												{
-												};
-												id=16;
-												type="Land_FireEscape_01_tall_F";
-											};
-											class Item1
-											{
-												dataType="Object";
-												class PositionInfo
-												{
-													position[]={1.84375,11.884903,0.27600098};
-												};
-												side="Empty";
-												flags=1;
-												class Attributes
-												{
-												};
-												id=17;
-												type="Land_ReservoirTower_F";
-											};
-											class Item2
-											{
-												dataType="Object";
-												class PositionInfo
-												{
-													position[]={-5.1357422,5.1294098,-2.4373779};
-													angles[]={0,4.7160048,0};
-												};
-												side="Empty";
-												flags=5;
-												class Attributes
-												{
-												};
-												id=18;
-												type="Land_FireEscape_01_tall_F";
-											};
-										};
-										id=15;
-									};
-								};
-								id=14;
-							};
-						};
-						id=13;
-					};
-				};
-				id=12;
-			};
-			class Item2
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={4.4897461,25.192625,2.552002};
+					position[]={4.4897461,24.309586,2.552002};
 					angles[]={0,0.9392581,0};
 				};
 				side="Empty";
@@ -124,15 +39,15 @@ class items
 				class Attributes
 				{
 				};
-				id=20;
+				id=81;
 				type="ofps_O_Van_static_AA_F";
 			};
-			class Item3
+			class Item2
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={4.1845703,25.190948,-2.4515381};
+					position[]={4.1845703,24.307884,-2.451416};
 					angles[]={0,2.4412444,0};
 				};
 				side="Empty";
@@ -140,7 +55,23 @@ class items
 				class Attributes
 				{
 				};
-				id=21;
+				id=82;
+				type="ofps_O_Van_static_AT_F";
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-0.67529297,24.307888,2.6433105};
+					angles[]={-0,5.6410065,0};
+				};
+				side="Empty";
+				flags=4;
+				class Attributes
+				{
+				};
+				id=83;
 				type="ofps_O_Van_static_AT_F";
 			};
 			class Item4
@@ -148,18 +79,52 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.67529297,25.190933,2.6431885};
-					angles[]={0,5.6410065,0};
+					position[]={-3.9667969,17.934765,1.416748};
 				};
 				side="Empty";
-				flags=4;
+				flags=1;
 				class Attributes
 				{
 				};
-				id=22;
-				type="ofps_O_Van_static_AT_F";
+				id=78;
+				type="Land_FireEscape_01_tall_F";
+				atlOffset=13.86924;
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.1357422,5.1294098,-2.4372559};
+					angles[]={0,4.7160048,0};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=80;
+				type="Land_FireEscape_01_tall_F";
+				atlOffset=1.0638857;
+			};
+			class Item6
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={1.84375,11.001864,0.27612305};
+				};
+				side="Empty";
+				flags=1;
+				class Attributes
+				{
+				};
+				id=79;
+				type="Land_ReservoirTower_F";
+				atlOffset=1.8588705;
 			};
 		};
-		id=23;
+		id=84;
+		atlOffset=5.7468166;
 	};
 };
