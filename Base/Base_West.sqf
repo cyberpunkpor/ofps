@@ -86,7 +86,7 @@ missionNamespace setVariable [format["CTI_%1_Factories", _side], ["ControlCenter
 
 _u pushBack [
 	/*headers*/["HQComp", "Headquarters Composition (Deploy)", "HQ"],
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_mhq_light_1_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_hq",2]]],
 	/*prices*/1000,
 	/*times*/10,
 	/*MaxCount*/-1,
@@ -112,7 +112,7 @@ _u pushback [
 
 _u pushBack [
 	/*headers*/["CCComp", "Control Center Composition", "CC"],
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_CC_light_1_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_CC",2]]],
 	/*prices*/4000,
 	/*times*/120,
 	/*MaxCount*/1,
@@ -137,6 +137,19 @@ _u pushback [
 ];
 
 _u pushback [ 
+	/*headers*/["BComp", "Barracks Composition", "Barracks"],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_B",2]]],
+	/*prices*/1000,
+	/*times*/120,
+	/*MaxCount*/1,
+	/*placements*/[180, 15],
+	/*specials*/[["DMG_Reduce", 8]],
+	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
+	/*respawnBPos*/-1,
+	/*Factories*/[CTI_BARRACKS]
+];
+
+_u pushback [ 
 	/*headers*/[CTI_BARRACKS, "Barracks", "Barracks"],
 	/*classes*/["Land_Cargo_House_V1_F", "Land_Cargo_House_V1_ruins_F"],
 	/*prices*/1000,
@@ -150,6 +163,19 @@ _u pushback [
 ];
 
 _u pushback [ 
+	/*headers*/["LComp", "Light Vehicle Factory Composition", "Light"],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_L",2]]],
+	/*prices*/2000,
+	/*times*/120,
+	/*MaxCount*/1,
+	/*placements*/[90, 25],
+	/*specials*/[["DMG_Reduce", 2.7]],
+	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
+	/*respawnBPos*/-1,
+	/*Factories*/[CTI_LIGHT]
+];
+
+_u pushback [ 
 	/*headers*/[CTI_LIGHT, "Light Vehicle Factory", "Light"],
 	/*classes*/["Land_Medevac_HQ_V1_F", "Land_Medevac_HQ_V1_ruins_F"],
 	/*prices*/2000,
@@ -160,6 +186,19 @@ _u pushback [
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
+];
+
+_u pushback [ 
+	/*headers*/["HComp", "Heavy Vehicle Factory Composition", "Heavy"],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_H",2]]],
+	/*prices*/4000,
+	/*times*/120,
+	/*MaxCount*/1,
+	/*placements*/[90, 25],
+	/*specials*/[["DMG_Reduce", 2]],
+	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
+	/*respawnBPos*/-1,
+	/*Factories*/[CTI_HEAVY]
 ];
 
 _u pushback [ 
@@ -178,15 +217,15 @@ _u pushback [
 switch (CTI_FACTION_DEFAULT_BASE) do {
 	case 0: {//Vanilla
 		_u pushback [ 
-			/*headers*/[CTI_AIR_ROTARY, "Rotary Wing Aircraft Factory", "Air Rotary"],
-			/*classes*/["Land_ControlTower_02_F", "Land_ControlTower_02_ruins_F"],
-			/*prices*/3000,
-			/*times*/120,
-			/*MaxCount*/1,
-			/*placements*/[0, 40],
-			/*specials*/[["DMG_Reduce", 1]],
-			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-			/*respawnBPos*/-1,
+	/*headers*/[CTI_AIR_ROTARY, "Rotary Wing Aircraft Factory", "Air Rotary"],
+	/*classes*/["Land_ControlTower_02_F", "Land_ControlTower_02_ruins_F"],
+	/*prices*/3000,
+	/*times*/120,
+	/*MaxCount*/1,
+	/*placements*/[0, 40],
+	/*specials*/[["DMG_Reduce", 1]],
+	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
+	/*respawnBPos*/-1,
 	/*Factories*/[]
 		];
 	};
@@ -226,6 +265,19 @@ _u pushback [
 ];
 
 _u pushback [ 
+	/*headers*/["AComp", "Ammo Depot Composition", "Ammo"],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_A",2]]],
+	/*prices*/1000,
+	/*times*/120,
+	/*MaxCount*/1,
+	/*placements*/[90, 25],
+	/*specials*/[["DMG_Reduce", 2]],
+	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
+	/*respawnBPos*/-1,
+	/*Factories*/[CTI_AMMO]
+];
+
+_u pushback [ 
 	/*headers*/[CTI_AMMO, "Ammo Depot", "Ammo"],
 	/*classes*/["Land_Cargo_HQ_V2_F", "Land_Cargo_HQ_V2_ruins_F"],
 	/*prices*/1000,
@@ -236,6 +288,19 @@ _u pushback [
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
+];
+
+_u pushback [ 
+	/*headers*/["RComp", "Repair Depot Composition", "Repair"],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_R",2]]],
+	/*prices*/1000,
+	/*times*/120,
+	/*MaxCount*/1,
+	/*placements*/[90, 25],
+	/*specials*/[["DMG_Reduce", 2]],
+	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
+	/*respawnBPos*/-1,
+	/*Factories*/[CTI_REPAIR]
 ];
 
 _u pushback [ 
@@ -276,7 +341,7 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*specials*/[["DMG_Reduce", 4]],
 			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 			/*respawnBPos*/-1,
-	/*Factories*/[]
+			/*Factories*/[]
 		];
 	};
 	case 1: {//CUP
@@ -366,6 +431,18 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 	};
 };
 
+_u pushback [ 
+	/*headers*/["SComp", "Supply Depot Composition", "Supply Depot"],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","factory_S",2]]],
+	/*prices*/1000,
+	/*times*/120,
+	/*MaxCount*/1,
+	/*placements*/[180, 15],
+	/*specials*/[["DMG_Reduce", 5]],
+	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
+	/*respawnBPos*/-1,
+	/*Factories*/[CTI_SUPPLY_DEPOT]
+];
 
 _u pushback [ 
 	/*headers*/[CTI_SUPPLY_DEPOT, "Supply Depot", "Supply Depot"],
@@ -405,7 +482,5 @@ _u pushback [
 	/*respawnBPos*/-1,
 	/*Factories*/[]
 ];
-
-
 
 [_side, _u] call CTI_CO_fnc_Set_Structures;
