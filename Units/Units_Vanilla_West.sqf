@@ -2245,7 +2245,7 @@ _u pushBack [
 	/*Camo*/[],
 	/*Type*/['UGV'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/5,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
@@ -2264,7 +2264,7 @@ _u pushBack [
 	/*Camo*/[],
 	/*Type*/['UGV'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/5,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''

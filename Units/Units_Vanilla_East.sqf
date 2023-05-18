@@ -2359,7 +2359,7 @@ _u pushBack [
 	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/5,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
@@ -2397,7 +2397,7 @@ _u pushBack [
 	/*Camo*/['Woodland'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/5,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
