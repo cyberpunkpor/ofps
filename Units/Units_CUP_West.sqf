@@ -6489,7 +6489,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_LAV25_HQ_green',
 	/*MenuName*/['%1 (ECM)'],
@@ -6508,7 +6508,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_LAV25_HQ_desert_USMC',
 	/*MenuName*/['%1 (ECM)'],
@@ -9320,7 +9320,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_Seafox_USV_USMC',
 	/*MenuName*/['%1 (ECM)'],
@@ -9330,7 +9330,7 @@ _u pushBack [
 	/*BuildTime*/15,
 	/*Distance*/3,
 	/*Camo*/['Black'],
-	/*Type*/['Jammer Boat'],
+	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
