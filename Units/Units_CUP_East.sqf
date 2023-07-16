@@ -4993,7 +4993,7 @@ _u pushBack [
 	/*MenuName*/['%1 (ECM)'],
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics", 3],[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/1,
-	/*Price*/6000,
+	/*Price*/16000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],

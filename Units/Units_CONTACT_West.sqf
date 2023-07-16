@@ -433,7 +433,7 @@ _u pushBack [
 	/*MenuName*/['%1 (ECM)'],
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics", 3],[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/2,
-	/*Price*/5000,
+	/*Price*/15000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Other'],
