@@ -6,7 +6,7 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	case 0: { //Vanilla - AAF
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "I_officer_F"];
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "I_soldier_F"];
-	missionNamespace setVariable [format["CTI_%1_Static", _side], "I_Survivor_F"];
+	missionNamespace setVariable [format["CTI_%1_Static", _side], "I_soldier_F"];
 	missionNamespace setVariable [format["CTI_%1_Diver", _side], "I_diver_F"];
 	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "I_soldier_F"];
 	missionNamespace setVariable [format["CTI_%1_Crew", _side], "I_crew_F"];
@@ -16,7 +16,7 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	case 1: { //Vanilla - FIA
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "I_G_Officer_F"];
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "I_G_Soldier_F"];
-	missionNamespace setVariable [format["CTI_%1_Static", _side], "I_Survivor_F"];
+	missionNamespace setVariable [format["CTI_%1_Static", _side], "I_G_Soldier_F"];
 	missionNamespace setVariable [format["CTI_%1_Diver", _side], "I_diver_F"];
 	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "I_G_Soldier_F"];
 	missionNamespace setVariable [format["CTI_%1_Crew", _side], "I_G_Soldier_lite_F"];
