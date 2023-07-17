@@ -54,7 +54,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1000,2000,2000], //--- Base Health
 	[500,1000,2000,2000], //--- Base Defense
 	[500,1000,2000], //--- Jamming Types
-	[500,1000,1500,2000] //--- Jamming Range
+	[500,1000,3500,8000] //--- Jamming Range
 ]];
 
 // HOW MANY LEVELS ARE THERE 
@@ -135,7 +135,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Base Health
 	[[],[CTI_UPGRADE_BARRACKS,3],[],[CTI_UPGRADE_NUKE, 1]], //--- Base Defense
 	[[],[],[]], //--- Jamming Types
-	[[],[],[],[]] //--- Jamming Range
+	[[],[],[],[CTI_UPGRADE_HEAVY,3]] //--- Jamming Range
 ]];
 };
 
