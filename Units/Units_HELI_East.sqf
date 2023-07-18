@@ -135,7 +135,7 @@ _u pushBack [
 	/*Camo*/['Desert'],
 	/*Type*/['Jammer Helicopter'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/3,
 	/*Modifiers*/[],
 	/*Script*/'ecm',
 	/*Picture*/''

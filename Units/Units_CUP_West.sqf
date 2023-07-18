@@ -6463,7 +6463,7 @@ _u pushBack [
 	/*Camo*/['Desert'],
 	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'ecm',
 	/*Picture*/''
@@ -6482,7 +6482,7 @@ _u pushBack [
 	/*Camo*/['Woodland'],
 	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'ecm',
 	/*Picture*/''
@@ -6501,7 +6501,7 @@ _u pushBack [
 	/*Camo*/['Woodland'],
 	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'ecm',
 	/*Picture*/''
@@ -6520,7 +6520,7 @@ _u pushBack [
 	/*Camo*/['Desert'],
 	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'ecm',
 	/*Picture*/''
@@ -8439,7 +8439,7 @@ _u pushBack [
 	/*Camo*/[],
 	/*Type*/['Jammer Helicopter'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'ecm',
 	/*Picture*/''
@@ -9313,7 +9313,7 @@ _u pushBack [
 	/*Camo*/['Woodland'],
 	/*Type*/['Jammer Helicopter'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'ecm',
 	/*Picture*/''
@@ -9332,7 +9332,7 @@ _u pushBack [
 	/*Camo*/['Black'],
 	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'ecm',
 	/*Picture*/''

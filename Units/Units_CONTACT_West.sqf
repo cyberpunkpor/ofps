@@ -439,7 +439,7 @@ _u pushBack [
 	/*Camo*/['Other'],
 	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'ecm',
 	/*Picture*/''
