@@ -22,7 +22,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	(missionNamespace getVariable "CTI_VEHICLES_ERA") isEqualTo 1, //--- APS
 	true, //--- Satellite
 	true, //--- Nuke and Arty
-	true, //--- Supply Rate
+	false, //--- Supply Rate
 	(missionNamespace getVariable "CTI_BASE_HEALTH_UPGRADE") isEqualTo 1, //--- Base Health
 	true, //--- Base Defense Upgrade		
 	true, //--- Jamming Types
@@ -134,8 +134,8 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[CTI_UPGRADE_BARRACKS, 3],[CTI_UPGRADE_BARRACKS, 4]], //--- Supply Rate
 	[[],[],[],[]], //--- Base Health
 	[[],[CTI_UPGRADE_BARRACKS,3],[],[CTI_UPGRADE_NUKE, 1]], //--- Base Defense
-	[[],[],[]], //--- Jamming Types
-	[[],[],[],[CTI_UPGRADE_HEAVY,3]] //--- Jamming Range
+	[[],[],[[CTI_UPGRADE_LIGHT,3]]], //--- Jamming Types
+	[[],[],[[CTI_UPGRADE_LIGHT,2]],[CTI_UPGRADE_HEAVY,3]] //--- Jamming Range
 ]];
 };
 
