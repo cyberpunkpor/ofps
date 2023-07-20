@@ -5769,7 +5769,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_O_UAZ_SPG9_CSAT',
 	/*MenuName*/'UAZ SPG-9 (CSAT)',
-	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"default",1]],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",2],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/0,
 	/*Price*/3000,
 	/*BuildTime*/30,

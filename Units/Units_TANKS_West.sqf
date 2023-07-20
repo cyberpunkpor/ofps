@@ -223,7 +223,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'B_G_Offroad_01_AT_F',
 	/*MenuName*/'',
-	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics",1]],
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",2],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/3000,
 	/*BuildTime*/30,
