@@ -562,21 +562,21 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MK10_NATO',
-	/*MenuName*/'MK10 (Vehicle Transport / Medic)',
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
-	/*Price*/8000,
+	/*MenuName*/'MK10 (Vehicle Transport / Defense Boat)',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT,"logistics",2]],
+	/*UpgradeLevel*/3,
+	/*Price*/10500,
 	/*BuildTime*/30,
 	/*Distance*/5,
-	/*Camo*/['Transport Ship'],
+	/*Camo*/['Logistics Ship'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-medic',
+	/*Script*/'service-defensetruck',
 	/*Picture*/''
 ];
 
@@ -596,6 +596,25 @@ _u pushBack [
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'service-medic',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'Burnes_MK10_1',
+	/*MenuName*/'MK10 (Vehicle Transport / Gear Ammo)',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT,"logistics",3]],
+	/*UpgradeLevel*/3,
+	/*Price*/12000,
+	/*BuildTime*/30,
+	/*Distance*/5,
+	/*Camo*/['Logistics Ship'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-gear',
 	/*Picture*/''
 ];
 

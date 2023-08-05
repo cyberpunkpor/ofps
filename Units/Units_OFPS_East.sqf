@@ -355,10 +355,10 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_LCAC_CSAT',
-	/*MenuName*/'LCAC (Vehicle Transport / Medic)',
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/2,
-	/*Price*/9000,
+	/*MenuName*/'LCAC (Vehicle Transport / Defense Boat)',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT,"logistics",2]],
+	/*UpgradeLevel*/3,
+	/*Price*/11500,
 	/*BuildTime*/30,
 	/*Distance*/5,
 	/*Camo*/['Grey'],
@@ -366,18 +366,18 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-medic',
+	/*Script*/'service-defensetruck',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_MK10_CSAT',
-	/*MenuName*/'MK10 (Vehicle Transport / Medic)',
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
-	/*Price*/8000,
+	/*MenuName*/'MK10 (Vehicle Transport / Gear Ammo)',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT,"logistics",3]],
+	/*UpgradeLevel*/3,
+	/*Price*/12000,
 	/*BuildTime*/30,
 	/*Distance*/5,
 	/*Camo*/['Grey'],
@@ -385,7 +385,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-medic',
+	/*Script*/'service-gear',
 	/*Picture*/''
 ];
 
