@@ -299,6 +299,13 @@ _u pushBack [
 	/*MaxMags*/4
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'cannon_railgun_fake',
+	/*MaxMags*/1
+];
+
 //--- Arty --------------------------
 _u pushBack [
 	/*Enabled*/true,

@@ -390,13 +390,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_KUMA_B',
 	/*MenuName*/'MBT-52 Kuma (NATO)',
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/4,
-	/*Price*/60000,
+	/*UpgradeLevel*/5,
+	/*Price*/70000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Desert'],

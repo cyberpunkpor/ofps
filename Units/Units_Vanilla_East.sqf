@@ -1950,6 +1950,44 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'O_MBT_02_railgun_F',
+	/*MenuName*/'T-100X Futura (CSAT)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/5,
+	/*Price*/80000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/2,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'O_T_MBT_02_railgun_ghex_F',
+	/*MenuName*/'T-100X Futura (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/5,
+	/*Price*/80000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/2,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'O_MBT_02_cannon_F',
 	/*MenuName*/'T-100 Varsuk (CSAT)',
 	/*Location*/[CTI_HEAVY],
