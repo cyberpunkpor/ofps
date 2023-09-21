@@ -130,7 +130,7 @@ _u pushBack [
 	/*ClassName*/'OFPS_GUNBOAT_O',
 	/*MenuName*/'Gunboat',
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/30,
@@ -163,7 +163,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_BUYAN',
 	/*MenuName*/['Buyan Class (Mk.45)'],
@@ -182,7 +182,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_Admiral',
 	/*MenuName*/['Admiral Class (Mk.45)'],
@@ -194,14 +194,14 @@ _u pushBack [
 	/*Camo*/['Attack Ship'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_Replenishment_OPF',
 	/*MenuName*/['%1 (Ammo,Repair,Spawn)'],

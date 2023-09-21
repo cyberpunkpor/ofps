@@ -33,7 +33,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1500,2000,2500,3000,3500], //--- Barracks
 	[1000,1500,2000,3000,10000], //--- Light
 	[2000,4000,5000,6000,8000], //--- Heavy
-	[500,500], //--- Naval
+	[1500,2500,6000,10000], //--- Naval
 	[1000,2000,3000,4000], //--- Air Rotary
 	[1000,3000,6000,7000,8000], //--- Air Fixed
 	[1000,2000,3000,4000], //--- Air Ordinance
@@ -59,7 +59,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	6, //--- Barracks
 	5, //--- Light
 	5, //--- Heavy
-	2, //--- Naval
+	4, //--- Naval
 	3, //--- Air Rotary
 	5, //--- Air Fixed
 	4, //--- Air Ordinance
@@ -85,7 +85,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[],[],[]], //--- Barracks
 	[[],[],[],[],[]], //--- Light
 	[[],[],[],[],[]], //--- Heavy
-	[[],[]], //--- Naval
+	[[],[],[],[]], //--- Naval
 	[[],[],[],[]], //--- Air Rotary
 	[[],[],[],[],[]], //--- Air Fixed
 	[[],[],[],[]], //--- Air Ordinance 
@@ -112,7 +112,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[CTI_UPGRADE_GEAR, 1],[CTI_UPGRADE_GEAR, 2],[CTI_UPGRADE_GEAR, 3],[CTI_UPGRADE_GEAR, 4],[CTI_UPGRADE_GEAR, 5],[CTI_UPGRADE_GEAR, 6]], //--- Barracks
 	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Light
 	[[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_LIGHT,3],[],[CTI_UPGRADE_NUKE, 1]], //--- Heavy
-	[[],[]], //--- Naval
+	[[],[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_NUKE,1],[CTI_UPGRADE_LIGHT,5]], //--- Naval
 	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3]], //--- Air Rotary
 	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_AIR_ROTARY,3],[CTI_UPGRADE_HEAVY,4],[]], //--- Air Fixed
 	[[],[],[],[]], //--- Air Ordinance 
@@ -141,7 +141,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1, 1, 1, 1], //--- Barracks
 		[1, 1, 1, 1, 1], //--- Light
 		[1, 1, 1, 1, 1], //--- Heavy
-		[1, 1], //--- Naval
+		[1, 1, 1, 1], //--- Naval
 		[1, 1, 1, 1], //--- Air Rotary
 		[1, 1, 1, 1, 1], //--- Air Fixed
 		[1, 1, 1, 1], //--- Air Ordinance
@@ -168,7 +168,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240,320,380], 	//--- Barracks
 		[60,120,160,240,320], 		//--- Light
 		[60,120,160,240,320],		//--- Heavy 
-		[30,60], 				//--- Naval
+		[30,60,240,360], 				//--- Naval
 		[60,120,160,240], 		//--- Air Rotary
 		[60,120,160,240,320], 		//--- Air Fixed
 		[60,120,160,240], 			//--- Air Ordinance

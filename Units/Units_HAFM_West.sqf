@@ -124,7 +124,7 @@ _u = []; //--- Units
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_CB90_BLU',
 	/*MenuName*/'',
@@ -143,7 +143,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_GunBoat_BLU',
 	/*MenuName*/['Gunboat'],
@@ -162,7 +162,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_MEKO_TN',
 	/*MenuName*/['%1 (Respawn)'],
@@ -200,26 +200,26 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_FREMM',
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/3,
-	/*Price*/140000,
+	/*UpgradeLevel*/4,
+	/*Price*/380000,
 	/*BuildTime*/30,
 	/*Distance*/100,
-	/*Camo*/['Support Boat'],
+	/*Camo*/['Attack Ship'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'service-medic',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_Replenishment',
 	/*MenuName*/['%1 (Ammo,Repair,Spawn)'],
@@ -241,9 +241,9 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_Russen',
-	/*MenuName*/['%1 (Ammo)'],
+	/*MenuName*/[],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/3,
 	/*Price*/60000,
 	/*BuildTime*/30,
 	/*Distance*/30,
@@ -252,24 +252,24 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-ammotruck',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_ABurke',
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/3,
-	/*Price*/200000,
+	/*UpgradeLevel*/4,
+	/*Price*/400000,
 	/*BuildTime*/30,
 	/*Distance*/30,
 	/*Camo*/['Missile Destroyer'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'service-medic',
 	/*Picture*/''

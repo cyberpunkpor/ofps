@@ -124,12 +124,12 @@ _u = []; //--- Units
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_GUNBOAT_B',
 	/*MenuName*/['%1 (Ammo)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/30,
@@ -138,12 +138,12 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'service-medic',
+	/*Script*/'',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_CB90_B',
 	/*MenuName*/'',
@@ -168,13 +168,13 @@ _u pushBack [
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
-	/*Price*/90000,
+	/*Price*/120000,
 	/*BuildTime*/30,
 	/*Distance*/100,
 	/*Camo*/['Attack Ship'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'service-medic',
 	/*Picture*/''
@@ -187,7 +187,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
-	/*Price*/90000,
+	/*Price*/120000,
 	/*BuildTime*/30,
 	/*Distance*/100,
 	/*Camo*/['Attack Ship'],
@@ -219,12 +219,12 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_Replenishment',
 	/*MenuName*/['%1 (Ammo,Repair,Spawn)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/100,
@@ -236,6 +236,7 @@ _u pushBack [
 	/*Script*/'service-all',
 	/*Picture*/''
 ];
+
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'USS FREEDOM',
