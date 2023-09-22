@@ -124,7 +124,7 @@ _u = []; //--- Units
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_209',
 	/*MenuName*/['%1 (Respawn)'],
@@ -143,7 +143,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_214',
 	/*MenuName*/['%1 (Respawn)'],
@@ -162,7 +162,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_Virginia',
 	/*MenuName*/['%1 (Respawn)'],

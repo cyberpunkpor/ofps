@@ -124,7 +124,7 @@ _u = []; //--- Units
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_209_O',
 	/*MenuName*/['%1 (Respawn)'],
@@ -143,7 +143,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_214_O',
 	/*MenuName*/['%1 (Respawn)'],
