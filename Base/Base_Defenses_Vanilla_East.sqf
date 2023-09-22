@@ -2374,7 +2374,7 @@ _u pushBack [
 	/*Class*/"Land_nav_pier_m_F",
 	/*Price*/200,
 	/*Placement*/[0, 7],
-	/*Tags*/["Naval"],
+	/*Tags*/["Markers"],
 	/*Location*/["HQ","RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/0,
