@@ -4062,7 +4062,7 @@ _u pushBack [
 	/*MenuName*/'Mi24P - 4AT(RDR)/40RKTS/2FAB',
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
-	/*Price*/34000,
+	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
