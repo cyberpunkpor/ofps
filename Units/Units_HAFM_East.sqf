@@ -211,7 +211,7 @@ _u pushBack [
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/100,
-	/*Camo*/['Support Boat'],
+	/*Camo*/[],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
