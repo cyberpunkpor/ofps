@@ -241,7 +241,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_Russen',
-	/*MenuName*/[],
+	/*MenuName*/["Russen Class Missile Boat"],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
 	/*Price*/75000,
