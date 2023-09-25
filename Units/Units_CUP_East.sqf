@@ -940,6 +940,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_RU_Survivor_Ratnik_BeigeDigital',
+	/*MenuName*/[''],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",0]],
+	/*UpgradeLevel*/0,
+	/*Price*/20,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_RU_Soldier_VDV',
@@ -5538,6 +5557,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_UAZ_AGS30_RU',
+	/*MenuName*/'UAZ AGS-30 (CSAT)',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/1,
+	/*Price*/850,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_UAZ_AGS30_CSAT',
@@ -5555,6 +5593,7 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
+
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
@@ -5661,6 +5700,25 @@ _u pushBack [
 	/*BuildTime*/5,
 	/*Distance*/1,
 	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_UAZ_MG_RU',
+	/*MenuName*/'UAZ DShKm (CSAT)',
+	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"default",1],[CTI_LARGE_FOB,"default",1]],
+	/*UpgradeLevel*/0,
+	/*Price*/600,
+	/*BuildTime*/5,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
