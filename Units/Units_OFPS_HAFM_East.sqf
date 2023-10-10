@@ -175,7 +175,7 @@ _u pushBack [
 	/*Camo*/['Attack Ship'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/3,
 	/*Modifiers*/[],
 	/*Script*/'',
 	/*Picture*/''
