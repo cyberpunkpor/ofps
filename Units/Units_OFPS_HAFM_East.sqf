@@ -163,13 +163,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_BUYAN',
 	/*MenuName*/['Buyan Class (Mk.45)'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/2,
-	/*Price*/50000,
+	/*UpgradeLevel*/3,
+	/*Price*/90000,
 	/*BuildTime*/30,
 	/*Distance*/100,
 	/*Camo*/['Attack Ship'],
@@ -182,7 +182,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_HAFM_Admiral',
 	/*MenuName*/['Admiral Class (Mk.45)'],

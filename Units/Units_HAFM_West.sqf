@@ -143,12 +143,12 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_GunBoat_BLU',
 	/*MenuName*/['Gunboat'],
 	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/2,
 	/*Price*/20000,
 	/*BuildTime*/30,
 	/*Distance*/30,
@@ -200,7 +200,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'HAFM_FREMM',
 	/*MenuName*/['%1 (Respawn)'],
