@@ -7876,7 +7876,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1A2C_TUSK_II_NATO',
 	/*MenuName*/'',
@@ -7895,7 +7895,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1A2C_TUSK_II_Desert_US_Army',
 	/*MenuName*/'',
@@ -7914,7 +7914,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M1A2C_TUSK_II_Woodland_US_Army',
 	/*MenuName*/'',

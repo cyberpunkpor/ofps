@@ -123,7 +123,62 @@ _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_B_M1A2C_TUSK_II_NATO',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/41000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland','Tanks'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_B_M1A2C_TUSK_II_Desert_US_Army',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/41000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert','Tanks'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_B_M1A2C_TUSK_II_Woodland_US_Army',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/41000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland','Tanks'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 //--------------------------------------------------------------------------------------------------------------
 
