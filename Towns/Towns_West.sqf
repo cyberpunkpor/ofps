@@ -675,7 +675,6 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 0) then {
 	//--- CUP UNITS
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 		WEST_AIR_HELI2 = "CUP_B_MH60L_DAP_4x_USN";
-		WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2SEP_TUSK_NATO";
 	};
 	//--- Load RHS Mod
 	if (CTI_RHS_AFRF_ADDON > 0) then {
@@ -698,7 +697,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 0) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_NATO";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -987,8 +986,6 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 		//--- Light Vehicles
 		WEST_VEHICLE_LIGHT2 = "CUP_B_Boxer_HMG_HIL";
 		WEST_VEHICLE_LIGHT6 = "CUP_B_Boxer_GMG_HIL";
-		//--- Tanks
-		WEST_VEHICLE_ARMORED2 = "CUP_B_Leopard2A6_HIL";
 		//--- AA Vehicles
 		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_USMC";
 		WEST_VEHICLE_AA2 = "CUP_B_M6LineBacker_NATO_T";
@@ -1133,7 +1130,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+		WEST_VEHICLE_ARMORED2 = "OFPS_B_M1A2C_TUSK_II_Woodland_US_Army";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -1257,7 +1254,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 		//--- Tanks
 		WEST_VEHICLE_ARMORED1 = "CUP_B_M60A3_TTS_USMC";	
 		WEST_VEHICLE_ARMORED2 = "CUP_B_M1A1FEP_Desert_USMC";
-		WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2C_TUSK_II_Desert_US_Army";
+		//WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2C_TUSK_II_Desert_US_Army";
 		//--- AA Vehicles
 		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_USA";
 		WEST_VEHICLE_AA2 = "CUP_B_M6LineBacker_USA_D";
@@ -1339,7 +1336,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
+		
 	};
 	//--- OFPS RHS Mod
 	if (CTI_OFPS_RHS_ADDON > 0) then {
@@ -1347,7 +1344,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_Desert_US_Army";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -1630,7 +1627,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 		//--- Tanks
 		WEST_VEHICLE_ARMORED1 = "CUP_B_M60A3_TTS_USMC";	
 		WEST_VEHICLE_ARMORED2 = "CUP_B_Challenger2_Snow_BAF";
-		WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2C_TUSK_II_NATO";
+		//WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2C_TUSK_II_NATO";
 		//--- AA Vehicles
 		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_USMC";
 		WEST_VEHICLE_AA2 = "CUP_B_M6LineBacker_USA_D";
@@ -1720,7 +1717,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-	
+	WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_NATO";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -2329,8 +2326,6 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then {
 		//--- Light Vehicles
 		WEST_VEHICLE_LIGHT2 = "CUP_B_Boxer_HMG_GER_WDL";
 		WEST_VEHICLE_LIGHT6 = "CUP_B_Boxer_GMG_GER_WDL";
-		//--- Tanks
-		WEST_VEHICLE_ARMORED2 = "CUP_B_Leopard2A6_GER";
 		//--- AA Vehicles
 		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_USMC";
 		WEST_VEHICLE_AA2 = "CUP_B_M6LineBacker_USA_T";
@@ -2472,7 +2467,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_NATO";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -2594,7 +2589,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 8) then {
 		//--- Tanks
 		WEST_VEHICLE_ARMORED1 = "CUP_B_M60A3_TTS_USMC";	
 		WEST_VEHICLE_ARMORED2 = "CUP_B_M1A1SA_Woodland_US_Army";
-		WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2C_TUSK_II_Woodland_US_Army";
+		//WEST_VEHICLE_ARMORED3 = "CUP_B_M1A2C_TUSK_II_Woodland_US_Army";
 		//--- AA Vehicles
 		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_USMC";
 		WEST_VEHICLE_AA2 = "CUP_B_M6LineBacker_USA_W";
@@ -2706,7 +2701,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 8) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_Woodland_US_Army";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
