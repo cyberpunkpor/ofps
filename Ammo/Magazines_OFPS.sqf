@@ -340,7 +340,17 @@ _u pushBack [
 	/*Filters*/[]
 ];
 
-
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Air',
+	/*ClassName*/'OFPS_PylonPod_1Rnd_AIM_9X_LAU_Sidewinder_M',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/3,
+	/*Price*/2100,
+	/*RearmTime*/10,
+	/*Filters*/[]
+];
 
 //--------------------------------------------------------------------------------------------------------------
 

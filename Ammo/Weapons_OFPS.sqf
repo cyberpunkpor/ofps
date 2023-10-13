@@ -208,7 +208,12 @@ _u pushBack [
 //--- Bombs --------------------------
 
 //--- Pylons --------------------------
-
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_Vmlauncher_AIM9X_veh',
+	/*MaxMags*/1
+];
 //--- Other --------------------------
 
 

@@ -9168,7 +9168,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_F35B_USMC',
 	/*MenuName*/'',
@@ -9187,7 +9187,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_F35B_Stealth_USMC',
 	/*MenuName*/'',
