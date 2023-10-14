@@ -164,7 +164,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'OFPS_HAFM_MEKO_TN',
+	/*ClassName*/'OFPS_HAFM_MEKO_HN',
 	/*MenuName*/['%1 (Respawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/3,
@@ -175,25 +175,6 @@ _u pushBack [
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/3,
-	/*Modifiers*/[],
-	/*Script*/'service-medic',
-	/*Picture*/''
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'OFPS_HAFM_MEKO_HN',
-	/*MenuName*/['%1 (Respawn)'],
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/3,
-	/*Price*/120000,
-	/*BuildTime*/30,
-	/*Distance*/100,
-	/*Camo*/['Attack Ship'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'service-medic',
 	/*Picture*/''
