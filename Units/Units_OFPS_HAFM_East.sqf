@@ -207,7 +207,7 @@ _u pushBack [
 	/*MenuName*/['%1 (Ammo,Repair,Refuel,Spawn)'],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/2,
-	/*Price*/20000,
+	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/100,
 	/*Camo*/[],
