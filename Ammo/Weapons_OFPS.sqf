@@ -327,8 +327,15 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'MVLS_HHQ9',
+	/*ClassName*/'MVLS_HHQ9_2',
 	/*MaxMags*/5
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'MVLS_HHQ9',
+	/*MaxMags*/2
 ];
 
 _u pushBack [
