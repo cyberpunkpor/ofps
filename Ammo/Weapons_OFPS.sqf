@@ -278,6 +278,13 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'RIM_RIM116_AIM_Launcher',
+	/*MaxMags*/1
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'HAFM_RIM162_ESSM_Launcher',
 	/*MaxMags*/4
 ];
@@ -363,6 +370,20 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HAFM_HHQ9_Launcher',
+	/*MaxMags*/1
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'HAFM_Roussen_VLS_L',
+	/*MaxMags*/1
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'HAFM_Roussen_VLS_R',
 	/*MaxMags*/1
 ];
 //--- Naval --------------------------
