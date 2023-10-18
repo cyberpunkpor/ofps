@@ -850,6 +850,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/false,
+	/*Name*/'Metal Gate',
+	/*Class*/"Land_BackAlley_01_l_gate_F",
+	/*Price*/50,
+	/*Placement*/[0, 5],
+	/*Tags*/["Walls Light"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[["DMG_Explosion", 0.5]]
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'Razor Wire',
 	/*Class*/"Land_Razorwire_F",
 	/*Price*/50,
