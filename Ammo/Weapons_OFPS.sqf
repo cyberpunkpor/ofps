@@ -212,6 +212,20 @@ _u pushBack [
 	/*ClassName*/'HAFM_KashtanR',
 	/*MaxMags*/1
 ];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_Vacannon_AK630_2_veh',
+	/*MaxMags*/1
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_Vacannon_AK630_1_veh',
+	/*MaxMags*/1
+];
 //--- Arty --------------------------
 _u pushBack [
 	/*Enabled*/true,
