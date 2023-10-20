@@ -213,7 +213,12 @@ _u pushBack [
 	/*MaxMags*/1
 ];
 //--- Arty --------------------------
-
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_MORTAR',
+	/*MaxMags*/7
+];
 //--- HE --------------------------
 
 //--- Grenades --------------------------

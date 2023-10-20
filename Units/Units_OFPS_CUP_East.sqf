@@ -122,7 +122,24 @@ _mod = 'CUP';
 _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
-
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_O_ZUBR_RU',
+	/*MenuName*/'ZUBR LCAC (Vehicle Transport / Medic)',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"default",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/28000,
+	/*BuildTime*/30,
+	/*Distance*/80,
+	/*Camo*/['Grey'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic',
+	/*Picture*/''
+];
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call CTI_CO_fnc_Set_Units;
