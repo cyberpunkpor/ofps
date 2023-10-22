@@ -123,13 +123,13 @@ _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_O_ZUBR_RU',
 	/*MenuName*/'ZUBR LCAC (Vehicle Transport / Medic)',
-	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"default",1]],
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"default",4]],
 	/*UpgradeLevel*/2,
-	/*Price*/28000,
+	/*Price*/38000,
 	/*BuildTime*/30,
 	/*Distance*/80,
 	/*Camo*/['Grey'],
