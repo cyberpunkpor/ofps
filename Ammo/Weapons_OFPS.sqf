@@ -417,40 +417,6 @@ _u pushBack [
 //--- Other --------------------------
 
 //--- AIR ------------------------------------------------------------
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'bwi_ffar_pods',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'bwi_50_pods',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'bwi_FFARLauncher_unguided',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'bwi_AGM114_Launcher',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'bwi_50',
-	/*MaxMags*/1
-];
 
 //--- Missles --------------------------
 

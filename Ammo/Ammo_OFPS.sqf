@@ -243,54 +243,6 @@ _u pushBack [
 
 //--- AIR ------------------------------------------------------------
 
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
-	/*ClassName*/'bwi_50cal_POD',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/0,
-	/*Price*/1.5,
-	/*RearmTime*/1,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
-	/*ClassName*/'bwi_FFAR19_POD',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/0,
-	/*Price*/1,
-	/*RearmTime*/1,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
-	/*ClassName*/'bwi_R_Hydra_HE',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
-	/*Price*/400,
-	/*RearmTime*/1,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Air',
-	/*ClassName*/'bwi_AGM114K_AG',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/3,
-	/*Price*/2700,
-	/*RearmTime*/10,
-	/*Filters*/[]
-];
-
 //--- Missles --------------------------
 
 //--- Bombs --------------------------

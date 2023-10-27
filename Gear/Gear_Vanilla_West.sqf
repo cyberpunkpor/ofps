@@ -1677,17 +1677,6 @@ _u = []; //Gear Classname
     
     //DMRs
 		
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'20Rnd_762x51_Mag',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/2,
-				/*Price*/10,
-				/*Camo*/[],
-				/*Type*/["DMR"]
-			];
-    
     //Snipers
 		
 			_u pushBack [
