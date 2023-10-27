@@ -1134,11 +1134,11 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'cup_i_racs_m_wdl',
+	/*ClassName*/'CUP_I_RACS_M_wdl',
 	/*MenuName*/'',
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
-	/*Price*/75,
+	/*Price*/150,
 	/*BuildTime*/5,
 	/*Distance*/0,
 	/*Camo*/[""],
