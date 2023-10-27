@@ -196,17 +196,6 @@ _u = []; //Gear Classname
 		_u pushBack [
 			/*Enabled*/false,
 			/*Name*/'',
-			/*ClassName*/'arifle_MX_khk_ACO_Pointer_F',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/3,
-			/*Price*/27,
-			/*Camo*/[],
-			/*Type*/["Rifle"]
-		];
-
-		_u pushBack [
-			/*Enabled*/false,
-			/*Name*/'',
 			/*ClassName*/'arifle_MXC_khk_Holo_Pointer_F',
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/3,
