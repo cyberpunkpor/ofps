@@ -3656,7 +3656,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_SU34_RU',
 	/*MenuName*/'',

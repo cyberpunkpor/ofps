@@ -381,7 +381,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/2,
 	/*Price*/7200,
-	/*RearmTime*/25,
+	/*RearmTime*/80,
 	/*Filters*/[]
 ];
 
@@ -440,8 +440,8 @@ _u pushBack [
 	/*ClassName*/'HAFM_Cruise_Tomahawk_mag',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/66000,
-	/*RearmTime*/400,
+	/*Price*/22000,
+	/*RearmTime*/64,
 	/*Filters*/[]
 ];
 
@@ -453,7 +453,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/18000,
-	/*RearmTime*/133,
+	/*RearmTime*/64,
 	/*Filters*/[]
 ];
 
@@ -477,7 +477,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/22000,
-	/*RearmTime*/133,
+	/*RearmTime*/64,
 	/*Filters*/[]
 ];
 
@@ -489,7 +489,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/33000,
-	/*RearmTime*/200,
+	/*RearmTime*/96,
 	/*Filters*/[]
 ];
 
@@ -501,7 +501,7 @@ _u pushBack [
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
 	/*Price*/33000,
-	/*RearmTime*/200,
+	/*RearmTime*/96,
 	/*Filters*/[]
 ];
 

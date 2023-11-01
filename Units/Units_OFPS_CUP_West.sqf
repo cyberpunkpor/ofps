@@ -217,6 +217,25 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_B_AV8B_DYN_USMC',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED],
+	/*UpgradeLevel*/3,
+	/*Price*/75000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['VTOL'],
+	/*Ammmo*/true,
+	/*MaxActive*/1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call CTI_CO_fnc_Set_Units;

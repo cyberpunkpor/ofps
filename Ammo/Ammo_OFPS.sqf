@@ -238,7 +238,172 @@ _u pushBack [
 //--- Launchers --------------------------
 
 //--- Naval --------------------------
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'Tomahawk',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/3,
+	/*Price*/5500,
+	/*RearmTime*/16,
+	/*Filters*/[]
+];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'HAFM_SCALP',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/3,
+	/*Price*/5000,
+	/*RearmTime*/16,
+	/*Filters*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'HAFM_CJ10',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/3,
+	/*Price*/5000,
+	/*RearmTime*/16,
+	/*Filters*/[]
+];
+ _u pushBack [
+ 	/*Enabled*/true,
+ 	/*Name*/'',
+ 	/*Type*/'Land',
+ 	/*ClassName*/'B_100mm_HE',
+ 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+ 	/*UpgradeLevel*/3,
+ 	/*Price*/400,
+ 	/*RearmTime*/1,
+ 	/*Filters*/[]
+ ];
+
+ _u pushBack [
+ 	/*Enabled*/true,
+ 	/*Name*/'',
+ 	/*Type*/'Land',
+ 	/*ClassName*/'HAFM_AGR',
+ 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+ 	/*UpgradeLevel*/0,
+ 	/*Price*/1300,
+ 	/*RearmTime*/8,
+ 	/*Filters*/[]
+ ];
+
+  _u pushBack [
+  	/*Enabled*/true,
+  	/*Name*/'',
+  	/*Type*/'Land',
+  	/*ClassName*/'SLAM_HARP',
+  	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+  	/*UpgradeLevel*/2,
+  	/*Price*/4500,
+  	/*RearmTime*/8,
+  	/*Filters*/[]
+  ];
+
+  _u pushBack [
+  	/*Enabled*/true,
+  	/*Name*/'',
+  	/*Type*/'Land',
+  	/*ClassName*/'HAFM_RIM162_ESSM',
+  	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+  	/*UpgradeLevel*/2,
+  	/*Price*/1800,
+  	/*RearmTime*/6.25,
+  	/*Filters*/[]
+  ];
+
+_u pushBack [
+    /*Enabled*/true,
+    /*Name*/'',
+    /*Type*/'Land',
+    /*ClassName*/'HAFM_RIM174',
+    /*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+    /*UpgradeLevel*/2,
+    /*Price*/3500,
+    /*RearmTime*/5,
+    /*Filters*/[]
+];
+
+_u pushBack [
+    /*Enabled*/true,
+    /*Name*/'',
+    /*Type*/'Land',
+    /*ClassName*/'HAFM_HHQ9',
+    /*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+    /*UpgradeLevel*/2,
+    /*Price*/3500,
+    /*RearmTime*/5,
+    /*Filters*/[]
+];
+
+_u pushBack [
+    /*Enabled*/true,
+    /*Name*/'',
+    /*Type*/'Land',
+    /*ClassName*/'HAFM_HHQ10',
+    /*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+    /*UpgradeLevel*/ 2,
+    /*Price*/3500,
+    /*RearmTime*/5,
+    /*Filters*/[]
+];
+
+_u pushBack [
+    /*Enabled*/true,
+    /*Name*/'',
+    /*Type*/'Land',
+    /*ClassName*/'HAFM_ASTER30',
+    /*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+    /*UpgradeLevel*/2,
+    /*Price*/1800,
+    /*RearmTime*/6.25,
+    /*Filters*/[]
+];
+
+_u pushBack [
+    /*Enabled*/true,
+    /*Name*/'',
+    /*Type*/'Land',
+    /*ClassName*/'HAFM_3S90M',
+    /*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+    /*UpgradeLevel*/ 2,
+    /*Price*/3500,
+    /*RearmTime*/5,
+    /*Filters*/[]
+];
+
+_u pushBack [
+    /*Enabled*/true,
+    /*Name*/'',
+    /*Type*/'Land',
+    /*ClassName*/'HAFM_IGLA1M',
+    /*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+    /*UpgradeLevel*/2,
+    /*Price*/900,
+    /*RearmTime*/3.125,
+    /*Filters*/[]
+];
+
+_u pushBack [
+    /*Enabled*/true,
+    /*Name*/'',
+    /*Type*/'Land',
+    /*ClassName*/'HAFM_Titan',
+    /*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+    /*UpgradeLevel*/2,
+    /*Price*/1000,
+    /*RearmTime*/10,
+    /*Filters*/[]
+];
 //--- Other --------------------------
 
 //--- AIR ------------------------------------------------------------

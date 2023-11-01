@@ -140,6 +140,25 @@ _u pushBack [
 	/*Script*/'service-medic',
 	/*Picture*/''
 ];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_O_SU34_RU',
+	/*MenuName*/'',
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"default",4,"logistics",1]],
+	/*UpgradeLevel*/4,
+	/*Price*/60000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Ground Attack Aircraft'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call CTI_CO_fnc_Set_Units;
