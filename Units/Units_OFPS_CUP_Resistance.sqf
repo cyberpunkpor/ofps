@@ -122,7 +122,24 @@ _mod = 'CUP';
 _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
-
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_B_M1A2C_TUSK_II_LDF',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/41000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert','Tanks'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call CTI_CO_fnc_Set_Units;
