@@ -236,9 +236,9 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 5</t> - Ai skill 85% | LockPick 3 <br />
 	<t color='#ffff00'>LVL 6</t> - Ai skill 90% | LockPick 4 | UAV hacker <br />"], //--- Barracks
 	["Light Factory", "<t>Unlock better wheeled units.</t>
-	<t color='#ffff00'>LVL 5</t> unlocks the Nuke Truck and Self-Propelled Artillery."], //--- Light
+	<t color='#ffff00'>LVL 5</t> unlocks the Nuke Truck and Rocket Artillery."], //--- Light
 	["Heavy Factory", "<t>Unlock better tracked units.</t>
-	<t color='#ffff00'>LVL 5</t> unlocks Rocket Artillery."], //--- Heavy
+	<t color='#ffff00'>LVL 5</t> unlocks Rocket and Self-Propelled Artillery."], //--- Heavy
 	["Naval Factory", "<t>Unlock better naval units.</t>"], //--- Naval
 	["Rotary Aircraft Factory", "<t>Unlock better rotary wing aircraft units.</t>"], //--- Air Rotary
 	["Fixed Wing Aircraft Factory", "<t>Unlock better fixed wing aircraft units.</t>"], //--- Air Fixed
