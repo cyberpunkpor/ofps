@@ -320,4 +320,20 @@ _u pushBack [
 	/*Specials*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'TOW-2 Tripod',
+	/*Class*/"CUP_I_TOW_Tripod_AAF",
+	/*Price*/3500,
+	/*Placement*/[180, 15],
+	/*Tags*/["Defense"],
+	/*Location*/["HQ"],
+	/*Blacklist*/[],
+	/*Upgrade*/0,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
 [_side, _faction, _u, _mod] call CTI_CO_fnc_Set_Defenses;
