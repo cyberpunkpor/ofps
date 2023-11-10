@@ -778,7 +778,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'AA Stinger Pod',
+	/*Name*/'FIM-92 Stinger Pod',
 	/*Class*/"CUP_B_Stinger_AA_pod_Base_USMC",
 	/*Price*/3500,
 	/*Placement*/[180, 5],

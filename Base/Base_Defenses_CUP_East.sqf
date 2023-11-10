@@ -537,7 +537,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'AA Igla Pod',
+	/*Name*/'9K38 Igla Pod',
 	/*Class*/"CUP_O_Igla_AA_pod_RU",
 	/*Price*/3500,
 	/*Placement*/[180, 5],
