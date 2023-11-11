@@ -219,7 +219,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_B_AV8B_DYN_USMC',
 	/*MenuName*/'',
