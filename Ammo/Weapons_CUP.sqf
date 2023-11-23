@@ -601,14 +601,14 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vacannon_2A14_veh',
-	/*MaxMags*/6
+	/*MaxMags*/8
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vacannon_AZP23_veh',
-	/*MaxMags*/6
+	/*MaxMags*/2
 ];
 
 _u pushBack [
