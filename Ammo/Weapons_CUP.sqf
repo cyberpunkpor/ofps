@@ -741,7 +741,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vacannon_2A38M_veh',
-	/*MaxMags*/6
+	/*MaxMags*/1
 ];
 
 _u pushBack [
