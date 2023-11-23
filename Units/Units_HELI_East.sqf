@@ -144,6 +144,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'O_Heli_Transport_04_box_black_F',
+	/*MenuName*/'Defense Taru',
+	/*Location*/[CTI_REPAIR,[CTI_DEPOT_AIR,"logistics",3]],
+	/*UpgradeLevel*/2,
+	/*Price*/10000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Black'],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-defensetruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'O_Heli_Transport_04_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY],
@@ -189,7 +208,7 @@ _u pushBack [
 	/*Price*/110000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Desert'],
+	/*Camo*/['Black'],
 	/*Type*/['Logistics Helicopter'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -303,7 +322,7 @@ _u pushBack [
 	/*Price*/8500,
 	/*BuildTime*/30,
 	/*Distance*/10,
-	/*Camo*/['Desert'],
+	/*Camo*/['Black'],
 	/*Type*/['Logistics Helicopter'],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,

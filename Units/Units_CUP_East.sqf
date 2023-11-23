@@ -4229,6 +4229,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_O_MI6A_CSAT_T',
+	/*MenuName*/'Salvager Mi-6A Hook',
+	/*Location*/[CTI_REPAIR],
+	/*UpgradeLevel*/2,
+	/*Price*/15000,
+	/*BuildTime*/30,
+	/*Distance*/15,
+	/*Camo*/[],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'salvager',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_O_2S6_RU',
 	/*MenuName*/'2S6 Tunguska (5km)',
 	/*Location*/[CTI_HEAVY],

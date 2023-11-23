@@ -8315,6 +8315,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_Merlin_HC3_VIV_GB',
+	/*MenuName*/'Defense Merlin',
+	/*Location*/[CTI_REPAIR,[CTI_DEPOT_AIR,"logistics",3]],
+	/*UpgradeLevel*/2,
+	/*Price*/12000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-defensetruck',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_SA330_Puma_HC2_BAF',
 	/*MenuName*/'',
 	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"logistics",1]],
@@ -8366,6 +8385,25 @@ _u pushBack [
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
 	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_B_CH53E_VIV_GER',
+	/*MenuName*/'Salvager Super Stallion',
+	/*Location*/[CTI_REPAIR],
+	/*UpgradeLevel*/2,
+	/*Price*/14000,
+	/*BuildTime*/30,
+	/*Distance*/15,
+	/*Camo*/[],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'salvager',
 	/*Picture*/''
 ];
 
