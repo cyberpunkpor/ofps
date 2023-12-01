@@ -405,6 +405,13 @@ _u pushBack [
 	/*ClassName*/'HAFM_Roussen_VLS_R',
 	/*MaxMags*/1
 ];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'HAFM_Titan_Launcher',
+	/*MaxMags*/4
+];
 //--- Naval --------------------------
 
 _u pushBack [

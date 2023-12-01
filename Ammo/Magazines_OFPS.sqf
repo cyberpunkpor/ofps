@@ -505,6 +505,18 @@ _u pushBack [
 	/*Filters*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Land',
+	/*ClassName*/'HAFM_Titan_Mag_2',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/3,
+	/*Price*/8000,
+	/*RearmTime*/80,
+	/*Filters*/[]
+];
+
 //--- AIR ------------------------------------------------------------
 
 _u pushBack [
