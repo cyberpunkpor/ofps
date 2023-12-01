@@ -91,7 +91,7 @@ _u pushBack [
 	/*times*/10,
 	/*MaxCount*/-1,
 	/*placements*/[0, 0],
-	/*specials*/[["DMG_Reduce", 8]],
+	/*specials*/[],
 	/*conditions*/(compile format["!(%1 call CTI_CO_FNC_IsHQDeployed) && (CTI_P_SideLogic getVariable ['cti_hq_ready', true])", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[CTI_HQ_DEPLOY]
@@ -104,7 +104,7 @@ _u pushback [
 	/*times*/10,
 	/*MaxCount*/-1,
 	/*placements*/[180, 15, false],
-	/*specials*/[["DMG_Reduce", 8]],
+	/*specials*/[],
 	/*conditions*/(compile format["!(%1 call CTI_CO_FNC_IsHQDeployed) && (CTI_P_SideLogic getVariable ['cti_hq_ready', true])", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -143,7 +143,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
-	/*specials*/[["DMG_Reduce", 8]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[CTI_BARRACKS]
@@ -156,7 +156,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
-	/*specials*/[["DMG_Reduce", 8]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -169,7 +169,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Reduce", 2.7]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[CTI_LIGHT]
@@ -182,7 +182,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Reduce", 2.7]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -195,7 +195,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Reduce", 2]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[CTI_HEAVY]
@@ -208,7 +208,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Reduce", 2]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -271,7 +271,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Reduce", 2]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[CTI_AMMO]
@@ -284,7 +284,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Reduce", 2]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -297,7 +297,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Reduce", 2]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[CTI_REPAIR]
@@ -310,7 +310,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[90, 25],
-	/*specials*/[["DMG_Reduce", 2]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -323,7 +323,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 60],
-	/*specials*/[["DMG_Reduce", 1.4]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -438,7 +438,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
-	/*specials*/[["DMG_Reduce", 5]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[CTI_SUPPLY_DEPOT]
@@ -451,7 +451,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
-	/*specials*/[["DMG_Reduce", 5]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
@@ -464,7 +464,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
-	/*specials*/[["DMG_Reduce", 3.5]],
+	/*specials*/[["DMG_Reduce", 1]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
