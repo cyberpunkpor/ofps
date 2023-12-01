@@ -1444,7 +1444,7 @@ _u pushBack [
 	/*Price*/5000,
 	/*BuildTime*/30,
 	/*Distance*/3,
-	/*Camo*/['Black'],
+	/*Camo*/['Attack Boat'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,

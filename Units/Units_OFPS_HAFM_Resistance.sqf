@@ -145,11 +145,30 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'HAFM_CB90_AA',
+	/*MenuName*/'Titan AA CB90',
+	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"default",2,"logistics",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/8200,
+	/*BuildTime*/30,
+	/*Distance*/10,
+	/*Camo*/['Attack Boat'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'OFPS_CB90_I',
 	/*MenuName*/'',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics",1]],
 	/*UpgradeLevel*/1,
-	/*Price*/13000,
+	/*Price*/3200,
 	/*BuildTime*/30,
 	/*Distance*/0,
 	/*Camo*/['Attack Boat'],
