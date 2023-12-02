@@ -132,7 +132,7 @@ _u pushBack [
 	/*Price*/41000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Desert','Tanks'],
+	/*Camo*/[""],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
