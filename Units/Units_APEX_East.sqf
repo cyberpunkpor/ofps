@@ -1339,13 +1339,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'O_T_Boat_Armed_01_hmg_F',
 	/*MenuName*/'',
 	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics",1]],
 	/*UpgradeLevel*/1,
-	/*Price*/5000,
+	/*Price*/6000,
 	/*BuildTime*/30,
 	/*Distance*/3,
 	/*Camo*/['Black'],
