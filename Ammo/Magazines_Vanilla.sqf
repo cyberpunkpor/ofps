@@ -3612,8 +3612,8 @@ _u pushBack [
 	/*ClassName*/'1Rnd_GAT_missiles',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/3,
-	/*Price*/3500,
-	/*RearmTime*/16,
+	/*Price*/1450,
+	/*RearmTime*/10,
 	/*Filters*/[]
 ];
 

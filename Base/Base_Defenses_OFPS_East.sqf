@@ -124,7 +124,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Static Titan AT (360°)',
 	/*Class*/"ofps_O_Van_static_AT_F",
-	/*Price*/4000,
+	/*Price*/8000,
 	/*Placement*/[180, 5],
 	/*Tags*/["Defense"],
 	/*Location*/["HQ"],
