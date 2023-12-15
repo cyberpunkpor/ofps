@@ -580,12 +580,12 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'xmas_santa_opfor',
 	/*MenuName*/'Father Christmas',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/4,
+	/*UpgradeLevel*/0,
 	/*Price*/50,
 	/*BuildTime*/5,
 	/*Distance*/0,
