@@ -55,6 +55,7 @@ switch (CTI_FACTION_WEST) do {
 				["3rnd_he_grenade_shell", 24],
 				["HandGrenade", 20]
 			]],
+			["B_T_Truck_01_medical_F", []],
 			["B_MRAP_01_hmg_F", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
@@ -120,17 +121,7 @@ switch (CTI_FACTION_WEST) do {
 
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-			["B_T_Truck_01_medical_F", [
-				["Toolkit", 1],
-				["firstaidkit", 20],
-				["30Rnd_556x45_Stanag", 50],
-				["CUP_launch_M72A6", 20],
-				["HandGrenade", 20],
-				["arifle_SPAR_01_GL_khk_F", 10],
-				["30rnd_45acp_mag_smg_01", 10],
-				["optic_aco_grn", 10],
-				["firstaidkit", 20]
-			]],
+			["B_T_Truck_01_medical_F", []],
 			["B_T_MRAP_01_hmg_F", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
@@ -189,6 +180,7 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_30Rnd_9x19_MP5", 10],
 				["Toolkit", 1]
 			]],
+			["CUP_B_M113A1_Med_desert_USA", []],
 			["CUP_B_AAV_USMC", [
 				["CUP_launch_M72A6_Special", 22],
 				["CUP_arifle_M4A1", 10],
@@ -312,6 +304,7 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_30Rnd_9x19_MP5", 10],
 				["Toolkit", 1]
 			]],
+			["CUP_B_M113A1_Med_USA", []],
 			["CUP_B_M113A3_USA", [
 				["CUP_launch_M72A6", 22],
 				["CUP_arifle_M4A1_standard_winter", 10],
@@ -401,19 +394,7 @@ switch (CTI_FACTION_WEST) do {
 
 		//Set starting vehicles
 		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [ 
-			["B_T_Truck_01_medical_F", [
-				["Toolkit", 1],
-				["firstaidkit", 20],
-				["30Rnd_65x39_caseless_mag", 30],
-				["100Rnd_65x39_caseless_khaki_mag", 10],
-				["CUP_launch_M72A6", 20],
-				["30rnd_45acp_mag_smg_01", 10],
-				["arifle_MX_GL_khk_F", 10],
-				["optic_aco_grn", 10],
-				["1Rnd_HE_Grenade_shell", 24],
-				["3rnd_he_grenade_shell", 24],
-				["HandGrenade", 20]
-			]],
+			["B_T_Truck_01_medical_F", []],
 			["B_T_MRAP_01_hmg_F", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
@@ -472,6 +453,7 @@ switch (CTI_FACTION_WEST) do {
 				["CUP_30Rnd_9x19_MP5", 10],
 				["Toolkit", 1]
 			]],
+			["CUP_B_M113A1_Med_USA", []],
 			["CUP_B_AAV_USMC", [
 				["CUP_launch_M72A6", 22],
 				["CUP_arifle_M4A1", 10],

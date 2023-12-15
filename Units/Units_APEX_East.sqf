@@ -1550,6 +1550,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
+	/*ClassName*/'O_T_Truck_02_medical_F',
+	/*MenuName*/'Zamak Medic/Gear (Tropic)',
+	/*Location*/[CTI_AMMO],
+	/*UpgradeLevel*/5,
+	/*Price*/11500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic-gear',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
 	/*ClassName*/'O_T_Truck_03_medical_ghex_F',
 	/*MenuName*/'Tempest Medic (Tropic)',
 	/*Location*/[CTI_LIGHT],

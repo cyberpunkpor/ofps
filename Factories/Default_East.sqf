@@ -57,6 +57,9 @@ switch (CTI_FACTION_EAST) do {
 				["optic_ACO_grn", 10]
 
 			]],
+
+			["O_Truck_02_medical_F", []],
+
 			["O_MRAP_02_hmg_F", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
@@ -132,6 +135,7 @@ switch (CTI_FACTION_EAST) do {
 				["optic_ACO_grn", 10],
 				["HandGrenade", 20]
 			]],
+			["O_T_Truck_02_medical_F", []],
 			["O_T_MRAP_02_hmg_ghex_F", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
@@ -185,6 +189,7 @@ switch (CTI_FACTION_EAST) do {
 				["CUP_optic_Kobra", 10],
 				["cup_30rnd_545x39_ak_m", 20]
 			]],
+			["CUP_O_BMP2_AMB_RU", []],
 			["CUP_O_UAZ_SPG9_RU", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
@@ -305,6 +310,7 @@ switch (CTI_FACTION_EAST) do {
 				["CUP_optic_Kobra", 10],
 				["cup_30rnd_545x39_ak_m", 20]
 			]],
+			["CUP_O_BMP2_AMB_RU", []],
 			["CUP_O_UAZ_SPG9_RU", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
@@ -405,6 +411,7 @@ switch (CTI_FACTION_EAST) do {
 				["optic_ACO_grn", 10],
 				["HandGrenade", 20]
 			]],
+			["O_T_Truck_02_medical_F", []],
 			["CUP_O_BTR80A_GREEN_RU", [
 				["Toolkit", 1],
 				["firstaidkit", 10],
@@ -449,6 +456,7 @@ switch (CTI_FACTION_EAST) do {
 				["CUP_optic_Kobra", 10],
 				["cup_30rnd_545x39_ak_m", 20]
 			]],
+			["CUP_O_BMP2_AMB_RU", []],
 			["CUP_O_UAZ_SPG9_RU", [
 				["Toolkit", 1],
 				["firstaidkit", 10],

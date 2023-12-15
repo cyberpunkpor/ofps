@@ -4626,6 +4626,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'CUP_O_BMP2_AMB_RU',
+	/*MenuName*/'BMP Medic (CSAT)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/0,
+	/*Price*/18500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Medical','Apcs'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic-gear',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP2_AMB_CSAT',

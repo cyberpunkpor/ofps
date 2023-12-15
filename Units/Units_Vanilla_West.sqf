@@ -2043,25 +2043,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'B_T_Truck_01_medical_F',
-	/*MenuName*/'HEMTT Medic',
-	/*Location*/[CTI_LIGHT],
-	/*UpgradeLevel*/1,
-	/*Price*/7500,
-	/*BuildTime*/30,
-	/*Distance*/1,
-	/*Camo*/['Medical'],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/'service-medic',
-	/*Picture*/''
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'B_Slingload_01_Medevac_F',

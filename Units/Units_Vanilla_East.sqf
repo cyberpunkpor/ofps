@@ -2271,6 +2271,25 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'O_Truck_02_medical_F',
+	/*MenuName*/'Zamak Medic/Gear (CSAT)',
+	/*Location*/[CTI_AMMO],
+	/*UpgradeLevel*/5,
+	/*Price*/11500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic-gear',
+	/*Picture*/''
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'O_Truck_03_medical_F',
