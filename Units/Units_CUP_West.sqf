@@ -8315,6 +8315,25 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_B_CH47F_VIV_GB',
+	/*MenuName*/'Gear/Respawn Chinook',
+	/*Location*/[CTI_AMMO,[CTI_DEPOT_AIR,"logistics",2]],
+	/*UpgradeLevel*/2,
+	/*Price*/21000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/['Logistics Helicopter'],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'service-medic-gear',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_B_Merlin_HC3_VIV_GB',
 	/*MenuName*/'Defense Merlin',
 	/*Location*/[CTI_REPAIR,[CTI_DEPOT_AIR,"logistics",3]],

@@ -758,7 +758,7 @@ _u pushBack [
 	/*ClassName*/'xmas_santa_blufor',
 	/*MenuName*/'Father Christmas',
 	/*Location*/[CTI_BARRACKS],
-	/*UpgradeLevel*/0,
+	/*UpgradeLevel*/3,
 	/*Price*/50,
 	/*BuildTime*/5,
 	/*Distance*/0,
