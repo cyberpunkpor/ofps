@@ -255,7 +255,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["LVOSS", "<t>Enables the Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage. Light and Naval Factory vehicles only; amount per vehicle determined by upgrade (level 1 vehicle = 1 max LVOSS charge, regardless of LVOSS upgrade level).<br />
 	<t color='#ffff00'>LVL 1</t> - Ammo 1<br />
 	<t color='#ffff00'>LVL 2</t> - Ammo 2</t>"], //--- LVOSS
-	["APS", "<t>Enables the Active Protection System (APS) which destroys incoming projectiles before impact. Heavy Factory vehicles only; amount per vehicle determined by upgrade (level 1 vehicle = 1 max APS charge, regardless of APS upgrade level).<br />	
+	["APS", "<t>Enables the Active Protection System (APS) which destroys incoming projectiles before impact, but causes recoil damage to the equipped vehicle. Heavy Factory vehicles only; amount per vehicle determined by upgrade (level 1 vehicle = 1 max APS charge, regardless of APS upgrade level).<br />	
 	<t color='#ffff00'>LVL 1</t> - Ammo 1<br />
 	<t color='#ffff00'>LVL 2</t> - Ammo 2<br />
 	<t color='#ffff00'>LVL 3</t> - Ammo 3<br />
