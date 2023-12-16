@@ -663,7 +663,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_20mm',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/.02,
 	/*Filters*/[]
@@ -675,7 +675,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_20mm_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -687,7 +687,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_20mm_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -699,7 +699,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_20mm_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -711,7 +711,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_25mm_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -723,7 +723,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_25mm_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -735,7 +735,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_25mm_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -747,7 +747,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_25mm',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -759,7 +759,7 @@ _u pushBack [
 	/*Type*/'Air',
 	/*ClassName*/'B_30mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/0.2,
 	/*Filters*/[]
@@ -771,7 +771,7 @@ _u pushBack [
 	/*Type*/'Air',
 	/*ClassName*/'B_30mm_HE_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/0.2,
 	/*Filters*/[]
@@ -783,7 +783,7 @@ _u pushBack [
 	/*Type*/'Air',
 	/*ClassName*/'B_30mm_HE_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/0.2,
 	/*Filters*/[]
@@ -795,7 +795,7 @@ _u pushBack [
 	/*Type*/'Air',
 	/*ClassName*/'B_30mm_AP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/3,
 	/*RearmTime*/0.2,
 	/*Filters*/[]
@@ -807,7 +807,7 @@ _u pushBack [
 	/*Type*/'Air',
 	/*ClassName*/'B_30mm_AP_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/3,
 	/*RearmTime*/0.2,
 	/*Filters*/[]
@@ -819,7 +819,7 @@ _u pushBack [
 	/*Type*/'Air',
 	/*ClassName*/'B_30mm_AP_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/3,
 	/*RearmTime*/0.2,
 	/*Filters*/[]
@@ -831,7 +831,7 @@ _u pushBack [
 	/*Type*/'Air',
 	/*ClassName*/'B_30mm_AP_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/3,
 	/*RearmTime*/0.2,
 	/*Filters*/[]
@@ -843,7 +843,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_30mm_MP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -855,7 +855,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_30mm_MP_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -867,7 +867,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_30mm_MP_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -879,7 +879,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_30mm_MP_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -891,7 +891,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_30mm_APFSDS',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -903,7 +903,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_30mm_APFSDS_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -915,7 +915,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_30mm_APFSDS_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -927,7 +927,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_30mm_APFSDS_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -963,7 +963,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_35mm_AA_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -975,7 +975,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'ammo_AAA_Gun35mm_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/1,
 	/*RearmTime*/2,
 	/*Filters*/[]
@@ -999,7 +999,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_40mm_GPR_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1011,7 +1011,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_40mm_GPR_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1023,7 +1023,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_40mm_GPR_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1035,7 +1035,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_40mm_APFSDS',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1047,7 +1047,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_40mm_APFSDS_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1059,7 +1059,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_40mm_APFSDS_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1071,7 +1071,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_40mm_APFSDS_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1084,7 +1084,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_35mm_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1096,7 +1096,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_35mm_AA_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1110,7 +1110,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'B_20mm_AP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/30,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1122,7 +1122,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'F_20mm_White',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1134,7 +1134,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'F_20mm_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1146,7 +1146,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'F_20mm_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1158,7 +1158,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'F_20mm_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1170,7 +1170,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'G_20mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/2,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1182,7 +1182,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'F_40mm_White',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1194,7 +1194,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'F_40mm_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1206,7 +1206,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'F_40mm_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1218,7 +1218,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'F_40mm_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1230,7 +1230,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'F_40mm_CIR',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/20,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1242,7 +1242,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'G_40mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/3,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1254,7 +1254,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'G_40mm_HEDP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/4,
 	/*RearmTime*/1,
 	/*Filters*/[]
@@ -1352,7 +1352,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/70,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1364,7 +1364,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_HE_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/70,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1376,7 +1376,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_HE_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/70,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1388,7 +1388,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_HE_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/70,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1400,7 +1400,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_APFSDS',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1412,7 +1412,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_APFSDS_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1424,7 +1424,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_APFSDS_Tracer_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1436,7 +1436,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_APFSDS_Tracer_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1448,7 +1448,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_HEAT_MP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1460,7 +1460,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_HEAT_MP_T_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1472,7 +1472,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_HEAT_MP_T_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1484,7 +1484,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_120mm_HEAT_MP_T_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1496,7 +1496,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/70,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1508,7 +1508,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_HE_T_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/70,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1520,7 +1520,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_HE_T_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/70,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1532,7 +1532,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_HE_T_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/70,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1544,7 +1544,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_75mm_Railgun_APFSDS_fake',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/100,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1556,7 +1556,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_APFSDS',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1568,7 +1568,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_APFSDS_T_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1580,7 +1580,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_APFSDS_T_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1592,7 +1592,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_APFSDS_T_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1604,7 +1604,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_HEAT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1616,7 +1616,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_HEAT_T_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1628,7 +1628,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_HEAT_T_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1640,7 +1640,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_125mm_HEAT_T_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1652,7 +1652,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_105mm_APFSDS',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1664,7 +1664,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_105mm_APFSDS_T_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1676,7 +1676,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_105mm_APFSDS_T_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1688,7 +1688,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_105mm_APFSDS_T_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/80,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1700,7 +1700,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_105mm_HEAT_MP',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1712,7 +1712,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_105mm_HEAT_MP_T_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1724,7 +1724,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_105mm_HEAT_MP_T_Green',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1736,7 +1736,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'Sh_105mm_HEAT_MP_T_Yellow',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/65,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1748,7 +1748,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'M_120mm_cannon_ATGM',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/1500,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1760,7 +1760,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'M_120mm_cannon_ATGM_LG',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/5500,
 	/*RearmTime*/2,
 	/*Filters*/[]
@@ -1772,7 +1772,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'M_125mm_cannon_ATGM',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/800,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -1784,7 +1784,7 @@ _u pushBack [
 	/*Type*/'Air',
 	/*ClassName*/'ammo_ShipCannon_120mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/1200,
 	/*RearmTime*/0.5,
 	/*Filters*/[]
@@ -2029,7 +2029,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'M_Jian_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/1200,
 	/*RearmTime*/10,
 	/*Filters*/[]
@@ -2077,7 +2077,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'M_127mm_Firefist_AT',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/0,
 	/*Price*/500,
 	/*RearmTime*/15,
 	/*Filters*/[]
