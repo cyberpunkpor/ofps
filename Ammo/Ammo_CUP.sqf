@@ -124,7 +124,7 @@ _u pushBack [
 	/*Type*/'Land',
 	/*ClassName*/'CUP_B_20mm_AP_Tracer_Red',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/1,
+	/*UpgradeLevel*/0,
 	/*Price*/3,
 	/*RearmTime*/.2,
 	/*Filters*/[]
