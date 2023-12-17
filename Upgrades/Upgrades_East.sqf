@@ -18,7 +18,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	true, //--- Art Radar
 	true, //--- Respawn Range
 	(missionNamespace getVariable "CTI_VEHICLES_LVOSS") isEqualTo 1, //--- LVOSS
-	//(missionNamespace getVariable "CTI_VEHICLES_ERA") isEqualTo 1, //--- APS
+	(missionNamespace getVariable "CTI_VEHICLES_ERA") isEqualTo 1, //--- APS
 	true, //--- Satellite
 	true, //--- Nuke and Arty
 	false, //--- Supply Rate
@@ -44,7 +44,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1000,2000,4000], //--- Art Radar
 	[500,1000,1500,2000,3000,4000], //--- Respawn Range
 	[500,1000], //--- LVOSS
-	//[2500,2600,4200,5000], //--- APS
+	[2500,2600,4200,5000], //--- APS
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
 	[2000,2500,3000], //--- Supply Rate
@@ -70,7 +70,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	4, //--- Art Radar
 	6, //--- Respawn Range
 	2, //--- LVOSS
-	//4, //--- APS
+	4, //--- APS
 	2, //--- Satellite
 	1, //--- Nuke and Arty
 	3, //--- Supply Rate
@@ -96,7 +96,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
 	[[],[]], //--- LVOSS
-	//[[],[],[],[]], //--- APS
+	[[],[],[],[]], //--- APS
 	[[],[]], //--- Satellite
 	[[]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
@@ -123,7 +123,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
 	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS
-	//[[CTI_UPGRADE_LVOSS,1],[CTI_UPGRADE_LVOSS,2],[CTI_UPGRADE_HEAVY,4],[CTI_UPGRADE_NUKE,1]], //--- APS
+	[[CTI_UPGRADE_LVOSS,1],[CTI_UPGRADE_LVOSS,2],[CTI_UPGRADE_HEAVY,4],[CTI_UPGRADE_NUKE,1]], //--- APS
 	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
 	[[CTI_UPGRADE_HEAVY,4]], //--- Nuke and Arty
 	[[],[CTI_UPGRADE_BARRACKS, 3],[CTI_UPGRADE_BARRACKS, 4]], //--- Supply Rate
@@ -152,7 +152,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1, 1], //--- Art Radar
 		[1, 1, 1, 1, 1, 1], //--- Respawn Range
 		[1, 1], //--- LVOSS
-		//[1, 1, 1, 1], //--- APS
+		[1, 1, 1, 1], //--- APS
 		[1, 1], //--- Satellite
 		[1], //--- Nuke and Arty
 		[1,1,1], //--- Supply Rate
@@ -179,7 +179,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240], 			//--- Art Radar
 		[60,120,160,240,320,380], 	//--- Respawn Range
 		[60,120], 					//--- LVOSS
-		//[120,180,240,300],         //--- APS
+		[120,180,240,300],         //--- APS
 		[60,120], 					//--- Satellite
 		[420], 						//--- Nuke and Arty
 		[60,60,60], 				//--- Supply Rate
@@ -214,7 +214,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_AI_ORDER", _side], [
 	[CTI_UPGRADE_ARTR, 1],
 	[CTI_UPGRADE_REST, 1],
 	[CTI_UPGRADE_LVOSS, 1],
-	//[CTI_UPGRADE_ERA, 1],
+	[CTI_UPGRADE_ERA, 1],
 	[CTI_UPGRADE_SATELLITE, 1],
 	[CTI_UPGRADE_NUKE, 1]
 ]];
