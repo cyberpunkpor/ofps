@@ -102,93 +102,93 @@ CTI_RUSSIA_2035_ADDON = 0;
 //--- Map specific overrides -------------------------------------------------------------
 switch (toLower(worldName)) do {
 	case "Altis": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "isladuala3": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "stratis": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "tanoa": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "malden": {
-CTI_VEHICLES_ERA = 0;
+
 	};	
 	case "chernarus": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "chernarus_summer": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "chernarus_winter": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "cup_chernarus_A3": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "sara_dbe1": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "takistan": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "isladuala3": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "Napf": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "NapfWinter": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "australia": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "mske": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "lingor3": {
-CTI_VEHICLES_ERA = 0;
+
 	}; 
 	case "dingor": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "tembelan": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "deniland": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "namalsk": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "pja314": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "Stratis": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "taviana": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "vt7": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "WL_Rosche": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "Enoch": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "hellanmaa": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "hellanmaaw": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 	case "noe": {
-CTI_VEHICLES_ERA = 0;
+
 	};
 };
