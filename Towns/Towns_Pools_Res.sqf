@@ -7,7 +7,8 @@ with missionNamespace do {
 	//Towns < 50
 	TOWNS_GUER_POOL_1 = [
 		["GUER_TOWNS_SQUAD_RIFLEMEN1", 4, 80],
-		["GUER_TOWNS_SQUAD_AT1", 1, 30],			
+		["GUER_TOWNS_SQUAD_AT1", 1, 30],
+		["GUER_TOWNS_SQUAD_AA", 1, 30],			
 		[
 			["GUER_TOWNS_SQUAD_LIGHT1_MIXED", 1, 60],
 			["GUER_TOWNS_SQUAD_LIGHT2_MIXED", 1, 50]
@@ -20,7 +21,8 @@ with missionNamespace do {
 	TOWNS_GUER_POOL_2 = [
 		["GUER_TOWNS_SQUAD_RIFLEMEN1", 8, 85],
 		["GUER_TOWNS_SQUAD_SNIPER", 3, 50],
-		["GUER_TOWNS_SQUAD_AT1", 4, 40],				
+		["GUER_TOWNS_SQUAD_AT1", 4, 40],
+		["GUER_TOWNS_SQUAD_AA", 1, 99],				
 		[
 			["GUER_TOWNS_SQUAD_LIGHT2_MIXED", 1, 80]
 		],
@@ -41,7 +43,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_RIFLEMEN3", 8, 80], 
 			["GUER_TOWNS_SQUAD_SNIPER", 3, 50], 
 			["GUER_TOWNS_SQUAD_AT2", 5, 50],
-			["GUER_TOWNS_SQUAD_AA", 2, 40]
+			["GUER_TOWNS_SQUAD_AA", 2, 99]
 		],
 		[
 			["GUER_TOWNS_SQUAD_LIGHT3_MIXED", 1, 70]
@@ -67,7 +69,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_RIFLEMEN3", 6, 80],
 			["GUER_TOWNS_SQUAD_SNIPER", 2, 10], 
 			["GUER_TOWNS_SQUAD_AT2", 3, 75], 
-			["GUER_TOWNS_SQUAD_AA", 2, 60]
+			["GUER_TOWNS_SQUAD_AA", 2, 99]
 		],
 		[
 			["GUER_TOWNS_SQUAD_LIGHT4_MIXED", 1, 30],
@@ -97,7 +99,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_RIFLEMEN3", 10, 80],
 			["GUER_TOWNS_SQUAD_SNIPER", 2, 60], 
 			["GUER_TOWNS_SQUAD_AT2", 3, 75], 
-			["GUER_TOWNS_SQUAD_AA", 2, 70]
+			["GUER_TOWNS_SQUAD_AA", 2, 99]
 		],
 		[
 			["GUER_TOWNS_SQUAD_LIGHT5_MIXED", 1, 30],
@@ -128,7 +130,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_RIFLEMEN3", 12, 80],
 			["GUER_TOWNS_SQUAD_SNIPER", 3, 50], 
 			["GUER_TOWNS_SQUAD_AT2", 5, 75], 
-			["GUER_TOWNS_SQUAD_AA", 3, 80]
+			["GUER_TOWNS_SQUAD_AA", 3, 99]
 		],
 		[
 			["GUER_TOWNS_SQUAD_LIGHT6_MIXED", 1, 40],
@@ -156,7 +158,8 @@ with missionNamespace do {
 	//Towns < 50
 	TOWNS_GUER_INF_POOL_1 = [
 		["GUER_TOWNS_SQUAD_RIFLEMEN1", 3, 99],
-		["GUER_TOWNS_SQUAD_AT1", 5, 99]
+		["GUER_TOWNS_SQUAD_AT1", 5, 99],
+		["GUER_TOWNS_SQUAD_AA", 1, 99]
 	];
 	//Towns 50-60
 	TOWNS_GUER_INF_POOL_2 = [
@@ -165,7 +168,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_RIFLEMEN2", 1, 70],
 			["GUER_TOWNS_SQUAD_SNIPER", 1, 60], 
 			["GUER_TOWNS_SQUAD_AT1", 7, 75], 
-			["GUER_TOWNS_SQUAD_AA", 2, 65]
+			["GUER_TOWNS_SQUAD_AA", 2, 99]
 		]
 	];
 	//Towns 60-80
@@ -176,7 +179,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_SNIPER", 1, 60], 
 			["GUER_TOWNS_SQUAD_AT1", 9, 60],
 			["GUER_TOWNS_SQUAD_AT2", 2, 75], 
-			["GUER_TOWNS_SQUAD_AA", 2, 65]
+			["GUER_TOWNS_SQUAD_AA", 2, 99]
 		]
 	];
 	//Towns 80-100
@@ -187,7 +190,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_SNIPER", 1, 50], 
 			["GUER_TOWNS_SQUAD_AT1", 13, 60], 
 			["GUER_TOWNS_SQUAD_AT2", 7, 75], 
-			["GUER_TOWNS_SQUAD_AA", 5, 65]
+			["GUER_TOWNS_SQUAD_AA", 5, 99]
 		],
 		[
 			["GUER_TOWNS_SQUAD_AIR1_SQUAD2", 1, 90]
@@ -202,7 +205,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_SNIPER", 2, 60], 
 			["GUER_TOWNS_SQUAD_AT1", 22, 40],
 			["GUER_TOWNS_SQUAD_AT2", 8, 75], 
-			["GUER_TOWNS_SQUAD_AA", 7, 65]
+			["GUER_TOWNS_SQUAD_AA", 7, 99]
 		],
 		[
 			["GUER_TOWNS_SQUAD_AIR1_SQUAD2", 1, 95],
@@ -218,7 +221,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_SNIPER", 2, 70],
 			["GUER_TOWNS_SQUAD_AT1", 23, 50], 
 			["GUER_TOWNS_SQUAD_AT2", 15, 85], 
-			["GUER_TOWNS_SQUAD_AA", 9, 70]
+			["GUER_TOWNS_SQUAD_AA", 9, 99]
 		],
 		[
 			["GUER_TOWNS_SQUAD_AIR1_SQUAD2", 1, 99],
