@@ -6584,7 +6584,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M113A1_Med_USA',
 	/*MenuName*/'M113A1 Medic/Gear (Woodland)',
@@ -6596,14 +6596,14 @@ _u pushBack [
 	/*Camo*/['Medical'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'service-medic-gear',
 	/*Picture*/''
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M113A1_Med_desert_USA',
 	/*MenuName*/'M113A1 Medic/Gear (Desert)',
@@ -6615,7 +6615,7 @@ _u pushBack [
 	/*Camo*/['Medical'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'service-medic-gear',
 	/*Picture*/''
@@ -7006,7 +7006,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV432_Bulldog_GB_W',
 	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/0,
 	/*Price*/2200,
 	/*BuildTime*/30,
@@ -7044,7 +7044,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_FV432_Bulldog_GB_D',
 	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/0,
 	/*Price*/2200,
 	/*BuildTime*/30,
@@ -7158,7 +7158,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MCV80_GB_W',
 	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/16500,
 	/*BuildTime*/30,
@@ -7234,7 +7234,7 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_B_MCV80_GB_D',
 	/*MenuName*/'',
-	/*Location*/[CTI_HEAVY],
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/16500,
 	/*BuildTime*/30,
