@@ -4189,7 +4189,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_MI6T_CSAT_T',
 	/*MenuName*/'Gear/Respawn Mi-6T',
@@ -4203,7 +4203,7 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
+	/*Script*/'service-medic-gear',
 	/*Picture*/''
 ];
 
@@ -4645,7 +4645,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_BMP2_AMB_RU',
 	/*MenuName*/'BMP Medic/Gear (CSAT)',
