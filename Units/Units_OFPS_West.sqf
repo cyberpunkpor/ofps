@@ -543,13 +543,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'OFPS_BUZZA_B',
 	/*MenuName*/'',
-	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/3,
-	/*Price*/40000,
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"logistics",2]],
+	/*UpgradeLevel*/2,
+	/*Price*/25000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/['Fighter'],
