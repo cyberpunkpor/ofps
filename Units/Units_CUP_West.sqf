@@ -8363,7 +8363,7 @@ _u pushBack [
 	/*Camo*/[],
 	/*Type*/['Logistics Helicopter'],
 	/*Ammmo*/true,
-	/*MaxActive*/-1,
+	/*MaxActive*/2,
 	/*Modifiers*/[],
 	/*Script*/'service-medic-gear',
 	/*Picture*/''
