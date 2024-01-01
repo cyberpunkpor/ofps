@@ -6584,7 +6584,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M113A1_Med_USA',
 	/*MenuName*/'M113A1 Medic/Gear (Woodland)',
@@ -6603,7 +6603,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_M113A1_Med_desert_USA',
 	/*MenuName*/'M113A1 Medic/Gear (Desert)',
@@ -8351,7 +8351,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_CH47F_VIV_GB',
 	/*MenuName*/'Gear/Respawn Chinook',
