@@ -203,14 +203,14 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk45 Advanced Cannon Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_tower_tall_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK45_CANNON_O",2]]],
 	/*Price*/55000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
 	/*Blacklist*/[["All", 15]],
 	/*Upgrade*/3,
-	/*MaxCount*/-1,
+	/*MaxCount*/4,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
 	/*Specials*/[]
@@ -251,7 +251,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (4km) Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","4km_centurion_tower_tall_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_CENTURION_O_4KM",2]]],
 	/*Price*/55000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -299,7 +299,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_tower_tall_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_CENTURION_O",2]]],
 	/*Price*/105000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -395,7 +395,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'S-750 Rhea Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_ofps_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_O_SAM_System_04_F",2]]],
 	/*Price*/310000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -443,7 +443,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk41 VLS Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk41_tower_tall_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK41_VLS_O",2]]],
 	/*Price*/385000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -459,7 +459,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk45 Hammer Bunker',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK45_CANNON_O",2]]],
 	/*Price*/60000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -475,7 +475,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Mk45 Hammer Bunker Tall',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_hammer_bunker_tall_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK45_CANNON_O",2]]],
 	/*Price*/60000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],

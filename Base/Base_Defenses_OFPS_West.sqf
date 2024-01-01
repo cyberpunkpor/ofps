@@ -235,7 +235,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (4km) Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","4km_centurion_tower_tall_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_CENTURION_B_4KM",2]]],
 	/*Price*/55000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -283,7 +283,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false, //Broken needs rebuild, knocks itself off tower during traversal and kills itself
 	/*Name*/'Praetorian Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","praetorian_fortified_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_AAA_System_01_F",2]]],
 	/*Price*/30000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -299,7 +299,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Spartan Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","spartan_fortified_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_SAM_System_01_F",2]]],
 	/*Price*/52000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -363,7 +363,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_ofps_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_B_SAM_System_03_F",2]]],
 	/*Price*/80000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],

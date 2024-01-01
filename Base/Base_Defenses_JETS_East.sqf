@@ -154,7 +154,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk49 Spartan Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","spartan_tower_tall_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_SPARTAN_O",2]]],
 	/*Price*/25000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -234,7 +234,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","r750_tower_tall_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","O_Radar_System_02_F",2]]],
 	/*Price*/13000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
