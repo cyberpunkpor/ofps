@@ -181,7 +181,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_KORD_T72CZ',
-	/*MaxMags*/20
+	/*MaxMags*/4
 ];
 
 _u pushBack [
@@ -195,7 +195,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_SGMT',
-	/*MaxMags*/12
+	/*MaxMags*/5
 ];
 
 _u pushBack [
@@ -209,14 +209,14 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_PKT_veh2',
-	/*MaxMags*/20
+	/*MaxMags*/18
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_PKT_veh3',
-	/*MaxMags*/20
+	/*MaxMags*/18
 ];
 
 _u pushBack [
@@ -230,21 +230,21 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_PKT_veh_Noeject_FCS',
-	/*MaxMags*/20
+	/*MaxMags*/8
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_PKT_BMP_L_Noeject',
-	/*MaxMags*/20
+	/*MaxMags*/4
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_PKT_BMP_R_Noeject',
-	/*MaxMags*/20
+	/*MaxMags*/4
 ];
 
 _u pushBack [
@@ -265,7 +265,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_KPVT_veh',
-	/*MaxMags*/20
+	/*MaxMags*/10
 ];
 
 _u pushBack [
@@ -293,21 +293,21 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_GAU10_L_veh',
-	/*MaxMags*/20
+	/*MaxMags*/1
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_GAU10_R_veh',
-	/*MaxMags*/20
+	/*MaxMags*/1
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vhmg_GAU10_A_veh',
-	/*MaxMags*/20
+	/*MaxMags*/1
 ];
 
 _u pushBack [
@@ -644,6 +644,13 @@ _u pushBack [
 	/*Name*/'',
 	/*ClassName*/'CUP_Vacannon_2A42_Ka50',
 	/*MaxMags*/6
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'CUP_Vacannon_2A72_BPPU',
+	/*MaxMags*/2
 ];
 
 _u pushBack [

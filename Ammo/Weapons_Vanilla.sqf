@@ -90,7 +90,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'HMG_127',
-	/*MaxMags*/2
+	/*MaxMags*/4
 ];
 
 _u pushBack [
@@ -195,14 +195,14 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'LMG_Minigun_Transport',
-	/*MaxMags*/20
+	/*MaxMags*/2
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'LMG_Minigun_Transport2',
-	/*MaxMags*/20
+	/*MaxMags*/2
 ];
 
 _u pushBack [
@@ -216,7 +216,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'LMG_coax_ext',
-	/*MaxMags*/20
+	/*MaxMags*/8
 ];
 
 _u pushBack [
@@ -813,14 +813,14 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'missiles_SAAMI',
-	/*MaxMags*/1
+	/*MaxMags*/2
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'missiles_Firefist',
-	/*MaxMags*/1
+	/*MaxMags*/3
 ];
 
 _u pushBack [
