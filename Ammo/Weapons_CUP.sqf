@@ -496,14 +496,14 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vacannon_2A28',
-	/*MaxMags*/6
+	/*MaxMags*/2
 ];
 
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_Vacannon_SPG9_veh',
-	/*MaxMags*/6
+	/*MaxMags*/2
 ];
 
 _u pushBack [
