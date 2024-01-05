@@ -617,7 +617,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'gatling_30mm_VTOL_02',
-	/*MaxMags*/1
+	/*MaxMags*/2
 ];
 
 _u pushBack [
