@@ -501,6 +501,7 @@ if (CTI_RHS_AFRF_ADDON > 0) then {
 };
 //--- OFPS Units Mod
 if (CTI_OFPS_UNITS_ADDON > 0) then {
+	WEST_VEHICLE_APC2 = "OFPS_MARSHALL_SLAT_B";
 	WEST_TOWN_AT = "ofps_B_Van_static_AT_F";
 	WEST_TOWN_AA = "ofps_B_Van_static_AA_F";
 	WEST_TOWN_COAST = "ofps_B_Van_static_AT_F";
@@ -1077,7 +1078,8 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-	WEST_TOWN_M134_COMP = [{
+		WEST_VEHICLE_APC2 = "OFPS_MARSHALL_T_SLAT_B";
+		WEST_TOWN_M134_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
 		
@@ -1100,7 +1102,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 		//--- Return the defenses objects and the composition
 		[_t_defenses, _t_composition]
 	}];
-	WEST_TOWN_AT_COMP = [{
+		WEST_TOWN_AT_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
 		
@@ -2414,7 +2416,8 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-	WEST_TOWN_M134_COMP = [{
+		WEST_VEHICLE_APC2 = "OFPS_MARSHALL_T_SLAT_B";
+		WEST_TOWN_M134_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
 		

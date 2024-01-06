@@ -423,6 +423,10 @@ if (CTI_RHS_AFRF_ADDON > 0) then {
 };
 //--- OFPS Units Mod
 if (CTI_OFPS_UNITS_ADDON > 0) then {
+	EAST_VEHICLE_APC1 = "OFPS_MARID_SLAT_O";
+	EAST_VEHICLE_APC3 = "OFPS_KAMYSH_SLAT_O";
+	EAST_VEHICLE_AA2 = "OFPS_TIGRIS_SLAT_O";
+	EAST_VEHICLE_AA3 = "OFPS_TIGRIS_SLAT_O";
 	EAST_TOWN_AT = "ofps_O_Van_static_AT_F";
 	EAST_TOWN_AA = "ofps_O_Van_static_AA_F";
 	EAST_TOWN_COAST = "ofps_O_Van_static_AT_F";
@@ -967,6 +971,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
+		EAST_VEHICLE_APC1 = "OFPS_MARID_T_SLAT_O";
+		EAST_VEHICLE_APC3 = "OFPS_KAMYSH_T_SLAT_O";
+		EAST_VEHICLE_AA2 = "OFPS_TIGRIS_T_SLAT_O";
+		EAST_VEHICLE_AA3 = "OFPS_TIGRIS_T_SLAT_O";
 		EAST_TOWN_AT_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
@@ -2390,6 +2398,10 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then {
 	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
+		EAST_VEHICLE_APC1 = "OFPS_MARID_T_SLAT_O";
+		EAST_VEHICLE_APC3 = "OFPS_KAMYSH_T_SLAT_O";
+		EAST_VEHICLE_AA2 = "OFPS_TIGRIS_T_SLAT_O";
+		EAST_VEHICLE_AA3 = "OFPS_TIGRIS_T_SLAT_O";
 		EAST_TOWN_AT_COMP = [{
 		_t_center = _this select 0;
 		_t_direction = _this select 1;
