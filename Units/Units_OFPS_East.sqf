@@ -437,7 +437,26 @@ _u pushBack [
 	/*Price*/11000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_AWC_AT_SLAT_O',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
+	/*UpgradeLevel*/2,
+	/*Price*/11500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -456,7 +475,26 @@ _u pushBack [
 	/*Price*/28000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/['Desert'],
+	/*Type*/['Jammer Vehicle'],
+	/*Ammmo*/true,
+	/*MaxActive*/1,
+	/*Modifiers*/[],
+	/*Script*/'ecm',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*ClassName*/'OFPS_AWC_SCOUT_SLAT_O',
+	/*MenuName*/['%1 (ECM)'],
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/1,
+	/*Price*/28500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
 	/*Type*/['Jammer Vehicle'],
 	/*Ammmo*/true,
 	/*MaxActive*/1,
@@ -475,7 +513,26 @@ _u pushBack [
 	/*Price*/7000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_AWC_CANNON_SLAT_O',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
+	/*UpgradeLevel*/1,
+	/*Price*/7500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -494,7 +551,26 @@ _u pushBack [
 	/*Price*/11500,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_AWC_AA_SLAT_O',
+	/*MenuName*/'',
+	/*Location*/[CTI_HEAVY,[CTI_LARGE_FOB,"logistics",1]],
+	/*UpgradeLevel*/0,
+	/*Price*/12000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
@@ -599,6 +675,120 @@ _u pushBack [
 ];
 
 //OPFOR needs a unique 'jean_sleigh' classname, causes warning in the .rpt when defined here using the same classname as in the WEST file.
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_TIGRIS_T_SLAT_O',
+	/*MenuName*/'ZSU-39 Tigris Slat (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/13500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_TIGRIS_SLAT_O',
+	/*MenuName*/'ZSU-39 Tigris Slat (CSAT)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/13500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_KAMYSH_SLAT_O',
+	/*MenuName*/'BTR-K Kamysh Slat (CSAT)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/23500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_KAMYSH_T_SLAT_O',
+	/*MenuName*/'BTR-K Kamysh Slat (Tropic)',
+	/*Location*/[CTI_HEAVY],
+	/*UpgradeLevel*/3,
+	/*Price*/23500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_MARID_T_SLAT_O',
+	/*MenuName*/'MSE-3 Marid Slat (Tropic)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/3,
+	/*Price*/8500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_MARID_SLAT_O',
+	/*MenuName*/'MSE-3 Marid Slat (CSAT)',
+	/*Location*/[CTI_LIGHT],
+	/*UpgradeLevel*/3,
+	/*Price*/8500,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 
 //--------------------------------------------------------------------------------------------------------------
 
