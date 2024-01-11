@@ -229,12 +229,12 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Barracks", "
 	<t>Unlock better infantry, group size, player abilities, and AI skill<br />
 	<t color='#ffff00'>LVL 0</t> - Ai skill 60% <br />
-	<t color='#ffff00'>LVL 1</t> - Ai skill 65% <br />
+	<t color='#ffff00'>LVL 1</t> - Ai skill 60% <br />
 	<t color='#ffff00'>LVL 2</t> - Ai skill 70% | Medikit | LockPick 1<br />
-	<t color='#ffff00'>LVL 3</t> - Ai skill 75% | LockPick 2 | Base Defense 3 | Explosives skill<br />
-	<t color='#ffff00'>LVL 4</t> - Ai skill 80% | LockPick 3 <br/>
-	<t color='#ffff00'>LVL 5</t> - Ai skill 85% | LockPick 3 <br />
-	<t color='#ffff00'>LVL 6</t> - Ai skill 90% | LockPick 4 | UAV hacker <br />"], //--- Barracks
+	<t color='#ffff00'>LVL 3</t> - Ai skill 70% | LockPick 2 | Base Defense 3 | Explosives skill<br />
+	<t color='#ffff00'>LVL 4</t> - Ai skill 75% | LockPick 3 <br/>
+	<t color='#ffff00'>LVL 5</t> - Ai skill 75% | LockPick 3 <br />
+	<t color='#ffff00'>LVL 6</t> - Ai skill 80% | LockPick 4 | UAV hacker <br />"], //--- Barracks
 	["Light Factory", "<t>Unlock better wheeled units.</t>
 	<t color='#ffff00'>LVL 5</t> unlocks the Nuke Truck and Rocket Artillery."], //--- Light
 	["Heavy Factory", "<t>Unlock better tracked units.</t>
