@@ -164,13 +164,13 @@ if (CTI_DEV_MODE > 0) then {
 }else {
 	//------------------------------ Normal Mode	------------------------------
 	missionNamespace setVariable [Format["CTI_%1_UPGRADES_TIMES", _side], [
-		[60,120,160,240,320,420], 	//--- Gear
+		[60,120,1500,240,2400,420], 	//--- Gear
 		[60,120,160,240,320,380], 	//--- Barracks
-		[60,120,160,240,320], 		//--- Light
-		[60,120,160,240,320],		//--- Heavy 
-		[30,60,240,360], 				//--- Naval
-		[60,120,160,240], 		//--- Air Rotary
-		[60,120,160,240,320], 		//--- Air Fixed
+		[60,300,160,240,320], 		//--- Light
+		[60,120,900,240,320],		//--- Heavy 
+		[30,120,240,360], 				//--- Naval
+		[60,900,160,240], 		//--- Air Rotary
+		[60,120,160,2400,320], 		//--- Air Fixed
 		[60,120,160,240], 			//--- Air Ordinance
 		[60,120,160,240], 			//--- Land Ordinance
 		[60,120,160,240],			//--- Forward Logistics
@@ -181,7 +181,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120], 					//--- LVOSS
 		[120,180,240,300],         //--- APS
 		[60,120], 					//--- Satellite
-		[420], 						//--- Nuke and Arty
+		[2400], 						//--- Nuke and Arty
 		[60,60,60], 				//--- Supply Rate
 		[30,30,30,30], 			//--- Base Health
 		[30,60,90,120],     		//--- Base Defense
