@@ -3637,13 +3637,13 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'CUP_O_SU34_AGM_CSAT',
-	/*MenuName*/'SU-34 (AGM)',
-	/*Location*/[CTI_AIR_FIXED],
-	/*UpgradeLevel*/5,
-	/*Price*/80000,
+	/*MenuName*/'SU-34 (CSAT)',
+	/*Location*/[CTI_AIR_FIXED,[CTI_DEPOT_AIR,"default",4,"logistics",2]],
+	/*UpgradeLevel*/4,
+	/*Price*/60000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/[],
