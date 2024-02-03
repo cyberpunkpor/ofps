@@ -179,8 +179,8 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240,320,380], 	//--- Respawn Range
 		[60,120], 					//--- LVOSS
 		[120,180,240,300],         //--- APS
-		[2400,120], 					//--- Satellite
-		[60], 						//--- Nuke and Arty
+		[2400], 					//--- Nuke and Arty
+		[60,120], 						//--- Satellite
 		[60,60,60], 				//--- Supply Rate
 		[30,30,30,30], 			//--- Base Health
 		[30,60,90,120],     		//--- Base Defense
