@@ -143,7 +143,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
-	/*specials*/[["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Multiplier", 1.2]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[CTI_BARRACKS]
@@ -156,7 +156,7 @@ _u pushback [
 	/*times*/120,
 	/*MaxCount*/1,
 	/*placements*/[180, 15],
-	/*specials*/[["DMG_Reduce", 1]],
+	/*specials*/[["DMG_Multiplier", 1.2]],
 	/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
 	/*respawnBPos*/-1,
 	/*Factories*/[]
