@@ -395,7 +395,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Bunker MG',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","bunker_mg_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","bunker_mg_east",1]]],
 	/*Price*/2500,
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition Armed"],
@@ -411,7 +411,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Bunker GL',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","bunker_gl_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","bunker_gl_east",1]]],
 	/*Price*/3500,
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition Armed"],
@@ -587,7 +587,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Concrete Bunker (mg x2)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","bunker_concrete_mg_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","bunker_concrete_mg_east",1]]],
 	/*Price*/5000,
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition Armed"],

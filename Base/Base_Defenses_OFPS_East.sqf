@@ -459,7 +459,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk45 Hammer Bunker',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK45_CANNON_O",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK45_CANNON_O",1]]],
 	/*Price*/60000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -475,7 +475,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Mk45 Hammer Bunker Tall',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK45_CANNON_O",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK45_CANNON_O",1]]],
 	/*Price*/60000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -491,7 +491,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Base Bunker Mk45 x4',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","base_bunker_mk45_x4_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","base_bunker_mk45_x4_east",1]]],
 	/*Price*/150000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
