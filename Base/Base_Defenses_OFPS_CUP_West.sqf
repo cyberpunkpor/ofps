@@ -122,7 +122,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'TOW Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tow_tower_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tow_tower_west",1]]],
 	/*Price*/3400,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
@@ -138,7 +138,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'TOW-2 Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tow2_tower_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tow2_tower_west",1]]],
 	/*Price*/3900,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -154,7 +154,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'ZU-23 Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","zu23_tower_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","zu23_tower_west",1]]],
 	/*Price*/5400,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
@@ -170,7 +170,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'M134 Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","m134a_tower_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","m134a_tower_west",1]]],
 	/*Price*/3100,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
@@ -186,7 +186,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk 19 Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk19_tower_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk19_tower_west",1]]],
 	/*Price*/2400,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],

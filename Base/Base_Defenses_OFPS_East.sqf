@@ -155,7 +155,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'HMG Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","hmg_tower_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","hmg_tower_east",1]]],
 	/*Price*/2700,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
@@ -171,7 +171,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'GMG Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","gmg_tower_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","gmg_tower_east",1]]],
 	/*Price*/3700,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
@@ -203,7 +203,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk45 Advanced Cannon Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK45_CANNON_O",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK45_CANNON_O",1]]],
 	/*Price*/55000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -251,7 +251,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (4km) Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_CENTURION_O_4KM",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_CENTURION_O_4KM",1]]],
 	/*Price*/55000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -299,7 +299,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_CENTURION_O",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_CENTURION_O",1]]],
 	/*Price*/105000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -315,7 +315,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,//Broken needs rebuild knocks itself off tower during traversal and kills itself.
 	/*Name*/'Praetorian Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","praetorian_fortified_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","praetorian_fortified_east",1]]],
 	/*Price*/30000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -331,7 +331,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Spartan Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","spartan_fortified_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","spartan_fortified_east",1]]],
 	/*Price*/52000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -347,7 +347,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false, //Broken needs rebuild cent knocks itself off tower during traversal and kills itself
 	/*Name*/'Centurion Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_fortified_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_fortified_east",1]]],
 	/*Price*/250000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -395,7 +395,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'S-750 Rhea Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_O_SAM_System_04_F",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_O_SAM_System_04_F",1]]],
 	/*Price*/310000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -443,7 +443,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk41 VLS Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK41_VLS_O",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_MK41_VLS_O",1]]],
 	/*Price*/385000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -524,7 +524,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Illuminant Tower AT (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_at_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_at_east",1]]],
 	/*Price*/9000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -540,7 +540,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Illuminant Tower AA (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_aa_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_aa_east",1]]],
 	/*Price*/9000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],

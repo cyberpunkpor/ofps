@@ -171,7 +171,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'GMG Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","gmg_tower_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","gmg_tower_west",1]]],
 	/*Price*/3700,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
@@ -187,7 +187,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'HMG Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","hmg_tower_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","hmg_tower_west",1]]],
 	/*Price*/2700,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
@@ -203,7 +203,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk45 Advanced Cannon Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_tower_tall_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mk45_tower_tall_west",1]]],
 	/*Price*/55000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -235,7 +235,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk21 Centurion (4km) Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_CENTURION_B_4KM",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_CENTURION_B_4KM",1]]],
 	/*Price*/55000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -283,7 +283,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false, //Broken needs rebuild, knocks itself off tower during traversal and kills itself
 	/*Name*/'Praetorian Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_AAA_System_01_F",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_AAA_System_01_F",1]]],
 	/*Price*/30000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -299,7 +299,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Spartan Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_SAM_System_01_F",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_SAM_System_01_F",1]]],
 	/*Price*/52000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -315,7 +315,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false, //Broken needs rebuild cent knocks itself off tower during traversal and kills itself
 	/*Name*/'Centurion Fortified',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_fortified_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","centurion_fortified_west",1]]],
 	/*Price*/250000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -363,7 +363,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_B_SAM_System_03_F",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_B_SAM_System_03_F",1]]],
 	/*Price*/80000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -443,7 +443,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Illuminant Tower AT (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_at_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_at_west",1]]],
 	/*Price*/9000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -459,7 +459,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Illuminant Tower AA (360)',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_aa_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","illuminanttower_aa_west",1]]],
 	/*Price*/9000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],

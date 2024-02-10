@@ -122,7 +122,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Praetorian 1C Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","praetorian_tower_tall_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","praetorian_tower_tall_east",1]]],
 	/*Price*/14000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -154,7 +154,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk49 Spartan Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_SPARTAN_O",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","OFPS_SPARTAN_O",1]]],
 	/*Price*/25000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -186,7 +186,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'S-750 Rhea Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","s750_tower_tall",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","s750_tower_tall",1]]],
 	/*Price*/100000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -202,7 +202,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'S-750 Rhea Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_east",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","sam_east",1]]],
 	/*Price*/100000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -234,7 +234,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","O_Radar_System_02_F",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","O_Radar_System_02_F",1]]],
 	/*Price*/13000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],

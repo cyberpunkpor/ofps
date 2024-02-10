@@ -122,7 +122,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Praetorian 1C Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_AAA_System_01_F",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_AAA_System_01_F",1]]],
 	/*Price*/14000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -154,7 +154,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk49 Spartan Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_SAM_System_01_F",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_SAM_System_01_F",1]]],
 	/*Price*/25000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -186,7 +186,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Mk21 Centurion Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_SAM_System_02_F",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_SAM_System_02_F",1]]],
 	/*Price*/105000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -218,7 +218,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'MIM-145 Defender Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mim145_tower_tall",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","mim145_tower_tall",1]]],
 	/*Price*/105000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -266,7 +266,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Mk41 VLS Elevated',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_Ship_MRLS_01_F",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_Ship_MRLS_01_F",1]]],
 	/*Price*/385000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],
@@ -298,7 +298,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Radar Unit Tower',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_Radar_System_01_F",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","B_Radar_System_01_F",1]]],
 	/*Price*/13000,
 	/*Placement*/[180, 15],
 	/*Tags*/["Composition Armed"],

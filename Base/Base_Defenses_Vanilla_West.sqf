@@ -434,7 +434,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Lifetower MG',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","lifetower_mg_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","lifetower_mg_west",1]]],
 	/*Price*/2500,
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition Armed"],
@@ -450,7 +450,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Lifetower GL',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","lifetower_gl_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","lifetower_gl_west",1]]],
 	/*Price*/3500,
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition Armed"],
@@ -466,7 +466,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/false,
 	/*Name*/'Lifetower AT',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","lifetower_at_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","lifetower_at_west",1]]],
 	/*Price*/8500,
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition Armed"],
@@ -482,7 +482,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Tower MG x2',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tower_mg_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tower_mg_west",1]]],
 	/*Price*/3500,
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition Armed"],
@@ -498,7 +498,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Tower GL x2',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tower_gl_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tower_gl_west",1]]],
 	/*Price*/7000,
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition Armed"],
@@ -514,7 +514,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Tower AT',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tower_at_west",2]]],
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tower_at_west",1]]],
 	/*Price*/9000,
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition Armed"],
