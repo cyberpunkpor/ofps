@@ -1,0 +1,1770 @@
+version=54;
+center[]={15051.294,17.969999,16578.266};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="concretebunker";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Layer";
+				name="concretebunker";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Layer";
+						name="concretebunker";
+						class Entities
+						{
+							items=52;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-3.7978516,0.62965775,-0.025390625};
+									angles[]={0,2.8212997e-007,1.5707964};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23288;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item1
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.1728516,0.68206024,-2.9003906};
+									angles[]={4.712389,4.7123899,0.52359897};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23289;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item2
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={1.0771484,0.68206024,-2.9003906};
+									angles[]={4.712389,4.7123899,5.7595868};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23290;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item3
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.1728516,0.68206024,2.8496094};
+									angles[]={1.5707963,1.5707974,0.52360082};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23291;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item4
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.68554688,0.30869293,2.0410156};
+									angles[]={0,5.2359891,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23292;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item5
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.64160156,0.30418396,-2.1171875};
+									angles[]={0,4.1887918,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23293;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item6
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.8935547,0.30690002,-0.029296875};
+									angles[]={0,2.1457672e-006,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23294;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item7
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={1.8125,0.3119812,-0.02734375};
+									angles[]={0,2.1457672e-006,0};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23295;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item8
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-1.7099609,0.30709076,2.0839844};
+									angles[]={0,4.1887918,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23296;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item9
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-1.7783203,0.30958939,-2.0957031};
+									angles[]={0,5.2359891,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23297;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item10
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.32714844,0.30720139,-0.025390625};
+									angles[]={0,2.1457672e-006,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23298;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item11
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={2.5107422,1.0006638,1.8203125};
+									angles[]={3.141593,2.6179938,1.6927893e-007};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23299;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item12
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-1.7978516,2.5069733,-2.1503906};
+									angles[]={0,5.2359891,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23300;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item13
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.62207031,2.5034084,-2.1738281};
+									angles[]={0,4.1887918,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23301;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item14
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={1.7929688,2.5191307,-0.08203125};
+									angles[]={0,2.1457672e-006,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23302;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item15
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.68652344,2.5119572,2.0273438};
+									angles[]={0,5.2359891,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23303;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item16
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-1.7294922,2.5068378,2.0292969};
+									angles[]={0,4.1887918,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23304;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item17
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.9121094,2.4985809,-0.083984375};
+									angles[]={0,2.1457672e-006,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23305;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item18
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-1.5664063,2.5204372,-0.080078125};
+									angles[]={0,2.1457672e-006,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23306;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item19
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.30859375,2.5152855,-0.080078125};
+									angles[]={0,2.1457672e-006,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23307;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item20
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-3.6240234,0.99521637,-1.6992188};
+									angles[]={0,0,3.1415927};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23308;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item21
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-3.5498047,1.0045185,-1.9082031};
+									angles[]={3.1415935,4.1887913,0};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23309;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item22
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.63574219,1.0008221,-3.5859375};
+									angles[]={3.1415935,4.1887913,5.6943477e-008};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23310;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item23
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.44824219,1.0045185,-3.5820313};
+									angles[]={3.1415935,3.6651921,5.1087227e-008};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23311;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item24
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.5947266,0.63197327,-2.6503906};
+									angles[]={4.712388,3.1415925,0.52359843};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23312;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item25
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={1.0556641,0.63197327,-2.8867188};
+									angles[]={4.712388,3.1415925,5.7595863};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23313;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item26
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={2.4462891,1.0045185,-1.8984375};
+									angles[]={3.141593,3.6651919,0};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23314;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item27
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={2.7021484,0.6395607,-1.0253906};
+									angles[]={0,1.5707977,4.712389};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23315;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item28
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={2.6054688,1.017189,0.1640625};
+									angles[]={0,0,3.1415927};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23316;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item29
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={2.6054688,1.0010147,1.6601563};
+									angles[]={0,0,3.1415927};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23317;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item30
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.46777344,0.99897385,3.5429688};
+									angles[]={3.1415939,4.1887922,6.9286318e-007};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23318;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item31
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.640625,1.0045185,3.5351563};
+									angles[]={3.141593,3.6651919,1.4328229e-007};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23319;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item32
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-3.5439453,1.0012684,1.8574219};
+									angles[]={3.1415939,3.6651924,2.2981661e-007};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23320;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item33
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-3.6181641,1.0045185,1.7011719};
+									angles[]={3.1415939,3.1415937,1.3494341e-007};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23321;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item34
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.5771484,0.63197327,2.609375};
+									angles[]={1.5707966,2.1799734e-007,0.52359766};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23322;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item35
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={1.0634766,0.63601494,2.8515625};
+									angles[]={1.5707966,3.4384894e-007,5.7595878};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23323;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item36
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-3.625,0.9803791,1.2207031};
+									angles[]={3.1415939,3.1415937,1.3494341e-007};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23324;
+								type="Land_ConcreteWall_01_l_pole_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item37
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-3.6201172,0.98184204,-1.2011719};
+									angles[]={3.1415939,3.1415937,1.3494341e-007};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23325;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item38
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.5048828,0.56578827,1.7617188};
+									angles[]={1.5707966,1.8758037e-007,6.2831841};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23326;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item39
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-2.4365234,0.53557205,-1.7109375};
+									angles[]={1.5707966,1.8758037e-007,6.2831841};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23327;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item40
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.5703125,0.56340027,1.7714844};
+									angles[]={1.5707966,1.8758037e-007,6.2831841};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23328;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item41
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.50195313,0.53318405,-1.7011719};
+									angles[]={1.5707966,1.8758037e-007,6.2831841};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23329;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item42
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.31152344,0.39945602,0.87109375};
+									angles[]={0,1.5707968,4.712389};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+								};
+								id=23330;
+								type="Land_ConcretePanels_02_single_v1_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item43
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={3.7216797,0.64183807,1.875};
+									angles[]={1.5707968,4.8757805e-008,2.1457672e-006};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23331;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item44
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={4.6025391,0.64109612,0.98242188};
+									angles[]={0,1.5707971,4.712389};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23332;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item45
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={4.4179688,1.0103588,-0.21289063};
+									angles[]={0,0,3.1415927};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23333;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item46
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={3.7490234,0.63218307,-1.9003906};
+									angles[]={4.7123899,3.1415925,2.1457672e-006};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23334;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item47
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={4.4443359,1.0085487,-1.6035156};
+									angles[]={0,0,3.1415927};
+								};
+								side="Empty";
+								flags=5;
+								class Attributes
+								{
+								};
+								id=23335;
+								type="Land_ConcreteWall_01_l_pole_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item48
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={1.0771484,0.68206024,2.8496094};
+									angles[]={1.5707963,1.5707974,5.7595882};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23336;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item49
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-1.1904297,0.29926109,0.12890625};
+									angles[]={0,2.1457672e-006,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23337;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item50
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={3.7314453,0.30706024,-0.04296875};
+									angles[]={0,3.1415946,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23338;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+							class Item51
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={3.7314453,2.5153923,-0.046875};
+									angles[]={0,3.1415946,6.283185};
+								};
+								side="Empty";
+								class Attributes
+								{
+								};
+								id=23339;
+								type="Land_ConcretePanels_02_single_v1_F";
+
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												singleType="BOOL";
+												value=1;
+											};
+										};
+									};
+									nAttributes=1;
+								};
+							};
+						};
+						id=23287;
+
+					};
+				};
+				id=23286;
+
+			};
+		};
+		id=23340;
+
+	};
+};

@@ -313,7 +313,23 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
+	/*Name*/'Concrete Bunker',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","concretebunker",1]]],
+	/*Price*/500,
+	/*Placement*/[90, 5],
+	/*Tags*/["Composition"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/["*"],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
 	/*Name*/'Two-Story Bunker',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","twostoryconcretebunker",1]]],
 	/*Price*/1000,
@@ -409,6 +425,22 @@ _u pushBack [
 ];
 
 _u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Two-Story Bunker MG',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","twostoryconcretemgeast",1]]],
+	/*Price*/4500,
+	/*Placement*/[0, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Bunker MG',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","bunker_mg_east",1]]],
@@ -418,6 +450,22 @@ _u pushBack [
 	/*Location*/["HQ", "RepairTruck"],
 	/*Blacklist*/[],
 	/*Upgrade*/1,
+	/*MaxCount*/-1,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'Two-Story Bunker GL',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","twostoryconcretegleast",1]]],
+	/*Price*/6500,
+	/*Placement*/[0, 5],
+	/*Tags*/["Composition Armed"],
+	/*Location*/["HQ", "RepairTruck"],
+	/*Blacklist*/[],
+	/*Upgrade*/2,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
 	/*Dismantle*/-1,
