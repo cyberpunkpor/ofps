@@ -334,23 +334,6 @@ _u pushBack [
 	/*Dismantle*/-1,
 	/*Specials*/[]
 ];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'Two-Story Bunker',
-	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","twostoryconcretebunker",1]]],
-	/*Price*/1000,
-	/*Placement*/[90, 5],
-	/*Tags*/["Composition"],
-	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
-	/*Blacklist*/["*"],
-	/*Upgrade*/2,
-	/*MaxCount*/-1,
-	/*Cooldown*/-1,
-	/*Dismantle*/-1,
-	/*Specials*/[]
-];
-
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Concrete Wall x3',
