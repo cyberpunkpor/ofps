@@ -710,7 +710,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wood Pier (x3)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","pier_wood_3",0]]],
 	/*Price*/300,
@@ -726,7 +726,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wood Pier (x5)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","pier_wood_5",0]]],
 	/*Price*/300,
@@ -742,7 +742,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wood Pier Ramp (x5)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","pier_wood_basic",0]]],
 	/*Price*/400,
@@ -901,7 +901,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wooden Pier (10 m, No Rails)',
 	/*Class*/"Land_PierWooden_01_10m_noRails_F",
 	/*Price*/200,
@@ -917,7 +917,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wooden Pier (16 m)',
 	/*Class*/"Land_PierWooden_01_16m_F",
 	/*Price*/200,
@@ -933,7 +933,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wooden Pier (End, Dock)',
 	/*Class*/"Land_PierWooden_01_dock_F",
 	/*Price*/200,
@@ -949,7 +949,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wooden Pier (End, Hut)',
 	/*Class*/"Land_PierWooden_01_hut_F",
 	/*Price*/200,
@@ -965,8 +965,8 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'	Wooden Pier (End, Ladder)',
+	/*Enabled*/false,
+	/*Name*/'Wooden Pier (End, Ladder)',
 	/*Class*/"Land_PierWooden_01_ladder_F",
 	/*Price*/200,
 	/*Placement*/[0, 7],
@@ -981,7 +981,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Wooden Pier (End, Platform)',
 	/*Class*/"Land_PierWooden_01_platform_F",
 	/*Price*/200,
@@ -997,7 +997,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Old Wooden Pier',
 	/*Class*/"Land_PierWooden_02_16m_F",
 	/*Price*/200,
@@ -1013,7 +1013,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Old Wooden Pier (Turn)',
 	/*Class*/"Land_PierWooden_02_30deg_F",
 	/*Price*/200,
@@ -1029,7 +1029,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Old Wooden Pier (End, Barrel)',
 	/*Class*/"Land_PierWooden_02_barrel_F",
 	/*Price*/200,
@@ -1045,7 +1045,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Old Wooden Pier (End, Hut)',
 	/*Class*/"Land_PierWooden_02_hut_F",
 	/*Price*/200,
@@ -1061,7 +1061,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Old Wooden Pier (End, Ladder)',
 	/*Class*/"Land_PierWooden_02_ladder_F",
 	/*Price*/200,
@@ -1077,7 +1077,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'Small Wooden Pier',
 	/*Class*/"Land_PierWooden_03_F",
 	/*Price*/200,
