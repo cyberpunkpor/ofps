@@ -123,7 +123,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Metis AT-13 Tower',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","metis_tower_east",1]]],
-	/*Price*/2400,
+	/*Price*/2900,
 	/*Placement*/[180, 5],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
