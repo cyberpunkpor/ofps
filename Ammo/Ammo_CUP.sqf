@@ -1476,7 +1476,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_RBS70_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/800,
+	/*Price*/700,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1488,7 +1488,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_Stinger_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/800,
+	/*Price*/600,
 	/*RearmTime*/15,
 	/*Filters*/[]
 ];
@@ -1548,7 +1548,7 @@ _u pushBack [
 	/*ClassName*/'CUP_M_9K38_Igla_AA',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/800,
+	/*Price*/300,
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];

@@ -562,7 +562,7 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'Tower AT',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","tower_at_west",1]]],
-	/*Price*/9000,
+	/*Price*/12500,
 	/*Placement*/[0, 5],
 	/*Tags*/["Composition Armed"],
 	/*Location*/["HQ"],
@@ -2088,7 +2088,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'AA Defense',
 	/*Class*/"B_static_AA_F",
 	/*Price*/2000,
@@ -2200,7 +2200,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'AT Defense',
 	/*Class*/"B_static_AT_F",
 	/*Price*/7000,
