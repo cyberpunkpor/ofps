@@ -236,9 +236,9 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 5</t> - Ai skill 75% | LockPick 3 <br />
 	<t color='#ffff00'>LVL 6</t> - Ai skill 80% | LockPick 4 | UAV hacker <br />"], //--- Barracks
 	["Light Factory", "<t>Unlock better wheeled units.</t>
-	<t color='#ffff00'>LVL 5</t> unlocks the Nuke Truck and Rocket Artillery."], //--- Light
+	<t color='#ffff00'>LVL 5</t> unlocks the Nuke Truck and Self-Propelled Rocket artillery."], //--- Light
 	["Heavy Factory", "<t>Unlock better tracked units.</t>
-	<t color='#ffff00'>LVL 5</t> unlocks Rocket and Self-Propelled Artillery."], //--- Heavy
+	<t color='#ffff00'>LVL 5</t> unlocks Self-Propelled Artillery."], //--- Heavy
 	["Naval Factory", "<t>Unlock better naval units.</t>"], //--- Naval
 	["Rotary Aircraft Factory", "<t>Unlock better rotary wing aircraft units.</t>"], //--- Air Rotary
 	["Fixed Wing Aircraft Factory", "<t>Unlock better fixed wing aircraft units.</t>"], //--- Air Fixed
@@ -249,7 +249,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 1</t> - HALO between Towns and Bases<br />
 	<t color='#ffff00'>LVL 2</t> - HALO to Large FOBs</t><br />
 	<t color='#ffff00'>LVL 3</t> - Vehicle HALO (requires Fixed or Rotary Factory)</t>"], //--- Halo
-	["Air Radar", "<t>Increases the range of the Air Radar.<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Air Radar
+	["Air Radar", format ["<t>Increases the range of the Air Radar.<br /><t color='#ffff00'>LVL 0</t> - %1 m<br /><t color='#ffff00'>LVL 1</t> - %2 m<br /><t color='#ffff00'>LVL 2</t> - %3 m<br /><t color='#ffff00'>LVL 3</t> - %4 m</t><br /><t color='#ffff00'>LVL 4</t> - %5 m</t>", CTI_BASE_AIRRADAR_RANGES select 0, CTI_BASE_AIRRADAR_RANGES select 1, CTI_BASE_AIRRADAR_RANGES select 2, CTI_BASE_AIRRADAR_RANGES select 3, CTI_BASE_AIRRADAR_RANGES select 4]], //--- Air Radar
 	["Artillery Radar", "<t>Increases the range of the Artillery Radar, of which allows for automatic counter-battery fire by base defense artillery.<br /><t color='#ffff00'>LVL 0</t> - 4000m<br /><t color='#ffff00'>LVL 1</t> - 6000m<br /><t color='#ffff00'>LVL 2</t> - 12000m<br /><t color='#ffff00'>LVL 3</t> - 18000m</t><br /><t color='#ffff00'>LVL 4</t> - 24000m</t>"], //--- Art Radar
 	["Respawn Range", "<t>Increases the max range of the respawn vehicles/crates and FOBs.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t><br /><t color='#ffff00'>LVL 5</t> - 3000m</t><br /><t color='#ffff00'>LVL 6</t> -4000m</t>"], //--- Respawn Range
 	["LVOSS", "<t>Enables the Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage. Light and Naval Factory vehicles only; amount per vehicle determined by upgrade (level 1 vehicle = 1 max LVOSS charge, regardless of LVOSS upgrade level).<br />
@@ -276,9 +276,9 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 3</t> - 3x damage reduction multiplier <br />
 	<t color='#ffff00'>LVL 4</t> - 4x damage reduction multiplier </t>"], //--- Base Health
 
-	["Base Defences", "<t>Unlock better defence structures and weapons.<br /><t color='#ffff00'>LVL 1</t> - Unlocks TOW launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks the Mk49 Spartan and more.<br /><t color='#ffff00'>LVL 4</t> - Unlocks the M119 Artillery piece and M252 mortar in the Repair Truck build menu."], //--- Base defense
+	["Base Defences", "<t>Unlock better defence structures and weapons.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Metis launcher and more.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Titan 360 AA/AT and more.<br /><t color='#ffff00'>LVL 3</t> - Unlocks the Mk49 Spartan and more.<br /><t color='#ffff00'>LVL 4</t> - Unlocks the D-30 Artillery piece and Podnos 2B14 mortar in the Repair Truck build menu."], //--- Base defense
 	["Jamming Type", "<t>Unlocks jamming capabilities.<br /><t color='#ffff00'>LVL 0</t> - Unlocks IR jamming.<br /><t color='#ffff00'>LVL 1</t> - Unlocks passive radar jamming.<br /><t color='#ffff00'>LVL 2</t> - Unlocks LIDAR jamming <br /><t color='#ffff00'>LVL 3</t> - Unlocks active radar jamming"], //--- Jamming Types
-    ["Jamming Range", "<t>Increases Jamming Range.<br /><t color='#ffff00'>LVL 1</t> - Range 4km <br /><t color='#ffff00'>LVL 2</t> - Range 6km <br /><t color='#ffff00'>LVL 3</t> - Range 8km <br /><t color='#ffff00'>LVL 4</t> - Range 10km <br />"]  //--- Jamming Range
+    ["Jamming Range", format ["<t>Increases Jamming Range.<br /><t color='#ffff00'>LVL 1</t> - Range %1 km <br /><t color='#ffff00'>LVL 2</t> - Range %1 km <br /><t color='#ffff00'>LVL 3</t> - Range %2 km <br /><t color='#ffff00'>LVL 4</t> - Range %3 km <br />",CTI_BASE_JAMMING_RANGES select 0, CTI_BASE_JAMMING_RANGES select 1, CTI_BASE_JAMMING_RANGES select 2, CTI_BASE_JAMMING_RANGES select 3]]  //--- Jamming Range
 
 ]];
 
