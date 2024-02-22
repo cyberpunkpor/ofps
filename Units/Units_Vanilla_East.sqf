@@ -2340,7 +2340,7 @@ _u pushBack [
 	/*Camo*/['Desert'],
 	/*Type*/[],
 	/*Ammmo*/true,
-	/*MaxActive*/3,
+	/*MaxActive*/1,
 	/*Modifiers*/[],
 	/*Script*/'service-repairtruck',
 	/*Picture*/'\A3\Weapons_F\Data\placeholder_co.paa'

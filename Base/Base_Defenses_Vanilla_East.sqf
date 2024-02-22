@@ -1271,7 +1271,7 @@ _u pushBack [
 	/*Placement*/[0, 7],
 	/*Tags*/["Markers"],
 	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
-	/*Blacklist*/[],
+	/*Blacklist*/[["Factories", 30]],
 	/*Upgrade*/0,
 	/*MaxCount*/-1,
 	/*Cooldown*/-1,
