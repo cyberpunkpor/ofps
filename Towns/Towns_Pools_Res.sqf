@@ -37,7 +37,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_ARMORED1", 1, 40]
 		]
 	];
-	//Towns 60-80
+	//Towns 61-80
 	TOWNS_GUER_POOL_3 = [
 		[
 			["GUER_TOWNS_SQUAD_RIFLEMEN3", 8, 80], 
@@ -63,7 +63,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_VEHICLE_AIR1_MIXED", 1, 10]
 		]
 	];
-	//Towns 80-100
+	//Towns 81-100
 	TOWNS_GUER_POOL_4 = [
 		[
 			["GUER_TOWNS_SQUAD_RIFLEMEN3", 6, 80],
@@ -93,7 +93,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_VEHICLE_AIR2_MIXED", 1, 10]
 		]
 	];
-	//Towns 100-120
+	//Towns 101-120
 	TOWNS_GUER_POOL_5 = [
 		[
 			["GUER_TOWNS_SQUAD_RIFLEMEN3", 10, 80],
@@ -171,7 +171,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_AA", 2, 99]
 		]
 	];
-	//Towns 60-80
+	//Towns 61-80
 	TOWNS_GUER_INF_POOL_3 = [
 		[	
 			["GUER_TOWNS_SQUAD_RIFLEMEN2", 1, 50],
@@ -182,7 +182,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_AA", 2, 99]
 		]
 	];
-	//Towns 80-100
+	//Towns 81-100
 	TOWNS_GUER_INF_POOL_4 = [
 		[	
 			["GUER_TOWNS_SQUAD_RIFLEMEN2", 2, 50],
@@ -196,7 +196,7 @@ with missionNamespace do {
 			["GUER_TOWNS_SQUAD_AIR1_SQUAD2", 1, 90]
 		]
 	];
-	//Towns 100-120
+	//Towns 101-120
 	TOWNS_GUER_INF_POOL_5 = [
 		[	
 			["GUER_TOWNS_SQUAD_RIFLEMEN1", 2, 99],
@@ -246,7 +246,7 @@ with missionNamespace do {
 		//["GUER_TOWNS_SQUAD_SUBMARINE", 1, 10],
 		["GUER_TOWNS_SQUAD_AIR1", 1, 40]
 	];
-	//Towns 60-80
+	//Towns 61-80
 	TOWNS_GUER_NAVAL_POOL_3 = [
 		["GUER_TOWNS_SQUAD_ASSAULT_BOAT1", 1, 99],
 		["GUER_TOWNS_SQUAD_ASSAULT_BOAT2", 1, 70],
@@ -257,7 +257,7 @@ with missionNamespace do {
 		["GUER_TOWNS_SQUAD_AIR1", 1, 50],
 		["GUER_TOWNS_SQUAD_AIR2", 1, 30]
 	];
-	//Towns 80-100
+	//Towns 81-100
 	TOWNS_GUER_NAVAL_POOL_4 = [
 		["GUER_TOWNS_SQUAD_ASSAULT_BOAT1", 2, 90],
 		["GUER_TOWNS_SQUAD_ASSAULT_BOAT2", 1, 80],
@@ -268,7 +268,7 @@ with missionNamespace do {
 		["GUER_TOWNS_SQUAD_AIR1_SQUAD2", 1, 50],
 		["GUER_TOWNS_SQUAD_AIR2", 1, 40]
 	];
-	//Towns 100-120
+	//Towns 101-120
 	TOWNS_GUER_NAVAL_POOL_5 = [
 		["GUER_TOWNS_SQUAD_ASSAULT_BOAT1", 2, 99],
 		//["GUER_TOWNS_SQUAD_ASSAULT_BOAT2", 2, 80],

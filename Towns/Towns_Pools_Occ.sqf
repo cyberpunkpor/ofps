@@ -36,7 +36,7 @@ with missionNamespace do {
 			["TOWNS_SQUAD_ARMORED1", 1, 99]
 		]
 	];
-	//Towns 60-80
+	//Towns 61-80
 	TOWNS_OCC_POOL_3 = [
 		[	
 			["TOWNS_SQUAD_RIFLEMEN2", 1, 99],
@@ -65,7 +65,7 @@ with missionNamespace do {
 			["TOWNS_SQUAD_VEHICLE_AA1_MIXED", 1, 99]
 		]
 	];
-	//Towns 80-100
+	//Towns 81-100
 	TOWNS_OCC_POOL_4 = [
 		[
 			["TOWNS_SQUAD_RIFLEMEN2", 2, 99],
@@ -98,7 +98,7 @@ with missionNamespace do {
 			["TOWNS_SQUAD_VEHICLE_AA2_MIXED", 1, 99]
 		]
 	];
-	//Towns 100-120
+	//Towns 101-120
 	TOWNS_OCC_POOL_5 = [
 		[	
 			["TOWNS_SQUAD_RIFLEMEN1", 2, 99],
@@ -203,7 +203,7 @@ with missionNamespace do {
 			["TOWNS_SQUAD_AA", 2, 99]
 		]
 	];
-	//Towns 60-80
+	//Towns 61-80
 	TOWNS_OCC_INF_POOL_3 = [
 		[	
 			["TOWNS_SQUAD_RIFLEMEN2", 1, 99],
@@ -214,7 +214,7 @@ with missionNamespace do {
 			["TOWNS_SQUAD_AA", 2, 99]
 		]
 	];
-	//Towns 80-100
+	//Towns 81-100
 	TOWNS_OCC_INF_POOL_4 = [
 		[	
 			["TOWNS_SQUAD_RIFLEMEN2", 2, 99],
@@ -227,7 +227,7 @@ with missionNamespace do {
 			["TOWNS_SQUAD_AIR2", 1, 99]
 		]
 	];
-	//Towns 100-120
+	//Towns 101-120
 	TOWNS_OCC_INF_POOL_5 = [
 		[	
 			["TOWNS_SQUAD_RIFLEMEN1", 2, 99],
@@ -272,7 +272,7 @@ with missionNamespace do {
 				["TOWNS_SQUAD_CAPITAL_ASSAULT_BOAT", 1, 99],
 				["TOWNS_SQUAD_AIR1", 1, 40]
 	];
-	//Towns 60-80
+	//Towns 61-80
 	TOWNS_OCC_NAVAL_POOL_3 = [
 				["TOWNS_SQUAD_ASSAULT_BOAT1", 1, 99],
 				//["TOWNS_SQUAD_ASSAULT_BOAT2", 1, 99],
@@ -282,7 +282,7 @@ with missionNamespace do {
 				["TOWNS_SQUAD_AIR1", 1, 50],
 				["TOWNS_SQUAD_AIR2", 1, 30]
 	];
-	//Towns 80-100
+	//Towns 81-100
 	TOWNS_OCC_NAVAL_POOL_4 = [
 				["TOWNS_SQUAD_ASSAULT_BOAT1", 2, 99],
 				//["TOWNS_SQUAD_ASSAULT_BOAT2", 2, 99],
@@ -292,7 +292,7 @@ with missionNamespace do {
 				["TOWNS_SQUAD_AIR1", 2, 50],
 				["TOWNS_SQUAD_AIR2", 1, 40]
 	];
-	//Towns 100-120
+	//Towns 101-120
 	TOWNS_OCC_NAVAL_POOL_5 = [
 				["TOWNS_SQUAD_ASSAULT_BOAT1", 2, 99],
 				["TOWNS_SQUAD_ASSAULT_BOAT2", 1, 99],
@@ -329,15 +329,15 @@ with missionNamespace do {
 	TOWNS_OCC_STATICS_POOL_2 = [
 
 	];
-	//Towns 60-80
+	//Towns 61-80
 	TOWNS_OCC_STATICS_POOL_3 = [
 
 	];
-	//Towns 80-100
+	//Towns 81-100
 	TOWNS_OCC_STATICS_POOL_4 = [
 
 	];
-	//Towns 100-120
+	//Towns 101-120
 	TOWNS_OCC_STATICS_POOL_5 = [
 
 	];
