@@ -190,34 +190,6 @@ if (CTI_DEV_MODE > 0) then {
 	]];
 };
 
-//todo, on commander missing link checkup, skip disabled upgrades.
-missionNamespace setVariable [Format["CTI_%1_UPGRADES_AI_ORDER", _side], [
-	[CTI_UPGRADE_GEAR, 1],
-	[CTI_UPGRADE_BARRACKS, 1],
-	[CTI_UPGRADE_LIGHT, 1],
-	[CTI_UPGRADE_GEAR, 2],
-	[CTI_UPGRADE_TOWNS, 1],
-	[CTI_UPGRADE_LIGHT, 2],
-	[CTI_UPGRADE_LIGHT, 3],
-	[CTI_UPGRADE_BARRACKS, 2],
-	[CTI_UPGRADE_HEAVY, 1],
-	[CTI_UPGRADE_NAVAL, 1],
-	[CTI_UPGRADE_AIR_ROTARY, 1],
-	[CTI_UPGRADE_AIR_FIXED, 1],
-	[CTI_UPGRADE_SUPPLY_RATE, 1],
-	[CTI_UPGRADE_GEAR, 3],
-	[CTI_UPGRADE_TOWNS, 2],
-	[CTI_UPGRADE_SUPPLY_RATE, 2],
-	[CTI_UPGRADE_TOWNS, 3],
-	[CTI_UPGRADE_HALO, 1],
-	[CTI_UPGRADE_AIRR, 1],
-	[CTI_UPGRADE_ARTR, 1],
-	[CTI_UPGRADE_REST, 1],
-	[CTI_UPGRADE_LVOSS, 1],
-	[CTI_UPGRADE_ERA, 1],
-	[CTI_UPGRADE_SATELLITE, 1],
-	[CTI_UPGRADE_NUKE, 1]
-]];
 
 missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Gear", "<t>Unlock better gear."], //--- Gear
@@ -276,7 +248,3 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
     ["Jamming Range", format ["<t>Increases Jamming Range.<br /><t color='#ffff00'>LVL 1</t> - Range %1 km <br /><t color='#ffff00'>LVL 2</t> - Range %1 km <br /><t color='#ffff00'>LVL 3</t> - Range %2 km <br /><t color='#ffff00'>LVL 4</t> - Range %3 km <br />",CTI_BASE_JAMMING_RANGES select 0, CTI_BASE_JAMMING_RANGES select 1, CTI_BASE_JAMMING_RANGES select 2, CTI_BASE_JAMMING_RANGES select 3]]  //--- Jamming Range
 
 ]];
-
-
-//--- Check potential missing definition.
-(_side) call CTI_CO_fnc_Check_Upgrades;
