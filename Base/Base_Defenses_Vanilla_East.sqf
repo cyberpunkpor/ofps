@@ -298,6 +298,22 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
+	/*Name*/'Camp Redoubt',
+	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","campredoubt",0]]],
+	/*Price*/1000,
+	/*Placement*/[0, 5],
+	/*Tags*/["Templates"],
+	/*Location*/["HQ", "RepairTruck", "DefenseTruck"],
+	/*Blacklist*/["*"],
+	/*Upgrade*/1,
+	/*MaxCount*/5,
+	/*Cooldown*/-1,
+	/*Dismantle*/-1,
+	/*Specials*/[]
+];
+
+_u pushBack [
+	/*Enabled*/true,
 	/*Name*/'Camp Bravery with Hedgehogs (Desert)',
 	/*Class*/["Sign_Arrow_Direction_Yellow_F", [["Composition","camp_bravery_hedgehogs_desert",0]]],
 	/*Price*/1500,
