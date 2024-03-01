@@ -52,9 +52,9 @@ missionNamespace setVariable [format["CTI_%1_Factories", _side], ["ControlCenter
 	/*Placement*/
 		//DESCRIPTION: Spawn location relative to factory object
 		//TYPE: Array
-		//DEFAULT: [0,10, false, false]
-		//FORMAT: [Spawn Marker Rotation, Distance from factory, Enable Spawn Marker, Force Upright]
-		//EXAMPLES: [90, 25, false, false]
+		//DEFAULT: [0,10, false]
+		//FORMAT: [Spawn Marker Rotation, Distance from factory, Enable Spawn Marker]
+		//EXAMPLES: [90, 25, false]
 
 	/*Specials*/
 		//DESCRIPTION: Factory modifiers - damage modifiers
