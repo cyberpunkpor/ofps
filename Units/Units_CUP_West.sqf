@@ -1872,7 +1872,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_AA_FROG_DES',
 	/*MenuName*/'USMC Soldier (Stinger)',
