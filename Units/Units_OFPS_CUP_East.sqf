@@ -159,6 +159,139 @@ _u pushBack [
 	/*Script*/'',
 	/*Picture*/''
 ];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_O_RU_Soldier_AA_M_EMR_V2',
+	/*MenuName*/['%1 (EMR)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2]],
+	/*UpgradeLevel*/2,
+	/*Price*/700,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_O_RU_Soldier_AA_VDV_EMR',
+	/*MenuName*/['Airborne %1 (EMR)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2]],
+	/*UpgradeLevel*/2,
+	/*Price*/670,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_O_RU_Soldier_AA_Ratnik_BeigeDigital',
+	/*MenuName*/['%1 (Desert)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2]],
+	/*UpgradeLevel*/2,
+	/*Price*/700,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_O_RU_Soldier_AA_M_BeigeDigital',
+	/*MenuName*/['%1 (Desert)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2]],
+	/*UpgradeLevel*/2,
+	/*Price*/700,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_O_RU_Soldier_AA_Ratnik_Winter',
+	/*MenuName*/['Ratnik %1 (Winter)'],
+	/*Location*/[CTI_BARRACKS,[CTI_DEPOT,"default",2],[CTI_LARGE_FOB,"default",2]],
+	/*UpgradeLevel*/2,
+	/*Price*/700,
+	/*BuildTime*/30,
+	/*Distance*/0,
+	/*Camo*/['Winter'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_O_RU_Soldier_AA_VDV',
+	/*MenuName*/['Airborne %1 (Flora)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/2,
+	/*Price*/700,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Desert'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_O_RU_Soldier_AA',
+	/*MenuName*/['%1 (Flora)'],
+	/*Location*/[CTI_BARRACKS],
+	/*UpgradeLevel*/2,
+	/*Price*/670,
+	/*BuildTime*/5,
+	/*Distance*/0,
+	/*Camo*/['Woodland'],
+	/*Type*/[],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/'',
+	/*Picture*/''
+];
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call CTI_CO_fnc_Set_Units;

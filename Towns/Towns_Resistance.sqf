@@ -1561,7 +1561,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-		
+		GUER_SOLDIER_AA = "OFPS_I_PMC_Soldier_AA";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -1660,7 +1660,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 		GUER_SOLDIER_LAT = "CUP_I_GUE_Soldier_LAT";
 		GUER_SOLDIER_HAT = "CUP_I_GUE_Soldier_AT";
 		GUER_SOLDIER_ENGINEER = "CUP_I_GUE_Engineer";
-		GUER_SOLDIER_EXP = "CUP_I_GUE_Saboteur";
+		GUER_SOLDIER_EXP = "CUP_I_GUE_Soldier_AA";
 		GUER_SOLDIER_GL = "CUP_I_GUE_Soldier_GL";
 		GUER_SOLDIER_MEDIC = "CUP_I_GUE_Medic";
 		GUER_SOLDIER_MG = "CUP_I_GUE_Soldier_MG";
@@ -1751,7 +1751,8 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-	
+	GUER_SOLDIER_AA = "OFPS_I_GUE_Soldier_AA2";
+	GUER_SOLDIER_EXP = "OFPS_I_GUE_Soldier_AA";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -2043,6 +2044,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
+		GUER_SOLDIER_AA = "OFPS_I_GUE_Soldier_AA";
 		GUER_VEHICLE_ARMORED2 = "OFPS_B_M1A2C_TUSK_II_LDF";
 	};
 	//--- SFP Mod
@@ -2261,6 +2263,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
+		GUER_SOLDIER_AA = "OFPS_I_RACS_Soldier_AA_wdl";
 		GUER_VEHICLE_ARMORED2 = "OFPS_B_M1A2C_TUSK_II_LDF";
 	};
 	//--- SFP Mod
@@ -2497,7 +2500,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-
+		GUER_SOLDIER_AA = "OFPS_I_TK_GUE_Soldier_AA";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -2869,7 +2872,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-		
+		GUER_SOLDIER_AA = "OFPS_I_PMC_Winter_Soldier_AA";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -3253,7 +3256,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-	
+		GUER_SOLDIER_AA = "OFPS_I_RACS_Soldier_AA";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {

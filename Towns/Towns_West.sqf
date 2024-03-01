@@ -1346,6 +1346,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
+		WEST_SOLDIER_AA = "OFPS_B_US_Soldier_AA";
 		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_Desert_US_Army";
 	};
 	//--- SFP Mod
@@ -1719,6 +1720,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
+		WEST_SOLDIER_AA = "OFPS_B_US_Soldier_AA";
 		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_NATO";
 	};
 	//--- SFP Mod
@@ -2704,6 +2706,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 8) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
+		WEST_SOLDIER_AA = "OFPS_B_USMC_Soldier_AA";
 		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_Woodland_US_Army";
 	};
 	//--- SFP Mod

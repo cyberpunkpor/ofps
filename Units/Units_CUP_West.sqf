@@ -257,7 +257,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_US_Soldier_AA',
 	/*MenuName*/['%1 (ACU)'],
@@ -1207,7 +1207,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_AA',
 	/*MenuName*/['%1 (Woodland)'],
@@ -1473,7 +1473,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'CUP_B_USMC_Soldier_AA_FROG_WDL',
 	/*MenuName*/'USMC Soldier (Stinger)',
