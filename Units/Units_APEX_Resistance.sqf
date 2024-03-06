@@ -15,24 +15,24 @@ Description:	This file presents classnames and their values to the mission.
 	/*Name*/
 		//DESCRIPTION: Common Unit name, primarily for internal reference
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'CSAT Infantry (Pacific)'
+		//DEFAULT: ""
+		//EXAMPLES: "CSAT Infantry (Pacific)"
 
 	/*ClassName*/
 		//DESCRIPTION:  Unit Class Name
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'O_T_Soldier_A_F'
+		//DEFAULT: ""
+		//EXAMPLES: "O_T_Soldier_A_F"
 
 	/*MenuName*/
 		//DESCRIPTION:  Name shown in menus
 		//TYPE: Array or String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //--- Name leaving blank will use name from config
-			//['%1 CustomTextHere']; //--- Default config name + custom
-			//'Friendly name'; //--- Fully custom name
-			//(format ['Friendly name - Range %1 m',CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
+			//""; //--- Name leaving blank will use name from config
+			//["%1 CustomTextHere"]; //--- Default config name + custom
+			//"Friendly name"; //--- Fully custom name
+			//(format ["Friendly name - Range %1 m",CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
 
 	/*Location*/
 		//DESCRIPTION:  Which factory unit will be available for purchase
@@ -80,16 +80,16 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Tropic'],
-			//['Tropic','Tropic'],
+			//["Tropic"],
+			//["Tropic","Tropic"],
 
 	/*Type*/
 		//DESCRIPTION:  
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Rifle'],
-			//['Rifle','Rifle'],
+			//["Rifle"],
+			//["Rifle","Rifle"],
 
 	/*Ammmo*/
 		//DESCRIPTION:  
@@ -100,24 +100,24 @@ Description:	This file presents classnames and their values to the mission.
 	/*Script*/
 		//DESCRIPTION:  
 		//TYPE: String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //-- Special / Script blank will do nothing special 
-			//'service-medic'; //---  Special / Script service-medic will mark vehicles as medical respawn truck
+			//""; //-- Special / Script blank will do nothing special 
+			//"service-medic"; //---  Special / Script service-medic will mark vehicles as medical respawn truck
 
 	/*Picture*/
 		//DESCRIPTION:  
 		//TYPE: String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //--- Picture will be used from config
-			//'\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg'; //--- Custom picture if config doesn’t have one
+			//""; //--- Picture will be used from config
+			//"\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg"; //--- Custom picture if config doesn’t have one
 
 //--------------------------------------------------------------------------------------------------------------
 
 _side = _this;
-_faction = 'Resistance';
-_mod = 'Apex';
+_faction = "Resistance";
+_mod = "Apex";
 
 _u = []; //--- Units
 
@@ -125,9 +125,9 @@ _u = []; //--- Units
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Helipilot_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Helipilot_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/35,
@@ -138,15 +138,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Para_1_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Para_1_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/100,
@@ -157,15 +157,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Para_2_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Para_2_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/200,
@@ -176,15 +176,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Para_3_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Para_3_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/175,
@@ -195,15 +195,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Para_4_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Para_4_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/175,
@@ -214,15 +214,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Para_5_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Para_5_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/800,
@@ -233,15 +233,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Para_6_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Para_6_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/80,
@@ -252,15 +252,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Para_7_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Para_7_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/50,
@@ -271,15 +271,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Para_8_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Para_8_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/800,
@@ -290,15 +290,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Camo_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Camo_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/250,
@@ -309,15 +309,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_base_unarmed_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_base_unarmed_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/20,
@@ -328,15 +328,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Bandit_1_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Bandit_1_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
@@ -347,15 +347,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Bandit_2_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Bandit_2_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
@@ -366,15 +366,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Bandit_3_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Bandit_3_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
@@ -385,15 +385,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Bandit_4_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Bandit_4_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
@@ -404,15 +404,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Bandit_5_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Bandit_5_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
@@ -423,15 +423,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Bandit_6_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Bandit_6_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
@@ -442,15 +442,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Bandit_7_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Bandit_7_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
@@ -461,15 +461,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Soldier_Bandit_8_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Soldier_Bandit_8_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
@@ -480,15 +480,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Pilot_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Pilot_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/120,
@@ -499,15 +499,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Offroad_02_unarmed_brown_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Offroad_02_unarmed_brown_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
 	/*Price*/300,
@@ -518,15 +518,16 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["turret",0,[0],true,"$STR_A3_TURRETS_CARGOTURRET_R1"],["turret",1,[1],true,"$STR_A3_TURRETS_CARGOTURRET_R2"],["turret",2,[2],true,"$STR_A3_TURRETS_CARGOTURRET_L2"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Offroad_02_unarmed_olive_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Offroad_02_unarmed_olive_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
 	/*Price*/300,
@@ -537,15 +538,16 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["turret",0,[0],true,"$STR_A3_TURRETS_CARGOTURRET_R1"],["turret",1,[1],true,"$STR_A3_TURRETS_CARGOTURRET_R2"],["turret",2,[2],true,"$STR_A3_TURRETS_CARGOTURRET_L2"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Van_01_transport_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Van_01_transport_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
 	/*Price*/300,
@@ -556,15 +558,16 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["cargo",0,[],false,"$STR_GETIN_POS_PASSENGER"],["cargo",1,[],false,"$STR_GETIN_POS_PASSENGER"],["turret",2,[0],true,"$STR_A3_TURRETS_CARGOTURRET_L1"],["turret",4,[1],true,"$STR_A3_TURRETS_CARGOTURRET_L2"],["turret",6,[2],true,"$STR_A3_TURRETS_CARGOTURRET_L3"],["turret",8,[3],true,"$STR_A3_TURRETS_CARGOTURRET_L4"],["turret",10,[4],true,"$STR_A3_TURRETS_CARGOTURRET_L5"],["turret",3,[5],true,"$STR_A3_TURRETS_CARGOTURRET_R1"],["turret",5,[6],true,"$STR_A3_TURRETS_CARGOTURRET_R2"],["turret",7,[7],true,"$STR_A3_TURRETS_CARGOTURRET_R3"],["turret",9,[8],true,"$STR_A3_TURRETS_CARGOTURRET_R4"],["turret",11,[9],true,"$STR_A3_TURRETS_CARGOTURRET_R5"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Van_01_transport_brown_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Van_01_transport_brown_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
 	/*Price*/300,
@@ -575,15 +578,16 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["cargo",0,[],false,"$STR_GETIN_POS_PASSENGER"],["cargo",1,[],false,"$STR_GETIN_POS_PASSENGER"],["turret",2,[0],true,"$STR_A3_TURRETS_CARGOTURRET_L1"],["turret",4,[1],true,"$STR_A3_TURRETS_CARGOTURRET_L2"],["turret",6,[2],true,"$STR_A3_TURRETS_CARGOTURRET_L3"],["turret",8,[3],true,"$STR_A3_TURRETS_CARGOTURRET_L4"],["turret",10,[4],true,"$STR_A3_TURRETS_CARGOTURRET_L5"],["turret",3,[5],true,"$STR_A3_TURRETS_CARGOTURRET_R1"],["turret",5,[6],true,"$STR_A3_TURRETS_CARGOTURRET_R2"],["turret",7,[7],true,"$STR_A3_TURRETS_CARGOTURRET_R3"],["turret",9,[8],true,"$STR_A3_TURRETS_CARGOTURRET_R4"],["turret",11,[9],true,"$STR_A3_TURRETS_CARGOTURRET_R5"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Van_01_transport_olive_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Van_01_transport_olive_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/0,
 	/*Price*/300,
@@ -594,15 +598,16 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["cargo",0,[],false,"$STR_GETIN_POS_PASSENGER"],["cargo",1,[],false,"$STR_GETIN_POS_PASSENGER"],["turret",2,[0],true,"$STR_A3_TURRETS_CARGOTURRET_L1"],["turret",4,[1],true,"$STR_A3_TURRETS_CARGOTURRET_L2"],["turret",6,[2],true,"$STR_A3_TURRETS_CARGOTURRET_L3"],["turret",8,[3],true,"$STR_A3_TURRETS_CARGOTURRET_L4"],["turret",10,[4],true,"$STR_A3_TURRETS_CARGOTURRET_L5"],["turret",3,[5],true,"$STR_A3_TURRETS_CARGOTURRET_R1"],["turret",5,[6],true,"$STR_A3_TURRETS_CARGOTURRET_R2"],["turret",7,[7],true,"$STR_A3_TURRETS_CARGOTURRET_R3"],["turret",9,[8],true,"$STR_A3_TURRETS_CARGOTURRET_R4"],["turret",11,[9],true,"$STR_A3_TURRETS_CARGOTURRET_R5"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Heli_Light_01_civil_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"I_C_Heli_Light_01_civil_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_AIR_ROTARY],
 	/*UpgradeLevel*/2,
 	/*Price*/5000,
@@ -613,15 +618,16 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["cargo",0,[],false,"$STR_GETIN_POS_PASSENGER"],["cargo",1,[],false,"$STR_GETIN_POS_PASSENGER"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Plane_Civil_01_F',
-	/*MenuName*/'Scout Plane',
+	/*Name*/"",
+	/*ClassName*/"I_C_Plane_Civil_01_F",
+	/*MenuName*/"Scout Plane",
 	/*Location*/[CTI_AIR_FIXED],
 	/*UpgradeLevel*/2,
 	/*Price*/5000,
@@ -632,14 +638,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["cargo",0,[],false,"$STR_GETIN_POS_PASSENGER"],["cargo",1,[],false,"$STR_GETIN_POS_PASSENGER"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Boat_Transport_01_F',
+	/*Name*/"",
+	/*ClassName*/"I_C_Boat_Transport_01_F",
 	/*MenuName*/["%1 (Pacific)"],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/0,
@@ -651,14 +658,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["turret",0,[0],true,"$STR_A3_TURRETS_CARGOTURRET_R"],["turret",1,[1],true,"$STR_A3_TURRETS_CARGOTURRET_L"],["turret",2,[2],true,"$STR_A3_TURRETS_CARGOTURRET_F"],["turret",3,[3],true,"$STR_A3_TURRETS_CARGOTURRET_M"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'I_C_Boat_Transport_02_F',
+	/*Name*/"",
+	/*ClassName*/"I_C_Boat_Transport_02_F",
 	/*MenuName*/["%1 (Pacific)"],
 	/*Location*/[CTI_NAVAL],
 	/*UpgradeLevel*/0,
@@ -670,8 +678,9 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["turret",0,[0],true,"$STR_A3_TURRETS_CARGOTURRET_F"],["turret",1,[1],true,"$STR_A3_TURRETS_CARGOTURRET_L1"],["turret",2,[2],true,"$STR_A3_TURRETS_CARGOTURRET_L2"],["turret",3,[3],true,"$STR_A3_TURRETS_CARGOTURRET_L3"],["turret",4,[4],true,"$STR_A3_TURRETS_CARGOTURRET_R3"],["turret",5,[5],true,"$STR_A3_TURRETS_CARGOTURRET_R2"],["turret",6,[6],true,"$STR_A3_TURRETS_CARGOTURRET_R1"]]
 ];
 
 

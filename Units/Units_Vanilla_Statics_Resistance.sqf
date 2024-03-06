@@ -15,22 +15,22 @@ Description:	This file presents classnames and their values to the mission.
 	/*Name*/
 		//DESCRIPTION: Common Unit name, primarily for internal reference
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'Mil Wall'
+		//DEFAULT: ""
+		//EXAMPLES: "Mil Wall"
 
 	/*Headers*/
 		//DESCRIPTION:  Menu name and various
 		//TYPE: Array
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//'Dome (Small )'
+			//"Dome (Small )"
 			//["Barricade 4m",[["CanAutoAlign", 4, 0]]]
 
 	/*ClassName*/
 		//DESCRIPTION:  Unit Class Name
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'O_T_Soldier_A_F'
+		//DEFAULT: ""
+		//EXAMPLES: "O_T_Soldier_A_F"
 
 	/*Price*/
 		//DESCRIPTION:  Price of the unit
@@ -49,8 +49,8 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Tropic'],
-			//['Tropic','Tropic'],
+			//["Tropic"],
+			//["Tropic","Tropic"],
 
 	/*Location*/
 		//DESCRIPTION:  Which factory unit will be available for purchase
@@ -98,8 +98,8 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Rifle'],
-			//['Rifle','Rifle']
+			//["Rifle"],
+			//["Rifle","Rifle"]
 
 //--------------------------------------------------------------------------------------------------------------
 private ["_side", "_faction", "_mod", "_u"];
@@ -114,7 +114,7 @@ _u = []; //Defense Classname
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Titan AA',
+	/*Name*/"Titan AA",
 	/*Class*/"I_static_AA_F",
 	/*Price*/2000,
 	/*Placement*/[180, 15],
@@ -130,7 +130,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Titan AT',
+	/*Name*/"Titan AT",
 	/*Class*/"I_static_AT_F",
 	/*Price*/3000,
 	/*Placement*/[180, 15],
@@ -146,7 +146,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Mk.6 Mortar',
+	/*Name*/"Mk.6 Mortar",
 	/*Class*/"I_Mortar_01_F",
 	/*Price*/20000,
 	/*Placement*/[180, 15],
@@ -162,7 +162,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Mk32 GMG 20mm',
+	/*Name*/"Mk32 GMG 20mm",
 	/*Class*/"I_GMG_01_F",
 	/*Price*/3000,
 	/*Placement*/[180, 15],
@@ -178,7 +178,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Mk30 HMG .50 (Raised)',
+	/*Name*/"Mk30 HMG .50 (Raised)",
 	/*Class*/"I_HMG_01_high_F",
 	/*Price*/2000,
 	/*Placement*/[180, 15],
@@ -194,7 +194,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Mk30 HMG .50',
+	/*Name*/"Mk30 HMG .50",
 	/*Class*/"I_HMG_01_F",
 	/*Price*/2000,
 	/*Placement*/[180, 15],
@@ -210,7 +210,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'M2 HMG .50',
+	/*Name*/"M2 HMG .50",
 	/*Class*/"I_HMG_02_F",
 	/*Price*/1300,
 	/*Placement*/[180, 15],
@@ -226,7 +226,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'M2 HMG .50 (Raised)',
+	/*Name*/"M2 HMG .50 (Raised)",
 	/*Class*/"I_HMG_02_high_F",
 	/*Price*/1300,
 	/*Placement*/[180, 15],
@@ -242,7 +242,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'M2 HMG .50',
+	/*Name*/"M2 HMG .50",
 	/*Class*/"I_G_HMG_02_F",
 	/*Price*/1200,
 	/*Placement*/[180, 15],
@@ -258,7 +258,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'M2 HMG .50 (Raised)',
+	/*Name*/"M2 HMG .50 (Raised)",
 	/*Class*/"I_G_HMG_02_high_F",
 	/*Price*/1200,
 	/*Placement*/[180, 15],
@@ -274,7 +274,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'M2 HMG .50 (Raised)',
+	/*Name*/"M2 HMG .50 (Raised)",
 	/*Class*/"I_E_HMG_02_high_F",
 	/*Price*/1300,
 	/*Placement*/[180, 15],
@@ -290,7 +290,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'M2 HMG .50',
+	/*Name*/"M2 HMG .50",
 	/*Class*/"I_E_HMG_02_F",
 	/*Price*/1300,
 	/*Placement*/[180, 15],
@@ -306,7 +306,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Mk32 GMG 20mm (Raised)',
+	/*Name*/"Mk32 GMG 20mm (Raised)",
 	/*Class*/"I_GMG_01_high_F",
 	/*Price*/1300,
 	/*Placement*/[180, 15],

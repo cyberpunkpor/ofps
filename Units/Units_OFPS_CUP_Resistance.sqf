@@ -15,24 +15,24 @@ Description:	This file presents classnames and their values to the mission.
 	/*Name*/
 		//DESCRIPTION: Common Unit name, primarily for internal reference
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'CSAT Infantry (Pacific)'
+		//DEFAULT: ""
+		//EXAMPLES: "CSAT Infantry (Pacific)"
 
 	/*ClassName*/
 		//DESCRIPTION:  Unit Class Name
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'O_T_Soldier_A_F'
+		//DEFAULT: ""
+		//EXAMPLES: "O_T_Soldier_A_F"
 
 	/*MenuName*/
 		//DESCRIPTION:  Name shown in menus
 		//TYPE: Array or String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //--- Name leaving blank will use name from config
-			//['%1 CustomTextHere']; //--- Default config name + custom
-			//'Friendly name'; //--- Fully custom name
-			//(format ['Friendly name - Range %1 m',CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
+			//""; //--- Name leaving blank will use name from config
+			//["%1 CustomTextHere"]; //--- Default config name + custom
+			//"Friendly name"; //--- Fully custom name
+			//(format ["Friendly name - Range %1 m",CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
 
 	/*Location*/
 		//DESCRIPTION:  Which factory unit will be available for purchase
@@ -80,16 +80,16 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Tropic'],
-			//['Tropic','Tropic'],
+			//["Tropic"],
+			//["Tropic","Tropic"],
 
 	/*Type*/
 		//DESCRIPTION:  
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Rifle'],
-			//['Rifle','Rifle'],
+			//["Rifle"],
+			//["Rifle","Rifle"],
 
 	/*Ammmo*/
 		//DESCRIPTION:  
@@ -100,33 +100,33 @@ Description:	This file presents classnames and their values to the mission.
 	/*Script*/
 		//DESCRIPTION:  
 		//TYPE: String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //-- Special / Script blank will do nothing special 
-			//'service-medic'; //---  Special / Script service-medic will mark vehicles as medical respawn truck
+			//""; //-- Special / Script blank will do nothing special 
+			//"service-medic"; //---  Special / Script service-medic will mark vehicles as medical respawn truck
 
 	/*Picture*/
 		//DESCRIPTION:  
 		//TYPE: String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //--- Picture will be used from config
-			//'\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg'; //--- Custom picture if config doesn’t have one
+			//""; //--- Picture will be used from config
+			//"\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg"; //--- Custom picture if config doesn’t have one
 
 //--------------------------------------------------------------------------------------------------------------
 
 _side = _this;
-_faction = 'Resistance';
-_mod = 'CUP';
+_faction = "Resistance";
+_mod = "CUP";
 
 _u = []; //--- Units
 
 //--------------------------------------------------------------------------------------------------------------
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_B_M1A2C_TUSK_II_LDF',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"OFPS_B_M1A2C_TUSK_II_LDF",
+	/*MenuName*/"",
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/3,
 	/*Price*/41000,
@@ -137,15 +137,16 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["gunner",-1,[0],false,"$STR_POSITION_GUNNER"],["commander",-1,[0,0],false,"$STR_POSITION_COMMANDER"],["turret",-1,[0,1],true,"$STR_CUP_POSITION_Core_Loader"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_I_PMC_Soldier_AA',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"OFPS_I_PMC_Soldier_AA",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/620,
@@ -156,15 +157,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_I_PMC_Winter_Soldier_AA',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"OFPS_I_PMC_Winter_Soldier_AA",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/620,
@@ -175,15 +176,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_I_GUE_Soldier_AA2',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"OFPS_I_GUE_Soldier_AA2",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/310,
@@ -194,15 +195,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_I_GUE_Soldier_AA',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"OFPS_I_GUE_Soldier_AA",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/420,
@@ -213,15 +214,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_I_RACS_Soldier_AA',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"OFPS_I_RACS_Soldier_AA",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/620,
@@ -232,15 +233,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_I_RACS_Soldier_AA_wdl',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"OFPS_I_RACS_Soldier_AA_wdl",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/620,
@@ -251,15 +252,15 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_I_TK_GUE_Soldier_AA',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"OFPS_I_TK_GUE_Soldier_AA",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/0,
 	/*Price*/620,
@@ -270,8 +271,8 @@ _u pushBack [
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 //--------------------------------------------------------------------------------------------------------------
 

@@ -15,24 +15,24 @@ Description:	This file presents classnames and their values to the mission.
 	/*Name*/
 		//DESCRIPTION: Common Unit name, primarily for internal reference
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'CSAT Infantry (Pacific)'
+		//DEFAULT: ""
+		//EXAMPLES: "CSAT Infantry (Pacific)"
 
 	/*ClassName*/
 		//DESCRIPTION:  Unit Class Name
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'O_T_Soldier_A_F'
+		//DEFAULT: ""
+		//EXAMPLES: "O_T_Soldier_A_F"
 
 	/*MenuName*/
 		//DESCRIPTION:  Name shown in menus
 		//TYPE: Array or String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //--- Name leaving blank will use name from config
-			//['%1 CustomTextHere']; //--- Default config name + custom
-			//'Friendly name'; //--- Fully custom name
-			//(format ['Friendly name - Range %1 m',CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
+			//""; //--- Name leaving blank will use name from config
+			//["%1 CustomTextHere"]; //--- Default config name + custom
+			//"Friendly name"; //--- Fully custom name
+			//(format ["Friendly name - Range %1 m",CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
 
 	/*Location*/
 		//DESCRIPTION:  Which factory unit will be available for purchase
@@ -80,16 +80,16 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Woodland'],
-			//['Woodland','Woodland'],
+			//["Woodland"],
+			//["Woodland","Woodland"],
 
 	/*Type*/
 		//DESCRIPTION:  
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Rifle'],
-			//['Rifle','Rifle'],
+			//["Rifle"],
+			//["Rifle","Rifle"],
 
 	/*Ammmo*/
 		//DESCRIPTION:  
@@ -100,24 +100,24 @@ Description:	This file presents classnames and their values to the mission.
 	/*Script*/
 		//DESCRIPTION:  
 		//TYPE: String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //-- Special / Script blank will do nothing special 
-			//'service-medic'; //---  Special / Script service-medic will mark vehicles as medical respawn truck
+			//""; //-- Special / Script blank will do nothing special 
+			//"service-medic"; //---  Special / Script service-medic will mark vehicles as medical respawn truck
 
 	/*Picture*/
 		//DESCRIPTION:  
 		//TYPE: String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //--- Picture will be used from config
-			//'\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg'; //--- Custom picture if config doesn’t have one
+			//""; //--- Picture will be used from config
+			//"\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg"; //--- Custom picture if config doesn’t have one
 
 //--------------------------------------------------------------------------------------------------------------
 
 _side = _this;
-_faction = 'West';
-_mod = 'Tanks';
+_faction = "West";
+_mod = "Tanks";
 
 _u = []; //--- Units
 
@@ -125,211 +125,218 @@ _u = []; //--- Units
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_CTRG_Soldier_LAT2_tna_F',
-	/*MenuName*/'%1 (CTRG Thermal Masking)',
+	/*Name*/"",
+	/*ClassName*/"B_CTRG_Soldier_LAT2_tna_F",
+	/*MenuName*/"%1 (CTRG Thermal Masking)",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/6,
 	/*Price*/3200,
 	/*BuildTime*/5,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/["Woodland"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_G_Soldier_LAT2_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"B_G_Soldier_LAT2_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/3,
 	/*Price*/1800,
 	/*BuildTime*/5,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/["Woodland"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_soldier_LAT2_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"B_soldier_LAT2_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/4,
 	/*Price*/2200,
 	/*BuildTime*/5,
 	/*Distance*/1,
-	/*Camo*/['MTP'],
+	/*Camo*/["MTP"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'B_T_Soldier_LAT2_F',
-	/*MenuName*/['%1 (Tropic)'],
+	/*Name*/"",
+	/*ClassName*/"B_T_Soldier_LAT2_F",
+	/*MenuName*/["%1 (Tropic)"],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/4,
 	/*Price*/2200,
 	/*BuildTime*/5,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/["Woodland"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_T_LSV_01_AT_F',
-	/*MenuName*/['%1 (Tropic)'],
+	/*Name*/"",
+	/*ClassName*/"B_T_LSV_01_AT_F",
+	/*MenuName*/["%1 (Tropic)"],
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/3,
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/["Woodland"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["gunner",-1,[0],false,"$STR_POSITION_GUNNER"],["turret",-1,[1],false,"$STR_POSITION_COMMANDER"],["turret",0,[2],true,"$STR_A3_TURRETS_CARGOTURRET_L2"],["turret",1,[3],true,"$STR_A3_TURRETS_CARGOTURRET_R2"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_G_Offroad_01_AT_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"B_G_Offroad_01_AT_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_LIGHT,[CTI_DEPOT,"logistics",2],[CTI_LARGE_FOB,"default",1]],
 	/*UpgradeLevel*/1,
 	/*Price*/3000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/["Woodland"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["cargo",0,[],false,"$STR_GETIN_POS_PASSENGER"],["gunner",-1,[0],false,"$STR_POSITION_GUNNER"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_LSV_01_AT_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"B_LSV_01_AT_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_LIGHT,[CTI_LARGE_FOB,"logistics",1]],
 	/*UpgradeLevel*/3,
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Desert'],
+	/*Camo*/["Desert"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["gunner",-1,[0],false,"$STR_POSITION_GUNNER"],["turret",-1,[1],false,"$STR_POSITION_COMMANDER"],["turret",0,[2],true,"$STR_A3_TURRETS_CARGOTURRET_L2"],["turret",1,[3],true,"$STR_A3_TURRETS_CARGOTURRET_R2"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_AFV_Wheeled_01_cannon_F',
-	/*MenuName*/'',
+	/*Name*/"",
+	/*ClassName*/"B_AFV_Wheeled_01_cannon_F",
+	/*MenuName*/"",
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
 	/*Price*/27000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/["Woodland"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["gunner",-1,[0],false,"$STR_POSITION_GUNNER"],["commander",-1,[0,0],false,"$STR_POSITION_COMMANDER"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_AFV_Wheeled_01_up_cannon_F',
-	/*MenuName*/['%1 (ECM)'],
+	/*Name*/"",
+	/*ClassName*/"B_AFV_Wheeled_01_up_cannon_F",
+	/*MenuName*/["%1 (ECM)"],
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
 	/*Price*/37500,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/["Woodland"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'ecm',
-	/*Picture*/''
+	/*Script*/"ecm",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["gunner",-1,[0],false,"$STR_POSITION_GUNNER"],["commander",-1,[0,0],false,"$STR_POSITION_COMMANDER"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_T_AFV_Wheeled_01_cannon_F',
-	/*MenuName*/['%1 (Tropic)'],
+	/*Name*/"",
+	/*ClassName*/"B_T_AFV_Wheeled_01_cannon_F",
+	/*MenuName*/["%1 (Tropic)"],
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
 	/*Price*/27000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/["Woodland"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["gunner",-1,[0],false,"$STR_POSITION_GUNNER"],["commander",-1,[0,0],false,"$STR_POSITION_COMMANDER"]]
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_T_AFV_Wheeled_01_up_cannon_F',
-	/*MenuName*/['%1 (Tropic)'],
+	/*Name*/"",
+	/*ClassName*/"B_T_AFV_Wheeled_01_up_cannon_F",
+	/*MenuName*/["%1 (Tropic)"],
 	/*Location*/[CTI_LIGHT],
 	/*UpgradeLevel*/4,
 	/*Price*/31000,
 	/*BuildTime*/30,
 	/*Distance*/1,
-	/*Camo*/['Woodland'],
+	/*Camo*/["Woodland"],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["gunner",-1,[0],false,"$STR_POSITION_GUNNER"],["commander",-1,[0,0],false,"$STR_POSITION_COMMANDER"]]
 ];
 
 //--------------------------------------------------------------------------------------------------------------

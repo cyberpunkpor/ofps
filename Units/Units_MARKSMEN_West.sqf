@@ -15,24 +15,24 @@ Description:	This file presents classnames and their values to the mission.
 	/*Name*/
 		//DESCRIPTION: Common Unit name, primarily for internal reference
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'CSAT Infantry (Pacific)'
+		//DEFAULT: ""
+		//EXAMPLES: "CSAT Infantry (Pacific)"
 
 	/*ClassName*/
 		//DESCRIPTION:  Unit Class Name
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'O_T_Soldier_A_F'
+		//DEFAULT: ""
+		//EXAMPLES: "O_T_Soldier_A_F"
 
 	/*MenuName*/
 		//DESCRIPTION:  Name shown in menus
 		//TYPE: Array or String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //--- Name leaving blank will use name from config
-			//['%1 CustomTextHere']; //--- Default config name + custom
-			//'Friendly name'; //--- Fully custom name
-			//(format ['Friendly name - Range %1 m',CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
+			//""; //--- Name leaving blank will use name from config
+			//["%1 CustomTextHere"]; //--- Default config name + custom
+			//"Friendly name"; //--- Fully custom name
+			//(format ["Friendly name - Range %1 m",CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
 
 	/*Location*/
 		//DESCRIPTION:  Which factory unit will be available for purchase
@@ -80,16 +80,16 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Tropic'],
-			//['Tropic','Tropic'],
+			//["Tropic"],
+			//["Tropic","Tropic"],
 
 	/*Type*/
 		//DESCRIPTION:  
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Rifle'],
-			//['Rifle','Rifle'],
+			//["Rifle"],
+			//["Rifle","Rifle"],
 
 	/*Ammmo*/
 		//DESCRIPTION:  
@@ -100,24 +100,24 @@ Description:	This file presents classnames and their values to the mission.
 	/*Script*/
 		//DESCRIPTION:  
 		//TYPE: String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //-- Special / Script blank will do nothing special 
-			//'service-medic'; //---  Special / Script service-medic will mark vehicles as medical respawn truck
+			//""; //-- Special / Script blank will do nothing special 
+			//"service-medic"; //---  Special / Script service-medic will mark vehicles as medical respawn truck
 
 	/*Picture*/
 		//DESCRIPTION:  
 		//TYPE: String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //--- Picture will be used from config
-			//'\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg'; //--- Custom picture if config doesn’t have one
+			//""; //--- Picture will be used from config
+			//"\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg"; //--- Custom picture if config doesn’t have one
 
 //--------------------------------------------------------------------------------------------------------------
 
 _side = _this;
-_faction = 'West';
-_mod = 'Marksmen';
+_faction = "West";
+_mod = "Marksmen";
 
 _u = []; //--- Units
 
@@ -125,135 +125,135 @@ _u = []; //--- Units
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_Sharpshooter_F',
-	/*MenuName*/['%1 (Sharpshooter Arid)'],
+	/*Name*/"",
+	/*ClassName*/"B_Sharpshooter_F",
+	/*MenuName*/["%1 (Sharpshooter Arid)"],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/5,
 	/*Price*/1000,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/[''],
+	/*Camo*/[""],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_HeavyGunner_F',
-	/*MenuName*/['%1 (Heavy Gunner Arid)'],
+	/*Name*/"",
+	/*ClassName*/"B_HeavyGunner_F",
+	/*MenuName*/["%1 (Heavy Gunner Arid)"],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/6,
 	/*Price*/400,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/[''],
+	/*Camo*/[""],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_G_Sharpshooter_F',
-	/*MenuName*/['%1 (Sharpshooter FIA)'],
+	/*Name*/"",
+	/*ClassName*/"B_G_Sharpshooter_F",
+	/*MenuName*/["%1 (Sharpshooter FIA)"],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/5,
 	/*Price*/1000,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/[''],
+	/*Camo*/[""],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_ghillie_lsh_F',
-	/*MenuName*/['%1 (Ghillie Special Forces Lush)'],
+	/*Name*/"",
+	/*ClassName*/"B_ghillie_lsh_F",
+	/*MenuName*/["%1 (Ghillie Special Forces Lush)"],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/5,
 	/*Price*/2200,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/[''],
+	/*Camo*/[""],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_ghillie_sard_F',
-	/*MenuName*/['%1 (Ghillie Special Forces Sand)'],
+	/*Name*/"",
+	/*ClassName*/"B_ghillie_sard_F",
+	/*MenuName*/["%1 (Ghillie Special Forces Sand)"],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/5,
 	/*Price*/2200,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/[''],
+	/*Camo*/[""],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_ghillie_ard_F',
-	/*MenuName*/['%1 (Ghillie Special Forces Arid)'],
+	/*Name*/"",
+	/*ClassName*/"B_ghillie_ard_F",
+	/*MenuName*/["%1 (Ghillie Special Forces Arid)"],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/5,
 	/*Price*/2200,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/[''],
+	/*Camo*/[""],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'B_Recon_Sharpshooter_F',
-	/*MenuName*/['%1 (Sharpshooter Special Forces)'],
+	/*Name*/"",
+	/*ClassName*/"B_Recon_Sharpshooter_F",
+	/*MenuName*/["%1 (Sharpshooter Special Forces)"],
 	/*Location*/[CTI_BARRACKS],
 	/*UpgradeLevel*/5,
 	/*Price*/1000,
 	/*BuildTime*/5,
 	/*Distance*/0,
-	/*Camo*/[''],
+	/*Camo*/[""],
 	/*Type*/[],
 	/*Ammmo*/true,
 	/*MaxActive*/-1,
 	/*Modifiers*/[],
-	/*Script*/'',
-	/*Picture*/''
+	/*Script*/"",
+	/*Picture*/""
 ];
 
 

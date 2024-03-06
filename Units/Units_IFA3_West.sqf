@@ -15,24 +15,24 @@ Description:	This file presents classnames and their values to the mission.
 	/*Name*/
 		//DESCRIPTION: Common Unit name, primarily for internal reference
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'CSAT Infantry (Pacific)'
+		//DEFAULT: ""
+		//EXAMPLES: "CSAT Infantry (Pacific)"
 
 	/*ClassName*/
 		//DESCRIPTION:  Unit Class Name
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'O_T_Soldier_A_F'
+		//DEFAULT: ""
+		//EXAMPLES: "O_T_Soldier_A_F"
 
 	/*MenuName*/
 		//DESCRIPTION:  Name shown in menus
 		//TYPE: Array or String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //--- Name leaving blank will use name from config
-			//['%1 CustomTextHere']; //--- Default config name + custom
-			//'Friendly name'; //--- Fully custom name
-			//(format ['Friendly name - Range %1 m',CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
+			//""; //--- Name leaving blank will use name from config
+			//["%1 CustomTextHere"]; //--- Default config name + custom
+			//"Friendly name"; //--- Fully custom name
+			//(format ["Friendly name - Range %1 m",CTI_RESPAWN_MOBILE_RANGE]); //--- Name that will have spawn range based on current upgrade
 
 	/*Location*/
 		//DESCRIPTION:  Which factory unit will be available for purchase
@@ -80,16 +80,16 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Tropic'],
-			//['Tropic','Tropic'],
+			//["Tropic"],
+			//["Tropic","Tropic"],
 
 	/*Type*/
 		//DESCRIPTION:  
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Rifle'],
-			//['Rifle','Rifle'],
+			//["Rifle"],
+			//["Rifle","Rifle"],
 
 	/*Ammmo*/
 		//DESCRIPTION:  
@@ -100,24 +100,24 @@ Description:	This file presents classnames and their values to the mission.
 	/*Script*/
 		//DESCRIPTION:  
 		//TYPE: String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //-- Special / Script blank will do nothing special 
-			//'service-medic'; //---  Special / Script service-medic will mark vehicles as medical respawn truck
+			//""; //-- Special / Script blank will do nothing special 
+			//"service-medic"; //---  Special / Script service-medic will mark vehicles as medical respawn truck
 
 	/*Picture*/
 		//DESCRIPTION:  
 		//TYPE: String
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//''; //--- Picture will be used from config
-			//'\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg'; //--- Custom picture if config doesn’t have one
+			//""; //--- Picture will be used from config
+			//"\A3\EditorPreviews_F\Data\CfgVehicles\Land_Pod_Heli_Transport_04_medevac_F.jpg"; //--- Custom picture if config doesn’t have one
 
 //--------------------------------------------------------------------------------------------------------------
 
 _side = _this;
-_faction = 'West';
-_mod = 'IFA3';
+_faction = "West";
+_mod = "IFA3";
 
 _u = []; //--- Units
 

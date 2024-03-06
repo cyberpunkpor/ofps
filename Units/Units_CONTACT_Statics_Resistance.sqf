@@ -15,22 +15,22 @@ Description:	This file presents classnames and their values to the mission.
 	/*Name*/
 		//DESCRIPTION: Common Unit name, primarily for internal reference
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'Mil Wall'
+		//DEFAULT: ""
+		//EXAMPLES: "Mil Wall"
 
 	/*Headers*/
 		//DESCRIPTION:  Menu name and various
 		//TYPE: Array
-		//DEFAULT: ''
+		//DEFAULT: ""
 		//EXAMPLES: 
-			//'Dome (Small )'
+			//"Dome (Small )"
 			//["Barricade 4m",[["CanAutoAlign", 4, 0]]]
 
 	/*ClassName*/
 		//DESCRIPTION:  Unit Class Name
 		//TYPE: String
-		//DEFAULT: ''
-		//EXAMPLES: 'O_T_Soldier_A_F'
+		//DEFAULT: ""
+		//EXAMPLES: "O_T_Soldier_A_F"
 
 	/*Price*/
 		//DESCRIPTION:  Price of the unit
@@ -49,8 +49,8 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Tropic'],
-			//['Tropic','Tropic'],
+			//["Tropic"],
+			//["Tropic","Tropic"],
 
 	/*Location*/
 		//DESCRIPTION:  Which factory unit will be available for purchase
@@ -98,8 +98,8 @@ Description:	This file presents classnames and their values to the mission.
 		//TYPE: Array
 		//DEFAULT: []
 		//EXAMPLES: 
-			//['Rifle'],
-			//['Rifle','Rifle']
+			//["Rifle"],
+			//["Rifle","Rifle"]
 
 //--------------------------------------------------------------------------------------------------------------
 private ["_side", "_faction", "_mod", "_u"];
@@ -114,7 +114,7 @@ _u = []; //Defense Classname
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Mk32 GMG 20mm',
+	/*Name*/"Mk32 GMG 20mm",
 	/*Class*/"I_E_GMG_01_F",
 	/*Price*/3000,
 	/*Placement*/[180, 15],
@@ -130,7 +130,7 @@ _u pushBack [
 
 _u pushBack [
 	/*Enabled*/true,
-	/*Name*/'Mk.6 Mortar',
+	/*Name*/"Mk.6 Mortar",
 	/*Class*/"I_E_Mortar_01_F",
 	/*Price*/20000,
 	/*Placement*/[180, 15],
