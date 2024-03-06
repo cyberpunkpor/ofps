@@ -1688,31 +1688,6 @@ _u pushBack [
 	/*Filters*/[]
 ];
 
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Land',
-	/*ClassName*/'160Rnd_KSK_AP',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/0,
-	/*Price*/210,
-	/*RearmTime*/0.5,
-	/*Filters*/[]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*Type*/'Land',
-	/*ClassName*/'160Rnd_KSK_HE',
-	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
-	/*UpgradeLevel*/0,
-	/*Price*/210,
-	/*RearmTime*/0.5,
-	/*Filters*/[]
-];
-
-
 //--- Heavy --------------------------
 
 _u pushBack [

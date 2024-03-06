@@ -789,13 +789,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'CUP_GSh23',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'CUP_Vacannon_GSh23L_pod_veh',
 	/*MaxMags*/1
 ];

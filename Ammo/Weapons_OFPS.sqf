@@ -42,50 +42,10 @@ _u = []; //Ammo Classname
 //--- LAND -----------------------------------------------------------
 
 //--- Small Arms --------------------------
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'at_phalanx_35_autocannon_AA_35mm',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'ofps_autocannon_40mm_CTWS',
-	/*MaxMags*/1
-];
 
 //--- Explosives --------------------------
 
 //--- Heavy --------------------------
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_Vcannon_D30MP_veh',
-	/*MaxMags*/4
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_Vcannon_D30GNDAP_veh',
-	/*MaxMags*/4
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_Vcannon_D30GNDAT_veh',
-	/*MaxMags*/4
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'ofps_cannon_127mm',
-	/*MaxMags*/4
-];
 
 _u pushBack [
 	/*Enabled*/true,
@@ -248,28 +208,7 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'OFPS_rbs97_launcher',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'OFPS_weapon_rim162Launcher_4km',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_weapon_rim162Launcher_6km',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_weapon_rim162Launcher_8km',
 	/*MaxMags*/1
 ];
 
@@ -291,13 +230,6 @@ _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
 	/*ClassName*/'ofps_missiles_zephyr',
-	/*MaxMags*/1
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'RIM_RIM116_AIM_Launcher',
 	/*MaxMags*/1
 ];
 
@@ -381,13 +313,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*ClassName*/'HAFM_IGLA1M2_Launcher',
-	/*MaxMags*/2
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
 	/*ClassName*/'HAFM_HHQ9_Launcher',
 	/*MaxMags*/1
 ];
@@ -413,13 +338,6 @@ _u pushBack [
 	/*MaxMags*/4
 ];
 //--- Naval --------------------------
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'OFPS_weapon_coastalLauncher',
-	/*MaxMags*/1
-];
 
 //--- Other --------------------------
 
