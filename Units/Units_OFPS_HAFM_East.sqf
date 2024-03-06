@@ -30,25 +30,6 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
-	/*Name*/"",
-	/*ClassName*/"OFPS_CB90_O",
-	/*MenuName*/"",
-	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"default",1,"logistics",1]],
-	/*UpgradeLevel*/1,
-	/*Price*/10000,
-	/*BuildTime*/30,
-	/*Distance*/10,
-	/*Camo*/["Attack Boat"],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/"",
-	/*Picture*/""
-];
-
-_u pushBack [
 	/*Enabled*/true,
 	/*Name*/"",
 	/*ClassName*/"OFPS_HAFM_BUYAN",
@@ -86,25 +67,6 @@ _u pushBack [
 	/*Script*/"",
 	/*Picture*/"",
 	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["cargo",0,[],false,"$STR_GETIN_POS_PASSENGER"],["gunner",-1,[0],false,"A-190 Gunner"],["commander",-1,[1],false,"SAM Operator"],["turret",-1,[2],false,"Anti-Ship Officer"],["gunner",-1,[3],false,"Commanding Officer"],["gunner",-1,[4],false,"Front CIWS Operator"],["gunner",-1,[5],false,"Left CIWS Operator"],["gunner",-1,[6],false,"Right CIWS Operator"]]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/"",
-	/*ClassName*/"OFPS_HAFM_Replenishment_OPF",
-	/*MenuName*/["%1 (Ammo,Repair,Refuel,Spawn)"],
-	/*Location*/[CTI_NAVAL],
-	/*UpgradeLevel*/2,
-	/*Price*/25000,
-	/*BuildTime*/30,
-	/*Distance*/100,
-	/*Camo*/[],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/"service-all",
-	/*Picture*/""
 ];
 
 _u pushBack [

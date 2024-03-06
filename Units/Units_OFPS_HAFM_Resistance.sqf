@@ -51,25 +51,6 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/"",
-	/*ClassName*/"OFPS_CB90_I",
-	/*MenuName*/"",
-	/*Location*/[CTI_NAVAL,[CTI_DEPOT_NAVAL,"logistics",1]],
-	/*UpgradeLevel*/1,
-	/*Price*/3200,
-	/*BuildTime*/30,
-	/*Distance*/0,
-	/*Camo*/["Attack Boat"],
-	/*Type*/[],
-	/*Ammmo*/true,
-	/*MaxActive*/-1,
-	/*Modifiers*/[],
-	/*Script*/"",
-	/*Picture*/""
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/"",
 	/*ClassName*/"OFPS_HAFM_BUYAN_I",
 	/*MenuName*/["%1 (Respawn)"],
 	/*Location*/[CTI_NAVAL],
