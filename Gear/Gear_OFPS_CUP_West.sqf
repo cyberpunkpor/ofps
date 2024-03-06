@@ -88,17 +88,6 @@ _u = []; //Gear Classname
 			/*Type*/["Rocket AA"]
 		];
 
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'OFPS_M_Stinger_AA',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/2,
-			/*Price*/300,
-			/*Camo*/[],
-			/*Type*/["Rocket AA"]
-		];
-
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call CTI_CO_fnc_Gear_Config_Set;

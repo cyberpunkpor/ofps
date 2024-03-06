@@ -144,31 +144,6 @@ _u pushBack [
 	/*Type*/["St. Nicholas"]
 ];
 
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'xmas_present_ammo',
-	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/10,
-	/*Camo*/[],
-	/*Type*/["St. Nicholas"]
-];
-
-_u pushBack [
-	/*Enabled*/false,
-	/*Name*/'',
-	/*ClassName*/'xmas_exposive_present_ammo',
-	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/3,
-	/*Price*/10,
-	/*Camo*/[],
-	/*Type*/["St. Nicholas"]
-];
-
-
-
-
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _faction, _u, _mod] call CTI_CO_fnc_Gear_Config_Set;

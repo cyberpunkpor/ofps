@@ -82,7 +82,29 @@ _u = []; //Ammo Classname
 //--- Small Arms --------------------------
 
 //--- Explosives --------------------------
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*Type*/'St. Nicholas',
+	/*ClassName*/'xmas_present_ammo',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/4500,
+	/*RearmTime*/10,
+	/*Filters*/[]
+];
 
+_u pushBack [
+	/*Enabled*/false,
+	/*Name*/'',
+	/*Type*/'St. Nicholas',
+	/*ClassName*/'xmas_exposive_present_ammo',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/3,
+	/*Price*/4500,
+	/*RearmTime*/10,
+	/*Filters*/[]
+];
 //--- Heavy --------------------------
 
 _u pushBack [
@@ -313,7 +335,17 @@ _u pushBack [
 //--- AIR ------------------------------------------------------------
 
 //--- Missles --------------------------
-
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Air',
+	/*ClassName*/'OFPS_M_Stinger_AA',
+	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
+	/*UpgradeLevel*/2,
+	/*Price*/300,
+	/*RearmTime*/10,
+	/*Filters*/[]
+];
 //--- Bombs --------------------------
 
 //--- Pylons --------------------------
