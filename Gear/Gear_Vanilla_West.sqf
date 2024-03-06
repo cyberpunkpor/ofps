@@ -3781,28 +3781,6 @@ _u = []; //Gear Classname
 				/*Type*/["Facewear"]
 			];
 
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'G_Tactical_Clear',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/3,
-				/*Price*/3,
-				/*Camo*/[],
-				/*Type*/["Facewear"]
-			];
-
-			_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'G_Tactical_Black',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/3,
-				/*Camo*/[],
-				/*Type*/["Facewear"]
-			];
-
     //Goggles
 		
 			_u pushBack [
