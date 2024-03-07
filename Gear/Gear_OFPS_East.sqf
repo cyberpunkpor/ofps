@@ -79,28 +79,6 @@ _u = []; //Gear Classname
 //--------------------------------------------------------------------------------------------------------------
 
 _u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'ofps_launch_O_Titan_short_F',
-	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/6,
-	/*Price*/5000,
-	/*Camo*/[],
-	/*Type*/["Special"]
-];
-
-_u pushBack [
-	/*Enabled*/true,
-	/*Name*/'',
-	/*ClassName*/'ofps_O_Titan_AT',
-	/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-	/*UpgradeLevel*/6,
-	/*Price*/2500,
-	/*Camo*/[],
-	/*Type*/["Special"]
-];
-
-_u pushBack [
 	/*Enabled*/false,
 	/*Name*/'',
 	/*ClassName*/'OFPS_V_TacVest_khk',
