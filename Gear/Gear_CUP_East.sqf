@@ -974,17 +974,6 @@ _u = []; //Gear Classname
 		];
 
 		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_camo_SVD_g',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",2], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/3,
-			/*Price*/60,
-			/*Camo*/[],
-			/*Type*/["Camo"]
-		];
-
-		_u pushBack [
 			/*Enabled*/false,
 			/*Name*/'',
 			/*ClassName*/'CUP_srifle_SVD_pso',
@@ -1013,17 +1002,6 @@ _u = []; //Gear Classname
 			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics",1], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
 			/*UpgradeLevel*/2,
 			/*Price*/120,
-			/*Camo*/[],
-			/*Type*/["DMR"]
-		];
-
-		_u pushBack [
-			/*Enabled*/true,
-			/*Name*/'',
-			/*ClassName*/'CUP_srifle_SVD_des',
-			/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"gear"], [CTI_FOB,"gear"], [CTI_LARGE_FOB,"gear"]],
-			/*UpgradeLevel*/1,
-			/*Price*/100,
 			/*Camo*/[],
 			/*Type*/["DMR"]
 		];
@@ -3178,17 +3156,6 @@ _u = []; //Gear Classname
     //Smoke
     
     //Flare
-
-    		_u pushBack [
-				/*Enabled*/true,
-				/*Name*/'',
-				/*ClassName*/'CUP_FlareGreen_GP25_M',
-				/*Location*/[CTI_BARRACKS, [CTI_DEPOT,"logistics"], [CTI_AMMO_TRUCK,"logistics"], [CTI_FOB,"logistics"], [CTI_LARGE_FOB,"gear"]],
-				/*UpgradeLevel*/0,
-				/*Price*/1,
-				/*Camo*/[],
-				/*Type*/["Flare Gun"]
-			];
 			
 			_u pushBack [
 				/*Enabled*/true,
