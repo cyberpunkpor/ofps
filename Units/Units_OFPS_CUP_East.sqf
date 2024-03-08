@@ -48,7 +48,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_M_EMR_V2",
 	/*MenuName*/["%1 (EMR)"],
@@ -67,7 +67,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_VDV_EMR",
 	/*MenuName*/["Airborne %1 (EMR)"],
@@ -86,7 +86,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_Ratnik_BeigeDigital",
 	/*MenuName*/["%1 (Desert)"],
@@ -105,7 +105,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_M_BeigeDigital",
 	/*MenuName*/["%1 (Desert)"],
@@ -124,7 +124,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_Ratnik_Winter",
 	/*MenuName*/["Ratnik %1 (Winter)"],
@@ -143,7 +143,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_VDV",
 	/*MenuName*/["Airborne %1 (Flora)"],
@@ -162,7 +162,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA",
 	/*MenuName*/["%1 (Flora)"],

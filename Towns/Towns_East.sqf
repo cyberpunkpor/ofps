@@ -1228,7 +1228,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-		EAST_SOLDIER_AA = "OFPS_O_RU_Soldier_AA_M_EMR_V2";
+		//EAST_SOLDIER_AA = "OFPS_O_RU_Soldier_AA_M_EMR_V2";
 		//--- Air
 		EAST_AIR_AA = "OFPS_SU25";
 	};
@@ -1579,7 +1579,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-	EAST_SOLDIER_AA = "OFPS_O_RU_Soldier_AA_Ratnik_Winter";
+	//EAST_SOLDIER_AA = "OFPS_O_RU_Soldier_AA_Ratnik_Winter";
 	};
 	//--- SFP Mod
 	if (CTI_SFP_ADDON > 0) then {
@@ -2628,7 +2628,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 9) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-		EAST_SOLDIER_AA = "OFPS_O_RU_Soldier_AA_M_BeigeDigital";
+		//EAST_SOLDIER_AA = "OFPS_O_RU_Soldier_AA_M_BeigeDigital";
 		//--- Air
 		EAST_AIR_AA = "OFPS_SU25";
 	};
