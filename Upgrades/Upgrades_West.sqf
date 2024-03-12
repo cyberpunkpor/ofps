@@ -220,7 +220,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	<t color='#ffff00'>LVL 1</t> - Ammo 1<br />
 	<t color='#ffff00'>LVL 2</t> - Ammo 2<br />
 	<t color='#ffff00'>LVL 3</t> - Ammo 3<br />
-	<t color='#ffff00'>LVL 4</t> - Ammo 4</t>"], //--- APS
+	<t color='#ffff00'>LVL 4</t> - Ammo 4</t>"], //--- CM
 	["Satellite Uplink", "<t>Allows the use of the satellite camera and access to advanced intel reports. <br /><t color='#ffff00'>LVL 0</t> - Satellite Uplink building enables enemy detection near base.<br /><t color='#ffff00'>LVL 1</t> - Unlocks Base Satellite Cam.<br /><t color='#ffff00'>LVL 2</t> - Unlocks Map-Wide Satellite Cam </t>"], //--- Satellite
 	["WMD Unlock", "<t>Unlocks endgame upgrades.<br /><t color='#ffff00'>Required for the final levels of the Heavy, Light, and Sattelite upgrades</t></t>"], //---Nuke and Arty
 	["Supply Rate", "<t>Improves rate at which Capped Town SV raises and overall SV return<br />
