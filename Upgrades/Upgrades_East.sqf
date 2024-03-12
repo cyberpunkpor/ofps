@@ -17,8 +17,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_ENABLED", _side], [
 	true, //--- Air Radar
 	true, //--- Art Radar
 	true, //--- Respawn Range
-	(missionNamespace getVariable "CTI_VEHICLES_LVOSS") isEqualTo 1, //--- LVOSS
-	(missionNamespace getVariable "CTI_VEHICLES_ERA") isEqualTo 1, //--- APS
+	(missionNamespace getVariable "CTI_VEHICLES_CM") isEqualTo 1, //--- CM
 	true, //--- Satellite
 	true, //--- Nuke and Arty
 	false, //--- Supply Rate
@@ -43,8 +42,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[500,1000,2000,4000], //--- Air Radar
 	[500,1000,2000,4000], //--- Art Radar
 	[500,1000,1500,2000,3000,4000], //--- Respawn Range
-	[500,1000], //--- LVOSS
-	[2500,2600,4200,5000], //--- APS
+	[2500,2600,4200,5000], //--- CM
 	[10000,10000], //--- Satellite
 	[10000], //--- Nuke and Arty
 	[2000,2500,3000], //--- Supply Rate
@@ -69,8 +67,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	4, //--- Air Radar
 	4, //--- Art Radar
 	6, //--- Respawn Range
-	2, //--- LVOSS
-	4, //--- APS
+	4, //--- CM
 	2, //--- Satellite
 	1, //--- Nuke and Arty
 	3, //--- Supply Rate
@@ -95,8 +92,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
-	[[],[]], //--- LVOSS
-	[[],[],[],[]], //--- APS
+	[[],[],[],[]], //--- CM
 	[[],[]], //--- Satellite
 	[[]], //--- Nuke and Arty
 	[[],[],[]], //--- Supply Rate
@@ -122,8 +118,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[],[],[],[]], //--- Air Radar
 	[[],[],[],[]], //--- Art Radar
 	[[],[],[],[],[],[]], //--- Respawn Range
-	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2]], //--- LVOSS
-	[[CTI_UPGRADE_LVOSS,1],[CTI_UPGRADE_LVOSS,2],[CTI_UPGRADE_HEAVY,4],[CTI_UPGRADE_NUKE,1]], //--- APS
+	[[CTI_UPGRADE_LIGHT,1],[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3]], //--- CM
 	[[], [CTI_UPGRADE_NUKE, 1]], //--- Satellite
 	[[CTI_UPGRADE_HEAVY,4]], //--- Nuke and Arty
 	[[],[CTI_UPGRADE_BARRACKS, 3],[CTI_UPGRADE_BARRACKS, 4]], //--- Supply Rate
@@ -151,8 +146,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1, 1], //--- Air Radar
 		[1, 1, 1, 1], //--- Art Radar
 		[1, 1, 1, 1, 1, 1], //--- Respawn Range
-		[1, 1], //--- LVOSS
-		[1, 1, 1, 1], //--- APS
+		[1, 1, 1, 1], //--- CM
 		[1, 1], //--- Satellite
 		[1], //--- Nuke and Arty
 		[1,1,1], //--- Supply Rate
@@ -178,10 +172,9 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240], 			//--- Air Radar
 		[60,120,160,240], 			//--- Art Radar
 		[60,120,160,240,320,380], 	//--- Respawn Range
-		[60,120], 					//--- LVOSS
-		[120,180,240,300],          //--- APS
-		[60,120], 			    //--- Satellite
-		[2400], 						//--- Nuke and Arty
+		[120,180,240,300],          //--- CM
+		[60,120], 			    	//--- Satellite
+		[2400], 					//--- Nuke and Arty
 		[60,60,60], 				//--- Supply Rate
 		[30,30,30,30], 			    //--- Base Health
 		[30,60,90,120],     		//--- Base Defense
@@ -219,10 +212,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LABELS", _side], [
 	["Air Radar", format ["<t>Increases the range of the Air Radar.<br /><t color='#ffff00'>LVL 0</t> - %1 m<br /><t color='#ffff00'>LVL 1</t> - %2 m<br /><t color='#ffff00'>LVL 2</t> - %3 m<br /><t color='#ffff00'>LVL 3</t> - %4 m</t><br /><t color='#ffff00'>LVL 4</t> - %5 m</t>", CTI_BASE_AIRRADAR_RANGES select 0, CTI_BASE_AIRRADAR_RANGES select 1, CTI_BASE_AIRRADAR_RANGES select 2, CTI_BASE_AIRRADAR_RANGES select 3, CTI_BASE_AIRRADAR_RANGES select 4]], //--- Air Radar
 	["Artillery Radar", format ["<t>Increases the range of the Artillery Radar, of which allows for automatic counter-battery fire by base defense artillery.<br /><t color='#ffff00'>LVL 0</t> - %1 m<br /><t color='#ffff00'>LVL 1</t> - %2 m<br /><t color='#ffff00'>LVL 2</t> - %3 m<br /><t color='#ffff00'>LVL 3</t> - %4 m</t><br /><t color='#ffff00'>LVL 4</t> - %5 m</t>",CTI_BASE_ARTRADAR_RANGES select 0, CTI_BASE_ARTRADAR_RANGES select 1, CTI_BASE_ARTRADAR_RANGES select 2, CTI_BASE_ARTRADAR_RANGES select 3]], //--- Art Radar
 	["Respawn Range", "<t>Increases the max range of the respawn vehicles/crates and FOBs.<br /><t color='#ffff00'>LVL 1</t> - 500m<br /><t color='#ffff00'>LVL 2</t> - 1000m<br /><t color='#ffff00'>LVL 3</t> - 1500m<br /><t color='#ffff00'>LVL 4</t> - 2000m</t><br /><t color='#ffff00'>LVL 5</t> - 3000m</t><br /><t color='#ffff00'>LVL 6</t> -4000m</t>"], //--- Respawn Range
-	["LVOSS", "<t>Enables the Light Vehicle Obscuration Smoke System (LVOSS) with full 360 degree coverage. Light and Naval Factory vehicles only; amount per vehicle determined by upgrade (level 1 vehicle = 1 max LVOSS charge, regardless of LVOSS upgrade level).<br />
-	<t color='#ffff00'>LVL 1</t> - Ammo 1<br />
-	<t color='#ffff00'>LVL 2</t> - Ammo 2</t>"], //--- LVOSS
-	["APS", "<t>Enables the Active Protection System (APS) which destroys incoming projectiles before impact, but causes recoil damage to the equipped vehicle. Heavy Factory vehicles only; amount per vehicle determined by upgrade (level 1 vehicle = 1 max APS charge, regardless of APS upgrade level).<br />	
+	["CM", "<t>Enables countermeasures which offset incoming guided missiles. Heavy Factory vehicles only; amount per vehicle determined by upgrade (level 1 vehicle = 1 max CM charge, regardless of CM upgrade level).<br />	
 	<t color='#ffff00'>LVL 1</t> - Ammo 1<br />
 	<t color='#ffff00'>LVL 2</t> - Ammo 2<br />
 	<t color='#ffff00'>LVL 3</t> - Ammo 3<br />
