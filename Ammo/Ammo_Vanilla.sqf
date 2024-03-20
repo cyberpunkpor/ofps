@@ -1778,19 +1778,19 @@ _u pushBack [
 	/*Filters*/[]
 ];
 
+//--- Arty --------------------------
+
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
-	/*Type*/'Air',
+	/*Type*/'Land',
 	/*ClassName*/'ammo_ShipCannon_120mm_HE',
 	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
 	/*UpgradeLevel*/0,
-	/*Price*/1200,
-	/*RearmTime*/0.5,
+	/*Price*/300,
+	/*RearmTime*/20,
 	/*Filters*/[]
 ];
-
-//--- Arty --------------------------
 
 _u pushBack [
 	/*Enabled*/true,

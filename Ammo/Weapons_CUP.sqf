@@ -1032,6 +1032,13 @@ _u pushBack [
 _u pushBack [
 	/*Enabled*/true,
 	/*Name*/'',
+	/*ClassName*/'CUP_Vmortar_M121',
+	/*MaxMags*/2
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
 	/*ClassName*/'CUP_mortar_82mm_veh',
 	/*MaxMags*/1
 ];
