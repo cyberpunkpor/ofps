@@ -7564,7 +7564,7 @@ _u pushBack [
 	/*ClassName*/"CUP_B_M7Bradley_USA_D",
 	/*MenuName*/["%1 (Desert)"],
 	/*Location*/[CTI_HEAVY],
-	/*UpgradeLevel*/2,
+	/*UpgradeLevel*/1,
 	/*Price*/10000,
 	/*BuildTime*/30,
 	/*Distance*/1,
