@@ -1854,7 +1854,7 @@ _u pushBack [
 	/*MenuName*/"T-100X Futura (CSAT)",
 	/*Location*/[CTI_HEAVY],
 	/*UpgradeLevel*/5,
-	/*Price*/80000,
+	/*Price*/70000,
 	/*BuildTime*/30,
 	/*Distance*/1,
 	/*Camo*/["Desert"],
