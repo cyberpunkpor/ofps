@@ -8999,7 +8999,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/"",
 	/*ClassName*/"CUP_B_AH64D_DL_USA",
 	/*MenuName*/"",
