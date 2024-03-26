@@ -186,7 +186,7 @@ _u pushBack [
 	/*ClassName*/"OFPS_O_Ka52_RU",
 	/*MenuName*/"KA-52 Alligator - 12AT/40RKTS",
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/5,
+	/*UpgradeLevel*/4,
 	/*Price*/40000,
 	/*BuildTime*/30,
 	/*Distance*/1,
