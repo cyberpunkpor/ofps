@@ -33,7 +33,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_COSTS", _side], [
 	[1000,1500,2000,3000,10000], //--- Light
 	[2000,4000,5000,6000,8000], //--- Heavy
 	[1500,2500,6000,10000], //--- Naval
-	[1000,2000,3000,4000], //--- Air Rotary
+	[1000,2000,3000,5000], //--- Air Rotary
 	[1000,3000,6000,7000,8000], //--- Air Fixed
 	[1000,2000,3000,4000], //--- Air Ordinance
 	[1000,2000,3000,4000], //--- Land Ordinance
@@ -58,7 +58,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LEVELS", _side], [
 	5, //--- Light
 	5, //--- Heavy
 	4, //--- Naval
-	3, //--- Air Rotary
+	4, //--- Air Rotary
 	5, //--- Air Fixed
 	4, //--- Air Ordinance
 	4, //--- Land Ordinance
@@ -109,7 +109,7 @@ missionNamespace setVariable [Format["CTI_%1_UPGRADES_LINKS", _side], [
 	[[CTI_UPGRADE_BARRACKS,1],[CTI_UPGRADE_BARRACKS,2],[],[],[CTI_UPGRADE_NUKE, 1]], //--- Light
 	[[CTI_UPGRADE_BARRACKS,3],[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_LIGHT,3],[],[CTI_UPGRADE_NUKE, 1]], //--- Heavy
 	[[],[CTI_UPGRADE_LIGHT,2],[CTI_UPGRADE_NUKE,1],[CTI_UPGRADE_LIGHT,5]], //--- Naval
-	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3]], //--- Air Rotary
+	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_HEAVY,3],[CTI_UPGRADE_HEAVY, 4]], //--- Air Rotary
 	[[CTI_UPGRADE_HEAVY,1],[CTI_UPGRADE_HEAVY,2],[CTI_UPGRADE_AIR_ROTARY,3],[CTI_UPGRADE_HEAVY,4],[]], //--- Air Fixed
 	[[],[],[],[]], //--- Air Ordinance 
 	[[],[],[],[]], //--- Land Ordinance
@@ -137,7 +137,7 @@ if (CTI_DEV_MODE > 0) then {
 		[1, 1, 1, 1, 1], //--- Light
 		[1, 1, 1, 1, 1], //--- Heavy
 		[1, 1, 1, 1], //--- Naval
-		[1, 1, 1, 1], //--- Air Rotary
+		[1, 1, 1, 1, 1], //--- Air Rotary
 		[1, 1, 1, 1, 1], //--- Air Fixed
 		[1, 1, 1, 1], //--- Air Ordinance
 		[1, 1, 1, 1], //--- Land Ordinance
@@ -163,7 +163,7 @@ if (CTI_DEV_MODE > 0) then {
 		[60,120,160,240,320], 		//--- Light
 		[60,120,160,240,320],		//--- Heavy
 		[30,120,240,360], 			//--- Naval 
-		[60,120,160,240], 		    //--- Air Rotary
+		[60,120,160,360], 		    //--- Air Rotary
 		[60,120,160,240,320], 		//--- Air Fixed
 		[60,120,160,240], 			//--- Air Ordinance
 		[60,120,160,240], 			//--- Land Ordinance

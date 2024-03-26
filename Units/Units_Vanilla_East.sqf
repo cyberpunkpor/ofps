@@ -1753,7 +1753,7 @@ _u pushBack [
 	/*ClassName*/"O_Heli_Attack_02_dynamicLoadout_F",
 	/*MenuName*/"",
 	/*Location*/[CTI_AIR_ROTARY],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/4,
 	/*Price*/30000,
 	/*BuildTime*/30,
 	/*Distance*/1,

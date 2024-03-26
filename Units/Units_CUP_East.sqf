@@ -4073,7 +4073,7 @@ _u pushBack [
 	/*ClassName*/"CUP_O_Mi24_Mk4_CSAT_T",
 	/*MenuName*/"Mi24 SuperHind - 8AT(AI-TRGT)/80RKTS",
 	/*Location*/[CTI_AIR_ROTARY,[CTI_DEPOT_AIR,"default",3,"logistics",3]],
-	/*UpgradeLevel*/3,
+	/*UpgradeLevel*/4,
 	/*Price*/26000,
 	/*BuildTime*/30,
 	/*Distance*/1,
