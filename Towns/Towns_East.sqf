@@ -1096,10 +1096,11 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 
+
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-		//EAST_SOLDIER_AA = "OFPS_O_RU_Soldier_AA_M_EMR_V2";
+		EAST_SOLDIER_AA = "OFPS_O_RU_Soldier_AA_M_EMR_V2";
 		//--- Air
 		EAST_AIR_AA = "OFPS_SU25";
 	};

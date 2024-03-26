@@ -48,7 +48,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_M_EMR_V2",
 	/*MenuName*/["%1 (EMR)"],
@@ -67,7 +67,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_VDV_EMR",
 	/*MenuName*/["Airborne %1 (EMR)"],
@@ -86,7 +86,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_Ratnik_BeigeDigital",
 	/*MenuName*/["%1 (Desert)"],
@@ -105,7 +105,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_M_BeigeDigital",
 	/*MenuName*/["%1 (Desert)"],
@@ -124,7 +124,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_Ratnik_Winter",
 	/*MenuName*/["Ratnik %1 (Winter)"],
@@ -143,7 +143,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA_VDV",
 	/*MenuName*/["Airborne %1 (Flora)"],
@@ -162,7 +162,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/false,
+	/*Enabled*/true,
 	/*Name*/"",
 	/*ClassName*/"OFPS_O_RU_Soldier_AA",
 	/*MenuName*/["%1 (Flora)"],
@@ -178,6 +178,26 @@ _u pushBack [
 	/*Modifiers*/[],
 	/*Script*/"",
 	/*Picture*/""
+];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/"",
+	/*ClassName*/"OFPS_O_Ka52_RU",
+	/*MenuName*/"KA-52 Alligator - 12AT/40RKTS",
+	/*Location*/[CTI_AIR_ROTARY],
+	/*UpgradeLevel*/5,
+	/*Price*/40000,
+	/*BuildTime*/30,
+	/*Distance*/1,
+	/*Camo*/[],
+	/*Type*/["Attack Helicopter"],
+	/*Ammmo*/true,
+	/*MaxActive*/-1,
+	/*Modifiers*/[],
+	/*Script*/"",
+	/*Picture*/"",
+	/*Seats*/[["driver",-1,[],false,"$STR_POSITION_DRIVER"],["gunner",-1,[0],false,"$STR_POSITION_GUNNER"]]
 ];
 //--------------------------------------------------------------------------------------------------------------
 

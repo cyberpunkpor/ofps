@@ -1523,7 +1523,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-	//GUER_SOLDIER_AA = "OFPS_I_GUE_Soldier_AA2";
+	GUER_SOLDIER_AA = "OFPS_I_GUE_Soldier_AA2";
 	GUER_SOLDIER_EXP = "OFPS_I_GUE_Soldier_AA";
 	};
 	//--- HAFM UNITS
@@ -2143,7 +2143,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 7) then {
 
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
-		//GUER_SOLDIER_AA = "OFPS_I_TK_GUE_Soldier_AA";
+		GUER_SOLDIER_AA = "OFPS_I_TK_GUE_Soldier_AA";
 	};
 
 	//--- HAFM UNITS
