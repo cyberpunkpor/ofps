@@ -488,17 +488,7 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 if (CTI_CUP_VEHICLES_ADDON > 0) then {
 
 };
-//--- Load RHS Mod
-if (CTI_RHS_AFRF_ADDON > 0) then {
 
-};
-if (CTI_RHS_USAF_ADDON > 0) then {
-
-};
-//--- Load RHS Loadout Ammo
-if (CTI_RHS_AFRF_ADDON > 0) then {
-
-};
 //--- OFPS Units Mod
 if (CTI_OFPS_UNITS_ADDON > 0) then {
 	WEST_VEHICLE_APC2 = "OFPS_MARSHALL_SLAT_B";
@@ -554,44 +544,14 @@ if (CTI_OFPS_UNITS_ADDON > 0) then {
 		[_t_defenses, _t_composition]
 	}];
 };
-//--- OFPS RHS Mod
-if (CTI_OFPS_RHS_ADDON > 0) then {
 
-};
 //--- OFPS CUP Mod
 if (CTI_OFPS_CUP_ADDON > 0) then {
 
 };
-//--- SFP Mod
-if (CTI_SFP_ADDON > 0) then {
-	WEST_TOWN_COAST = "sfp_75mm_m57";
-};
-//--- OFPS SFP Mod
-if (CTI_OFPS_SFP_ADDON > 0) then {
 
-};
-//--- 2035 Russia
-if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-};
 //--- HAFM UNITS
 if (CTI_HAFM_ADDON > 0) then {
-
-};
-//--- HAFM SUBS UNITS
-if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-};
-//--- OFPS HAFM UNITS
-if (CTI_OFPS_HAFM_ADDON > 0) then {
-};
-
-//--- Unsung
-if (CTI_UNSUNG_ADDON > 0 ) then {
-
-};
-//--- IFA3
-if (CTI_IFA3_ADDON > 0 ) then {
 
 };
 
@@ -675,61 +635,21 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 0) then {
 	if (CTI_CUP_VEHICLES_ADDON > 0) then {
 		WEST_AIR_HELI2 = "CUP_B_MH60L_DAP_4x_USN";
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_NATO";
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
 	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
 
 	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
 
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-	};
 }; 
 
 
@@ -1061,17 +981,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 	}];
 
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		WEST_VEHICLE_APC2 = "OFPS_MARSHALL_T_SLAT_B";
@@ -1122,44 +1032,15 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 1) then {
 		[_t_defenses, _t_composition]
 	}];	
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		WEST_VEHICLE_ARMORED2 = "OFPS_B_M1A2C_TUSK_II_Woodland_US_Army";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
 
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
 		//WEST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_MEKO_TN";
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
 	};
 };
 
@@ -1316,219 +1197,19 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 2) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		WEST_SOLDIER_AA = "OFPS_B_US_Soldier_AA";
 		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_Desert_US_Army";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-	};
-};
-
-//--------------------------------------------------------------------------------------------
-//--- RHS US ARMY ARID
-//--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 3) then { 
-	//--Load Vanilla
-	if (CTI_VANILLA_ADDON > 0) then {
-		//-- Only add vanilla faction specific overrides as neeeded here
-	};
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
-
-	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load GLOBAL MOBILIZATION Mod
-	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
-
-	};	
-	//--- Load CONTACT Mod
-	if (CTI_CONTACT_ADDON > 0) then {
-
-	};
-	//--- PRAIRIE_FIRE UNITS
-	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
-
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-
-	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-		//--- Infantry
-		WEST_SOLDIER = "rhsusf_army_ocp_rifleman";
-		WEST_SOLDIER_AA = "rhsusf_army_ocp_aa";
-		WEST_SOLDIER_AR = "rhsusf_army_ocp_autorifleman";
-		WEST_SOLDIER_AT = "rhsusf_army_ocp_riflemanat";
-		WEST_SOLDIER_CREW = "rhsusf_army_ocp_combatcrewman";
-		WEST_SOLDIER_LAT = "rhsusf_army_ocp_riflemanat";
-		WEST_SOLDIER_HAT = "rhsusf_usmc_marpat_d_javelin";
-		WEST_SOLDIER_ENGINEER = "rhsusf_army_ocp_engineer";
-		WEST_SOLDIER_EXP = "rhsusf_army_ocp_explosives";
-		WEST_SOLDIER_GL = "rhsusf_army_ocp_grenadier";
-		WEST_SOLDIER_MEDIC = "rhsusf_army_ocp_medic";
-		WEST_SOLDIER_MG = "rhsusf_army_ocp_machinegunner";
-		WEST_SOLDIER_PILOT = "rhsusf_army_ocp_helipilot";
-		WEST_SOLDIER_SNIPER = "rhsusf_army_ocp_sniper";
-		WEST_SOLDIER_MARKSMAN = "rhsusf_army_ocp_sniper";
-		WEST_SOLDIER_TEAMLEADER = "rhsusf_army_ocp_teamleader";
-		WEST_SOLDIER_SQUADLEADER = "rhsusf_army_ocp_squadleader";
-		//--- Naval Units
-		//WEST_SOLDIER_NAVAL_INFANTRY = "B_diver_F";
-		//WEST_SOLDIER_NAVAL_SQUADLEADER = "B_diver_TL_F";
-		//--- Light Vehicles
-		WEST_VEHICLE_LIGHT1 = "rhsusf_m1025_d";
-		WEST_VEHICLE_LIGHT2 = "rhsusf_m1025_d_mk19";
-		WEST_VEHICLE_LIGHT3 = "rhsusf_rg33_m2_usmc_d";
-		WEST_VEHICLE_LIGHT4 = "rhsusf_M1232_M2_usarmy_d";
-		WEST_VEHICLE_LIGHT5 = "rhsusf_M1232_Mk19_usarmy_d";
-		WEST_VEHICLE_LIGHT6 = "rhsusf_M1117_D";
-		WEST_VEHICLE_LIGHT7 = "rhsusf_M1117_D";
-		//--- APCs
-		WEST_VEHICLE_APC1 = "rhs_m2a2";
-		WEST_VEHICLE_APC2 = "rhs_m2a2";
-		WEST_VEHICLE_APC3 = "rhs_m2a3_buskiii";
-		//--- Tanks
-		WEST_VEHICLE_ARMORED1 = "rhsusf_m1a1fep_d";	
-		WEST_VEHICLE_ARMORED2 = "rhsusf_m1a2sep1d_usarmy";
-		WEST_VEHICLE_ARMORED3 = "rhsusf_m1a2sep1tuskiid_usarmy";
-		//--- AA Vehicles
-		WEST_VEHICLE_AA1 = "rhs_m2a2";
-		WEST_VEHICLE_AA2 = "rhs_m6";
-		WEST_VEHICLE_AA3 = "rhs_m6";
-		//--- Air
-		WEST_AIR_HELI1 = "RHS_MELB_AH6M_M"; //pawnee
-		WEST_AIR_HELI2 = "RHS_UH60M"; //ghosthawk
-		WEST_AIR_HELI_ATTACK = "RHS_AH64D";
-		//WEST_AIR_AA = "";
-		WEST_AIR_CAS = "RHS_A10";
-		//--- Boats
-		//WEST_NAVAL_ASSAULT_BOAT1 = "B_Boat_Armed_01_minigun_F";
-		//WEST_NAVAL_ASSAULT_BOAT2 = "B_Boat_Armed_01_minigun_F";
-		//WEST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_MEKO_TN";
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	//--- OFPS Units Mod
-	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
-	//--- OFPS CUP Mod
-	if (CTI_OFPS_CUP_ADDON > 0) then {
-
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- HAFM UNITS
-	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };
@@ -1536,7 +1217,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 3) then {
 //--------------------------------------------------------------------------------------------
 //--- CUP - US Army (snow) TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then { 
+if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 3) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//-- Only add vanilla faction specific overrides as neeeded here
@@ -1686,23 +1367,8 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
 	};
 	//--- OFPS CUP Mod
@@ -1710,364 +1376,16 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then {
 		WEST_SOLDIER_AA = "OFPS_B_US_Soldier_AA";
 		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_NATO";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
 
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
 
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-	};
-};
-//--------------------------------------------------------------------------------------------
-//--- SFP- (snow) TOWN OCCUPATION
-//--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 5) then { 
-	//--Load Vanilla
-	if (CTI_VANILLA_ADDON > 0) then {
-		//-- Only add vanilla faction specific overrides as neeeded here
-	};
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
-
-	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load GLOBAL MOBILIZATION Mod
-	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
-
-	};	
-	//--- Load CONTACT Mod
-	if (CTI_CONTACT_ADDON > 0) then {
-
-	};
-	//--- PRAIRIE_FIRE UNITS
-	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
-
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-	
-	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	//--- OFPS Units Mod
-	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
-	//--- OFPS CUP Mod
-	if (CTI_OFPS_CUP_ADDON > 0) then {
-		//--- Light Vehicles
-		WEST_VEHICLE_LIGHT5 = "OFPS_S_M1126_HMG";
-		WEST_VEHICLE_LIGHT6 = "OFPS_S_M1126_GMG";
-		//--- APCs
-		WEST_VEHICLE_APC3 = "OFPS_S_M2";
-		//--- Tanks
-		WEST_VEHICLE_ARMORED1 = "OFPS_S_M1A1";
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-	//--- Infantry
-		WEST_SOLDIER = "sfp_m90s_rifleman_ak5";
-		WEST_SOLDIER_AA = "B-soldier_AA_F";
-		WEST_SOLDIER_AR = "sfp_m90s_automaticrifleman_ksp90";
-		WEST_SOLDIER_AT = "sfp_m90s_at_specialist_grg86";
-		WEST_SOLDIER_CREW = "sfp_m90s_crew";
-		WEST_SOLDIER_LAT = "sfp_m90s_at_specialist_pskott86";
-		WEST_SOLDIER_HAT = "sfp_m90s_at_specialist_grg86";
-		WEST_SOLDIER_ENGINEER = "sfp_m90s_engineer";
-		WEST_SOLDIER_EXP = "sfp_m90s_explosive_specialist";
-		WEST_SOLDIER_GL = "sfp_m90s_gr";
-		WEST_SOLDIER_MEDIC = "sfp_m90s_medic";
-		WEST_SOLDIER_MG = "afp_m90s_machinegunner_ksp58";
-		WEST_SOLDIER_PILOT = "sfp_m90s_pilot";
-		WEST_SOLDIER_SNIPER = "sfp_m90s_sniper";
-		WEST_SOLDIER_MARKSMAN = "sfp_m90s_sniper";
-		WEST_SOLDIER_TEAMLEADER = "sfp_m90s_teamleader";
-		WEST_SOLDIER_SQUADLEADER = "sfp_m90s_squadleader";
-		//--- Naval Units
-		//WEST_SOLDIER_NAVAL_INFANTRY = "B_diver_F";
-		//WEST_SOLDIER_NAVAL_SQUADLEADER = "B_diver_TL_F";
-		//--- Light Vehicles
-		WEST_VEHICLE_LIGHT1 = "sfp_81_tgb1111";
-		WEST_VEHICLE_LIGHT2 = "sfp_tgb1111_sog_rbs56";
-		WEST_VEHICLE_LIGHT3 = "OFPS_S_M1126_GMG";
-		WEST_VEHICLE_LIGHT4 = "OFPS_S_M1126_HMG";
-		//WEST_VEHICLE_LIGHT5 = "OFPS_S_M1126_HMG";
-		//WEST_VEHICLE_LIGHT6 = "OFPS_S_M1126_GMG";
-		WEST_VEHICLE_LIGHT7 = "CUP_B_LAV25M240_USMC";
-		//--- APCs
-		WEST_VEHICLE_APC1 = "sfp_lvkv90c_snow";
-		WEST_VEHICLE_APC2 = "sfp_lvkv90c_snow";
-		//WEST_VEHICLE_APC3 = "sfp_strf90c_snow";
-		//--- Tanks
-		//WEST_VEHICLE_ARMORED1 = "sfp_strv122_snow";	
-		WEST_VEHICLE_ARMORED2 = "CUP_B_Challenger2_Snow_BAF";
-		WEST_VEHICLE_ARMORED3 = "sfp_strv122_snow";
-		//--- AA Vehicles
-		WEST_VEHICLE_AA1 = "CUP_B_HMMWV_Avenger_USMC";
-		WEST_VEHICLE_AA2 = "B-B_APC_Tracked_01_AA_F";
-		WEST_VEHICLE_AA3 = "B-B_APC_Tracked_01_AA_F";
-		//--- Air
-		WEST_AIR_HELI1 = "CUP_B_UH1D_GER_KSK_Des";
-		//WEST_AIR_HELI2 = "";
-		//WEST_AIR_HELI_ATTACK = "";
-		WEST_AIR_AA = "CUP_B_F35B_AA_USMC";
-		WEST_AIR_CAS = "CUP_B_F35B_LGB_USMC";
-		//--- Boats
-		//WEST_NAVAL_ASSAULT_BOAT1 = "B_Boat_Armed_01_minigun_F";
-		//WEST_NAVAL_ASSAULT_BOAT2 = "B_Boat_Armed_01_minigun_F";
-		//WEST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_MEKO_TN";
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- HAFM UNITS
-	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-	};
-};
-//--------------------------------------------------------------------------------------------
-//--- IFA3 - Germany
-//--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 6) then { 
-	//--Load Vanilla
-	if (CTI_VANILLA_ADDON > 0) then {
-		//-- Only add vanilla faction specific overrides as neeeded here
-	};
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
-
-	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load GLOBAL MOBILIZATION Mod
-	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
-
-	};	
-	//--- Load CONTACT Mod
-	if (CTI_CONTACT_ADDON > 0) then {
-
-	};
-	//--- PRAIRIE_FIRE UNITS
-	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
-
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-	
-	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	//--- OFPS Units Mod
-	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
-	//--- OFPS CUP Mod
-	if (CTI_OFPS_CUP_ADDON > 0) then {
-
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- HAFM UNITS
-	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-	//--- Infantry
-		WEST_SOLDIER = "LIB_GER_Soldier2";
-		WEST_SOLDIER_AA = "LNRD_Luftwaffe_LAT_rifleman";
-		WEST_SOLDIER_AR = "LIB_GER_stggunner";
-		WEST_SOLDIER_AT = "LIB_GER_AT_soldier";
-		WEST_SOLDIER_CREW = "LIB_GER_tank_crew";
-		WEST_SOLDIER_LAT = "LIB_GER_LAT_rifleman";
-		WEST_SOLDIER_HAT = "LNRD_Luftwaffe_AT_soldier";
-		WEST_SOLDIER_ENGINEER = "LIB_GER_sapper";
-		WEST_SOLDIER_EXP = "LNRD_Luftwaffe_AT_granadier";
-		WEST_SOLDIER_GL = "LIB_GER_ober_granadier";
-		WEST_SOLDIER_MEDIC = "LIB_GER_medic";
-		WEST_SOLDIER_MG = "LIB_GER_mggunner2";
-		WEST_SOLDIER_PILOT = "LIB_GER_pilot";
-		WEST_SOLDIER_SNIPER = "LIB_GER_scout_sniper";
-		WEST_SOLDIER_MARKSMAN = "LRND_Luftwaffe_sniper";
-		WEST_SOLDIER_TEAMLEADER = "LIB_GER_unterofficer";
-		WEST_SOLDIER_SQUADLEADER = "LIB_GER_ober_lieutenant";
-	//--- Naval Units
-		WEST_SOLDIER_NAVAL_INFANTRY = "LIB_GER_ober_rifleman";
-		WEST_SOLDIER_NAVAL_SQUADLEADER = "LRND_Luftwaffe_ober_rifleman";
-	//--- Light Vehicles
-		WEST_VEHICLE_LIGHT1 = "LIB_Kfz1_MG42";
-		WEST_VEHICLE_LIGHT2 = "LIB_SdKfz251_FFV";
-		WEST_VEHICLE_LIGHT3 = "LIB_SdKfz251";
-		WEST_VEHICLE_LIGHT4 = "LIB_OpelBlitz_Open_Y_Camo";
-		WEST_VEHICLE_LIGHT5 = "LIB_SdKfz_7";
-		WEST_VEHICLE_LIGHT6 = "LIB_Kfz1_MG42_camo";
-		WEST_VEHICLE_LIGHT7 = "LIB_Kfz1_MG42_sernyt";
-	//--- APCs
-		WEST_VEHICLE_APC1 = "LIB_SdKfz222_gelbbraun";
-		WEST_VEHICLE_APC2 = "LIB_SdKfz234_2";
-		WEST_VEHICLE_APC3 = "LIB_SdKfz234_4";
-	//--- Tanks
-		WEST_VEHICLE_ARMORED1 = "LIB_DAK_PzKpfwIV_H";	
-		WEST_VEHICLE_ARMORED2 = "LIB_StuG_III_G";
-		WEST_VEHICLE_ARMORED3 = "LIB_PzKpfwV";
-	//--- AA Vehicles
-		WEST_VEHICLE_AA1 = "LIB_FlakPanzerIV_Wirbelwind";
-		WEST_VEHICLE_AA2 = "LIB_SdKfz_7_AA";
-		//WEST_VEHICLE_AA3 = "B_T_APC_Tracked_01_AA_F";
-	//--- Air
-		//WEST_AIR_HELI1 = "B_Heli_Light_01_armed_F"; //pawnee
-		//WEST_AIR_HELI2 = "B_Heli_Transport_01_F"; //ghosthawk
-		//WEST_AIR_HELI_ATTACK = "B_Heli_Attack_01_F";
-		//WEST_AIR_AA = "";
-		//WEST_AIR_CAS = "B_Plane_CAS_01_F";
-	//--- Boats
-		WEST_NAVAL_ASSAULT_BOAT1 = "LIB_UK_LCI";
-		WEST_NAVAL_ASSAULT_BOAT2 = "LIB_LCM3_Armed";
 	};
 };
 //--------------------------------------------------------------------------------------------
 //--- Livonia TOWN OCCUPATION - NATO (woodland)
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then { 
+if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 4) then { 
 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
@@ -2388,17 +1706,6 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then {
 	}];
 
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		WEST_VEHICLE_APC2 = "OFPS_MARSHALL_T_SLAT_B";
@@ -2449,50 +1756,21 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 7) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_NATO";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
 
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
 		//WEST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_MEKO_TN";
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
 	};
 };
 //--------------------------------------------------------------------------------------------
 //--- CUP - USMC (Woodland) TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 8) then { 
+if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 5) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//-- Only add vanilla faction specific overrides as neeeded here
@@ -2619,17 +1897,7 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 8) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 	WEST_TOWN_M134_COMP = [{
@@ -2679,45 +1947,15 @@ if (CTI_TOWNS_OCCUPATION_WEST isEqualTo 8) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		WEST_SOLDIER_AA = "OFPS_B_USMC_Soldier_AA";
 		WEST_VEHICLE_ARMORED3 = "OFPS_B_M1A2C_TUSK_II_Woodland_US_Army";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
 
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
 
 	};
 };

@@ -226,57 +226,7 @@ switch (CTI_FACTION_EAST) do {
 			//,	["O_Heli_Light_02_unarmed_F", []]
 		]];
 	};
-	case 3: { //Russia RHS (Arid)
-		//Set MHQ
-		missionNamespace setVariable [format["CTI_%1_HQ", _side], "O_APC_Wheeled_02_rcws_F"];
-		//Set Infantry
-		missionNamespace setVariable [format["CTI_%1_Commander", _side], "rhs_msv_emr_officer"];
-		missionNamespace setVariable [format["CTI_%1_Worker", _side], "rhs_msv_emr_rifleman"];
-		missionNamespace setVariable [format["CTI_%1_Diver", _side], "rhs_msv_emr_rifleman"];
-		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "rhs_msv_emr_rifleman"];
-		missionNamespace setVariable [format["CTI_%1_Soldier_low", _side], "rhs_msv_emr_rifleman"];
-		missionNamespace setVariable [format["CTI_%1_Crew", _side], "rhs_msv_emr_combatcrew"];
-		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "rhs_msv_emr_combatcrew"];
-		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "rhs_pilot"];
-		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "rhs_pilot"];
-		missionNamespace setVariable [format["CTI_%1_Static", _side], "rhs_msv_emr_rifleman"];
-		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "O_UAV_AI"];
-		// Set crewmen backpack (To hold a repair kit)
-		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_olive_F"];
-		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
-		missionNamespace setVariable ["CTI_AI_EAST_DEFAULT_GEAR", [
-		[["hgun_pdw2000_f",["","","optic_aco",""],["30rnd_9x21_mag"]],["rhs_weap_rpg26",["","","",""],[]],["hgun_rook40_f",["","","",""],["16rnd_9x21_mag"]]],[["rhs_uniform_flora_patchless",["30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag"]],["",[]],["b_assaultpack_tna_f",["firstaidkit","firstaidkit","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","30rnd_9x21_mag","rhs_mag_rgo","rhs_mag_rgo","rhs_mag_rgo","rhs_mag_rgo"]]],["rhs_fieldcap_helm_digi",""],[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
-		//Set starting vehicles
-		// replace O_Truck_03_medical_F with rhs_gaz66_ap2_msv when Issue #346 is resolved
-		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
-			["O_Truck_03_medical_F", [
-				["rhs_weap_rpg26", 10], 
-				["Toolkit", 1],
-				["acc_flashlight", 10],
-				["30Rnd_9x21_Mag", 20]
-			]],
-			["RHS_UAZ_MSV_01", [
-				["rhs_weap_rpg26", 10], 
-				["Toolkit", 1],
-				["acc_flashlight", 10],
-				["30Rnd_9x21_Mag", 20]
-			]],
-			["rhs_tigr_sts_msv", [
-				["rhs_weap_rpg26", 10], 
-				["Toolkit", 1],
-				["acc_flashlight", 10],
-				["30Rnd_9x21_Mag", 20]
-			]],
-			["rhs_btr60_msv", [
-				["rhs_weap_rpg26", 10], 
-				["Toolkit", 1],
-				["acc_flashlight", 10],
-				["30Rnd_9x21_Mag", 20]
-			]]
-			//,	["O_Heli_Light_02_unarmed_F", []]
-		]];
-	};
-	case 4: { //Russia CUP (Winter)
+	case 3: { //Russia CUP (Winter)
 	//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BTR90_HQ_RU"];
 		//Set Infantry
@@ -348,16 +298,7 @@ switch (CTI_FACTION_EAST) do {
 		]];
 
 	};
-	case 5: { //Unsung
-
-	};
-	case 6: { //--- 2035 Russians (snow)
-
-	};
-	case 7: { //IFA3
-
-	};
-	case 8: { //Spetsnaz Livonia Contact (woodland)
+	case 4: { //Spetsnaz Livonia Contact (woodland)
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "O_T_APC_Wheeled_02_rcws_ghex_F"];
 		//Set Infantry
@@ -422,7 +363,7 @@ switch (CTI_FACTION_EAST) do {
 			]]
 		]];
 	};
-	case 9: { //Russia CUP (Arid)
+	case 5: { //Russia CUP (Arid)
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_O_BTR90_HQ_RU"];
 		//Set Infantry

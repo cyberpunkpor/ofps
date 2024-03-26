@@ -410,17 +410,6 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 if (CTI_CUP_VEHICLES_ADDON > 0) then {
 
 };
-//--- Load RHS Mod
-if (CTI_RHS_AFRF_ADDON > 0) then {
-
-};
-if (CTI_RHS_USAF_ADDON > 0) then {
-
-};
-//--- Load RHS Loadout Ammo
-if (CTI_RHS_AFRF_ADDON > 0) then {
-
-};
 //--- OFPS Units Mod
 if (CTI_OFPS_UNITS_ADDON > 0) then {
 	EAST_VEHICLE_APC1 = "OFPS_MARID_SLAT_O";
@@ -457,48 +446,15 @@ if (CTI_OFPS_UNITS_ADDON > 0) then {
 		[_t_defenses, _t_composition]
 	}];	
 };
-//--- OFPS RHS Mod
-if (CTI_OFPS_RHS_ADDON > 0) then {
-
-};
 //--- OFPS CUP Mod
 if (CTI_OFPS_CUP_ADDON > 0) then {
 
 };
-//--- SFP Mod
-if (CTI_SFP_ADDON > 0) then {
-	EAST_TOWN_COAST = "sfp_75mm_m57";
-};
-//--- OFPS SFP Mod
-if (CTI_OFPS_SFP_ADDON > 0) then {
-
-};
-//--- 2035 Russia
-if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-};
 //--- HAFM UNITS
 if (CTI_HAFM_ADDON > 0) then {
-	//EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
-};
-//--- HAFM SUBS UNITS
-if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-};
-//--- OFPS HAFM UNITS
-if (CTI_OFPS_HAFM_ADDON > 0) then {
 	EAST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
 	EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
 };
-//--- Unsung
-if (CTI_UNSUNG_ADDON > 0 ) then {
-
-};
-//--- IFA3
-if (CTI_IFA3_ADDON > 0 ) then {
-
-};
-
 //--------------------------------------------------------------------------------------------
 //--- VANILLA TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
@@ -554,48 +510,13 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 0) then {
 		//EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_O_ZUBR_CSAT_T";
 
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 	
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
 	};
 };
 
@@ -957,17 +878,6 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		EAST_VEHICLE_APC1 = "OFPS_MARID_T_SLAT_O";
@@ -998,33 +908,9 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 1) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 	
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};	
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
 	};
 };
 
@@ -1207,23 +1093,8 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
 	};
 	//--- OFPS CUP Mod
@@ -1232,180 +1103,11 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 2) then {
 		//--- Air
 		EAST_AIR_AA = "OFPS_SU25";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-	};
 };
-
-//--------------------------------------------------------------------------------------------
-//--- RHS TOWN OCCUPATION
-//--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 3) then { 
-	//--Load Vanilla
-	if (CTI_VANILLA_ADDON > 0) then {
-
-	};
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
-
-	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load GLOBAL MOBILIZATION Mod
-	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
-
-	};
-	//--- Load CONTACT Mod
-	if (CTI_CONTACT_ADDON > 0) then {
-
-	};
-	//--- PRAIRIE_FIRE UNITS
-	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
-	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-		//--- Infantry
-		EAST_SOLDIER = "rhs_msv_emr_rifleman";
-		EAST_SOLDIER_AA = "rhs_msv_emr_aa";
-		EAST_SOLDIER_AR = "rhs_msv_emr_arifleman";
-		EAST_SOLDIER_AT = "rhs_msv_emr_at";
-		EAST_SOLDIER_CREW = "rhs_msv_emr_combatcrew";
-		EAST_SOLDIER_LAT = "rhs_msv_emr_LAT";
-		EAST_SOLDIER_HAT = "rhs_msv_emr_at";
-		EAST_SOLDIER_ENGINEER = "rhs_msv_emr_engineer";
-		EAST_SOLDIER_EXP = "rhs_msv_emr_engineer";
-		EAST_SOLDIER_GL = "rhs_msv_emr_grenadier";
-		EAST_SOLDIER_MEDIC = "rhs_msv_emr_medic";
-		EAST_SOLDIER_MG = "rhs_msv_emr_arifleman";
-		EAST_SOLDIER_PILOT = "rhs_pilot";
-		EAST_SOLDIER_SNIPER = "rhs_msv_emr_marksman";
-		EAST_SOLDIER_MARKSMAN = "rhs_msv_emr_marksman";
-		EAST_SOLDIER_TEAMLEADER = "rhs_msv_emr_sergeant";
-		EAST_SOLDIER_SQUADLEADER = "rhs_msv_emr_officer_armored";
-		//--- Naval Infantry
-		//EAST_SOLDIER_NAVAL_INFANTRY = "O_diver_F";
-		//EAST_SOLDIER_NAVAL_SQUADLEADER = "O_diver_TL_F";
-		//--- Light Vehicles
-		EAST_VEHICLE_LIGHT1 = "rhs_tigr_m_msv";
-		EAST_VEHICLE_LIGHT2 = "rhs_tigr_sts_msv";
-		EAST_VEHICLE_LIGHT3 = "rhsgref_BRDM2_msv";
-		EAST_VEHICLE_LIGHT4 = "rhs_btr80_msv";
-		EAST_VEHICLE_LIGHT5 = "rhs_btr80_msv";
-		EAST_VEHICLE_LIGHT6 = "rhsgref_BRDM2_ATGM_msv";
-		EAST_VEHICLE_LIGHT7 = "rhs_btr80a_msv";
-		//--- APCs
-		EAST_VEHICLE_APC1 = "rhs_bmp1_msv";
-		EAST_VEHICLE_APC2 = "rhs_bmp2d_msv";
-		EAST_VEHICLE_APC3 = "rhs_bmp3mera_msv";
-		//--- Tanks
-		EAST_VEHICLE_ARMORED1 = "rhs_t72ba_tv";	
-		EAST_VEHICLE_ARMORED2 = "rhs_t80bv";
-		EAST_VEHICLE_ARMORED3 = "rhs_t90a_tv";
-		//--- AA Vehicles
-		EAST_VEHICLE_AA1 = "rhs_gaz66_zu23_msv";
-		EAST_VEHICLE_AA2 = "rhs_zsu234_aa";
-		EAST_VEHICLE_AA3 = "rhs_zsu234_aa";
-		//--- Air
-		EAST_AIR_HELI1 = "RHS_Mi8mt_vvsc";
-		EAST_AIR_HELI2 = "RHS_Mi8MTV3_FAB_vvsc";
-		EAST_AIR_HELI_ATTACK = "rhs_mi28n_vvsc";
-		EAST_AIR_AA = "RHS_T50_vvs_052";
-		EAST_AIR_CAS = "RHS_Su25SM_vvs";
-		//--- Boats
-		//EAST_NAVAL_ASSAULT_BOAT1 = "O_Boat_Armed_01_hmg_F";
-		//EAST_NAVAL_ASSAULT_BOAT2 = "O_Boat_Armed_01_hmg_F";
-		//EAST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
-		//EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	//--- OFPS Units Mod
-	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
-	//--- OFPS CUP Mod
-	if (CTI_OFPS_CUP_ADDON > 0) then {
-	
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-	};
-};
-
 //--------------------------------------------------------------------------------------------
 //--- CUP - Russians (snow) TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then { 
+if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 3) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 
@@ -1558,511 +1260,20 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then {
 	}];
 
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 	//EAST_SOLDIER_AA = "OFPS_O_RU_Soldier_AA_Ratnik_Winter";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-	};
 };
-//--------------------------------------------------------------------------------------------
-//--- 2035 Russians (snow) TOWN OCCUPATION
-//--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 5) then { 
-	//--Load Vanilla
-	if (CTI_VANILLA_ADDON > 0) then {
-
-	};
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
-
-	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load GLOBAL MOBILIZATION Mod
-	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
-
-	};
-	//--- Load CONTACT Mod
-	if (CTI_CONTACT_ADDON > 0) then {
-
-	};
-	//--- PRAIRIE_FIRE UNITS
-	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-		
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
-	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	//--- OFPS Units Mod
-	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
-	//--- OFPS CUP Mod
-	if (CTI_OFPS_CUP_ADDON > 0) then {
-
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-		//--- Infantry
-		EAST_SOLDIER = "min_rf_soldier_winter";
-		EAST_SOLDIER_AA = "min_rf_soldier_winter_AA";
-		EAST_SOLDIER_AR = "min_rf_soldier_winter_lite";
-		EAST_SOLDIER_AT = "min_rf_soldier_winter_AT";
-		EAST_SOLDIER_CREW = "min_rf_crew_winter";
-		EAST_SOLDIER_LAT = "min_rf_crew_winter_LAT";
-		EAST_SOLDIER_HAT = "min_rf_soldier_winter_AT";
-		EAST_SOLDIER_ENGINEER = "min_rf_engineer_winter";
-		EAST_SOLDIER_EXP = "min_rf_soldier_winter_exp";
-		EAST_SOLDIER_GL = "min_rf_soldier_winter_GL";
-		EAST_SOLDIER_MEDIC = "min_rf_medic_winter";
-		EAST_SOLDIER_MG = "min_rf_soldier_winter_AR";
-		EAST_SOLDIER_PILOT = "min_rf_pilot";
-		EAST_SOLDIER_SNIPER = "min_rf_sniper_winter";
-		EAST_SOLDIER_MARKSMAN = "min_rf_sniper_winter";
-		EAST_SOLDIER_TEAMLEADER = "min_rf_soldier_winter_TL";
-		EAST_SOLDIER_SQUADLEADER = "min_rf_soldier_winter_SL";
-		//--- Naval Infantry
-		//EAST_SOLDIER_NAVAL_INFANTRY = "O_diver_F";
-		//EAST_SOLDIER_NAVAL_SQUADLEADER = "O_diver_TL_F";
-		//--- Light Vehicles
-		EAST_VEHICLE_LIGHT1 = "min_rf_gaz_2330_HMG_winter";
-		EAST_VEHICLE_LIGHT2 = "min_rf_gaz_2330_HMG_winter";
-		EAST_VEHICLE_LIGHT3 = "min_rf_gaz_2330_HMG_winter";
-		EAST_VEHICLE_LIGHT4 = "CUP_0_BTR60_Winter_RU";
-		EAST_VEHICLE_LIGHT5 = "CUP_O_GAZ_Vodnik_BPPU_RU";
-		EAST_VEHICLE_LIGHT6 = "CUP_O_BTR90_RU";
-		EAST_VEHICLE_LIGHT7 = "CUP_O_BTR90_RU";
-		//--- APCs
-		EAST_VEHICLE_APC1 = "min_rf_t_15_winter";
-		EAST_VEHICLE_APC2 = "min_rf_t_15_winter";
-		//EAST_VEHICLE_APC3 = "min_rf_t_15_winter";
-		//--- Tanks
-		EAST_VEHICLE_ARMORED1 = "min_rf_t_14_winter";	
-		EAST_VEHICLE_ARMORED2 = "min_rf_t_14_winter";
-		EAST_VEHICLE_ARMORED3 = "min_rf_t_14_winter";
-		//--- AA Vehicles
-		EAST_VEHICLE_AA1 = "min_rf_sa_22_winter";
-		EAST_VEHICLE_AA2 = "min_rf_sa_22_winter";
-		EAST_VEHICLE_AA3 = "min_rf_sa_22_winter";
-		//--- Air
-		EAST_AIR_HELI1 = "";
-		//EAST_AIR_HELI2 = "";
-		//EAST_AIR_HELI_ATTACK = "";
-		//EAST_AIR_AA = "OFPS_SU25";
-		EAST_AIR_CAS = "";
-		//--- Boats
-		//EAST_NAVAL_ASSAULT_BOAT1 = "O_Boat_Armed_01_hmg_F";
-		//EAST_NAVAL_ASSAULT_BOAT2 = "O_Boat_Armed_01_hmg_F";
-		//EAST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
-		//EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-	};
-};
-//--------------------------------------------------------------------------------------------
-//--- 2035 Russians TOWN OCCUPATION
-//--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 6) then { 
-	//--Load Vanilla
-	if (CTI_VANILLA_ADDON > 0) then {
-
-	};
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
-
-	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load GLOBAL MOBILIZATION Mod
-	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
-
-	};
-	//--- Load CONTACT Mod
-	if (CTI_CONTACT_ADDON > 0) then {
-
-	};
-	//--- PRAIRIE_FIRE UNITS
-	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-		
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
-	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	//--- OFPS Units Mod
-	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
-	//--- OFPS CUP Mod
-	if (CTI_OFPS_CUP_ADDON > 0) then {
-		//--- APCs
-		EAST_VEHICLE_APC3 = "OFPS_S_BMP3";
-		//--- Air
-		EAST_AIR_AA = "OFPS_SU25";
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-		//--- Infantry
-		EAST_SOLDIER = "min_rf_soldier_";
-		EAST_SOLDIER_AA = "min_rf_soldier_AA";
-		EAST_SOLDIER_AR = "min_rf_soldier_lite";
-		EAST_SOLDIER_AT = "min_rf_soldier_AT";
-		EAST_SOLDIER_CREW = "min_rf_crew";
-		EAST_SOLDIER_LAT = "min_rf_crew_LAT";
-		EAST_SOLDIER_HAT = "min_rf_soldier_AT";
-		EAST_SOLDIER_ENGINEER = "min_rf_engineer";
-		EAST_SOLDIER_EXP = "min_rf_soldier_exp";
-		EAST_SOLDIER_GL = "min_rf_soldier_GL";
-		EAST_SOLDIER_MEDIC = "min_rf_medic";
-		EAST_SOLDIER_MG = "min_rf_soldier_AR";
-		EAST_SOLDIER_PILOT = "min_rf_pilot";
-		EAST_SOLDIER_SNIPER = "min_rf_sniper";
-		EAST_SOLDIER_MARKSMAN = "min_rf_sniper";
-		EAST_SOLDIER_TEAMLEADER = "min_rf_soldier_TL";
-		EAST_SOLDIER_SQUADLEADER = "min_rf_soldier_SL";
-		//--- Naval Infantry
-		//EAST_SOLDIER_NAVAL_INFANTRY = "O_diver_F";
-		//EAST_SOLDIER_NAVAL_SQUADLEADER = "O_diver_TL_F";
-		//--- Light Vehicles
-		EAST_VEHICLE_LIGHT1 = "min_rf_gaz_2330_HMG";
-		EAST_VEHICLE_LIGHT2 = "min_rf_gaz_2330_HMG";
-		EAST_VEHICLE_LIGHT3 = "min_rf_gaz_2330_HMG";
-		EAST_VEHICLE_LIGHT4 = "CUP_0_BTR60_RU";
-		EAST_VEHICLE_LIGHT5 = "CUP_O_GAZ_Vodnik_BPPU_RU";
-		EAST_VEHICLE_LIGHT6 = "CUP_O_BTR90_RU";
-		EAST_VEHICLE_LIGHT7 = "CUP_O_BTR90_RU";
-		//--- APCs
-		EAST_VEHICLE_APC1 = "min_rf_t_15";
-		EAST_VEHICLE_APC2 = "min_rf_t_15";
-		//EAST_VEHICLE_APC3 = "min_rf_t_15";
-		//--- Tanks
-		EAST_VEHICLE_ARMORED1 = "min_rf_t_14";	
-		EAST_VEHICLE_ARMORED2 = "min_rf_t_14";
-		EAST_VEHICLE_ARMORED3 = "min_rf_t_14";
-		//--- AA Vehicles
-		EAST_VEHICLE_AA1 = "min_rf_sa_22";
-		EAST_VEHICLE_AA2 = "min_rf_sa_22";
-		EAST_VEHICLE_AA3 = "min_rf_sa_22";
-		//--- Air
-		EAST_AIR_HELI1 = "";
-		//EAST_AIR_HELI2 = "";
-		//EAST_AIR_HELI_ATTACK = "";
-		//EAST_AIR_AA = "OFPS_SU25";
-		EAST_AIR_CAS = "";
-		//--- Boats
-		//EAST_NAVAL_ASSAULT_BOAT1 = "O_Boat_Armed_01_hmg_F";
-		//EAST_NAVAL_ASSAULT_BOAT2 = "O_Boat_Armed_01_hmg_F";
-		//EAST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
-		//EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-	};
-};
-//--------------------------------------------------------------------------------------------
-//--- IFA3 - USSR
-//--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 7) then { 
-	//--Load Vanilla
-	if (CTI_VANILLA_ADDON > 0) then {
-		//-- Only add vanilla faction specific overrides as neeeded here
-	};
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
-
-	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load GLOBAL MOBILIZATION Mod
-	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
-
-	};	
-	//--- Load CONTACT Mod
-	if (CTI_CONTACT_ADDON > 0) then {
-
-	};
-	//--- PRAIRIE_FIRE UNITS
-	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
-
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-	
-	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	//--- OFPS Units Mod
-	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
-	//--- OFPS CUP Mod
-	if (CTI_OFPS_CUP_ADDON > 0) then {
-
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- HAFM UNITS
-	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-				//--- Infantry
-		EAST_SOLDIER = "LIB_SOV_rifleman";
-		EAST_SOLDIER_AA = "LIB_SOV_scout_atrifle_gunner";
-		EAST_SOLDIER_AR = "LIB_SOV_mgunner";
-		EAST_SOLDIER_AT = "LIB_SOV_AT_soldier";
-		EAST_SOLDIER_CREW = "LIB_SOV_tank_crew";
-		EAST_SOLDIER_LAT = "LIB_SOV_LAT_soldier";
-		EAST_SOLDIER_HAT = "LIB_SOV_AT_M1A1_soldier";
-		EAST_SOLDIER_ENGINEER = "LIB_SOV_sapper";
-		EAST_SOLDIER_EXP = "LIB_SOV_AT_granadier";
-		EAST_SOLDIER_GL = "LIB_SOV_granadier";
-		EAST_SOLDIER_MEDIC = "LIB_SOV_medic";
-		EAST_SOLDIER_MG = "LIB_SOV_assault_mgunner";
-		EAST_SOLDIER_PILOT = "LIB_SOV_pilot";
-		EAST_SOLDIER_SNIPER = "LIB_SOV_scout_sniper";
-		EAST_SOLDIER_MARKSMAN = "LIB_SOV_scout_rifleman";
-		EAST_SOLDIER_TEAMLEADER = "LIB_SOV_p_officer";
-		EAST_SOLDIER_SQUADLEADER = "LIB_SOV_captain";
-		//--- Naval Infantry
-		//EAST_SOLDIER_NAVAL_INFANTRY = "O_diver_F";
-		//EAST_SOLDIER_NAVAL_SQUADLEADER = "O_diver_TL_F";
-		//--- Light Vehicles
-		EAST_VEHICLE_LIGHT1 = "LIB_SOV_M3_Halftrack";
-		EAST_VEHICLE_LIGHT2 = "LIB_Scout_M3";
-		EAST_VEHICLE_LIGHT3 = "LIB_Scout_M3_FFV";
-		EAST_VEHICLE_LIGHT4 = "LIB_Zis5v";
-		EAST_VEHICLE_LIGHT5 = "LIB_US6_Open";
-		EAST_VEHICLE_LIGHT6 = "LIB_SdKfz251_captured_FFV";
-		EAST_VEHICLE_LIGHT7 = "LIB_SdKfz251_captured";
-		//--- APCs
-		EAST_VEHICLE_APC1 = "LIB_SU85";
-		EAST_VEHICLE_APC2 = "LIB_SdKfz251_captured_FFV";
-		//EAST_VEHICLE_APC3 = "min_rf_t_15";
-		//--- Tanks
-		EAST_VEHICLE_ARMORED1 = "LIB_T34_76";	
-		EAST_VEHICLE_ARMORED2 = "LIB_T34_85";
-		EAST_VEHICLE_ARMORED3 = "LIB_JS2_43";
-		//--- AA Vehicles
-		EAST_VEHICLE_AA1 = "LIB_Zis5v_61K";
-		EAST_VEHICLE_AA2 = "LIB_Zis5v_61K";
-		EAST_VEHICLE_AA3 = "LIB_Zis5v_61K";
-		//--- Air
-		//EAST_AIR_HELI1 = "";
-		//EAST_AIR_HELI2 = "";
-		//EAST_AIR_HELI_ATTACK = "";
-		//EAST_AIR_AA = "OFPS_SU25";
-		//EAST_AIR_CAS = "";
-		//--- Boats
-		//EAST_NAVAL_ASSAULT_BOAT1 = "O_Boat_Armed_01_hmg_F";
-		//EAST_NAVAL_ASSAULT_BOAT2 = "O_Boat_Armed_01_hmg_F";
-		//EAST_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
-		//EAST_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_O";
-	};
-};
-
 //--------------------------------------------------------------------------------------------
 //--- Livonia TOWN OCCUPATION - Spetsnaz forces
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then { 
+if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 4) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//-- Only add vanilla faction specific overrides as neeeded here
@@ -2381,17 +1592,7 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		EAST_VEHICLE_APC1 = "OFPS_MARID_T_SLAT_O";
@@ -2422,40 +1623,17 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 8) then {
 		[_t_defenses, _t_composition]
 	}];	
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 	
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};	
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
 	};
 };
 
 //--------------------------------------------------------------------------------------------
 //--- CUP - Russians (Arid) TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 9) then { 
+if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 5) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 
@@ -2607,23 +1785,8 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 9) then {
 		[_t_defenses, _t_composition]
 	}];	
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
 	};
 	//--- OFPS CUP Mod
@@ -2631,26 +1794,6 @@ if (CTI_TOWNS_OCCUPATION_EAST isEqualTo 9) then {
 		//EAST_SOLDIER_AA = "OFPS_O_RU_Soldier_AA_M_BeigeDigital";
 		//--- Air
 		EAST_AIR_AA = "OFPS_SU25";
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
 	};
 };
 

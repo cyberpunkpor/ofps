@@ -358,26 +358,6 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*Factories*/[]
 		];
 	};
-	case 2: {//RHS
-		_u pushback [ 
-			/*headers*/[CTI_RADAR, "Air Radar", "Air Radar"],
-			/*classes*/["rhs_p37", "Land_TTowerBig_1_ruins_F"],
-			/*prices*/1500,
-			/*times*/120,
-			/*MaxCount*/1,
-			/*placements*/[180, 30, false],
-			/*specials*/[["DMG_Reduce", 5]],
-			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-			/*respawnBPos*/-1,
-			/*Factories*/[]
-		];
-	};
-	case 3: {//Cold War
-	};
-	case 4: {//Unsung
-	};	
-	case 5: {//IFA3
-	};
 };
 
 switch (CTI_FACTION_DEFAULT_BASE) do {
@@ -408,26 +388,6 @@ switch (CTI_FACTION_DEFAULT_BASE) do {
 			/*respawnBPos*/-1,
 			/*Factories*/[]
 		];
-	};
-	case 2: {//RHS
-		_u pushback [ 
-			/*headers*/[CTI_RADAR_ART, "Artillery Radar", "Artillery Radar"],
-			/*classes*/["rhs_prv13", "Land_TTowerBig_2_ruins_F"],
-			/*prices*/1500,
-			/*times*/120,
-			/*MaxCount*/1,
-			/*placements*/[180, 30, false],
-			/*specials*/[["DMG_Reduce", 5]],
-			/*conditions*/(compile format["(%1) call CTI_CO_FNC_IsHQDeployed", _side]),
-			/*respawnBPos*/-1,
-			/*Factories*/[]
-		];
-	};	
-	case 3: {//Cold War
-	};
-	case 4: {//Unsung
-	};	
-	case 5: {//IFA3
 	};
 };
 

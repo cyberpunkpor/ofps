@@ -413,17 +413,7 @@ if (CTI_CUP_WEAPONS_ADDON > 0) then {
 		[_t_defenses, _t_composition]
 	}];
 };
-//--- Load RHS Units
-if (CTI_RHS_AFRF_ADDON > 0) then {
 
-};
-if (CTI_RHS_USAF_ADDON > 0) then {
-
-};
-//--- Load RHS Loadout Ammo
-if (CTI_RHS_AFRF_ADDON > 0) then {
-
-};
 //--- OFPS Units
 if (CTI_OFPS_UNITS_ADDON > 0) then {
 	GUER_TOWN_AT = "OFPS_F_TITAN_AT_360_INDI";
@@ -478,48 +468,18 @@ if (CTI_OFPS_UNITS_ADDON > 0) then {
 		[_t_defenses, _t_composition]
 	}];	
 };
-//--- OFPS RHS Units
-if (CTI_OFPS_RHS_ADDON > 0) then {
 
-};
 //--- OFPS CUP Units
 if (CTI_OFPS_CUP_ADDON > 0) then {
 	GUER_TOWN_D30 = "OFPS_I_D30_GND";
 };
-//--- SFP Units
-if (CTI_SFP_ADDON > 0) then {
-	GUER_TOWN_COAST = "sfp_75mm_m57";	
-};
-//--- OFPS SFP Units
-if (CTI_OFPS_SFP_ADDON > 0) then {
 
-};
-//--- 2035 Russia
-if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-};
 //--- HAFM UNITS
 if (CTI_HAFM_ADDON > 0) then {
-	//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_BUYAN_I";
-};
-//--- HAFM SUBS UNITS
-if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-};
-//--- OFPS HAFM UNITS
-if (CTI_OFPS_HAFM_ADDON > 0) then {
 	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
 	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-};
-//--- Unsung
-if (CTI_UNSUNG_ADDON > 0 ) then {
-
-};
-//--- IFA3
-if (CTI_IFA3_ADDON > 0 ) then {
-
 };
 
 //--------------------------------------------------------------------------------------------
@@ -694,67 +654,23 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 0) then {
 		//Ships
 		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_I_Frigate_AAF";
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_VEHICLE_APC2 = "OFPS_MORA_SLAT_I";
 		GUER_VEHICLE_APC3 = "OFPS_GORGON_SLAT_I";
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		GUER_VEHICLE_ARMORED2 = "OFPS_B_M1A2C_TUSK_II_LDF";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-	//GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_Russen_IND";
-	//GUER_NAVAL_SUBMARINE = "I_Boat_Armed_01_minigun_F";
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
 
@@ -879,66 +795,23 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 1) then {
 		//Ships
 		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "CUP_I_Frigate_AAF";
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		//---APCs
 		GUER_VEHICLE_APC3 = "OFPS_GORGON_G_SEMIARID";
 
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};	
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
 
@@ -1302,17 +1175,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 	}];
 
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_VEHICLE_ARMORED3 = "OFPS_GORGON_SLAT_I";
@@ -1363,49 +1226,17 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 2) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		GUER_VEHICLE_ARMORED2 = "OFPS_B_M1A2C_TUSK_II_LDF";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};	
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
 
@@ -1540,64 +1371,20 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 3) then {
 	}];
 		
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_TOWN_AA = "OFPS_F_RBS70_INDI";
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		GUER_SOLDIER_AA = "OFPS_I_PMC_Soldier_AA";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
 
@@ -1730,72 +1517,28 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 4) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_TOWN_AT = "OFPS_F_KORNET_AT14_INDI";
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 	//GUER_SOLDIER_AA = "OFPS_I_GUE_Soldier_AA2";
 	GUER_SOLDIER_EXP = "OFPS_I_GUE_Soldier_AA";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};	
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
 
 //--------------------------------------------------------------------------------------------
 //--- CUP - NAPA Chernarus (2035) TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then { 
+if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//-- Only add vanilla faction specific overrides as neeeded here
@@ -1972,17 +1715,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 	}];
 
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_VEHICLE_LIGHT5 = "OFPS_AWC_CANNON_SLAT_I";
@@ -2037,57 +1770,24 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		GUER_SOLDIER_AA = "OFPS_I_GUE_Soldier_AA";
 		GUER_VEHICLE_ARMORED2 = "OFPS_B_M1A2C_TUSK_II_LDF";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};	
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
 
 //--------------------------------------------------------------------------------------------
 //--- CUP - Royal Army Corp Of Sahrani TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then { 
+if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//-- Only add vanilla faction specific overrides as neeeded here
@@ -2193,17 +1893,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 		GUER_TOWN_MGLO = "CUP_I_M2StaticMG_MiniTripod_RACS"; 
 		GUER_TOWN_MORTAR = "I_Mortar_01_F";
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_TOWN_AT = "OFPS_F_M220_TOW_INDI";
@@ -2256,57 +1946,25 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 5) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		GUER_SOLDIER_AA = "OFPS_I_RACS_Soldier_AA_wdl";
 		GUER_VEHICLE_ARMORED2 = "OFPS_B_M1A2C_TUSK_II_LDF";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};	
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
 
 //--------------------------------------------------------------------------------------------
 //--- CUP - TAKISTANI MILITARY TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then { 
+if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 7) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//-- Only add vanilla faction specific overrides as neeeded here
@@ -2453,17 +2111,7 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		//--- Air
@@ -2492,233 +2140,20 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 6) then {
 		[_t_defenses, _t_composition]
 	}];	
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
 
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		//GUER_SOLDIER_AA = "OFPS_I_TK_GUE_Soldier_AA";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
 
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};	
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
-
-//--------------------------------------------------------------------------------------------
-//--- RHS GREF RESISTANCE
-//--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 7) then { 
-	//--Load Vanilla
-	if (CTI_VANILLA_ADDON > 0) then {
-		//-- Only add vanilla faction specific overrides as neeeded here
-	};
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
-
-	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load GLOBAL MOBILIZATION Mod
-	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
-
-	};	
-	//--- Load CONTACT Mod
-	if (CTI_CONTACT_ADDON > 0) then {
-
-	};
-	//--- PRAIRIE_FIRE UNITS
-	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
-
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-
-	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_GREF_ADDON > 0) then {
-		//--- Infantry
-		/*GUER_SOLDIER = "rhsgref_cdf_reg_rifleman";
-		GUER_SOLDIER_AA = "rhsgref_cdf_reg_specialist_aa";
-		GUER_SOLDIER_AR = "rhsgref_cdf_reg_machinegunner";
-		GUER_SOLDIER_AT = "rhsgref_cdf_reg_grenadier_rpg";
-		GUER_SOLDIER_CREW = "rhsgref_cdf_reg_crew";
-		GUER_SOLDIER_LAT = "rhsgref_cdf_reg_grenadier_rpg";
-		GUER_SOLDIER_HAT = "rhsgref_cdf_reg_grenadier_rpg";
-		GUER_SOLDIER_ENGINEER = "rhsgref_cdf_reg_engineer";
-		GUER_SOLDIER_EXP = "rhsgref_cdf_reg_engineer";
-		GUER_SOLDIER_GL = "rhsgref_cdf_reg_grenadier";
-		GUER_SOLDIER_MEDIC = "rhsgref_cdf_reg_medic";
-		GUER_SOLDIER_MG = "rhsgref_cdf_reg_machinegunner";
-		GUER_SOLDIER_PILOT = "rhsgref_cdf_air_pilot";
-		GUER_SOLDIER_SNIPER = "rhsgref_cdf_reg_marksman";
-		GUER_SOLDIER_TEAMLEADER = "rhsgref_cdf_reg_squadleader";
-		GUER_SOLDIER_SQUADLEADER = "rhsgref_cdf_reg_squadleader";*/
-		GUER_SOLDIER = "rhsgref_nat_hunter";
-		GUER_SOLDIER_AA = "rhsgref_nat_specialist_aa";
-		GUER_SOLDIER_AR = "rhsgref_nat_machinegunner";
-		GUER_SOLDIER_AT = "rhsgref_nat_grenadier_rpg";
-		GUER_SOLDIER_CREW = "rhsgref_nat_crew";
-		GUER_SOLDIER_LAT = "rhsgref_nat_grenadier_rpg";
-		GUER_SOLDIER_HAT = "rhsgref_nat_grenadier_rpg";
-		GUER_SOLDIER_ENGINEER = "rhsgref_nat_saboteur";
-		GUER_SOLDIER_EXP = "rhsgref_nat_saboteur";
-		GUER_SOLDIER_GL = "rhsgref_nat_grenadier";
-		GUER_SOLDIER_MEDIC = "rhsgref_nat_medic";
-		GUER_SOLDIER_MG = "rhsgref_nat_machinegunner";
-		GUER_SOLDIER_PILOT = "rhsgref_cdf_air_pilot";
-		GUER_SOLDIER_SNIPER = "rhsgref_nat_scout";
-		GUER_SOLDIER_MARKSMAN = "rhsgref_nat_scout";
-		GUER_SOLDIER_TEAMLEADER = "rhsgref_nat_commander";
-		GUER_SOLDIER_SQUADLEADER = "rhsgref_nat_commander";
-		//--- Naval Infantry
-		//GUER_SOLDIER_NAVAL_INFANTRY = "I_diver_F";
-		//GUER_SOLDIER_NAVAL_SQUADLEADER = "I_diver_TL_F";
-		//--- Light Vehicles
-		GUER_VEHICLE_LIGHT1 = "rhsgref_nat_uaz_dshkm";
-		GUER_VEHICLE_LIGHT2 = "rhsgref_nat_uaz_ags";
-		GUER_VEHICLE_LIGHT3 = "rhsgref_nat_uaz_spg9";
-		GUER_VEHICLE_LIGHT4 = "rhsgref_ins_g_btr60";
-		GUER_VEHICLE_LIGHT5 = "rhsgref_BRDM2_ins_g";
-		GUER_VEHICLE_LIGHT6 = "rhsgref_ins_g_ural_Zu23";
-		GUER_VEHICLE_LIGHT7 = "rhsgref_ins_g_btr70";
-		//--- APCs
-		GUER_VEHICLE_APC1 = "rhsgref_ins_g_bmd1";
-		GUER_VEHICLE_APC2 = "rhsgref_ins_g_bmd1p";
-		GUER_VEHICLE_APC3 = "rhsgref_ins_g_bmd2";
-		//--- Tanks
-		GUER_VEHICLE_ARMORED1 = "rhsgref_ins_g_t72ba";	
-		GUER_VEHICLE_ARMORED2 = "rhsgref_ins_g_t72ba";
-		GUER_VEHICLE_ARMORED3 = "rhsgref_ins_g_t72ba";
-		//--- AA Vehicles
-		GUER_VEHICLE_AA1 = "rhsgref_ins_g_ural_Zu23";
-		GUER_VEHICLE_AA2 = "rhsgref_ins_g_gaz66_zu23";
-		GUER_VEHICLE_AA3 = "rhsgref_ins_g_zsu234";
-		//--- Air
-		GUER_AIR_HELI1 = "rhsgref_cdf_Mi24D";
-		GUER_AIR_HELI2 = "rhsgref_cdf_reg_Mi17Sh_UPK";
-		GUER_AIR_AA = "rhs_l159_CDF_CAP";
-		GUER_AIR_CAS = "rhsgref_cdf_su25";
-		//--- Boats
-		//GUER_NAVAL_ASSAULT_BOAT1 = "I_Boat_Armed_01_minigun_F";
-		//GUER_NAVAL_ASSAULT_BOAT2 = "I_Boat_Armed_01_minigun_F";
-		//GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_HAFM_BUYAN_I";
-		//GUER_NAVAL_SUBMARINE = "HAFM_214_IND";
-		
-		
-	};
-	//--- OFPS Units Mod
-	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
-	//--- OFPS CUP Mod
-	if (CTI_OFPS_CUP_ADDON > 0) then {
-
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- HAFM UNITS
-	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};	
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-	};
-};
-
 //--------------------------------------------------------------------------------------------
 //--- CUP - ION PMC (ARCTIC) TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
@@ -2848,239 +2283,28 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 8) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
 
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_TOWN_AA = "OFPS_F_RBS70_INDI";
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
 	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		GUER_SOLDIER_AA = "OFPS_I_PMC_Winter_Soldier_AA";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};	
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
-//--------------------------------------------------------------------------------------------
-//--- IFA3 - Americans and British 
-//--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 10) then { 
-	//--Load Vanilla
-	if (CTI_VANILLA_ADDON > 0) then {
-		//-- Only add vanilla faction specific overrides as neeeded here
-	};
-	//--Load Heli Mod
-	if (CTI_HELI_ADDON > 0) then {
-
-	};
-	//--- Load Marksmen Mod
-	if (CTI_MARKSMEN_ADDON > 0) then {
-
-	};
-	//--- Load APEX Mod
-	if (CTI_APEX_ADDON > 0) then {
-
-	};
-	//--- Load JETS Mod
-	if (CTI_JETS_ADDON > 0) then {
-
-	};
-	//--- Load Laws Of War Mod
-	if (CTI_LAWSOFWAR_ADDON > 0) then {
-
-	};
-	//--- Load TANKS Mod
-	if (CTI_TANKS_ADDON > 0) then {
-
-	};
-	//--- Load GLOBAL MOBILIZATION Mod
-	if (CTI_GLOBAL_MOBILIZATION_ADDON > 0) then {
-
-	};	
-	//--- Load CONTACT Mod
-	if (CTI_CONTACT_ADDON > 0) then {
-
-	};
-	//--- PRAIRIE_FIRE UNITS
-	if (CTI_PRAIRIE_FIRE_ADDON >= 2) then { 
-
-	};
-	//--- Load CUP Mod
-	if (CTI_CUP_WEAPONS_ADDON > 0) then {
-
-	};
-	//--- CUP UNITS
-	if (CTI_CUP_VEHICLES_ADDON > 0) then {
-
-	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	//--- OFPS Units Mod
-	if (CTI_OFPS_UNITS_ADDON > 0) then {
-
-	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
-	//--- OFPS CUP Mod
-	if (CTI_OFPS_CUP_ADDON > 0) then {
-
-	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
-	//--- HAFM UNITS
-	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};	
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
-		GUER_SOLDIER = "LIB_UK_rifleman";
-		GUER_SOLDIER_AA = "LIB_US_Corporal";
-		GUER_SOLDIER_AR = "LIB_US_Mgunner";
-		GUER_SOLDIER_AT = "LIB_UK_AT_soldier";
-		GUER_SOLDIER_CREW = "LIB_US_Tank_Sergeant";
-		GUER_SOLDIER_LAT = "LIB_US_AT_soldier";
-		GUER_SOLDIER_HAT = "LIB_UK_AT_soldier";
-		GUER_SOLDIER_ENGINEER = "LIB_UK_Engineer";
-		GUER_SOLDIER_EXP = "LIB_US_Engineer";
-		GUER_SOLDIER_GL = "LIB_US_Granadier";
-		GUER_SOLDIER_MEDIC = "LIB_US_Engineer";
-		GUER_SOLDIER_MG = "LIB_UK_LanceCorporal";
-		GUER_SOLDIER_PILOT = "LIB_US_Pilot";
-		GUER_SOLDIER_SNIPER = "LIB_UK_Sniper";
-		GUER_SOLDIER_MARKSMAN = "LIB_US_Sniper";
-		GUER_SOLDIER_TEAMLEADER = "LIB_UK_Officer";
-		GUER_SOLDIER_SQUADLEADER = "LIB_US_SMGunner";
-
-		//--- Naval Infantry
-		GUER_SOLDIER_NAVAL_INFANTRY = "LIB_US_Rifleman";
-		GUER_SOLDIER_NAVAL_SQUADLEADER = "LIB_US_Second_Lieutenant";
-		//--- Light Vehicles
-		GUER_VEHICLE_LIGHT1 = "LIB_US_Willys_MB";
-		GUER_VEHICLE_LIGHT2 = "LIB_UK_Willys_MB_Hood";
-		GUER_VEHICLE_LIGHT3 = "LIB_UK_Willys_MB_M1919";
-		GUER_VEHICLE_LIGHT4 = "LIB_US_GMC_Open";
-		GUER_VEHICLE_LIGHT5 = "LIB_US_Willys_MB_M1919";
-		GUER_VEHICLE_LIGHT6 = "LIB_M8_Greyhound";
-		GUER_VEHICLE_LIGHT7 = "LIB_UK_M3_Halftrack";
-		//--- APCs
-		//--- APCs
-		GUER_VEHICLE_APC1 = "LIB_UniversalCarrier";
-		GUER_VEHICLE_APC2 = "LIB_US_Scout_M3";
-		GUER_VEHICLE_APC3 = "LIB_Crusader_Mk3";
-		//--- Tanks
-		GUER_VEHICLE_ARMORED1 = "LIB_UK_Italy_M4A3_75";	
-		GUER_VEHICLE_ARMORED2 = "LIB_UK_DR_M4A3_75";
-		GUER_VEHICLE_ARMORED3 = "LIB_M4A3_76";
-		//--- AA Vehicles
-		//GUER_VEHICLE_AA1 = "CUP_I_M163_AAF";
-		GUER_VEHICLE_AA2 = "LIB_Crusader_Mk1AA";
-		//GUER_VEHICLE_AA3 = "CUP_I_ZSU23_AAF";
-		//--- Air
-		//GUER_AIR_HELI1 = "I_Heli_light_03_dynamicLoadout_F";
-		//GUER_AIR_HELI2 = "CUP_I_AH1Z_Dynamic_AAF";
-		//GUER_AIR_AA = "I_Plane_Fighter_03_AA_F";
-		//GUER_AIR_CAS = "I_Plane_Fighter_03_dynamicLoadout_F";
-		//--- Boats
-		GUER_NAVAL_ASSAULT_BOAT1 = "LIB_LCM3_Armed";
-		//GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90";
-		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "LIB_LCI";
-		//GUER_NAVAL_LARGE_ASSAULT_BOAT = "HAFM_GunBoat";
-		//GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "HAFM_GunBoat";		
-		//GUER_NAVAL_SUBMARINE = "HAFM_GunBoat";
-
-	};
-};
-
 
 //--------------------------------------------------------------------------------------------
 //--- CUP - Royal Army Corp Of Sahrani (Desert) TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then { 
+if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 9) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//-- Only add vanilla faction specific overrides as neeeded here
@@ -3184,17 +2408,6 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 		//Town Statics
 		GUER_TOWN_MORTAR = "I_Mortar_01_F";
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_TOWN_IGLA = "OFPS_F_FIM92_STINGER_POD_INDI";
@@ -3247,56 +2460,23 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 11) then {
 		[_t_defenses, _t_composition]
 	}];
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		GUER_SOLDIER_AA = "OFPS_I_RACS_Soldier_AA";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};	
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
 
 //--------------------------------------------------------------------------------------------
 //--- VANILLA - LDF TOWN OCCUPATION
 //--------------------------------------------------------------------------------------------
-if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then { 
+if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 10) then { 
 	//--Load Vanilla
 	if (CTI_VANILLA_ADDON > 0) then {
 		//-- Only add vanilla faction specific overrides as neeeded here
@@ -3465,17 +2645,6 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 		GUER_AIR_HELI1 = "CUP_I_412_Military_Armed_AT_AAF";
 		GUER_AIR_HELI2 = "CUP_I_Mi24_Mk4_AAF";	
 	};
-	//--- Load RHS Mod
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
-	if (CTI_RHS_USAF_ADDON > 0) then {
-
-	};
-	//--- Load RHS Loadout Ammo
-	if (CTI_RHS_AFRF_ADDON > 0) then {
-
-	};
 	//--- OFPS Units Mod
 	if (CTI_OFPS_UNITS_ADDON > 0) then {
 		GUER_VEHICLE_APC2 = "OFPS_MORA_SLAT_LDF_I";
@@ -3483,49 +2652,16 @@ if (CTI_TOWNS_OCCUPATION_RESISTANCE isEqualTo 12) then {
 		GUER_VEHICLE_ARMORED1 = "OFPS_MORA_SLAT_LDF_I";
 		GUER_TOWN_IGLA = "OFPS_F_FIM92_STINGER_POD_INDI";
 	};
-	//--- OFPS RHS Mod
-	if (CTI_OFPS_RHS_ADDON > 0) then {
-
-	};
 	//--- OFPS CUP Mod
 	if (CTI_OFPS_CUP_ADDON > 0) then {
 		GUER_VEHICLE_ARMORED2 = "OFPS_B_M1A2C_TUSK_II_LDF";
 	};
-	//--- SFP Mod
-	if (CTI_SFP_ADDON > 0) then {
-
-	};
-	//--- OFPS SFP Mod
-	if (CTI_OFPS_SFP_ADDON > 0) then {
-
-	};
-	//--- 2035 Russia
-	if (CTI_RUSSIA_2035_ADDON > 0 ) then {
-
-	};
 	//--- HAFM UNITS
 	if (CTI_HAFM_ADDON > 0) then {
-
-	};
-	//--- HAFM SUBS UNITS
-	if (CTI_HAFM_SUBS_ADDON > 0) then {
-
-	};
-	//--- OFPS HAFM UNITS
-	if (CTI_OFPS_HAFM_ADDON > 0) then {
-	GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
-	GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-	GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
-
-	};
-	//--- Unsung
-	if (CTI_UNSUNG_ADDON > 0 ) then {
-
-	};
-	//--- IFA3
-	if (CTI_IFA3_ADDON > 0 ) then {
-
+		GUER_NAVAL_ASSAULT_BOAT2 = "HAFM_CB90_AA";
+		GUER_NAVAL_MEDIUM_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_LARGE_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
+		GUER_NAVAL_CAPITAL_ASSAULT_BOAT = "OFPS_GUNBOAT_I";
 	};
 };
 

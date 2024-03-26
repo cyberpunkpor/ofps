@@ -73,11 +73,7 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_TK_GUE_Soldier"];
 	};
 
-	case 7: { //GREF - RHS
-	
-	};
-
-	case 8: { //CUP - ION PMC (ARCTIC)
+	case 7: { //CUP - ION PMC (ARCTIC)
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_PMC_Soldier_TL"];
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_I_PMC_Winter_Soldier"];
 	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_PMC_Winter_Soldier"];
@@ -87,7 +83,7 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_PMC_Winter_Pilot"];
 	};
 
-	case 9: { //CUP - NAPA Chernarus (2035)
+	case 8: { //CUP - NAPA Chernarus
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_GUE_Commander"];
 	missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_I_GUE_Soldier_AKS74"];
 	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_GUE_Soldier_AKS74"];
@@ -98,17 +94,7 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 
 	};
 
-	case 10: { //IFA3 - Americans/British
-	missionNamespace setVariable [format["CTI_%1_Commander", _side], "LIB_UK_Officer"];
-	missionNamespace setVariable [format["CTI_%1_Diver", _side], "LIB_US_Rifleman"];
-	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "LIB_US_Rifleman"];
-	missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "LIB_UK_rifleman"];
-	missionNamespace setVariable [format["CTI_%1_Crew", _side], "LIB_US_Tank_Sergeant"];
-	missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "LIB_US_Tank_Sergeant"];
-	missionNamespace setVariable [format["CTI_%1_Static", _side], "LIB_UK_Engineer"];
-	};
-
-	case 11: { //Royal Army Corp Of Sahrani (Desert)- CUP
+	case 9: { //Royal Army Corp Of Sahrani (Desert)- CUP
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_RACS_Officer"];
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_I_RACS_Soldier"];
 	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_RACS_Soldier"];
@@ -118,7 +104,7 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_RACS_Pilot"];
 	};
 
-	case 12: { //Vanilla - LDF
+	case 10: { //Vanilla - LDF
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "I_E_officer_F"];
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "I_E_Soldier_F"];
 	missionNamespace setVariable [format["CTI_%1_Static", _side], "I_E_Soldier_F"];

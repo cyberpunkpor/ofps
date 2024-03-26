@@ -223,56 +223,7 @@ switch (CTI_FACTION_WEST) do {
 			]]
 		]];
 	};
-	case 3: { //USAF RHS (Arid)
-		//Set MHQ
-		missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_APC_Wheeled_01_cannon_F"];
-		//Set Infantry
-		missionNamespace setVariable [format["CTI_%1_Commander", _side], "rhsusf_army_ocp_squadleader"];
-		missionNamespace setVariable [format["CTI_%1_Worker", _side], "rhsusf_army_ocp_rifleman_m16"];
-		missionNamespace setVariable [format["CTI_%1_Diver", _side], "rhsusf_army_ocp_rifleman_m16"];
-		missionNamespace setVariable [format["CTI_%1_Soldier", _side], "rhsusf_army_ocp_rifleman_m16"];
-		missionNamespace setVariable [format["CTI_%1_Soldier_low", _side], "rhsusf_army_ocp_rifleman_m16"];
-		missionNamespace setVariable [format["CTI_%1_Crew", _side], "rhsusf_army_ocp_combatcrewman"];
-		missionNamespace setVariable [format["CTI_%1_Crew_Low", _side], "rhsusf_army_ocp_combatcrewman"];
-		missionNamespace setVariable [format["CTI_%1_Pilot", _side], "rhsusf_army_ocp_helipilot"];
-		missionNamespace setVariable [format["CTI_%1_Helipilot", _side], "rhsusf_army_ocp_helipilot"];
-		missionNamespace setVariable [format["CTI_%1_Static", _side], "rhsusf_army_ocp_rifleman_m16"];
-		missionNamespace setVariable [format["CTI_%1_Static_UAV", _side], "B_UAV_AI"];
-		// Set crewmen backpack (To hold a repair kit)
-		missionNamespace setVariable [format["CTI_%1_Crewbag", _side], "B_LegStrapBag_coyote_F"];
-		//--- AI/Players Loadouts, to prevent any bisteries, DO NOT give them a pistol.
-		missionNamespace setVariable ["CTI_AI_WEST_DEFAULT_GEAR", [
-		[["smg_05_f",["","acc_flashlight","optic_aco_grn",""],["30rnd_9x21_mag_smg_02"]],["rhs_weap_m72a7",["","","",""],[]],["rhsusf_weap_m9",["","","",""],["rhsusf_mag_15rnd_9x19_jhp"]]],[["u_b_combatuniform_mcam_vest",["30rnd_9x21_mag_smg_02","30rnd_9x21_mag_smg_02","30rnd_9x21_mag_smg_02","30rnd_9x21_mag_smg_02"]],["",[]],["b_assaultpack_mcamo",["30rnd_9x21_mag_smg_02","30rnd_9x21_mag_smg_02","30rnd_9x21_mag_smg_02","30rnd_9x21_mag_smg_02","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","rhs_mag_m67","firstaidkit","firstaidkit"]]],["h_milcap_mcamo",""],[["","binocular"],["itemmap","itemgps","itemradio","itemcompass","itemwatch"]]]];
-		//Set starting vehicles
-		missionNamespace setVariable [format["CTI_%1_Vehicles_Startup", _side], [
-			["rhsusf_M1083A1P2_B_M2_d_Medical_fmtv_usarmy", [
-				["rhs_weap_m72a7", 10], 
-				["30rnd_9x21_mag_smg_02", 20],
-				["acc_flashlight", 10],
-				["Toolkit", 1]
-			]],
-			["rhsusf_M1117_D", [
-				["rhs_weap_m72a7", 10], 
-				["30rnd_9x21_mag_smg_02", 20],
-				["acc_flashlight", 10],
-				["Toolkit", 1]
-			]],
-			["rhsusf_rg33_usmc_d", [
-				["rhs_weap_m72a7", 10], 
-				["30rnd_9x21_mag_smg_02", 20],
-				["acc_flashlight", 10],
-				["Toolkit", 1]
-			]],
-			["rhsusf_M1237_M2_usarmy_wd", [
-				["rhs_weap_m72a7", 10], 
-				["30rnd_9x21_mag_smg_02", 20],
-				["acc_flashlight", 10],
-				["Toolkit", 1]
-			]]
-			//,	["B_Heli_Transport_01_F", []]
-		]];
-	};
-	case 4: { //USMC (Winter) CUP
+	case 3: { //USMC (Winter) CUP
 	//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_LAV25_HQ_USMC"];
 		//Set Infantry
@@ -348,13 +299,7 @@ switch (CTI_FACTION_WEST) do {
 		]];
 
 	};
-	case 5: { //Unsung
-
-	};
-	case 6: { //IFA3
-
-	};
-	case 7: { //NATO Livonia Contact (Woodland)
+	case 4: { //NATO Livonia Contact (Woodland)
 		
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "B_T_APC_Wheeled_01_cannon_F"];
@@ -421,7 +366,7 @@ switch (CTI_FACTION_WEST) do {
 			]]
 		]];
 	};
-	case 8: { //USMC CUP (Woodland)
+	case 5: { //USMC CUP (Woodland)
 		//Set MHQ
 		missionNamespace setVariable [format["CTI_%1_HQ", _side], "CUP_B_LAV25_HQ_USMC"];
 		//Set Infantry
