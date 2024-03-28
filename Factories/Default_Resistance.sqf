@@ -53,7 +53,18 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_GUE_Pilot"];
 	};
 
-	case 5: { //Royal Army Corp Of Sahrani - CUP
+	case 5: { //CUP - NAPA Chernarus (2035)
+	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_GUE_Commander"];
+	missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_I_GUE_Soldier_AKS74"];
+	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_GUE_Soldier_AKS74"];
+	missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "CUP_I_GUE_Soldier_AKS74"];
+	missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_I_GUE_Crew"];
+	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_GUE_Soldier_AKS74"];
+	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_GUE_Pilot"];
+
+	};
+
+	case 6: { //Royal Army Corp Of Sahrani - CUP
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_RACS_Officer_wdl"];
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_I_RACS_Soldier_wdl"];
 	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_RACS_Soldier_wdl"];
@@ -63,7 +74,7 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_RACS_Pilot"];
 	};
 
-	case 6: { //Takistani Military - CUP
+	case 7: { //Takistani Military - CUP
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_TK_GUE_Commander"];
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_I_TK_GUE_Soldier_AK_47S"];
 	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_TK_GUE_Soldier_AK_47S"];
@@ -73,7 +84,7 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_TK_GUE_Soldier"];
 	};
 
-	case 7: { //CUP - ION PMC (ARCTIC)
+	case 8: { //CUP - ION PMC (ARCTIC)
 	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_PMC_Soldier_TL"];
 	missionNamespace setVariable [format["CTI_%1_Worker", _side], "CUP_I_PMC_Winter_Soldier"];
 	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_PMC_Winter_Soldier"];
@@ -81,17 +92,6 @@ switch (CTI_TOWNS_OCCUPATION_RESISTANCE) do {
 	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_PMC_Winter_Soldier"];
 	missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_I_PMC_Winter_Crew"];
 	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_PMC_Winter_Pilot"];
-	};
-
-	case 8: { //CUP - NAPA Chernarus
-	missionNamespace setVariable [format["CTI_%1_Commander", _side], "CUP_I_GUE_Commander"];
-	missionNamespace setVariable [format["CTI_%1_Diver", _side], "CUP_I_GUE_Soldier_AKS74"];
-	missionNamespace setVariable [format["CTI_%1_Soldier", _side], "CUP_I_GUE_Soldier_AKS74"];
-	missionNamespace setVariable [format["CTI_%1_Soldier_Low", _side], "CUP_I_GUE_Soldier_AKS74"];
-	missionNamespace setVariable [format["CTI_%1_Crew", _side], "CUP_I_GUE_Crew"];
-	missionNamespace setVariable [format["CTI_%1_Static", _side], "CUP_I_GUE_Soldier_AKS74"];
-	missionNamespace setVariable [format["CTI_%1_Pilot", _side], "CUP_I_GUE_Pilot"];
-
 	};
 
 	case 9: { //Royal Army Corp Of Sahrani (Desert)- CUP
