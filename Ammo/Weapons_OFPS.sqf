@@ -322,6 +322,13 @@ _u pushBack [
 	/*ClassName*/'OFPS_Vmlauncher_AIM9X_veh',
 	/*MaxMags*/1
 ];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*ClassName*/'OFPS_Vmlauncher_AT16_veh',
+	/*MaxMags*/1
+];
 //--- Other --------------------------
 
 

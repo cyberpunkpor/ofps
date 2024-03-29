@@ -329,6 +329,17 @@ _u pushBack [
 	/*Filters*/[]
 ];
 
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Air',
+	/*ClassName*/'OFPS_PylonPod_6Rnd_Vikhr_M',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/0,
+	/*Price*/1,
+	/*RearmTime*/10,
+	/*Filters*/[]
+];
 //--------------------------------------------------------------------------------------------------------------
 
 [_side, _u] call CTI_CO_fnc_Ammo_Config_Set;

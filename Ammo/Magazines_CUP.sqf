@@ -4041,7 +4041,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'CUP_12Rnd_AT16_M',
@@ -4620,7 +4620,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'CUP_2Rnd_Vikhr_Rack_6Rnd_M',
@@ -5349,7 +5349,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'CUP_PylonPod_6Rnd_Vikhr_M',

@@ -1635,7 +1635,7 @@ _u pushBack [
 ];
 
 _u pushBack [
-	/*Enabled*/true,
+	/*Enabled*/false,
 	/*Name*/'',
 	/*Type*/'Air',
 	/*ClassName*/'CUP_M_9K121_Vikhr_AT16_Scallion_AT',

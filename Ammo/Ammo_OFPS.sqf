@@ -277,6 +277,18 @@ _u pushBack [
 	/*RearmTime*/10,
 	/*Filters*/[]
 ];
+
+_u pushBack [
+	/*Enabled*/true,
+	/*Name*/'',
+	/*Type*/'Air',
+	/*ClassName*/'OFPS_M_9K121_Vikhr_AT16_Scallion_AT',
+	/*Location*/[CTI_AMMO, CTI_DEPOT, CTI_AMMO_TRUCK, CTI_LARGE_FOB],
+	/*UpgradeLevel*/3,
+	/*Price*/1400,
+	/*RearmTime*/10,
+	/*Filters*/[]
+];
 //--- Bombs --------------------------
 
 //--- Pylons --------------------------
